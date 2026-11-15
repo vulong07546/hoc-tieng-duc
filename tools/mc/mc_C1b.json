@@ -1,0 +1,448 @@
+{
+  "level": "C1",
+  "topics": [
+    {
+      "title": "Dấu phẩy (Kommasetzung)",
+      "intro": "Theo quy tắc chính tả chính thức (amtliches Regelwerk), dấu phẩy luôn tách mệnh đề chính và mệnh đề phụ; mệnh đề phụ chen giữa phải được đóng bằng dấu phẩy ở cả hai đầu. Cụm nguyên mẫu (Infinitivgruppe) BẮT BUỘC có dấu phẩy khi mở đầu bằng um, ohne, statt/anstatt, außer, als, khi phụ thuộc vào một danh từ (die Absicht, …) hoặc khi có từ chỉ báo (es, darauf, dazu, daran…). Phần chèn và đồng vị ngữ (Apposition), cũng như cụm phân từ đứng sau làm phần bổ sung, được tách bằng hai dấu phẩy. Trong phép liệt kê KHÔNG đặt dấu phẩy trước und, oder, sowie. Khi so sánh với als/wie: chỉ đặt dấu phẩy nếu sau đó là một mệnh đề có động từ chia.\nVí dụ: Er kam, ohne zu grüßen. | Herr Weber, unser Berater, kommt. | Er verdient mehr als sein Bruder. | Er verdient mehr, als er ausgibt.",
+      "questions": [
+        {
+          "q": "Câu nào đặt dấu phẩy đúng?",
+          "options": [
+            "Ich bleibe heute zu Hause, weil ich die Steuererklärung fertigstellen muss.",
+            "Ich bleibe heute zu Hause weil, ich die Steuererklärung fertigstellen muss.",
+            "Ich bleibe, heute zu Hause weil ich die Steuererklärung fertigstellen muss.",
+            "Ich bleibe heute zu Hause weil ich die Steuererklärung fertigstellen muss."
+          ],
+          "answer": 0,
+          "vi": "Hôm nay tôi ở nhà vì tôi phải hoàn thành tờ khai thuế.",
+          "explain": "Dấu phẩy đứng trước liên từ phụ weil để tách mệnh đề chính và mệnh đề phụ. Bỏ hẳn dấu phẩy là sai, vì ranh giới giữa hai mệnh đề luôn phải được đánh dấu."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng?",
+          "options": [
+            "Wenn die Frist abgelaufen ist kann kein Einspruch mehr eingelegt werden.",
+            "Wenn die Frist abgelaufen ist, kann kein Einspruch mehr eingelegt werden.",
+            "Wenn, die Frist abgelaufen ist, kann kein Einspruch mehr eingelegt werden.",
+            "Wenn die Frist, abgelaufen ist kann kein Einspruch mehr eingelegt werden."
+          ],
+          "answer": 1,
+          "vi": "Khi thời hạn đã hết thì không thể nộp đơn khiếu nại được nữa.",
+          "explain": "Mệnh đề phụ đứng đầu kết thúc ở động từ chia (ist), nên dấu phẩy đặt ngay sau đó, trước động từ của mệnh đề chính. Không được đặt dấu phẩy ngay sau liên từ wenn."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng?",
+          "options": [
+            "Für den Antrag benötigen Sie Ihren Pass, eine Meldebescheinigung, und ein biometrisches Foto.",
+            "Für den Antrag benötigen Sie Ihren Pass eine Meldebescheinigung und ein biometrisches Foto.",
+            "Für den Antrag benötigen Sie Ihren Pass, eine Meldebescheinigung und ein biometrisches Foto.",
+            "Für den Antrag benötigen Sie Ihren Pass, eine Meldebescheinigung und, ein biometrisches Foto."
+          ],
+          "answer": 2,
+          "vi": "Để nộp đơn, quý vị cần hộ chiếu, giấy xác nhận đăng ký cư trú và một ảnh sinh trắc học.",
+          "explain": "Các phần liệt kê được tách bằng dấu phẩy, nhưng trước und thì không có dấu phẩy. Kiểu „Oxford comma“ trước und như trong tiếng Anh là sai trong tiếng Đức."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng?",
+          "options": [
+            "Der Vertrag, den wir gestern unterschrieben haben tritt am 1. Januar in Kraft.",
+            "Der Vertrag den wir gestern unterschrieben haben, tritt am 1. Januar in Kraft.",
+            "Der Vertrag den wir gestern unterschrieben haben tritt am 1. Januar in Kraft.",
+            "Der Vertrag, den wir gestern unterschrieben haben, tritt am 1. Januar in Kraft."
+          ],
+          "answer": 3,
+          "vi": "Hợp đồng mà chúng tôi ký hôm qua có hiệu lực từ ngày 1 tháng 1.",
+          "explain": "Mệnh đề quan hệ chen giữa câu phải được bao bằng hai dấu phẩy. Lỗi thường gặp là quên dấu phẩy đóng sau haben."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng?",
+          "options": [
+            "Sie nahm einen Kredit auf um ihr Studium zu finanzieren.",
+            "Sie nahm einen Kredit auf, um ihr Studium zu finanzieren.",
+            "Sie nahm einen Kredit auf, um ihr Studium, zu finanzieren.",
+            "Sie nahm, einen Kredit auf um ihr Studium zu finanzieren."
+          ],
+          "answer": 1,
+          "vi": "Cô ấy vay tiền để tài trợ cho việc học đại học.",
+          "explain": "Cụm nguyên mẫu mở đầu bằng um bắt buộc phải có dấu phẩy. Không được đặt dấu phẩy bên trong cụm (trước zu finanzieren)."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng?",
+          "options": [
+            "Herr Dr. Krause, unser neuer Steuerberater prüft die Unterlagen.",
+            "Herr Dr. Krause unser neuer Steuerberater, prüft die Unterlagen.",
+            "Herr Dr. Krause, unser neuer Steuerberater, prüft die Unterlagen.",
+            "Herr Dr. Krause unser neuer Steuerberater prüft die Unterlagen."
+          ],
+          "answer": 2,
+          "vi": "Tiến sĩ Krause, cố vấn thuế mới của chúng tôi, đang kiểm tra hồ sơ.",
+          "explain": "Đồng vị ngữ (Apposition) „unser neuer Steuerberater“ là phần chèn, nên phải có dấu phẩy ở cả hai đầu. Chỉ có dấu phẩy mở mà thiếu dấu phẩy đóng là lỗi điển hình."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng?",
+          "options": [
+            "Die Nachzahlung fiel höher aus als im Vorjahr.",
+            "Die Nachzahlung fiel höher aus, als im Vorjahr.",
+            "Die Nachzahlung fiel, höher aus als im Vorjahr.",
+            "Die Nachzahlung fiel höher aus als, im Vorjahr."
+          ],
+          "answer": 0,
+          "vi": "Khoản truy nộp thuế cao hơn năm trước.",
+          "explain": "Sau als chỉ có một cụm từ (im Vorjahr), không có động từ chia, nên không đặt dấu phẩy. Dấu phẩy trước als chỉ cần khi theo sau là một mệnh đề hoàn chỉnh."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng?",
+          "options": [
+            "Die Bearbeitung dauerte länger als das Finanzamt angekündigt hatte.",
+            "Die Bearbeitung dauerte länger als, das Finanzamt angekündigt hatte.",
+            "Die Bearbeitung, dauerte länger als das Finanzamt angekündigt hatte.",
+            "Die Bearbeitung dauerte länger, als das Finanzamt angekündigt hatte."
+          ],
+          "answer": 3,
+          "vi": "Việc xử lý kéo dài lâu hơn so với thông báo của cơ quan thuế.",
+          "explain": "Ở đây als mở đầu một mệnh đề so sánh có động từ chia (hatte), nên phải đặt dấu phẩy trước als. Đặt dấu phẩy sau als là sai vị trí."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng?",
+          "options": [
+            "Er unterschrieb den Mietvertrag ohne das Kleingedruckte zu lesen.",
+            "Er unterschrieb, den Mietvertrag ohne das Kleingedruckte zu lesen.",
+            "Er unterschrieb den Mietvertrag, ohne das Kleingedruckte zu lesen.",
+            "Er unterschrieb den Mietvertrag ohne, das Kleingedruckte zu lesen."
+          ],
+          "answer": 2,
+          "vi": "Anh ấy ký hợp đồng thuê nhà mà không đọc phần chữ nhỏ.",
+          "explain": "Cụm nguyên mẫu với ohne … zu bắt buộc có dấu phẩy đứng trước ohne. Phương án không có dấu phẩy là sai vì đây không phải trường hợp tùy chọn."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng?",
+          "options": [
+            "Wir haben uns darauf geeinigt, den Vertrag vorzeitig zu kündigen.",
+            "Wir haben uns darauf geeinigt den Vertrag vorzeitig zu kündigen.",
+            "Wir haben uns, darauf geeinigt den Vertrag vorzeitig zu kündigen.",
+            "Wir haben uns darauf geeinigt den Vertrag, vorzeitig zu kündigen."
+          ],
+          "answer": 0,
+          "vi": "Chúng tôi đã thống nhất chấm dứt hợp đồng trước thời hạn.",
+          "explain": "Từ chỉ báo darauf báo trước cụm nguyên mẫu, nên dấu phẩy là bắt buộc. Không có darauf thì dấu phẩy là tùy chọn, nhưng ở đây thiếu dấu phẩy là sai."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng?",
+          "options": [
+            "Anstatt den Bescheid sofort anzufechten sollten Sie zunächst Akteneinsicht beantragen.",
+            "Anstatt den Bescheid sofort anzufechten, sollten Sie zunächst Akteneinsicht beantragen.",
+            "Anstatt, den Bescheid sofort anzufechten, sollten Sie zunächst Akteneinsicht beantragen.",
+            "Anstatt den Bescheid, sofort anzufechten sollten Sie zunächst Akteneinsicht beantragen."
+          ],
+          "answer": 1,
+          "vi": "Thay vì khiếu nại ngay quyết định, trước hết quý vị nên xin được xem hồ sơ.",
+          "explain": "Cụm anstatt … zu đứng đầu câu phải được tách khỏi mệnh đề chính bằng dấu phẩy sau anzufechten. Không được đặt dấu phẩy ngay sau anstatt vì nó là một phần của cụm."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng?",
+          "options": [
+            "Die Kanzlei berät Unternehmen, Vereine, sowie Privatpersonen in Steuerfragen.",
+            "Die Kanzlei berät Unternehmen Vereine sowie Privatpersonen in Steuerfragen.",
+            "Die Kanzlei berät Unternehmen, Vereine sowie, Privatpersonen in Steuerfragen.",
+            "Die Kanzlei berät Unternehmen, Vereine sowie Privatpersonen in Steuerfragen."
+          ],
+          "answer": 3,
+          "vi": "Văn phòng tư vấn cho doanh nghiệp, hiệp hội cũng như cá nhân về các vấn đề thuế.",
+          "explain": "Sowie mang nghĩa „und“ nên giống und: không đặt dấu phẩy trước nó trong phép liệt kê. Tuy vậy giữa Unternehmen và Vereine vẫn cần dấu phẩy."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng?",
+          "options": [
+            "Die Steuererklärung, vom Berater sorgfältig geprüft, wurde fristgerecht eingereicht.",
+            "Die Steuererklärung, vom Berater sorgfältig geprüft wurde fristgerecht eingereicht.",
+            "Die Steuererklärung vom Berater sorgfältig geprüft, wurde fristgerecht eingereicht.",
+            "Die Steuererklärung, vom Berater sorgfältig geprüft wurde fristgerecht, eingereicht."
+          ],
+          "answer": 0,
+          "vi": "Tờ khai thuế, đã được cố vấn kiểm tra kỹ lưỡng, được nộp đúng hạn.",
+          "explain": "Cụm phân từ đứng sau danh từ như một phần bổ sung chèn vào thì phải có dấu phẩy ở hai đầu. Chỉ một dấu phẩy khiến phần chèn không được đóng lại."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng?",
+          "options": [
+            "Der Kläger hatte nicht die Absicht den Vergleich anzunehmen.",
+            "Der Kläger hatte, nicht die Absicht den Vergleich anzunehmen.",
+            "Der Kläger hatte nicht die Absicht, den Vergleich anzunehmen.",
+            "Der Kläger hatte nicht die Absicht den Vergleich, anzunehmen."
+          ],
+          "answer": 2,
+          "vi": "Nguyên đơn không có ý định chấp nhận thỏa thuận hòa giải.",
+          "explain": "Cụm nguyên mẫu phụ thuộc vào danh từ (die Absicht) bắt buộc có dấu phẩy. Thiếu dấu phẩy là sai, vì đây không phải cụm nguyên mẫu tự do có dấu phẩy tùy chọn."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng?",
+          "options": [
+            "Nachdem das Landgericht, die erste Instanz die Klage abgewiesen hatte, entschloss sich die Firma dazu, in Berufung zu gehen.",
+            "Nachdem das Landgericht, die erste Instanz, die Klage abgewiesen hatte, entschloss sich die Firma dazu, in Berufung zu gehen.",
+            "Nachdem das Landgericht, die erste Instanz, die Klage abgewiesen hatte entschloss sich die Firma dazu, in Berufung zu gehen.",
+            "Nachdem das Landgericht, die erste Instanz, die Klage abgewiesen hatte, entschloss sich die Firma dazu in Berufung zu gehen."
+          ],
+          "answer": 1,
+          "vi": "Sau khi tòa án khu vực, tức tòa sơ thẩm, bác đơn kiện, công ty quyết định kháng cáo.",
+          "explain": "Câu cần đủ bốn dấu phẩy: hai dấu bao đồng vị ngữ, một dấu sau mệnh đề phụ nachdem và một dấu trước cụm nguyên mẫu được báo trước bằng dazu. Phương án D sai vì có dazu thì dấu phẩy là bắt buộc."
+        }
+      ]
+    },
+    {
+      "title": "Chính tả: viết liền/tách & hoa/thường (Getrennt-/Zusammenschreibung, Groß-/Kleinschreibung)",
+      "intro": "Viết liền/tách: danh từ + động từ thường viết tách (Rad fahren, Auto fahren), nhưng khi danh từ hóa thì viết liền và viết hoa (das Radfahren, das Kennenlernen). zurzeit (viết liền) = hiện nay; zur Zeit + sinh cách = vào thời của (zur Zeit Goethes). aufgrund/auf Grund và infrage/in Frage đều được phép, nhưng không có dạng lai như „auf grund“, „in frage“.\nViết hoa: tính từ danh từ hóa viết hoa: im Allgemeinen, des Weiteren, das Beste, etwas Wichtiges, beim Ausfüllen; buổi trong ngày sau trạng từ viết hoa: heute Abend, gestern Morgen. Nhưng so sánh nhất với am viết thường: am besten. Đại từ xưng hô lịch sự Sie/Ihnen/Ihr viết hoa, còn sie/ihr ngôi thứ ba viết thường. Trong cụm schuld sein, từ schuld là tính từ nên viết thường (khác với die Schuld tragen).",
+      "questions": [
+        {
+          "q": "Am Wochenende wollen wir ___.",
+          "options": ["Rad fahren", "radfahren", "Radfahren", "rad fahren"],
+          "answer": 0,
+          "vi": "Cuối tuần chúng tôi muốn đi xe đạp.",
+          "explain": "Theo quy tắc hiện hành, „Rad fahren“ viết tách và Rad viết hoa. „Radfahren“ viết liền chỉ đúng khi là danh từ (das Radfahren), không đúng khi dùng làm động từ."
+        },
+        {
+          "q": "Wir sehen uns ___ beim Essen.",
+          "options": ["heute abend", "heute Abend", "Heute Abend", "heuteabend"],
+          "answer": 1,
+          "vi": "Chúng ta gặp nhau tối nay trong bữa ăn.",
+          "explain": "Buổi trong ngày đứng sau các trạng từ heute, gestern, morgen được viết hoa: heute Abend. Cách viết thường „heute abend“ là quy tắc cũ, không còn đúng."
+        },
+        {
+          "q": "Die Behörde ist ___ wegen Umbaus geschlossen.",
+          "options": ["zur Zeit", "Zurzeit", "zurzeit", "zur zeit"],
+          "answer": 2,
+          "vi": "Hiện nay cơ quan đóng cửa vì đang sửa chữa.",
+          "explain": "Nghĩa „hiện nay“ (= derzeit) thì viết liền và viết thường: zurzeit. „zur Zeit“ viết tách chỉ dùng với sinh cách, ví dụ zur Zeit der Römer."
+        },
+        {
+          "q": "___ der Römer gab es noch keine Einkommensteuer.",
+          "options": ["Zurzeit", "Zur zeit", "zurzeit", "Zur Zeit"],
+          "answer": 3,
+          "vi": "Vào thời La Mã chưa có thuế thu nhập.",
+          "explain": "Ở đây có sinh cách đi kèm (der Römer) với nghĩa „vào thời của“, nên viết tách: Zur Zeit. „Zurzeit“ viết liền chỉ có nghĩa „hiện nay“ và không đi với sinh cách."
+        },
+        {
+          "q": "Sehr geehrte Frau Lang, wir danken ___ für Ihre Anfrage.",
+          "options": ["ihnen", "Ihnen", "Sie", "Ihr"],
+          "answer": 1,
+          "vi": "Kính gửi bà Lang, chúng tôi cảm ơn bà về yêu cầu của bà.",
+          "explain": "Danken cần tân ngữ gián tiếp (Dativ); dạng lịch sự là Ihnen, viết hoa. „ihnen“ viết thường nghĩa là „họ“, còn „Sie“ là dạng Akkusativ/Nominativ."
+        },
+        {
+          "q": "Die Mandanten haben ___ Unterlagen vollständig eingereicht.",
+          "options": ["Ihre", "ihrer", "ihre", "Ihren"],
+          "answer": 2,
+          "vi": "Các khách hàng đã nộp đầy đủ hồ sơ của họ.",
+          "explain": "Đại từ sở hữu chỉ về „die Mandanten“ (ngôi thứ ba số nhiều) nên viết thường: ihre. „Ihre“ viết hoa sẽ có nghĩa là „của Quý vị“ (người đang được nói chuyện)."
+        },
+        {
+          "q": "Der Antrag wird ___ innerhalb von vier Wochen bearbeitet.",
+          "options": ["im Allgemeinen", "im allgemeinen", "Im Allgemeinen", "imallgemeinen"],
+          "answer": 0,
+          "vi": "Thông thường đơn được xử lý trong vòng bốn tuần.",
+          "explain": "Trong „im Allgemeinen“, tính từ được danh từ hóa nên viết hoa; im viết thường vì không đứng đầu câu. Cách viết thường „im allgemeinen“ là quy tắc cũ."
+        },
+        {
+          "q": "___ weisen wir darauf hin, dass die Frist nicht verlängert werden kann.",
+          "options": ["Des weiteren", "Desweiteren", "Des-Weiteren", "Des Weiteren"],
+          "answer": 3,
+          "vi": "Ngoài ra, chúng tôi lưu ý rằng thời hạn không thể được gia hạn.",
+          "explain": "„Des Weiteren“ viết tách, và Weiteren viết hoa vì là tính từ danh từ hóa. „Desweiteren“ viết liền là lỗi rất phổ biến nhưng sai."
+        },
+        {
+          "q": "Das ___ wäre, den Einspruch sofort einzulegen.",
+          "options": ["beste", "am Besten", "Beste", "Bestes"],
+          "answer": 2,
+          "vi": "Tốt nhất là nộp đơn khiếu nại ngay lập tức.",
+          "explain": "Sau mạo từ das, tính từ được danh từ hóa nên viết hoa: das Beste. „Bestes“ sai đuôi vì sau mạo từ xác định phải dùng đuôi yếu -e."
+        },
+        {
+          "q": "Diese Variante gefällt mir ___.",
+          "options": ["am besten", "am Besten", "Am besten", "ambesten"],
+          "answer": 0,
+          "vi": "Tôi thích phương án này nhất.",
+          "explain": "Dạng so sánh nhất với am luôn viết thường: am besten. „am Besten“ là lỗi do nhầm với das Beste."
+        },
+        {
+          "q": "Cách viết nào đúng?",
+          "options": [
+            "Beim ausfüllen des Formulars ist mir etwas wichtiges aufgefallen.",
+            "Beim Ausfüllen des Formulars ist mir etwas Wichtiges aufgefallen.",
+            "Beim Ausfüllen des Formulars ist mir etwas wichtiges aufgefallen.",
+            "Beim ausfüllen des Formulars ist mir etwas Wichtiges aufgefallen."
+          ],
+          "answer": 1,
+          "vi": "Khi điền mẫu đơn, tôi đã nhận ra một điều quan trọng.",
+          "explain": "Động từ sau beim và tính từ sau etwas đều được danh từ hóa, nên viết hoa: beim Ausfüllen, etwas Wichtiges. Phương án C chỉ sửa một chỗ nên vẫn sai."
+        },
+        {
+          "q": "Die Veranstaltung dient dem ___ der neuen Kollegen.",
+          "options": ["kennenlernen", "Kennen lernen", "kennen Lernen", "Kennenlernen"],
+          "answer": 3,
+          "vi": "Buổi gặp mặt nhằm mục đích làm quen với các đồng nghiệp mới.",
+          "explain": "Sau mạo từ dem, động từ được danh từ hóa nên viết liền và viết hoa: das Kennenlernen. Dạng danh từ hóa không được viết tách thành hai từ."
+        },
+        {
+          "q": "Der Vertrag muss ___ der neuen Rechtslage angepasst werden.",
+          "options": ["auf grund", "Aufgrund", "aufgrund", "auf-grund"],
+          "answer": 2,
+          "vi": "Hợp đồng phải được điều chỉnh do tình hình pháp lý mới.",
+          "explain": "Giới từ aufgrund viết liền và viết thường (dạng tách „auf Grund“ với Grund viết hoa cũng được phép). „auf grund“ là dạng lai, sai, và „Aufgrund“ viết hoa giữa câu cũng sai."
+        },
+        {
+          "q": "Die Kanzlei stellt die Rechtmäßigkeit des Bescheids ___.",
+          "options": ["infrage", "in frage", "Infrage", "inFrage"],
+          "answer": 0,
+          "vi": "Văn phòng luật đặt nghi vấn về tính hợp pháp của quyết định.",
+          "explain": "„infrage stellen“ được viết liền và viết thường (dạng „in Frage“ cũng được phép). „in frage“ với frage viết thường thì sai."
+        },
+        {
+          "q": "Cách viết nào đúng?",
+          "options": [
+            "Nach Auffassung des Gerichts ist der Mieter Schuld an dem Schaden.",
+            "Nach Auffassung des Gerichts ist der Mieter schuld an dem Schaden.",
+            "Nach auffassung des Gerichts ist der Mieter schuld an dem Schaden.",
+            "Nach Auffassung des Gerichts ist der Mieter schuld an dem schaden."
+          ],
+          "answer": 1,
+          "vi": "Theo quan điểm của tòa án, người thuê nhà có lỗi gây ra thiệt hại.",
+          "explain": "Trong cụm „schuld sein“, schuld đóng vai trò tính từ nên viết thường. Chỉ viết hoa khi là danh từ, ví dụ „die Schuld tragen“ hoặc „Schuld haben“."
+        }
+      ]
+    },
+    {
+      "title": "Tìm lỗi & viết lại câu (Fehlerkorrektur und Umformung)",
+      "intro": "Ở trình độ C1, cần nhận ra lỗi về cách (Kasus), sự hòa hợp chủ ngữ–động từ (Kongruenz), trật tự từ và liên từ, cũng như biết viết lại câu mà không đổi nghĩa.\nCách: trotz/wegen/infolge + sinh cách; gemäß/entsprechend + Dativ (gemäß dem Vertrag).\nTrật tự từ: deshalb/trotzdem → động từ đứng vị trí 2 (deshalb legte er …); weil/nachdem/dass → động từ cuối câu; trong mệnh đề phụ có hai động từ nguyên mẫu, trợ động từ đứng trước: dass er … hat einreichen können.\nViết lại: Aktiv → Passiv (hat geändert → ist geändert worden); Konnektor ↔ Präposition: weil → wegen, obwohl → trotz, sobald → nach, wenn → bei, ohne dass → ohne + danh từ, je … desto → mit steigendem …",
+      "questions": [
+        {
+          "q": "Trotz ___ Einspruchs wurde der Bescheid nicht geändert.",
+          "options": ["des fristgerechten", "dem fristgerechten", "den fristgerechten", "der fristgerechte"],
+          "answer": 0,
+          "vi": "Mặc dù đã có khiếu nại đúng hạn, quyết định vẫn không được thay đổi.",
+          "explain": "Trotz đòi hỏi sinh cách và danh từ Einspruchs đã mang đuôi -s của sinh cách, nên chỉ có „des fristgerechten“ là đúng. „dem“ (Dativ) là văn nói và không khớp với Einspruchs."
+        },
+        {
+          "q": "Die Zahl der Insolvenzen ___ im letzten Jahr deutlich gestiegen.",
+          "options": ["sind", "ist", "hat", "haben"],
+          "answer": 1,
+          "vi": "Số vụ phá sản đã tăng rõ rệt trong năm qua.",
+          "explain": "Chủ ngữ là „die Zahl“ (số ít) nên động từ chia số ít, và steigen dùng trợ động từ sein: ist. Phương án „sind“ sai vì động từ đã hòa hợp với Insolvenzen thay vì với chủ ngữ thật."
+        },
+        {
+          "q": "Ich weiß, dass er den Antrag nicht rechtzeitig ___.",
+          "options": ["einreichen hat können", "hat einreichen gekonnt", "hat einreichen können", "einreichen können hat"],
+          "answer": 2,
+          "vi": "Tôi biết rằng anh ấy đã không thể nộp đơn kịp thời.",
+          "explain": "Trong mệnh đề phụ có hai động từ nguyên mẫu (Ersatzinfinitiv), trợ động từ hat đứng trước cả cụm: hat einreichen können. „einreichen können hat“ theo quy tắc động từ cuối câu thông thường, nhưng ở đây là sai."
+        },
+        {
+          "q": "Die Frist war bereits abgelaufen; ___ wurde der Einspruch als unzulässig verworfen.",
+          "options": ["obwohl", "trotzdem", "dennoch", "deshalb"],
+          "answer": 3,
+          "vi": "Thời hạn đã hết; vì vậy đơn khiếu nại bị bác do không hợp lệ.",
+          "explain": "Đây là quan hệ nguyên nhân – kết quả nên dùng deshalb (động từ đứng ngay sau). Trotzdem/dennoch diễn tả sự nhượng bộ nên sai nghĩa, còn obwohl là liên từ phụ đòi động từ cuối câu."
+        },
+        {
+          "q": "Das Finanzamt hat den Bescheid geändert. → Der Bescheid ___ vom Finanzamt geändert worden.",
+          "options": ["hat", "ist", "wurde", "wird"],
+          "answer": 1,
+          "vi": "Quyết định đã được cơ quan thuế thay đổi.",
+          "explain": "Bị động thì Perfekt được tạo bằng sein + Partizip II + worden: ist … geändert worden. „hat … worden“ sai vì werden luôn đi với sein."
+        },
+        {
+          "q": "Man muss die Unterlagen bis Ende Mai einreichen. → Die Unterlagen ___ bis Ende Mai eingereicht werden.",
+          "options": ["muss", "sind", "müssen", "haben"],
+          "answer": 2,
+          "vi": "Hồ sơ phải được nộp trước cuối tháng Năm.",
+          "explain": "Bị động với động từ khuyết thiếu: müssen + Partizip II + werden, và müssen phải chia số nhiều theo „die Unterlagen“. „muss“ sai vì vẫn giữ dạng số ít của câu chủ động với man."
+        },
+        {
+          "q": "Nach Abschluss der Prüfung erhalten Sie einen Bescheid. → ___ die Prüfung abgeschlossen ist, erhalten Sie einen Bescheid.",
+          "options": ["Sobald", "Nach", "Während", "Bevor"],
+          "answer": 0,
+          "vi": "Ngay khi việc kiểm tra kết thúc, quý vị sẽ nhận được quyết định.",
+          "explain": "Giới từ nach + danh từ được chuyển thành mệnh đề phụ với liên từ sobald. „Nach“ là giới từ nên không thể mở đầu một mệnh đề có động từ chia."
+        },
+        {
+          "q": "Weil die Nachfrage gestiegen ist, wurden die Preise erhöht. → ___ der gestiegenen Nachfrage wurden die Preise erhöht.",
+          "options": ["Weil", "Trotz", "Obwohl", "Wegen"],
+          "answer": 3,
+          "vi": "Do nhu cầu tăng nên giá đã được nâng lên.",
+          "explain": "Liên từ weil tương ứng với giới từ wegen + sinh cách. „Trotz“ đúng ngữ pháp nhưng đổi nghĩa thành nhượng bộ, còn weil/obwohl là liên từ, không đi với danh từ."
+        },
+        {
+          "q": "Obwohl er krank war, nahm er an der Sitzung teil. → ___ seiner Krankheit nahm er an der Sitzung teil.",
+          "options": ["Wegen", "Obwohl", "Trotz", "Infolge"],
+          "answer": 2,
+          "vi": "Mặc dù bị ốm, anh ấy vẫn tham dự cuộc họp.",
+          "explain": "Obwohl (nhượng bộ) tương ứng với giới từ trotz + sinh cách. Wegen và infolge diễn tả nguyên nhân nên làm thay đổi nghĩa."
+        },
+        {
+          "q": "Wenn Sie die Frist versäumen, wird ein Verspätungszuschlag festgesetzt. → Bei ___ der Frist wird ein Verspätungszuschlag festgesetzt.",
+          "options": ["Versäumnis", "Versäumte", "Versäumens", "Versäumt"],
+          "answer": 0,
+          "vi": "Nếu bỏ lỡ thời hạn, sẽ bị áp phụ phí nộp chậm.",
+          "explain": "Wenn + động từ được chuyển thành bei + danh từ: bei Versäumnis der Frist. „Versäumens“ có đuôi sinh cách, không phù hợp sau bei (bei đi với Dativ)."
+        },
+        {
+          "q": "Câu nào đúng ngữ pháp?",
+          "options": [
+            "Laut dem Gesetzes ist die Frist einzuhalten.",
+            "Gemäß dem Vertrag ist die Miete monatlich im Voraus zu zahlen.",
+            "Gemäß des Vertrages ist die Miete monatlich im Voraus zu zahlen.",
+            "Entsprechend des Vertrags ist die Miete monatlich im Voraus zu zahlen."
+          ],
+          "answer": 1,
+          "vi": "Theo hợp đồng, tiền thuê phải được trả trước hằng tháng.",
+          "explain": "Gemäß và entsprechend đi với Dativ: gemäß dem Vertrag. „Gemäß des Vertrages“ là lỗi phổ biến trong văn bản hành chính nhưng không chuẩn."
+        },
+        {
+          "q": "Câu nào KHÔNG có lỗi?",
+          "options": [
+            "Der Kläger verlor den Prozess, deshalb er legte Berufung ein.",
+            "Nachdem der Kläger den Prozess verloren hatte, er legte Berufung ein.",
+            "Der Kläger legte Berufung ein, weil er verlor den Prozess.",
+            "Der Kläger legte Berufung ein, nachdem er den Prozess verloren hatte."
+          ],
+          "answer": 3,
+          "vi": "Nguyên đơn đã kháng cáo sau khi thua kiện.",
+          "explain": "Trong mệnh đề phụ nachdem, động từ chia đứng cuối và thì quá khứ hoàn thành diễn tả hành động xảy ra trước. Ở A, sau deshalb động từ phải đứng ngay vị trí 2 (deshalb legte er …)."
+        },
+        {
+          "q": "Câu nào có cùng nghĩa với: „Der Vertrag wurde gekündigt, ohne dass die Frist eingehalten wurde.“?",
+          "options": [
+            "Der Vertrag wurde ohne Einhaltung der Frist gekündigt.",
+            "Der Vertrag wurde trotz Einhaltung der Frist gekündigt.",
+            "Der Vertrag wurde unter Einhaltung der Frist gekündigt.",
+            "Der Vertrag wurde wegen Nichteinhaltung der Frist gekündigt."
+          ],
+          "answer": 0,
+          "vi": "Hợp đồng bị chấm dứt mà không tuân thủ thời hạn.",
+          "explain": "„ohne dass …“ được danh từ hóa thành „ohne + danh từ“: ohne Einhaltung der Frist. Phương án D đổi nghĩa thành nguyên nhân (vì không tuân thủ thời hạn)."
+        },
+        {
+          "q": "Câu nào đúng ngữ pháp?",
+          "options": [
+            "Der Antrag des Herrn Müllers wurde abgelehnt.",
+            "Die Unterlagen wurden dem Kollege übergeben.",
+            "Der Beklagte widersprach dem Zeugen in allen Punkten.",
+            "Das Gericht folgte der Argumentation des Anwalt."
+          ],
+          "answer": 2,
+          "vi": "Bị đơn phản bác nhân chứng ở mọi điểm.",
+          "explain": "Zeuge là danh từ yếu (n-Deklination) nên ở Dativ là dem Zeugen. Tương tự phải viết dem Kollegen, des Anwalts và des Herrn Müller (tên riêng không thêm -s khi có mạo từ)."
+        },
+        {
+          "q": "Câu nào có cùng nghĩa với: „Je höher das Einkommen ist, desto höher ist der Steuersatz.“?",
+          "options": [
+            "Das Einkommen ist höher, weil der Steuersatz steigt.",
+            "Mit steigendem Einkommen steigt auch der Steuersatz.",
+            "Trotz steigenden Einkommens steigt der Steuersatz.",
+            "Der Steuersatz steigt, sodass das Einkommen höher ist."
+          ],
+          "answer": 1,
+          "vi": "Thu nhập càng tăng thì thuế suất cũng càng tăng.",
+          "explain": "Cấu trúc je … desto được diễn đạt bằng danh từ là „mit steigendem …“. Các phương án A và D đảo ngược quan hệ nhân quả, còn C diễn tả sự nhượng bộ."
+        }
+      ]
+    }
+  ]
+}

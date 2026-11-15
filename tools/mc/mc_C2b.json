@@ -1,0 +1,563 @@
+{
+  "level": "C2",
+  "topics": [
+    {
+      "title": "Văn phong luật: Gutachtenstil và Urteilsstil (Gutachtenstil vs. Urteilsstil)",
+      "intro": "Gutachtenstil (văn phong giám định) dùng trong bài thi luật: đi từ câu hỏi đến kết quả. Urteilsstil (văn phong bản án) thì ngược lại: nêu kết quả trước, lý do sau (…, denn/weil …).\nCác bước của Gutachtenstil:\n1. Obersatz – giả thuyết, dùng Konjunktiv II: „A könnte gegen B einen Anspruch aus § 433 Abs. 2 BGB haben.“ / „A könnte sich wegen Diebstahls gemäß § 242 Abs. 1 StGB strafbar gemacht haben, indem er …“\n2. Điều kiện: „Dazu müsste …“; điểm có vấn đề: „Fraglich ist, ob …“\n3. Definition – dùng Indikativ: „Fremd ist eine Sache, wenn …“ / „Wegnahme ist der Bruch fremden und die Begründung neuen Gewahrsams.“\n4. Subsumtion – áp sự kiện vào định nghĩa: „Hier gehört das Fahrrad B.“\n5. Ergebnis – Indikativ, với „Mithin/Somit/Folglich …“: „Somit hat A gegen B einen Anspruch …“\nĐiểm hiển nhiên không có vấn đề thì chỉ cần khẳng định ngắn (Urteilsstil/Feststellungsstil), không cần đủ bốn bước.",
+      "questions": [
+        {
+          "q": "A ___ gegen B einen Anspruch auf Zahlung von 500 Euro aus § 433 Abs. 2 BGB haben.",
+          "options": [
+            "könnte",
+            "kann",
+            "hat",
+            "muss"
+          ],
+          "answer": 0,
+          "vi": "A có thể có quyền yêu cầu B thanh toán 500 euro theo § 433 khoản 2 BGB.",
+          "explain": "Obersatz của Gutachten là một giả thuyết nên dùng Konjunktiv II „könnte … haben“. „hat … haben“ sai ngữ pháp, và „hat“ là văn phong kết luận/Urteilsstil chứ không phải giả thuyết."
+        },
+        {
+          "q": "Dazu ___ zwischen A und B ein wirksamer Kaufvertrag zustande gekommen sein.",
+          "options": [
+            "ist",
+            "müsste",
+            "hat",
+            "wird"
+          ],
+          "answer": 1,
+          "vi": "Để vậy thì giữa A và B phải có một hợp đồng mua bán có hiệu lực được giao kết.",
+          "explain": "Điều kiện của giả thuyết được nêu bằng „Dazu müsste … sein“ (Konjunktiv II). „wird … zustande gekommen sein“ là Futur II, không phải công thức của Gutachtenstil."
+        },
+        {
+          "q": "___ ist, ob B das Angebot des A rechtzeitig angenommen hat.",
+          "options": [
+            "Folglich",
+            "Somit",
+            "Fraglich",
+            "Denn"
+          ],
+          "answer": 2,
+          "vi": "Vấn đề đặt ra là liệu B có chấp nhận lời đề nghị của A kịp thời hay không.",
+          "explain": "„Fraglich ist, ob …“ là công thức mở một điểm có vấn đề. „Folglich/Somit“ dùng để rút kết luận, không thể đi với „ist, ob …“."
+        },
+        {
+          "q": "Eine Sache ist fremd, ___ sie zumindest auch im Eigentum eines anderen steht.",
+          "options": [
+            "weil",
+            "denn",
+            "ob",
+            "wenn"
+          ],
+          "answer": 3,
+          "vi": "Một vật là của người khác nếu ít nhất nó cũng thuộc quyền sở hữu của người khác.",
+          "explain": "Định nghĩa nêu điều kiện chung nên dùng „wenn“. „weil“ biến định nghĩa thành một lý do cụ thể, như vậy là sai chức năng."
+        },
+        {
+          "q": "Wegnahme ___ der Bruch fremden und die Begründung neuen, nicht notwendig tätereigenen Gewahrsams.",
+          "options": [
+            "wäre",
+            "ist",
+            "sei",
+            "würde"
+          ],
+          "answer": 1,
+          "vi": "Lấy đi (Wegnahme) là việc phá vỡ sự chiếm hữu của người khác và thiết lập sự chiếm hữu mới, không nhất thiết của chính thủ phạm.",
+          "explain": "Định nghĩa luôn dùng Indikativ vì nó có hiệu lực chung, không phải giả thuyết. „wäre“ (Konjunktiv II) chỉ thuộc về Obersatz."
+        },
+        {
+          "q": "A könnte sich wegen Diebstahls gemäß § 242 Abs. 1 StGB strafbar gemacht haben, ___ er das Fahrrad des B mitnahm.",
+          "options": [
+            "indem",
+            "weil",
+            "denn",
+            "sodass"
+          ],
+          "answer": 0,
+          "vi": "A có thể đã phạm tội trộm cắp theo § 242 khoản 1 StGB qua việc lấy chiếc xe đạp của B.",
+          "explain": "Obersatz hình sự gắn hành vi bằng „indem“ (qua việc …). „weil“ biến hành vi thành lý do của kết quả, tức là đã ngầm khẳng định kết quả theo kiểu Urteilsstil."
+        },
+        {
+          "q": "Câu nào là Obersatz đúng văn phong Gutachten?",
+          "options": [
+            "A hat gegen B einen Anspruch auf Herausgabe des Fahrrads aus § 985 BGB, denn A ist Eigentümer.",
+            "A kann gegen B einen Anspruch auf Herausgabe des Fahrrads aus § 985 BGB gehabt haben.",
+            "Fraglich ist, dass A gegen B einen Anspruch auf Herausgabe des Fahrrads aus § 985 BGB hat.",
+            "A könnte gegen B einen Anspruch auf Herausgabe des Fahrrads aus § 985 BGB haben."
+          ],
+          "answer": 3,
+          "vi": "A có thể có quyền yêu cầu B trả lại chiếc xe đạp theo § 985 BGB.",
+          "explain": "Obersatz phải là giả thuyết với „könnte … haben“. Câu có „hat …, denn …“ là Urteilsstil (kết quả trước, lý do sau), còn „Fraglich ist, dass“ sai vì phải là „ob“."
+        },
+        {
+          "q": "B hat das Angebot des A per E-Mail vorbehaltlos angenommen. ___ ist ein Kaufvertrag zustande gekommen.",
+          "options": [
+            "Fraglich",
+            "Denn",
+            "Folglich",
+            "Dazu"
+          ],
+          "answer": 2,
+          "vi": "B đã chấp nhận vô điều kiện lời đề nghị của A qua e-mail. Do đó, một hợp đồng mua bán đã được giao kết.",
+          "explain": "Sau phần Subsumtion, kết luận (trung gian) được nối bằng „Folglich/Somit/Mithin“ + đảo động từ. „Denn“ nêu lý do và không đảo động từ, nên sai cả về logic lẫn trật tự từ."
+        },
+        {
+          "q": "Câu nào là Ergebnis (kết luận) đúng của một Gutachten?",
+          "options": [
+            "Somit könnte A gegen B einen Anspruch auf Zahlung von 500 Euro aus § 433 Abs. 2 BGB haben.",
+            "Fraglich ist, ob A gegen B einen Anspruch auf Zahlung von 500 Euro aus § 433 Abs. 2 BGB hat.",
+            "A hat gegen B einen Anspruch auf Zahlung von 500 Euro aus § 433 Abs. 2 BGB.",
+            "A müsste gegen B einen Anspruch auf Zahlung von 500 Euro aus § 433 Abs. 2 BGB haben."
+          ],
+          "answer": 2,
+          "vi": "A có quyền yêu cầu B thanh toán 500 euro theo § 433 khoản 2 BGB.",
+          "explain": "Ergebnis trả lời Obersatz bằng Indikativ (khẳng định). „Somit könnte …“ là lỗi điển hình: giữ Konjunktiv ở phần kết luận, như vậy là chưa kết luận gì."
+        },
+        {
+          "q": "___ hat sich A wegen Diebstahls gemäß § 242 Abs. 1 StGB strafbar gemacht.",
+          "options": [
+            "Fraglich",
+            "Denn",
+            "Dazu",
+            "Mithin"
+          ],
+          "answer": 3,
+          "vi": "Như vậy, A đã phạm tội trộm cắp theo § 242 khoản 1 StGB.",
+          "explain": "„Mithin“ (= somit, folglich) đánh dấu kết luận cuối cùng, đứng ở vị trí 1 và động từ theo sau. „Dazu“ mở điều kiện („Dazu müsste …“), không dùng để kết luận."
+        },
+        {
+          "q": "(Obersatz einer verwaltungsrechtlichen Klausur) Die Klage hat Erfolg, ___ sie zulässig und begründet ist.",
+          "options": [
+            "soweit",
+            "denn",
+            "obwohl",
+            "sodass"
+          ],
+          "answer": 0,
+          "vi": "Vụ kiện thành công trong chừng mực nó hợp lệ và có căn cứ.",
+          "explain": "Câu mở bài thi luật hành chính chuẩn là „Die Klage hat Erfolg, soweit sie zulässig und begründet ist.“; „soweit“ còn cho phép thắng kiện một phần. „denn“ đòi động từ ở vị trí 2, nên với động từ cuối câu thì sai."
+        },
+        {
+          "q": "Die Klage ist begründet, ___ dem Kläger steht der geltend gemachte Anspruch aus § 433 Abs. 2 BGB zu.",
+          "options": [
+            "weil",
+            "denn",
+            "mithin",
+            "indem"
+          ],
+          "answer": 1,
+          "vi": "Vụ kiện có căn cứ, vì nguyên đơn có quyền yêu cầu được viện dẫn theo § 433 khoản 2 BGB.",
+          "explain": "Urteilsstil: kết quả trước, lý do sau bằng „denn“ + động từ vị trí 2 („steht … zu“). „weil“ đòi động từ cuối câu („… zusteht“); „weil“ + V2 là văn nói, không dùng trong văn bản luật."
+        },
+        {
+          "q": "Câu nào đúng văn phong Urteilsstil (như trong bản án)?",
+          "options": [
+            "Der Kläger könnte gegen den Beklagten einen Anspruch auf Zahlung von 2.000 Euro aus § 433 Abs. 2 BGB haben, denn die Parteien haben einen wirksamen Kaufvertrag geschlossen.",
+            "Fraglich ist, ob der Kläger gegen den Beklagten einen Anspruch auf Zahlung von 2.000 Euro aus § 433 Abs. 2 BGB hat.",
+            "Die Parteien haben einen wirksamen Kaufvertrag geschlossen; folglich könnte der Kläger einen Anspruch auf Zahlung von 2.000 Euro aus § 433 Abs. 2 BGB haben.",
+            "Der Kläger hat gegen den Beklagten einen Anspruch auf Zahlung von 2.000 Euro aus § 433 Abs. 2 BGB, denn die Parteien haben einen wirksamen Kaufvertrag geschlossen."
+          ],
+          "answer": 3,
+          "vi": "Nguyên đơn có quyền yêu cầu bị đơn thanh toán 2.000 euro theo § 433 khoản 2 BGB, vì các bên đã ký kết một hợp đồng mua bán có hiệu lực.",
+          "explain": "Urteilsstil khẳng định kết quả bằng Indikativ rồi mới nêu lý do bằng „denn“. Phương án đầu trộn hai văn phong: Konjunktiv của Obersatz lại đi với „denn“ của Urteilsstil."
+        },
+        {
+          "q": "Trong một Gutachten, điểm hiển nhiên không có vấn đề (unproblematischer Prüfungspunkt) nên được viết thế nào?",
+          "options": [
+            "Das Fahrrad ist eine bewegliche Sache.",
+            "Fraglich ist, ob das Fahrrad eine Sache ist. Sachen sind nach § 90 BGB körperliche Gegenstände. Das Fahrrad ist ein körperlicher Gegenstand. Mithin ist das Fahrrad eine Sache.",
+            "Das Fahrrad könnte eine bewegliche Sache sein, weil es eine bewegliche Sache ist.",
+            "Das Fahrrad müsste eine bewegliche Sache sein. Mithin ist fraglich, ob es beweglich ist."
+          ],
+          "answer": 0,
+          "vi": "Chiếc xe đạp là một động sản.",
+          "explain": "Với điểm hiển nhiên, chỉ cần một câu khẳng định ngắn (Urteils-/Feststellungsstil). Viết đủ bốn bước Gutachten bị coi là lỗi đặt trọng tâm sai, vì „Fraglich ist“ chỉ dành cho điểm thật sự có vấn đề."
+        },
+        {
+          "q": "Đoạn nào tuân thủ đúng trình tự Gutachtenstil (Obersatz – Definition – Subsumtion – Ergebnis)?",
+          "options": [
+            "Das Fahrrad ist für A fremd. Fremd ist eine Sache, wenn sie zumindest auch im Eigentum eines anderen steht. Dazu müsste das Fahrrad für A fremd sein. Das Fahrrad gehört B.",
+            "Das Fahrrad müsste für A fremd sein. Fremd ist eine Sache, wenn sie zumindest auch im Eigentum eines anderen steht. Das Fahrrad gehört B. Somit ist es für A fremd.",
+            "Das Fahrrad müsste für A fremd sein. Fremd könnte eine Sache sein, wenn sie im Eigentum eines anderen stehen würde. Das Fahrrad gehört B. Somit könnte es für A fremd sein.",
+            "Das Fahrrad ist für A fremd, denn es gehört B. Fremd ist eine Sache, wenn sie zumindest auch im Eigentum eines anderen steht. Fraglich ist daher, ob es fremd ist."
+          ],
+          "answer": 1,
+          "vi": "Chiếc xe đạp phải là vật của người khác đối với A. Một vật là của người khác nếu ít nhất nó cũng thuộc sở hữu của người khác. Chiếc xe đạp thuộc về B. Do đó, nó là vật của người khác đối với A.",
+          "explain": "Đúng trình tự: giả thuyết („müsste“), định nghĩa (Indikativ), áp dụng, kết luận (Indikativ, „Somit“). Phương án thứ ba sai vì để định nghĩa và kết luận ở Konjunktiv."
+        }
+      ]
+    },
+    {
+      "title": "Gỡ câu lồng và mạch lạc trong văn bản luật (Schachtelsätze entflechten, eindeutige Bezüge)",
+      "intro": "Văn bản luật tốt phải rõ ràng và chính xác. Các nguyên tắc chính:\n• Gỡ câu lồng (Schachtelsatz): tách thành nhiều câu ngắn theo trình tự thời gian và logic, giữ nguyên nghĩa.\n• Bezug rõ ràng: thay đại từ mơ hồ (er/ihm/dieser) bằng danh từ chỉ vai trò (der Käufer, der Vermieter). „dieser/Letzterer“ chỉ người được nhắc sau cùng, „jener/Ersterer“ chỉ người được nhắc trước. Đại từ quan hệ hợp giống với danh từ mà nó thay thế (Schadensersatz → dessen).\n• Relativsatz ↔ Partizipialattribut: „der Vertrag, der geschlossen wurde“ = „der geschlossene Vertrag“ (Partizip II, bị động); „die Fassung, die gilt“ = „die geltende Fassung“ (Partizip I, chủ động); „die Steuer, die zu zahlen ist“ = „die zu zahlende Steuer“ (Gerundiv). Cụm Partizip lồng nhiều tầng thì nên chuyển lại thành Relativsatz.\n• Tránh lặp từ và văn phong danh từ hóa (Nominalstil): „eine Entscheidung treffen, dass … abgelehnt wird“ → „ablehnen“. Trong hợp đồng/Bescheid, nêu rõ ai phải làm gì.",
+      "questions": [
+        {
+          "q": "Der am 1. März ___ Vertrag ist nach § 125 S. 1 BGB nichtig.",
+          "options": [
+            "geschlossener",
+            "schließende",
+            "geschlossene",
+            "geschlossenen"
+          ],
+          "answer": 2,
+          "vi": "Hợp đồng được ký kết ngày 1 tháng 3 vô hiệu theo § 125 câu 1 BGB.",
+          "explain": "Hợp đồng đã được ký nên dùng Partizip II (bị động, đã xong); sau „der“ ở Nominativ, đuôi yếu là -e: „der … geschlossene Vertrag“. „geschlossener“ là đuôi mạnh, chỉ dùng khi không có mạo từ."
+        },
+        {
+          "q": "Maßgeblich ist die derzeit ___ Fassung des Gesetzes.",
+          "options": [
+            "geltende",
+            "gegoltene",
+            "geltenden",
+            "gültende"
+          ],
+          "answer": 0,
+          "vi": "Văn bản có tính quyết định là phiên bản luật hiện đang có hiệu lực.",
+          "explain": "„die Fassung, die derzeit gilt“ = „die derzeit geltende Fassung“ (Partizip I, đuôi -e sau „die“ ở Nominativ số ít). „geltenden“ sai đuôi vì không phải Akkusativ giống đực hay số nhiều."
+        },
+        {
+          "q": "Die vom Steuerpflichtigen ___ Einkommensteuer beträgt 1.200 Euro. (= die Einkommensteuer, die der Steuerpflichtige zahlen muss)",
+          "options": [
+            "zahlende",
+            "gezahlte",
+            "zu zahlenden",
+            "zu zahlende"
+          ],
+          "answer": 3,
+          "vi": "Thuế thu nhập mà người nộp thuế phải nộp là 1.200 euro.",
+          "explain": "Nghĩa „phải nộp“ dùng Gerundiv „zu + Partizip I“: „die zu zahlende Einkommensteuer“. „gezahlte“ có nghĩa là „đã nộp“, nên sai nghĩa."
+        },
+        {
+          "q": "Der Kläger verlangt von der Beklagten Schadensersatz, ___ Höhe er auf 3.000 Euro beziffert.",
+          "options": [
+            "deren",
+            "dessen",
+            "den",
+            "dem"
+          ],
+          "answer": 1,
+          "vi": "Nguyên đơn yêu cầu bị đơn bồi thường thiệt hại, với số tiền mà ông ấy xác định là 3.000 euro.",
+          "explain": "Mức bồi thường thuộc về „der Schadensersatz“ (giống đực) nên dùng „dessen Höhe“. „deren“ sẽ quy về „die Beklagte“, tạo ra một Bezug sai và vô nghĩa."
+        },
+        {
+          "q": "Câu nào cùng nghĩa nhưng gọn hơn: „Der Bescheid, der dem Kläger am 5. Mai zugestellt worden ist, ist rechtswidrig.“",
+          "options": [
+            "Der dem Kläger am 5. Mai zugestellte Bescheid ist rechtswidrig.",
+            "Der dem Kläger am 5. Mai zustellende Bescheid ist rechtswidrig.",
+            "Der dem Kläger am 5. Mai zugestellten Bescheid ist rechtswidrig.",
+            "Der zugestellte Bescheid dem Kläger am 5. Mai ist rechtswidrig."
+          ],
+          "answer": 0,
+          "vi": "Quyết định hành chính được tống đạt cho nguyên đơn ngày 5 tháng 5 là trái luật.",
+          "explain": "Relativsatz bị động chuyển thành Partizip II đặt giữa mạo từ và danh từ: „der … zugestellte Bescheid“. „zustellende“ (Partizip I) mang nghĩa chủ động, như thể quyết định tự tống đạt, nên sai."
+        },
+        {
+          "q": "A verkaufte B ein Auto. ___ verpflichtete sich, den Kaufpreis bis Ende Mai zu zahlen. (Người trả tiền là B.)",
+          "options": [
+            "Ersterer",
+            "Jener",
+            "Letzterer",
+            "Derjenige"
+          ],
+          "answer": 2,
+          "vi": "A bán cho B một chiếc ô tô. Người sau (B) cam kết trả tiền mua trước cuối tháng 5.",
+          "explain": "„Letzterer“ chỉ người được nhắc đến sau cùng, tức là B. „Ersterer“ và „jener“ chỉ người được nhắc trước (A); còn „derjenige“ cần có một mệnh đề quan hệ đi kèm."
+        },
+        {
+          "q": "Câu nào nối hai câu sau gọn hơn, tránh lặp từ và đúng ngữ pháp: „Der Vertrag ist nichtig. Der Vertrag verstößt gegen ein gesetzliches Verbot (§ 134 BGB).“",
+          "options": [
+            "Der Vertrag ist nichtig, weil er verstößt gegen ein gesetzliches Verbot (§ 134 BGB).",
+            "Der Vertrag ist nichtig, weil er gegen ein gesetzliches Verbot verstößt (§ 134 BGB).",
+            "Der Vertrag ist nichtig, denn er gegen ein gesetzliches Verbot verstößt (§ 134 BGB).",
+            "Der Vertrag ist nichtig, weil es gegen ein gesetzliches Verbot verstößt (§ 134 BGB)."
+          ],
+          "answer": 1,
+          "vi": "Hợp đồng vô hiệu vì nó vi phạm một điều cấm của luật (§ 134 BGB).",
+          "explain": "„weil“ đẩy động từ xuống cuối câu, và đại từ „er“ thay cho „der Vertrag“ (giống đực). „es“ sai giống; „denn“ đòi động từ ở vị trí 2."
+        },
+        {
+          "q": "Câu nào diễn đạt nghĩa vụ của hai bên rõ ràng nhất, không có đại từ mơ hồ?",
+          "options": [
+            "Der Verkäufer muss dem Käufer die Sache übergeben, und er muss ihm den Kaufpreis zahlen.",
+            "Der Verkäufer muss ihm die Sache übergeben, und dieser muss ihn zahlen.",
+            "Dieser muss jenem die Sache übergeben, jener diesem den Kaufpreis zahlen.",
+            "Der Verkäufer muss dem Käufer die Sache übergeben; der Käufer muss dem Verkäufer den Kaufpreis zahlen."
+          ],
+          "answer": 3,
+          "vi": "Người bán phải giao vật cho người mua; người mua phải trả tiền mua cho người bán.",
+          "explain": "Trong văn bản luật, lặp lại danh từ chỉ vai trò rõ hơn dùng đại từ. Ở phương án đầu, „er“ thường được hiểu là người bán, khiến nghĩa vụ trả tiền bị gán sai."
+        },
+        {
+          "q": "Ý cần diễn đạt: người thuê (Mieter) chấm dứt hợp đồng. Câu „Der Mieter teilte dem Vermieter mit, dass er die Wohnung zum 31. März kündigt.“ có đại từ „er“ mơ hồ. Câu nào rõ nghĩa nhất?",
+          "options": [
+            "Der Mieter teilte dem Vermieter mit, dass dieser die Wohnung zum 31. März kündigt.",
+            "Der Mieter teilte dem Vermieter mit, dass ihm die Wohnung zum 31. März gekündigt wird.",
+            "Dem Vermieter wurde vom Mieter mitgeteilt, dass er die Wohnung zum 31. März kündigt.",
+            "Der Mieter kündigte gegenüber dem Vermieter die Wohnung zum 31. März."
+          ],
+          "answer": 3,
+          "vi": "Người thuê đã chấm dứt hợp đồng thuê căn hộ với chủ nhà, có hiệu lực từ ngày 31 tháng 3.",
+          "explain": "Câu chủ động với người thuê làm chủ ngữ loại bỏ hoàn toàn đại từ mơ hồ. „dieser“ chỉ người được nhắc sau cùng (người cho thuê), nên làm sai nghĩa."
+        },
+        {
+          "q": "Câu nào cùng nghĩa nhưng gọn hơn: „Die Behörde hat eine Entscheidung darüber getroffen, dass der Antrag abgelehnt wird.“",
+          "options": [
+            "Die Behörde hat über die Ablehnung des Antrags eine Entscheidung getroffen.",
+            "Die Behörde hat den Antrag abgelehnt.",
+            "Die Behörde hat den Antrag zur Ablehnung gebracht.",
+            "Die Behörde hat entschieden, dass der Antrag ablehnt."
+          ],
+          "answer": 1,
+          "vi": "Cơ quan đã bác đơn.",
+          "explain": "Nên dùng động từ trực tiếp „ablehnen“ thay cho văn phong danh từ hóa. Phương án đầu vẫn giữ Nominalstil cồng kềnh („eine Entscheidung treffen über die Ablehnung“)."
+        },
+        {
+          "q": "Câu hợp đồng „Die Ware ist innerhalb von 14 Tagen zu liefern.“ không nói rõ ai phải giao hàng và mốc thời hạn tính từ đâu. Câu nào khắc phục được điều đó?",
+          "options": [
+            "Die Lieferung der Ware hat innerhalb von 14 Tagen zu erfolgen.",
+            "Die Ware wird innerhalb von 14 Tagen geliefert werden.",
+            "Der Verkäufer liefert die Ware innerhalb von 14 Tagen nach Vertragsschluss.",
+            "Es ist die Ware innerhalb von 14 Tagen zu liefern."
+          ],
+          "answer": 2,
+          "vi": "Người bán giao hàng trong vòng 14 ngày kể từ khi ký kết hợp đồng.",
+          "explain": "Chỉ phương án này nêu chủ thể có nghĩa vụ (der Verkäufer) và mốc bắt đầu thời hạn. Các phương án còn lại vẫn là cấu trúc bị động hoặc danh từ hóa không có người thực hiện."
+        },
+        {
+          "q": "Câu nào cùng nghĩa nhưng dễ hiểu hơn cho người nhận Bescheid: „Unter Zugrundelegung der von Ihnen eingereichten Unterlagen ergeht hiermit die Mitteilung, dass eine Bewilligung Ihres Antrags nicht erfolgen kann.“",
+          "options": [
+            "Wir haben Ihre Unterlagen geprüft. Wir können Ihren Antrag leider nicht bewilligen.",
+            "Nach erfolgter Prüfung Ihrer Unterlagen erfolgt hiermit die Mitteilung der Nichtbewilligung Ihres Antrags.",
+            "Wir haben Ihre Unterlagen geprüft. Wir können Ihren Antrag bewilligen.",
+            "Ihre Unterlagen, die wir, nachdem Sie sie eingereicht haben, geprüft haben, können Ihren Antrag nicht bewilligen."
+          ],
+          "answer": 0,
+          "vi": "Chúng tôi đã xem xét hồ sơ của ông/bà. Rất tiếc, chúng tôi không thể chấp thuận đơn của ông/bà.",
+          "explain": "Bescheid dễ hiểu dùng câu ngắn, chủ động, động từ cụ thể và giữ nguyên nội dung (bác đơn). Phương án thứ hai vẫn là văn phong hành chính danh từ hóa („erfolgt die Mitteilung der Nichtbewilligung“)."
+        },
+        {
+          "q": "Câu nào dễ đọc hơn nhưng giữ nguyên nghĩa: „Die von dem vom Kläger beauftragten Rechtsanwalt eingereichte Klageschrift war unvollständig.“",
+          "options": [
+            "Die Klageschrift, die den vom Kläger beauftragten Rechtsanwalt eingereicht hatte, war unvollständig.",
+            "Der Rechtsanwalt, den der Kläger beauftragt hatte, war bei der Klageschrift unvollständig.",
+            "Die Klageschrift, die der vom Kläger beauftragte Rechtsanwalt eingereicht hatte, war unvollständig.",
+            "Die Klageschrift, die der Kläger eingereicht hatte, der den Rechtsanwalt beauftragt hatte, war unvollständig."
+          ],
+          "answer": 2,
+          "vi": "Đơn khởi kiện mà luật sư do nguyên đơn ủy quyền đã nộp thì không đầy đủ.",
+          "explain": "Tầng Partizip ngoài cùng được chuyển thành Relativsatz, trong đó luật sư là chủ ngữ (Nominativ: „der … beauftragte Rechtsanwalt“). Phương án đầu dùng Akkusativ „den“, biến đơn kiện thành chủ thể nộp."
+        },
+        {
+          "q": "Câu nào gỡ đúng câu lồng sau mà không đổi nghĩa: „Der Antrag, den der Kläger, der seit 2019 in Köln wohnt, am 3. Mai, nachdem er den Bescheid erhalten hatte, gestellt hat, ist unzulässig.“",
+          "options": [
+            "Der Kläger wohnt seit dem 3. Mai in Köln. Seit 2019 hat er den Bescheid erhalten. Sein Antrag ist unzulässig.",
+            "Der Kläger wohnt seit 2019 in Köln. Er stellte am 3. Mai einen Antrag; danach erhielt er den Bescheid. Der Antrag ist unzulässig.",
+            "Der Kläger wohnt seit 2019 in Köln. Nachdem er den Bescheid erhalten hatte, stellte er am 3. Mai einen Antrag. Der Kläger ist unzulässig.",
+            "Der Kläger wohnt seit 2019 in Köln. Nachdem er den Bescheid erhalten hatte, stellte er am 3. Mai einen Antrag. Dieser Antrag ist unzulässig."
+          ],
+          "answer": 3,
+          "vi": "Nguyên đơn sống ở Köln từ năm 2019. Sau khi nhận được quyết định hành chính, ông ấy đã nộp đơn vào ngày 3 tháng 5. Đơn này không hợp lệ.",
+          "explain": "Tách câu theo trình tự thời gian và giữ đúng Bezug: chính đơn (Antrag) mới không hợp lệ. Phương án thứ hai đảo thứ tự (nộp đơn trước, nhận quyết định sau), còn phương án thứ ba gán „unzulässig“ cho nguyên đơn."
+        },
+        {
+          "q": "Câu nào gỡ đúng câu sau mà không đổi nghĩa: „Der Beklagte hat die ihm am 2. Februar von der Klägerin in Rechnung gestellten und trotz zweier Mahnungen bis heute nicht beglichenen Beträge zu zahlen.“",
+          "options": [
+            "Die Klägerin stellte dem Beklagten am 2. Februar Beträge in Rechnung. Trotz zweier Mahnungen hat er sie bis heute nicht beglichen. Der Beklagte hat diese Beträge zu zahlen.",
+            "Der Beklagte stellte der Klägerin am 2. Februar Beträge in Rechnung. Trotz zweier Mahnungen hat sie diese bis heute nicht beglichen. Sie hat die Beträge zu zahlen.",
+            "Die Klägerin stellte dem Beklagten am 2. Februar Beträge in Rechnung und mahnte ihn zweimal. Er hat die Beträge inzwischen beglichen. Er hat sie dennoch zu zahlen.",
+            "Die Klägerin stellte dem Beklagten am 2. Februar Beträge in Rechnung. Trotz zweier Mahnungen hat er sie bis heute nicht beglichen. Die Klägerin hat diese Beträge zu zahlen."
+          ],
+          "answer": 0,
+          "vi": "Nguyên đơn đã lập hóa đơn các khoản tiền cho bị đơn vào ngày 2 tháng 2. Dù đã bị nhắc nợ hai lần, đến nay bị đơn vẫn chưa thanh toán. Bị đơn phải trả các khoản tiền này.",
+          "explain": "„ihm … von der Klägerin in Rechnung gestellt“ nghĩa là nguyên đơn lập hóa đơn cho bị đơn, và bị đơn vẫn chưa trả. Phương án cuối gán sai nghĩa vụ trả tiền cho nguyên đơn."
+        }
+      ]
+    },
+    {
+      "title": "Dấu phẩy và chính tả trong văn bản luật (Kommasetzung und Rechtschreibung in Rechtstexten)",
+      "intro": "Dấu phẩy:\n• „sofern, soweit, wenn, weil“ mở mệnh đề phụ, nên luôn có dấu phẩy phía trước; khi mệnh đề chen giữa câu thì có dấu phẩy ở cả hai đầu: „Die Klage ist, soweit sie …, begründet.“\n• „es sei denn“: phẩy trước và sau: „…, es sei denn, der Mangel ist unerheblich.“ / „…, es sei denn, dass …“\n• Infinitivgruppe bắt buộc có phẩy khi có từ quy chiếu (es, daran…), khi phụ thuộc vào danh từ, hoặc khi mở đầu bằng um/ohne/statt; nếu chen giữa câu thì đóng phẩy cả hai đầu.\n• Trích dẫn § chỉ cần phẩy khi nằm trong mệnh đề chen hoặc mệnh đề quan hệ: „…, wie § 125 S. 1 BGB bestimmt, …“; „gemäß § 125 S. 1 BGB“ thì không có phẩy.\nChính tả: „§ 433 Abs. 2 S. 1 BGB“ (có dấu cách sau § và sau dấu chấm); nhiều điều luật thì dùng „§§“: „§§ 280 Abs. 1, 3, 281 BGB“, „§§ 433 ff. BGB“; viết tắt „i. S. d.“ (im Sinne des), „i. V. m.“ (in Verbindung mit). Viết hoa: „im Übrigen, im Folgenden“, tên riêng „das Bürgerliche Gesetzbuch“, xưng hô lịch sự „Sie/Ihnen“.",
+      "questions": [
+        {
+          "q": "Câu nào đặt dấu phẩy đúng (mệnh đề điều kiện với „sofern“)?",
+          "options": [
+            "Der Vertrag ist wirksam sofern die Parteien die Schriftform eingehalten haben.",
+            "Der Vertrag ist wirksam, sofern die Parteien die Schriftform eingehalten haben.",
+            "Der Vertrag ist, wirksam sofern die Parteien die Schriftform eingehalten haben.",
+            "Der Vertrag ist wirksam, sofern, die Parteien die Schriftform eingehalten haben."
+          ],
+          "answer": 1,
+          "vi": "Hợp đồng có hiệu lực nếu các bên đã tuân thủ hình thức văn bản.",
+          "explain": "„sofern“ mở mệnh đề phụ, nên dấu phẩy đứng ngay trước „sofern“. Không được đặt dấu phẩy sau liên từ như ở phương án cuối."
+        },
+        {
+          "q": "Gemäß § 433 ___ 2 BGB ist der Käufer verpflichtet, den Kaufpreis zu zahlen.",
+          "options": [
+            "abs.",
+            "Abs",
+            "Ab.",
+            "Abs."
+          ],
+          "answer": 3,
+          "vi": "Theo § 433 khoản 2 BGB, người mua có nghĩa vụ trả tiền mua.",
+          "explain": "Viết tắt của „Absatz“ là „Abs.“: viết hoa vì là danh từ, và có dấu chấm. „Abs“ thiếu dấu chấm, còn „abs.“ sai viết hoa."
+        },
+        {
+          "q": "Die Klage ist im ___ unbegründet.",
+          "options": [
+            "Übrigen",
+            "übrigen",
+            "Übrigem",
+            "übrigem"
+          ],
+          "answer": 0,
+          "vi": "Ngoài ra (về phần còn lại), vụ kiện không có căn cứ.",
+          "explain": "Theo quy tắc chính tả từ 2006, „im Übrigen“ được viết hoa vì là tính từ danh từ hóa. „im übrigen“ là cách viết cũ, nay đã sai."
+        },
+        {
+          "q": "(Bescheid an Herrn Nguyen) Wir bitten ___, die fehlenden Unterlagen bis zum 15. Mai einzureichen.",
+          "options": [
+            "sie",
+            "ihnen",
+            "Sie",
+            "Ihnen"
+          ],
+          "answer": 2,
+          "vi": "Chúng tôi đề nghị ông nộp các giấy tờ còn thiếu trước ngày 15 tháng 5.",
+          "explain": "„bitten“ đi với Akkusativ, và đại từ xưng hô lịch sự phải viết hoa: „Sie“. „Ihnen“ là Dativ nên sai cách; „sie“ viết thường có nghĩa là „họ/cô ấy“."
+        },
+        {
+          "q": "Der Händler ist Unternehmer ___ § 14 Abs. 1 BGB.",
+          "options": [
+            "I. S. d.",
+            "i. S. d",
+            "i S d",
+            "i. S. d."
+          ],
+          "answer": 3,
+          "vi": "Người bán hàng là doanh nhân theo nghĩa của § 14 khoản 1 BGB.",
+          "explain": "„im Sinne des“ viết tắt thành „i. S. d.“: mỗi phần có dấu chấm, chỉ „S“ (Sinn) viết hoa. „i. S. d“ thiếu dấu chấm cuối; „I. S. d.“ viết hoa sai chữ „i“."
+        },
+        {
+          "q": "Der Anspruch ergibt sich aus § 280 Abs. 1 ___ § 241 Abs. 2 BGB.",
+          "options": [
+            "i. v. m.",
+            "i. V. m.",
+            "I. V. M.",
+            "i. V. m"
+          ],
+          "answer": 1,
+          "vi": "Quyền yêu cầu phát sinh từ § 280 khoản 1 kết hợp với § 241 khoản 2 BGB.",
+          "explain": "„in Verbindung mit“ viết tắt thành „i. V. m.“, chỉ „V“ (Verbindung, danh từ) viết hoa. „i. v. m.“ sai vì danh từ phải viết hoa."
+        },
+        {
+          "q": "Der Kaufvertrag ist in den ___ BGB geregelt.",
+          "options": [
+            "§§ 433 ff.",
+            "§§ 433 ff",
+            "§§433 ff.",
+            "§§ 433 FF."
+          ],
+          "answer": 0,
+          "vi": "Hợp đồng mua bán được quy định tại các điều 433 và tiếp theo của BGB.",
+          "explain": "Nhiều điều luật dùng „§§“, có dấu cách trước số, và „ff.“ (fortfolgende) viết thường, có dấu chấm. „§§433“ thiếu dấu cách; „ff“ thiếu dấu chấm viết tắt."
+        },
+        {
+          "q": "Der Käufer kann vom Vertrag zurücktreten, ___ die Pflichtverletzung ist unerheblich.",
+          "options": [
+            "es sei denn",
+            "es, sei denn,",
+            "es sei denn,",
+            "es sei, denn"
+          ],
+          "answer": 2,
+          "vi": "Người mua có thể rút khỏi hợp đồng, trừ khi vi phạm nghĩa vụ là không đáng kể.",
+          "explain": "„es sei denn“ là một khối liền, không có dấu phẩy ở giữa; mệnh đề theo sau phải được tách bằng dấu phẩy: „…, es sei denn, die Pflichtverletzung ist unerheblich.“ Nếu thiếu dấu phẩy sau „denn“ thì sai."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng (mệnh đề „soweit“ chen giữa câu)?",
+          "options": [
+            "Die Klage ist, soweit sie auf Zahlung gerichtet ist, begründet.",
+            "Die Klage ist soweit sie auf Zahlung gerichtet ist, begründet.",
+            "Die Klage ist, soweit sie auf Zahlung gerichtet ist begründet.",
+            "Die Klage ist, soweit, sie auf Zahlung gerichtet ist, begründet."
+          ],
+          "answer": 0,
+          "vi": "Vụ kiện có căn cứ trong chừng mực nó nhằm yêu cầu thanh toán.",
+          "explain": "Mệnh đề „soweit …“ chen giữa câu chính nên phải có dấu phẩy ở cả hai đầu. Thiếu một trong hai dấu phẩy (phương án 2 và 3) là lỗi thường gặp."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng (Infinitivgruppe có từ quy chiếu „es“)?",
+          "options": [
+            "Der Kläger hat es versäumt die Frist einzuhalten.",
+            "Der Kläger hat es, versäumt die Frist einzuhalten.",
+            "Der Kläger hat es versäumt, die Frist einzuhalten.",
+            "Der Kläger hat es versäumt, die Frist, einzuhalten."
+          ],
+          "answer": 2,
+          "vi": "Nguyên đơn đã không tuân thủ thời hạn.",
+          "explain": "Khi có từ quy chiếu „es“ báo trước Infinitivgruppe thì dấu phẩy là bắt buộc. Không được tách tân ngữ „die Frist“ khỏi „einzuhalten“ bằng dấu phẩy."
+        },
+        {
+          "q": "Câu nào viết hoa/viết thường đúng?",
+          "options": [
+            "Im folgenden wird geprüft, ob A gegen B einen Anspruch aus dem Bürgerlichen Gesetzbuch hat.",
+            "Im Folgenden wird geprüft, ob A gegen B einen Anspruch aus dem Bürgerlichen Gesetzbuch hat.",
+            "Im Folgenden wird geprüft, ob A gegen B einen Anspruch aus dem bürgerlichen Gesetzbuch hat.",
+            "Im Folgenden wird Geprüft, ob A gegen B einen Anspruch aus dem Bürgerlichen Gesetzbuch hat."
+          ],
+          "answer": 1,
+          "vi": "Sau đây sẽ xem xét liệu A có quyền yêu cầu đối với B theo Bộ luật Dân sự hay không.",
+          "explain": "„im Folgenden“ viết hoa (tính từ danh từ hóa); „Bürgerliches Gesetzbuch“ là tên riêng của bộ luật nên tính từ cũng viết hoa. Phương án 3 viết thường „bürgerlichen“ trong tên riêng nên sai."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng (mệnh đề chen có trích dẫn §)?",
+          "options": [
+            "Der Vertrag ist gemäß § 125 S. 1 BGB, nichtig.",
+            "Der Vertrag ist, gemäß § 125 S. 1 BGB nichtig.",
+            "Der Vertrag ist, wie § 125 S. 1 BGB bestimmt nichtig.",
+            "Der Vertrag ist, wie § 125 S. 1 BGB bestimmt, nichtig."
+          ],
+          "answer": 3,
+          "vi": "Hợp đồng vô hiệu, như § 125 câu 1 BGB quy định.",
+          "explain": "Mệnh đề chen „wie § 125 S. 1 BGB bestimmt“ phải được đóng phẩy cả hai đầu. Cụm giới từ „gemäß § 125 S. 1 BGB“ thì không bao giờ tách bằng dấu phẩy."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng (mệnh đề quan hệ sau trích dẫn §)?",
+          "options": [
+            "Die Vorschrift des § 823 Abs. 1 BGB die die deliktische Haftung regelt, setzt eine Rechtsgutsverletzung voraus.",
+            "Die Vorschrift des § 823 Abs. 1 BGB, die die deliktische Haftung regelt setzt eine Rechtsgutsverletzung voraus.",
+            "Die Vorschrift, des § 823 Abs. 1 BGB, die die deliktische Haftung regelt, setzt eine Rechtsgutsverletzung voraus.",
+            "Die Vorschrift des § 823 Abs. 1 BGB, die die deliktische Haftung regelt, setzt eine Rechtsgutsverletzung voraus."
+          ],
+          "answer": 3,
+          "vi": "Quy định tại § 823 khoản 1 BGB, vốn điều chỉnh trách nhiệm bồi thường ngoài hợp đồng, đòi hỏi phải có sự xâm phạm một quyền lợi được pháp luật bảo vệ.",
+          "explain": "Mệnh đề quan hệ chen giữa câu cần dấu phẩy ở cả hai đầu. Phần trích dẫn „des § 823 Abs. 1 BGB“ là Genitivattribut, không được tách khỏi „Die Vorschrift“ bằng dấu phẩy."
+        },
+        {
+          "q": "Câu nào viết đúng cách trích dẫn điều luật?",
+          "options": [
+            "Der Anspruch auf Schadensersatz statt der Leistung ergibt sich aus §§ 280 Abs. 1, 3, 281 BGB.",
+            "Der Anspruch auf Schadensersatz statt der Leistung ergibt sich aus § 280 Abs. 1, 3, 281 BGB.",
+            "Der Anspruch auf Schadensersatz statt der Leistung ergibt sich aus §§280 Abs. 1, 3, 281 BGB.",
+            "Der Anspruch auf Schadensersatz statt der Leistung ergibt sich aus §§ 280 Abs.1, 3, 281 BGB."
+          ],
+          "answer": 0,
+          "vi": "Quyền yêu cầu bồi thường thiệt hại thay cho việc thực hiện nghĩa vụ phát sinh từ § 280 khoản 1, 3 và § 281 BGB.",
+          "explain": "Trích dẫn nhiều điều luật (280 và 281) phải dùng „§§“; giữa ký hiệu và số, giữa „Abs.“ và số đều có dấu cách. Phương án 2 chỉ dùng một „§“ cho hai điều luật nên sai."
+        },
+        {
+          "q": "Câu nào đặt dấu phẩy đúng (Infinitivgruppe phụ thuộc danh từ, chen giữa câu)?",
+          "options": [
+            "Der Schuldner hat die Pflicht die Leistung rechtzeitig zu erbringen, verletzt.",
+            "Der Schuldner hat die Pflicht, die Leistung rechtzeitig zu erbringen verletzt.",
+            "Der Schuldner hat die Pflicht, die Leistung rechtzeitig zu erbringen, verletzt.",
+            "Der Schuldner hat, die Pflicht die Leistung rechtzeitig zu erbringen, verletzt."
+          ],
+          "answer": 2,
+          "vi": "Con nợ đã vi phạm nghĩa vụ thực hiện nghĩa vụ đúng hạn.",
+          "explain": "Infinitivgruppe phụ thuộc vào danh từ „die Pflicht“ nên bắt buộc có dấu phẩy, và vì chen giữa câu nên phải đóng phẩy cả hai đầu. Phương án 2 thiếu dấu phẩy đóng trước „verletzt“."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "level": "B2",
+  "topics": [
+    {
+      "title": "Tiểu từ tình thái (Modalpartikeln)",
+      "intro": "Tiểu từ tình thái không thay đổi nội dung thông tin của câu mà thể hiện thái độ, cảm xúc của người nói. Chúng đứng trong Mittelfeld (thường sau động từ chia và đại từ), không mang trọng âm (trừ „ja“ cảnh báo) và mỗi tiểu từ chỉ hợp với một số loại câu nhất định:\n• doch: nhắc điều người nghe lẽ ra phải biết, trách nhẹ (Ich habe dir doch gesagt …); trong mệnh lệnh: gợi ý thân thiện (Schau doch mal nach!)\n• ja: điều đã biết (Wie Sie ja wissen …); ngạc nhiên (Sie sind ja schon da!); nhấn giọng trong mệnh lệnh = cảnh báo (Komm ja pünktlich!)\n• mal: làm mềm lời đề nghị (Reichen Sie mir bitte mal …)\n• denn, etwa: CHỈ dùng trong câu hỏi; denn = quan tâm, thân mật (Was ist denn los?)\n• eben / halt: sự việc không thay đổi được, đành chấp nhận (Das ist eben/halt so.)\n• wohl: phỏng đoán, thường với Futur I (Er wird wohl krank sein.)\n• schon: trấn an (Das klappt schon!); thừa nhận một phần … aber (Das ist schon richtig, aber …)\n• eigentlich: trong câu hỏi = chuyển sang chủ đề mới; trong câu trần thuật = thực ra\n• bloß / nur: mệnh lệnh cảnh báo (Vergiss bloß nicht …!); câu ước (Wenn ich nur … hätte!); câu hỏi bực bội (Wo ist bloß …?)",
+      "questions": [
+        {
+          "q": "Keine Sorge, das klappt ___!",
+          "options": ["denn", "bloß", "schon", "etwa"],
+          "answer": 2,
+          "vi": "Đừng lo, chắc chắn sẽ ổn thôi!",
+          "explain": "„schon“ trong câu trần thuật mang nghĩa trấn an (chắc chắn sẽ được). „denn“ và „etwa“ chỉ dùng trong câu hỏi, còn „bloß“ dùng trong mệnh lệnh cảnh báo hoặc câu hỏi bực bội."
+        },
+        {
+          "q": "Was ist ___ los? Du siehst so blass aus.",
+          "options": ["ja", "denn", "halt", "eben"],
+          "answer": 1,
+          "vi": "Có chuyện gì vậy? Trông bạn xanh xao quá.",
+          "explain": "„denn“ dùng trong câu hỏi để thể hiện sự quan tâm, làm câu hỏi thân mật hơn. „ja“, „halt“ và „eben“ là tiểu từ của câu trần thuật, không dùng trong câu hỏi W."
+        },
+        {
+          "q": "Reichen Sie mir bitte ___ das Formular, ich möchte es kurz prüfen.",
+          "options": ["mal", "denn", "ja", "wohl"],
+          "answer": 0,
+          "vi": "Ông/bà vui lòng đưa giúp tôi tờ đơn, tôi muốn kiểm tra nhanh.",
+          "explain": "„mal“ làm lời đề nghị nhẹ nhàng, lịch sự hơn. „ja“ trong câu mệnh lệnh mang sắc thái cảnh báo, đe dọa, không hợp với „bitte“; „denn“ chỉ dùng trong câu hỏi."
+        },
+        {
+          "q": "Wie Sie ___ wissen, endet die Abgabefrist für die Steuererklärung am 31. Juli.",
+          "options": ["denn", "mal", "bloß", "ja"],
+          "answer": 3,
+          "vi": "Như ông/bà đã biết, hạn nộp tờ khai thuế kết thúc vào ngày 31 tháng 7.",
+          "explain": "„ja“ đánh dấu một điều mà người nghe đã biết. „denn“ chỉ dùng trong câu hỏi, còn „mal“ (làm mềm đề nghị) và „bloß“ (cảnh báo, ước muốn) không mang nghĩa „đã biết“."
+        },
+        {
+          "q": "Warum hast du den Brief nicht geöffnet? Ich habe dir ___ gesagt, dass er vom Finanzamt ist!",
+          "options": ["denn", "wohl", "doch", "etwa"],
+          "answer": 2,
+          "vi": "Sao bạn không mở lá thư? Mình đã bảo bạn rồi mà, đó là thư của cơ quan thuế!",
+          "explain": "„doch“ nhắc lại điều người nghe lẽ ra phải biết, kèm sắc thái trách móc. „wohl“ diễn tả phỏng đoán (có lẽ mình đã nói), mâu thuẫn với lời trách mạnh mẽ; „denn“ và „etwa“ chỉ dùng trong câu hỏi."
+        },
+        {
+          "q": "Die Einspruchsfrist ist abgelaufen. Da kann man ___ nichts mehr machen.",
+          "options": ["bloß", "halt", "denn", "mal"],
+          "answer": 1,
+          "vi": "Thời hạn khiếu nại đã hết. Thôi thì chẳng làm gì được nữa.",
+          "explain": "„halt“ (= eben) diễn tả sự việc không thể thay đổi, đành chấp nhận. „bloß“ ở đây sẽ thành „chỉ“ (chỉ không làm được gì) – vô nghĩa; „denn“ chỉ dùng trong câu hỏi."
+        },
+        {
+          "q": "Câu nào sai?",
+          "options": ["Was machst du denn hier?", "Komm doch mal vorbei!", "Das ist ja interessant!", "Ich habe denn keine Zeit."],
+          "answer": 3,
+          "vi": "Câu sai: „Ich habe denn keine Zeit.“ (Đúng: „Ich habe halt keine Zeit.“ – Mình đúng là không có thời gian mà.)",
+          "explain": "Tiểu từ „denn“ chỉ dùng trong câu hỏi; trong câu trần thuật phải dùng „halt/eben“. Ba câu còn lại đều đúng: „denn“ trong câu hỏi, „doch mal“ trong lời mời, „ja“ diễn tả ngạc nhiên."
+        },
+        {
+          "q": "Herr Becker ist heute nicht im Büro. Er wird ___ krank sein.",
+          "options": ["wohl", "denn", "mal", "etwa"],
+          "answer": 0,
+          "vi": "Hôm nay ông Becker không có ở văn phòng. Chắc là ông ấy bị ốm.",
+          "explain": "„wohl“ (thường đi với Futur I) diễn tả sự phỏng đoán. „denn“ và „etwa“ chỉ dùng trong câu hỏi, còn „mal“ dùng để làm mềm lời đề nghị."
+        },
+        {
+          "q": "Vergiss ___ nicht, die Belege aufzubewahren, sonst bekommst du Ärger mit dem Finanzamt!",
+          "options": ["denn", "eigentlich", "bloß", "wohl"],
+          "answer": 2,
+          "vi": "Nhất định đừng quên giữ lại các chứng từ, nếu không bạn sẽ gặp rắc rối với cơ quan thuế!",
+          "explain": "„bloß“ trong câu mệnh lệnh mang nghĩa cảnh báo mạnh (nhất định đừng …), phù hợp với „sonst …“. „eigentlich“ và „wohl“ không dùng trong câu mệnh lệnh, „denn“ chỉ dùng trong câu hỏi."
+        },
+        {
+          "q": "Câu nào cùng nghĩa với „Komm ja pünktlich!“?",
+          "options": ["Komm vielleicht pünktlich.", "Komm unbedingt pünktlich, sonst gibt es Ärger!", "Du kommst ja pünktlich.", "Kommst du denn pünktlich?"],
+          "answer": 1,
+          "vi": "Nhất định phải đến đúng giờ, nếu không sẽ có chuyện đấy!",
+          "explain": "„ja“ (nhấn giọng) trong câu mệnh lệnh mang nghĩa cảnh báo: nhất định phải làm. „Du kommst ja pünktlich.“ là câu trần thuật với „ja“ = điều đã biết, nghĩa hoàn toàn khác."
+        },
+        {
+          "q": "Wenn ich ___ die Unterlagen rechtzeitig eingereicht hätte!",
+          "options": ["denn", "ja", "wohl", "nur"],
+          "answer": 3,
+          "vi": "Giá mà tôi đã nộp hồ sơ đúng hạn!",
+          "explain": "Trong câu ước với Konjunktiv II, „nur“ (hoặc „bloß“, „doch nur“) nhấn mạnh mong muốn. „wohl“ diễn tả phỏng đoán, „ja“ và „denn“ không dùng trong câu ước."
+        },
+        {
+          "q": "Übrigens, wie lange arbeiten Sie ___ schon in dieser Kanzlei?",
+          "options": ["eigentlich", "ja", "halt", "eben"],
+          "answer": 0,
+          "vi": "Nhân tiện, ông/bà đã làm ở văn phòng luật này bao lâu rồi?",
+          "explain": "„eigentlich“ trong câu hỏi dùng để chuyển sang một chủ đề mới một cách tự nhiên (hợp với „übrigens“). „ja“, „halt“ và „eben“ là tiểu từ của câu trần thuật, không dùng trong câu hỏi."
+        },
+        {
+          "q": "Câu nào cùng nghĩa với „Das ist halt so.“?",
+          "options": ["Das ist wohl so.", "Das ist etwa so.", "Das ist eben so.", "Das ist denn so."],
+          "answer": 2,
+          "vi": "Chuyện là như vậy thôi (không thay đổi được).",
+          "explain": "„halt“ và „eben“ đồng nghĩa: sự việc không thể thay đổi, phải chấp nhận. „Das ist wohl so.“ là phỏng đoán (có lẽ là vậy), „Das ist etwa so.“ nghĩa là „đại khái là vậy“."
+        },
+        {
+          "q": "Tiểu từ nào phù hợp với ngữ cảnh? Đồng nghiệp nói: „Ich finde das Formular nicht.“ Bạn muốn gợi ý một cách thân thiện.",
+          "options": ["Schau denn im Ordner nach!", "Schau doch mal im Ordner nach!", "Schau wohl im Ordner nach!", "Schau etwa im Ordner nach!"],
+          "answer": 1,
+          "vi": "Bạn thử xem trong tập hồ sơ đi!",
+          "explain": "„doch mal“ trong câu mệnh lệnh biến lời yêu cầu thành gợi ý thân thiện. „denn“ và „etwa“ chỉ dùng trong câu hỏi, „wohl“ (phỏng đoán) không dùng trong câu mệnh lệnh."
+        },
+        {
+          "q": "Das Urteil ist ___ nachvollziehbar, aber ich halte es trotzdem für zu streng.",
+          "options": ["denn", "mal", "etwa", "schon"],
+          "answer": 3,
+          "vi": "Bản án thì cũng có thể hiểu được, nhưng tôi vẫn cho rằng nó quá nghiêm khắc.",
+          "explain": "„schon … aber“ diễn tả sự thừa nhận một phần rồi phản bác (sắc thái nhượng bộ). „denn“ và „etwa“ chỉ dùng trong câu hỏi, „mal“ không mang nghĩa thừa nhận."
+        }
+      ]
+    },
+    {
+      "title": "Câu phân từ rút gọn & mệnh đề nhượng bộ (Partizipialsätze & Konzessivsätze)",
+      "intro": "Câu phân từ rút gọn (Partizipialsatz) thay cho một mệnh đề phụ, rất hay gặp trong văn bản luật và hành chính. Chủ ngữ (ngầm) của cụm phân từ phải trùng với chủ ngữ của mệnh đề chính.\n• Partizip II: hành động xảy ra trước hoặc mang nghĩa bị động: In Berlin angekommen, rief er an. (= Nachdem er angekommen war …) / Vom Urteil enttäuscht, ging der Kläger in Berufung. Với một số động từ như erhalten: Den Bescheid erhalten, legte er Einspruch ein.\n• Partizip I: hành động xảy ra đồng thời, nghĩa chủ động: Laut protestierend verließ er den Saal.\n• Cụm phân từ chiếm vị trí Vorfeld → động từ chia đứng ngay sau dấu phẩy, rồi mới đến chủ ngữ.\nMệnh đề nhượng bộ (Konzessivsätze) – động từ chia đứng cuối mệnh đề phụ:\n• obwohl / obgleich / wenngleich (trang trọng): Obgleich die Beweislage dünn war, wurde er verurteilt.\n• auch wenn / selbst wenn (ngay cả khi): Selbst wenn er den Fehler zugibt, …\n• wie / so + tính từ/trạng từ … auch: Wie hoch die Strafe auch ausfällt, er akzeptiert sie. / So sehr sie sich auch bemühte, …\n• Cách diễn đạt tương đương: zwar …, aber (trotzdem). „trotzdem“, „dennoch“ là trạng từ, không phải liên từ phụ.",
+      "questions": [
+        {
+          "q": "In Berlin ___, rief er sofort seine Anwältin an.",
+          "options": ["ankommen", "angekommen", "angekommt", "angekommen war"],
+          "answer": 1,
+          "vi": "Vừa đến Berlin, anh ấy liền gọi điện cho nữ luật sư của mình.",
+          "explain": "Cụm phân từ dùng Partizip II „angekommen“ để diễn tả hành động xảy ra trước (= Nachdem er angekommen war). „angekommen war“ sai vì cụm phân từ không có động từ chia."
+        },
+        {
+          "q": "Vom Urteil enttäuscht, ___ in Berufung.",
+          "options": ["ging der Kläger", "der Kläger ging", "der Kläger gehen", "gehend der Kläger"],
+          "answer": 0,
+          "vi": "Thất vọng về bản án, nguyên đơn đã kháng cáo.",
+          "explain": "Cụm phân từ chiếm vị trí Vorfeld, nên động từ chia „ging“ phải đứng ngay sau dấu phẩy, sau đó mới đến chủ ngữ. „der Kläger ging“ sai vì động từ khi đó đứng ở vị trí thứ ba."
+        },
+        {
+          "q": "___ er sich gut vorbereitet hatte, verlor er den Prozess.",
+          "options": ["Trotzdem", "Deswegen", "Dennoch", "Obgleich"],
+          "answer": 3,
+          "vi": "Mặc dù đã chuẩn bị kỹ, anh ấy vẫn thua kiện.",
+          "explain": "„obgleich“ (= obwohl) là liên từ phụ nhượng bộ, đẩy động từ chia về cuối mệnh đề. „Trotzdem“ và „Dennoch“ cũng mang nghĩa nhượng bộ nhưng là trạng từ, không mở đầu mệnh đề phụ được."
+        },
+        {
+          "q": "Selbst wenn der Mandant den Fehler ___, ändert das nichts an der Steuerschuld.",
+          "options": ["gibt zu", "zuzugeben", "zugibt", "zugegeben"],
+          "answer": 2,
+          "vi": "Ngay cả khi thân chủ thừa nhận lỗi, điều đó cũng không thay đổi gì đối với khoản nợ thuế.",
+          "explain": "Trong mệnh đề phụ với „selbst wenn“, động từ tách được đứng cuối và viết liền: „zugibt“. „gibt zu“ là trật tự của mệnh đề chính."
+        },
+        {
+          "q": "Wie hoch die Strafe ___ ausfällt, er wird das Urteil akzeptieren.",
+          "options": ["doch", "auch", "denn", "noch"],
+          "answer": 1,
+          "vi": "Dù hình phạt có nặng đến đâu, anh ấy cũng sẽ chấp nhận bản án.",
+          "explain": "Cấu trúc nhượng bộ „wie + tính từ … auch“ nghĩa là „dù … đến đâu“. „doch“, „denn“ và „noch“ không tạo nghĩa nhượng bộ trong cấu trúc này."
+        },
+        {
+          "q": "___ sehr sie sich auch bemühte, die Frist konnte sie nicht mehr einhalten.",
+          "options": ["Obwohl", "Selbst", "Zwar", "So"],
+          "answer": 3,
+          "vi": "Dù cô ấy cố gắng đến mấy, cô ấy cũng không thể kịp thời hạn nữa.",
+          "explain": "„so + trạng từ … auch“ là cấu trúc nhượng bộ (tương đương „wie sehr … auch“). „Obwohl“ không kết hợp được với „sehr … auch“, „Selbst“ phải đi với „wenn“."
+        },
+        {
+          "q": "Vom Finanzamt zur Nachzahlung ___, beauftragte die Firma einen Steuerberater.",
+          "options": ["auffordernd", "aufzufordern", "aufgefordert", "aufgefordert worden"],
+          "answer": 2,
+          "vi": "Sau khi bị cơ quan thuế yêu cầu nộp bổ sung, công ty đã thuê một cố vấn thuế.",
+          "explain": "Công ty là người bị yêu cầu, nên dùng Partizip II với nghĩa bị động: „aufgefordert“. „auffordernd“ (Partizip I) mang nghĩa chủ động – công ty đang yêu cầu, sai nghĩa."
+        },
+        {
+          "q": "Laut ___, verließ der Angeklagte den Gerichtssaal.",
+          "options": ["protestierend", "protestiert", "zu protestieren", "protestierte"],
+          "answer": 0,
+          "vi": "Vừa lớn tiếng phản đối, bị cáo vừa rời khỏi phòng xử án.",
+          "explain": "Partizip I „protestierend“ diễn tả hành động xảy ra đồng thời và mang nghĩa chủ động. „protestiert“ (Partizip II của động từ chia với haben, không có tân ngữ) không thể đứng một mình làm cụm phân từ."
+        },
+        {
+          "q": "Den Bescheid ___, legte er sofort Einspruch ein.",
+          "options": ["erhielt", "erhalten", "erhaltend", "zu erhalten"],
+          "answer": 1,
+          "vi": "Vừa nhận được quyết định, anh ấy liền nộp đơn khiếu nại.",
+          "explain": "Partizip II „erhalten“ diễn tả hành động đã hoàn tất trước (= Nachdem er den Bescheid erhalten hatte). „erhaltend“ diễn tả hành động đồng thời, mâu thuẫn với „sofort“ (ngay sau đó)."
+        },
+        {
+          "q": "Câu nào cùng nghĩa với „Nachdem er in Berlin angekommen war, meldete er sich beim Bürgeramt an.“?",
+          "options": ["In Berlin ankommend, er meldete sich beim Bürgeramt an.", "In Berlin angekommen, er meldete sich beim Bürgeramt an.", "Angekommen in Berlin war, meldete er sich beim Bürgeramt an.", "In Berlin angekommen, meldete er sich beim Bürgeramt an."],
+          "answer": 3,
+          "vi": "Vừa đến Berlin, anh ấy đã đăng ký cư trú tại văn phòng công dân.",
+          "explain": "Partizip II „angekommen“ thể hiện tính trước sau của „nachdem … war“, và động từ chia „meldete“ đứng ngay sau cụm phân từ. Phương án 2 dùng đúng phân từ nhưng sai trật tự từ (er meldete)."
+        },
+        {
+          "q": "Câu nào sai?",
+          "options": ["Obgleich der Mandant hat alle Unterlagen eingereicht, fehlt noch ein Nachweis.", "Obgleich die Beweislage dünn war, wurde der Angeklagte verurteilt.", "Wenngleich der Vertrag gültig ist, bestehen Zweifel an seiner Fairness.", "Selbst wenn das Gericht zustimmt, bleiben die Kosten hoch."],
+          "answer": 0,
+          "vi": "Câu sai: Đúng phải là „Obgleich der Mandant alle Unterlagen eingereicht hat, fehlt noch ein Nachweis.“ (Mặc dù thân chủ đã nộp mọi giấy tờ, vẫn còn thiếu một chứng từ.)",
+          "explain": "„obgleich“ là liên từ phụ nên động từ chia „hat“ phải đứng cuối mệnh đề. Các câu còn lại đều đặt động từ đúng ở cuối mệnh đề phụ."
+        },
+        {
+          "q": "Câu nào cùng nghĩa với „Obwohl die Kosten hoch sind, lohnt sich die Klage.“?",
+          "options": ["Die Kosten sind hoch, deshalb lohnt sich die Klage.", "Wenn die Kosten hoch sind, lohnt sich die Klage.", "Die Kosten sind zwar hoch, die Klage lohnt sich aber trotzdem.", "Weil die Kosten hoch sind, lohnt sich die Klage nicht."],
+          "answer": 2,
+          "vi": "Chi phí tuy cao, nhưng vụ kiện vẫn đáng để theo đuổi.",
+          "explain": "„zwar …, aber trotzdem“ diễn tả quan hệ nhượng bộ giống „obwohl“. „deshalb“ và „weil“ diễn tả nguyên nhân – kết quả, còn „wenn“ là điều kiện."
+        },
+        {
+          "q": "Câu nào sai?",
+          "options": ["Vom Richter befragt, schwieg der Zeuge.", "Am Flughafen angekommen, nahm sie ein Taxi zum Gericht.", "Von der Entscheidung überrascht, legte die Firma Revision ein.", "Im Büro angekommen, klingelte sofort das Telefon."],
+          "answer": 3,
+          "vi": "Câu sai: chủ ngữ „das Telefon“ không thể „đến văn phòng“. Đúng: „Als ich im Büro angekommen war, klingelte sofort das Telefon.“",
+          "explain": "Chủ ngữ ngầm của cụm phân từ phải trùng với chủ ngữ của mệnh đề chính; ở đây người đến văn phòng không phải là chiếc điện thoại. Ở các câu khác, nhân chứng, cô ấy và công ty đều là người thực hiện/chịu hành động của phân từ."
+        },
+        {
+          "q": "Die Klage ist zulässig, ___ sie wenig Aussicht auf Erfolg hat.",
+          "options": ["wenngleich", "trotzdem", "dennoch", "zwar"],
+          "answer": 0,
+          "vi": "Đơn kiện hợp lệ, mặc dù nó có ít triển vọng thành công.",
+          "explain": "„wenngleich“ (= obwohl, trang trọng) là liên từ phụ, đẩy „hat“ về cuối. „trotzdem“ và „dennoch“ là trạng từ, sau chúng động từ phải đứng ngay vị trí thứ hai (… dennoch hat sie …)."
+        },
+        {
+          "q": "Wie überzeugend ___, das Gericht folgte ihnen nicht.",
+          "options": ["waren die Argumente auch", "auch waren die Argumente", "die Argumente auch waren", "die Argumente waren auch"],
+          "answer": 2,
+          "vi": "Dù các lập luận có thuyết phục đến đâu, tòa án cũng không chấp nhận chúng.",
+          "explain": "Mệnh đề „wie … auch“ là mệnh đề phụ: chủ ngữ đứng trước, „auch“ trong Mittelfeld và động từ chia „waren“ ở cuối. Các phương án khác đặt động từ ở vị trí thứ nhất hoặc thứ hai như mệnh đề chính."
+        }
+      ]
+    },
+    {
+      "title": "Cấu trúc câu nâng cao (Vorfeld, Mittelfeld, Nachfeld)",
+      "intro": "Câu tiếng Đức được phân tích theo mô hình trường vị trí: Vorfeld – động từ chia (khung trái) – Mittelfeld – khung phải (phân từ, nguyên mẫu, tiền tố tách) – Nachfeld.\n• Vorfeld: chỉ đúng MỘT thành phần, có thể là cả một mệnh đề phụ hoặc một phân từ: Weil die Frist abgelaufen war, wurde der Einspruch verworfen. / Unterschrieben hat er den Vertrag nicht.\n• Mittelfeld: đại từ không nhấn giọng đứng đầu Mittelfeld theo thứ tự Nom – Akk – Dat (er es ihm). Đại từ (kể cả đại từ phản thân) có thể đứng trước chủ ngữ là danh từ (Gestern hat sich der Mandant beschwert), nhưng không đứng trước chủ ngữ là đại từ (hat er sich, KHÔNG: hat sich er).\n• Nachfeld (Ausklammerung): cụm so sánh với als/wie thường đặt sau khung phải (Er hat mehr verdient als sein Kollege); cụm giới từ cũng có thể được tách ra (Wir haben diskutiert über …); tân ngữ trực tiếp thì không.\n• Vorfeld-„es“ chỉ là từ giữ chỗ: nó biến mất khi một thành phần khác đứng đầu câu (Es kamen viele Bürger → Gestern kamen viele Bürger; Es wurde verhandelt → Bis spät wurde verhandelt). Còn „es“ là chủ ngữ thật (es geht um, es gibt) thì luôn giữ lại. Khi mệnh đề dass đứng ở Vorfeld, „es“ tương ứng (Korrelat) cũng biến mất: Dass …, ist wichtig.",
+      "questions": [
+        {
+          "q": "Gestern ___ der Mandant beim Finanzamt angerufen.",
+          "options": ["hat", "ist", "hatte er", "er hat"],
+          "answer": 0,
+          "vi": "Hôm qua thân chủ đã gọi điện cho cơ quan thuế.",
+          "explain": "„Gestern“ chiếm Vorfeld, động từ chia đứng ở vị trí thứ hai, rồi đến chủ ngữ „der Mandant“; „anrufen“ chia Perfekt với „haben“. „hatte er“ và „er hat“ sai vì thừa chủ ngữ „er“."
+        },
+        {
+          "q": "Gestern ___ viele Bürger zur Informationsveranstaltung.",
+          "options": ["es kamen", "kamen es", "kamen", "kam es"],
+          "answer": 2,
+          "vi": "Hôm qua có nhiều người dân đến buổi thông tin.",
+          "explain": "„es“ trong „Es kamen viele Bürger“ chỉ là từ giữ chỗ cho Vorfeld; khi „Gestern“ đã chiếm Vorfeld thì „es“ biến mất. Động từ chia theo chủ ngữ thật „viele Bürger“ (số nhiều)."
+        },
+        {
+          "q": "Heute geht ___ um die Reform der Grundsteuer.",
+          "options": ["das", "es", "er", "man"],
+          "answer": 1,
+          "vi": "Hôm nay chủ đề là cải cách thuế bất động sản.",
+          "explain": "Trong „es geht um“, „es“ là chủ ngữ thật nên vẫn giữ lại dù „Heute“ đứng ở Vorfeld. Khác với Vorfeld-„es“ chỉ giữ chỗ, loại „es“ này không thể lược bỏ hay thay bằng „das/man“."
+        },
+        {
+          "q": "Hat der Anwalt dem Mandanten das Dokument geschickt? – Ja, er hat ___ gestern geschickt.",
+          "options": ["ihm es", "es ihm", "ihn es", "es ihn"],
+          "answer": 1,
+          "vi": "Luật sư đã gửi tài liệu cho thân chủ chưa? – Rồi, hôm qua ông ấy đã gửi nó cho anh ta.",
+          "explain": "Khi cả hai tân ngữ là đại từ, thứ tự là Akkusativ trước Dativ: „es ihm“. „ihm es“ đảo thứ tự (chỉ đúng với danh từ: ihm das Dokument); „ihn“ sai cách vì „dem Mandanten“ là Dativ."
+        },
+        {
+          "q": "Weil die Frist abgelaufen war, ___ als unzulässig verworfen.",
+          "options": ["der Einspruch wurde", "es wurde der Einspruch", "wurde es der Einspruch", "wurde der Einspruch"],
+          "answer": 3,
+          "vi": "Vì thời hạn đã hết, đơn khiếu nại bị bác bỏ vì không hợp lệ.",
+          "explain": "Mệnh đề phụ „Weil …“ chiếm trọn Vorfeld, nên động từ chia „wurde“ đứng ngay sau dấu phẩy. Không cần „es“ vì Vorfeld đã có thành phần khác; „der Einspruch wurde“ đặt động từ ở vị trí thứ ba."
+        },
+        {
+          "q": "Câu nào sai?",
+          "options": ["Im letzten Jahr hat die Firma Verluste gemacht.", "Die Firma hat im letzten Jahr Verluste gemacht.", "Verluste hat die Firma im letzten Jahr gemacht.", "Im letzten Jahr die Firma hat Verluste gemacht."],
+          "answer": 3,
+          "vi": "Câu sai: Đúng phải là „Im letzten Jahr hat die Firma Verluste gemacht.“ (Năm ngoái công ty đã bị lỗ.)",
+          "explain": "Vorfeld chỉ chứa đúng một thành phần; câu cuối đặt cả „Im letzten Jahr“ và „die Firma“ trước động từ chia. Câu 3 đúng: tân ngữ „Verluste“ được đưa lên Vorfeld để nhấn mạnh."
+        },
+        {
+          "q": "Der Mandant war unzufrieden. Gestern hat ___ über die lange Bearbeitungszeit beschwert.",
+          "options": ["sich er", "er sich", "er", "sich"],
+          "answer": 1,
+          "vi": "Thân chủ không hài lòng. Hôm qua anh ấy đã phàn nàn về thời gian xử lý quá lâu.",
+          "explain": "Khi chủ ngữ là đại từ, nó đứng đầu Mittelfeld, trước đại từ phản thân: „er sich“. Đại từ phản thân chỉ có thể đứng trước chủ ngữ là danh từ (hat sich der Mandant …), không đứng trước đại từ."
+        },
+        {
+          "q": "Die Firma hat in diesem Jahr mehr Steuern ___.",
+          "options": ["gezahlt als im Vorjahr", "gezahlt im Vorjahr als", "als gezahlt im Vorjahr", "im Vorjahr als gezahlt"],
+          "answer": 0,
+          "vi": "Năm nay công ty đã nộp nhiều thuế hơn năm trước.",
+          "explain": "Cụm so sánh „als im Vorjahr“ thường được tách ra Nachfeld, sau phân từ „gezahlt“ (Ausklammerung). Các phương án khác tách rời „als“ khỏi thành phần so sánh của nó."
+        },
+        {
+          "q": "Câu nào sai?",
+          "options": ["Gestern hat sich der Mandant beschwert.", "Gestern hat der Mandant sich beschwert.", "Gestern hat sich er beschwert.", "Gestern hat er sich beschwert."],
+          "answer": 2,
+          "vi": "Câu sai: Đúng phải là „Gestern hat er sich beschwert.“ (Hôm qua anh ấy đã phàn nàn.)",
+          "explain": "Đại từ phản thân có thể đứng trước hoặc sau chủ ngữ là danh từ (câu 1 và 2 đều đúng), nhưng chủ ngữ là đại từ thì luôn đứng trước: „er sich“, không phải „sich er“."
+        },
+        {
+          "q": "Hat die Behörde dem Antragsteller den Bescheid schon zugestellt? – Nein, aber morgen wird ___ zustellen.",
+          "options": ["sie es ihm", "es ihm sie", "sie ihm es", "ihm sie es"],
+          "answer": 0,
+          "vi": "Cơ quan đã tống đạt quyết định cho người nộp đơn chưa? – Chưa, nhưng ngày mai họ sẽ tống đạt nó cho anh ta.",
+          "explain": "Ba đại từ trong Mittelfeld theo thứ tự Nominativ – Akkusativ – Dativ: „sie es ihm“. „sie ihm es“ sai vì đại từ Akkusativ „es“ phải đứng trước đại từ Dativ „ihm“."
+        },
+        {
+          "q": "Câu nào cùng nghĩa với „Es wurden zahlreiche Einsprüche eingelegt.“?",
+          "options": ["Zahlreiche Einsprüche wurden es eingelegt.", "Es wurde zahlreiche Einsprüche eingelegt.", "Zahlreiche Einsprüche wurden eingelegt.", "Zahlreiche Einsprüche es wurden eingelegt."],
+          "answer": 2,
+          "vi": "Đã có nhiều đơn khiếu nại được nộp.",
+          "explain": "„es“ chỉ giữ chỗ Vorfeld; khi chủ ngữ thật „zahlreiche Einsprüche“ lên đầu câu thì „es“ biến mất. Câu 2 sai vì động từ phải chia số nhiều theo chủ ngữ thật („wurden“), không theo „es“."
+        },
+        {
+          "q": "Câu nào sai?",
+          "options": ["Wir haben lange diskutiert über die neue Regelung.", "Er hat mehr verdient als sein Kollege.", "Ich habe mich sehr gefreut über Ihre Nachricht.", "Ich habe gestern unterschrieben den Vertrag."],
+          "answer": 3,
+          "vi": "Câu sai: Đúng phải là „Ich habe gestern den Vertrag unterschrieben.“ (Hôm qua tôi đã ký hợp đồng.)",
+          "explain": "Tân ngữ trực tiếp („den Vertrag“) không được tách ra Nachfeld mà phải nằm trong Mittelfeld. Cụm giới từ (über …) và cụm so sánh (als …) thì có thể được tách ra (Ausklammerung)."
+        },
+        {
+          "q": "___ hat der Mandant den Vertrag noch nicht, aber er hat ihn gelesen.",
+          "options": ["Unterschrieb", "Unterschreiben", "Unterschrieben", "Zu unterschreiben"],
+          "answer": 2,
+          "vi": "Ký thì thân chủ chưa ký hợp đồng, nhưng anh ấy đã đọc nó rồi.",
+          "explain": "Để nhấn mạnh tương phản, phân từ Partizip II „unterschrieben“ có thể được đưa lên Vorfeld, trợ động từ „hat“ vẫn ở vị trí thứ hai. „Unterschreiben“ sai vì với „hat“ cần Partizip II, không phải nguyên mẫu."
+        },
+        {
+          "q": "Dass die Frist eingehalten wird, ___ für den Erfolg der Klage entscheidend.",
+          "options": ["es ist", "ist es", "das es ist", "ist"],
+          "answer": 3,
+          "vi": "Việc tuân thủ thời hạn có ý nghĩa quyết định đối với thành công của vụ kiện.",
+          "explain": "Mệnh đề dass làm chủ ngữ đã chiếm Vorfeld, nên động từ „ist“ đứng ngay sau và không còn „es“ (Korrelat chỉ dùng khi mệnh đề dass đứng sau: Es ist entscheidend, dass …). „ist es“ là lỗi thường gặp do giữ lại „es“."
+        },
+        {
+          "q": "Câu nào sai?",
+          "options": ["Bis spät in die Nacht wurde es verhandelt.", "Es wurde bis spät in die Nacht verhandelt.", "Bis spät in die Nacht wurde verhandelt.", "Verhandelt wurde bis spät in die Nacht."],
+          "answer": 0,
+          "vi": "Câu sai: Đúng phải là „Bis spät in die Nacht wurde verhandelt.“ (Cuộc đàm phán diễn ra đến tận khuya.)",
+          "explain": "Trong câu bị động không chủ ngữ, „es“ chỉ giữ chỗ Vorfeld và phải biến mất khi thành phần khác đứng đầu câu. Câu 4 đúng: phân từ „verhandelt“ được đưa lên Vorfeld nên cũng không cần „es“."
+        }
+      ]
+    }
+  ]
+}

@@ -125,7 +125,7 @@
       el.style.setProperty("--lv", `var(--${lv})`);
       el.innerHTML = `
         <h3>${lv}</h3>
-        <div class="desc">${list.length} ${MODE === "listen" ? "bài" : "chủ đề"} · ${total} câu</div>
+        <div class="desc">${list.filter((u) => !u.test).length} ${MODE === "listen" || MODE === "speak" ? "bài" : "chủ đề"}${list.some((u) => u.test) ? " + kiểm tra" : ""} · ${total} câu</div>
         <div class="progress">Qua ${done}/${list.length}</div>
         <div class="mini-bar"><div style="width:${Math.round((done / list.length) * 100)}%"></div></div>
         <div class="row"><button class="btn primary small">Vào học</button></div>`;

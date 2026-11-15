@@ -1,0 +1,563 @@
+{
+  "level": "A2",
+  "topics": [
+    {
+      "title": "Đại từ bất định (Indefinitpronomen)",
+      "intro": "Đại từ bất định chỉ người hoặc vật không xác định.\n• Người: jemand (ai đó) – niemand (không ai); Akk: jemanden/niemanden, Dat: jemandem/niemandem.\n• Vật: etwas (cái gì đó) – nichts (không gì) – alles (tất cả); ba từ này không biến đổi.\n• man (người ta) chỉ có Nominativ; Akk dùng „einen“, Dat dùng „einem“: Das macht einen müde.\n• Thay cho danh từ đã nhắc (một cái / không cái nào):\n  Nom: einer – eine – eins | keiner – keine – keins | Pl: welche / keine\n  Akk: einen – eine – eins | keinen – keine – keins | Pl: welche / keine\n  Dat: einem – einer – einem | keinem – keiner – keinem | Pl: welchen / keinen\nVí dụ: Hast du einen Stift? – Ja, ich habe einen. / Brauchst du Eier? – Ja, haben wir welche? Lưu ý: kein/ein (không có đuôi) chỉ đứng trước danh từ, không đứng một mình.",
+      "questions": [
+        {
+          "q": "Möchtest du ___ trinken? – Ja, ein Wasser, bitte.",
+          "options": [
+            "jemand",
+            "etwas",
+            "man",
+            "niemand"
+          ],
+          "answer": 1,
+          "vi": "Bạn có muốn uống gì không? – Có, cho tôi một cốc nước.",
+          "explain": "„etwas“ (cái gì đó) dùng cho đồ vật/sự việc. „jemand“ và „niemand“ chỉ người, nên không đi với „trinken“ ở đây."
+        },
+        {
+          "q": "Ist ___ zu Hause? – Nein, niemand.",
+          "options": [
+            "jemand",
+            "etwas",
+            "man",
+            "nichts"
+          ],
+          "answer": 0,
+          "vi": "Có ai ở nhà không? – Không, không có ai.",
+          "explain": "Hỏi về người thì dùng „jemand“ (ai đó). „etwas“ chỉ vật, nên không hợp với câu trả lời „niemand“."
+        },
+        {
+          "q": "Ich habe Hunger, aber im Kühlschrank ist ___.",
+          "options": [
+            "niemand",
+            "kein",
+            "keiner",
+            "nichts"
+          ],
+          "answer": 3,
+          "vi": "Tôi đói, nhưng trong tủ lạnh không có gì cả.",
+          "explain": "„nichts“ (không có gì) là phủ định của „etwas“, dùng cho đồ vật. „kein“ là quán từ, phải đi kèm danh từ, không đứng một mình."
+        },
+        {
+          "q": "In Deutschland isst ___ viel Brot.",
+          "options": [
+            "einen",
+            "einem",
+            "man",
+            "jemanden"
+          ],
+          "answer": 2,
+          "vi": "Ở Đức người ta ăn nhiều bánh mì.",
+          "explain": "„man“ (người ta) chỉ dùng ở Nominativ làm chủ ngữ. „einen“/„einem“ là dạng Akkusativ/Dativ của „man“, không làm chủ ngữ được."
+        },
+        {
+          "q": "Hast du einen Kuli? – Ja, ich habe ___.",
+          "options": [
+            "einer",
+            "eins",
+            "einen",
+            "eine"
+          ],
+          "answer": 2,
+          "vi": "Bạn có bút bi không? – Có, tôi có một cái.",
+          "explain": "„der Kuli“ là giống đực, làm tân ngữ (Akkusativ) nên dùng „einen“. „einer“ là dạng Nominativ giống đực."
+        },
+        {
+          "q": "Brauchst du ein Heft? – Nein, ich habe schon ___.",
+          "options": [
+            "eins",
+            "einen",
+            "einer",
+            "eine"
+          ],
+          "answer": 0,
+          "vi": "Bạn có cần một quyển vở không? – Không, tôi có một quyển rồi.",
+          "explain": "„das Heft“ là giống trung; đại từ thay thế ở Nominativ/Akkusativ là „eins“. „einen“ chỉ dùng cho giống đực."
+        },
+        {
+          "q": "Hast du Briefmarken? – Nein, ich habe ___.",
+          "options": [
+            "keinen",
+            "keine",
+            "keiner",
+            "keins"
+          ],
+          "answer": 1,
+          "vi": "Bạn có tem không? – Không, tôi không có cái nào.",
+          "explain": "„Briefmarken“ là số nhiều, Akkusativ số nhiều là „keine“. „keinen“ là Akkusativ giống đực số ít (hoặc Dativ số nhiều)."
+        },
+        {
+          "q": "Ich brauche Eier. Haben wir noch ___?",
+          "options": [
+            "welcher",
+            "welchen",
+            "welches",
+            "welche"
+          ],
+          "answer": 3,
+          "vi": "Tôi cần trứng. Nhà mình còn trứng không?",
+          "explain": "Với danh từ số nhiều không xác định, dùng „welche“ thay cho „einer/eine/eins“ (không có số nhiều). „welchen“ là dạng Dativ số nhiều, sai ở đây."
+        },
+        {
+          "q": "Ich habe das Geheimnis ___ erzählt.",
+          "options": [
+            "niemandem",
+            "niemanden",
+            "man",
+            "nichts"
+          ],
+          "answer": 0,
+          "vi": "Tôi không kể bí mật đó cho ai cả.",
+          "explain": "„erzählen“ cần người nhận ở Dativ: jemandem/niemandem. „niemanden“ là Akkusativ nên sai."
+        },
+        {
+          "q": "Diese Stadt ist so laut, sie macht ___ nervös.",
+          "options": [
+            "man",
+            "einem",
+            "jemandem",
+            "einen"
+          ],
+          "answer": 3,
+          "vi": "Thành phố này ồn quá, nó làm người ta bực bội.",
+          "explain": "„man“ chỉ có Nominativ; ở Akkusativ phải dùng „einen“ (machen + Akk). Giữ nguyên „man“ ở vị trí tân ngữ là lỗi điển hình."
+        },
+        {
+          "q": "Von meinen Freundinnen habe ich nur noch mit ___ Kontakt.",
+          "options": [
+            "eine",
+            "einer",
+            "einem",
+            "eins"
+          ],
+          "answer": 1,
+          "vi": "Trong số các bạn gái của tôi, tôi chỉ còn liên lạc với một người.",
+          "explain": "„mit“ đi với Dativ; Dativ giống cái của đại từ „eine“ là „einer“. „eine“ là Nominativ/Akkusativ nên sai."
+        },
+        {
+          "q": "Ich habe zwei Fahrräder, aber mit ___ kann ich fahren – beide sind kaputt.",
+          "options": [
+            "keins",
+            "keiner",
+            "keinem",
+            "kein"
+          ],
+          "answer": 2,
+          "vi": "Tôi có hai chiếc xe đạp, nhưng không đi được chiếc nào – cả hai đều hỏng.",
+          "explain": "„mit“ + Dativ, „das Fahrrad“ giống trung → „keinem“. „keins“ là Nominativ/Akkusativ giống trung, không dùng sau „mit“."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "options": [
+            "Nur einen von den Kollegen hat mir geholfen.",
+            "Nur einer von den Kollegen hat mir geholfen.",
+            "Nur eins von den Kollegen hat mir geholfen.",
+            "Nur einem von den Kollegen hat mir geholfen."
+          ],
+          "answer": 1,
+          "vi": "Chỉ có một người trong số các đồng nghiệp đã giúp tôi.",
+          "explain": "Đại từ làm chủ ngữ (Nominativ), chỉ đồng nghiệp nam/chung → „einer“. „einen“ là Akkusativ, „einem“ là Dativ, không làm chủ ngữ được."
+        },
+        {
+          "q": "Câu nào sai ngữ pháp?",
+          "options": [
+            "Ich habe keins Auto.",
+            "Ich habe alles verstanden.",
+            "Hast du etwas gehört?",
+            "Ich kenne hier niemanden."
+          ],
+          "answer": 0,
+          "vi": "Câu sai: „Ich habe keins Auto.“ – đúng phải là „Ich habe kein Auto.“ (Tôi không có ô tô.)",
+          "explain": "„keins“ là đại từ đứng một mình, không đứng trước danh từ; trước danh từ phải dùng quán từ „kein“. Các câu còn lại đều đúng."
+        },
+        {
+          "q": "Câu nào cùng nghĩa với „Hier spricht man Deutsch.“?",
+          "options": [
+            "Hier spricht ein Mann Deutsch.",
+            "Hier spricht niemand Deutsch.",
+            "Hier spricht nur eine Person Deutsch.",
+            "Hier sprechen die Leute Deutsch."
+          ],
+          "answer": 3,
+          "vi": "Ở đây mọi người nói tiếng Đức.",
+          "explain": "„man“ nghĩa là „người ta, mọi người nói chung“, không phải „một người đàn ông“ (der Mann). Vì vậy chỉ „die Leute“ cùng nghĩa."
+        }
+      ]
+    },
+    {
+      "title": "Đại từ chỉ định & nghi vấn (Demonstrativ- und Interrogativpronomen)",
+      "intro": "dieser (này), jeder (mỗi), welcher (nào) biến đổi giống quán từ der/die/das:\n  Nom: dieser – diese – dieses – diese (Pl)\n  Akk: diesen – diese – dieses – diese\n  Dat: diesem – dieser – diesem – diesen (+n)\n„jeder“ chỉ dùng số ít; „alle“ (tất cả) và „manche“ (một số) dùng với số nhiều (Dat: allen, manchen).\n„Was für ein …?“ hỏi về loại/kiểu; „ein“ biến đổi theo cách do động từ hoặc giới từ trong câu quyết định (chữ „für“ không chi phối cách): Was für einen Film? In was für einer Wohnung? Số nhiều: Was für Bücher?\nder/die/das làm đại từ chỉ định (thay cho danh từ, nhấn mạnh) giống quán từ, trừ Dativ số nhiều là „denen“: Den kenne ich. Mit denen spiele ich.",
+      "questions": [
+        {
+          "q": "___ Jacke gefällt mir sehr gut.",
+          "options": [
+            "Dieser",
+            "Dieses",
+            "Diese",
+            "Diesen"
+          ],
+          "answer": 2,
+          "vi": "Tôi rất thích cái áo khoác này.",
+          "explain": "„die Jacke“ giống cái, làm chủ ngữ (Nominativ) → „diese“. „Dieser“ là Nominativ giống đực."
+        },
+        {
+          "q": "___ Kind bekommt ein Eis.",
+          "options": [
+            "Jeder",
+            "Jede",
+            "Jeden",
+            "Jedes"
+          ],
+          "answer": 3,
+          "vi": "Mỗi đứa trẻ được một cây kem.",
+          "explain": "„das Kind“ giống trung, Nominativ → „jedes“ (đuôi giống „das“). „Jeder“ chỉ dùng cho giống đực."
+        },
+        {
+          "q": "___ Bus fährt zum Bahnhof?",
+          "options": [
+            "Welcher",
+            "Welche",
+            "Welches",
+            "Welchen"
+          ],
+          "answer": 0,
+          "vi": "Xe buýt nào chạy đến nhà ga?",
+          "explain": "„der Bus“ giống đực, làm chủ ngữ → „welcher“. „Welchen“ là Akkusativ, không làm chủ ngữ được."
+        },
+        {
+          "q": "Ich nehme ___ Tisch am Fenster.",
+          "options": [
+            "dieser",
+            "diesen",
+            "dieses",
+            "diesem"
+          ],
+          "answer": 1,
+          "vi": "Tôi lấy cái bàn cạnh cửa sổ này.",
+          "explain": "„nehmen“ cần Akkusativ; „der Tisch“ giống đực → „diesen“. „dieser“ là Nominativ nên sai."
+        },
+        {
+          "q": "___ Studenten haben die Prüfung bestanden – niemand ist durchgefallen.",
+          "options": [
+            "Jeder",
+            "Alle",
+            "Jede",
+            "Allen"
+          ],
+          "answer": 1,
+          "vi": "Tất cả sinh viên đều đã đỗ kỳ thi – không ai trượt cả.",
+          "explain": "Danh từ số nhiều „Studenten“ đi với „alle“ ở Nominativ. „jeder“ chỉ dùng với số ít; „allen“ là Dativ số nhiều."
+        },
+        {
+          "q": "In ___ Stadt wohnst du?",
+          "options": [
+            "welche",
+            "welchem",
+            "welches",
+            "welcher"
+          ],
+          "answer": 3,
+          "vi": "Bạn sống ở thành phố nào?",
+          "explain": "„in“ + Dativ (trả lời câu hỏi Wo?), „die Stadt“ giống cái → „welcher“. „welche“ là Nominativ/Akkusativ giống cái."
+        },
+        {
+          "q": "Ich spreche mit ___ Kunden persönlich.",
+          "options": [
+            "jedem",
+            "jeden",
+            "jeder",
+            "alle"
+          ],
+          "answer": 0,
+          "vi": "Tôi nói chuyện trực tiếp với từng khách hàng.",
+          "explain": "„mit“ + Dativ; „der Kunde“ giống đực → „jedem Kunden“. „jeden“ là Akkusativ giống đực, sai sau „mit“."
+        },
+        {
+          "q": "___ Leute mögen keinen Kaffee, aber die meisten trinken ihn gern.",
+          "options": [
+            "Mancher",
+            "Jede",
+            "Manche",
+            "Manchen"
+          ],
+          "answer": 2,
+          "vi": "Một số người không thích cà phê, nhưng phần lớn thì thích uống.",
+          "explain": "„manche“ (một số) đi với danh từ số nhiều; Nominativ số nhiều → „manche“. „Manchen“ là Dativ số nhiều."
+        },
+        {
+          "q": "Was für ___ Auto hast du? – Einen Golf.",
+          "options": [
+            "einen",
+            "eine",
+            "einem",
+            "ein"
+          ],
+          "answer": 3,
+          "vi": "Bạn có loại ô tô gì? – Một chiếc Golf.",
+          "explain": "Trong „was für ein“, quán từ „ein“ biến đổi theo danh từ: „das Auto“, Akkusativ → „ein“. „einen“ chỉ dùng cho giống đực."
+        },
+        {
+          "q": "Was für ___ Film möchtest du sehen? – Eine Komödie.",
+          "options": [
+            "einen",
+            "ein",
+            "einem",
+            "einer"
+          ],
+          "answer": 0,
+          "vi": "Bạn muốn xem loại phim gì? – Một phim hài.",
+          "explain": "„der Film“ giống đực, là tân ngữ của „sehen“ → Akkusativ „einen“. „ein“ là Nominativ giống đực hoặc dạng giống trung."
+        },
+        {
+          "q": "In was für ___ Wohnung wohnt ihr?",
+          "options": [
+            "eine",
+            "einem",
+            "einer",
+            "einen"
+          ],
+          "answer": 2,
+          "vi": "Các bạn sống trong loại căn hộ nào?",
+          "explain": "Giới từ „in“ (Wo?) quyết định cách, không phải „für“: „in einer Wohnung“ (Dativ giống cái). „eine“ sai vì „für“ ở đây không chi phối cách."
+        },
+        {
+          "q": "Kennst du den Mann da? – Ja, ___ kenne ich gut.",
+          "options": [
+            "der",
+            "den",
+            "dem",
+            "die"
+          ],
+          "answer": 1,
+          "vi": "Bạn có biết người đàn ông kia không? – Có, ông ấy thì tôi biết rõ.",
+          "explain": "Đại từ chỉ định „der“ thay cho „den Mann“, làm tân ngữ của „kennen“ → Akkusativ „den“. „der“ là Nominativ."
+        },
+        {
+          "q": "Siehst du die Kinder dort? Mit ___ spielt mein Sohn oft.",
+          "options": [
+            "denen",
+            "den",
+            "die",
+            "dem"
+          ],
+          "answer": 0,
+          "vi": "Bạn có thấy mấy đứa trẻ ở đó không? Con trai tôi hay chơi với chúng.",
+          "explain": "Đại từ chỉ định ở Dativ số nhiều là „denen“ (khác với quán từ „den“). „den“ là lỗi hay gặp vì quán từ Dativ số nhiều là „den“."
+        },
+        {
+          "q": "Câu nào sai ngữ pháp?",
+          "options": [
+            "Ich helfe allen Kindern.",
+            "Welches Buch liest du?",
+            "Jede Woche gehe ich schwimmen.",
+            "Jeder Leute kennt das."
+          ],
+          "answer": 3,
+          "vi": "Câu sai: „Jeder Leute kennt das.“ – đúng là „Jeder kennt das.“ hoặc „Alle Leute kennen das.“ (Ai cũng biết điều đó.)",
+          "explain": "„jeder“ chỉ đi với danh từ số ít, còn „Leute“ luôn là số nhiều. Các câu khác đúng, ví dụ „allen Kindern“ là Dativ số nhiều."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "options": [
+            "Mit welcher Zug fährst du?",
+            "Mit welchen Zug fährst du?",
+            "Mit welchem Zug fährst du?",
+            "Mit welches Zug fährst du?"
+          ],
+          "answer": 2,
+          "vi": "Bạn đi chuyến tàu nào?",
+          "explain": "„mit“ + Dativ, „der Zug“ giống đực → „welchem“. „welchen“ là Akkusativ giống đực, sai sau „mit“."
+        }
+      ]
+    },
+    {
+      "title": "Động từ đi với giới từ & wo(r)-/da(r)- (Verben mit Präpositionen)",
+      "intro": "Nhiều động từ đi với một giới từ cố định, cần học thuộc cả cụm:\n  warten auf + Akk, denken an + Akk, sich interessieren für + Akk, sprechen über + Akk, sprechen mit + Dat, Angst haben vor + Dat\n  sich freuen auf + Akk (mong chờ điều sắp tới) – sich freuen über + Akk (vui về điều đã có/đã xảy ra).\nHỏi và thay thế cho VẬT/SỰ VIỆC: wo- + giới từ (Wofür? Womit?) và da- + giới từ (dafür, damit); nếu giới từ bắt đầu bằng nguyên âm thì thêm „r“: Worauf? – Darauf. Woran? – Daran. Worüber? – Darüber.\nHỏi và thay thế cho NGƯỜI: giới từ + wen/wem và giới từ + đại từ nhân xưng: Auf wen wartest du? – Auf ihn. Mit wem sprichst du? – Mit ihr.",
+      "questions": [
+        {
+          "q": "Ich warte ___ den Bus.",
+          "options": [
+            "auf",
+            "für",
+            "an",
+            "über"
+          ],
+          "answer": 0,
+          "vi": "Tôi đang đợi xe buýt.",
+          "explain": "Cố định: „warten auf + Akkusativ“. „für“ là lỗi hay gặp do dịch từ tiếng Việt/tiếng Anh („wait for“)."
+        },
+        {
+          "q": "Interessierst du dich ___ Fußball?",
+          "options": [
+            "an",
+            "auf",
+            "für",
+            "über"
+          ],
+          "answer": 2,
+          "vi": "Bạn có quan tâm đến bóng đá không?",
+          "explain": "Cố định: „sich interessieren für + Akkusativ“. „an“ sai vì chỉ dùng với „Interesse haben an“."
+        },
+        {
+          "q": "Ich denke oft ___ meine Familie in Vietnam.",
+          "options": [
+            "auf",
+            "an",
+            "für",
+            "mit"
+          ],
+          "answer": 1,
+          "vi": "Tôi thường nghĩ đến gia đình ở Việt Nam.",
+          "explain": "Cố định: „denken an + Akkusativ“ (nghĩ đến, nhớ đến). „auf“ sai vì không đi với „denken“."
+        },
+        {
+          "q": "Morgen beginnen die Ferien. Ich freue mich schon ___ die Reise.",
+          "options": [
+            "über",
+            "für",
+            "an",
+            "auf"
+          ],
+          "answer": 3,
+          "vi": "Ngày mai kỳ nghỉ bắt đầu. Tôi đã mong chờ chuyến đi rồi.",
+          "explain": "Chuyến đi còn ở tương lai nên dùng „sich freuen auf“ (mong chờ). „über“ dùng cho việc đã xảy ra/đang có."
+        },
+        {
+          "q": "Danke für das Geschenk! Ich freue mich sehr ___.",
+          "options": [
+            "darauf",
+            "worüber",
+            "über es",
+            "darüber"
+          ],
+          "answer": 3,
+          "vi": "Cảm ơn món quà! Tôi rất vui về nó.",
+          "explain": "Món quà đã nhận nên dùng „sich freuen über“; thay cho vật dùng „da(r)- + giới từ“ → „darüber“. „über es“ sai vì không dùng giới từ + đại từ cho vật."
+        },
+        {
+          "q": "Ich habe gestern lange mit ___ Chef gesprochen.",
+          "options": [
+            "meinen",
+            "meinem",
+            "meiner",
+            "mein"
+          ],
+          "answer": 1,
+          "vi": "Hôm qua tôi đã nói chuyện lâu với sếp của tôi.",
+          "explain": "„sprechen mit“ + Dativ; „der Chef“ giống đực → „meinem“. „meinen“ là Akkusativ nên sai."
+        },
+        {
+          "q": "___ wartest du? – Auf den Zug.",
+          "options": [
+            "Woauf",
+            "Wofür",
+            "Worauf",
+            "Auf wen"
+          ],
+          "answer": 2,
+          "vi": "Bạn đang đợi gì vậy? – Đợi tàu.",
+          "explain": "Hỏi về vật: wo + giới từ; vì „auf“ bắt đầu bằng nguyên âm nên thêm „r“ → „Worauf“. „Auf wen“ chỉ dùng để hỏi về người."
+        },
+        {
+          "q": "___ sprecht ihr? – Über die Prüfung.",
+          "options": [
+            "Worüber",
+            "Woüber",
+            "Über wen",
+            "Darüber"
+          ],
+          "answer": 0,
+          "vi": "Các bạn đang nói về chuyện gì? – Về kỳ thi.",
+          "explain": "Hỏi về sự việc với „sprechen über“ → „Worüber“ (thêm „r“ trước nguyên âm). „Darüber“ là từ để trả lời, không phải từ để hỏi."
+        },
+        {
+          "q": "Mit ___ hast du telefoniert? – Mit Herrn Schulz.",
+          "options": [
+            "wen",
+            "wem",
+            "wer",
+            "was"
+          ],
+          "answer": 1,
+          "vi": "Bạn đã gọi điện với ai? – Với ông Schulz.",
+          "explain": "Hỏi về người sau „mit“ (Dativ) → „mit wem“. „wen“ là Akkusativ nên sai."
+        },
+        {
+          "q": "Denkst du an den Termin morgen? – Ja, ich denke ___.",
+          "options": [
+            "an ihn",
+            "darauf",
+            "woran",
+            "daran"
+          ],
+          "answer": 3,
+          "vi": "Bạn có nhớ cuộc hẹn ngày mai không? – Có, tôi nhớ.",
+          "explain": "„der Termin“ là vật, nên thay bằng „da(r)- + an“ → „daran“. „an ihn“ chỉ dùng cho người."
+        },
+        {
+          "q": "Denkst du noch an deinen alten Lehrer? – Ja, ich denke oft an ___.",
+          "options": [
+            "ihn",
+            "ihm",
+            "er",
+            "sein"
+          ],
+          "answer": 0,
+          "vi": "Bạn còn nhớ thầy giáo cũ không? – Có, tôi thường nghĩ đến thầy.",
+          "explain": "Với người dùng giới từ + đại từ nhân xưng; „an“ ở đây cần Akkusativ → „an ihn“. „ihm“ là Dativ nên sai."
+        },
+        {
+          "q": "Hast du Angst vor der Prüfung? – Nein, ich habe keine Angst ___.",
+          "options": [
+            "darvor",
+            "dafür",
+            "davor",
+            "vor es"
+          ],
+          "answer": 2,
+          "vi": "Bạn có sợ kỳ thi không? – Không, tôi không sợ.",
+          "explain": "Thay cho vật: „da- + vor“ → „davor“; chỉ thêm „r“ khi giới từ bắt đầu bằng nguyên âm, nên „darvor“ sai."
+        },
+        {
+          "q": "Câu nào sai ngữ pháp?",
+          "options": [
+            "Ich interessiere mich für Politik.",
+            "Wir sprechen über das Wetter.",
+            "Sie wartet auf ihren Mann.",
+            "Er hat Angst vor den Hund."
+          ],
+          "answer": 3,
+          "vi": "Câu sai: „Er hat Angst vor den Hund.“ – đúng là „Er hat Angst vor dem Hund.“ (Anh ấy sợ con chó.)",
+          "explain": "„Angst haben vor“ luôn đi với Dativ → „vor dem Hund“. Các câu còn lại dùng đúng Akkusativ sau „für“, „über“, „auf“."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "options": [
+            "Woran interessierst du dich? – An Musik.",
+            "Wofür interessierst du dich? – Für Musik.",
+            "Worüber interessierst du dich? – Über Musik.",
+            "Wofür interessierst du dich? – Auf Musik."
+          ],
+          "answer": 1,
+          "vi": "Bạn quan tâm đến điều gì? – Đến âm nhạc.",
+          "explain": "„sich interessieren für“ → câu hỏi „Wofür?“ và câu trả lời „Für …“. Phương án cuối hỏi đúng nhưng trả lời sai giới từ."
+        },
+        {
+          "q": "Câu nào cùng nghĩa với „Ich freue mich auf den Urlaub.“?",
+          "options": [
+            "Der Urlaub kommt bald, und ich bin schon jetzt froh, dass er kommt.",
+            "Ich hatte einen schönen Urlaub und bin froh darüber.",
+            "Ich habe keine Lust auf den Urlaub.",
+            "Ich habe Angst vor dem Urlaub."
+          ],
+          "answer": 0,
+          "vi": "Kỳ nghỉ sắp đến và tôi đã thấy vui vì nó sắp đến rồi.",
+          "explain": "„sich freuen auf“ = mong chờ điều gì đó trong tương lai. Câu „Ich hatte einen schönen Urlaub…“ nói về kỳ nghỉ đã qua, tương ứng với „sich freuen über“."
+        }
+      ]
+    }
+  ]
+}

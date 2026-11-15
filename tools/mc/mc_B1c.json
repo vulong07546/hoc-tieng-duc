@@ -1,0 +1,338 @@
+{
+  "level": "B1",
+  "topics": [
+    {
+      "title": "Trật tự từ trong câu (Satzstellung)",
+      "intro": "Trong câu chính, động từ chia luôn đứng ở vị trí 2. Nếu vị trí 1 (Vorfeld) là trạng từ, tân ngữ hay cả một mệnh đề phụ thì chủ ngữ đứng ngay sau động từ (Inversion): Morgen fahre ich … / Wenn ich Zeit habe, besuche ich dich.\nCác trạng ngữ thường theo thứ tự TeKaMoLo: Temporal (khi nào) – Kausal (vì sao) – Modal (thế nào) – Lokal (ở đâu/đi đâu); chỉ hướng đứng cuối: Ich fahre morgen mit dem Zug nach München.\nHai tân ngữ: hai danh từ → Dativ trước Akkusativ (Ich gebe meinem Bruder das Buch); có đại từ → đại từ đứng trước danh từ (Ich gebe es meinem Bruder / Ich gebe ihm das Buch); hai đại từ → Akkusativ trước Dativ (Ich gebe es ihm). Đại từ đứng sát sau động từ/chủ ngữ, trước các trạng ngữ.\n'nicht' phủ định cả câu đứng gần cuối: sau tân ngữ và trạng từ thời gian, nhưng trước Partizip/Infinitiv, trước tính từ vị ngữ và trước bổ ngữ chỉ hướng: Ich habe den Film nicht gesehen. / Er kommt heute nicht ins Büro.",
+      "questions": [
+        {
+          "q": "Morgen ___ nach Berlin.",
+          "options": ["fahre ich", "ich fahre", "fahren ich", "ich fahren"],
+          "answer": 0,
+          "vi": "Ngày mai tôi đi Berlin.",
+          "explain": "Khi 'Morgen' đứng đầu câu, động từ vẫn ở vị trí 2 và chủ ngữ phải đứng sau động từ (đảo ngữ). 'ich fahre' sai vì động từ bị đẩy xuống vị trí 3."
+        },
+        {
+          "q": "Ich fahre ___.",
+          "options": ["nach München morgen mit dem Zug", "morgen mit dem Zug nach München", "mit dem Zug nach München morgen", "nach München mit dem Zug morgen"],
+          "answer": 1,
+          "vi": "Ngày mai tôi đi tàu tới München.",
+          "explain": "Theo TeKaMoLo: thời gian (morgen) – cách thức (mit dem Zug) – nơi chốn/hướng (nach München) ở cuối. Các phương án khác đặt 'morgen' ở cuối hoặc chỉ hướng lên trước, đều sai."
+        },
+        {
+          "q": "Leider ___ heute keine Zeit.",
+          "options": ["ich habe", "hat ich", "habe ich", "haben ich"],
+          "answer": 2,
+          "vi": "Tiếc là hôm nay tôi không có thời gian.",
+          "explain": "'Leider' chiếm vị trí 1 nên động từ chia 'habe' đứng thứ 2, rồi đến chủ ngữ 'ich'. 'hat ich' đúng trật tự nhưng sai cách chia động từ."
+        },
+        {
+          "q": "Ich habe den Film leider ___.",
+          "options": ["gesehen nicht", "nicht gesehen haben", "nichts gesehen", "nicht gesehen"],
+          "answer": 3,
+          "vi": "Tiếc là tôi đã không xem bộ phim đó.",
+          "explain": "'nicht' phủ định cả câu đứng trước Partizip II ở cuối câu. 'gesehen nicht' sai vì Partizip phải ở vị trí cuối cùng."
+        },
+        {
+          "q": "Das Wetter ist heute ___.",
+          "options": ["nicht schön", "schön nicht", "nichts schön", "kein schön"],
+          "answer": 0,
+          "vi": "Hôm nay thời tiết không đẹp.",
+          "explain": "'nicht' đứng trước tính từ vị ngữ. 'kein' chỉ dùng để phủ định danh từ, không dùng với tính từ."
+        },
+        {
+          "q": "Kannst du ___ geben?",
+          "options": ["mich das Salz", "mir das Salz", "das Salz mich", "mir dem Salz"],
+          "answer": 1,
+          "vi": "Bạn có thể đưa cho tôi lọ muối không?",
+          "explain": "Đại từ Dativ 'mir' (người nhận) đứng trước danh từ Akkusativ 'das Salz'. 'mich das Salz' sai vì người nhận phải ở Dativ."
+        },
+        {
+          "q": "Hast du Paul das Buch zurückgegeben? – Ja, ich habe ___ gestern zurückgegeben.",
+          "options": ["ihm es", "es ihn", "ihn ihm", "es ihm"],
+          "answer": 3,
+          "vi": "Bạn đã trả lại cuốn sách cho Paul chưa? – Rồi, hôm qua tôi đã trả lại nó cho cậu ấy.",
+          "explain": "Khi cả hai tân ngữ là đại từ thì Akkusativ đứng trước Dativ: 'es ihm'. 'ihm es' là lỗi rất phổ biến do bắt chước thứ tự của hai danh từ."
+        },
+        {
+          "q": "Wo ist mein Schlüssel? – Ich habe ___ gegeben.",
+          "options": ["deiner Schwester ihn", "ihn deine Schwester", "ihn deiner Schwester", "ihm deiner Schwester"],
+          "answer": 2,
+          "vi": "Chìa khóa của tôi đâu? – Tôi đã đưa nó cho chị (em) gái của bạn.",
+          "explain": "Đại từ 'ihn' (Akkusativ) đứng trước danh từ 'deiner Schwester' (Dativ). 'deiner Schwester ihn' sai vì đại từ phải đứng trước danh từ."
+        },
+        {
+          "q": "Wenn ich Zeit habe, ___.",
+          "options": ["ich besuche dich", "besuche ich dich", "ich dich besuche", "dich besuche ich"],
+          "answer": 1,
+          "vi": "Khi nào có thời gian, tôi sẽ đến thăm bạn.",
+          "explain": "Mệnh đề phụ 'Wenn ich Zeit habe' chiếm vị trí 1, nên động từ 'besuche' đứng ngay sau dấu phẩy, rồi đến chủ ngữ. 'ich besuche dich' sai vì động từ rơi xuống vị trí 3."
+        },
+        {
+          "q": "Er ist krank. Deshalb ___.",
+          "options": ["er kommt heute nicht ins Büro", "kommt er heute ins Büro nicht", "kommt er heute nicht ins Büro", "er kommt heute ins Büro nicht"],
+          "answer": 2,
+          "vi": "Anh ấy bị ốm. Vì vậy hôm nay anh ấy không đến văn phòng.",
+          "explain": "'Deshalb' chiếm vị trí 1 nên phải đảo ngữ 'kommt er'; 'nicht' đứng trước bổ ngữ chỉ hướng 'ins Büro'. 'kommt er heute ins Büro nicht' sai vị trí 'nicht'."
+        },
+        {
+          "q": "Câu nào sai ngữ pháp?",
+          "options": ["Ich habe es ihm gestern gegeben.", "Gestern habe ich ihm das Geld gegeben.", "Ich habe gestern ihm es gegeben.", "Ich habe ihm gestern das Geld gegeben."],
+          "answer": 2,
+          "vi": "Hôm qua tôi đã đưa nó cho anh ấy. (câu đúng: Ich habe es ihm gestern gegeben.)",
+          "explain": "Hai đại từ phải theo thứ tự Akkusativ – Dativ ('es ihm') và đứng ngay sau động từ, trước trạng từ 'gestern'. Các câu còn lại đều đúng vì đại từ đứng trước trạng từ và danh từ."
+        },
+        {
+          "q": "Câu nào đúng trật tự từ?",
+          "options": ["Gestern ich bin mit dem Fahrrad zur Arbeit gefahren.", "Ich gestern bin mit dem Fahrrad zur Arbeit gefahren.", "Ich bin mit dem Fahrrad zur Arbeit gestern gefahren.", "Ich bin gestern mit dem Fahrrad zur Arbeit gefahren."],
+          "answer": 3,
+          "vi": "Hôm qua tôi đã đi làm bằng xe đạp.",
+          "explain": "Động từ chia 'bin' ở vị trí 2, sau đó theo thứ tự thời gian – cách thức – hướng. Câu 'Gestern ich bin …' sai vì thiếu đảo ngữ sau 'Gestern'."
+        },
+        {
+          "q": "Câu nào cùng nghĩa với 'Ich habe meiner Mutter die Blumen geschenkt.'?",
+          "options": ["Ich habe sie ihr geschenkt.", "Ich habe ihr sie geschenkt.", "Ich habe sie ihm geschenkt.", "Ich habe ihr ihn geschenkt."],
+          "answer": 0,
+          "vi": "Tôi đã tặng chúng (những bông hoa) cho mẹ.",
+          "explain": "'die Blumen' → 'sie' (Akkusativ), 'meiner Mutter' → 'ihr' (Dativ); hai đại từ theo thứ tự Akkusativ trước Dativ: 'sie ihr'. 'ihr sie' sai thứ tự."
+        },
+        {
+          "q": "Leider kann ich ___ zurückgeben.",
+          "options": ["dir es heute nicht", "heute nicht es dir", "es dir heute nicht", "dir heute nicht es"],
+          "answer": 2,
+          "vi": "Tiếc là hôm nay tôi không thể trả lại nó cho bạn.",
+          "explain": "Đại từ đứng đầu phần giữa câu theo thứ tự Akkusativ – Dativ ('es dir'), sau đó đến trạng từ 'heute' và 'nicht' trước Infinitiv. 'dir es heute nicht' sai thứ tự hai đại từ."
+        },
+        {
+          "q": "Câu nào sai ngữ pháp?",
+          "options": ["Am Wochenende fahren wir mit Freunden ans Meer.", "Trotzdem wir gehen heute ins Kino.", "Weil es regnet, bleiben wir zu Hause.", "Meinem Chef habe ich die Unterlagen schon geschickt."],
+          "answer": 1,
+          "vi": "Mặc dù vậy hôm nay chúng tôi vẫn đi xem phim. (câu đúng: Trotzdem gehen wir heute ins Kino.)",
+          "explain": "'Trotzdem' là trạng từ chiếm vị trí 1, nên phải đảo ngữ: 'Trotzdem gehen wir …'. Câu 'Meinem Chef habe ich …' đúng vì tân ngữ cũng có thể đứng ở vị trí 1, động từ vẫn ở vị trí 2."
+        }
+      ]
+    },
+    {
+      "title": "Nguyên mẫu không có zu (Infinitiv ohne zu)",
+      "intro": "Sau động từ khuyết thiếu và các động từ lassen, sehen, hören, helfen, lernen, gehen, bleiben, fahren, động từ thứ hai ở dạng nguyên mẫu KHÔNG có zu và đứng cuối câu: Ich lasse mein Auto reparieren. / Ich höre die Kinder spielen. / Wir gehen essen. / Bleib sitzen!\nNgoại lệ: 'brauchen' chỉ dùng với 'nicht' hoặc 'nur' và CẦN 'zu': Du brauchst nicht zu kommen (= không cần đến). / Du brauchst nur zu unterschreiben (= chỉ cần ký).\nThì Perfekt với lassen, sehen, hören: dùng hai nguyên mẫu liền nhau (Doppelinfinitiv) thay cho Partizip II: Ich habe das Auto reparieren lassen. / Ich habe ihn kommen sehen.\nTrong mệnh đề phụ, trợ động từ 'haben' đứng TRƯỚC hai nguyên mẫu: …, dass er das Auto hat reparieren lassen.\ngehen/bleiben dùng Partizip bình thường với 'sein': Wir sind schwimmen gegangen. / Er ist sitzen geblieben.",
+      "questions": [
+        {
+          "q": "Ich lasse mein Auto ___.",
+          "options": ["reparieren", "zu reparieren", "repariert", "repariere"],
+          "answer": 0,
+          "vi": "Tôi cho người sửa xe ô tô của tôi.",
+          "explain": "'lassen' + nguyên mẫu không có zu ở cuối câu. 'zu reparieren' sai vì lassen không đi với zu."
+        },
+        {
+          "q": "Wir gehen heute Abend ___.",
+          "options": ["zu essen", "essen", "gegessen", "isst"],
+          "answer": 1,
+          "vi": "Tối nay chúng tôi đi ăn.",
+          "explain": "'gehen' + nguyên mẫu không zu diễn tả mục đích đi làm gì: 'essen gehen'. 'zu essen' là lỗi do dịch từ 'đi để ăn'."
+        },
+        {
+          "q": "Ich höre die Kinder im Garten ___.",
+          "options": ["gespielt", "spielt", "spielen", "zu spielen"],
+          "answer": 2,
+          "vi": "Tôi nghe thấy bọn trẻ chơi trong vườn.",
+          "explain": "Động từ tri giác 'hören' đi với nguyên mẫu không zu. 'zu spielen' sai vì hören không dùng zu."
+        },
+        {
+          "q": "Du brauchst morgen nicht ___.",
+          "options": ["kommen", "gekommen", "kommst", "zu kommen"],
+          "answer": 3,
+          "vi": "Ngày mai bạn không cần đến.",
+          "explain": "'brauchen + nicht' luôn đi với 'zu + Infinitiv' trong tiếng Đức chuẩn. 'nicht kommen' không có zu chỉ là văn nói, không đúng chuẩn."
+        },
+        {
+          "q": "Bleib doch noch ein bisschen ___!",
+          "options": ["sitzen", "zu sitzen", "gesessen", "sitzt"],
+          "answer": 0,
+          "vi": "Ngồi lại thêm chút nữa đi!",
+          "explain": "'bleiben' + nguyên mẫu không zu: 'sitzen bleiben'. 'zu sitzen' sai vì bleiben không đi với zu."
+        },
+        {
+          "q": "Die Kinder helfen ihrer Mutter den Tisch ___.",
+          "options": ["gedeckt", "decken", "deckt", "gedeckt haben"],
+          "answer": 1,
+          "vi": "Bọn trẻ giúp mẹ dọn bàn ăn.",
+          "explain": "'helfen' + nguyên mẫu không zu khi bổ ngữ ngắn: 'den Tisch decken helfen'. 'deckt' sai vì động từ thứ hai không chia theo chủ ngữ."
+        },
+        {
+          "q": "Ich sehe den Bus schon ___.",
+          "options": ["zu kommen", "kommt", "kommen", "gekommen"],
+          "answer": 2,
+          "vi": "Tôi đã thấy xe buýt đang đến.",
+          "explain": "'sehen' + nguyên mẫu không zu: 'den Bus kommen sehen'. 'kommt' sai vì động từ thứ hai phải ở dạng nguyên mẫu."
+        },
+        {
+          "q": "Ihr braucht nur auf den Knopf ___.",
+          "options": ["drücken", "gedrückt", "drückt", "zu drücken"],
+          "answer": 3,
+          "vi": "Các bạn chỉ cần bấm vào nút.",
+          "explain": "'brauchen + nur' cần 'zu + Infinitiv': 'nur zu drücken'. 'drücken' không zu là lỗi thường gặp vì nhầm brauchen với các động từ khuyết thiếu."
+        },
+        {
+          "q": "Ich habe mein Fahrrad gestern ___.",
+          "options": ["reparieren lassen", "reparieren gelassen", "repariert gelassen", "zu reparieren gelassen"],
+          "answer": 0,
+          "vi": "Hôm qua tôi đã cho người sửa xe đạp của tôi.",
+          "explain": "Ở Perfekt, 'lassen' đi kèm nguyên mẫu khác dùng Doppelinfinitiv: 'reparieren lassen'. 'reparieren gelassen' sai vì ở đây không dùng Partizip 'gelassen'."
+        },
+        {
+          "q": "Ich habe das Problem schon lange ___.",
+          "options": ["gekommen sehen", "zu kommen gesehen", "kommen zu sehen", "kommen sehen"],
+          "answer": 3,
+          "vi": "Tôi đã thấy trước vấn đề này từ lâu rồi.",
+          "explain": "Perfekt của 'sehen' + nguyên mẫu dùng Doppelinfinitiv: 'hat … kommen sehen'. 'gekommen sehen' sai vì động từ chính phải ở dạng nguyên mẫu, không phải Partizip."
+        },
+        {
+          "q": "Er sagt, dass er das Auto ___.",
+          "options": ["reparieren lassen hat", "hat reparieren lassen", "reparieren gelassen hat", "hat repariert lassen"],
+          "answer": 1,
+          "vi": "Anh ấy nói rằng anh ấy đã cho người sửa xe ô tô.",
+          "explain": "Trong mệnh đề phụ có Doppelinfinitiv, trợ động từ 'hat' đứng trước hai nguyên mẫu: 'hat reparieren lassen'. 'reparieren lassen hat' sai dù thông thường động từ chia đứng cuối mệnh đề phụ."
+        },
+        {
+          "q": "Gestern sind wir im See ___.",
+          "options": ["schwimmen gehen", "zu schwimmen gegangen", "schwimmen gegangen", "geschwommen gehen"],
+          "answer": 2,
+          "vi": "Hôm qua chúng tôi đã đi bơi ở hồ.",
+          "explain": "'gehen' không tạo Doppelinfinitiv, nên Perfekt là 'sind schwimmen gegangen'. 'schwimmen gehen' sai vì sau 'sind' cần Partizip 'gegangen'."
+        },
+        {
+          "q": "Câu nào sai ngữ pháp?",
+          "options": ["Ich lasse mir die Haare schneiden.", "Ich gehe morgen zu einkaufen.", "Er bleibt heute im Bett liegen.", "Du brauchst keine Angst zu haben."],
+          "answer": 1,
+          "vi": "Ngày mai tôi đi mua sắm. (câu đúng: Ich gehe morgen einkaufen.)",
+          "explain": "'gehen' + nguyên mẫu không có zu: 'einkaufen gehen'. Câu 'Du brauchst keine Angst zu haben' đúng vì brauchen + phủ định (kein) cần zu."
+        },
+        {
+          "q": "Câu nào cùng nghĩa với 'Du musst nur das Formular ausfüllen.'?",
+          "options": ["Du brauchst das Formular nicht auszufüllen.", "Du lässt das Formular ausfüllen.", "Du brauchst nur das Formular ausfüllen zu.", "Du brauchst nur das Formular auszufüllen."],
+          "answer": 3,
+          "vi": "Bạn chỉ cần điền vào mẫu đơn.",
+          "explain": "'nur müssen' = 'nur brauchen … zu'; với động từ tách được, zu nằm giữa: 'auszufüllen'. 'brauchst … nicht auszufüllen' mang nghĩa ngược lại (không cần điền)."
+        },
+        {
+          "q": "Câu nào đúng trật tự từ?",
+          "options": ["Ich weiß, dass er sich einen Anzug machen lassen hat.", "Ich weiß, dass er hat sich einen Anzug machen lassen.", "Ich weiß, dass er sich einen Anzug hat machen lassen.", "Ich weiß, dass er sich einen Anzug hat lassen machen."],
+          "answer": 2,
+          "vi": "Tôi biết rằng anh ấy đã đặt may một bộ com-lê.",
+          "explain": "Trong mệnh đề phụ, 'hat' đứng ngay trước Doppelinfinitiv và Doppelinfinitiv giữ thứ tự 'machen lassen'. 'machen lassen hat' sai vì 'hat' không được đặt cuối khi có Doppelinfinitiv."
+        }
+      ]
+    },
+    {
+      "title": "Tính từ đi với giới từ (Adjektive mit Präpositionen)",
+      "intro": "Nhiều tính từ đi với một giới từ cố định, cần học thuộc cùng cách:\n+ Akkusativ: stolz auf, gespannt auf, böse auf, verantwortlich für, bekannt für\n+ Dativ: zufrieden mit, abhängig von, überzeugt von, interessiert an\nVí dụ: Ich bin stolz auf meinen Sohn. / Sie ist zufrieden mit ihrer Arbeit.\nNếu bổ ngữ là sự vật hoặc cả một mệnh đề, dùng da(r) + giới từ: darauf, damit, davon, dafür, daran: Ich bin stolz darauf, dass ich bestanden habe. / Ich bin zufrieden damit.\nNếu là người, dùng giới từ + đại từ: Ich bin zufrieden mit ihm.\nCâu hỏi về sự vật dùng wo(r) + giới từ: Woran bist du interessiert? Worauf bist du gespannt?",
+      "questions": [
+        {
+          "q": "Ich bin sehr stolz ___ meine Tochter.",
+          "options": ["auf", "mit", "von", "an"],
+          "answer": 0,
+          "vi": "Tôi rất tự hào về con gái tôi.",
+          "explain": "'stolz' luôn đi với 'auf + Akkusativ'. 'von' là lỗi do dịch từ 'tự hào về'."
+        },
+        {
+          "q": "Bist du ___ deiner neuen Wohnung zufrieden?",
+          "options": ["von", "mit", "für", "über"],
+          "answer": 1,
+          "vi": "Bạn có hài lòng với căn hộ mới không?",
+          "explain": "'zufrieden mit + Dativ' ('deiner Wohnung'). 'über' sai vì zufrieden không đi với über."
+        },
+        {
+          "q": "Er ist ___ den Fehler verantwortlich.",
+          "options": ["von", "an", "für", "mit"],
+          "answer": 2,
+          "vi": "Anh ấy chịu trách nhiệm về lỗi đó.",
+          "explain": "'verantwortlich für + Akkusativ' ('den Fehler'). 'von' sai dù tiếng Việt nói 'trách nhiệm về'."
+        },
+        {
+          "q": "Sie ist sehr interessiert ___ moderner Kunst.",
+          "options": ["für", "auf", "über", "an"],
+          "answer": 3,
+          "vi": "Cô ấy rất quan tâm đến nghệ thuật hiện đại.",
+          "explain": "'interessiert an + Dativ' ('moderner Kunst'). 'für' là lỗi do lẫn với động từ 'sich interessieren für'."
+        },
+        {
+          "q": "Ich bin gespannt ___ das Ergebnis.",
+          "options": ["auf", "für", "an", "von"],
+          "answer": 0,
+          "vi": "Tôi rất háo hức chờ kết quả.",
+          "explain": "'gespannt auf + Akkusativ' = háo hức chờ điều gì. 'für' sai vì gespannt không đi với für."
+        },
+        {
+          "q": "Viele Menschen sind ___ ihrem Smartphone abhängig.",
+          "options": ["auf", "von", "an", "mit"],
+          "answer": 1,
+          "vi": "Nhiều người phụ thuộc vào điện thoại thông minh của họ.",
+          "explain": "'abhängig von + Dativ'. 'auf' là lỗi do dịch 'phụ thuộc vào'."
+        },
+        {
+          "q": "Heidelberg ist bekannt ___ seine alte Universität.",
+          "options": ["auf", "mit", "für", "an"],
+          "answer": 2,
+          "vi": "Heidelberg nổi tiếng với trường đại học cổ kính của mình.",
+          "explain": "'bekannt für + Akkusativ' = nổi tiếng vì điều gì. 'mit' sai dù tiếng Việt nói 'nổi tiếng với'."
+        },
+        {
+          "q": "Meine Mutter ist böse ___ mich, weil ich zu spät gekommen bin.",
+          "options": ["an", "für", "von", "auf"],
+          "answer": 3,
+          "vi": "Mẹ tôi giận tôi vì tôi đến muộn.",
+          "explain": "'böse auf + Akkusativ' = giận ai. 'für' sai vì không đi với böse theo nghĩa giận ai."
+        },
+        {
+          "q": "Der Arzt ist ___ der Wirkung des Medikaments überzeugt.",
+          "options": ["an", "für", "auf", "von"],
+          "answer": 3,
+          "vi": "Bác sĩ tin chắc vào tác dụng của thuốc.",
+          "explain": "'überzeugt von + Dativ' ('der Wirkung'). 'an' sai, dù động từ 'glauben an' có nghĩa gần giống."
+        },
+        {
+          "q": "Wir sind sehr zufrieden mit ___ Arbeit.",
+          "options": ["unsere", "unserer", "unserem", "unseren"],
+          "answer": 1,
+          "vi": "Chúng tôi rất hài lòng với công việc của chúng tôi.",
+          "explain": "'mit' luôn đi với Dativ; 'die Arbeit' (giống cái) → 'unserer Arbeit'. 'unsere' là Akkusativ, sai sau 'mit'."
+        },
+        {
+          "q": "Er ist stolz ___, dass er die Prüfung bestanden hat.",
+          "options": ["darauf", "dafür", "damit", "davon"],
+          "answer": 0,
+          "vi": "Anh ấy tự hào vì đã đỗ kỳ thi.",
+          "explain": "Khi bổ ngữ là cả mệnh đề 'dass …', dùng da(r) + giới từ của tính từ: stolz auf → 'darauf'. 'dafür' sai vì stolz không đi với für."
+        },
+        {
+          "q": "Bist du mit dem Ergebnis zufrieden? – Ja, ich bin sehr zufrieden ___.",
+          "options": ["mit ihr", "mit es", "damit", "dafür"],
+          "answer": 2,
+          "vi": "Bạn có hài lòng với kết quả không? – Có, tôi rất hài lòng với nó.",
+          "explain": "'das Ergebnis' là sự vật nên thay bằng da(r) + giới từ: 'damit'. 'mit es' sai vì sau giới từ không dùng 'es' để chỉ sự vật."
+        },
+        {
+          "q": "Ist Herr Weber ein guter Chef? – Ja, alle Mitarbeiter sind sehr zufrieden ___.",
+          "options": ["damit", "mit ihm", "mit ihn", "davon"],
+          "answer": 1,
+          "vi": "Ông Weber có phải là một sếp tốt không? – Có, tất cả nhân viên đều rất hài lòng với ông ấy.",
+          "explain": "Với người, dùng giới từ + đại từ: 'mit ihm' (Dativ). 'damit' chỉ dùng cho sự vật, còn 'mit ihn' sai cách."
+        },
+        {
+          "q": "___ bist du interessiert? – An Politik.",
+          "options": ["Wofür", "Worauf", "Woran", "Womit"],
+          "answer": 2,
+          "vi": "Bạn quan tâm đến điều gì? – Đến chính trị.",
+          "explain": "Câu hỏi về sự vật dùng wo(r) + giới từ của tính từ: interessiert an → 'Woran'. 'Wofür' sai vì đó là giới từ của 'sich interessieren für'."
+        },
+        {
+          "q": "Câu nào sai ngữ pháp?",
+          "options": ["Ich bin gespannt darauf, wie der Film endet.", "Sie ist abhängig von ihren Eltern.", "Wir sind stolz für unseren Sohn.", "Wer ist für dieses Projekt verantwortlich?"],
+          "answer": 2,
+          "vi": "Chúng tôi tự hào về con trai chúng tôi. (câu đúng: Wir sind stolz auf unseren Sohn.)",
+          "explain": "'stolz' đi với 'auf', không đi với 'für'. Câu 'Wer ist für dieses Projekt verantwortlich?' đúng vì verantwortlich đi với 'für'."
+        }
+      ]
+    }
+  ]
+}

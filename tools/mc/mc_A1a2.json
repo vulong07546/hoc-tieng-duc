@@ -1,0 +1,338 @@
+{
+  "level": "A1",
+  "topics": [
+    {
+      "title": "Liên từ nối hai câu chính und / aber / oder / denn / sondern (Konnektoren auf Position 0)",
+      "intro": "Các liên từ und (và), aber (nhưng), oder (hoặc), denn (vì), sondern (mà là) nối hai câu chính và đứng ở vị trí 0: chúng không chiếm chỗ trong câu, nên sau chúng vẫn là trật tự bình thường Chủ ngữ – Động từ.\nVí dụ: Ich bleibe zu Hause, denn ich bin krank. (KHÔNG: denn bin ich krank)\nTrước aber, denn, sondern luôn có dấu phẩy; trước und, oder thường không cần dấu phẩy.\nsondern chỉ dùng sau một phủ định (nicht, kein) để sửa lại thông tin: Ich heiße nicht Maria, sondern Marie.\naber dùng khi có sự đối lập nhưng không sửa thông tin: Es ist kalt, aber die Sonne scheint.\nKhi phần sau sondern lặp lại chủ ngữ và động từ, ta giữ trật tự câu chính: Ich trinke keinen Kaffee, sondern ich trinke Tee.",
+      "questions": [
+        {
+          "q": "Mein Vater ist Lehrer ___ meine Mutter ist auch Lehrerin.",
+          "options": ["und", "sondern", "denn", "oder"],
+          "answer": 0,
+          "vi": "Bố tôi là giáo viên và mẹ tôi cũng là giáo viên.",
+          "explain": "Hai thông tin cùng chiều (có 'auch') nên dùng und. sondern sai vì vế trước không có phủ định."
+        },
+        {
+          "q": "Ich möchte ins Kino gehen, ___ ich habe keine Zeit.",
+          "options": ["denn", "aber", "oder", "sondern"],
+          "answer": 1,
+          "vi": "Tôi muốn đi xem phim, nhưng tôi không có thời gian.",
+          "explain": "Hai vế đối lập nhau nên dùng aber. denn (vì) sai nghĩa: 'không có thời gian' không phải lý do để muốn đi xem phim."
+        },
+        {
+          "q": "Trinkst du Tee ___ trinkst du Kaffee?",
+          "options": ["aber", "denn", "sondern", "oder"],
+          "answer": 3,
+          "vi": "Bạn uống trà hay uống cà phê?",
+          "explain": "Câu hỏi đưa ra hai lựa chọn nên dùng oder. aber không diễn tả sự lựa chọn."
+        },
+        {
+          "q": "Ich bleibe heute zu Hause, ___ ich bin krank.",
+          "options": ["aber", "oder", "denn", "sondern"],
+          "answer": 2,
+          "vi": "Hôm nay tôi ở nhà, vì tôi bị ốm.",
+          "explain": "Vế sau nêu lý do nên dùng denn. aber sai vì 'bị ốm' không đối lập với 'ở nhà'."
+        },
+        {
+          "q": "Ich heiße nicht Maria, ___ Marie.",
+          "options": ["sondern", "aber", "denn", "und"],
+          "answer": 0,
+          "vi": "Tôi không tên là Maria, mà là Marie.",
+          "explain": "Sau phủ định 'nicht' để sửa lại thông tin phải dùng sondern. aber không dùng để thay thế thông tin bị phủ định."
+        },
+        {
+          "q": "Es ist kalt, ___ die Sonne scheint.",
+          "options": ["denn", "oder", "sondern", "aber"],
+          "answer": 3,
+          "vi": "Trời lạnh, nhưng mặt trời chiếu sáng.",
+          "explain": "Hai vế đối lập nhau nên dùng aber. sondern sai vì vế trước không có phủ định."
+        },
+        {
+          "q": "Lisa lernt Englisch ___ sie lernt auch Spanisch.",
+          "options": ["denn", "sondern", "und", "oder"],
+          "answer": 2,
+          "vi": "Lisa học tiếng Anh và cô ấy cũng học tiếng Tây Ban Nha.",
+          "explain": "Bổ sung thông tin cùng chiều (có 'auch') nên dùng und. denn sai vì vế sau không phải là lý do."
+        },
+        {
+          "q": "Ich lerne Deutsch, denn ___.",
+          "options": ["möchte ich in Deutschland studieren", "ich möchte in Deutschland studieren", "ich in Deutschland studieren möchte", "in Deutschland ich möchte studieren"],
+          "answer": 1,
+          "vi": "Tôi học tiếng Đức, vì tôi muốn học đại học ở Đức.",
+          "explain": "denn đứng ở vị trí 0, sau nó là trật tự bình thường: chủ ngữ – động từ. 'möchte ich' sai vì đảo ngữ như thể denn chiếm vị trí 1."
+        },
+        {
+          "q": "Wir fahren nicht mit dem Auto, ___ mit dem Zug.",
+          "options": ["aber", "denn", "sondern", "oder"],
+          "answer": 2,
+          "vi": "Chúng tôi không đi bằng ô tô, mà đi bằng tàu hỏa.",
+          "explain": "Cấu trúc nicht … sondern dùng để sửa thông tin: không phải ô tô mà là tàu. aber sai vì không dùng để thay thế phần bị phủ định."
+        },
+        {
+          "q": "Câu nào sai ngữ pháp?",
+          "options": ["Ich bin müde, aber ich arbeite noch.", "Ich bin müde, denn ich habe viel gearbeitet.", "Ich bin müde und ich gehe ins Bett.", "Ich bin müde, aber arbeite ich noch."],
+          "answer": 3,
+          "vi": "Câu sai: 'Ich bin müde, aber arbeite ich noch.' (Đúng: Tôi mệt, nhưng tôi vẫn còn làm việc.)",
+          "explain": "aber đứng ở vị trí 0 nên sau nó phải là chủ ngữ rồi động từ: 'aber ich arbeite'. Ba câu còn lại đều đúng trật tự."
+        },
+        {
+          "q": "Ich trinke keinen Kaffee, sondern ___.",
+          "options": ["ich trinke Tee", "trinke ich Tee", "ich Tee trinke", "Tee ich trinke"],
+          "answer": 0,
+          "vi": "Tôi không uống cà phê, mà tôi uống trà.",
+          "explain": "sondern ở vị trí 0, sau nó giữ trật tự câu chính: chủ ngữ – động từ – tân ngữ. 'trinke ich Tee' sai vì bị đảo ngữ."
+        },
+        {
+          "q": "Câu nào cùng nghĩa với 'Ich habe Hunger, also esse ich ein Brot.'?",
+          "options": ["Ich habe Hunger, denn ich esse ein Brot.", "Ich esse ein Brot, denn ich habe Hunger.", "Ich esse ein Brot, aber ich habe Hunger.", "Ich esse ein Brot, denn habe ich Hunger."],
+          "answer": 1,
+          "vi": "Tôi ăn một cái bánh mì, vì tôi đói.",
+          "explain": "denn đứng trước lý do (đói), trật tự sau denn là chủ ngữ – động từ. Câu A đảo ngược nguyên nhân – kết quả, câu D sai trật tự từ."
+        },
+        {
+          "q": "Gehen wir heute ins Restaurant ___ kochen wir zu Hause?",
+          "options": ["oder", "aber", "denn", "sondern"],
+          "answer": 0,
+          "vi": "Hôm nay chúng ta đi nhà hàng hay nấu ăn ở nhà?",
+          "explain": "Câu hỏi đưa ra hai lựa chọn nên dùng oder; vế sau là câu hỏi nên động từ đứng đầu. aber không diễn tả lựa chọn."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "options": ["Er arbeitet nicht in Berlin, aber in Hamburg.", "Er arbeitet nicht in Berlin, sondern in Hamburg.", "Er arbeitet nicht in Berlin, denn in Hamburg.", "Er arbeitet nicht in Berlin, sondern arbeitet er in Hamburg."],
+          "answer": 1,
+          "vi": "Anh ấy không làm việc ở Berlin, mà ở Hamburg.",
+          "explain": "Sửa thông tin sau phủ định phải dùng nicht … sondern. Câu D sai vì sau sondern (vị trí 0) không được đảo ngữ 'arbeitet er'."
+        },
+        {
+          "q": "Câu nào sai ngữ pháp?",
+          "options": ["Er kommt nicht heute, sondern morgen.", "Er kommt heute nicht, aber er ruft an.", "Er kommt nicht, denn hat er keine Zeit.", "Er kommt nicht, denn er hat keine Zeit."],
+          "answer": 2,
+          "vi": "Câu sai: 'Er kommt nicht, denn hat er keine Zeit.' (Đúng: Anh ấy không đến, vì anh ấy không có thời gian.)",
+          "explain": "denn không chiếm vị trí trong câu, nên phải viết 'denn er hat'. Câu A đúng: nicht đứng trước 'heute' để sửa thông tin bằng sondern."
+        }
+      ]
+    },
+    {
+      "title": "Thì Perfekt cơ bản & war / hatte (Perfekt mit haben/sein; Präteritum von sein und haben)",
+      "intro": "Perfekt dùng để kể chuyện quá khứ trong văn nói: trợ động từ haben/sein (chia, vị trí 2) + Partizip II (cuối câu).\nĐa số động từ dùng haben: Ich habe Fußball gespielt. Động từ chỉ sự di chuyển/thay đổi trạng thái và bleiben, sein dùng sein: Wir sind nach Berlin gefahren. Ich bin zu Hause geblieben.\nPartizip II: động từ có quy tắc ge…t (machen → gemacht, arbeiten → gearbeitet); bất quy tắc ge…en (essen → gegessen, lesen → gelesen, fahren → gefahren); động từ tách: auf|stehen → aufgestanden; tiền tố không tách (ver-, be-) không có ge-: verstehen → verstanden.\nVới sein và haben, người ta thường dùng Präteritum thay cho Perfekt:\nsein: ich war, du warst, er war, wir waren, ihr wart, sie/Sie waren\nhaben: ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie/Sie hatten",
+      "questions": [
+        {
+          "q": "Ich ___ gestern Fußball gespielt.",
+          "options": ["habe", "bin", "hat", "ist"],
+          "answer": 0,
+          "vi": "Hôm qua tôi đã chơi bóng đá.",
+          "explain": "spielen chia Perfekt với haben, ngôi ich là 'habe'. 'hat' sai vì là dạng của ngôi er/sie/es."
+        },
+        {
+          "q": "Wir ___ am Sonntag nach Berlin gefahren.",
+          "options": ["haben", "sind", "seid", "hat"],
+          "answer": 1,
+          "vi": "Chủ nhật chúng tôi đã đi Berlin.",
+          "explain": "fahren chỉ sự di chuyển nên dùng sein, ngôi wir là 'sind'. 'haben' sai trợ động từ."
+        },
+        {
+          "q": "Gestern ___ ich krank.",
+          "options": ["bin", "hatte", "war", "habe"],
+          "answer": 2,
+          "vi": "Hôm qua tôi bị ốm.",
+          "explain": "Quá khứ của 'sein' thường dùng Präteritum: ich war. 'hatte' sai vì 'krank sein' đi với sein, không đi với haben."
+        },
+        {
+          "q": "Hast du schon ___?",
+          "options": ["geesst", "gegesst", "geessen", "gegessen"],
+          "answer": 3,
+          "vi": "Bạn đã ăn chưa?",
+          "explain": "essen là động từ bất quy tắc, Partizip II là 'gegessen' (có thêm g). 'geessen' là lỗi thường gặp khi quên chữ g."
+        },
+        {
+          "q": "Gestern ___ wir keine Zeit.",
+          "options": ["hatten", "waren", "hattet", "sind"],
+          "answer": 0,
+          "vi": "Hôm qua chúng tôi không có thời gian.",
+          "explain": "'Zeit haben' → Präteritum ngôi wir là 'hatten'. 'hattet' là dạng của ngôi ihr."
+        },
+        {
+          "q": "Was hast du am Wochenende ___?",
+          "options": ["gemachen", "machte", "gemacht", "gemachtet"],
+          "answer": 2,
+          "vi": "Cuối tuần bạn đã làm gì?",
+          "explain": "machen là động từ có quy tắc: ge-mach-t → gemacht. 'machte' là Präteritum, không đi với trợ động từ 'hast'."
+        },
+        {
+          "q": "___ ihr gestern im Kino?",
+          "options": ["Waren", "Hattet", "Seid", "Wart"],
+          "answer": 3,
+          "vi": "Hôm qua các bạn có ở rạp chiếu phim không?",
+          "explain": "Präteritum của sein ngôi ihr là 'wart'. 'Waren' sai vì là dạng của wir/sie/Sie; 'Seid' là thì hiện tại."
+        },
+        {
+          "q": "Maria ___ gestern zu Hause geblieben.",
+          "options": ["hat", "ist", "habe", "sind"],
+          "answer": 1,
+          "vi": "Hôm qua Maria đã ở nhà.",
+          "explain": "bleiben chia Perfekt với sein: sie ist geblieben. 'hat' là lỗi phổ biến vì nghĩ bleiben không phải động từ di chuyển."
+        },
+        {
+          "q": "Ich habe das Buch schon ___.",
+          "options": ["gelest", "geliest", "lesen", "gelesen"],
+          "answer": 3,
+          "vi": "Tôi đã đọc cuốn sách đó rồi.",
+          "explain": "lesen là động từ bất quy tắc: Partizip II là 'gelesen'. 'gelest' sai vì chia theo quy tắc ge…t."
+        },
+        {
+          "q": "Er ist heute um 6 Uhr ___.",
+          "options": ["aufgestanden", "aufgesteht", "geaufstanden", "aufstehen"],
+          "answer": 0,
+          "vi": "Hôm nay anh ấy đã thức dậy lúc 6 giờ.",
+          "explain": "Động từ tách: ge- chen giữa tiền tố và gốc: auf-ge-standen. 'geaufstanden' sai vì đặt ge- trước tiền tố."
+        },
+        {
+          "q": "___ du gestern einen Termin beim Arzt?",
+          "options": ["Warst", "Hattest", "Hatte", "Hast"],
+          "answer": 1,
+          "vi": "Hôm qua bạn có lịch hẹn ở chỗ bác sĩ không?",
+          "explain": "'einen Termin haben' + gestern → Präteritum ngôi du: 'hattest'. 'Hast' là thì hiện tại, không hợp với 'gestern'."
+        },
+        {
+          "q": "Câu nào sai ngữ pháp?",
+          "options": ["Ich habe gestern Deutsch gelernt.", "Ich bin gestern spät nach Hause gekommen.", "Ich habe gestern zur Schule gegangen.", "Ich habe gestern lange geschlafen."],
+          "answer": 2,
+          "vi": "Câu sai: 'Ich habe gestern zur Schule gegangen.' (Đúng: Ich bin gestern zur Schule gegangen. – Hôm qua tôi đã đi học.)",
+          "explain": "gehen chỉ sự di chuyển nên phải dùng sein: 'Ich bin … gegangen'. schlafen, lernen dùng haben nên các câu kia đúng."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "options": ["Er ist im Restaurant gearbeitet.", "Er hat im Restaurant arbeitet.", "Er hat im Restaurant gearbeiten.", "Er hat im Restaurant gearbeitet."],
+          "answer": 3,
+          "vi": "Anh ấy đã làm việc ở nhà hàng.",
+          "explain": "arbeiten dùng haben, Partizip II là 'gearbeitet' (thêm -e- trước -t). Câu A sai vì dùng sein."
+        },
+        {
+          "q": "Câu nào cùng nghĩa với 'Letztes Jahr bin ich in Spanien gewesen.'?",
+          "options": ["Letztes Jahr war ich in Spanien.", "Letztes Jahr hatte ich in Spanien.", "Letztes Jahr bin ich in Spanien.", "Letztes Jahr habe ich in Spanien gewesen."],
+          "answer": 0,
+          "vi": "Năm ngoái tôi đã ở Tây Ban Nha.",
+          "explain": "'bin … gewesen' (Perfekt) và 'war' (Präteritum) cùng nghĩa. Câu D sai vì sein chia Perfekt với sein, không phải haben."
+        },
+        {
+          "q": "Wir haben den Text leider nicht ___.",
+          "options": ["geverstanden", "verstanden", "verstehen", "verstandet"],
+          "answer": 1,
+          "vi": "Tiếc là chúng tôi đã không hiểu bài đọc.",
+          "explain": "verstehen có tiền tố không tách ver- nên Partizip II không có ge-: verstanden. 'geverstanden' là lỗi thêm ge- thừa."
+        }
+      ]
+    },
+    {
+      "title": "es gibt, gern / lieber / am liebsten, số thứ tự & ngày tháng (es gibt + Akkusativ, gern-Steigerung, Ordinalzahlen)",
+      "intro": "es gibt (có) luôn đi với Akkusativ và động từ luôn là 'gibt': Es gibt einen Bahnhof / ein Café / eine Bank / viele Museen. Phủ định: Es gibt keinen Arzt.\ngern (thích) có dạng so sánh bất quy tắc: gern → lieber → am liebsten. Ví dụ: Ich höre gern Pop, lieber Jazz und am liebsten Rock. So sánh: Ich esse Fisch lieber als Fleisch.\nSố thứ tự: 1. erste, 2. zweite, 3. dritte, 7. siebte, 1.–19. thêm -te, từ 20. thêm -ste (zwanzigste).\nNgày tháng: Heute ist der erste Mai (der + -e). Khi nói 'vào ngày': am ersten Mai, am dritten Oktober (am + -en).\nNăm: Ich bin 1998 geboren hoặc Ich bin im Jahr 1998 geboren (KHÔNG dùng 'in 1998').",
+      "questions": [
+        {
+          "q": "In meiner Stadt gibt es ___ Bahnhof.",
+          "options": ["einen", "ein", "einem", "eines"],
+          "answer": 0,
+          "vi": "Ở thành phố của tôi có một nhà ga.",
+          "explain": "es gibt đi với Akkusativ; der Bahnhof (giống đực) → einen Bahnhof. 'ein' sai vì là dạng Nominativ."
+        },
+        {
+          "q": "Gibt es hier ___ Supermarkt?",
+          "options": ["ein", "einen", "einem", "einer"],
+          "answer": 1,
+          "vi": "Ở đây có siêu thị không?",
+          "explain": "der Supermarkt là giống đực, sau es gibt dùng Akkusativ: einen. 'ein' sai vì không đổi đuôi Akkusativ."
+        },
+        {
+          "q": "Es ___ in Berlin viele Museen.",
+          "options": ["geben", "gebt", "gibst", "gibt"],
+          "answer": 3,
+          "vi": "Ở Berlin có nhiều bảo tàng.",
+          "explain": "Trong cấu trúc es gibt, động từ luôn là 'gibt' kể cả khi danh từ ở số nhiều. 'geben' sai vì chia theo 'Museen'."
+        },
+        {
+          "q": "Was trinkst du lieber, Tee oder Kaffee? – Ich trinke ___ Kaffee.",
+          "options": ["liebsten", "am lieber", "lieber", "gerner"],
+          "answer": 2,
+          "vi": "Bạn thích uống trà hay cà phê hơn? – Tôi thích uống cà phê hơn.",
+          "explain": "Dạng so sánh hơn của gern là 'lieber'. 'gerner' sai vì gern có dạng so sánh bất quy tắc."
+        },
+        {
+          "q": "Heute ist der ___ (1.) Mai.",
+          "options": ["erste", "einte", "ersten", "einste"],
+          "answer": 0,
+          "vi": "Hôm nay là ngày mùng 1 tháng 5.",
+          "explain": "Số thứ tự 1. là 'erste'; sau 'der' (Nominativ) đuôi là -e. 'ersten' sai vì là dạng dùng sau 'am'."
+        },
+        {
+          "q": "Ich bin am ___ (3.) März geboren.",
+          "options": ["dritte", "dreiten", "dritten", "drittem"],
+          "answer": 2,
+          "vi": "Tôi sinh ngày mùng 3 tháng 3.",
+          "explain": "Sau 'am' số thứ tự có đuôi -en: am dritten. 'dritte' sai vì là dạng dùng sau 'der'."
+        },
+        {
+          "q": "Gibt es hier ein Café? – Nein, hier gibt es ___ Café.",
+          "options": ["keinen", "kein", "keine", "nicht"],
+          "answer": 1,
+          "vi": "Ở đây có quán cà phê không? – Không, ở đây không có quán cà phê nào.",
+          "explain": "das Café là giống trung, Akkusativ của kein vẫn là 'kein'. 'keinen' sai vì chỉ dùng cho danh từ giống đực."
+        },
+        {
+          "q": "Ich höre gern Pop, lieber Jazz und ___ Rock.",
+          "options": ["liebsten", "gernsten", "am meisten gern", "am liebsten"],
+          "answer": 3,
+          "vi": "Tôi thích nghe nhạc pop, thích jazz hơn và thích nhất là rock.",
+          "explain": "Dạng so sánh nhất của gern là 'am liebsten'. 'liebsten' sai vì thiếu 'am'."
+        },
+        {
+          "q": "Mein Geburtstag ist am ___ (7.) Juli.",
+          "options": ["siebte", "siebten", "siebenen", "siebtem"],
+          "answer": 1,
+          "vi": "Sinh nhật tôi vào ngày mùng 7 tháng 7.",
+          "explain": "Số thứ tự 7. là 'siebte' (bỏ -en), sau 'am' có đuôi -en: am siebten. 'siebtem' sai đuôi."
+        },
+        {
+          "q": "Ich bin ___ 1998 geboren.",
+          "options": ["in", "am", "im", "im Jahr"],
+          "answer": 3,
+          "vi": "Tôi sinh năm 1998.",
+          "explain": "Năm được nói không có giới từ hoặc với 'im Jahr'. 'in 1998' sai vì đó là cách nói tiếng Anh."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "options": ["Heute ist der dritten Oktober.", "Heute ist dritte Oktober.", "Heute ist der drei Oktober.", "Heute ist der dritte Oktober."],
+          "answer": 3,
+          "vi": "Hôm nay là ngày mùng 3 tháng 10.",
+          "explain": "Ngày tháng dùng số thứ tự với 'der' và đuôi -e: der dritte. Câu A sai vì đuôi -en chỉ dùng sau 'am'."
+        },
+        {
+          "q": "Der Kurs beginnt am ___ (20.) Januar.",
+          "options": ["zwanzigten", "zwanzigste", "zwanzigsten", "zwanzigstem"],
+          "answer": 2,
+          "vi": "Khóa học bắt đầu vào ngày 20 tháng 1.",
+          "explain": "Từ 20 trở đi số thứ tự thêm -ste, sau 'am' thành -sten: am zwanzigsten. 'zwanzigten' sai vì thiếu -s-."
+        },
+        {
+          "q": "Câu nào sai ngữ pháp?",
+          "options": ["Es gibt einen Park in der Nähe.", "Hier gibt es keinen Arzt.", "Es gibt ein Supermarkt hier.", "Es gibt ein Problem."],
+          "answer": 2,
+          "vi": "Câu sai: 'Es gibt ein Supermarkt hier.' (Đúng: Es gibt einen Supermarkt hier. – Ở đây có một siêu thị.)",
+          "explain": "der Supermarkt giống đực, sau es gibt phải là Akkusativ 'einen'. 'ein Problem' đúng vì das Problem là giống trung."
+        },
+        {
+          "q": "Câu nào cùng nghĩa với 'Ich esse Fisch lieber als Fleisch.'?",
+          "options": ["Ich esse Fleisch nicht so gern wie Fisch.", "Ich esse Fleisch lieber als Fisch.", "Ich esse Fisch nicht gern.", "Ich esse Fisch und Fleisch am liebsten."],
+          "answer": 0,
+          "vi": "Tôi không thích ăn thịt bằng ăn cá.",
+          "explain": "'Fisch lieber als Fleisch' nghĩa là thích cá hơn thịt, tức là thích thịt không bằng cá. Câu B đảo ngược ý nghĩa."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "options": ["Wir fahren im ersten Mai nach Wien.", "Wir fahren am ersten Mai nach Wien.", "Wir fahren am erste Mai nach Wien.", "Wir fahren an erstem Mai nach Wien."],
+          "answer": 1,
+          "vi": "Chúng tôi sẽ đi Vienna vào ngày mùng 1 tháng 5.",
+          "explain": "'Vào ngày' dùng am + số thứ tự đuôi -en: am ersten Mai. 'im' chỉ dùng cho tháng/năm, không dùng cho ngày."
+        }
+      ]
+    }
+  ]
+}

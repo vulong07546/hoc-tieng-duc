@@ -1304,6 +1304,564 @@ const MCQ = {
    ]
   },
   {
+   "title": "Liên từ nối hai câu chính und / aber / oder / denn / sondern (Konnektoren auf Position 0)",
+   "intro": "Các liên từ und (và), aber (nhưng), oder (hoặc), denn (vì), sondern (mà là) nối hai câu chính và đứng ở vị trí 0: chúng không chiếm chỗ trong câu, nên sau chúng vẫn là trật tự bình thường Chủ ngữ – Động từ.\nVí dụ: Ich bleibe zu Hause, denn ich bin krank. (KHÔNG: denn bin ich krank)\nTrước aber, denn, sondern luôn có dấu phẩy; trước und, oder thường không cần dấu phẩy.\nsondern chỉ dùng sau một phủ định (nicht, kein) để sửa lại thông tin: Ich heiße nicht Maria, sondern Marie.\naber dùng khi có sự đối lập nhưng không sửa thông tin: Es ist kalt, aber die Sonne scheint.\nKhi phần sau sondern lặp lại chủ ngữ và động từ, ta giữ trật tự câu chính: Ich trinke keinen Kaffee, sondern ich trinke Tee.",
+   "questions": [
+    {
+     "q": "Mein Vater ist Lehrer ___ meine Mutter ist auch Lehrerin.",
+     "options": [
+      "und",
+      "sondern",
+      "denn",
+      "oder"
+     ],
+     "answer": 0,
+     "vi": "Bố tôi là giáo viên và mẹ tôi cũng là giáo viên.",
+     "explain": "Hai thông tin cùng chiều (có 'auch') nên dùng und. sondern sai vì vế trước không có phủ định."
+    },
+    {
+     "q": "Ich möchte ins Kino gehen, ___ ich habe keine Zeit.",
+     "options": [
+      "denn",
+      "aber",
+      "oder",
+      "sondern"
+     ],
+     "answer": 1,
+     "vi": "Tôi muốn đi xem phim, nhưng tôi không có thời gian.",
+     "explain": "Hai vế đối lập nhau nên dùng aber. denn (vì) sai nghĩa: 'không có thời gian' không phải lý do để muốn đi xem phim."
+    },
+    {
+     "q": "Trinkst du Tee ___ trinkst du Kaffee?",
+     "options": [
+      "aber",
+      "denn",
+      "sondern",
+      "oder"
+     ],
+     "answer": 3,
+     "vi": "Bạn uống trà hay uống cà phê?",
+     "explain": "Câu hỏi đưa ra hai lựa chọn nên dùng oder. aber không diễn tả sự lựa chọn."
+    },
+    {
+     "q": "Ich bleibe heute zu Hause, ___ ich bin krank.",
+     "options": [
+      "aber",
+      "oder",
+      "denn",
+      "sondern"
+     ],
+     "answer": 2,
+     "vi": "Hôm nay tôi ở nhà, vì tôi bị ốm.",
+     "explain": "Vế sau nêu lý do nên dùng denn. aber sai vì 'bị ốm' không đối lập với 'ở nhà'."
+    },
+    {
+     "q": "Ich heiße nicht Maria, ___ Marie.",
+     "options": [
+      "sondern",
+      "aber",
+      "denn",
+      "und"
+     ],
+     "answer": 0,
+     "vi": "Tôi không tên là Maria, mà là Marie.",
+     "explain": "Sau phủ định 'nicht' để sửa lại thông tin phải dùng sondern. aber không dùng để thay thế thông tin bị phủ định."
+    },
+    {
+     "q": "Es ist kalt, ___ die Sonne scheint.",
+     "options": [
+      "denn",
+      "oder",
+      "sondern",
+      "aber"
+     ],
+     "answer": 3,
+     "vi": "Trời lạnh, nhưng mặt trời chiếu sáng.",
+     "explain": "Hai vế đối lập nhau nên dùng aber. sondern sai vì vế trước không có phủ định."
+    },
+    {
+     "q": "Lisa lernt Englisch ___ sie lernt auch Spanisch.",
+     "options": [
+      "denn",
+      "sondern",
+      "und",
+      "oder"
+     ],
+     "answer": 2,
+     "vi": "Lisa học tiếng Anh và cô ấy cũng học tiếng Tây Ban Nha.",
+     "explain": "Bổ sung thông tin cùng chiều (có 'auch') nên dùng und. denn sai vì vế sau không phải là lý do."
+    },
+    {
+     "q": "Ich lerne Deutsch, denn ___.",
+     "options": [
+      "möchte ich in Deutschland studieren",
+      "ich möchte in Deutschland studieren",
+      "ich in Deutschland studieren möchte",
+      "in Deutschland ich möchte studieren"
+     ],
+     "answer": 1,
+     "vi": "Tôi học tiếng Đức, vì tôi muốn học đại học ở Đức.",
+     "explain": "denn đứng ở vị trí 0, sau nó là trật tự bình thường: chủ ngữ – động từ. 'möchte ich' sai vì đảo ngữ như thể denn chiếm vị trí 1."
+    },
+    {
+     "q": "Wir fahren nicht mit dem Auto, ___ mit dem Zug.",
+     "options": [
+      "aber",
+      "denn",
+      "sondern",
+      "oder"
+     ],
+     "answer": 2,
+     "vi": "Chúng tôi không đi bằng ô tô, mà đi bằng tàu hỏa.",
+     "explain": "Cấu trúc nicht … sondern dùng để sửa thông tin: không phải ô tô mà là tàu. aber sai vì không dùng để thay thế phần bị phủ định."
+    },
+    {
+     "q": "Câu nào sai ngữ pháp?",
+     "options": [
+      "Ich bin müde, aber ich arbeite noch.",
+      "Ich bin müde, denn ich habe viel gearbeitet.",
+      "Ich bin müde und ich gehe ins Bett.",
+      "Ich bin müde, aber arbeite ich noch."
+     ],
+     "answer": 3,
+     "vi": "Câu sai: 'Ich bin müde, aber arbeite ich noch.' (Đúng: Tôi mệt, nhưng tôi vẫn còn làm việc.)",
+     "explain": "aber đứng ở vị trí 0 nên sau nó phải là chủ ngữ rồi động từ: 'aber ich arbeite'. Ba câu còn lại đều đúng trật tự."
+    },
+    {
+     "q": "Ich trinke keinen Kaffee, sondern ___.",
+     "options": [
+      "ich trinke Tee",
+      "trinke ich Tee",
+      "ich Tee trinke",
+      "Tee ich trinke"
+     ],
+     "answer": 0,
+     "vi": "Tôi không uống cà phê, mà tôi uống trà.",
+     "explain": "sondern ở vị trí 0, sau nó giữ trật tự câu chính: chủ ngữ – động từ – tân ngữ. 'trinke ich Tee' sai vì bị đảo ngữ."
+    },
+    {
+     "q": "Câu nào cùng nghĩa với 'Ich habe Hunger, also esse ich ein Brot.'?",
+     "options": [
+      "Ich habe Hunger, denn ich esse ein Brot.",
+      "Ich esse ein Brot, denn ich habe Hunger.",
+      "Ich esse ein Brot, aber ich habe Hunger.",
+      "Ich esse ein Brot, denn habe ich Hunger."
+     ],
+     "answer": 1,
+     "vi": "Tôi ăn một cái bánh mì, vì tôi đói.",
+     "explain": "denn đứng trước lý do (đói), trật tự sau denn là chủ ngữ – động từ. Câu A đảo ngược nguyên nhân – kết quả, câu D sai trật tự từ."
+    },
+    {
+     "q": "Gehen wir heute ins Restaurant ___ kochen wir zu Hause?",
+     "options": [
+      "oder",
+      "aber",
+      "denn",
+      "sondern"
+     ],
+     "answer": 0,
+     "vi": "Hôm nay chúng ta đi nhà hàng hay nấu ăn ở nhà?",
+     "explain": "Câu hỏi đưa ra hai lựa chọn nên dùng oder; vế sau là câu hỏi nên động từ đứng đầu. aber không diễn tả lựa chọn."
+    },
+    {
+     "q": "Câu nào đúng?",
+     "options": [
+      "Er arbeitet nicht in Berlin, aber in Hamburg.",
+      "Er arbeitet nicht in Berlin, sondern in Hamburg.",
+      "Er arbeitet nicht in Berlin, denn in Hamburg.",
+      "Er arbeitet nicht in Berlin, sondern arbeitet er in Hamburg."
+     ],
+     "answer": 1,
+     "vi": "Anh ấy không làm việc ở Berlin, mà ở Hamburg.",
+     "explain": "Sửa thông tin sau phủ định phải dùng nicht … sondern. Câu D sai vì sau sondern (vị trí 0) không được đảo ngữ 'arbeitet er'."
+    },
+    {
+     "q": "Câu nào sai ngữ pháp?",
+     "options": [
+      "Er kommt nicht heute, sondern morgen.",
+      "Er kommt heute nicht, aber er ruft an.",
+      "Er kommt nicht, denn hat er keine Zeit.",
+      "Er kommt nicht, denn er hat keine Zeit."
+     ],
+     "answer": 2,
+     "vi": "Câu sai: 'Er kommt nicht, denn hat er keine Zeit.' (Đúng: Anh ấy không đến, vì anh ấy không có thời gian.)",
+     "explain": "denn không chiếm vị trí trong câu, nên phải viết 'denn er hat'. Câu A đúng: nicht đứng trước 'heute' để sửa thông tin bằng sondern."
+    }
+   ]
+  },
+  {
+   "title": "Thì Perfekt cơ bản & war / hatte (Perfekt mit haben/sein; Präteritum von sein und haben)",
+   "intro": "Perfekt dùng để kể chuyện quá khứ trong văn nói: trợ động từ haben/sein (chia, vị trí 2) + Partizip II (cuối câu).\nĐa số động từ dùng haben: Ich habe Fußball gespielt. Động từ chỉ sự di chuyển/thay đổi trạng thái và bleiben, sein dùng sein: Wir sind nach Berlin gefahren. Ich bin zu Hause geblieben.\nPartizip II: động từ có quy tắc ge…t (machen → gemacht, arbeiten → gearbeitet); bất quy tắc ge…en (essen → gegessen, lesen → gelesen, fahren → gefahren); động từ tách: auf|stehen → aufgestanden; tiền tố không tách (ver-, be-) không có ge-: verstehen → verstanden.\nVới sein và haben, người ta thường dùng Präteritum thay cho Perfekt:\nsein: ich war, du warst, er war, wir waren, ihr wart, sie/Sie waren\nhaben: ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie/Sie hatten",
+   "questions": [
+    {
+     "q": "Ich ___ gestern Fußball gespielt.",
+     "options": [
+      "habe",
+      "bin",
+      "hat",
+      "ist"
+     ],
+     "answer": 0,
+     "vi": "Hôm qua tôi đã chơi bóng đá.",
+     "explain": "spielen chia Perfekt với haben, ngôi ich là 'habe'. 'hat' sai vì là dạng của ngôi er/sie/es."
+    },
+    {
+     "q": "Wir ___ am Sonntag nach Berlin gefahren.",
+     "options": [
+      "haben",
+      "sind",
+      "seid",
+      "hat"
+     ],
+     "answer": 1,
+     "vi": "Chủ nhật chúng tôi đã đi Berlin.",
+     "explain": "fahren chỉ sự di chuyển nên dùng sein, ngôi wir là 'sind'. 'haben' sai trợ động từ."
+    },
+    {
+     "q": "Gestern ___ ich krank.",
+     "options": [
+      "bin",
+      "hatte",
+      "war",
+      "habe"
+     ],
+     "answer": 2,
+     "vi": "Hôm qua tôi bị ốm.",
+     "explain": "Quá khứ của 'sein' thường dùng Präteritum: ich war. 'hatte' sai vì 'krank sein' đi với sein, không đi với haben."
+    },
+    {
+     "q": "Hast du schon ___?",
+     "options": [
+      "geesst",
+      "gegesst",
+      "geessen",
+      "gegessen"
+     ],
+     "answer": 3,
+     "vi": "Bạn đã ăn chưa?",
+     "explain": "essen là động từ bất quy tắc, Partizip II là 'gegessen' (có thêm g). 'geessen' là lỗi thường gặp khi quên chữ g."
+    },
+    {
+     "q": "Gestern ___ wir keine Zeit.",
+     "options": [
+      "hatten",
+      "waren",
+      "hattet",
+      "sind"
+     ],
+     "answer": 0,
+     "vi": "Hôm qua chúng tôi không có thời gian.",
+     "explain": "'Zeit haben' → Präteritum ngôi wir là 'hatten'. 'hattet' là dạng của ngôi ihr."
+    },
+    {
+     "q": "Was hast du am Wochenende ___?",
+     "options": [
+      "gemachen",
+      "machte",
+      "gemacht",
+      "gemachtet"
+     ],
+     "answer": 2,
+     "vi": "Cuối tuần bạn đã làm gì?",
+     "explain": "machen là động từ có quy tắc: ge-mach-t → gemacht. 'machte' là Präteritum, không đi với trợ động từ 'hast'."
+    },
+    {
+     "q": "___ ihr gestern im Kino?",
+     "options": [
+      "Waren",
+      "Hattet",
+      "Seid",
+      "Wart"
+     ],
+     "answer": 3,
+     "vi": "Hôm qua các bạn có ở rạp chiếu phim không?",
+     "explain": "Präteritum của sein ngôi ihr là 'wart'. 'Waren' sai vì là dạng của wir/sie/Sie; 'Seid' là thì hiện tại."
+    },
+    {
+     "q": "Maria ___ gestern zu Hause geblieben.",
+     "options": [
+      "hat",
+      "ist",
+      "habe",
+      "sind"
+     ],
+     "answer": 1,
+     "vi": "Hôm qua Maria đã ở nhà.",
+     "explain": "bleiben chia Perfekt với sein: sie ist geblieben. 'hat' là lỗi phổ biến vì nghĩ bleiben không phải động từ di chuyển."
+    },
+    {
+     "q": "Ich habe das Buch schon ___.",
+     "options": [
+      "gelest",
+      "geliest",
+      "lesen",
+      "gelesen"
+     ],
+     "answer": 3,
+     "vi": "Tôi đã đọc cuốn sách đó rồi.",
+     "explain": "lesen là động từ bất quy tắc: Partizip II là 'gelesen'. 'gelest' sai vì chia theo quy tắc ge…t."
+    },
+    {
+     "q": "Er ist heute um 6 Uhr ___.",
+     "options": [
+      "aufgestanden",
+      "aufgesteht",
+      "geaufstanden",
+      "aufstehen"
+     ],
+     "answer": 0,
+     "vi": "Hôm nay anh ấy đã thức dậy lúc 6 giờ.",
+     "explain": "Động từ tách: ge- chen giữa tiền tố và gốc: auf-ge-standen. 'geaufstanden' sai vì đặt ge- trước tiền tố."
+    },
+    {
+     "q": "___ du gestern einen Termin beim Arzt?",
+     "options": [
+      "Warst",
+      "Hattest",
+      "Hatte",
+      "Hast"
+     ],
+     "answer": 1,
+     "vi": "Hôm qua bạn có lịch hẹn ở chỗ bác sĩ không?",
+     "explain": "'einen Termin haben' + gestern → Präteritum ngôi du: 'hattest'. 'Hast' là thì hiện tại, không hợp với 'gestern'."
+    },
+    {
+     "q": "Câu nào sai ngữ pháp?",
+     "options": [
+      "Ich habe gestern Deutsch gelernt.",
+      "Ich bin gestern spät nach Hause gekommen.",
+      "Ich habe gestern zur Schule gegangen.",
+      "Ich habe gestern lange geschlafen."
+     ],
+     "answer": 2,
+     "vi": "Câu sai: 'Ich habe gestern zur Schule gegangen.' (Đúng: Ich bin gestern zur Schule gegangen. – Hôm qua tôi đã đi học.)",
+     "explain": "gehen chỉ sự di chuyển nên phải dùng sein: 'Ich bin … gegangen'. schlafen, lernen dùng haben nên các câu kia đúng."
+    },
+    {
+     "q": "Câu nào đúng?",
+     "options": [
+      "Er ist im Restaurant gearbeitet.",
+      "Er hat im Restaurant arbeitet.",
+      "Er hat im Restaurant gearbeiten.",
+      "Er hat im Restaurant gearbeitet."
+     ],
+     "answer": 3,
+     "vi": "Anh ấy đã làm việc ở nhà hàng.",
+     "explain": "arbeiten dùng haben, Partizip II là 'gearbeitet' (thêm -e- trước -t). Câu A sai vì dùng sein."
+    },
+    {
+     "q": "Câu nào cùng nghĩa với 'Letztes Jahr bin ich in Spanien gewesen.'?",
+     "options": [
+      "Letztes Jahr war ich in Spanien.",
+      "Letztes Jahr hatte ich in Spanien.",
+      "Letztes Jahr bin ich in Spanien.",
+      "Letztes Jahr habe ich in Spanien gewesen."
+     ],
+     "answer": 0,
+     "vi": "Năm ngoái tôi đã ở Tây Ban Nha.",
+     "explain": "'bin … gewesen' (Perfekt) và 'war' (Präteritum) cùng nghĩa. Câu D sai vì sein chia Perfekt với sein, không phải haben."
+    },
+    {
+     "q": "Wir haben den Text leider nicht ___.",
+     "options": [
+      "geverstanden",
+      "verstanden",
+      "verstehen",
+      "verstandet"
+     ],
+     "answer": 1,
+     "vi": "Tiếc là chúng tôi đã không hiểu bài đọc.",
+     "explain": "verstehen có tiền tố không tách ver- nên Partizip II không có ge-: verstanden. 'geverstanden' là lỗi thêm ge- thừa."
+    }
+   ]
+  },
+  {
+   "title": "es gibt, gern / lieber / am liebsten, số thứ tự & ngày tháng (es gibt + Akkusativ, gern-Steigerung, Ordinalzahlen)",
+   "intro": "es gibt (có) luôn đi với Akkusativ và động từ luôn là 'gibt': Es gibt einen Bahnhof / ein Café / eine Bank / viele Museen. Phủ định: Es gibt keinen Arzt.\ngern (thích) có dạng so sánh bất quy tắc: gern → lieber → am liebsten. Ví dụ: Ich höre gern Pop, lieber Jazz und am liebsten Rock. So sánh: Ich esse Fisch lieber als Fleisch.\nSố thứ tự: 1. erste, 2. zweite, 3. dritte, 7. siebte, 1.–19. thêm -te, từ 20. thêm -ste (zwanzigste).\nNgày tháng: Heute ist der erste Mai (der + -e). Khi nói 'vào ngày': am ersten Mai, am dritten Oktober (am + -en).\nNăm: Ich bin 1998 geboren hoặc Ich bin im Jahr 1998 geboren (KHÔNG dùng 'in 1998').",
+   "questions": [
+    {
+     "q": "In meiner Stadt gibt es ___ Bahnhof.",
+     "options": [
+      "einen",
+      "ein",
+      "einem",
+      "eines"
+     ],
+     "answer": 0,
+     "vi": "Ở thành phố của tôi có một nhà ga.",
+     "explain": "es gibt đi với Akkusativ; der Bahnhof (giống đực) → einen Bahnhof. 'ein' sai vì là dạng Nominativ."
+    },
+    {
+     "q": "Gibt es hier ___ Supermarkt?",
+     "options": [
+      "ein",
+      "einen",
+      "einem",
+      "einer"
+     ],
+     "answer": 1,
+     "vi": "Ở đây có siêu thị không?",
+     "explain": "der Supermarkt là giống đực, sau es gibt dùng Akkusativ: einen. 'ein' sai vì không đổi đuôi Akkusativ."
+    },
+    {
+     "q": "Es ___ in Berlin viele Museen.",
+     "options": [
+      "geben",
+      "gebt",
+      "gibst",
+      "gibt"
+     ],
+     "answer": 3,
+     "vi": "Ở Berlin có nhiều bảo tàng.",
+     "explain": "Trong cấu trúc es gibt, động từ luôn là 'gibt' kể cả khi danh từ ở số nhiều. 'geben' sai vì chia theo 'Museen'."
+    },
+    {
+     "q": "Was trinkst du lieber, Tee oder Kaffee? – Ich trinke ___ Kaffee.",
+     "options": [
+      "liebsten",
+      "am lieber",
+      "lieber",
+      "gerner"
+     ],
+     "answer": 2,
+     "vi": "Bạn thích uống trà hay cà phê hơn? – Tôi thích uống cà phê hơn.",
+     "explain": "Dạng so sánh hơn của gern là 'lieber'. 'gerner' sai vì gern có dạng so sánh bất quy tắc."
+    },
+    {
+     "q": "Heute ist der ___ (1.) Mai.",
+     "options": [
+      "erste",
+      "einte",
+      "ersten",
+      "einste"
+     ],
+     "answer": 0,
+     "vi": "Hôm nay là ngày mùng 1 tháng 5.",
+     "explain": "Số thứ tự 1. là 'erste'; sau 'der' (Nominativ) đuôi là -e. 'ersten' sai vì là dạng dùng sau 'am'."
+    },
+    {
+     "q": "Ich bin am ___ (3.) März geboren.",
+     "options": [
+      "dritte",
+      "dreiten",
+      "dritten",
+      "drittem"
+     ],
+     "answer": 2,
+     "vi": "Tôi sinh ngày mùng 3 tháng 3.",
+     "explain": "Sau 'am' số thứ tự có đuôi -en: am dritten. 'dritte' sai vì là dạng dùng sau 'der'."
+    },
+    {
+     "q": "Gibt es hier ein Café? – Nein, hier gibt es ___ Café.",
+     "options": [
+      "keinen",
+      "kein",
+      "keine",
+      "nicht"
+     ],
+     "answer": 1,
+     "vi": "Ở đây có quán cà phê không? – Không, ở đây không có quán cà phê nào.",
+     "explain": "das Café là giống trung, Akkusativ của kein vẫn là 'kein'. 'keinen' sai vì chỉ dùng cho danh từ giống đực."
+    },
+    {
+     "q": "Ich höre gern Pop, lieber Jazz und ___ Rock.",
+     "options": [
+      "liebsten",
+      "gernsten",
+      "am meisten gern",
+      "am liebsten"
+     ],
+     "answer": 3,
+     "vi": "Tôi thích nghe nhạc pop, thích jazz hơn và thích nhất là rock.",
+     "explain": "Dạng so sánh nhất của gern là 'am liebsten'. 'liebsten' sai vì thiếu 'am'."
+    },
+    {
+     "q": "Mein Geburtstag ist am ___ (7.) Juli.",
+     "options": [
+      "siebte",
+      "siebten",
+      "siebenen",
+      "siebtem"
+     ],
+     "answer": 1,
+     "vi": "Sinh nhật tôi vào ngày mùng 7 tháng 7.",
+     "explain": "Số thứ tự 7. là 'siebte' (bỏ -en), sau 'am' có đuôi -en: am siebten. 'siebtem' sai đuôi."
+    },
+    {
+     "q": "Ich bin ___ 1998 geboren.",
+     "options": [
+      "in",
+      "am",
+      "im",
+      "im Jahr"
+     ],
+     "answer": 3,
+     "vi": "Tôi sinh năm 1998.",
+     "explain": "Năm được nói không có giới từ hoặc với 'im Jahr'. 'in 1998' sai vì đó là cách nói tiếng Anh."
+    },
+    {
+     "q": "Câu nào đúng?",
+     "options": [
+      "Heute ist der dritten Oktober.",
+      "Heute ist dritte Oktober.",
+      "Heute ist der drei Oktober.",
+      "Heute ist der dritte Oktober."
+     ],
+     "answer": 3,
+     "vi": "Hôm nay là ngày mùng 3 tháng 10.",
+     "explain": "Ngày tháng dùng số thứ tự với 'der' và đuôi -e: der dritte. Câu A sai vì đuôi -en chỉ dùng sau 'am'."
+    },
+    {
+     "q": "Der Kurs beginnt am ___ (20.) Januar.",
+     "options": [
+      "zwanzigten",
+      "zwanzigste",
+      "zwanzigsten",
+      "zwanzigstem"
+     ],
+     "answer": 2,
+     "vi": "Khóa học bắt đầu vào ngày 20 tháng 1.",
+     "explain": "Từ 20 trở đi số thứ tự thêm -ste, sau 'am' thành -sten: am zwanzigsten. 'zwanzigten' sai vì thiếu -s-."
+    },
+    {
+     "q": "Câu nào sai ngữ pháp?",
+     "options": [
+      "Es gibt einen Park in der Nähe.",
+      "Hier gibt es keinen Arzt.",
+      "Es gibt ein Supermarkt hier.",
+      "Es gibt ein Problem."
+     ],
+     "answer": 2,
+     "vi": "Câu sai: 'Es gibt ein Supermarkt hier.' (Đúng: Es gibt einen Supermarkt hier. – Ở đây có một siêu thị.)",
+     "explain": "der Supermarkt giống đực, sau es gibt phải là Akkusativ 'einen'. 'ein Problem' đúng vì das Problem là giống trung."
+    },
+    {
+     "q": "Câu nào cùng nghĩa với 'Ich esse Fisch lieber als Fleisch.'?",
+     "options": [
+      "Ich esse Fleisch nicht so gern wie Fisch.",
+      "Ich esse Fleisch lieber als Fisch.",
+      "Ich esse Fisch nicht gern.",
+      "Ich esse Fisch und Fleisch am liebsten."
+     ],
+     "answer": 0,
+     "vi": "Tôi không thích ăn thịt bằng ăn cá.",
+     "explain": "'Fisch lieber als Fleisch' nghĩa là thích cá hơn thịt, tức là thích thịt không bằng cá. Câu B đảo ngược ý nghĩa."
+    },
+    {
+     "q": "Câu nào đúng?",
+     "options": [
+      "Wir fahren im ersten Mai nach Wien.",
+      "Wir fahren am ersten Mai nach Wien.",
+      "Wir fahren am erste Mai nach Wien.",
+      "Wir fahren an erstem Mai nach Wien."
+     ],
+     "answer": 1,
+     "vi": "Chúng tôi sẽ đi Vienna vào ngày mùng 1 tháng 5.",
+     "explain": "'Vào ngày' dùng am + số thứ tự đuôi -en: am ersten Mai. 'im' chỉ dùng cho tháng/năm, không dùng cho ngày."
+    }
+   ]
+  },
+  {
    "title": "Động từ khuyết thiếu (Modalverben: können, müssen, wollen, möchten, dürfen, sollen)",
    "intro": "Động từ khuyết thiếu diễn tả khả năng (können), bắt buộc (müssen), ý muốn (wollen, möchten), sự cho phép (dürfen) và lời khuyên/yêu cầu của người khác (sollen). Ở ngôi ich và er/sie/es, động từ khuyết thiếu KHÔNG có đuôi: ich kann, er muss, sie will, es darf, ich möchte.\nBảng chia: ich kann/muss/will/darf/soll/möchte – du kannst/musst/willst/darfst/sollst/möchtest – er/sie/es kann/muss/will/darf/soll/möchte – wir/sie/Sie können/müssen/wollen/dürfen/sollen/möchten – ihr könnt/müsst/wollt/dürft/sollt/möchtet.\nKhung câu (Satzklammer): động từ khuyết thiếu đứng ở vị trí 2 (hoặc vị trí 1 trong câu hỏi Có/Không), động từ chính ở dạng nguyên mẫu đứng CUỐI câu: Ich kann heute nicht kommen. Kannst du mir helfen?",
    "questions": [
@@ -4838,6 +5396,564 @@ const MCQ = {
      "explain": "Hỏi lịch sự \"Wäre es möglich, … zu …?\" dùng Konjunktiv II của sein với chủ ngữ \"es\". \"Wären\" là dạng số nhiều."
     }
    ]
+  },
+  {
+   "title": "Đại từ bất định (Indefinitpronomen)",
+   "intro": "Đại từ bất định chỉ người hoặc vật không xác định.\n• Người: jemand (ai đó) – niemand (không ai); Akk: jemanden/niemanden, Dat: jemandem/niemandem.\n• Vật: etwas (cái gì đó) – nichts (không gì) – alles (tất cả); ba từ này không biến đổi.\n• man (người ta) chỉ có Nominativ; Akk dùng „einen“, Dat dùng „einem“: Das macht einen müde.\n• Thay cho danh từ đã nhắc (một cái / không cái nào):\n  Nom: einer – eine – eins | keiner – keine – keins | Pl: welche / keine\n  Akk: einen – eine – eins | keinen – keine – keins | Pl: welche / keine\n  Dat: einem – einer – einem | keinem – keiner – keinem | Pl: welchen / keinen\nVí dụ: Hast du einen Stift? – Ja, ich habe einen. / Brauchst du Eier? – Ja, haben wir welche? Lưu ý: kein/ein (không có đuôi) chỉ đứng trước danh từ, không đứng một mình.",
+   "questions": [
+    {
+     "q": "Möchtest du ___ trinken? – Ja, ein Wasser, bitte.",
+     "options": [
+      "jemand",
+      "etwas",
+      "man",
+      "niemand"
+     ],
+     "answer": 1,
+     "vi": "Bạn có muốn uống gì không? – Có, cho tôi một cốc nước.",
+     "explain": "„etwas“ (cái gì đó) dùng cho đồ vật/sự việc. „jemand“ và „niemand“ chỉ người, nên không đi với „trinken“ ở đây."
+    },
+    {
+     "q": "Ist ___ zu Hause? – Nein, niemand.",
+     "options": [
+      "jemand",
+      "etwas",
+      "man",
+      "nichts"
+     ],
+     "answer": 0,
+     "vi": "Có ai ở nhà không? – Không, không có ai.",
+     "explain": "Hỏi về người thì dùng „jemand“ (ai đó). „etwas“ chỉ vật, nên không hợp với câu trả lời „niemand“."
+    },
+    {
+     "q": "Ich habe Hunger, aber im Kühlschrank ist ___.",
+     "options": [
+      "niemand",
+      "kein",
+      "keiner",
+      "nichts"
+     ],
+     "answer": 3,
+     "vi": "Tôi đói, nhưng trong tủ lạnh không có gì cả.",
+     "explain": "„nichts“ (không có gì) là phủ định của „etwas“, dùng cho đồ vật. „kein“ là quán từ, phải đi kèm danh từ, không đứng một mình."
+    },
+    {
+     "q": "In Deutschland isst ___ viel Brot.",
+     "options": [
+      "einen",
+      "einem",
+      "man",
+      "jemanden"
+     ],
+     "answer": 2,
+     "vi": "Ở Đức người ta ăn nhiều bánh mì.",
+     "explain": "„man“ (người ta) chỉ dùng ở Nominativ làm chủ ngữ. „einen“/„einem“ là dạng Akkusativ/Dativ của „man“, không làm chủ ngữ được."
+    },
+    {
+     "q": "Hast du einen Kuli? – Ja, ich habe ___.",
+     "options": [
+      "einer",
+      "eins",
+      "einen",
+      "eine"
+     ],
+     "answer": 2,
+     "vi": "Bạn có bút bi không? – Có, tôi có một cái.",
+     "explain": "„der Kuli“ là giống đực, làm tân ngữ (Akkusativ) nên dùng „einen“. „einer“ là dạng Nominativ giống đực."
+    },
+    {
+     "q": "Brauchst du ein Heft? – Nein, ich habe schon ___.",
+     "options": [
+      "eins",
+      "einen",
+      "einer",
+      "eine"
+     ],
+     "answer": 0,
+     "vi": "Bạn có cần một quyển vở không? – Không, tôi có một quyển rồi.",
+     "explain": "„das Heft“ là giống trung; đại từ thay thế ở Nominativ/Akkusativ là „eins“. „einen“ chỉ dùng cho giống đực."
+    },
+    {
+     "q": "Hast du Briefmarken? – Nein, ich habe ___.",
+     "options": [
+      "keinen",
+      "keine",
+      "keiner",
+      "keins"
+     ],
+     "answer": 1,
+     "vi": "Bạn có tem không? – Không, tôi không có cái nào.",
+     "explain": "„Briefmarken“ là số nhiều, Akkusativ số nhiều là „keine“. „keinen“ là Akkusativ giống đực số ít (hoặc Dativ số nhiều)."
+    },
+    {
+     "q": "Ich brauche Eier. Haben wir noch ___?",
+     "options": [
+      "welcher",
+      "welchen",
+      "welches",
+      "welche"
+     ],
+     "answer": 3,
+     "vi": "Tôi cần trứng. Nhà mình còn trứng không?",
+     "explain": "Với danh từ số nhiều không xác định, dùng „welche“ thay cho „einer/eine/eins“ (không có số nhiều). „welchen“ là dạng Dativ số nhiều, sai ở đây."
+    },
+    {
+     "q": "Ich habe das Geheimnis ___ erzählt.",
+     "options": [
+      "niemandem",
+      "niemanden",
+      "man",
+      "nichts"
+     ],
+     "answer": 0,
+     "vi": "Tôi không kể bí mật đó cho ai cả.",
+     "explain": "„erzählen“ cần người nhận ở Dativ: jemandem/niemandem. „niemanden“ là Akkusativ nên sai."
+    },
+    {
+     "q": "Diese Stadt ist so laut, sie macht ___ nervös.",
+     "options": [
+      "man",
+      "einem",
+      "jemandem",
+      "einen"
+     ],
+     "answer": 3,
+     "vi": "Thành phố này ồn quá, nó làm người ta bực bội.",
+     "explain": "„man“ chỉ có Nominativ; ở Akkusativ phải dùng „einen“ (machen + Akk). Giữ nguyên „man“ ở vị trí tân ngữ là lỗi điển hình."
+    },
+    {
+     "q": "Von meinen Freundinnen habe ich nur noch mit ___ Kontakt.",
+     "options": [
+      "eine",
+      "einer",
+      "einem",
+      "eins"
+     ],
+     "answer": 1,
+     "vi": "Trong số các bạn gái của tôi, tôi chỉ còn liên lạc với một người.",
+     "explain": "„mit“ đi với Dativ; Dativ giống cái của đại từ „eine“ là „einer“. „eine“ là Nominativ/Akkusativ nên sai."
+    },
+    {
+     "q": "Ich habe zwei Fahrräder, aber mit ___ kann ich fahren – beide sind kaputt.",
+     "options": [
+      "keins",
+      "keiner",
+      "keinem",
+      "kein"
+     ],
+     "answer": 2,
+     "vi": "Tôi có hai chiếc xe đạp, nhưng không đi được chiếc nào – cả hai đều hỏng.",
+     "explain": "„mit“ + Dativ, „das Fahrrad“ giống trung → „keinem“. „keins“ là Nominativ/Akkusativ giống trung, không dùng sau „mit“."
+    },
+    {
+     "q": "Câu nào đúng?",
+     "options": [
+      "Nur einen von den Kollegen hat mir geholfen.",
+      "Nur einer von den Kollegen hat mir geholfen.",
+      "Nur eins von den Kollegen hat mir geholfen.",
+      "Nur einem von den Kollegen hat mir geholfen."
+     ],
+     "answer": 1,
+     "vi": "Chỉ có một người trong số các đồng nghiệp đã giúp tôi.",
+     "explain": "Đại từ làm chủ ngữ (Nominativ), chỉ đồng nghiệp nam/chung → „einer“. „einen“ là Akkusativ, „einem“ là Dativ, không làm chủ ngữ được."
+    },
+    {
+     "q": "Câu nào sai ngữ pháp?",
+     "options": [
+      "Ich habe keins Auto.",
+      "Ich habe alles verstanden.",
+      "Hast du etwas gehört?",
+      "Ich kenne hier niemanden."
+     ],
+     "answer": 0,
+     "vi": "Câu sai: „Ich habe keins Auto.“ – đúng phải là „Ich habe kein Auto.“ (Tôi không có ô tô.)",
+     "explain": "„keins“ là đại từ đứng một mình, không đứng trước danh từ; trước danh từ phải dùng quán từ „kein“. Các câu còn lại đều đúng."
+    },
+    {
+     "q": "Câu nào cùng nghĩa với „Hier spricht man Deutsch.“?",
+     "options": [
+      "Hier spricht ein Mann Deutsch.",
+      "Hier spricht niemand Deutsch.",
+      "Hier spricht nur eine Person Deutsch.",
+      "Hier sprechen die Leute Deutsch."
+     ],
+     "answer": 3,
+     "vi": "Ở đây mọi người nói tiếng Đức.",
+     "explain": "„man“ nghĩa là „người ta, mọi người nói chung“, không phải „một người đàn ông“ (der Mann). Vì vậy chỉ „die Leute“ cùng nghĩa."
+    }
+   ]
+  },
+  {
+   "title": "Đại từ chỉ định & nghi vấn (Demonstrativ- und Interrogativpronomen)",
+   "intro": "dieser (này), jeder (mỗi), welcher (nào) biến đổi giống quán từ der/die/das:\n  Nom: dieser – diese – dieses – diese (Pl)\n  Akk: diesen – diese – dieses – diese\n  Dat: diesem – dieser – diesem – diesen (+n)\n„jeder“ chỉ dùng số ít; „alle“ (tất cả) và „manche“ (một số) dùng với số nhiều (Dat: allen, manchen).\n„Was für ein …?“ hỏi về loại/kiểu; „ein“ biến đổi theo cách do động từ hoặc giới từ trong câu quyết định (chữ „für“ không chi phối cách): Was für einen Film? In was für einer Wohnung? Số nhiều: Was für Bücher?\nder/die/das làm đại từ chỉ định (thay cho danh từ, nhấn mạnh) giống quán từ, trừ Dativ số nhiều là „denen“: Den kenne ich. Mit denen spiele ich.",
+   "questions": [
+    {
+     "q": "___ Jacke gefällt mir sehr gut.",
+     "options": [
+      "Dieser",
+      "Dieses",
+      "Diese",
+      "Diesen"
+     ],
+     "answer": 2,
+     "vi": "Tôi rất thích cái áo khoác này.",
+     "explain": "„die Jacke“ giống cái, làm chủ ngữ (Nominativ) → „diese“. „Dieser“ là Nominativ giống đực."
+    },
+    {
+     "q": "___ Kind bekommt ein Eis.",
+     "options": [
+      "Jeder",
+      "Jede",
+      "Jeden",
+      "Jedes"
+     ],
+     "answer": 3,
+     "vi": "Mỗi đứa trẻ được một cây kem.",
+     "explain": "„das Kind“ giống trung, Nominativ → „jedes“ (đuôi giống „das“). „Jeder“ chỉ dùng cho giống đực."
+    },
+    {
+     "q": "___ Bus fährt zum Bahnhof?",
+     "options": [
+      "Welcher",
+      "Welche",
+      "Welches",
+      "Welchen"
+     ],
+     "answer": 0,
+     "vi": "Xe buýt nào chạy đến nhà ga?",
+     "explain": "„der Bus“ giống đực, làm chủ ngữ → „welcher“. „Welchen“ là Akkusativ, không làm chủ ngữ được."
+    },
+    {
+     "q": "Ich nehme ___ Tisch am Fenster.",
+     "options": [
+      "dieser",
+      "diesen",
+      "dieses",
+      "diesem"
+     ],
+     "answer": 1,
+     "vi": "Tôi lấy cái bàn cạnh cửa sổ này.",
+     "explain": "„nehmen“ cần Akkusativ; „der Tisch“ giống đực → „diesen“. „dieser“ là Nominativ nên sai."
+    },
+    {
+     "q": "___ Studenten haben die Prüfung bestanden – niemand ist durchgefallen.",
+     "options": [
+      "Jeder",
+      "Alle",
+      "Jede",
+      "Allen"
+     ],
+     "answer": 1,
+     "vi": "Tất cả sinh viên đều đã đỗ kỳ thi – không ai trượt cả.",
+     "explain": "Danh từ số nhiều „Studenten“ đi với „alle“ ở Nominativ. „jeder“ chỉ dùng với số ít; „allen“ là Dativ số nhiều."
+    },
+    {
+     "q": "In ___ Stadt wohnst du?",
+     "options": [
+      "welche",
+      "welchem",
+      "welches",
+      "welcher"
+     ],
+     "answer": 3,
+     "vi": "Bạn sống ở thành phố nào?",
+     "explain": "„in“ + Dativ (trả lời câu hỏi Wo?), „die Stadt“ giống cái → „welcher“. „welche“ là Nominativ/Akkusativ giống cái."
+    },
+    {
+     "q": "Ich spreche mit ___ Kunden persönlich.",
+     "options": [
+      "jedem",
+      "jeden",
+      "jeder",
+      "alle"
+     ],
+     "answer": 0,
+     "vi": "Tôi nói chuyện trực tiếp với từng khách hàng.",
+     "explain": "„mit“ + Dativ; „der Kunde“ giống đực → „jedem Kunden“. „jeden“ là Akkusativ giống đực, sai sau „mit“."
+    },
+    {
+     "q": "___ Leute mögen keinen Kaffee, aber die meisten trinken ihn gern.",
+     "options": [
+      "Mancher",
+      "Jede",
+      "Manche",
+      "Manchen"
+     ],
+     "answer": 2,
+     "vi": "Một số người không thích cà phê, nhưng phần lớn thì thích uống.",
+     "explain": "„manche“ (một số) đi với danh từ số nhiều; Nominativ số nhiều → „manche“. „Manchen“ là Dativ số nhiều."
+    },
+    {
+     "q": "Was für ___ Auto hast du? – Einen Golf.",
+     "options": [
+      "einen",
+      "eine",
+      "einem",
+      "ein"
+     ],
+     "answer": 3,
+     "vi": "Bạn có loại ô tô gì? – Một chiếc Golf.",
+     "explain": "Trong „was für ein“, quán từ „ein“ biến đổi theo danh từ: „das Auto“, Akkusativ → „ein“. „einen“ chỉ dùng cho giống đực."
+    },
+    {
+     "q": "Was für ___ Film möchtest du sehen? – Eine Komödie.",
+     "options": [
+      "einen",
+      "ein",
+      "einem",
+      "einer"
+     ],
+     "answer": 0,
+     "vi": "Bạn muốn xem loại phim gì? – Một phim hài.",
+     "explain": "„der Film“ giống đực, là tân ngữ của „sehen“ → Akkusativ „einen“. „ein“ là Nominativ giống đực hoặc dạng giống trung."
+    },
+    {
+     "q": "In was für ___ Wohnung wohnt ihr?",
+     "options": [
+      "eine",
+      "einem",
+      "einer",
+      "einen"
+     ],
+     "answer": 2,
+     "vi": "Các bạn sống trong loại căn hộ nào?",
+     "explain": "Giới từ „in“ (Wo?) quyết định cách, không phải „für“: „in einer Wohnung“ (Dativ giống cái). „eine“ sai vì „für“ ở đây không chi phối cách."
+    },
+    {
+     "q": "Kennst du den Mann da? – Ja, ___ kenne ich gut.",
+     "options": [
+      "der",
+      "den",
+      "dem",
+      "die"
+     ],
+     "answer": 1,
+     "vi": "Bạn có biết người đàn ông kia không? – Có, ông ấy thì tôi biết rõ.",
+     "explain": "Đại từ chỉ định „der“ thay cho „den Mann“, làm tân ngữ của „kennen“ → Akkusativ „den“. „der“ là Nominativ."
+    },
+    {
+     "q": "Siehst du die Kinder dort? Mit ___ spielt mein Sohn oft.",
+     "options": [
+      "denen",
+      "den",
+      "die",
+      "dem"
+     ],
+     "answer": 0,
+     "vi": "Bạn có thấy mấy đứa trẻ ở đó không? Con trai tôi hay chơi với chúng.",
+     "explain": "Đại từ chỉ định ở Dativ số nhiều là „denen“ (khác với quán từ „den“). „den“ là lỗi hay gặp vì quán từ Dativ số nhiều là „den“."
+    },
+    {
+     "q": "Câu nào sai ngữ pháp?",
+     "options": [
+      "Ich helfe allen Kindern.",
+      "Welches Buch liest du?",
+      "Jede Woche gehe ich schwimmen.",
+      "Jeder Leute kennt das."
+     ],
+     "answer": 3,
+     "vi": "Câu sai: „Jeder Leute kennt das.“ – đúng là „Jeder kennt das.“ hoặc „Alle Leute kennen das.“ (Ai cũng biết điều đó.)",
+     "explain": "„jeder“ chỉ đi với danh từ số ít, còn „Leute“ luôn là số nhiều. Các câu khác đúng, ví dụ „allen Kindern“ là Dativ số nhiều."
+    },
+    {
+     "q": "Câu nào đúng?",
+     "options": [
+      "Mit welcher Zug fährst du?",
+      "Mit welchen Zug fährst du?",
+      "Mit welchem Zug fährst du?",
+      "Mit welches Zug fährst du?"
+     ],
+     "answer": 2,
+     "vi": "Bạn đi chuyến tàu nào?",
+     "explain": "„mit“ + Dativ, „der Zug“ giống đực → „welchem“. „welchen“ là Akkusativ giống đực, sai sau „mit“."
+    }
+   ]
+  },
+  {
+   "title": "Động từ đi với giới từ & wo(r)-/da(r)- (Verben mit Präpositionen)",
+   "intro": "Nhiều động từ đi với một giới từ cố định, cần học thuộc cả cụm:\n  warten auf + Akk, denken an + Akk, sich interessieren für + Akk, sprechen über + Akk, sprechen mit + Dat, Angst haben vor + Dat\n  sich freuen auf + Akk (mong chờ điều sắp tới) – sich freuen über + Akk (vui về điều đã có/đã xảy ra).\nHỏi và thay thế cho VẬT/SỰ VIỆC: wo- + giới từ (Wofür? Womit?) và da- + giới từ (dafür, damit); nếu giới từ bắt đầu bằng nguyên âm thì thêm „r“: Worauf? – Darauf. Woran? – Daran. Worüber? – Darüber.\nHỏi và thay thế cho NGƯỜI: giới từ + wen/wem và giới từ + đại từ nhân xưng: Auf wen wartest du? – Auf ihn. Mit wem sprichst du? – Mit ihr.",
+   "questions": [
+    {
+     "q": "Ich warte ___ den Bus.",
+     "options": [
+      "auf",
+      "für",
+      "an",
+      "über"
+     ],
+     "answer": 0,
+     "vi": "Tôi đang đợi xe buýt.",
+     "explain": "Cố định: „warten auf + Akkusativ“. „für“ là lỗi hay gặp do dịch từ tiếng Việt/tiếng Anh („wait for“)."
+    },
+    {
+     "q": "Interessierst du dich ___ Fußball?",
+     "options": [
+      "an",
+      "auf",
+      "für",
+      "über"
+     ],
+     "answer": 2,
+     "vi": "Bạn có quan tâm đến bóng đá không?",
+     "explain": "Cố định: „sich interessieren für + Akkusativ“. „an“ sai vì chỉ dùng với „Interesse haben an“."
+    },
+    {
+     "q": "Ich denke oft ___ meine Familie in Vietnam.",
+     "options": [
+      "auf",
+      "an",
+      "für",
+      "mit"
+     ],
+     "answer": 1,
+     "vi": "Tôi thường nghĩ đến gia đình ở Việt Nam.",
+     "explain": "Cố định: „denken an + Akkusativ“ (nghĩ đến, nhớ đến). „auf“ sai vì không đi với „denken“."
+    },
+    {
+     "q": "Morgen beginnen die Ferien. Ich freue mich schon ___ die Reise.",
+     "options": [
+      "über",
+      "für",
+      "an",
+      "auf"
+     ],
+     "answer": 3,
+     "vi": "Ngày mai kỳ nghỉ bắt đầu. Tôi đã mong chờ chuyến đi rồi.",
+     "explain": "Chuyến đi còn ở tương lai nên dùng „sich freuen auf“ (mong chờ). „über“ dùng cho việc đã xảy ra/đang có."
+    },
+    {
+     "q": "Danke für das Geschenk! Ich freue mich sehr ___.",
+     "options": [
+      "darauf",
+      "worüber",
+      "über es",
+      "darüber"
+     ],
+     "answer": 3,
+     "vi": "Cảm ơn món quà! Tôi rất vui về nó.",
+     "explain": "Món quà đã nhận nên dùng „sich freuen über“; thay cho vật dùng „da(r)- + giới từ“ → „darüber“. „über es“ sai vì không dùng giới từ + đại từ cho vật."
+    },
+    {
+     "q": "Ich habe gestern lange mit ___ Chef gesprochen.",
+     "options": [
+      "meinen",
+      "meinem",
+      "meiner",
+      "mein"
+     ],
+     "answer": 1,
+     "vi": "Hôm qua tôi đã nói chuyện lâu với sếp của tôi.",
+     "explain": "„sprechen mit“ + Dativ; „der Chef“ giống đực → „meinem“. „meinen“ là Akkusativ nên sai."
+    },
+    {
+     "q": "___ wartest du? – Auf den Zug.",
+     "options": [
+      "Woauf",
+      "Wofür",
+      "Worauf",
+      "Auf wen"
+     ],
+     "answer": 2,
+     "vi": "Bạn đang đợi gì vậy? – Đợi tàu.",
+     "explain": "Hỏi về vật: wo + giới từ; vì „auf“ bắt đầu bằng nguyên âm nên thêm „r“ → „Worauf“. „Auf wen“ chỉ dùng để hỏi về người."
+    },
+    {
+     "q": "___ sprecht ihr? – Über die Prüfung.",
+     "options": [
+      "Worüber",
+      "Woüber",
+      "Über wen",
+      "Darüber"
+     ],
+     "answer": 0,
+     "vi": "Các bạn đang nói về chuyện gì? – Về kỳ thi.",
+     "explain": "Hỏi về sự việc với „sprechen über“ → „Worüber“ (thêm „r“ trước nguyên âm). „Darüber“ là từ để trả lời, không phải từ để hỏi."
+    },
+    {
+     "q": "Mit ___ hast du telefoniert? – Mit Herrn Schulz.",
+     "options": [
+      "wen",
+      "wem",
+      "wer",
+      "was"
+     ],
+     "answer": 1,
+     "vi": "Bạn đã gọi điện với ai? – Với ông Schulz.",
+     "explain": "Hỏi về người sau „mit“ (Dativ) → „mit wem“. „wen“ là Akkusativ nên sai."
+    },
+    {
+     "q": "Denkst du an den Termin morgen? – Ja, ich denke ___.",
+     "options": [
+      "an ihn",
+      "darauf",
+      "woran",
+      "daran"
+     ],
+     "answer": 3,
+     "vi": "Bạn có nhớ cuộc hẹn ngày mai không? – Có, tôi nhớ.",
+     "explain": "„der Termin“ là vật, nên thay bằng „da(r)- + an“ → „daran“. „an ihn“ chỉ dùng cho người."
+    },
+    {
+     "q": "Denkst du noch an deinen alten Lehrer? – Ja, ich denke oft an ___.",
+     "options": [
+      "ihn",
+      "ihm",
+      "er",
+      "sein"
+     ],
+     "answer": 0,
+     "vi": "Bạn còn nhớ thầy giáo cũ không? – Có, tôi thường nghĩ đến thầy.",
+     "explain": "Với người dùng giới từ + đại từ nhân xưng; „an“ ở đây cần Akkusativ → „an ihn“. „ihm“ là Dativ nên sai."
+    },
+    {
+     "q": "Hast du Angst vor der Prüfung? – Nein, ich habe keine Angst ___.",
+     "options": [
+      "darvor",
+      "dafür",
+      "davor",
+      "vor es"
+     ],
+     "answer": 2,
+     "vi": "Bạn có sợ kỳ thi không? – Không, tôi không sợ.",
+     "explain": "Thay cho vật: „da- + vor“ → „davor“; chỉ thêm „r“ khi giới từ bắt đầu bằng nguyên âm, nên „darvor“ sai."
+    },
+    {
+     "q": "Câu nào sai ngữ pháp?",
+     "options": [
+      "Ich interessiere mich für Politik.",
+      "Wir sprechen über das Wetter.",
+      "Sie wartet auf ihren Mann.",
+      "Er hat Angst vor den Hund."
+     ],
+     "answer": 3,
+     "vi": "Câu sai: „Er hat Angst vor den Hund.“ – đúng là „Er hat Angst vor dem Hund.“ (Anh ấy sợ con chó.)",
+     "explain": "„Angst haben vor“ luôn đi với Dativ → „vor dem Hund“. Các câu còn lại dùng đúng Akkusativ sau „für“, „über“, „auf“."
+    },
+    {
+     "q": "Câu nào đúng?",
+     "options": [
+      "Woran interessierst du dich? – An Musik.",
+      "Wofür interessierst du dich? – Für Musik.",
+      "Worüber interessierst du dich? – Über Musik.",
+      "Wofür interessierst du dich? – Auf Musik."
+     ],
+     "answer": 1,
+     "vi": "Bạn quan tâm đến điều gì? – Đến âm nhạc.",
+     "explain": "„sich interessieren für“ → câu hỏi „Wofür?“ và câu trả lời „Für …“. Phương án cuối hỏi đúng nhưng trả lời sai giới từ."
+    },
+    {
+     "q": "Câu nào cùng nghĩa với „Ich freue mich auf den Urlaub.“?",
+     "options": [
+      "Der Urlaub kommt bald, und ich bin schon jetzt froh, dass er kommt.",
+      "Ich hatte einen schönen Urlaub und bin froh darüber.",
+      "Ich habe keine Lust auf den Urlaub.",
+      "Ich habe Angst vor dem Urlaub."
+     ],
+     "answer": 0,
+     "vi": "Kỳ nghỉ sắp đến và tôi đã thấy vui vì nó sắp đến rồi.",
+     "explain": "„sich freuen auf“ = mong chờ điều gì đó trong tương lai. Câu „Ich hatte einen schönen Urlaub…“ nói về kỳ nghỉ đã qua, tương ứng với „sich freuen über“."
+    }
+   ]
   }
  ],
  "B1": [
@@ -7258,6 +8374,564 @@ const MCQ = {
      "explain": "Câu 4 đúng: sau câu phụ, câu chính bắt đầu bằng động từ 'wird'. Sai: 'werden wir', 'trotzdem ist er', bỏ 'werden' thừa ở cuối."
     }
    ]
+  },
+  {
+   "title": "Trật tự từ trong câu (Satzstellung)",
+   "intro": "Trong câu chính, động từ chia luôn đứng ở vị trí 2. Nếu vị trí 1 (Vorfeld) là trạng từ, tân ngữ hay cả một mệnh đề phụ thì chủ ngữ đứng ngay sau động từ (Inversion): Morgen fahre ich … / Wenn ich Zeit habe, besuche ich dich.\nCác trạng ngữ thường theo thứ tự TeKaMoLo: Temporal (khi nào) – Kausal (vì sao) – Modal (thế nào) – Lokal (ở đâu/đi đâu); chỉ hướng đứng cuối: Ich fahre morgen mit dem Zug nach München.\nHai tân ngữ: hai danh từ → Dativ trước Akkusativ (Ich gebe meinem Bruder das Buch); có đại từ → đại từ đứng trước danh từ (Ich gebe es meinem Bruder / Ich gebe ihm das Buch); hai đại từ → Akkusativ trước Dativ (Ich gebe es ihm). Đại từ đứng sát sau động từ/chủ ngữ, trước các trạng ngữ.\n'nicht' phủ định cả câu đứng gần cuối: sau tân ngữ và trạng từ thời gian, nhưng trước Partizip/Infinitiv, trước tính từ vị ngữ và trước bổ ngữ chỉ hướng: Ich habe den Film nicht gesehen. / Er kommt heute nicht ins Büro.",
+   "questions": [
+    {
+     "q": "Morgen ___ nach Berlin.",
+     "options": [
+      "fahre ich",
+      "ich fahre",
+      "fahren ich",
+      "ich fahren"
+     ],
+     "answer": 0,
+     "vi": "Ngày mai tôi đi Berlin.",
+     "explain": "Khi 'Morgen' đứng đầu câu, động từ vẫn ở vị trí 2 và chủ ngữ phải đứng sau động từ (đảo ngữ). 'ich fahre' sai vì động từ bị đẩy xuống vị trí 3."
+    },
+    {
+     "q": "Ich fahre ___.",
+     "options": [
+      "nach München morgen mit dem Zug",
+      "morgen mit dem Zug nach München",
+      "mit dem Zug nach München morgen",
+      "nach München mit dem Zug morgen"
+     ],
+     "answer": 1,
+     "vi": "Ngày mai tôi đi tàu tới München.",
+     "explain": "Theo TeKaMoLo: thời gian (morgen) – cách thức (mit dem Zug) – nơi chốn/hướng (nach München) ở cuối. Các phương án khác đặt 'morgen' ở cuối hoặc chỉ hướng lên trước, đều sai."
+    },
+    {
+     "q": "Leider ___ heute keine Zeit.",
+     "options": [
+      "ich habe",
+      "hat ich",
+      "habe ich",
+      "haben ich"
+     ],
+     "answer": 2,
+     "vi": "Tiếc là hôm nay tôi không có thời gian.",
+     "explain": "'Leider' chiếm vị trí 1 nên động từ chia 'habe' đứng thứ 2, rồi đến chủ ngữ 'ich'. 'hat ich' đúng trật tự nhưng sai cách chia động từ."
+    },
+    {
+     "q": "Ich habe den Film leider ___.",
+     "options": [
+      "gesehen nicht",
+      "nicht gesehen haben",
+      "nichts gesehen",
+      "nicht gesehen"
+     ],
+     "answer": 3,
+     "vi": "Tiếc là tôi đã không xem bộ phim đó.",
+     "explain": "'nicht' phủ định cả câu đứng trước Partizip II ở cuối câu. 'gesehen nicht' sai vì Partizip phải ở vị trí cuối cùng."
+    },
+    {
+     "q": "Das Wetter ist heute ___.",
+     "options": [
+      "nicht schön",
+      "schön nicht",
+      "nichts schön",
+      "kein schön"
+     ],
+     "answer": 0,
+     "vi": "Hôm nay thời tiết không đẹp.",
+     "explain": "'nicht' đứng trước tính từ vị ngữ. 'kein' chỉ dùng để phủ định danh từ, không dùng với tính từ."
+    },
+    {
+     "q": "Kannst du ___ geben?",
+     "options": [
+      "mich das Salz",
+      "mir das Salz",
+      "das Salz mich",
+      "mir dem Salz"
+     ],
+     "answer": 1,
+     "vi": "Bạn có thể đưa cho tôi lọ muối không?",
+     "explain": "Đại từ Dativ 'mir' (người nhận) đứng trước danh từ Akkusativ 'das Salz'. 'mich das Salz' sai vì người nhận phải ở Dativ."
+    },
+    {
+     "q": "Hast du Paul das Buch zurückgegeben? – Ja, ich habe ___ gestern zurückgegeben.",
+     "options": [
+      "ihm es",
+      "es ihn",
+      "ihn ihm",
+      "es ihm"
+     ],
+     "answer": 3,
+     "vi": "Bạn đã trả lại cuốn sách cho Paul chưa? – Rồi, hôm qua tôi đã trả lại nó cho cậu ấy.",
+     "explain": "Khi cả hai tân ngữ là đại từ thì Akkusativ đứng trước Dativ: 'es ihm'. 'ihm es' là lỗi rất phổ biến do bắt chước thứ tự của hai danh từ."
+    },
+    {
+     "q": "Wo ist mein Schlüssel? – Ich habe ___ gegeben.",
+     "options": [
+      "deiner Schwester ihn",
+      "ihn deine Schwester",
+      "ihn deiner Schwester",
+      "ihm deiner Schwester"
+     ],
+     "answer": 2,
+     "vi": "Chìa khóa của tôi đâu? – Tôi đã đưa nó cho chị (em) gái của bạn.",
+     "explain": "Đại từ 'ihn' (Akkusativ) đứng trước danh từ 'deiner Schwester' (Dativ). 'deiner Schwester ihn' sai vì đại từ phải đứng trước danh từ."
+    },
+    {
+     "q": "Wenn ich Zeit habe, ___.",
+     "options": [
+      "ich besuche dich",
+      "besuche ich dich",
+      "ich dich besuche",
+      "dich besuche ich"
+     ],
+     "answer": 1,
+     "vi": "Khi nào có thời gian, tôi sẽ đến thăm bạn.",
+     "explain": "Mệnh đề phụ 'Wenn ich Zeit habe' chiếm vị trí 1, nên động từ 'besuche' đứng ngay sau dấu phẩy, rồi đến chủ ngữ. 'ich besuche dich' sai vì động từ rơi xuống vị trí 3."
+    },
+    {
+     "q": "Er ist krank. Deshalb ___.",
+     "options": [
+      "er kommt heute nicht ins Büro",
+      "kommt er heute ins Büro nicht",
+      "kommt er heute nicht ins Büro",
+      "er kommt heute ins Büro nicht"
+     ],
+     "answer": 2,
+     "vi": "Anh ấy bị ốm. Vì vậy hôm nay anh ấy không đến văn phòng.",
+     "explain": "'Deshalb' chiếm vị trí 1 nên phải đảo ngữ 'kommt er'; 'nicht' đứng trước bổ ngữ chỉ hướng 'ins Büro'. 'kommt er heute ins Büro nicht' sai vị trí 'nicht'."
+    },
+    {
+     "q": "Câu nào sai ngữ pháp?",
+     "options": [
+      "Ich habe es ihm gestern gegeben.",
+      "Gestern habe ich ihm das Geld gegeben.",
+      "Ich habe gestern ihm es gegeben.",
+      "Ich habe ihm gestern das Geld gegeben."
+     ],
+     "answer": 2,
+     "vi": "Hôm qua tôi đã đưa nó cho anh ấy. (câu đúng: Ich habe es ihm gestern gegeben.)",
+     "explain": "Hai đại từ phải theo thứ tự Akkusativ – Dativ ('es ihm') và đứng ngay sau động từ, trước trạng từ 'gestern'. Các câu còn lại đều đúng vì đại từ đứng trước trạng từ và danh từ."
+    },
+    {
+     "q": "Câu nào đúng trật tự từ?",
+     "options": [
+      "Gestern ich bin mit dem Fahrrad zur Arbeit gefahren.",
+      "Ich gestern bin mit dem Fahrrad zur Arbeit gefahren.",
+      "Ich bin mit dem Fahrrad zur Arbeit gestern gefahren.",
+      "Ich bin gestern mit dem Fahrrad zur Arbeit gefahren."
+     ],
+     "answer": 3,
+     "vi": "Hôm qua tôi đã đi làm bằng xe đạp.",
+     "explain": "Động từ chia 'bin' ở vị trí 2, sau đó theo thứ tự thời gian – cách thức – hướng. Câu 'Gestern ich bin …' sai vì thiếu đảo ngữ sau 'Gestern'."
+    },
+    {
+     "q": "Câu nào cùng nghĩa với 'Ich habe meiner Mutter die Blumen geschenkt.'?",
+     "options": [
+      "Ich habe sie ihr geschenkt.",
+      "Ich habe ihr sie geschenkt.",
+      "Ich habe sie ihm geschenkt.",
+      "Ich habe ihr ihn geschenkt."
+     ],
+     "answer": 0,
+     "vi": "Tôi đã tặng chúng (những bông hoa) cho mẹ.",
+     "explain": "'die Blumen' → 'sie' (Akkusativ), 'meiner Mutter' → 'ihr' (Dativ); hai đại từ theo thứ tự Akkusativ trước Dativ: 'sie ihr'. 'ihr sie' sai thứ tự."
+    },
+    {
+     "q": "Leider kann ich ___ zurückgeben.",
+     "options": [
+      "dir es heute nicht",
+      "heute nicht es dir",
+      "es dir heute nicht",
+      "dir heute nicht es"
+     ],
+     "answer": 2,
+     "vi": "Tiếc là hôm nay tôi không thể trả lại nó cho bạn.",
+     "explain": "Đại từ đứng đầu phần giữa câu theo thứ tự Akkusativ – Dativ ('es dir'), sau đó đến trạng từ 'heute' và 'nicht' trước Infinitiv. 'dir es heute nicht' sai thứ tự hai đại từ."
+    },
+    {
+     "q": "Câu nào sai ngữ pháp?",
+     "options": [
+      "Am Wochenende fahren wir mit Freunden ans Meer.",
+      "Trotzdem wir gehen heute ins Kino.",
+      "Weil es regnet, bleiben wir zu Hause.",
+      "Meinem Chef habe ich die Unterlagen schon geschickt."
+     ],
+     "answer": 1,
+     "vi": "Mặc dù vậy hôm nay chúng tôi vẫn đi xem phim. (câu đúng: Trotzdem gehen wir heute ins Kino.)",
+     "explain": "'Trotzdem' là trạng từ chiếm vị trí 1, nên phải đảo ngữ: 'Trotzdem gehen wir …'. Câu 'Meinem Chef habe ich …' đúng vì tân ngữ cũng có thể đứng ở vị trí 1, động từ vẫn ở vị trí 2."
+    }
+   ]
+  },
+  {
+   "title": "Nguyên mẫu không có zu (Infinitiv ohne zu)",
+   "intro": "Sau động từ khuyết thiếu và các động từ lassen, sehen, hören, helfen, lernen, gehen, bleiben, fahren, động từ thứ hai ở dạng nguyên mẫu KHÔNG có zu và đứng cuối câu: Ich lasse mein Auto reparieren. / Ich höre die Kinder spielen. / Wir gehen essen. / Bleib sitzen!\nNgoại lệ: 'brauchen' chỉ dùng với 'nicht' hoặc 'nur' và CẦN 'zu': Du brauchst nicht zu kommen (= không cần đến). / Du brauchst nur zu unterschreiben (= chỉ cần ký).\nThì Perfekt với lassen, sehen, hören: dùng hai nguyên mẫu liền nhau (Doppelinfinitiv) thay cho Partizip II: Ich habe das Auto reparieren lassen. / Ich habe ihn kommen sehen.\nTrong mệnh đề phụ, trợ động từ 'haben' đứng TRƯỚC hai nguyên mẫu: …, dass er das Auto hat reparieren lassen.\ngehen/bleiben dùng Partizip bình thường với 'sein': Wir sind schwimmen gegangen. / Er ist sitzen geblieben.",
+   "questions": [
+    {
+     "q": "Ich lasse mein Auto ___.",
+     "options": [
+      "reparieren",
+      "zu reparieren",
+      "repariert",
+      "repariere"
+     ],
+     "answer": 0,
+     "vi": "Tôi cho người sửa xe ô tô của tôi.",
+     "explain": "'lassen' + nguyên mẫu không có zu ở cuối câu. 'zu reparieren' sai vì lassen không đi với zu."
+    },
+    {
+     "q": "Wir gehen heute Abend ___.",
+     "options": [
+      "zu essen",
+      "essen",
+      "gegessen",
+      "isst"
+     ],
+     "answer": 1,
+     "vi": "Tối nay chúng tôi đi ăn.",
+     "explain": "'gehen' + nguyên mẫu không zu diễn tả mục đích đi làm gì: 'essen gehen'. 'zu essen' là lỗi do dịch từ 'đi để ăn'."
+    },
+    {
+     "q": "Ich höre die Kinder im Garten ___.",
+     "options": [
+      "gespielt",
+      "spielt",
+      "spielen",
+      "zu spielen"
+     ],
+     "answer": 2,
+     "vi": "Tôi nghe thấy bọn trẻ chơi trong vườn.",
+     "explain": "Động từ tri giác 'hören' đi với nguyên mẫu không zu. 'zu spielen' sai vì hören không dùng zu."
+    },
+    {
+     "q": "Du brauchst morgen nicht ___.",
+     "options": [
+      "kommen",
+      "gekommen",
+      "kommst",
+      "zu kommen"
+     ],
+     "answer": 3,
+     "vi": "Ngày mai bạn không cần đến.",
+     "explain": "'brauchen + nicht' luôn đi với 'zu + Infinitiv' trong tiếng Đức chuẩn. 'nicht kommen' không có zu chỉ là văn nói, không đúng chuẩn."
+    },
+    {
+     "q": "Bleib doch noch ein bisschen ___!",
+     "options": [
+      "sitzen",
+      "zu sitzen",
+      "gesessen",
+      "sitzt"
+     ],
+     "answer": 0,
+     "vi": "Ngồi lại thêm chút nữa đi!",
+     "explain": "'bleiben' + nguyên mẫu không zu: 'sitzen bleiben'. 'zu sitzen' sai vì bleiben không đi với zu."
+    },
+    {
+     "q": "Die Kinder helfen ihrer Mutter den Tisch ___.",
+     "options": [
+      "gedeckt",
+      "decken",
+      "deckt",
+      "gedeckt haben"
+     ],
+     "answer": 1,
+     "vi": "Bọn trẻ giúp mẹ dọn bàn ăn.",
+     "explain": "'helfen' + nguyên mẫu không zu khi bổ ngữ ngắn: 'den Tisch decken helfen'. 'deckt' sai vì động từ thứ hai không chia theo chủ ngữ."
+    },
+    {
+     "q": "Ich sehe den Bus schon ___.",
+     "options": [
+      "zu kommen",
+      "kommt",
+      "kommen",
+      "gekommen"
+     ],
+     "answer": 2,
+     "vi": "Tôi đã thấy xe buýt đang đến.",
+     "explain": "'sehen' + nguyên mẫu không zu: 'den Bus kommen sehen'. 'kommt' sai vì động từ thứ hai phải ở dạng nguyên mẫu."
+    },
+    {
+     "q": "Ihr braucht nur auf den Knopf ___.",
+     "options": [
+      "drücken",
+      "gedrückt",
+      "drückt",
+      "zu drücken"
+     ],
+     "answer": 3,
+     "vi": "Các bạn chỉ cần bấm vào nút.",
+     "explain": "'brauchen + nur' cần 'zu + Infinitiv': 'nur zu drücken'. 'drücken' không zu là lỗi thường gặp vì nhầm brauchen với các động từ khuyết thiếu."
+    },
+    {
+     "q": "Ich habe mein Fahrrad gestern ___.",
+     "options": [
+      "reparieren lassen",
+      "reparieren gelassen",
+      "repariert gelassen",
+      "zu reparieren gelassen"
+     ],
+     "answer": 0,
+     "vi": "Hôm qua tôi đã cho người sửa xe đạp của tôi.",
+     "explain": "Ở Perfekt, 'lassen' đi kèm nguyên mẫu khác dùng Doppelinfinitiv: 'reparieren lassen'. 'reparieren gelassen' sai vì ở đây không dùng Partizip 'gelassen'."
+    },
+    {
+     "q": "Ich habe das Problem schon lange ___.",
+     "options": [
+      "gekommen sehen",
+      "zu kommen gesehen",
+      "kommen zu sehen",
+      "kommen sehen"
+     ],
+     "answer": 3,
+     "vi": "Tôi đã thấy trước vấn đề này từ lâu rồi.",
+     "explain": "Perfekt của 'sehen' + nguyên mẫu dùng Doppelinfinitiv: 'hat … kommen sehen'. 'gekommen sehen' sai vì động từ chính phải ở dạng nguyên mẫu, không phải Partizip."
+    },
+    {
+     "q": "Er sagt, dass er das Auto ___.",
+     "options": [
+      "reparieren lassen hat",
+      "hat reparieren lassen",
+      "reparieren gelassen hat",
+      "hat repariert lassen"
+     ],
+     "answer": 1,
+     "vi": "Anh ấy nói rằng anh ấy đã cho người sửa xe ô tô.",
+     "explain": "Trong mệnh đề phụ có Doppelinfinitiv, trợ động từ 'hat' đứng trước hai nguyên mẫu: 'hat reparieren lassen'. 'reparieren lassen hat' sai dù thông thường động từ chia đứng cuối mệnh đề phụ."
+    },
+    {
+     "q": "Gestern sind wir im See ___.",
+     "options": [
+      "schwimmen gehen",
+      "zu schwimmen gegangen",
+      "schwimmen gegangen",
+      "geschwommen gehen"
+     ],
+     "answer": 2,
+     "vi": "Hôm qua chúng tôi đã đi bơi ở hồ.",
+     "explain": "'gehen' không tạo Doppelinfinitiv, nên Perfekt là 'sind schwimmen gegangen'. 'schwimmen gehen' sai vì sau 'sind' cần Partizip 'gegangen'."
+    },
+    {
+     "q": "Câu nào sai ngữ pháp?",
+     "options": [
+      "Ich lasse mir die Haare schneiden.",
+      "Ich gehe morgen zu einkaufen.",
+      "Er bleibt heute im Bett liegen.",
+      "Du brauchst keine Angst zu haben."
+     ],
+     "answer": 1,
+     "vi": "Ngày mai tôi đi mua sắm. (câu đúng: Ich gehe morgen einkaufen.)",
+     "explain": "'gehen' + nguyên mẫu không có zu: 'einkaufen gehen'. Câu 'Du brauchst keine Angst zu haben' đúng vì brauchen + phủ định (kein) cần zu."
+    },
+    {
+     "q": "Câu nào cùng nghĩa với 'Du musst nur das Formular ausfüllen.'?",
+     "options": [
+      "Du brauchst das Formular nicht auszufüllen.",
+      "Du lässt das Formular ausfüllen.",
+      "Du brauchst nur das Formular ausfüllen zu.",
+      "Du brauchst nur das Formular auszufüllen."
+     ],
+     "answer": 3,
+     "vi": "Bạn chỉ cần điền vào mẫu đơn.",
+     "explain": "'nur müssen' = 'nur brauchen … zu'; với động từ tách được, zu nằm giữa: 'auszufüllen'. 'brauchst … nicht auszufüllen' mang nghĩa ngược lại (không cần điền)."
+    },
+    {
+     "q": "Câu nào đúng trật tự từ?",
+     "options": [
+      "Ich weiß, dass er sich einen Anzug machen lassen hat.",
+      "Ich weiß, dass er hat sich einen Anzug machen lassen.",
+      "Ich weiß, dass er sich einen Anzug hat machen lassen.",
+      "Ich weiß, dass er sich einen Anzug hat lassen machen."
+     ],
+     "answer": 2,
+     "vi": "Tôi biết rằng anh ấy đã đặt may một bộ com-lê.",
+     "explain": "Trong mệnh đề phụ, 'hat' đứng ngay trước Doppelinfinitiv và Doppelinfinitiv giữ thứ tự 'machen lassen'. 'machen lassen hat' sai vì 'hat' không được đặt cuối khi có Doppelinfinitiv."
+    }
+   ]
+  },
+  {
+   "title": "Tính từ đi với giới từ (Adjektive mit Präpositionen)",
+   "intro": "Nhiều tính từ đi với một giới từ cố định, cần học thuộc cùng cách:\n+ Akkusativ: stolz auf, gespannt auf, böse auf, verantwortlich für, bekannt für\n+ Dativ: zufrieden mit, abhängig von, überzeugt von, interessiert an\nVí dụ: Ich bin stolz auf meinen Sohn. / Sie ist zufrieden mit ihrer Arbeit.\nNếu bổ ngữ là sự vật hoặc cả một mệnh đề, dùng da(r) + giới từ: darauf, damit, davon, dafür, daran: Ich bin stolz darauf, dass ich bestanden habe. / Ich bin zufrieden damit.\nNếu là người, dùng giới từ + đại từ: Ich bin zufrieden mit ihm.\nCâu hỏi về sự vật dùng wo(r) + giới từ: Woran bist du interessiert? Worauf bist du gespannt?",
+   "questions": [
+    {
+     "q": "Ich bin sehr stolz ___ meine Tochter.",
+     "options": [
+      "auf",
+      "mit",
+      "von",
+      "an"
+     ],
+     "answer": 0,
+     "vi": "Tôi rất tự hào về con gái tôi.",
+     "explain": "'stolz' luôn đi với 'auf + Akkusativ'. 'von' là lỗi do dịch từ 'tự hào về'."
+    },
+    {
+     "q": "Bist du ___ deiner neuen Wohnung zufrieden?",
+     "options": [
+      "von",
+      "mit",
+      "für",
+      "über"
+     ],
+     "answer": 1,
+     "vi": "Bạn có hài lòng với căn hộ mới không?",
+     "explain": "'zufrieden mit + Dativ' ('deiner Wohnung'). 'über' sai vì zufrieden không đi với über."
+    },
+    {
+     "q": "Er ist ___ den Fehler verantwortlich.",
+     "options": [
+      "von",
+      "an",
+      "für",
+      "mit"
+     ],
+     "answer": 2,
+     "vi": "Anh ấy chịu trách nhiệm về lỗi đó.",
+     "explain": "'verantwortlich für + Akkusativ' ('den Fehler'). 'von' sai dù tiếng Việt nói 'trách nhiệm về'."
+    },
+    {
+     "q": "Sie ist sehr interessiert ___ moderner Kunst.",
+     "options": [
+      "für",
+      "auf",
+      "über",
+      "an"
+     ],
+     "answer": 3,
+     "vi": "Cô ấy rất quan tâm đến nghệ thuật hiện đại.",
+     "explain": "'interessiert an + Dativ' ('moderner Kunst'). 'für' là lỗi do lẫn với động từ 'sich interessieren für'."
+    },
+    {
+     "q": "Ich bin gespannt ___ das Ergebnis.",
+     "options": [
+      "auf",
+      "für",
+      "an",
+      "von"
+     ],
+     "answer": 0,
+     "vi": "Tôi rất háo hức chờ kết quả.",
+     "explain": "'gespannt auf + Akkusativ' = háo hức chờ điều gì. 'für' sai vì gespannt không đi với für."
+    },
+    {
+     "q": "Viele Menschen sind ___ ihrem Smartphone abhängig.",
+     "options": [
+      "auf",
+      "von",
+      "an",
+      "mit"
+     ],
+     "answer": 1,
+     "vi": "Nhiều người phụ thuộc vào điện thoại thông minh của họ.",
+     "explain": "'abhängig von + Dativ'. 'auf' là lỗi do dịch 'phụ thuộc vào'."
+    },
+    {
+     "q": "Heidelberg ist bekannt ___ seine alte Universität.",
+     "options": [
+      "auf",
+      "mit",
+      "für",
+      "an"
+     ],
+     "answer": 2,
+     "vi": "Heidelberg nổi tiếng với trường đại học cổ kính của mình.",
+     "explain": "'bekannt für + Akkusativ' = nổi tiếng vì điều gì. 'mit' sai dù tiếng Việt nói 'nổi tiếng với'."
+    },
+    {
+     "q": "Meine Mutter ist böse ___ mich, weil ich zu spät gekommen bin.",
+     "options": [
+      "an",
+      "für",
+      "von",
+      "auf"
+     ],
+     "answer": 3,
+     "vi": "Mẹ tôi giận tôi vì tôi đến muộn.",
+     "explain": "'böse auf + Akkusativ' = giận ai. 'für' sai vì không đi với böse theo nghĩa giận ai."
+    },
+    {
+     "q": "Der Arzt ist ___ der Wirkung des Medikaments überzeugt.",
+     "options": [
+      "an",
+      "für",
+      "auf",
+      "von"
+     ],
+     "answer": 3,
+     "vi": "Bác sĩ tin chắc vào tác dụng của thuốc.",
+     "explain": "'überzeugt von + Dativ' ('der Wirkung'). 'an' sai, dù động từ 'glauben an' có nghĩa gần giống."
+    },
+    {
+     "q": "Wir sind sehr zufrieden mit ___ Arbeit.",
+     "options": [
+      "unsere",
+      "unserer",
+      "unserem",
+      "unseren"
+     ],
+     "answer": 1,
+     "vi": "Chúng tôi rất hài lòng với công việc của chúng tôi.",
+     "explain": "'mit' luôn đi với Dativ; 'die Arbeit' (giống cái) → 'unserer Arbeit'. 'unsere' là Akkusativ, sai sau 'mit'."
+    },
+    {
+     "q": "Er ist stolz ___, dass er die Prüfung bestanden hat.",
+     "options": [
+      "darauf",
+      "dafür",
+      "damit",
+      "davon"
+     ],
+     "answer": 0,
+     "vi": "Anh ấy tự hào vì đã đỗ kỳ thi.",
+     "explain": "Khi bổ ngữ là cả mệnh đề 'dass …', dùng da(r) + giới từ của tính từ: stolz auf → 'darauf'. 'dafür' sai vì stolz không đi với für."
+    },
+    {
+     "q": "Bist du mit dem Ergebnis zufrieden? – Ja, ich bin sehr zufrieden ___.",
+     "options": [
+      "mit ihr",
+      "mit es",
+      "damit",
+      "dafür"
+     ],
+     "answer": 2,
+     "vi": "Bạn có hài lòng với kết quả không? – Có, tôi rất hài lòng với nó.",
+     "explain": "'das Ergebnis' là sự vật nên thay bằng da(r) + giới từ: 'damit'. 'mit es' sai vì sau giới từ không dùng 'es' để chỉ sự vật."
+    },
+    {
+     "q": "Ist Herr Weber ein guter Chef? – Ja, alle Mitarbeiter sind sehr zufrieden ___.",
+     "options": [
+      "damit",
+      "mit ihm",
+      "mit ihn",
+      "davon"
+     ],
+     "answer": 1,
+     "vi": "Ông Weber có phải là một sếp tốt không? – Có, tất cả nhân viên đều rất hài lòng với ông ấy.",
+     "explain": "Với người, dùng giới từ + đại từ: 'mit ihm' (Dativ). 'damit' chỉ dùng cho sự vật, còn 'mit ihn' sai cách."
+    },
+    {
+     "q": "___ bist du interessiert? – An Politik.",
+     "options": [
+      "Wofür",
+      "Worauf",
+      "Woran",
+      "Womit"
+     ],
+     "answer": 2,
+     "vi": "Bạn quan tâm đến điều gì? – Đến chính trị.",
+     "explain": "Câu hỏi về sự vật dùng wo(r) + giới từ của tính từ: interessiert an → 'Woran'. 'Wofür' sai vì đó là giới từ của 'sich interessieren für'."
+    },
+    {
+     "q": "Câu nào sai ngữ pháp?",
+     "options": [
+      "Ich bin gespannt darauf, wie der Film endet.",
+      "Sie ist abhängig von ihren Eltern.",
+      "Wir sind stolz für unseren Sohn.",
+      "Wer ist für dieses Projekt verantwortlich?"
+     ],
+     "answer": 2,
+     "vi": "Chúng tôi tự hào về con trai chúng tôi. (câu đúng: Wir sind stolz auf unseren Sohn.)",
+     "explain": "'stolz' đi với 'auf', không đi với 'für'. Câu 'Wer ist für dieses Projekt verantwortlich?' đúng vì verantwortlich đi với 'für'."
+    }
+   ]
   }
  ],
  "B2": [
@@ -9492,6 +11166,564 @@ const MCQ = {
      "explain": "„hinsichtlich“ đứng trước danh từ Genitiv („der geplanten Reform“), sau cụm này là động từ „gibt“. Câu thứ hai dùng Akkusativ nên sai."
     }
    ]
+  },
+  {
+   "title": "Tiểu từ tình thái (Modalpartikeln)",
+   "intro": "Tiểu từ tình thái không thay đổi nội dung thông tin của câu mà thể hiện thái độ, cảm xúc của người nói. Chúng đứng trong Mittelfeld (thường sau động từ chia và đại từ), không mang trọng âm (trừ „ja“ cảnh báo) và mỗi tiểu từ chỉ hợp với một số loại câu nhất định:\n• doch: nhắc điều người nghe lẽ ra phải biết, trách nhẹ (Ich habe dir doch gesagt …); trong mệnh lệnh: gợi ý thân thiện (Schau doch mal nach!)\n• ja: điều đã biết (Wie Sie ja wissen …); ngạc nhiên (Sie sind ja schon da!); nhấn giọng trong mệnh lệnh = cảnh báo (Komm ja pünktlich!)\n• mal: làm mềm lời đề nghị (Reichen Sie mir bitte mal …)\n• denn, etwa: CHỈ dùng trong câu hỏi; denn = quan tâm, thân mật (Was ist denn los?)\n• eben / halt: sự việc không thay đổi được, đành chấp nhận (Das ist eben/halt so.)\n• wohl: phỏng đoán, thường với Futur I (Er wird wohl krank sein.)\n• schon: trấn an (Das klappt schon!); thừa nhận một phần … aber (Das ist schon richtig, aber …)\n• eigentlich: trong câu hỏi = chuyển sang chủ đề mới; trong câu trần thuật = thực ra\n• bloß / nur: mệnh lệnh cảnh báo (Vergiss bloß nicht …!); câu ước (Wenn ich nur … hätte!); câu hỏi bực bội (Wo ist bloß …?)",
+   "questions": [
+    {
+     "q": "Keine Sorge, das klappt ___!",
+     "options": [
+      "denn",
+      "bloß",
+      "schon",
+      "etwa"
+     ],
+     "answer": 2,
+     "vi": "Đừng lo, chắc chắn sẽ ổn thôi!",
+     "explain": "„schon“ trong câu trần thuật mang nghĩa trấn an (chắc chắn sẽ được). „denn“ và „etwa“ chỉ dùng trong câu hỏi, còn „bloß“ dùng trong mệnh lệnh cảnh báo hoặc câu hỏi bực bội."
+    },
+    {
+     "q": "Was ist ___ los? Du siehst so blass aus.",
+     "options": [
+      "ja",
+      "denn",
+      "halt",
+      "eben"
+     ],
+     "answer": 1,
+     "vi": "Có chuyện gì vậy? Trông bạn xanh xao quá.",
+     "explain": "„denn“ dùng trong câu hỏi để thể hiện sự quan tâm, làm câu hỏi thân mật hơn. „ja“, „halt“ và „eben“ là tiểu từ của câu trần thuật, không dùng trong câu hỏi W."
+    },
+    {
+     "q": "Reichen Sie mir bitte ___ das Formular, ich möchte es kurz prüfen.",
+     "options": [
+      "mal",
+      "denn",
+      "ja",
+      "wohl"
+     ],
+     "answer": 0,
+     "vi": "Ông/bà vui lòng đưa giúp tôi tờ đơn, tôi muốn kiểm tra nhanh.",
+     "explain": "„mal“ làm lời đề nghị nhẹ nhàng, lịch sự hơn. „ja“ trong câu mệnh lệnh mang sắc thái cảnh báo, đe dọa, không hợp với „bitte“; „denn“ chỉ dùng trong câu hỏi."
+    },
+    {
+     "q": "Wie Sie ___ wissen, endet die Abgabefrist für die Steuererklärung am 31. Juli.",
+     "options": [
+      "denn",
+      "mal",
+      "bloß",
+      "ja"
+     ],
+     "answer": 3,
+     "vi": "Như ông/bà đã biết, hạn nộp tờ khai thuế kết thúc vào ngày 31 tháng 7.",
+     "explain": "„ja“ đánh dấu một điều mà người nghe đã biết. „denn“ chỉ dùng trong câu hỏi, còn „mal“ (làm mềm đề nghị) và „bloß“ (cảnh báo, ước muốn) không mang nghĩa „đã biết“."
+    },
+    {
+     "q": "Warum hast du den Brief nicht geöffnet? Ich habe dir ___ gesagt, dass er vom Finanzamt ist!",
+     "options": [
+      "denn",
+      "wohl",
+      "doch",
+      "etwa"
+     ],
+     "answer": 2,
+     "vi": "Sao bạn không mở lá thư? Mình đã bảo bạn rồi mà, đó là thư của cơ quan thuế!",
+     "explain": "„doch“ nhắc lại điều người nghe lẽ ra phải biết, kèm sắc thái trách móc. „wohl“ diễn tả phỏng đoán (có lẽ mình đã nói), mâu thuẫn với lời trách mạnh mẽ; „denn“ và „etwa“ chỉ dùng trong câu hỏi."
+    },
+    {
+     "q": "Die Einspruchsfrist ist abgelaufen. Da kann man ___ nichts mehr machen.",
+     "options": [
+      "bloß",
+      "halt",
+      "denn",
+      "mal"
+     ],
+     "answer": 1,
+     "vi": "Thời hạn khiếu nại đã hết. Thôi thì chẳng làm gì được nữa.",
+     "explain": "„halt“ (= eben) diễn tả sự việc không thể thay đổi, đành chấp nhận. „bloß“ ở đây sẽ thành „chỉ“ (chỉ không làm được gì) – vô nghĩa; „denn“ chỉ dùng trong câu hỏi."
+    },
+    {
+     "q": "Câu nào sai?",
+     "options": [
+      "Was machst du denn hier?",
+      "Komm doch mal vorbei!",
+      "Das ist ja interessant!",
+      "Ich habe denn keine Zeit."
+     ],
+     "answer": 3,
+     "vi": "Câu sai: „Ich habe denn keine Zeit.“ (Đúng: „Ich habe halt keine Zeit.“ – Mình đúng là không có thời gian mà.)",
+     "explain": "Tiểu từ „denn“ chỉ dùng trong câu hỏi; trong câu trần thuật phải dùng „halt/eben“. Ba câu còn lại đều đúng: „denn“ trong câu hỏi, „doch mal“ trong lời mời, „ja“ diễn tả ngạc nhiên."
+    },
+    {
+     "q": "Herr Becker ist heute nicht im Büro. Er wird ___ krank sein.",
+     "options": [
+      "wohl",
+      "denn",
+      "mal",
+      "etwa"
+     ],
+     "answer": 0,
+     "vi": "Hôm nay ông Becker không có ở văn phòng. Chắc là ông ấy bị ốm.",
+     "explain": "„wohl“ (thường đi với Futur I) diễn tả sự phỏng đoán. „denn“ và „etwa“ chỉ dùng trong câu hỏi, còn „mal“ dùng để làm mềm lời đề nghị."
+    },
+    {
+     "q": "Vergiss ___ nicht, die Belege aufzubewahren, sonst bekommst du Ärger mit dem Finanzamt!",
+     "options": [
+      "denn",
+      "eigentlich",
+      "bloß",
+      "wohl"
+     ],
+     "answer": 2,
+     "vi": "Nhất định đừng quên giữ lại các chứng từ, nếu không bạn sẽ gặp rắc rối với cơ quan thuế!",
+     "explain": "„bloß“ trong câu mệnh lệnh mang nghĩa cảnh báo mạnh (nhất định đừng …), phù hợp với „sonst …“. „eigentlich“ và „wohl“ không dùng trong câu mệnh lệnh, „denn“ chỉ dùng trong câu hỏi."
+    },
+    {
+     "q": "Câu nào cùng nghĩa với „Komm ja pünktlich!“?",
+     "options": [
+      "Komm vielleicht pünktlich.",
+      "Komm unbedingt pünktlich, sonst gibt es Ärger!",
+      "Du kommst ja pünktlich.",
+      "Kommst du denn pünktlich?"
+     ],
+     "answer": 1,
+     "vi": "Nhất định phải đến đúng giờ, nếu không sẽ có chuyện đấy!",
+     "explain": "„ja“ (nhấn giọng) trong câu mệnh lệnh mang nghĩa cảnh báo: nhất định phải làm. „Du kommst ja pünktlich.“ là câu trần thuật với „ja“ = điều đã biết, nghĩa hoàn toàn khác."
+    },
+    {
+     "q": "Wenn ich ___ die Unterlagen rechtzeitig eingereicht hätte!",
+     "options": [
+      "denn",
+      "ja",
+      "wohl",
+      "nur"
+     ],
+     "answer": 3,
+     "vi": "Giá mà tôi đã nộp hồ sơ đúng hạn!",
+     "explain": "Trong câu ước với Konjunktiv II, „nur“ (hoặc „bloß“, „doch nur“) nhấn mạnh mong muốn. „wohl“ diễn tả phỏng đoán, „ja“ và „denn“ không dùng trong câu ước."
+    },
+    {
+     "q": "Übrigens, wie lange arbeiten Sie ___ schon in dieser Kanzlei?",
+     "options": [
+      "eigentlich",
+      "ja",
+      "halt",
+      "eben"
+     ],
+     "answer": 0,
+     "vi": "Nhân tiện, ông/bà đã làm ở văn phòng luật này bao lâu rồi?",
+     "explain": "„eigentlich“ trong câu hỏi dùng để chuyển sang một chủ đề mới một cách tự nhiên (hợp với „übrigens“). „ja“, „halt“ và „eben“ là tiểu từ của câu trần thuật, không dùng trong câu hỏi."
+    },
+    {
+     "q": "Câu nào cùng nghĩa với „Das ist halt so.“?",
+     "options": [
+      "Das ist wohl so.",
+      "Das ist etwa so.",
+      "Das ist eben so.",
+      "Das ist denn so."
+     ],
+     "answer": 2,
+     "vi": "Chuyện là như vậy thôi (không thay đổi được).",
+     "explain": "„halt“ và „eben“ đồng nghĩa: sự việc không thể thay đổi, phải chấp nhận. „Das ist wohl so.“ là phỏng đoán (có lẽ là vậy), „Das ist etwa so.“ nghĩa là „đại khái là vậy“."
+    },
+    {
+     "q": "Tiểu từ nào phù hợp với ngữ cảnh? Đồng nghiệp nói: „Ich finde das Formular nicht.“ Bạn muốn gợi ý một cách thân thiện.",
+     "options": [
+      "Schau denn im Ordner nach!",
+      "Schau doch mal im Ordner nach!",
+      "Schau wohl im Ordner nach!",
+      "Schau etwa im Ordner nach!"
+     ],
+     "answer": 1,
+     "vi": "Bạn thử xem trong tập hồ sơ đi!",
+     "explain": "„doch mal“ trong câu mệnh lệnh biến lời yêu cầu thành gợi ý thân thiện. „denn“ và „etwa“ chỉ dùng trong câu hỏi, „wohl“ (phỏng đoán) không dùng trong câu mệnh lệnh."
+    },
+    {
+     "q": "Das Urteil ist ___ nachvollziehbar, aber ich halte es trotzdem für zu streng.",
+     "options": [
+      "denn",
+      "mal",
+      "etwa",
+      "schon"
+     ],
+     "answer": 3,
+     "vi": "Bản án thì cũng có thể hiểu được, nhưng tôi vẫn cho rằng nó quá nghiêm khắc.",
+     "explain": "„schon … aber“ diễn tả sự thừa nhận một phần rồi phản bác (sắc thái nhượng bộ). „denn“ và „etwa“ chỉ dùng trong câu hỏi, „mal“ không mang nghĩa thừa nhận."
+    }
+   ]
+  },
+  {
+   "title": "Câu phân từ rút gọn & mệnh đề nhượng bộ (Partizipialsätze & Konzessivsätze)",
+   "intro": "Câu phân từ rút gọn (Partizipialsatz) thay cho một mệnh đề phụ, rất hay gặp trong văn bản luật và hành chính. Chủ ngữ (ngầm) của cụm phân từ phải trùng với chủ ngữ của mệnh đề chính.\n• Partizip II: hành động xảy ra trước hoặc mang nghĩa bị động: In Berlin angekommen, rief er an. (= Nachdem er angekommen war …) / Vom Urteil enttäuscht, ging der Kläger in Berufung. Với một số động từ như erhalten: Den Bescheid erhalten, legte er Einspruch ein.\n• Partizip I: hành động xảy ra đồng thời, nghĩa chủ động: Laut protestierend verließ er den Saal.\n• Cụm phân từ chiếm vị trí Vorfeld → động từ chia đứng ngay sau dấu phẩy, rồi mới đến chủ ngữ.\nMệnh đề nhượng bộ (Konzessivsätze) – động từ chia đứng cuối mệnh đề phụ:\n• obwohl / obgleich / wenngleich (trang trọng): Obgleich die Beweislage dünn war, wurde er verurteilt.\n• auch wenn / selbst wenn (ngay cả khi): Selbst wenn er den Fehler zugibt, …\n• wie / so + tính từ/trạng từ … auch: Wie hoch die Strafe auch ausfällt, er akzeptiert sie. / So sehr sie sich auch bemühte, …\n• Cách diễn đạt tương đương: zwar …, aber (trotzdem). „trotzdem“, „dennoch“ là trạng từ, không phải liên từ phụ.",
+   "questions": [
+    {
+     "q": "In Berlin ___, rief er sofort seine Anwältin an.",
+     "options": [
+      "ankommen",
+      "angekommen",
+      "angekommt",
+      "angekommen war"
+     ],
+     "answer": 1,
+     "vi": "Vừa đến Berlin, anh ấy liền gọi điện cho nữ luật sư của mình.",
+     "explain": "Cụm phân từ dùng Partizip II „angekommen“ để diễn tả hành động xảy ra trước (= Nachdem er angekommen war). „angekommen war“ sai vì cụm phân từ không có động từ chia."
+    },
+    {
+     "q": "Vom Urteil enttäuscht, ___ in Berufung.",
+     "options": [
+      "ging der Kläger",
+      "der Kläger ging",
+      "der Kläger gehen",
+      "gehend der Kläger"
+     ],
+     "answer": 0,
+     "vi": "Thất vọng về bản án, nguyên đơn đã kháng cáo.",
+     "explain": "Cụm phân từ chiếm vị trí Vorfeld, nên động từ chia „ging“ phải đứng ngay sau dấu phẩy, sau đó mới đến chủ ngữ. „der Kläger ging“ sai vì động từ khi đó đứng ở vị trí thứ ba."
+    },
+    {
+     "q": "___ er sich gut vorbereitet hatte, verlor er den Prozess.",
+     "options": [
+      "Trotzdem",
+      "Deswegen",
+      "Dennoch",
+      "Obgleich"
+     ],
+     "answer": 3,
+     "vi": "Mặc dù đã chuẩn bị kỹ, anh ấy vẫn thua kiện.",
+     "explain": "„obgleich“ (= obwohl) là liên từ phụ nhượng bộ, đẩy động từ chia về cuối mệnh đề. „Trotzdem“ và „Dennoch“ cũng mang nghĩa nhượng bộ nhưng là trạng từ, không mở đầu mệnh đề phụ được."
+    },
+    {
+     "q": "Selbst wenn der Mandant den Fehler ___, ändert das nichts an der Steuerschuld.",
+     "options": [
+      "gibt zu",
+      "zuzugeben",
+      "zugibt",
+      "zugegeben"
+     ],
+     "answer": 2,
+     "vi": "Ngay cả khi thân chủ thừa nhận lỗi, điều đó cũng không thay đổi gì đối với khoản nợ thuế.",
+     "explain": "Trong mệnh đề phụ với „selbst wenn“, động từ tách được đứng cuối và viết liền: „zugibt“. „gibt zu“ là trật tự của mệnh đề chính."
+    },
+    {
+     "q": "Wie hoch die Strafe ___ ausfällt, er wird das Urteil akzeptieren.",
+     "options": [
+      "doch",
+      "auch",
+      "denn",
+      "noch"
+     ],
+     "answer": 1,
+     "vi": "Dù hình phạt có nặng đến đâu, anh ấy cũng sẽ chấp nhận bản án.",
+     "explain": "Cấu trúc nhượng bộ „wie + tính từ … auch“ nghĩa là „dù … đến đâu“. „doch“, „denn“ và „noch“ không tạo nghĩa nhượng bộ trong cấu trúc này."
+    },
+    {
+     "q": "___ sehr sie sich auch bemühte, die Frist konnte sie nicht mehr einhalten.",
+     "options": [
+      "Obwohl",
+      "Selbst",
+      "Zwar",
+      "So"
+     ],
+     "answer": 3,
+     "vi": "Dù cô ấy cố gắng đến mấy, cô ấy cũng không thể kịp thời hạn nữa.",
+     "explain": "„so + trạng từ … auch“ là cấu trúc nhượng bộ (tương đương „wie sehr … auch“). „Obwohl“ không kết hợp được với „sehr … auch“, „Selbst“ phải đi với „wenn“."
+    },
+    {
+     "q": "Vom Finanzamt zur Nachzahlung ___, beauftragte die Firma einen Steuerberater.",
+     "options": [
+      "auffordernd",
+      "aufzufordern",
+      "aufgefordert",
+      "aufgefordert worden"
+     ],
+     "answer": 2,
+     "vi": "Sau khi bị cơ quan thuế yêu cầu nộp bổ sung, công ty đã thuê một cố vấn thuế.",
+     "explain": "Công ty là người bị yêu cầu, nên dùng Partizip II với nghĩa bị động: „aufgefordert“. „auffordernd“ (Partizip I) mang nghĩa chủ động – công ty đang yêu cầu, sai nghĩa."
+    },
+    {
+     "q": "Laut ___, verließ der Angeklagte den Gerichtssaal.",
+     "options": [
+      "protestierend",
+      "protestiert",
+      "zu protestieren",
+      "protestierte"
+     ],
+     "answer": 0,
+     "vi": "Vừa lớn tiếng phản đối, bị cáo vừa rời khỏi phòng xử án.",
+     "explain": "Partizip I „protestierend“ diễn tả hành động xảy ra đồng thời và mang nghĩa chủ động. „protestiert“ (Partizip II của động từ chia với haben, không có tân ngữ) không thể đứng một mình làm cụm phân từ."
+    },
+    {
+     "q": "Den Bescheid ___, legte er sofort Einspruch ein.",
+     "options": [
+      "erhielt",
+      "erhalten",
+      "erhaltend",
+      "zu erhalten"
+     ],
+     "answer": 1,
+     "vi": "Vừa nhận được quyết định, anh ấy liền nộp đơn khiếu nại.",
+     "explain": "Partizip II „erhalten“ diễn tả hành động đã hoàn tất trước (= Nachdem er den Bescheid erhalten hatte). „erhaltend“ diễn tả hành động đồng thời, mâu thuẫn với „sofort“ (ngay sau đó)."
+    },
+    {
+     "q": "Câu nào cùng nghĩa với „Nachdem er in Berlin angekommen war, meldete er sich beim Bürgeramt an.“?",
+     "options": [
+      "In Berlin ankommend, er meldete sich beim Bürgeramt an.",
+      "In Berlin angekommen, er meldete sich beim Bürgeramt an.",
+      "Angekommen in Berlin war, meldete er sich beim Bürgeramt an.",
+      "In Berlin angekommen, meldete er sich beim Bürgeramt an."
+     ],
+     "answer": 3,
+     "vi": "Vừa đến Berlin, anh ấy đã đăng ký cư trú tại văn phòng công dân.",
+     "explain": "Partizip II „angekommen“ thể hiện tính trước sau của „nachdem … war“, và động từ chia „meldete“ đứng ngay sau cụm phân từ. Phương án 2 dùng đúng phân từ nhưng sai trật tự từ (er meldete)."
+    },
+    {
+     "q": "Câu nào sai?",
+     "options": [
+      "Obgleich der Mandant hat alle Unterlagen eingereicht, fehlt noch ein Nachweis.",
+      "Obgleich die Beweislage dünn war, wurde der Angeklagte verurteilt.",
+      "Wenngleich der Vertrag gültig ist, bestehen Zweifel an seiner Fairness.",
+      "Selbst wenn das Gericht zustimmt, bleiben die Kosten hoch."
+     ],
+     "answer": 0,
+     "vi": "Câu sai: Đúng phải là „Obgleich der Mandant alle Unterlagen eingereicht hat, fehlt noch ein Nachweis.“ (Mặc dù thân chủ đã nộp mọi giấy tờ, vẫn còn thiếu một chứng từ.)",
+     "explain": "„obgleich“ là liên từ phụ nên động từ chia „hat“ phải đứng cuối mệnh đề. Các câu còn lại đều đặt động từ đúng ở cuối mệnh đề phụ."
+    },
+    {
+     "q": "Câu nào cùng nghĩa với „Obwohl die Kosten hoch sind, lohnt sich die Klage.“?",
+     "options": [
+      "Die Kosten sind hoch, deshalb lohnt sich die Klage.",
+      "Wenn die Kosten hoch sind, lohnt sich die Klage.",
+      "Die Kosten sind zwar hoch, die Klage lohnt sich aber trotzdem.",
+      "Weil die Kosten hoch sind, lohnt sich die Klage nicht."
+     ],
+     "answer": 2,
+     "vi": "Chi phí tuy cao, nhưng vụ kiện vẫn đáng để theo đuổi.",
+     "explain": "„zwar …, aber trotzdem“ diễn tả quan hệ nhượng bộ giống „obwohl“. „deshalb“ và „weil“ diễn tả nguyên nhân – kết quả, còn „wenn“ là điều kiện."
+    },
+    {
+     "q": "Câu nào sai?",
+     "options": [
+      "Vom Richter befragt, schwieg der Zeuge.",
+      "Am Flughafen angekommen, nahm sie ein Taxi zum Gericht.",
+      "Von der Entscheidung überrascht, legte die Firma Revision ein.",
+      "Im Büro angekommen, klingelte sofort das Telefon."
+     ],
+     "answer": 3,
+     "vi": "Câu sai: chủ ngữ „das Telefon“ không thể „đến văn phòng“. Đúng: „Als ich im Büro angekommen war, klingelte sofort das Telefon.“",
+     "explain": "Chủ ngữ ngầm của cụm phân từ phải trùng với chủ ngữ của mệnh đề chính; ở đây người đến văn phòng không phải là chiếc điện thoại. Ở các câu khác, nhân chứng, cô ấy và công ty đều là người thực hiện/chịu hành động của phân từ."
+    },
+    {
+     "q": "Die Klage ist zulässig, ___ sie wenig Aussicht auf Erfolg hat.",
+     "options": [
+      "wenngleich",
+      "trotzdem",
+      "dennoch",
+      "zwar"
+     ],
+     "answer": 0,
+     "vi": "Đơn kiện hợp lệ, mặc dù nó có ít triển vọng thành công.",
+     "explain": "„wenngleich“ (= obwohl, trang trọng) là liên từ phụ, đẩy „hat“ về cuối. „trotzdem“ và „dennoch“ là trạng từ, sau chúng động từ phải đứng ngay vị trí thứ hai (… dennoch hat sie …)."
+    },
+    {
+     "q": "Wie überzeugend ___, das Gericht folgte ihnen nicht.",
+     "options": [
+      "waren die Argumente auch",
+      "auch waren die Argumente",
+      "die Argumente auch waren",
+      "die Argumente waren auch"
+     ],
+     "answer": 2,
+     "vi": "Dù các lập luận có thuyết phục đến đâu, tòa án cũng không chấp nhận chúng.",
+     "explain": "Mệnh đề „wie … auch“ là mệnh đề phụ: chủ ngữ đứng trước, „auch“ trong Mittelfeld và động từ chia „waren“ ở cuối. Các phương án khác đặt động từ ở vị trí thứ nhất hoặc thứ hai như mệnh đề chính."
+    }
+   ]
+  },
+  {
+   "title": "Cấu trúc câu nâng cao (Vorfeld, Mittelfeld, Nachfeld)",
+   "intro": "Câu tiếng Đức được phân tích theo mô hình trường vị trí: Vorfeld – động từ chia (khung trái) – Mittelfeld – khung phải (phân từ, nguyên mẫu, tiền tố tách) – Nachfeld.\n• Vorfeld: chỉ đúng MỘT thành phần, có thể là cả một mệnh đề phụ hoặc một phân từ: Weil die Frist abgelaufen war, wurde der Einspruch verworfen. / Unterschrieben hat er den Vertrag nicht.\n• Mittelfeld: đại từ không nhấn giọng đứng đầu Mittelfeld theo thứ tự Nom – Akk – Dat (er es ihm). Đại từ (kể cả đại từ phản thân) có thể đứng trước chủ ngữ là danh từ (Gestern hat sich der Mandant beschwert), nhưng không đứng trước chủ ngữ là đại từ (hat er sich, KHÔNG: hat sich er).\n• Nachfeld (Ausklammerung): cụm so sánh với als/wie thường đặt sau khung phải (Er hat mehr verdient als sein Kollege); cụm giới từ cũng có thể được tách ra (Wir haben diskutiert über …); tân ngữ trực tiếp thì không.\n• Vorfeld-„es“ chỉ là từ giữ chỗ: nó biến mất khi một thành phần khác đứng đầu câu (Es kamen viele Bürger → Gestern kamen viele Bürger; Es wurde verhandelt → Bis spät wurde verhandelt). Còn „es“ là chủ ngữ thật (es geht um, es gibt) thì luôn giữ lại. Khi mệnh đề dass đứng ở Vorfeld, „es“ tương ứng (Korrelat) cũng biến mất: Dass …, ist wichtig.",
+   "questions": [
+    {
+     "q": "Gestern ___ der Mandant beim Finanzamt angerufen.",
+     "options": [
+      "hat",
+      "ist",
+      "hatte er",
+      "er hat"
+     ],
+     "answer": 0,
+     "vi": "Hôm qua thân chủ đã gọi điện cho cơ quan thuế.",
+     "explain": "„Gestern“ chiếm Vorfeld, động từ chia đứng ở vị trí thứ hai, rồi đến chủ ngữ „der Mandant“; „anrufen“ chia Perfekt với „haben“. „hatte er“ và „er hat“ sai vì thừa chủ ngữ „er“."
+    },
+    {
+     "q": "Gestern ___ viele Bürger zur Informationsveranstaltung.",
+     "options": [
+      "es kamen",
+      "kamen es",
+      "kamen",
+      "kam es"
+     ],
+     "answer": 2,
+     "vi": "Hôm qua có nhiều người dân đến buổi thông tin.",
+     "explain": "„es“ trong „Es kamen viele Bürger“ chỉ là từ giữ chỗ cho Vorfeld; khi „Gestern“ đã chiếm Vorfeld thì „es“ biến mất. Động từ chia theo chủ ngữ thật „viele Bürger“ (số nhiều)."
+    },
+    {
+     "q": "Heute geht ___ um die Reform der Grundsteuer.",
+     "options": [
+      "das",
+      "es",
+      "er",
+      "man"
+     ],
+     "answer": 1,
+     "vi": "Hôm nay chủ đề là cải cách thuế bất động sản.",
+     "explain": "Trong „es geht um“, „es“ là chủ ngữ thật nên vẫn giữ lại dù „Heute“ đứng ở Vorfeld. Khác với Vorfeld-„es“ chỉ giữ chỗ, loại „es“ này không thể lược bỏ hay thay bằng „das/man“."
+    },
+    {
+     "q": "Hat der Anwalt dem Mandanten das Dokument geschickt? – Ja, er hat ___ gestern geschickt.",
+     "options": [
+      "ihm es",
+      "es ihm",
+      "ihn es",
+      "es ihn"
+     ],
+     "answer": 1,
+     "vi": "Luật sư đã gửi tài liệu cho thân chủ chưa? – Rồi, hôm qua ông ấy đã gửi nó cho anh ta.",
+     "explain": "Khi cả hai tân ngữ là đại từ, thứ tự là Akkusativ trước Dativ: „es ihm“. „ihm es“ đảo thứ tự (chỉ đúng với danh từ: ihm das Dokument); „ihn“ sai cách vì „dem Mandanten“ là Dativ."
+    },
+    {
+     "q": "Weil die Frist abgelaufen war, ___ als unzulässig verworfen.",
+     "options": [
+      "der Einspruch wurde",
+      "es wurde der Einspruch",
+      "wurde es der Einspruch",
+      "wurde der Einspruch"
+     ],
+     "answer": 3,
+     "vi": "Vì thời hạn đã hết, đơn khiếu nại bị bác bỏ vì không hợp lệ.",
+     "explain": "Mệnh đề phụ „Weil …“ chiếm trọn Vorfeld, nên động từ chia „wurde“ đứng ngay sau dấu phẩy. Không cần „es“ vì Vorfeld đã có thành phần khác; „der Einspruch wurde“ đặt động từ ở vị trí thứ ba."
+    },
+    {
+     "q": "Câu nào sai?",
+     "options": [
+      "Im letzten Jahr hat die Firma Verluste gemacht.",
+      "Die Firma hat im letzten Jahr Verluste gemacht.",
+      "Verluste hat die Firma im letzten Jahr gemacht.",
+      "Im letzten Jahr die Firma hat Verluste gemacht."
+     ],
+     "answer": 3,
+     "vi": "Câu sai: Đúng phải là „Im letzten Jahr hat die Firma Verluste gemacht.“ (Năm ngoái công ty đã bị lỗ.)",
+     "explain": "Vorfeld chỉ chứa đúng một thành phần; câu cuối đặt cả „Im letzten Jahr“ và „die Firma“ trước động từ chia. Câu 3 đúng: tân ngữ „Verluste“ được đưa lên Vorfeld để nhấn mạnh."
+    },
+    {
+     "q": "Der Mandant war unzufrieden. Gestern hat ___ über die lange Bearbeitungszeit beschwert.",
+     "options": [
+      "sich er",
+      "er sich",
+      "er",
+      "sich"
+     ],
+     "answer": 1,
+     "vi": "Thân chủ không hài lòng. Hôm qua anh ấy đã phàn nàn về thời gian xử lý quá lâu.",
+     "explain": "Khi chủ ngữ là đại từ, nó đứng đầu Mittelfeld, trước đại từ phản thân: „er sich“. Đại từ phản thân chỉ có thể đứng trước chủ ngữ là danh từ (hat sich der Mandant …), không đứng trước đại từ."
+    },
+    {
+     "q": "Die Firma hat in diesem Jahr mehr Steuern ___.",
+     "options": [
+      "gezahlt als im Vorjahr",
+      "gezahlt im Vorjahr als",
+      "als gezahlt im Vorjahr",
+      "im Vorjahr als gezahlt"
+     ],
+     "answer": 0,
+     "vi": "Năm nay công ty đã nộp nhiều thuế hơn năm trước.",
+     "explain": "Cụm so sánh „als im Vorjahr“ thường được tách ra Nachfeld, sau phân từ „gezahlt“ (Ausklammerung). Các phương án khác tách rời „als“ khỏi thành phần so sánh của nó."
+    },
+    {
+     "q": "Câu nào sai?",
+     "options": [
+      "Gestern hat sich der Mandant beschwert.",
+      "Gestern hat der Mandant sich beschwert.",
+      "Gestern hat sich er beschwert.",
+      "Gestern hat er sich beschwert."
+     ],
+     "answer": 2,
+     "vi": "Câu sai: Đúng phải là „Gestern hat er sich beschwert.“ (Hôm qua anh ấy đã phàn nàn.)",
+     "explain": "Đại từ phản thân có thể đứng trước hoặc sau chủ ngữ là danh từ (câu 1 và 2 đều đúng), nhưng chủ ngữ là đại từ thì luôn đứng trước: „er sich“, không phải „sich er“."
+    },
+    {
+     "q": "Hat die Behörde dem Antragsteller den Bescheid schon zugestellt? – Nein, aber morgen wird ___ zustellen.",
+     "options": [
+      "sie es ihm",
+      "es ihm sie",
+      "sie ihm es",
+      "ihm sie es"
+     ],
+     "answer": 0,
+     "vi": "Cơ quan đã tống đạt quyết định cho người nộp đơn chưa? – Chưa, nhưng ngày mai họ sẽ tống đạt nó cho anh ta.",
+     "explain": "Ba đại từ trong Mittelfeld theo thứ tự Nominativ – Akkusativ – Dativ: „sie es ihm“. „sie ihm es“ sai vì đại từ Akkusativ „es“ phải đứng trước đại từ Dativ „ihm“."
+    },
+    {
+     "q": "Câu nào cùng nghĩa với „Es wurden zahlreiche Einsprüche eingelegt.“?",
+     "options": [
+      "Zahlreiche Einsprüche wurden es eingelegt.",
+      "Es wurde zahlreiche Einsprüche eingelegt.",
+      "Zahlreiche Einsprüche wurden eingelegt.",
+      "Zahlreiche Einsprüche es wurden eingelegt."
+     ],
+     "answer": 2,
+     "vi": "Đã có nhiều đơn khiếu nại được nộp.",
+     "explain": "„es“ chỉ giữ chỗ Vorfeld; khi chủ ngữ thật „zahlreiche Einsprüche“ lên đầu câu thì „es“ biến mất. Câu 2 sai vì động từ phải chia số nhiều theo chủ ngữ thật („wurden“), không theo „es“."
+    },
+    {
+     "q": "Câu nào sai?",
+     "options": [
+      "Wir haben lange diskutiert über die neue Regelung.",
+      "Er hat mehr verdient als sein Kollege.",
+      "Ich habe mich sehr gefreut über Ihre Nachricht.",
+      "Ich habe gestern unterschrieben den Vertrag."
+     ],
+     "answer": 3,
+     "vi": "Câu sai: Đúng phải là „Ich habe gestern den Vertrag unterschrieben.“ (Hôm qua tôi đã ký hợp đồng.)",
+     "explain": "Tân ngữ trực tiếp („den Vertrag“) không được tách ra Nachfeld mà phải nằm trong Mittelfeld. Cụm giới từ (über …) và cụm so sánh (als …) thì có thể được tách ra (Ausklammerung)."
+    },
+    {
+     "q": "___ hat der Mandant den Vertrag noch nicht, aber er hat ihn gelesen.",
+     "options": [
+      "Unterschrieb",
+      "Unterschreiben",
+      "Unterschrieben",
+      "Zu unterschreiben"
+     ],
+     "answer": 2,
+     "vi": "Ký thì thân chủ chưa ký hợp đồng, nhưng anh ấy đã đọc nó rồi.",
+     "explain": "Để nhấn mạnh tương phản, phân từ Partizip II „unterschrieben“ có thể được đưa lên Vorfeld, trợ động từ „hat“ vẫn ở vị trí thứ hai. „Unterschreiben“ sai vì với „hat“ cần Partizip II, không phải nguyên mẫu."
+    },
+    {
+     "q": "Dass die Frist eingehalten wird, ___ für den Erfolg der Klage entscheidend.",
+     "options": [
+      "es ist",
+      "ist es",
+      "das es ist",
+      "ist"
+     ],
+     "answer": 3,
+     "vi": "Việc tuân thủ thời hạn có ý nghĩa quyết định đối với thành công của vụ kiện.",
+     "explain": "Mệnh đề dass làm chủ ngữ đã chiếm Vorfeld, nên động từ „ist“ đứng ngay sau và không còn „es“ (Korrelat chỉ dùng khi mệnh đề dass đứng sau: Es ist entscheidend, dass …). „ist es“ là lỗi thường gặp do giữ lại „es“."
+    },
+    {
+     "q": "Câu nào sai?",
+     "options": [
+      "Bis spät in die Nacht wurde es verhandelt.",
+      "Es wurde bis spät in die Nacht verhandelt.",
+      "Bis spät in die Nacht wurde verhandelt.",
+      "Verhandelt wurde bis spät in die Nacht."
+     ],
+     "answer": 0,
+     "vi": "Câu sai: Đúng phải là „Bis spät in die Nacht wurde verhandelt.“ (Cuộc đàm phán diễn ra đến tận khuya.)",
+     "explain": "Trong câu bị động không chủ ngữ, „es“ chỉ giữ chỗ Vorfeld và phải biến mất khi thành phần khác đứng đầu câu. Câu 4 đúng: phân từ „verhandelt“ được đưa lên Vorfeld nên cũng không cần „es“."
+    }
+   ]
   }
  ],
  "C1": [
@@ -10982,6 +13214,564 @@ const MCQ = {
      "explain": "Tính từ tận cùng -sam nhận hậu tố -keit: Wirksamkeit. 'Wirksamheit' sai vì -heit không dùng sau -sam."
     }
    ]
+  },
+  {
+   "title": "Dấu phẩy (Kommasetzung)",
+   "intro": "Theo quy tắc chính tả chính thức (amtliches Regelwerk), dấu phẩy luôn tách mệnh đề chính và mệnh đề phụ; mệnh đề phụ chen giữa phải được đóng bằng dấu phẩy ở cả hai đầu. Cụm nguyên mẫu (Infinitivgruppe) BẮT BUỘC có dấu phẩy khi mở đầu bằng um, ohne, statt/anstatt, außer, als, khi phụ thuộc vào một danh từ (die Absicht, …) hoặc khi có từ chỉ báo (es, darauf, dazu, daran…). Phần chèn và đồng vị ngữ (Apposition), cũng như cụm phân từ đứng sau làm phần bổ sung, được tách bằng hai dấu phẩy. Trong phép liệt kê KHÔNG đặt dấu phẩy trước und, oder, sowie. Khi so sánh với als/wie: chỉ đặt dấu phẩy nếu sau đó là một mệnh đề có động từ chia.\nVí dụ: Er kam, ohne zu grüßen. | Herr Weber, unser Berater, kommt. | Er verdient mehr als sein Bruder. | Er verdient mehr, als er ausgibt.",
+   "questions": [
+    {
+     "q": "Câu nào đặt dấu phẩy đúng?",
+     "options": [
+      "Ich bleibe heute zu Hause, weil ich die Steuererklärung fertigstellen muss.",
+      "Ich bleibe heute zu Hause weil, ich die Steuererklärung fertigstellen muss.",
+      "Ich bleibe, heute zu Hause weil ich die Steuererklärung fertigstellen muss.",
+      "Ich bleibe heute zu Hause weil ich die Steuererklärung fertigstellen muss."
+     ],
+     "answer": 0,
+     "vi": "Hôm nay tôi ở nhà vì tôi phải hoàn thành tờ khai thuế.",
+     "explain": "Dấu phẩy đứng trước liên từ phụ weil để tách mệnh đề chính và mệnh đề phụ. Bỏ hẳn dấu phẩy là sai, vì ranh giới giữa hai mệnh đề luôn phải được đánh dấu."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng?",
+     "options": [
+      "Wenn die Frist abgelaufen ist kann kein Einspruch mehr eingelegt werden.",
+      "Wenn die Frist abgelaufen ist, kann kein Einspruch mehr eingelegt werden.",
+      "Wenn, die Frist abgelaufen ist, kann kein Einspruch mehr eingelegt werden.",
+      "Wenn die Frist, abgelaufen ist kann kein Einspruch mehr eingelegt werden."
+     ],
+     "answer": 1,
+     "vi": "Khi thời hạn đã hết thì không thể nộp đơn khiếu nại được nữa.",
+     "explain": "Mệnh đề phụ đứng đầu kết thúc ở động từ chia (ist), nên dấu phẩy đặt ngay sau đó, trước động từ của mệnh đề chính. Không được đặt dấu phẩy ngay sau liên từ wenn."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng?",
+     "options": [
+      "Für den Antrag benötigen Sie Ihren Pass, eine Meldebescheinigung, und ein biometrisches Foto.",
+      "Für den Antrag benötigen Sie Ihren Pass eine Meldebescheinigung und ein biometrisches Foto.",
+      "Für den Antrag benötigen Sie Ihren Pass, eine Meldebescheinigung und ein biometrisches Foto.",
+      "Für den Antrag benötigen Sie Ihren Pass, eine Meldebescheinigung und, ein biometrisches Foto."
+     ],
+     "answer": 2,
+     "vi": "Để nộp đơn, quý vị cần hộ chiếu, giấy xác nhận đăng ký cư trú và một ảnh sinh trắc học.",
+     "explain": "Các phần liệt kê được tách bằng dấu phẩy, nhưng trước und thì không có dấu phẩy. Kiểu „Oxford comma“ trước und như trong tiếng Anh là sai trong tiếng Đức."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng?",
+     "options": [
+      "Der Vertrag, den wir gestern unterschrieben haben tritt am 1. Januar in Kraft.",
+      "Der Vertrag den wir gestern unterschrieben haben, tritt am 1. Januar in Kraft.",
+      "Der Vertrag den wir gestern unterschrieben haben tritt am 1. Januar in Kraft.",
+      "Der Vertrag, den wir gestern unterschrieben haben, tritt am 1. Januar in Kraft."
+     ],
+     "answer": 3,
+     "vi": "Hợp đồng mà chúng tôi ký hôm qua có hiệu lực từ ngày 1 tháng 1.",
+     "explain": "Mệnh đề quan hệ chen giữa câu phải được bao bằng hai dấu phẩy. Lỗi thường gặp là quên dấu phẩy đóng sau haben."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng?",
+     "options": [
+      "Sie nahm einen Kredit auf um ihr Studium zu finanzieren.",
+      "Sie nahm einen Kredit auf, um ihr Studium zu finanzieren.",
+      "Sie nahm einen Kredit auf, um ihr Studium, zu finanzieren.",
+      "Sie nahm, einen Kredit auf um ihr Studium zu finanzieren."
+     ],
+     "answer": 1,
+     "vi": "Cô ấy vay tiền để tài trợ cho việc học đại học.",
+     "explain": "Cụm nguyên mẫu mở đầu bằng um bắt buộc phải có dấu phẩy. Không được đặt dấu phẩy bên trong cụm (trước zu finanzieren)."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng?",
+     "options": [
+      "Herr Dr. Krause, unser neuer Steuerberater prüft die Unterlagen.",
+      "Herr Dr. Krause unser neuer Steuerberater, prüft die Unterlagen.",
+      "Herr Dr. Krause, unser neuer Steuerberater, prüft die Unterlagen.",
+      "Herr Dr. Krause unser neuer Steuerberater prüft die Unterlagen."
+     ],
+     "answer": 2,
+     "vi": "Tiến sĩ Krause, cố vấn thuế mới của chúng tôi, đang kiểm tra hồ sơ.",
+     "explain": "Đồng vị ngữ (Apposition) „unser neuer Steuerberater“ là phần chèn, nên phải có dấu phẩy ở cả hai đầu. Chỉ có dấu phẩy mở mà thiếu dấu phẩy đóng là lỗi điển hình."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng?",
+     "options": [
+      "Die Nachzahlung fiel höher aus als im Vorjahr.",
+      "Die Nachzahlung fiel höher aus, als im Vorjahr.",
+      "Die Nachzahlung fiel, höher aus als im Vorjahr.",
+      "Die Nachzahlung fiel höher aus als, im Vorjahr."
+     ],
+     "answer": 0,
+     "vi": "Khoản truy nộp thuế cao hơn năm trước.",
+     "explain": "Sau als chỉ có một cụm từ (im Vorjahr), không có động từ chia, nên không đặt dấu phẩy. Dấu phẩy trước als chỉ cần khi theo sau là một mệnh đề hoàn chỉnh."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng?",
+     "options": [
+      "Die Bearbeitung dauerte länger als das Finanzamt angekündigt hatte.",
+      "Die Bearbeitung dauerte länger als, das Finanzamt angekündigt hatte.",
+      "Die Bearbeitung, dauerte länger als das Finanzamt angekündigt hatte.",
+      "Die Bearbeitung dauerte länger, als das Finanzamt angekündigt hatte."
+     ],
+     "answer": 3,
+     "vi": "Việc xử lý kéo dài lâu hơn so với thông báo của cơ quan thuế.",
+     "explain": "Ở đây als mở đầu một mệnh đề so sánh có động từ chia (hatte), nên phải đặt dấu phẩy trước als. Đặt dấu phẩy sau als là sai vị trí."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng?",
+     "options": [
+      "Er unterschrieb den Mietvertrag ohne das Kleingedruckte zu lesen.",
+      "Er unterschrieb, den Mietvertrag ohne das Kleingedruckte zu lesen.",
+      "Er unterschrieb den Mietvertrag, ohne das Kleingedruckte zu lesen.",
+      "Er unterschrieb den Mietvertrag ohne, das Kleingedruckte zu lesen."
+     ],
+     "answer": 2,
+     "vi": "Anh ấy ký hợp đồng thuê nhà mà không đọc phần chữ nhỏ.",
+     "explain": "Cụm nguyên mẫu với ohne … zu bắt buộc có dấu phẩy đứng trước ohne. Phương án không có dấu phẩy là sai vì đây không phải trường hợp tùy chọn."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng?",
+     "options": [
+      "Wir haben uns darauf geeinigt, den Vertrag vorzeitig zu kündigen.",
+      "Wir haben uns darauf geeinigt den Vertrag vorzeitig zu kündigen.",
+      "Wir haben uns, darauf geeinigt den Vertrag vorzeitig zu kündigen.",
+      "Wir haben uns darauf geeinigt den Vertrag, vorzeitig zu kündigen."
+     ],
+     "answer": 0,
+     "vi": "Chúng tôi đã thống nhất chấm dứt hợp đồng trước thời hạn.",
+     "explain": "Từ chỉ báo darauf báo trước cụm nguyên mẫu, nên dấu phẩy là bắt buộc. Không có darauf thì dấu phẩy là tùy chọn, nhưng ở đây thiếu dấu phẩy là sai."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng?",
+     "options": [
+      "Anstatt den Bescheid sofort anzufechten sollten Sie zunächst Akteneinsicht beantragen.",
+      "Anstatt den Bescheid sofort anzufechten, sollten Sie zunächst Akteneinsicht beantragen.",
+      "Anstatt, den Bescheid sofort anzufechten, sollten Sie zunächst Akteneinsicht beantragen.",
+      "Anstatt den Bescheid, sofort anzufechten sollten Sie zunächst Akteneinsicht beantragen."
+     ],
+     "answer": 1,
+     "vi": "Thay vì khiếu nại ngay quyết định, trước hết quý vị nên xin được xem hồ sơ.",
+     "explain": "Cụm anstatt … zu đứng đầu câu phải được tách khỏi mệnh đề chính bằng dấu phẩy sau anzufechten. Không được đặt dấu phẩy ngay sau anstatt vì nó là một phần của cụm."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng?",
+     "options": [
+      "Die Kanzlei berät Unternehmen, Vereine, sowie Privatpersonen in Steuerfragen.",
+      "Die Kanzlei berät Unternehmen Vereine sowie Privatpersonen in Steuerfragen.",
+      "Die Kanzlei berät Unternehmen, Vereine sowie, Privatpersonen in Steuerfragen.",
+      "Die Kanzlei berät Unternehmen, Vereine sowie Privatpersonen in Steuerfragen."
+     ],
+     "answer": 3,
+     "vi": "Văn phòng tư vấn cho doanh nghiệp, hiệp hội cũng như cá nhân về các vấn đề thuế.",
+     "explain": "Sowie mang nghĩa „und“ nên giống und: không đặt dấu phẩy trước nó trong phép liệt kê. Tuy vậy giữa Unternehmen và Vereine vẫn cần dấu phẩy."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng?",
+     "options": [
+      "Die Steuererklärung, vom Berater sorgfältig geprüft, wurde fristgerecht eingereicht.",
+      "Die Steuererklärung, vom Berater sorgfältig geprüft wurde fristgerecht eingereicht.",
+      "Die Steuererklärung vom Berater sorgfältig geprüft, wurde fristgerecht eingereicht.",
+      "Die Steuererklärung, vom Berater sorgfältig geprüft wurde fristgerecht, eingereicht."
+     ],
+     "answer": 0,
+     "vi": "Tờ khai thuế, đã được cố vấn kiểm tra kỹ lưỡng, được nộp đúng hạn.",
+     "explain": "Cụm phân từ đứng sau danh từ như một phần bổ sung chèn vào thì phải có dấu phẩy ở hai đầu. Chỉ một dấu phẩy khiến phần chèn không được đóng lại."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng?",
+     "options": [
+      "Der Kläger hatte nicht die Absicht den Vergleich anzunehmen.",
+      "Der Kläger hatte, nicht die Absicht den Vergleich anzunehmen.",
+      "Der Kläger hatte nicht die Absicht, den Vergleich anzunehmen.",
+      "Der Kläger hatte nicht die Absicht den Vergleich, anzunehmen."
+     ],
+     "answer": 2,
+     "vi": "Nguyên đơn không có ý định chấp nhận thỏa thuận hòa giải.",
+     "explain": "Cụm nguyên mẫu phụ thuộc vào danh từ (die Absicht) bắt buộc có dấu phẩy. Thiếu dấu phẩy là sai, vì đây không phải cụm nguyên mẫu tự do có dấu phẩy tùy chọn."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng?",
+     "options": [
+      "Nachdem das Landgericht, die erste Instanz die Klage abgewiesen hatte, entschloss sich die Firma dazu, in Berufung zu gehen.",
+      "Nachdem das Landgericht, die erste Instanz, die Klage abgewiesen hatte, entschloss sich die Firma dazu, in Berufung zu gehen.",
+      "Nachdem das Landgericht, die erste Instanz, die Klage abgewiesen hatte entschloss sich die Firma dazu, in Berufung zu gehen.",
+      "Nachdem das Landgericht, die erste Instanz, die Klage abgewiesen hatte, entschloss sich die Firma dazu in Berufung zu gehen."
+     ],
+     "answer": 1,
+     "vi": "Sau khi tòa án khu vực, tức tòa sơ thẩm, bác đơn kiện, công ty quyết định kháng cáo.",
+     "explain": "Câu cần đủ bốn dấu phẩy: hai dấu bao đồng vị ngữ, một dấu sau mệnh đề phụ nachdem và một dấu trước cụm nguyên mẫu được báo trước bằng dazu. Phương án D sai vì có dazu thì dấu phẩy là bắt buộc."
+    }
+   ]
+  },
+  {
+   "title": "Chính tả: viết liền/tách & hoa/thường (Getrennt-/Zusammenschreibung, Groß-/Kleinschreibung)",
+   "intro": "Viết liền/tách: danh từ + động từ thường viết tách (Rad fahren, Auto fahren), nhưng khi danh từ hóa thì viết liền và viết hoa (das Radfahren, das Kennenlernen). zurzeit (viết liền) = hiện nay; zur Zeit + sinh cách = vào thời của (zur Zeit Goethes). aufgrund/auf Grund và infrage/in Frage đều được phép, nhưng không có dạng lai như „auf grund“, „in frage“.\nViết hoa: tính từ danh từ hóa viết hoa: im Allgemeinen, des Weiteren, das Beste, etwas Wichtiges, beim Ausfüllen; buổi trong ngày sau trạng từ viết hoa: heute Abend, gestern Morgen. Nhưng so sánh nhất với am viết thường: am besten. Đại từ xưng hô lịch sự Sie/Ihnen/Ihr viết hoa, còn sie/ihr ngôi thứ ba viết thường. Trong cụm schuld sein, từ schuld là tính từ nên viết thường (khác với die Schuld tragen).",
+   "questions": [
+    {
+     "q": "Am Wochenende wollen wir ___.",
+     "options": [
+      "Rad fahren",
+      "radfahren",
+      "Radfahren",
+      "rad fahren"
+     ],
+     "answer": 0,
+     "vi": "Cuối tuần chúng tôi muốn đi xe đạp.",
+     "explain": "Theo quy tắc hiện hành, „Rad fahren“ viết tách và Rad viết hoa. „Radfahren“ viết liền chỉ đúng khi là danh từ (das Radfahren), không đúng khi dùng làm động từ."
+    },
+    {
+     "q": "Wir sehen uns ___ beim Essen.",
+     "options": [
+      "heute abend",
+      "heute Abend",
+      "Heute Abend",
+      "heuteabend"
+     ],
+     "answer": 1,
+     "vi": "Chúng ta gặp nhau tối nay trong bữa ăn.",
+     "explain": "Buổi trong ngày đứng sau các trạng từ heute, gestern, morgen được viết hoa: heute Abend. Cách viết thường „heute abend“ là quy tắc cũ, không còn đúng."
+    },
+    {
+     "q": "Die Behörde ist ___ wegen Umbaus geschlossen.",
+     "options": [
+      "zur Zeit",
+      "Zurzeit",
+      "zurzeit",
+      "zur zeit"
+     ],
+     "answer": 2,
+     "vi": "Hiện nay cơ quan đóng cửa vì đang sửa chữa.",
+     "explain": "Nghĩa „hiện nay“ (= derzeit) thì viết liền và viết thường: zurzeit. „zur Zeit“ viết tách chỉ dùng với sinh cách, ví dụ zur Zeit der Römer."
+    },
+    {
+     "q": "___ der Römer gab es noch keine Einkommensteuer.",
+     "options": [
+      "Zurzeit",
+      "Zur zeit",
+      "zurzeit",
+      "Zur Zeit"
+     ],
+     "answer": 3,
+     "vi": "Vào thời La Mã chưa có thuế thu nhập.",
+     "explain": "Ở đây có sinh cách đi kèm (der Römer) với nghĩa „vào thời của“, nên viết tách: Zur Zeit. „Zurzeit“ viết liền chỉ có nghĩa „hiện nay“ và không đi với sinh cách."
+    },
+    {
+     "q": "Sehr geehrte Frau Lang, wir danken ___ für Ihre Anfrage.",
+     "options": [
+      "ihnen",
+      "Ihnen",
+      "Sie",
+      "Ihr"
+     ],
+     "answer": 1,
+     "vi": "Kính gửi bà Lang, chúng tôi cảm ơn bà về yêu cầu của bà.",
+     "explain": "Danken cần tân ngữ gián tiếp (Dativ); dạng lịch sự là Ihnen, viết hoa. „ihnen“ viết thường nghĩa là „họ“, còn „Sie“ là dạng Akkusativ/Nominativ."
+    },
+    {
+     "q": "Die Mandanten haben ___ Unterlagen vollständig eingereicht.",
+     "options": [
+      "Ihre",
+      "ihrer",
+      "ihre",
+      "Ihren"
+     ],
+     "answer": 2,
+     "vi": "Các khách hàng đã nộp đầy đủ hồ sơ của họ.",
+     "explain": "Đại từ sở hữu chỉ về „die Mandanten“ (ngôi thứ ba số nhiều) nên viết thường: ihre. „Ihre“ viết hoa sẽ có nghĩa là „của Quý vị“ (người đang được nói chuyện)."
+    },
+    {
+     "q": "Der Antrag wird ___ innerhalb von vier Wochen bearbeitet.",
+     "options": [
+      "im Allgemeinen",
+      "im allgemeinen",
+      "Im Allgemeinen",
+      "imallgemeinen"
+     ],
+     "answer": 0,
+     "vi": "Thông thường đơn được xử lý trong vòng bốn tuần.",
+     "explain": "Trong „im Allgemeinen“, tính từ được danh từ hóa nên viết hoa; im viết thường vì không đứng đầu câu. Cách viết thường „im allgemeinen“ là quy tắc cũ."
+    },
+    {
+     "q": "___ weisen wir darauf hin, dass die Frist nicht verlängert werden kann.",
+     "options": [
+      "Des weiteren",
+      "Desweiteren",
+      "Des-Weiteren",
+      "Des Weiteren"
+     ],
+     "answer": 3,
+     "vi": "Ngoài ra, chúng tôi lưu ý rằng thời hạn không thể được gia hạn.",
+     "explain": "„Des Weiteren“ viết tách, và Weiteren viết hoa vì là tính từ danh từ hóa. „Desweiteren“ viết liền là lỗi rất phổ biến nhưng sai."
+    },
+    {
+     "q": "Das ___ wäre, den Einspruch sofort einzulegen.",
+     "options": [
+      "beste",
+      "am Besten",
+      "Beste",
+      "Bestes"
+     ],
+     "answer": 2,
+     "vi": "Tốt nhất là nộp đơn khiếu nại ngay lập tức.",
+     "explain": "Sau mạo từ das, tính từ được danh từ hóa nên viết hoa: das Beste. „Bestes“ sai đuôi vì sau mạo từ xác định phải dùng đuôi yếu -e."
+    },
+    {
+     "q": "Diese Variante gefällt mir ___.",
+     "options": [
+      "am besten",
+      "am Besten",
+      "Am besten",
+      "ambesten"
+     ],
+     "answer": 0,
+     "vi": "Tôi thích phương án này nhất.",
+     "explain": "Dạng so sánh nhất với am luôn viết thường: am besten. „am Besten“ là lỗi do nhầm với das Beste."
+    },
+    {
+     "q": "Cách viết nào đúng?",
+     "options": [
+      "Beim ausfüllen des Formulars ist mir etwas wichtiges aufgefallen.",
+      "Beim Ausfüllen des Formulars ist mir etwas Wichtiges aufgefallen.",
+      "Beim Ausfüllen des Formulars ist mir etwas wichtiges aufgefallen.",
+      "Beim ausfüllen des Formulars ist mir etwas Wichtiges aufgefallen."
+     ],
+     "answer": 1,
+     "vi": "Khi điền mẫu đơn, tôi đã nhận ra một điều quan trọng.",
+     "explain": "Động từ sau beim và tính từ sau etwas đều được danh từ hóa, nên viết hoa: beim Ausfüllen, etwas Wichtiges. Phương án C chỉ sửa một chỗ nên vẫn sai."
+    },
+    {
+     "q": "Die Veranstaltung dient dem ___ der neuen Kollegen.",
+     "options": [
+      "kennenlernen",
+      "Kennen lernen",
+      "kennen Lernen",
+      "Kennenlernen"
+     ],
+     "answer": 3,
+     "vi": "Buổi gặp mặt nhằm mục đích làm quen với các đồng nghiệp mới.",
+     "explain": "Sau mạo từ dem, động từ được danh từ hóa nên viết liền và viết hoa: das Kennenlernen. Dạng danh từ hóa không được viết tách thành hai từ."
+    },
+    {
+     "q": "Der Vertrag muss ___ der neuen Rechtslage angepasst werden.",
+     "options": [
+      "auf grund",
+      "Aufgrund",
+      "aufgrund",
+      "auf-grund"
+     ],
+     "answer": 2,
+     "vi": "Hợp đồng phải được điều chỉnh do tình hình pháp lý mới.",
+     "explain": "Giới từ aufgrund viết liền và viết thường (dạng tách „auf Grund“ với Grund viết hoa cũng được phép). „auf grund“ là dạng lai, sai, và „Aufgrund“ viết hoa giữa câu cũng sai."
+    },
+    {
+     "q": "Die Kanzlei stellt die Rechtmäßigkeit des Bescheids ___.",
+     "options": [
+      "infrage",
+      "in frage",
+      "Infrage",
+      "inFrage"
+     ],
+     "answer": 0,
+     "vi": "Văn phòng luật đặt nghi vấn về tính hợp pháp của quyết định.",
+     "explain": "„infrage stellen“ được viết liền và viết thường (dạng „in Frage“ cũng được phép). „in frage“ với frage viết thường thì sai."
+    },
+    {
+     "q": "Cách viết nào đúng?",
+     "options": [
+      "Nach Auffassung des Gerichts ist der Mieter Schuld an dem Schaden.",
+      "Nach Auffassung des Gerichts ist der Mieter schuld an dem Schaden.",
+      "Nach auffassung des Gerichts ist der Mieter schuld an dem Schaden.",
+      "Nach Auffassung des Gerichts ist der Mieter schuld an dem schaden."
+     ],
+     "answer": 1,
+     "vi": "Theo quan điểm của tòa án, người thuê nhà có lỗi gây ra thiệt hại.",
+     "explain": "Trong cụm „schuld sein“, schuld đóng vai trò tính từ nên viết thường. Chỉ viết hoa khi là danh từ, ví dụ „die Schuld tragen“ hoặc „Schuld haben“."
+    }
+   ]
+  },
+  {
+   "title": "Tìm lỗi & viết lại câu (Fehlerkorrektur und Umformung)",
+   "intro": "Ở trình độ C1, cần nhận ra lỗi về cách (Kasus), sự hòa hợp chủ ngữ–động từ (Kongruenz), trật tự từ và liên từ, cũng như biết viết lại câu mà không đổi nghĩa.\nCách: trotz/wegen/infolge + sinh cách; gemäß/entsprechend + Dativ (gemäß dem Vertrag).\nTrật tự từ: deshalb/trotzdem → động từ đứng vị trí 2 (deshalb legte er …); weil/nachdem/dass → động từ cuối câu; trong mệnh đề phụ có hai động từ nguyên mẫu, trợ động từ đứng trước: dass er … hat einreichen können.\nViết lại: Aktiv → Passiv (hat geändert → ist geändert worden); Konnektor ↔ Präposition: weil → wegen, obwohl → trotz, sobald → nach, wenn → bei, ohne dass → ohne + danh từ, je … desto → mit steigendem …",
+   "questions": [
+    {
+     "q": "Trotz ___ Einspruchs wurde der Bescheid nicht geändert.",
+     "options": [
+      "des fristgerechten",
+      "dem fristgerechten",
+      "den fristgerechten",
+      "der fristgerechte"
+     ],
+     "answer": 0,
+     "vi": "Mặc dù đã có khiếu nại đúng hạn, quyết định vẫn không được thay đổi.",
+     "explain": "Trotz đòi hỏi sinh cách và danh từ Einspruchs đã mang đuôi -s của sinh cách, nên chỉ có „des fristgerechten“ là đúng. „dem“ (Dativ) là văn nói và không khớp với Einspruchs."
+    },
+    {
+     "q": "Die Zahl der Insolvenzen ___ im letzten Jahr deutlich gestiegen.",
+     "options": [
+      "sind",
+      "ist",
+      "hat",
+      "haben"
+     ],
+     "answer": 1,
+     "vi": "Số vụ phá sản đã tăng rõ rệt trong năm qua.",
+     "explain": "Chủ ngữ là „die Zahl“ (số ít) nên động từ chia số ít, và steigen dùng trợ động từ sein: ist. Phương án „sind“ sai vì động từ đã hòa hợp với Insolvenzen thay vì với chủ ngữ thật."
+    },
+    {
+     "q": "Ich weiß, dass er den Antrag nicht rechtzeitig ___.",
+     "options": [
+      "einreichen hat können",
+      "hat einreichen gekonnt",
+      "hat einreichen können",
+      "einreichen können hat"
+     ],
+     "answer": 2,
+     "vi": "Tôi biết rằng anh ấy đã không thể nộp đơn kịp thời.",
+     "explain": "Trong mệnh đề phụ có hai động từ nguyên mẫu (Ersatzinfinitiv), trợ động từ hat đứng trước cả cụm: hat einreichen können. „einreichen können hat“ theo quy tắc động từ cuối câu thông thường, nhưng ở đây là sai."
+    },
+    {
+     "q": "Die Frist war bereits abgelaufen; ___ wurde der Einspruch als unzulässig verworfen.",
+     "options": [
+      "obwohl",
+      "trotzdem",
+      "dennoch",
+      "deshalb"
+     ],
+     "answer": 3,
+     "vi": "Thời hạn đã hết; vì vậy đơn khiếu nại bị bác do không hợp lệ.",
+     "explain": "Đây là quan hệ nguyên nhân – kết quả nên dùng deshalb (động từ đứng ngay sau). Trotzdem/dennoch diễn tả sự nhượng bộ nên sai nghĩa, còn obwohl là liên từ phụ đòi động từ cuối câu."
+    },
+    {
+     "q": "Das Finanzamt hat den Bescheid geändert. → Der Bescheid ___ vom Finanzamt geändert worden.",
+     "options": [
+      "hat",
+      "ist",
+      "wurde",
+      "wird"
+     ],
+     "answer": 1,
+     "vi": "Quyết định đã được cơ quan thuế thay đổi.",
+     "explain": "Bị động thì Perfekt được tạo bằng sein + Partizip II + worden: ist … geändert worden. „hat … worden“ sai vì werden luôn đi với sein."
+    },
+    {
+     "q": "Man muss die Unterlagen bis Ende Mai einreichen. → Die Unterlagen ___ bis Ende Mai eingereicht werden.",
+     "options": [
+      "muss",
+      "sind",
+      "müssen",
+      "haben"
+     ],
+     "answer": 2,
+     "vi": "Hồ sơ phải được nộp trước cuối tháng Năm.",
+     "explain": "Bị động với động từ khuyết thiếu: müssen + Partizip II + werden, và müssen phải chia số nhiều theo „die Unterlagen“. „muss“ sai vì vẫn giữ dạng số ít của câu chủ động với man."
+    },
+    {
+     "q": "Nach Abschluss der Prüfung erhalten Sie einen Bescheid. → ___ die Prüfung abgeschlossen ist, erhalten Sie einen Bescheid.",
+     "options": [
+      "Sobald",
+      "Nach",
+      "Während",
+      "Bevor"
+     ],
+     "answer": 0,
+     "vi": "Ngay khi việc kiểm tra kết thúc, quý vị sẽ nhận được quyết định.",
+     "explain": "Giới từ nach + danh từ được chuyển thành mệnh đề phụ với liên từ sobald. „Nach“ là giới từ nên không thể mở đầu một mệnh đề có động từ chia."
+    },
+    {
+     "q": "Weil die Nachfrage gestiegen ist, wurden die Preise erhöht. → ___ der gestiegenen Nachfrage wurden die Preise erhöht.",
+     "options": [
+      "Weil",
+      "Trotz",
+      "Obwohl",
+      "Wegen"
+     ],
+     "answer": 3,
+     "vi": "Do nhu cầu tăng nên giá đã được nâng lên.",
+     "explain": "Liên từ weil tương ứng với giới từ wegen + sinh cách. „Trotz“ đúng ngữ pháp nhưng đổi nghĩa thành nhượng bộ, còn weil/obwohl là liên từ, không đi với danh từ."
+    },
+    {
+     "q": "Obwohl er krank war, nahm er an der Sitzung teil. → ___ seiner Krankheit nahm er an der Sitzung teil.",
+     "options": [
+      "Wegen",
+      "Obwohl",
+      "Trotz",
+      "Infolge"
+     ],
+     "answer": 2,
+     "vi": "Mặc dù bị ốm, anh ấy vẫn tham dự cuộc họp.",
+     "explain": "Obwohl (nhượng bộ) tương ứng với giới từ trotz + sinh cách. Wegen và infolge diễn tả nguyên nhân nên làm thay đổi nghĩa."
+    },
+    {
+     "q": "Wenn Sie die Frist versäumen, wird ein Verspätungszuschlag festgesetzt. → Bei ___ der Frist wird ein Verspätungszuschlag festgesetzt.",
+     "options": [
+      "Versäumnis",
+      "Versäumte",
+      "Versäumens",
+      "Versäumt"
+     ],
+     "answer": 0,
+     "vi": "Nếu bỏ lỡ thời hạn, sẽ bị áp phụ phí nộp chậm.",
+     "explain": "Wenn + động từ được chuyển thành bei + danh từ: bei Versäumnis der Frist. „Versäumens“ có đuôi sinh cách, không phù hợp sau bei (bei đi với Dativ)."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Laut dem Gesetzes ist die Frist einzuhalten.",
+      "Gemäß dem Vertrag ist die Miete monatlich im Voraus zu zahlen.",
+      "Gemäß des Vertrages ist die Miete monatlich im Voraus zu zahlen.",
+      "Entsprechend des Vertrags ist die Miete monatlich im Voraus zu zahlen."
+     ],
+     "answer": 1,
+     "vi": "Theo hợp đồng, tiền thuê phải được trả trước hằng tháng.",
+     "explain": "Gemäß và entsprechend đi với Dativ: gemäß dem Vertrag. „Gemäß des Vertrages“ là lỗi phổ biến trong văn bản hành chính nhưng không chuẩn."
+    },
+    {
+     "q": "Câu nào KHÔNG có lỗi?",
+     "options": [
+      "Der Kläger verlor den Prozess, deshalb er legte Berufung ein.",
+      "Nachdem der Kläger den Prozess verloren hatte, er legte Berufung ein.",
+      "Der Kläger legte Berufung ein, weil er verlor den Prozess.",
+      "Der Kläger legte Berufung ein, nachdem er den Prozess verloren hatte."
+     ],
+     "answer": 3,
+     "vi": "Nguyên đơn đã kháng cáo sau khi thua kiện.",
+     "explain": "Trong mệnh đề phụ nachdem, động từ chia đứng cuối và thì quá khứ hoàn thành diễn tả hành động xảy ra trước. Ở A, sau deshalb động từ phải đứng ngay vị trí 2 (deshalb legte er …)."
+    },
+    {
+     "q": "Câu nào có cùng nghĩa với: „Der Vertrag wurde gekündigt, ohne dass die Frist eingehalten wurde.“?",
+     "options": [
+      "Der Vertrag wurde ohne Einhaltung der Frist gekündigt.",
+      "Der Vertrag wurde trotz Einhaltung der Frist gekündigt.",
+      "Der Vertrag wurde unter Einhaltung der Frist gekündigt.",
+      "Der Vertrag wurde wegen Nichteinhaltung der Frist gekündigt."
+     ],
+     "answer": 0,
+     "vi": "Hợp đồng bị chấm dứt mà không tuân thủ thời hạn.",
+     "explain": "„ohne dass …“ được danh từ hóa thành „ohne + danh từ“: ohne Einhaltung der Frist. Phương án D đổi nghĩa thành nguyên nhân (vì không tuân thủ thời hạn)."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Der Antrag des Herrn Müllers wurde abgelehnt.",
+      "Die Unterlagen wurden dem Kollege übergeben.",
+      "Der Beklagte widersprach dem Zeugen in allen Punkten.",
+      "Das Gericht folgte der Argumentation des Anwalt."
+     ],
+     "answer": 2,
+     "vi": "Bị đơn phản bác nhân chứng ở mọi điểm.",
+     "explain": "Zeuge là danh từ yếu (n-Deklination) nên ở Dativ là dem Zeugen. Tương tự phải viết dem Kollegen, des Anwalts và des Herrn Müller (tên riêng không thêm -s khi có mạo từ)."
+    },
+    {
+     "q": "Câu nào có cùng nghĩa với: „Je höher das Einkommen ist, desto höher ist der Steuersatz.“?",
+     "options": [
+      "Das Einkommen ist höher, weil der Steuersatz steigt.",
+      "Mit steigendem Einkommen steigt auch der Steuersatz.",
+      "Trotz steigenden Einkommens steigt der Steuersatz.",
+      "Der Steuersatz steigt, sodass das Einkommen höher ist."
+     ],
+     "answer": 1,
+     "vi": "Thu nhập càng tăng thì thuế suất cũng càng tăng.",
+     "explain": "Cấu trúc je … desto được diễn đạt bằng danh từ là „mit steigendem …“. Các phương án A và D đảo ngược quan hệ nhân quả, còn C diễn tả sự nhượng bộ."
+    }
+   ]
   }
  ],
  "C2": [
@@ -12470,6 +15260,564 @@ const MCQ = {
      "answer": 0,
      "vi": "Điều 15 khoản 1 câu 1 số 2 của Luật thuế thu nhập",
      "explain": "Abs. = Absatz, S. = Satz (không phải Seite), tên luật ở Genitiv giống trung: „des Einkommensteuergesetzes\". „Abschnitt\" là chương/mục, khác với Absatz."
+    }
+   ]
+  },
+  {
+   "title": "Văn phong luật: Gutachtenstil và Urteilsstil (Gutachtenstil vs. Urteilsstil)",
+   "intro": "Gutachtenstil (văn phong giám định) dùng trong bài thi luật: đi từ câu hỏi đến kết quả. Urteilsstil (văn phong bản án) thì ngược lại: nêu kết quả trước, lý do sau (…, denn/weil …).\nCác bước của Gutachtenstil:\n1. Obersatz – giả thuyết, dùng Konjunktiv II: „A könnte gegen B einen Anspruch aus § 433 Abs. 2 BGB haben.“ / „A könnte sich wegen Diebstahls gemäß § 242 Abs. 1 StGB strafbar gemacht haben, indem er …“\n2. Điều kiện: „Dazu müsste …“; điểm có vấn đề: „Fraglich ist, ob …“\n3. Definition – dùng Indikativ: „Fremd ist eine Sache, wenn …“ / „Wegnahme ist der Bruch fremden und die Begründung neuen Gewahrsams.“\n4. Subsumtion – áp sự kiện vào định nghĩa: „Hier gehört das Fahrrad B.“\n5. Ergebnis – Indikativ, với „Mithin/Somit/Folglich …“: „Somit hat A gegen B einen Anspruch …“\nĐiểm hiển nhiên không có vấn đề thì chỉ cần khẳng định ngắn (Urteilsstil/Feststellungsstil), không cần đủ bốn bước.",
+   "questions": [
+    {
+     "q": "A ___ gegen B einen Anspruch auf Zahlung von 500 Euro aus § 433 Abs. 2 BGB haben.",
+     "options": [
+      "könnte",
+      "kann",
+      "hat",
+      "muss"
+     ],
+     "answer": 0,
+     "vi": "A có thể có quyền yêu cầu B thanh toán 500 euro theo § 433 khoản 2 BGB.",
+     "explain": "Obersatz của Gutachten là một giả thuyết nên dùng Konjunktiv II „könnte … haben“. „hat … haben“ sai ngữ pháp, và „hat“ là văn phong kết luận/Urteilsstil chứ không phải giả thuyết."
+    },
+    {
+     "q": "Dazu ___ zwischen A und B ein wirksamer Kaufvertrag zustande gekommen sein.",
+     "options": [
+      "ist",
+      "müsste",
+      "hat",
+      "wird"
+     ],
+     "answer": 1,
+     "vi": "Để vậy thì giữa A và B phải có một hợp đồng mua bán có hiệu lực được giao kết.",
+     "explain": "Điều kiện của giả thuyết được nêu bằng „Dazu müsste … sein“ (Konjunktiv II). „wird … zustande gekommen sein“ là Futur II, không phải công thức của Gutachtenstil."
+    },
+    {
+     "q": "___ ist, ob B das Angebot des A rechtzeitig angenommen hat.",
+     "options": [
+      "Folglich",
+      "Somit",
+      "Fraglich",
+      "Denn"
+     ],
+     "answer": 2,
+     "vi": "Vấn đề đặt ra là liệu B có chấp nhận lời đề nghị của A kịp thời hay không.",
+     "explain": "„Fraglich ist, ob …“ là công thức mở một điểm có vấn đề. „Folglich/Somit“ dùng để rút kết luận, không thể đi với „ist, ob …“."
+    },
+    {
+     "q": "Eine Sache ist fremd, ___ sie zumindest auch im Eigentum eines anderen steht.",
+     "options": [
+      "weil",
+      "denn",
+      "ob",
+      "wenn"
+     ],
+     "answer": 3,
+     "vi": "Một vật là của người khác nếu ít nhất nó cũng thuộc quyền sở hữu của người khác.",
+     "explain": "Định nghĩa nêu điều kiện chung nên dùng „wenn“. „weil“ biến định nghĩa thành một lý do cụ thể, như vậy là sai chức năng."
+    },
+    {
+     "q": "Wegnahme ___ der Bruch fremden und die Begründung neuen, nicht notwendig tätereigenen Gewahrsams.",
+     "options": [
+      "wäre",
+      "ist",
+      "sei",
+      "würde"
+     ],
+     "answer": 1,
+     "vi": "Lấy đi (Wegnahme) là việc phá vỡ sự chiếm hữu của người khác và thiết lập sự chiếm hữu mới, không nhất thiết của chính thủ phạm.",
+     "explain": "Định nghĩa luôn dùng Indikativ vì nó có hiệu lực chung, không phải giả thuyết. „wäre“ (Konjunktiv II) chỉ thuộc về Obersatz."
+    },
+    {
+     "q": "A könnte sich wegen Diebstahls gemäß § 242 Abs. 1 StGB strafbar gemacht haben, ___ er das Fahrrad des B mitnahm.",
+     "options": [
+      "indem",
+      "weil",
+      "denn",
+      "sodass"
+     ],
+     "answer": 0,
+     "vi": "A có thể đã phạm tội trộm cắp theo § 242 khoản 1 StGB qua việc lấy chiếc xe đạp của B.",
+     "explain": "Obersatz hình sự gắn hành vi bằng „indem“ (qua việc …). „weil“ biến hành vi thành lý do của kết quả, tức là đã ngầm khẳng định kết quả theo kiểu Urteilsstil."
+    },
+    {
+     "q": "Câu nào là Obersatz đúng văn phong Gutachten?",
+     "options": [
+      "A hat gegen B einen Anspruch auf Herausgabe des Fahrrads aus § 985 BGB, denn A ist Eigentümer.",
+      "A kann gegen B einen Anspruch auf Herausgabe des Fahrrads aus § 985 BGB gehabt haben.",
+      "Fraglich ist, dass A gegen B einen Anspruch auf Herausgabe des Fahrrads aus § 985 BGB hat.",
+      "A könnte gegen B einen Anspruch auf Herausgabe des Fahrrads aus § 985 BGB haben."
+     ],
+     "answer": 3,
+     "vi": "A có thể có quyền yêu cầu B trả lại chiếc xe đạp theo § 985 BGB.",
+     "explain": "Obersatz phải là giả thuyết với „könnte … haben“. Câu có „hat …, denn …“ là Urteilsstil (kết quả trước, lý do sau), còn „Fraglich ist, dass“ sai vì phải là „ob“."
+    },
+    {
+     "q": "B hat das Angebot des A per E-Mail vorbehaltlos angenommen. ___ ist ein Kaufvertrag zustande gekommen.",
+     "options": [
+      "Fraglich",
+      "Denn",
+      "Folglich",
+      "Dazu"
+     ],
+     "answer": 2,
+     "vi": "B đã chấp nhận vô điều kiện lời đề nghị của A qua e-mail. Do đó, một hợp đồng mua bán đã được giao kết.",
+     "explain": "Sau phần Subsumtion, kết luận (trung gian) được nối bằng „Folglich/Somit/Mithin“ + đảo động từ. „Denn“ nêu lý do và không đảo động từ, nên sai cả về logic lẫn trật tự từ."
+    },
+    {
+     "q": "Câu nào là Ergebnis (kết luận) đúng của một Gutachten?",
+     "options": [
+      "Somit könnte A gegen B einen Anspruch auf Zahlung von 500 Euro aus § 433 Abs. 2 BGB haben.",
+      "Fraglich ist, ob A gegen B einen Anspruch auf Zahlung von 500 Euro aus § 433 Abs. 2 BGB hat.",
+      "A hat gegen B einen Anspruch auf Zahlung von 500 Euro aus § 433 Abs. 2 BGB.",
+      "A müsste gegen B einen Anspruch auf Zahlung von 500 Euro aus § 433 Abs. 2 BGB haben."
+     ],
+     "answer": 2,
+     "vi": "A có quyền yêu cầu B thanh toán 500 euro theo § 433 khoản 2 BGB.",
+     "explain": "Ergebnis trả lời Obersatz bằng Indikativ (khẳng định). „Somit könnte …“ là lỗi điển hình: giữ Konjunktiv ở phần kết luận, như vậy là chưa kết luận gì."
+    },
+    {
+     "q": "___ hat sich A wegen Diebstahls gemäß § 242 Abs. 1 StGB strafbar gemacht.",
+     "options": [
+      "Fraglich",
+      "Denn",
+      "Dazu",
+      "Mithin"
+     ],
+     "answer": 3,
+     "vi": "Như vậy, A đã phạm tội trộm cắp theo § 242 khoản 1 StGB.",
+     "explain": "„Mithin“ (= somit, folglich) đánh dấu kết luận cuối cùng, đứng ở vị trí 1 và động từ theo sau. „Dazu“ mở điều kiện („Dazu müsste …“), không dùng để kết luận."
+    },
+    {
+     "q": "(Obersatz einer verwaltungsrechtlichen Klausur) Die Klage hat Erfolg, ___ sie zulässig und begründet ist.",
+     "options": [
+      "soweit",
+      "denn",
+      "obwohl",
+      "sodass"
+     ],
+     "answer": 0,
+     "vi": "Vụ kiện thành công trong chừng mực nó hợp lệ và có căn cứ.",
+     "explain": "Câu mở bài thi luật hành chính chuẩn là „Die Klage hat Erfolg, soweit sie zulässig und begründet ist.“; „soweit“ còn cho phép thắng kiện một phần. „denn“ đòi động từ ở vị trí 2, nên với động từ cuối câu thì sai."
+    },
+    {
+     "q": "Die Klage ist begründet, ___ dem Kläger steht der geltend gemachte Anspruch aus § 433 Abs. 2 BGB zu.",
+     "options": [
+      "weil",
+      "denn",
+      "mithin",
+      "indem"
+     ],
+     "answer": 1,
+     "vi": "Vụ kiện có căn cứ, vì nguyên đơn có quyền yêu cầu được viện dẫn theo § 433 khoản 2 BGB.",
+     "explain": "Urteilsstil: kết quả trước, lý do sau bằng „denn“ + động từ vị trí 2 („steht … zu“). „weil“ đòi động từ cuối câu („… zusteht“); „weil“ + V2 là văn nói, không dùng trong văn bản luật."
+    },
+    {
+     "q": "Câu nào đúng văn phong Urteilsstil (như trong bản án)?",
+     "options": [
+      "Der Kläger könnte gegen den Beklagten einen Anspruch auf Zahlung von 2.000 Euro aus § 433 Abs. 2 BGB haben, denn die Parteien haben einen wirksamen Kaufvertrag geschlossen.",
+      "Fraglich ist, ob der Kläger gegen den Beklagten einen Anspruch auf Zahlung von 2.000 Euro aus § 433 Abs. 2 BGB hat.",
+      "Die Parteien haben einen wirksamen Kaufvertrag geschlossen; folglich könnte der Kläger einen Anspruch auf Zahlung von 2.000 Euro aus § 433 Abs. 2 BGB haben.",
+      "Der Kläger hat gegen den Beklagten einen Anspruch auf Zahlung von 2.000 Euro aus § 433 Abs. 2 BGB, denn die Parteien haben einen wirksamen Kaufvertrag geschlossen."
+     ],
+     "answer": 3,
+     "vi": "Nguyên đơn có quyền yêu cầu bị đơn thanh toán 2.000 euro theo § 433 khoản 2 BGB, vì các bên đã ký kết một hợp đồng mua bán có hiệu lực.",
+     "explain": "Urteilsstil khẳng định kết quả bằng Indikativ rồi mới nêu lý do bằng „denn“. Phương án đầu trộn hai văn phong: Konjunktiv của Obersatz lại đi với „denn“ của Urteilsstil."
+    },
+    {
+     "q": "Trong một Gutachten, điểm hiển nhiên không có vấn đề (unproblematischer Prüfungspunkt) nên được viết thế nào?",
+     "options": [
+      "Das Fahrrad ist eine bewegliche Sache.",
+      "Fraglich ist, ob das Fahrrad eine Sache ist. Sachen sind nach § 90 BGB körperliche Gegenstände. Das Fahrrad ist ein körperlicher Gegenstand. Mithin ist das Fahrrad eine Sache.",
+      "Das Fahrrad könnte eine bewegliche Sache sein, weil es eine bewegliche Sache ist.",
+      "Das Fahrrad müsste eine bewegliche Sache sein. Mithin ist fraglich, ob es beweglich ist."
+     ],
+     "answer": 0,
+     "vi": "Chiếc xe đạp là một động sản.",
+     "explain": "Với điểm hiển nhiên, chỉ cần một câu khẳng định ngắn (Urteils-/Feststellungsstil). Viết đủ bốn bước Gutachten bị coi là lỗi đặt trọng tâm sai, vì „Fraglich ist“ chỉ dành cho điểm thật sự có vấn đề."
+    },
+    {
+     "q": "Đoạn nào tuân thủ đúng trình tự Gutachtenstil (Obersatz – Definition – Subsumtion – Ergebnis)?",
+     "options": [
+      "Das Fahrrad ist für A fremd. Fremd ist eine Sache, wenn sie zumindest auch im Eigentum eines anderen steht. Dazu müsste das Fahrrad für A fremd sein. Das Fahrrad gehört B.",
+      "Das Fahrrad müsste für A fremd sein. Fremd ist eine Sache, wenn sie zumindest auch im Eigentum eines anderen steht. Das Fahrrad gehört B. Somit ist es für A fremd.",
+      "Das Fahrrad müsste für A fremd sein. Fremd könnte eine Sache sein, wenn sie im Eigentum eines anderen stehen würde. Das Fahrrad gehört B. Somit könnte es für A fremd sein.",
+      "Das Fahrrad ist für A fremd, denn es gehört B. Fremd ist eine Sache, wenn sie zumindest auch im Eigentum eines anderen steht. Fraglich ist daher, ob es fremd ist."
+     ],
+     "answer": 1,
+     "vi": "Chiếc xe đạp phải là vật của người khác đối với A. Một vật là của người khác nếu ít nhất nó cũng thuộc sở hữu của người khác. Chiếc xe đạp thuộc về B. Do đó, nó là vật của người khác đối với A.",
+     "explain": "Đúng trình tự: giả thuyết („müsste“), định nghĩa (Indikativ), áp dụng, kết luận (Indikativ, „Somit“). Phương án thứ ba sai vì để định nghĩa và kết luận ở Konjunktiv."
+    }
+   ]
+  },
+  {
+   "title": "Gỡ câu lồng và mạch lạc trong văn bản luật (Schachtelsätze entflechten, eindeutige Bezüge)",
+   "intro": "Văn bản luật tốt phải rõ ràng và chính xác. Các nguyên tắc chính:\n• Gỡ câu lồng (Schachtelsatz): tách thành nhiều câu ngắn theo trình tự thời gian và logic, giữ nguyên nghĩa.\n• Bezug rõ ràng: thay đại từ mơ hồ (er/ihm/dieser) bằng danh từ chỉ vai trò (der Käufer, der Vermieter). „dieser/Letzterer“ chỉ người được nhắc sau cùng, „jener/Ersterer“ chỉ người được nhắc trước. Đại từ quan hệ hợp giống với danh từ mà nó thay thế (Schadensersatz → dessen).\n• Relativsatz ↔ Partizipialattribut: „der Vertrag, der geschlossen wurde“ = „der geschlossene Vertrag“ (Partizip II, bị động); „die Fassung, die gilt“ = „die geltende Fassung“ (Partizip I, chủ động); „die Steuer, die zu zahlen ist“ = „die zu zahlende Steuer“ (Gerundiv). Cụm Partizip lồng nhiều tầng thì nên chuyển lại thành Relativsatz.\n• Tránh lặp từ và văn phong danh từ hóa (Nominalstil): „eine Entscheidung treffen, dass … abgelehnt wird“ → „ablehnen“. Trong hợp đồng/Bescheid, nêu rõ ai phải làm gì.",
+   "questions": [
+    {
+     "q": "Der am 1. März ___ Vertrag ist nach § 125 S. 1 BGB nichtig.",
+     "options": [
+      "geschlossener",
+      "schließende",
+      "geschlossene",
+      "geschlossenen"
+     ],
+     "answer": 2,
+     "vi": "Hợp đồng được ký kết ngày 1 tháng 3 vô hiệu theo § 125 câu 1 BGB.",
+     "explain": "Hợp đồng đã được ký nên dùng Partizip II (bị động, đã xong); sau „der“ ở Nominativ, đuôi yếu là -e: „der … geschlossene Vertrag“. „geschlossener“ là đuôi mạnh, chỉ dùng khi không có mạo từ."
+    },
+    {
+     "q": "Maßgeblich ist die derzeit ___ Fassung des Gesetzes.",
+     "options": [
+      "geltende",
+      "gegoltene",
+      "geltenden",
+      "gültende"
+     ],
+     "answer": 0,
+     "vi": "Văn bản có tính quyết định là phiên bản luật hiện đang có hiệu lực.",
+     "explain": "„die Fassung, die derzeit gilt“ = „die derzeit geltende Fassung“ (Partizip I, đuôi -e sau „die“ ở Nominativ số ít). „geltenden“ sai đuôi vì không phải Akkusativ giống đực hay số nhiều."
+    },
+    {
+     "q": "Die vom Steuerpflichtigen ___ Einkommensteuer beträgt 1.200 Euro. (= die Einkommensteuer, die der Steuerpflichtige zahlen muss)",
+     "options": [
+      "zahlende",
+      "gezahlte",
+      "zu zahlenden",
+      "zu zahlende"
+     ],
+     "answer": 3,
+     "vi": "Thuế thu nhập mà người nộp thuế phải nộp là 1.200 euro.",
+     "explain": "Nghĩa „phải nộp“ dùng Gerundiv „zu + Partizip I“: „die zu zahlende Einkommensteuer“. „gezahlte“ có nghĩa là „đã nộp“, nên sai nghĩa."
+    },
+    {
+     "q": "Der Kläger verlangt von der Beklagten Schadensersatz, ___ Höhe er auf 3.000 Euro beziffert.",
+     "options": [
+      "deren",
+      "dessen",
+      "den",
+      "dem"
+     ],
+     "answer": 1,
+     "vi": "Nguyên đơn yêu cầu bị đơn bồi thường thiệt hại, với số tiền mà ông ấy xác định là 3.000 euro.",
+     "explain": "Mức bồi thường thuộc về „der Schadensersatz“ (giống đực) nên dùng „dessen Höhe“. „deren“ sẽ quy về „die Beklagte“, tạo ra một Bezug sai và vô nghĩa."
+    },
+    {
+     "q": "Câu nào cùng nghĩa nhưng gọn hơn: „Der Bescheid, der dem Kläger am 5. Mai zugestellt worden ist, ist rechtswidrig.“",
+     "options": [
+      "Der dem Kläger am 5. Mai zugestellte Bescheid ist rechtswidrig.",
+      "Der dem Kläger am 5. Mai zustellende Bescheid ist rechtswidrig.",
+      "Der dem Kläger am 5. Mai zugestellten Bescheid ist rechtswidrig.",
+      "Der zugestellte Bescheid dem Kläger am 5. Mai ist rechtswidrig."
+     ],
+     "answer": 0,
+     "vi": "Quyết định hành chính được tống đạt cho nguyên đơn ngày 5 tháng 5 là trái luật.",
+     "explain": "Relativsatz bị động chuyển thành Partizip II đặt giữa mạo từ và danh từ: „der … zugestellte Bescheid“. „zustellende“ (Partizip I) mang nghĩa chủ động, như thể quyết định tự tống đạt, nên sai."
+    },
+    {
+     "q": "A verkaufte B ein Auto. ___ verpflichtete sich, den Kaufpreis bis Ende Mai zu zahlen. (Người trả tiền là B.)",
+     "options": [
+      "Ersterer",
+      "Jener",
+      "Letzterer",
+      "Derjenige"
+     ],
+     "answer": 2,
+     "vi": "A bán cho B một chiếc ô tô. Người sau (B) cam kết trả tiền mua trước cuối tháng 5.",
+     "explain": "„Letzterer“ chỉ người được nhắc đến sau cùng, tức là B. „Ersterer“ và „jener“ chỉ người được nhắc trước (A); còn „derjenige“ cần có một mệnh đề quan hệ đi kèm."
+    },
+    {
+     "q": "Câu nào nối hai câu sau gọn hơn, tránh lặp từ và đúng ngữ pháp: „Der Vertrag ist nichtig. Der Vertrag verstößt gegen ein gesetzliches Verbot (§ 134 BGB).“",
+     "options": [
+      "Der Vertrag ist nichtig, weil er verstößt gegen ein gesetzliches Verbot (§ 134 BGB).",
+      "Der Vertrag ist nichtig, weil er gegen ein gesetzliches Verbot verstößt (§ 134 BGB).",
+      "Der Vertrag ist nichtig, denn er gegen ein gesetzliches Verbot verstößt (§ 134 BGB).",
+      "Der Vertrag ist nichtig, weil es gegen ein gesetzliches Verbot verstößt (§ 134 BGB)."
+     ],
+     "answer": 1,
+     "vi": "Hợp đồng vô hiệu vì nó vi phạm một điều cấm của luật (§ 134 BGB).",
+     "explain": "„weil“ đẩy động từ xuống cuối câu, và đại từ „er“ thay cho „der Vertrag“ (giống đực). „es“ sai giống; „denn“ đòi động từ ở vị trí 2."
+    },
+    {
+     "q": "Câu nào diễn đạt nghĩa vụ của hai bên rõ ràng nhất, không có đại từ mơ hồ?",
+     "options": [
+      "Der Verkäufer muss dem Käufer die Sache übergeben, und er muss ihm den Kaufpreis zahlen.",
+      "Der Verkäufer muss ihm die Sache übergeben, und dieser muss ihn zahlen.",
+      "Dieser muss jenem die Sache übergeben, jener diesem den Kaufpreis zahlen.",
+      "Der Verkäufer muss dem Käufer die Sache übergeben; der Käufer muss dem Verkäufer den Kaufpreis zahlen."
+     ],
+     "answer": 3,
+     "vi": "Người bán phải giao vật cho người mua; người mua phải trả tiền mua cho người bán.",
+     "explain": "Trong văn bản luật, lặp lại danh từ chỉ vai trò rõ hơn dùng đại từ. Ở phương án đầu, „er“ thường được hiểu là người bán, khiến nghĩa vụ trả tiền bị gán sai."
+    },
+    {
+     "q": "Ý cần diễn đạt: người thuê (Mieter) chấm dứt hợp đồng. Câu „Der Mieter teilte dem Vermieter mit, dass er die Wohnung zum 31. März kündigt.“ có đại từ „er“ mơ hồ. Câu nào rõ nghĩa nhất?",
+     "options": [
+      "Der Mieter teilte dem Vermieter mit, dass dieser die Wohnung zum 31. März kündigt.",
+      "Der Mieter teilte dem Vermieter mit, dass ihm die Wohnung zum 31. März gekündigt wird.",
+      "Dem Vermieter wurde vom Mieter mitgeteilt, dass er die Wohnung zum 31. März kündigt.",
+      "Der Mieter kündigte gegenüber dem Vermieter die Wohnung zum 31. März."
+     ],
+     "answer": 3,
+     "vi": "Người thuê đã chấm dứt hợp đồng thuê căn hộ với chủ nhà, có hiệu lực từ ngày 31 tháng 3.",
+     "explain": "Câu chủ động với người thuê làm chủ ngữ loại bỏ hoàn toàn đại từ mơ hồ. „dieser“ chỉ người được nhắc sau cùng (người cho thuê), nên làm sai nghĩa."
+    },
+    {
+     "q": "Câu nào cùng nghĩa nhưng gọn hơn: „Die Behörde hat eine Entscheidung darüber getroffen, dass der Antrag abgelehnt wird.“",
+     "options": [
+      "Die Behörde hat über die Ablehnung des Antrags eine Entscheidung getroffen.",
+      "Die Behörde hat den Antrag abgelehnt.",
+      "Die Behörde hat den Antrag zur Ablehnung gebracht.",
+      "Die Behörde hat entschieden, dass der Antrag ablehnt."
+     ],
+     "answer": 1,
+     "vi": "Cơ quan đã bác đơn.",
+     "explain": "Nên dùng động từ trực tiếp „ablehnen“ thay cho văn phong danh từ hóa. Phương án đầu vẫn giữ Nominalstil cồng kềnh („eine Entscheidung treffen über die Ablehnung“)."
+    },
+    {
+     "q": "Câu hợp đồng „Die Ware ist innerhalb von 14 Tagen zu liefern.“ không nói rõ ai phải giao hàng và mốc thời hạn tính từ đâu. Câu nào khắc phục được điều đó?",
+     "options": [
+      "Die Lieferung der Ware hat innerhalb von 14 Tagen zu erfolgen.",
+      "Die Ware wird innerhalb von 14 Tagen geliefert werden.",
+      "Der Verkäufer liefert die Ware innerhalb von 14 Tagen nach Vertragsschluss.",
+      "Es ist die Ware innerhalb von 14 Tagen zu liefern."
+     ],
+     "answer": 2,
+     "vi": "Người bán giao hàng trong vòng 14 ngày kể từ khi ký kết hợp đồng.",
+     "explain": "Chỉ phương án này nêu chủ thể có nghĩa vụ (der Verkäufer) và mốc bắt đầu thời hạn. Các phương án còn lại vẫn là cấu trúc bị động hoặc danh từ hóa không có người thực hiện."
+    },
+    {
+     "q": "Câu nào cùng nghĩa nhưng dễ hiểu hơn cho người nhận Bescheid: „Unter Zugrundelegung der von Ihnen eingereichten Unterlagen ergeht hiermit die Mitteilung, dass eine Bewilligung Ihres Antrags nicht erfolgen kann.“",
+     "options": [
+      "Wir haben Ihre Unterlagen geprüft. Wir können Ihren Antrag leider nicht bewilligen.",
+      "Nach erfolgter Prüfung Ihrer Unterlagen erfolgt hiermit die Mitteilung der Nichtbewilligung Ihres Antrags.",
+      "Wir haben Ihre Unterlagen geprüft. Wir können Ihren Antrag bewilligen.",
+      "Ihre Unterlagen, die wir, nachdem Sie sie eingereicht haben, geprüft haben, können Ihren Antrag nicht bewilligen."
+     ],
+     "answer": 0,
+     "vi": "Chúng tôi đã xem xét hồ sơ của ông/bà. Rất tiếc, chúng tôi không thể chấp thuận đơn của ông/bà.",
+     "explain": "Bescheid dễ hiểu dùng câu ngắn, chủ động, động từ cụ thể và giữ nguyên nội dung (bác đơn). Phương án thứ hai vẫn là văn phong hành chính danh từ hóa („erfolgt die Mitteilung der Nichtbewilligung“)."
+    },
+    {
+     "q": "Câu nào dễ đọc hơn nhưng giữ nguyên nghĩa: „Die von dem vom Kläger beauftragten Rechtsanwalt eingereichte Klageschrift war unvollständig.“",
+     "options": [
+      "Die Klageschrift, die den vom Kläger beauftragten Rechtsanwalt eingereicht hatte, war unvollständig.",
+      "Der Rechtsanwalt, den der Kläger beauftragt hatte, war bei der Klageschrift unvollständig.",
+      "Die Klageschrift, die der vom Kläger beauftragte Rechtsanwalt eingereicht hatte, war unvollständig.",
+      "Die Klageschrift, die der Kläger eingereicht hatte, der den Rechtsanwalt beauftragt hatte, war unvollständig."
+     ],
+     "answer": 2,
+     "vi": "Đơn khởi kiện mà luật sư do nguyên đơn ủy quyền đã nộp thì không đầy đủ.",
+     "explain": "Tầng Partizip ngoài cùng được chuyển thành Relativsatz, trong đó luật sư là chủ ngữ (Nominativ: „der … beauftragte Rechtsanwalt“). Phương án đầu dùng Akkusativ „den“, biến đơn kiện thành chủ thể nộp."
+    },
+    {
+     "q": "Câu nào gỡ đúng câu lồng sau mà không đổi nghĩa: „Der Antrag, den der Kläger, der seit 2019 in Köln wohnt, am 3. Mai, nachdem er den Bescheid erhalten hatte, gestellt hat, ist unzulässig.“",
+     "options": [
+      "Der Kläger wohnt seit dem 3. Mai in Köln. Seit 2019 hat er den Bescheid erhalten. Sein Antrag ist unzulässig.",
+      "Der Kläger wohnt seit 2019 in Köln. Er stellte am 3. Mai einen Antrag; danach erhielt er den Bescheid. Der Antrag ist unzulässig.",
+      "Der Kläger wohnt seit 2019 in Köln. Nachdem er den Bescheid erhalten hatte, stellte er am 3. Mai einen Antrag. Der Kläger ist unzulässig.",
+      "Der Kläger wohnt seit 2019 in Köln. Nachdem er den Bescheid erhalten hatte, stellte er am 3. Mai einen Antrag. Dieser Antrag ist unzulässig."
+     ],
+     "answer": 3,
+     "vi": "Nguyên đơn sống ở Köln từ năm 2019. Sau khi nhận được quyết định hành chính, ông ấy đã nộp đơn vào ngày 3 tháng 5. Đơn này không hợp lệ.",
+     "explain": "Tách câu theo trình tự thời gian và giữ đúng Bezug: chính đơn (Antrag) mới không hợp lệ. Phương án thứ hai đảo thứ tự (nộp đơn trước, nhận quyết định sau), còn phương án thứ ba gán „unzulässig“ cho nguyên đơn."
+    },
+    {
+     "q": "Câu nào gỡ đúng câu sau mà không đổi nghĩa: „Der Beklagte hat die ihm am 2. Februar von der Klägerin in Rechnung gestellten und trotz zweier Mahnungen bis heute nicht beglichenen Beträge zu zahlen.“",
+     "options": [
+      "Die Klägerin stellte dem Beklagten am 2. Februar Beträge in Rechnung. Trotz zweier Mahnungen hat er sie bis heute nicht beglichen. Der Beklagte hat diese Beträge zu zahlen.",
+      "Der Beklagte stellte der Klägerin am 2. Februar Beträge in Rechnung. Trotz zweier Mahnungen hat sie diese bis heute nicht beglichen. Sie hat die Beträge zu zahlen.",
+      "Die Klägerin stellte dem Beklagten am 2. Februar Beträge in Rechnung und mahnte ihn zweimal. Er hat die Beträge inzwischen beglichen. Er hat sie dennoch zu zahlen.",
+      "Die Klägerin stellte dem Beklagten am 2. Februar Beträge in Rechnung. Trotz zweier Mahnungen hat er sie bis heute nicht beglichen. Die Klägerin hat diese Beträge zu zahlen."
+     ],
+     "answer": 0,
+     "vi": "Nguyên đơn đã lập hóa đơn các khoản tiền cho bị đơn vào ngày 2 tháng 2. Dù đã bị nhắc nợ hai lần, đến nay bị đơn vẫn chưa thanh toán. Bị đơn phải trả các khoản tiền này.",
+     "explain": "„ihm … von der Klägerin in Rechnung gestellt“ nghĩa là nguyên đơn lập hóa đơn cho bị đơn, và bị đơn vẫn chưa trả. Phương án cuối gán sai nghĩa vụ trả tiền cho nguyên đơn."
+    }
+   ]
+  },
+  {
+   "title": "Dấu phẩy và chính tả trong văn bản luật (Kommasetzung und Rechtschreibung in Rechtstexten)",
+   "intro": "Dấu phẩy:\n• „sofern, soweit, wenn, weil“ mở mệnh đề phụ, nên luôn có dấu phẩy phía trước; khi mệnh đề chen giữa câu thì có dấu phẩy ở cả hai đầu: „Die Klage ist, soweit sie …, begründet.“\n• „es sei denn“: phẩy trước và sau: „…, es sei denn, der Mangel ist unerheblich.“ / „…, es sei denn, dass …“\n• Infinitivgruppe bắt buộc có phẩy khi có từ quy chiếu (es, daran…), khi phụ thuộc vào danh từ, hoặc khi mở đầu bằng um/ohne/statt; nếu chen giữa câu thì đóng phẩy cả hai đầu.\n• Trích dẫn § chỉ cần phẩy khi nằm trong mệnh đề chen hoặc mệnh đề quan hệ: „…, wie § 125 S. 1 BGB bestimmt, …“; „gemäß § 125 S. 1 BGB“ thì không có phẩy.\nChính tả: „§ 433 Abs. 2 S. 1 BGB“ (có dấu cách sau § và sau dấu chấm); nhiều điều luật thì dùng „§§“: „§§ 280 Abs. 1, 3, 281 BGB“, „§§ 433 ff. BGB“; viết tắt „i. S. d.“ (im Sinne des), „i. V. m.“ (in Verbindung mit). Viết hoa: „im Übrigen, im Folgenden“, tên riêng „das Bürgerliche Gesetzbuch“, xưng hô lịch sự „Sie/Ihnen“.",
+   "questions": [
+    {
+     "q": "Câu nào đặt dấu phẩy đúng (mệnh đề điều kiện với „sofern“)?",
+     "options": [
+      "Der Vertrag ist wirksam sofern die Parteien die Schriftform eingehalten haben.",
+      "Der Vertrag ist wirksam, sofern die Parteien die Schriftform eingehalten haben.",
+      "Der Vertrag ist, wirksam sofern die Parteien die Schriftform eingehalten haben.",
+      "Der Vertrag ist wirksam, sofern, die Parteien die Schriftform eingehalten haben."
+     ],
+     "answer": 1,
+     "vi": "Hợp đồng có hiệu lực nếu các bên đã tuân thủ hình thức văn bản.",
+     "explain": "„sofern“ mở mệnh đề phụ, nên dấu phẩy đứng ngay trước „sofern“. Không được đặt dấu phẩy sau liên từ như ở phương án cuối."
+    },
+    {
+     "q": "Gemäß § 433 ___ 2 BGB ist der Käufer verpflichtet, den Kaufpreis zu zahlen.",
+     "options": [
+      "abs.",
+      "Abs",
+      "Ab.",
+      "Abs."
+     ],
+     "answer": 3,
+     "vi": "Theo § 433 khoản 2 BGB, người mua có nghĩa vụ trả tiền mua.",
+     "explain": "Viết tắt của „Absatz“ là „Abs.“: viết hoa vì là danh từ, và có dấu chấm. „Abs“ thiếu dấu chấm, còn „abs.“ sai viết hoa."
+    },
+    {
+     "q": "Die Klage ist im ___ unbegründet.",
+     "options": [
+      "Übrigen",
+      "übrigen",
+      "Übrigem",
+      "übrigem"
+     ],
+     "answer": 0,
+     "vi": "Ngoài ra (về phần còn lại), vụ kiện không có căn cứ.",
+     "explain": "Theo quy tắc chính tả từ 2006, „im Übrigen“ được viết hoa vì là tính từ danh từ hóa. „im übrigen“ là cách viết cũ, nay đã sai."
+    },
+    {
+     "q": "(Bescheid an Herrn Nguyen) Wir bitten ___, die fehlenden Unterlagen bis zum 15. Mai einzureichen.",
+     "options": [
+      "sie",
+      "ihnen",
+      "Sie",
+      "Ihnen"
+     ],
+     "answer": 2,
+     "vi": "Chúng tôi đề nghị ông nộp các giấy tờ còn thiếu trước ngày 15 tháng 5.",
+     "explain": "„bitten“ đi với Akkusativ, và đại từ xưng hô lịch sự phải viết hoa: „Sie“. „Ihnen“ là Dativ nên sai cách; „sie“ viết thường có nghĩa là „họ/cô ấy“."
+    },
+    {
+     "q": "Der Händler ist Unternehmer ___ § 14 Abs. 1 BGB.",
+     "options": [
+      "I. S. d.",
+      "i. S. d",
+      "i S d",
+      "i. S. d."
+     ],
+     "answer": 3,
+     "vi": "Người bán hàng là doanh nhân theo nghĩa của § 14 khoản 1 BGB.",
+     "explain": "„im Sinne des“ viết tắt thành „i. S. d.“: mỗi phần có dấu chấm, chỉ „S“ (Sinn) viết hoa. „i. S. d“ thiếu dấu chấm cuối; „I. S. d.“ viết hoa sai chữ „i“."
+    },
+    {
+     "q": "Der Anspruch ergibt sich aus § 280 Abs. 1 ___ § 241 Abs. 2 BGB.",
+     "options": [
+      "i. v. m.",
+      "i. V. m.",
+      "I. V. M.",
+      "i. V. m"
+     ],
+     "answer": 1,
+     "vi": "Quyền yêu cầu phát sinh từ § 280 khoản 1 kết hợp với § 241 khoản 2 BGB.",
+     "explain": "„in Verbindung mit“ viết tắt thành „i. V. m.“, chỉ „V“ (Verbindung, danh từ) viết hoa. „i. v. m.“ sai vì danh từ phải viết hoa."
+    },
+    {
+     "q": "Der Kaufvertrag ist in den ___ BGB geregelt.",
+     "options": [
+      "§§ 433 ff.",
+      "§§ 433 ff",
+      "§§433 ff.",
+      "§§ 433 FF."
+     ],
+     "answer": 0,
+     "vi": "Hợp đồng mua bán được quy định tại các điều 433 và tiếp theo của BGB.",
+     "explain": "Nhiều điều luật dùng „§§“, có dấu cách trước số, và „ff.“ (fortfolgende) viết thường, có dấu chấm. „§§433“ thiếu dấu cách; „ff“ thiếu dấu chấm viết tắt."
+    },
+    {
+     "q": "Der Käufer kann vom Vertrag zurücktreten, ___ die Pflichtverletzung ist unerheblich.",
+     "options": [
+      "es sei denn",
+      "es, sei denn,",
+      "es sei denn,",
+      "es sei, denn"
+     ],
+     "answer": 2,
+     "vi": "Người mua có thể rút khỏi hợp đồng, trừ khi vi phạm nghĩa vụ là không đáng kể.",
+     "explain": "„es sei denn“ là một khối liền, không có dấu phẩy ở giữa; mệnh đề theo sau phải được tách bằng dấu phẩy: „…, es sei denn, die Pflichtverletzung ist unerheblich.“ Nếu thiếu dấu phẩy sau „denn“ thì sai."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng (mệnh đề „soweit“ chen giữa câu)?",
+     "options": [
+      "Die Klage ist, soweit sie auf Zahlung gerichtet ist, begründet.",
+      "Die Klage ist soweit sie auf Zahlung gerichtet ist, begründet.",
+      "Die Klage ist, soweit sie auf Zahlung gerichtet ist begründet.",
+      "Die Klage ist, soweit, sie auf Zahlung gerichtet ist, begründet."
+     ],
+     "answer": 0,
+     "vi": "Vụ kiện có căn cứ trong chừng mực nó nhằm yêu cầu thanh toán.",
+     "explain": "Mệnh đề „soweit …“ chen giữa câu chính nên phải có dấu phẩy ở cả hai đầu. Thiếu một trong hai dấu phẩy (phương án 2 và 3) là lỗi thường gặp."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng (Infinitivgruppe có từ quy chiếu „es“)?",
+     "options": [
+      "Der Kläger hat es versäumt die Frist einzuhalten.",
+      "Der Kläger hat es, versäumt die Frist einzuhalten.",
+      "Der Kläger hat es versäumt, die Frist einzuhalten.",
+      "Der Kläger hat es versäumt, die Frist, einzuhalten."
+     ],
+     "answer": 2,
+     "vi": "Nguyên đơn đã không tuân thủ thời hạn.",
+     "explain": "Khi có từ quy chiếu „es“ báo trước Infinitivgruppe thì dấu phẩy là bắt buộc. Không được tách tân ngữ „die Frist“ khỏi „einzuhalten“ bằng dấu phẩy."
+    },
+    {
+     "q": "Câu nào viết hoa/viết thường đúng?",
+     "options": [
+      "Im folgenden wird geprüft, ob A gegen B einen Anspruch aus dem Bürgerlichen Gesetzbuch hat.",
+      "Im Folgenden wird geprüft, ob A gegen B einen Anspruch aus dem Bürgerlichen Gesetzbuch hat.",
+      "Im Folgenden wird geprüft, ob A gegen B einen Anspruch aus dem bürgerlichen Gesetzbuch hat.",
+      "Im Folgenden wird Geprüft, ob A gegen B einen Anspruch aus dem Bürgerlichen Gesetzbuch hat."
+     ],
+     "answer": 1,
+     "vi": "Sau đây sẽ xem xét liệu A có quyền yêu cầu đối với B theo Bộ luật Dân sự hay không.",
+     "explain": "„im Folgenden“ viết hoa (tính từ danh từ hóa); „Bürgerliches Gesetzbuch“ là tên riêng của bộ luật nên tính từ cũng viết hoa. Phương án 3 viết thường „bürgerlichen“ trong tên riêng nên sai."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng (mệnh đề chen có trích dẫn §)?",
+     "options": [
+      "Der Vertrag ist gemäß § 125 S. 1 BGB, nichtig.",
+      "Der Vertrag ist, gemäß § 125 S. 1 BGB nichtig.",
+      "Der Vertrag ist, wie § 125 S. 1 BGB bestimmt nichtig.",
+      "Der Vertrag ist, wie § 125 S. 1 BGB bestimmt, nichtig."
+     ],
+     "answer": 3,
+     "vi": "Hợp đồng vô hiệu, như § 125 câu 1 BGB quy định.",
+     "explain": "Mệnh đề chen „wie § 125 S. 1 BGB bestimmt“ phải được đóng phẩy cả hai đầu. Cụm giới từ „gemäß § 125 S. 1 BGB“ thì không bao giờ tách bằng dấu phẩy."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng (mệnh đề quan hệ sau trích dẫn §)?",
+     "options": [
+      "Die Vorschrift des § 823 Abs. 1 BGB die die deliktische Haftung regelt, setzt eine Rechtsgutsverletzung voraus.",
+      "Die Vorschrift des § 823 Abs. 1 BGB, die die deliktische Haftung regelt setzt eine Rechtsgutsverletzung voraus.",
+      "Die Vorschrift, des § 823 Abs. 1 BGB, die die deliktische Haftung regelt, setzt eine Rechtsgutsverletzung voraus.",
+      "Die Vorschrift des § 823 Abs. 1 BGB, die die deliktische Haftung regelt, setzt eine Rechtsgutsverletzung voraus."
+     ],
+     "answer": 3,
+     "vi": "Quy định tại § 823 khoản 1 BGB, vốn điều chỉnh trách nhiệm bồi thường ngoài hợp đồng, đòi hỏi phải có sự xâm phạm một quyền lợi được pháp luật bảo vệ.",
+     "explain": "Mệnh đề quan hệ chen giữa câu cần dấu phẩy ở cả hai đầu. Phần trích dẫn „des § 823 Abs. 1 BGB“ là Genitivattribut, không được tách khỏi „Die Vorschrift“ bằng dấu phẩy."
+    },
+    {
+     "q": "Câu nào viết đúng cách trích dẫn điều luật?",
+     "options": [
+      "Der Anspruch auf Schadensersatz statt der Leistung ergibt sich aus §§ 280 Abs. 1, 3, 281 BGB.",
+      "Der Anspruch auf Schadensersatz statt der Leistung ergibt sich aus § 280 Abs. 1, 3, 281 BGB.",
+      "Der Anspruch auf Schadensersatz statt der Leistung ergibt sich aus §§280 Abs. 1, 3, 281 BGB.",
+      "Der Anspruch auf Schadensersatz statt der Leistung ergibt sich aus §§ 280 Abs.1, 3, 281 BGB."
+     ],
+     "answer": 0,
+     "vi": "Quyền yêu cầu bồi thường thiệt hại thay cho việc thực hiện nghĩa vụ phát sinh từ § 280 khoản 1, 3 và § 281 BGB.",
+     "explain": "Trích dẫn nhiều điều luật (280 và 281) phải dùng „§§“; giữa ký hiệu và số, giữa „Abs.“ và số đều có dấu cách. Phương án 2 chỉ dùng một „§“ cho hai điều luật nên sai."
+    },
+    {
+     "q": "Câu nào đặt dấu phẩy đúng (Infinitivgruppe phụ thuộc danh từ, chen giữa câu)?",
+     "options": [
+      "Der Schuldner hat die Pflicht die Leistung rechtzeitig zu erbringen, verletzt.",
+      "Der Schuldner hat die Pflicht, die Leistung rechtzeitig zu erbringen verletzt.",
+      "Der Schuldner hat die Pflicht, die Leistung rechtzeitig zu erbringen, verletzt.",
+      "Der Schuldner hat, die Pflicht die Leistung rechtzeitig zu erbringen, verletzt."
+     ],
+     "answer": 2,
+     "vi": "Con nợ đã vi phạm nghĩa vụ thực hiện nghĩa vụ đúng hạn.",
+     "explain": "Infinitivgruppe phụ thuộc vào danh từ „die Pflicht“ nên bắt buộc có dấu phẩy, và vì chen giữa câu nên phải đóng phẩy cả hai đầu. Phương án 2 thiếu dấu phẩy đóng trước „verletzt“."
     }
    ]
   }
