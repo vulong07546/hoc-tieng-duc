@@ -77,9 +77,15 @@
 
     // Sổ từ khó
     const hard = DW.hardIds().filter(known);
-    $("hardCount").textContent = hard.length ? `${hard.length} từ` : "";
+    const graduated = Object.values(srs).filter((e) => (e.wrong >= 2 || e.lapses >= 1) && (e.okStreak || 0) >= DW.HARD_EXIT).length;
+    $("hardCount").textContent = (hard.length ? `${hard.length} từ` : "") + (graduated ? ` · ${graduated} từ đã thoát 🎓` : "");
     $("hardList").innerHTML = hard.length
-      ? hard.slice(0, 80).map((id) => { const w = byId[id]; return `<span title="sai ${srs[id].wrong} lần">${w.e} ${colored(w)} – ${esc(w.v)}</span>`; }).join("")
+      ? hard.slice(0, 80).map((id) => {
+          const w = byId[id], e = srs[id], f = e.forgets || 0, ok = e.okStreak || 0;
+          return `<span class="hard-item" title="Sai ${e.wrong} lần · quên ${f} ngày · ôn dày hơn ×${String(DW.intervalFactor(e)).replace(".", ",")}">` +
+            `${w.e} ${colored(w)} – ${esc(w.v)} <em class="forgets">quên ${f}×</em>` +
+            `<em class="exit">${"●".repeat(ok)}${"○".repeat(DW.HARD_EXIT - ok)}</em></span>`;
+        }).join("")
       : "<span class='okbg'>Chưa có từ khó nào. Từ sai từ 2 lần trở lên sẽ hiện ở đây.</span>";
     $("startHardBtn").disabled = !hard.length;
     DW.renderNav();
@@ -121,7 +127,8 @@
 
   function finishItem(ok, html) {
     const w = S.cur;
-    if (!S.firstSeen.has(w.id)) {          // chỉ lần trả lời đầu tiên trong lượt mới tính vào lịch ôn
+    const counted = !S.firstSeen.has(w.id);
+    if (counted) {                         // chỉ lần trả lời đầu tiên trong lượt mới tính vào lịch ôn
       S.firstSeen.add(w.id);
       DW.recordWord(w.id, ok);
       if (ok) S.good++;
@@ -130,7 +137,7 @@
     else S.queue.splice(Math.min(S.queue.length, 3 + Math.floor(Math.random() * 3)), 0, w);
     S.answered = true;
     $("answer").disabled = true;
-    $("feedback").innerHTML = html;
+    $("feedback").innerHTML = html + (ok ? "" : penaltyNote(w, counted));
     $("checkBtn").textContent = "Tiếp tục →";
     $("sessionCount").textContent = `${S.done.size}/${S.total}`;
     $("sessionBar").style.width = (S.done.size / S.total) * 100 + "%";
@@ -152,12 +159,22 @@
     const pl = w.pl ? `<span class="plural">(số nhiều: ${esc(w.pl)})</span>` : "";
     finishItem(ok, (ok ? `<span class="ok">✔ Chính xác!</span> ` : `<span class="err">✘ Chưa đúng.</span> Đáp án: `) +
       `<span class="answer">${colored(w)}</span>${pl}` + (note ? `<span class="note">${note}</span>` : "") +
-      (ok ? "" : `<span class="note">Từ này quay lại hộp 1 – sẽ ôn lại ngày mai.</span>`));
+      "");
   }
 
   function skip() {
     if (S.answered) return next();
-    finishItem(false, `Đáp án: <span class="answer">${colored(S.cur)}</span><span class="note">Từ này sẽ ôn lại ngày mai.</span>`);
+    finishItem(false, `Đáp án: <span class="answer">${colored(S.cur)}</span>`);
+  }
+
+  // Ghi chú sau khi sai: lần quên thứ mấy, bị trừ bao nhiêu XP
+  function penaltyNote(w, counted) {
+    if (!counted) return `<span class="note">Hỏi lại trong cùng lượt ôn – không trừ thêm XP.</span>`;
+    const e = DW.srsAll()[w.id] || {};
+    const f = e.forgets || 1;
+    const lost = 2 + (e.lastWrongDay === DW.dayNum() ? e.lastExtra || 0 : 0);
+    return `<span class="note">Quên lần thứ ${f} → −${lost} XP. Từ quay lại hộp 1, ôn lại ngày mai` +
+      (f >= 2 ? `; khoảng cách ôn sẽ ngắn hơn (×${String(DW.intervalFactor(e)).replace(".", ",")})` : "") + `.</span>`;
   }
 
   function finish() {

@@ -15,8 +15,19 @@
   function dayNum(d = new Date()) { return Math.floor((d.getTime() - d.getTimezoneOffset() * 60000) / 86400000); }
 
   // ---------- SRS ----------
-  // srs[id] = { box, due (số ngày), wrong (tổng số lần sai), lapses, last }
+  // srs[id] = { box, due (số ngày), wrong (tổng số lần sai), lapses, last,
+  //             forgets (số NGÀY đã quên từ này), lastWrongDay, extra (XP phạt thêm đã cộng dồn),
+  //             okStreak (số ngày đúng liên tiếp), lastOkDay }
+  const HARD_EXIT = 3;          // đúng liên tiếp 3 ngày thì ra khỏi Sổ từ khó
+  const EXTRA_STEP = 2, EXTRA_MAX = 8;
   function srsAll() { return load(SRS_KEY, {}); }
+
+  // Số lần quên "còn hiệu lực": cứ mỗi 3 ngày đúng liên tiếp thì xóa bớt 1 lần quên
+  const effForgets = (e) => Math.max(0, (e.forgets || 0) - Math.floor((e.okStreak || 0) / HARD_EXIT));
+  // Từ hay quên được ôn dày hơn: quên 1 lần ×0,8 · 2 lần ×0,6 · ≥3 lần ×0,4 khoảng cách
+  const intervalFactor = (e) => [1, 0.8, 0.6, 0.4][Math.min(effForgets(e), 3)];
+  // XP phạt cho lần quên thứ n: lần 1 −2, lần 2 −4, lần 3 −6, lần 4 −8, từ lần 5: −10 (−2 cơ bản + phần thêm)
+  const extraFor = (n) => Math.min(EXTRA_STEP * (n - 1), EXTRA_MAX);
 
   /** Ghi nhận một câu trả lời cho từ vựng id ("A1:der Apfel").
    *  firstTryClean = đúng ngay, không gợi ý. */
@@ -27,10 +38,20 @@
     if (ok && firstTryClean) {
       // Chỉ lên hộp khi đến hạn (tránh "học dồn" trong một ngày làm tăng hộp ảo)
       if (e.box === 0 || e.due <= today) e.box = Math.min(e.box + 1, INTERVALS.length - 1);
-      e.due = today + INTERVALS[e.box];
+      if (e.lastOkDay !== today) { e.okStreak = (e.okStreak || 0) + 1; e.lastOkDay = today; }
+      e.due = today + Math.max(1, Math.round(INTERVALS[e.box] * intervalFactor(e)));
     } else if (!ok) {
       e.wrong++;
       if (e.box >= 2) e.lapses++;
+      // Mỗi ngày chỉ tính 1 "lần quên" cho một từ; lần quên sau bị phạt nặng hơn lần trước
+      if (e.lastWrongDay !== today) {
+        e.forgets = (e.forgets || 0) + 1;
+        e.lastWrongDay = today;
+        const x = extraFor(e.forgets);
+        e.extra = (e.extra || 0) + x;
+        e.lastExtra = x;
+      }
+      e.okStreak = 0;
       e.box = 1;
       e.due = today + 1;
     } else if (e.box === 0) {
@@ -54,8 +75,8 @@
 
   function hardIds() {
     return Object.entries(srsAll())
-      .filter(([, e]) => e.wrong >= 2 || e.lapses >= 1)
-      .sort((a, b) => b[1].wrong - a[1].wrong)
+      .filter(([, e]) => (e.wrong >= 2 || e.lapses >= 1) && (e.okStreak || 0) < HARD_EXIT)
+      .sort((a, b) => (b[1].forgets || 0) - (a[1].forgets || 0) || b[1].wrong - a[1].wrong)
       .map(([id]) => id);
   }
 
@@ -138,7 +159,11 @@
     for (const [k, v] of Object.entries(load("dw-reading-v1", {}))) if (v >= PASS) b.reading += 80 * mult(k);
     for (const v of Object.values(load("dw-writing-v1", {}))) if ((v.score || 0) >= PASS) b.writing += 200;
     // 4) Trí nhớ dài hạn: từ ở hộp ≥ 3 (+5), hộp ≥ 5 (+10 nữa)
-    for (const e of Object.values(srsAll())) { if (e.box >= 3) b.memory += 5; if (e.box >= 5) b.memory += 10; }
+    for (const e of Object.values(srsAll())) {
+      if (e.box >= 3) b.memory += 5;
+      if (e.box >= 5) b.memory += 10;
+      b.penalty -= e.extra || 0;          // phạt thêm cho từ quên nhiều lần
+    }
     for (const k in b) b[k] = Math.round(b[k]);
     b.total = Math.max(0, Object.values(b).reduce((s, x) => s + x, 0));
     return b;
@@ -235,7 +260,7 @@
   }
 
   window.DW = { recordWord, dueIds, hardIds, srsAll, INTERVALS, dayNum, dateKey, stats, logAnswer, setGoal, dayStreak,
-                exportBackup, importBackup, renderNav, xpBreakdown, levelInfo, xpForLevel, refreshXP, TITLES, LV_MULT, load };
+                exportBackup, importBackup, renderNav, HARD_EXIT, effForgets, intervalFactor, extraFor, xpBreakdown, levelInfo, xpForLevel, refreshXP, TITLES, LV_MULT, load };
   function boot() {
     renderNav();
     refreshXP();

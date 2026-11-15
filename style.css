@@ -517,3 +517,6 @@ summary { cursor: pointer; color: var(--muted); }
 .xp-chip.lost { animation: lost .6s; }
 @keyframes lost { 0%, 100% { background: #faf8f3; } 30% { background: var(--err-bg); border-color: var(--err); } }
 .neg { color: var(--err); font-weight: 600; }
+.hard-item em { font-style: normal; font-size: 11px; margin-left: 6px; }
+.hard-item .forgets { color: var(--err); font-weight: 700; }
+.hard-item .exit { color: var(--ok); letter-spacing: 1px; }
