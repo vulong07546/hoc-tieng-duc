@@ -107,6 +107,7 @@
   const LV_MULT = { A1: 1, A2: 1.2, B1: 1.5, B2: 2, C1: 2.5, C2: 3 };
   const PASS = 99;
   const UNIT_XP = 50;
+  const XP_RIGHT = 2, XP_WRONG = 2;
   const TITLES = [
     [1, "🌱", "Anfänger", "Người mới bắt đầu"],
     [5, "📘", "Lernender", "Người đang học"],
@@ -118,10 +119,14 @@
   ];
 
   function xpBreakdown() {
-    const b = { answers: 0, vocab: 0, quiz: 0, forms: 0, reading: 0, writing: 0, memory: 0 };
+    const b = { answers: 0, penalty: 0, vocab: 0, quiz: 0, forms: 0, reading: 0, writing: 0, memory: 0 };
     const mult = (k) => LV_MULT[(k.match(/(A1|A2|B1|B2|C1|C2)/) || [])[1]] || 1;
     // 1) Mỗi câu trả lời đúng: 2 XP
-    for (const d of Object.values(stats().days)) b.answers += (d.correct || 0) * 2;
+    // Mỗi câu sai / bỏ qua: −2 XP
+    for (const d of Object.values(stats().days)) {
+      b.answers += (d.correct || 0) * XP_RIGHT;
+      b.penalty -= Math.max(0, (d.answers || 0) - (d.correct || 0)) * XP_WRONG;
+    }
     // 2) Mỗi bài qua (≥ 99%): 50 XP × hệ số cấp độ
     const vocab = load("dw-progress-v2", {}).lessons || {};
     for (const [k, v] of Object.entries(vocab)) if (v >= PASS) b.vocab += UNIT_XP * mult(k);
@@ -135,7 +140,7 @@
     // 4) Trí nhớ dài hạn: từ ở hộp ≥ 3 (+5), hộp ≥ 5 (+10 nữa)
     for (const e of Object.values(srsAll())) { if (e.box >= 3) b.memory += 5; if (e.box >= 5) b.memory += 10; }
     for (const k in b) b[k] = Math.round(b[k]);
-    b.total = Object.values(b).reduce((s, x) => s + x, 0);
+    b.total = Math.max(0, Object.values(b).reduce((s, x) => s + x, 0));
     return b;
   }
   // XP cần để đạt cấp L: 50·(L−1)²  → Lv2 = 50, Lv5 = 800, Lv10 = 4.050, Lv20 = 18.050, Lv40 = 76.050
@@ -156,23 +161,27 @@
     save(STATS_KEY, s);
   }
 
-  function toast(html) {
+  function toast(html, kind = "") {
+    document.querySelectorAll(".toast").forEach((x) => x.remove());
     const t = document.createElement("div");
-    t.className = "toast";
+    t.className = "toast " + kind;
     t.innerHTML = html;
     document.body.appendChild(t);
     setTimeout(() => t.classList.add("show"), 10);
     setTimeout(() => { t.classList.remove("show"); setTimeout(() => t.remove(), 400); }, 3800);
   }
 
-  let lastXP = null;
+  let lastXP = null, lastShown = null;
   function refreshXP() {
     const info = levelInfo();
     if (info.xp !== lastXP) {
       snapshotXP(info.xp);
       const prevLv = +localStorage.getItem("dw-last-level") || info.level;
+      const diff = lastXP === null ? 0 : info.xp - lastXP;
       if (info.level > prevLv) toast(`🎉 Lên cấp <b>Lv ${info.level}</b>! ${info.icon} ${info.title}`);
-      else if (lastXP !== null && info.xp - lastXP >= 20) toast(`+${info.xp - lastXP} XP ✨`);   // chỉ báo khi qua bài / thành tích
+      else if (info.level < prevLv) toast(`⬇️ Tụt xuống <b>Lv ${info.level}</b> vì trả lời sai. Cố lên!`, "bad");
+      else if (diff >= 20) toast(`+${diff} XP ✨`);            // qua bài / thành tích
+      else if (diff < 0) toast(`${diff} XP – trả lời sai`, "bad");
       localStorage.setItem("dw-last-level", info.level);
       lastXP = info.xp;
     }
@@ -186,6 +195,8 @@
       chip.title = "Xem trình độ & kinh nghiệm";
       bar.appendChild(chip);
     }
+    if (lastShown !== null && info.xp < lastShown) { chip.classList.remove("lost"); void chip.offsetWidth; chip.classList.add("lost"); }
+    lastShown = info.xp;
     chip.innerHTML = `<span class="lv">${info.icon} Lv ${info.level}</span>` +
       `<span class="xpbar"><span style="width:${info.pct}%"></span></span>` +
       `<span class="xpn">${info.xp.toLocaleString("vi-VN")} XP</span>`;

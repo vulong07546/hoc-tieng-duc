@@ -169,11 +169,12 @@
 
     // ----- Nguồn XP -----
     const b = DW.xpBreakdown();
-    const rows = [["Câu trả lời đúng", b.answers], ["Bài từ vựng", b.vocab], ["Ngữ pháp / Cụm từ / Nghe / Nói", b.quiz],
+    const rows = [["Câu trả lời đúng", b.answers], ["Câu sai / bỏ qua (trừ)", b.penalty], ["Bài từ vựng", b.vocab], ["Ngữ pháp / Cụm từ / Nghe / Nói", b.quiz],
                   ["Dạng từ", b.forms], ["Đọc hiểu", b.reading], ["Luyện viết", b.writing], ["Trí nhớ dài hạn", b.memory]];
-    const mx = Math.max(1, ...rows.map((r) => r[1]));
+    const mx = Math.max(1, ...rows.map((r) => Math.abs(r[1])));
     $("breakdown").innerHTML = rows.map(([n, v]) =>
-      `<div class="lv-row"><span class="br-name">${n}</span><div class="bar"><div class="bar-fill" style="width:${(v / mx) * 100}%;background:var(--gold)"></div></div><span class="muted small">${v.toLocaleString("vi-VN")} XP</span></div>`).join("");
+      `<div class="lv-row"><span class="br-name">${n}</span><div class="bar"><div class="bar-fill" style="width:${(Math.abs(v) / mx) * 100}%;background:${v < 0 ? "var(--err)" : "var(--gold)"}"></div></div>` +
+      `<span class="small ${v < 0 ? "neg" : "muted"}">${v > 0 ? "+" : ""}${v.toLocaleString("vi-VN")} XP</span></div>`).join("");
     $("titleList").innerHTML = DW.TITLES.map(([lv, ic, t, vi]) =>
       `<span class="${info.level >= lv ? "got" : ""}">${ic} Lv ${lv}+ ${t} – ${vi}</span>`).join("");
   }

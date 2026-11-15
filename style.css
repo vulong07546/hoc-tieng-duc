@@ -513,3 +513,7 @@ summary { cursor: pointer; color: var(--muted); }
 .title-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
 .title-list span { border: 1px solid var(--border); border-radius: 8px; padding: 4px 8px; font-size: 13px; color: var(--muted); }
 .title-list span.got { color: var(--text); border-color: var(--gold); background: #fffbeb; }
+.toast.bad { background: var(--err); }
+.xp-chip.lost { animation: lost .6s; }
+@keyframes lost { 0%, 100% { background: #faf8f3; } 30% { background: var(--err-bg); border-color: var(--err); } }
+.neg { color: var(--err); font-weight: 600; }
