@@ -1,0 +1,1307 @@
+{
+ "level": "A2",
+ "topics": [
+  {
+   "title": "Thì Perfekt với haben / sein (Perfekt mit haben oder sein)",
+   "intro": "Perfekt dùng để kể chuyện đã xảy ra trong quá khứ, nhất là trong văn nói. Cấu trúc: trợ động từ haben hoặc sein (chia, ở vị trí 2) + Partizip II (ở cuối câu).\nDùng sein với: động từ chuyển động có hướng (gehen, fahren, fliegen, kommen, laufen), động từ chỉ sự thay đổi trạng thái (aufstehen, einschlafen, werden, sterben) và sein, bleiben, passieren.\nDùng haben với hầu hết các động từ còn lại, kể cả động từ phản thân và động từ có tân ngữ Akkusativ: Ich habe gespielt. Ich habe mich gefreut.\nVí dụ: Wir sind nach Berlin gefahren. – Er hat einen Brief geschrieben.\nTrong mệnh đề phụ (weil, dass…), trợ động từ đứng cuối cùng: …, weil ich den Bus verpasst habe.",
+   "questions": [
+    {
+     "q": "Ich ___ gestern Fußball gespielt.",
+     "options": [
+      "habe",
+      "bin",
+      "hat",
+      "hast"
+     ],
+     "answer": 0,
+     "vi": "Hôm qua tôi đã chơi bóng đá.",
+     "explain": "spielen không phải động từ chuyển động hay thay đổi trạng thái nên dùng haben, với ich là habe. \"bin\" sai vì sai trợ động từ."
+    },
+    {
+     "q": "Wir ___ nach Berlin gefahren.",
+     "options": [
+      "haben",
+      "seid",
+      "sind",
+      "hat"
+     ],
+     "answer": 2,
+     "vi": "Chúng tôi đã đi đến Berlin.",
+     "explain": "fahren (đi đến một nơi) là chuyển động có hướng nên dùng sein, với wir là sind. \"haben\" sai trợ động từ, \"seid\" là dạng của ihr."
+    },
+    {
+     "q": "___ du schon gegessen?",
+     "options": [
+      "Bist",
+      "Hast",
+      "Hat",
+      "Habt"
+     ],
+     "answer": 1,
+     "vi": "Bạn đã ăn chưa?",
+     "explain": "essen dùng haben, ngôi du chia là hast. \"Bist\" sai vì essen không dùng sein."
+    },
+    {
+     "q": "Mein Bruder ___ um 7 Uhr aufgestanden.",
+     "options": [
+      "hat",
+      "sind",
+      "habe",
+      "ist"
+     ],
+     "answer": 3,
+     "vi": "Anh trai tôi đã thức dậy lúc 7 giờ.",
+     "explain": "aufstehen chỉ sự thay đổi trạng thái (từ nằm sang đứng) nên dùng sein: er ist. \"hat\" là lỗi thường gặp nhưng sai trợ động từ."
+    },
+    {
+     "q": "Was ___ ihr am Wochenende gemacht?",
+     "options": [
+      "seid",
+      "habt",
+      "haben",
+      "hat"
+     ],
+     "answer": 1,
+     "vi": "Cuối tuần các bạn đã làm gì?",
+     "explain": "machen dùng haben, ngôi ihr chia là habt. \"seid\" đúng ngôi nhưng sai trợ động từ."
+    },
+    {
+     "q": "Das Kind ___ sofort eingeschlafen.",
+     "options": [
+      "ist",
+      "hat",
+      "sind",
+      "wird"
+     ],
+     "answer": 0,
+     "vi": "Đứa trẻ đã ngủ thiếp đi ngay lập tức.",
+     "explain": "einschlafen là thay đổi trạng thái (từ thức sang ngủ) nên dùng sein: ist. \"hat\" sai vì đây không phải động từ dùng haben."
+    },
+    {
+     "q": "Gestern ___ ich den ganzen Tag zu Hause geblieben.",
+     "options": [
+      "habe",
+      "hat",
+      "ist",
+      "bin"
+     ],
+     "answer": 3,
+     "vi": "Hôm qua tôi đã ở nhà cả ngày.",
+     "explain": "bleiben là ngoại lệ luôn dùng sein trong Perfekt, ich bin. \"habe\" sai vì bleiben không đi với haben."
+    },
+    {
+     "q": "Meine Eltern ___ letztes Jahr in Wien gewesen.",
+     "options": [
+      "haben",
+      "ist",
+      "sind",
+      "hat"
+     ],
+     "answer": 2,
+     "vi": "Bố mẹ tôi năm ngoái đã ở Viên.",
+     "explain": "Perfekt của sein dùng chính sein làm trợ động từ, chủ ngữ số nhiều nên là sind. \"haben\" là lỗi phổ biến của người học."
+    },
+    {
+     "q": "Was ___ denn passiert?",
+     "options": [
+      "hat",
+      "sind",
+      "ist",
+      "habe"
+     ],
+     "answer": 2,
+     "vi": "Đã xảy ra chuyện gì vậy?",
+     "explain": "passieren luôn dùng sein trong Perfekt, chủ ngữ là was (ngôi 3 số ít) nên là ist. \"hat\" sai trợ động từ."
+    },
+    {
+     "q": "Ich ___ mich sehr über das Geschenk gefreut.",
+     "options": [
+      "habe",
+      "bin",
+      "hat",
+      "ist"
+     ],
+     "answer": 0,
+     "vi": "Tôi đã rất vui vì món quà.",
+     "explain": "Động từ phản thân (sich freuen) dùng haben trong Perfekt: ich habe mich gefreut. \"bin\" sai vì động từ phản thân không dùng sein."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Ich habe geschrieben gestern einen Brief.",
+      "Ich bin gestern einen Brief geschrieben.",
+      "Ich gestern habe einen Brief geschrieben.",
+      "Ich habe gestern einen Brief geschrieben."
+     ],
+     "answer": 3,
+     "vi": "Hôm qua tôi đã viết một lá thư.",
+     "explain": "Trợ động từ habe đứng vị trí 2, Partizip II geschrieben đứng cuối câu. Câu với \"geschrieben\" ở giữa sai vị trí, câu với \"bin\" sai trợ động từ."
+    },
+    {
+     "q": "Er ___ mit dem Flugzeug nach Hanoi geflogen.",
+     "options": [
+      "hat",
+      "ist",
+      "sind",
+      "habe"
+     ],
+     "answer": 1,
+     "vi": "Anh ấy đã bay đến Hà Nội bằng máy bay.",
+     "explain": "fliegen (bay đến đâu) là chuyển động có hướng nên dùng sein: er ist. \"hat\" sai trợ động từ."
+    },
+    {
+     "q": "Frau Weber ___ im Mai 40 Jahre alt geworden.",
+     "options": [
+      "ist",
+      "hat",
+      "habe",
+      "sind"
+     ],
+     "answer": 0,
+     "vi": "Bà Weber đã tròn 40 tuổi vào tháng Năm.",
+     "explain": "werden chỉ sự thay đổi trạng thái nên dùng sein: sie ist geworden. \"hat\" sai vì werden không đi với haben."
+    },
+    {
+     "q": "Ich bin zu spät gekommen, weil ich den Bus verpasst ___.",
+     "options": [
+      "bin",
+      "habe",
+      "hat",
+      "ist"
+     ],
+     "answer": 1,
+     "vi": "Tôi đã đến muộn vì tôi đã lỡ chuyến xe buýt.",
+     "explain": "verpassen có tân ngữ Akkusativ (den Bus) nên dùng haben, trong mệnh đề weil trợ động từ đứng cuối: verpasst habe. \"bin\" sai trợ động từ."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Der Zug hat pünktlich angekommen.",
+      "Der Zug ist pünktlich ankommen.",
+      "Der Zug ist pünktlich angekommen.",
+      "Der Zug pünktlich ist angekommen."
+     ],
+     "answer": 2,
+     "vi": "Tàu đã đến đúng giờ.",
+     "explain": "ankommen là chuyển động đến đích nên dùng sein, Partizip II là angekommen ở cuối câu. Câu với \"hat\" sai trợ động từ."
+    }
+   ]
+  },
+  {
+   "title": "Phân từ II (Partizip II)",
+   "intro": "Partizip II dùng để tạo thì Perfekt. Các nhóm chính:\n• Động từ có quy tắc: ge- + gốc + -t: machen → gemacht, hören → gehört; gốc tận cùng -t/-d thêm -et: arbeiten → gearbeitet.\n• Động từ bất quy tắc: ge- + gốc (thường đổi nguyên âm) + -en: schreiben → geschrieben, trinken → getrunken, verstehen → verstanden.\n• Động từ hỗn hợp: đổi nguyên âm nhưng đuôi -t: denken → gedacht, bringen → gebracht, wissen → gewusst.\n• Động từ tách được: ge- chen giữa tiền tố và gốc: einkaufen → eingekauft, ankommen → angekommen, anrufen → angerufen.\n• Động từ không tách được (be-, ver-, er-, ent-, emp-, ge-, zer-, miss-) và động từ đuôi -ieren: KHÔNG có ge-: besuchen → besucht, studieren → studiert.",
+   "questions": [
+    {
+     "q": "Ich habe gestern Musik ___. (hören)",
+     "options": [
+      "gehört",
+      "gehören",
+      "gehöret",
+      "hörte"
+     ],
+     "answer": 0,
+     "vi": "Hôm qua tôi đã nghe nhạc.",
+     "explain": "hören là động từ có quy tắc: ge- + hör + -t = gehört. \"gehören\" là một động từ khác (thuộc về), không phải Partizip II."
+    },
+    {
+     "q": "Er hat einen Kaffee ___. (trinken)",
+     "options": [
+      "getrinkt",
+      "getrankt",
+      "getrunken",
+      "trinkt"
+     ],
+     "answer": 2,
+     "vi": "Anh ấy đã uống một cốc cà phê.",
+     "explain": "trinken là động từ bất quy tắc: getrunken (đổi i → u, đuôi -en). \"getrinkt\" sai vì chia theo kiểu có quy tắc."
+    },
+    {
+     "q": "Wir haben bis 18 Uhr ___. (arbeiten)",
+     "options": [
+      "gearbeitt",
+      "gearbeitet",
+      "arbeitet",
+      "gearbeiten"
+     ],
+     "answer": 1,
+     "vi": "Chúng tôi đã làm việc đến 18 giờ.",
+     "explain": "Gốc arbeit- tận cùng bằng -t nên thêm -et: gearbeitet. \"gearbeitt\" thiếu nguyên âm e."
+    },
+    {
+     "q": "Hast du die Hausaufgaben schon ___? (machen)",
+     "options": [
+      "gemachen",
+      "macht",
+      "machte",
+      "gemacht"
+     ],
+     "answer": 3,
+     "vi": "Bạn đã làm bài tập về nhà chưa?",
+     "explain": "machen có quy tắc: ge- + mach + -t = gemacht. \"gemachen\" sai vì dùng đuôi -en của động từ bất quy tắc."
+    },
+    {
+     "q": "Sie hat am Sonntag ihre Oma ___. (besuchen)",
+     "options": [
+      "gebesucht",
+      "besucht",
+      "besuchen",
+      "gebesuchen"
+     ],
+     "answer": 1,
+     "vi": "Chủ nhật cô ấy đã đến thăm bà.",
+     "explain": "besuchen có tiền tố không tách được be- nên không thêm ge-: besucht. \"gebesucht\" là lỗi rất thường gặp."
+    },
+    {
+     "q": "Ich bin heute um 6 Uhr ___. (aufstehen)",
+     "options": [
+      "aufgestanden",
+      "geaufstanden",
+      "aufgesteht",
+      "aufstehen"
+     ],
+     "answer": 0,
+     "vi": "Hôm nay tôi đã thức dậy lúc 6 giờ.",
+     "explain": "aufstehen tách được nên ge- chen giữa: auf-ge-standen. \"geaufstanden\" sai vì ge- đặt trước tiền tố."
+    },
+    {
+     "q": "Wir haben im Supermarkt ___. (einkaufen)",
+     "options": [
+      "geeinkauft",
+      "eingekaufen",
+      "einkaufte",
+      "eingekauft"
+     ],
+     "answer": 3,
+     "vi": "Chúng tôi đã mua sắm ở siêu thị.",
+     "explain": "einkaufen tách được và có quy tắc: ein-ge-kauft. \"geeinkauft\" sai vị trí ge-."
+    },
+    {
+     "q": "Er hat Jura in Köln ___. (studieren)",
+     "options": [
+      "gestudiert",
+      "studieret",
+      "studiert",
+      "gestudieren"
+     ],
+     "answer": 2,
+     "vi": "Anh ấy đã học ngành luật ở Köln.",
+     "explain": "Động từ đuôi -ieren không có ge-: studiert. \"gestudiert\" là lỗi phổ biến."
+    },
+    {
+     "q": "Hast du die Frage ___? (verstehen)",
+     "options": [
+      "geverstanden",
+      "versteht",
+      "verstanden",
+      "verstandet"
+     ],
+     "answer": 2,
+     "vi": "Bạn đã hiểu câu hỏi chưa?",
+     "explain": "verstehen có tiền tố không tách được ver- và bất quy tắc: verstanden. \"geverstanden\" sai vì thêm ge-."
+    },
+    {
+     "q": "Sie hat mir eine Karte aus dem Urlaub ___. (schreiben)",
+     "options": [
+      "geschrieben",
+      "geschreibt",
+      "geschriebt",
+      "schrieb"
+     ],
+     "answer": 0,
+     "vi": "Cô ấy đã viết cho tôi một tấm bưu thiếp từ kỳ nghỉ.",
+     "explain": "schreiben bất quy tắc: geschrieben (ei → ie, đuôi -en). \"geschreibt\" sai vì chia như động từ có quy tắc."
+    },
+    {
+     "q": "Ich habe oft an dich ___. (denken)",
+     "options": [
+      "gedenkt",
+      "gedunken",
+      "gedachten",
+      "gedacht"
+     ],
+     "answer": 3,
+     "vi": "Tôi đã thường nghĩ đến bạn.",
+     "explain": "denken là động từ hỗn hợp: gedacht (đổi gốc nhưng đuôi -t). \"gedenkt\" sai vì không đổi gốc."
+    },
+    {
+     "q": "Der Zug ist pünktlich ___. (ankommen)",
+     "options": [
+      "angekommt",
+      "angekommen",
+      "geankommen",
+      "ankommen"
+     ],
+     "answer": 1,
+     "vi": "Tàu đã đến đúng giờ.",
+     "explain": "ankommen tách được và bất quy tắc: an-ge-kommen. \"angekommt\" sai đuôi -t."
+    },
+    {
+     "q": "Wer hat dich gestern Abend ___? (anrufen)",
+     "options": [
+      "angerufen",
+      "angeruft",
+      "geanrufen",
+      "anrufen"
+     ],
+     "answer": 0,
+     "vi": "Ai đã gọi điện cho bạn tối qua?",
+     "explain": "anrufen tách được và bất quy tắc: an-ge-rufen. \"angeruft\" sai vì dùng đuôi có quy tắc."
+    },
+    {
+     "q": "Ich habe gestern mit dem Vermieter ___. (telefonieren)",
+     "options": [
+      "getelefoniert",
+      "telefoniert",
+      "telefonieren",
+      "telefonierte"
+     ],
+     "answer": 1,
+     "vi": "Hôm qua tôi đã nói chuyện điện thoại với chủ nhà.",
+     "explain": "Động từ đuôi -ieren không có ge-: telefoniert. \"getelefoniert\" sai vì thêm ge-."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Das habe ich leider nicht gewisst.",
+      "Das habe ich leider nicht gewussen.",
+      "Das habe ich leider nicht gewusst.",
+      "Das habe ich leider nicht geweißt."
+     ],
+     "answer": 2,
+     "vi": "Rất tiếc tôi đã không biết điều đó.",
+     "explain": "wissen là động từ hỗn hợp: gewusst (i → u, đuôi -t). \"geweißt\" sai vì lấy gốc weiß- của thì hiện tại."
+    }
+   ]
+  },
+  {
+   "title": "Präteritum của sein, haben và động từ khuyết thiếu (Präteritum: sein, haben, Modalverben)",
+   "intro": "Với sein, haben và các động từ khuyết thiếu, người Đức thường dùng Präteritum thay vì Perfekt, kể cả khi nói.\nsein: ich war, du warst, er/sie/es war, wir waren, ihr wart, sie/Sie waren.\nhaben: ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie/Sie hatten.\nĐộng từ khuyết thiếu: bỏ Umlaut + -te: können → konnte, müssen → musste, dürfen → durfte, wollen → wollte, sollen → sollte, mögen → mochte.\nĐuôi: ich -te, du -test, er -te, wir -ten, ihr -tet, sie/Sie -ten. Lưu ý: ich và er/sie/es có cùng dạng (ich konnte, er konnte). Động từ chính ở dạng nguyên mẫu cuối câu: Ich musste lange arbeiten.",
+   "questions": [
+    {
+     "q": "Gestern ___ ich krank.",
+     "options": [
+      "war",
+      "warst",
+      "waren",
+      "wart"
+     ],
+     "answer": 0,
+     "vi": "Hôm qua tôi bị ốm.",
+     "explain": "Präteritum của sein với ich là war. \"warst\" là dạng của du."
+    },
+    {
+     "q": "___ du am Wochenende viel Arbeit?",
+     "options": [
+      "Hattet",
+      "Hatte",
+      "Hattest",
+      "Hatten"
+     ],
+     "answer": 2,
+     "vi": "Cuối tuần bạn có nhiều việc không?",
+     "explain": "haben ở Präteritum với du là hattest. \"Hattet\" là dạng của ihr."
+    },
+    {
+     "q": "Wir ___ letzte Woche in Hamburg.",
+     "options": [
+      "war",
+      "waren",
+      "wart",
+      "warst"
+     ],
+     "answer": 1,
+     "vi": "Tuần trước chúng tôi ở Hamburg.",
+     "explain": "sein ở Präteritum với wir là waren. \"wart\" là dạng của ihr."
+    },
+    {
+     "q": "Ihr ___ gestern keine Lust auf Kino.",
+     "options": [
+      "hatten",
+      "hattest",
+      "hatte",
+      "hattet"
+     ],
+     "answer": 3,
+     "vi": "Hôm qua các bạn không muốn đi xem phim.",
+     "explain": "haben ở Präteritum với ihr là hattet. \"hatten\" dùng cho wir/sie/Sie."
+    },
+    {
+     "q": "Als Kind ___ ich nicht schwimmen. (können)",
+     "options": [
+      "könnte",
+      "konnte",
+      "konntest",
+      "kannte"
+     ],
+     "answer": 1,
+     "vi": "Hồi nhỏ tôi không biết bơi.",
+     "explain": "Präteritum của können bỏ Umlaut: konnte. \"könnte\" là thể giả định (Konjunktiv II), không dùng để kể quá khứ."
+    },
+    {
+     "q": "Er ___ gestern lange arbeiten. (müssen)",
+     "options": [
+      "musste",
+      "mussten",
+      "musst",
+      "müssen"
+     ],
+     "answer": 0,
+     "vi": "Hôm qua anh ấy đã phải làm việc lâu.",
+     "explain": "müssen → musste (bỏ Umlaut), với er không có đuôi thêm. \"mussten\" là dạng số nhiều."
+    },
+    {
+     "q": "Die Kinder ___ nicht fernsehen. (dürfen)",
+     "options": [
+      "durfte",
+      "durftet",
+      "darften",
+      "durften"
+     ],
+     "answer": 3,
+     "vi": "Bọn trẻ đã không được phép xem ti vi.",
+     "explain": "dürfen → durft- + -ten cho chủ ngữ số nhiều: durften. \"durfte\" là dạng số ít."
+    },
+    {
+     "q": "Warum ___ du nicht mitkommen? (wollen)",
+     "options": [
+      "wollte",
+      "wolltet",
+      "wolltest",
+      "wolltst"
+     ],
+     "answer": 2,
+     "vi": "Tại sao bạn đã không muốn đi cùng?",
+     "explain": "wollen ở Präteritum với du: wolltest. \"wollte\" là dạng của ich/er."
+    },
+    {
+     "q": "Ich ___ den Arzt anrufen, aber ich habe es vergessen. (sollen)",
+     "options": [
+      "solltet",
+      "sollen",
+      "sollte",
+      "sollst"
+     ],
+     "answer": 2,
+     "vi": "Lẽ ra tôi phải gọi cho bác sĩ, nhưng tôi đã quên.",
+     "explain": "sollen ở Präteritum với ich: sollte. \"sollst\" là thì hiện tại của du."
+    },
+    {
+     "q": "Früher ___ sie keinen Fisch. (mögen)",
+     "options": [
+      "mochte",
+      "mögte",
+      "mochtet",
+      "mochten"
+     ],
+     "answer": 0,
+     "vi": "Trước đây cô ấy không thích cá.",
+     "explain": "mögen có Präteritum đặc biệt: mochte (đổi ö → o, g → ch). \"mögte\" là lỗi do chia theo quy tắc."
+    },
+    {
+     "q": "___ ihr gestern auf der Party?",
+     "options": [
+      "Waren",
+      "Warst",
+      "War",
+      "Wart"
+     ],
+     "answer": 3,
+     "vi": "Hôm qua các bạn có đến bữa tiệc không?",
+     "explain": "sein ở Präteritum với ihr là wart. \"Waren\" dùng cho wir/sie/Sie."
+    },
+    {
+     "q": "Herr Klein, ___ Sie gestern einen Termin beim Amt?",
+     "options": [
+      "hattet",
+      "hatten",
+      "hatte",
+      "hattest"
+     ],
+     "answer": 1,
+     "vi": "Ông Klein, hôm qua ông có lịch hẹn ở cơ quan hành chính không?",
+     "explain": "Sie (lịch sự) chia như số nhiều: hatten. \"hattet\" là dạng của ihr."
+    },
+    {
+     "q": "Letztes Jahr ___ wir nach Italien fahren, aber wir hatten kein Geld. (wollen)",
+     "options": [
+      "wollten",
+      "wolltet",
+      "wollte",
+      "wolten"
+     ],
+     "answer": 0,
+     "vi": "Năm ngoái chúng tôi đã muốn đi Ý, nhưng chúng tôi không có tiền.",
+     "explain": "wollen với wir ở Präteritum: wollten. \"wolltet\" là dạng của ihr."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Ich konnte gestern nicht kommen, weil ich war krank.",
+      "Ich konnte gestern nicht kommen, weil ich krank war.",
+      "Ich könnte gestern nicht kommen, weil ich krank war.",
+      "Ich konnte gestern nicht kommen, weil ich krank bin gewesen."
+     ],
+     "answer": 1,
+     "vi": "Hôm qua tôi đã không thể đến vì tôi bị ốm.",
+     "explain": "konnte là Präteritum của können, và trong mệnh đề weil động từ chia đứng cuối: weil ich krank war. Câu \"weil ich war krank\" sai trật tự từ."
+    },
+    {
+     "q": "Gestern ___ die Mitarbeiter wegen des Streiks zu Hause bleiben. (müssen)",
+     "options": [
+      "musste",
+      "musstet",
+      "mussten",
+      "musstest"
+     ],
+     "answer": 2,
+     "vi": "Hôm qua các nhân viên đã phải ở nhà vì cuộc đình công.",
+     "explain": "Chủ ngữ die Mitarbeiter là số nhiều nên dùng mussten. \"musste\" là dạng số ít."
+    }
+   ]
+  },
+  {
+   "title": "Cách 3 – Dativ (Dativ: Artikel, Possessivartikel, Personalpronomen)",
+   "intro": "Dativ thường là tân ngữ gián tiếp (người nhận: cho ai?) và đứng sau một số giới từ (mit, bei, von…). Câu hỏi: Wem?\nMạo từ: der → dem, die → der, das → dem, số nhiều die → den (danh từ thêm -n: den Kindern).\nein → einem, eine → einer, ein → einem; kein → keinem/keiner/keinem/keinen.\nMạo từ sở hữu giống ein: meinem, meiner, meinem, meinen (tương tự deinem, seinem, ihrer, unserem, unseren…).\nĐại từ nhân xưng: ich → mir, du → dir, er → ihm, sie → ihr, es → ihm, wir → uns, ihr → euch, sie → ihnen, Sie → Ihnen.\nVí dụ: Ich gebe dem Kind einen Apfel. Kannst du mir helfen?",
+   "questions": [
+    {
+     "q": "Ich gebe ___ Kind einen Apfel. (das)",
+     "options": [
+      "dem",
+      "das",
+      "den",
+      "der"
+     ],
+     "answer": 0,
+     "vi": "Tôi đưa cho đứa trẻ một quả táo.",
+     "explain": "das Kind là người nhận (Dativ), giống trung nên là dem. \"das\" là Nominativ/Akkusativ."
+    },
+    {
+     "q": "Das Buch gehört ___ Frau. (die)",
+     "options": [
+      "die",
+      "dem",
+      "der",
+      "den"
+     ],
+     "answer": 2,
+     "vi": "Cuốn sách thuộc về người phụ nữ.",
+     "explain": "gehören đi với Dativ, die Frau ở Dativ thành der Frau. \"die\" là Nominativ/Akkusativ."
+    },
+    {
+     "q": "Ich fahre mit ___ Bus zur Arbeit. (der)",
+     "options": [
+      "den",
+      "dem",
+      "der",
+      "das"
+     ],
+     "answer": 1,
+     "vi": "Tôi đi làm bằng xe buýt.",
+     "explain": "mit luôn đi với Dativ, der Bus → dem Bus. \"den\" là Akkusativ giống đực."
+    },
+    {
+     "q": "Kannst du ___ bitte helfen? (ich)",
+     "options": [
+      "mich",
+      "ich",
+      "mein",
+      "mir"
+     ],
+     "answer": 3,
+     "vi": "Bạn có thể giúp tôi được không?",
+     "explain": "helfen đi với Dativ, ich → mir. \"mich\" là Akkusativ."
+    },
+    {
+     "q": "Wie geht es ___? (du)",
+     "options": [
+      "dich",
+      "dir",
+      "du",
+      "dein"
+     ],
+     "answer": 1,
+     "vi": "Bạn có khỏe không?",
+     "explain": "Cấu trúc es geht + Dativ: du → dir. \"dich\" là Akkusativ."
+    },
+    {
+     "q": "Ich schenke ___ Bruder ein Buch. (mein)",
+     "options": [
+      "meinem",
+      "meinen",
+      "meiner",
+      "mein"
+     ],
+     "answer": 0,
+     "vi": "Tôi tặng anh trai tôi một cuốn sách.",
+     "explain": "der Bruder là người nhận (Dativ, giống đực): meinem. \"meinen\" là Akkusativ giống đực."
+    },
+    {
+     "q": "Er spielt mit ___ Kindern im Park. (die)",
+     "options": [
+      "die",
+      "der",
+      "dem",
+      "den"
+     ],
+     "answer": 3,
+     "vi": "Anh ấy chơi với bọn trẻ trong công viên.",
+     "explain": "Số nhiều ở Dativ là den, danh từ thêm -n: den Kindern. \"die\" là Nominativ/Akkusativ số nhiều."
+    },
+    {
+     "q": "Wir danken ___ Lehrerin für den Kurs. (unser)",
+     "options": [
+      "unsere",
+      "unseren",
+      "unserer",
+      "unserem"
+     ],
+     "answer": 2,
+     "vi": "Chúng tôi cảm ơn cô giáo của chúng tôi về khóa học.",
+     "explain": "danken đi với Dativ, die Lehrerin (giống cái) → unserer. \"unsere\" là Nominativ/Akkusativ."
+    },
+    {
+     "q": "Der Pullover gefällt ___ nicht. (er)",
+     "options": [
+      "ihn",
+      "er",
+      "ihm",
+      "sein"
+     ],
+     "answer": 2,
+     "vi": "Anh ấy không thích chiếc áo len.",
+     "explain": "gefallen đi với Dativ, er → ihm. \"ihn\" là Akkusativ."
+    },
+    {
+     "q": "Ich wohne noch bei ___ Eltern. (mein)",
+     "options": [
+      "meinen",
+      "meine",
+      "meiner",
+      "meinem"
+     ],
+     "answer": 0,
+     "vi": "Tôi vẫn còn sống cùng bố mẹ.",
+     "explain": "bei đi với Dativ, số nhiều: meinen Eltern. \"meine\" là Nominativ/Akkusativ số nhiều."
+    },
+    {
+     "q": "Kinder, ich zeige ___ jetzt die Stadt. (ihr)",
+     "options": [
+      "ihr",
+      "eure",
+      "ihnen",
+      "euch"
+     ],
+     "answer": 3,
+     "vi": "Các con, bây giờ bố/mẹ sẽ chỉ cho các con thành phố.",
+     "explain": "Đại từ ihr ở Dativ là euch. \"ihnen\" là Dativ của sie (họ), không phải ihr."
+    },
+    {
+     "q": "Frau Schmidt, kann ich ___ helfen? (Sie)",
+     "options": [
+      "Sie",
+      "Ihnen",
+      "Ihr",
+      "ihnen"
+     ],
+     "answer": 1,
+     "vi": "Bà Schmidt, tôi có thể giúp gì cho bà không?",
+     "explain": "Sie (lịch sự) ở Dativ là Ihnen, viết hoa. \"ihnen\" viết thường nghĩa là \"họ\", không phải cách xưng hô lịch sự."
+    },
+    {
+     "q": "Ich habe ___ Freund eine E-Mail geschrieben. (ein)",
+     "options": [
+      "einem",
+      "einen",
+      "einer",
+      "ein"
+     ],
+     "answer": 0,
+     "vi": "Tôi đã viết một email cho một người bạn.",
+     "explain": "der Freund là người nhận (Dativ): einem Freund. \"einen\" là Akkusativ giống đực."
+    },
+    {
+     "q": "Wir bringen ___ Gästen Kaffee und Kuchen. (unsere)",
+     "options": [
+      "unsere",
+      "unseren",
+      "unserem",
+      "unserer"
+     ],
+     "answer": 1,
+     "vi": "Chúng tôi mang cà phê và bánh cho các vị khách của chúng tôi.",
+     "explain": "die Gäste (số nhiều) ở Dativ: unseren Gästen. \"unserem\" là Dativ số ít giống đực/trung."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Ich habe meine Schwester mit den Hausaufgaben geholfen.",
+      "Ich habe meiner Schwester mit die Hausaufgaben geholfen.",
+      "Ich habe meiner Schwester mit den Hausaufgaben geholfen.",
+      "Ich habe meinem Schwester mit den Hausaufgaben geholfen."
+     ],
+     "answer": 2,
+     "vi": "Tôi đã giúp em gái tôi làm bài tập về nhà.",
+     "explain": "helfen + Dativ: meiner Schwester; mit + Dativ số nhiều: den Hausaufgaben. Câu \"meine Schwester\" sai vì dùng Akkusativ."
+    }
+   ]
+  },
+  {
+   "title": "Động từ đi với Dativ và động từ có 2 tân ngữ (Verben mit Dativ und Verben mit Dativ und Akkusativ)",
+   "intro": "Một số động từ chỉ đi với tân ngữ Dativ: helfen, danken, gefallen, gehören, gratulieren, antworten, schmecken, passen. Ví dụ: Ich helfe meiner Freundin.\nĐộng từ có 2 tân ngữ (geben, schenken, zeigen, bringen, erklären, schicken): người nhận ở Dativ, vật ở Akkusativ. Thứ tự:\n• Hai danh từ: Dativ trước Akkusativ: Ich gebe dem Mann das Buch.\n• Dativ là đại từ, Akkusativ là danh từ: đại từ trước: Ich gebe ihm das Buch.\n• Akkusativ là đại từ, Dativ là danh từ: đại từ trước: Ich gebe es dem Mann.\n• Hai đại từ: Akkusativ trước Dativ: Ich gebe es ihm.",
+   "questions": [
+    {
+     "q": "Ich helfe ___ Freundin beim Umzug. (meine)",
+     "options": [
+      "meiner",
+      "meine",
+      "meinen",
+      "meinem"
+     ],
+     "answer": 0,
+     "vi": "Tôi giúp bạn gái tôi chuyển nhà.",
+     "explain": "helfen đi với Dativ, die Freundin → meiner Freundin. \"meine\" là Akkusativ, lỗi rất hay gặp."
+    },
+    {
+     "q": "Das Essen schmeckt ___ sehr gut. (wir)",
+     "options": [
+      "wir",
+      "unser",
+      "uns",
+      "unseren"
+     ],
+     "answer": 2,
+     "vi": "Món ăn rất ngon đối với chúng tôi.",
+     "explain": "schmecken + Dativ, wir → uns. \"wir\" là Nominativ, không thể làm tân ngữ."
+    },
+    {
+     "q": "Wem gehört das Fahrrad? – Es gehört ___. (ich)",
+     "options": [
+      "mich",
+      "mir",
+      "ich",
+      "mein"
+     ],
+     "answer": 1,
+     "vi": "Chiếc xe đạp này của ai? – Nó là của tôi.",
+     "explain": "gehören + Dativ, ich → mir. \"mich\" là Akkusativ."
+    },
+    {
+     "q": "Ich danke ___ für deine Hilfe. (du)",
+     "options": [
+      "dich",
+      "du",
+      "deine",
+      "dir"
+     ],
+     "answer": 3,
+     "vi": "Tôi cảm ơn bạn vì sự giúp đỡ của bạn.",
+     "explain": "danken đi với Dativ, du → dir. \"dich\" sai vì là Akkusativ."
+    },
+    {
+     "q": "Wie gefällt ___ die neue Wohnung? (sie, số ít)",
+     "options": [
+      "sie",
+      "ihr",
+      "ihm",
+      "ihre"
+     ],
+     "answer": 1,
+     "vi": "Cô ấy thấy căn hộ mới thế nào?",
+     "explain": "gefallen + Dativ, sie (cô ấy) → ihr. \"ihm\" là Dativ của er/es."
+    },
+    {
+     "q": "Wir gratulieren ___ zum Geburtstag. (er)",
+     "options": [
+      "ihm",
+      "ihn",
+      "er",
+      "sein"
+     ],
+     "answer": 0,
+     "vi": "Chúng tôi chúc mừng sinh nhật anh ấy.",
+     "explain": "gratulieren đi với Dativ, er → ihm. \"ihn\" là Akkusativ."
+    },
+    {
+     "q": "Kannst du ___ bitte das Salz geben? (ich)",
+     "options": [
+      "mich",
+      "ich",
+      "meine",
+      "mir"
+     ],
+     "answer": 3,
+     "vi": "Bạn có thể đưa giúp tôi lọ muối không?",
+     "explain": "Người nhận ở Dativ: mir; das Salz là vật ở Akkusativ. \"mich\" sai cách."
+    },
+    {
+     "q": "Er schenkt ___ Mutter Blumen. (seine)",
+     "options": [
+      "seine",
+      "seinen",
+      "seiner",
+      "seinem"
+     ],
+     "answer": 2,
+     "vi": "Anh ấy tặng mẹ anh ấy hoa.",
+     "explain": "die Mutter là người nhận (Dativ, giống cái): seiner. \"seine\" là Akkusativ."
+    },
+    {
+     "q": "Ich zeige ___ Gast das Zimmer. (der)",
+     "options": [
+      "den",
+      "der",
+      "dem",
+      "das"
+     ],
+     "answer": 2,
+     "vi": "Tôi chỉ phòng cho vị khách.",
+     "explain": "der Gast là người nhận (Dativ): dem Gast. \"den\" là Akkusativ giống đực."
+    },
+    {
+     "q": "Hat ___ der Film gefallen? (ihr)",
+     "options": [
+      "euch",
+      "ihr",
+      "euer",
+      "ihnen"
+     ],
+     "answer": 0,
+     "vi": "Các bạn có thích bộ phim không?",
+     "explain": "gefallen + Dativ, ihr → euch. \"ihr\" ở đây là Nominativ, không làm tân ngữ được."
+    },
+    {
+     "q": "Das Buch? Ich gebe ___ morgen zurück.",
+     "options": [
+      "dir es",
+      "dich es",
+      "es dich",
+      "es dir"
+     ],
+     "answer": 3,
+     "vi": "Cuốn sách à? Ngày mai tôi sẽ trả nó cho bạn.",
+     "explain": "Khi cả hai tân ngữ là đại từ, Akkusativ (es) đứng trước Dativ (dir). \"dir es\" sai thứ tự."
+    },
+    {
+     "q": "Der Kellner bringt ___.",
+     "options": [
+      "den Gast die Rechnung",
+      "dem Gast die Rechnung",
+      "die Rechnung den Gast",
+      "dem Gast der Rechnung"
+     ],
+     "answer": 1,
+     "vi": "Người phục vụ mang hóa đơn cho vị khách.",
+     "explain": "Hai danh từ: Dativ (dem Gast) trước Akkusativ (die Rechnung). \"den Gast\" sai vì người nhận phải ở Dativ."
+    },
+    {
+     "q": "Wo ist mein Schlüssel? – Ich habe ___ schon gegeben.",
+     "options": [
+      "ihn dir",
+      "dir ihn",
+      "dich ihn",
+      "ihm dich"
+     ],
+     "answer": 0,
+     "vi": "Chìa khóa của tôi đâu? – Tôi đã đưa nó cho bạn rồi.",
+     "explain": "der Schlüssel → ihn (Akkusativ), người nhận du → dir; hai đại từ thì Akkusativ trước Dativ: ihn dir. \"dir ihn\" sai thứ tự."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Ich schenke meinen Vater eine Uhr.",
+      "Ich schenke meinem Vater eine Uhr.",
+      "Ich schenke eine Uhr meinen Vater.",
+      "Ich schenke meinem Vater einer Uhr."
+     ],
+     "answer": 1,
+     "vi": "Tôi tặng bố tôi một chiếc đồng hồ.",
+     "explain": "Người nhận ở Dativ (meinem Vater), vật ở Akkusativ (eine Uhr). Câu với \"meinen Vater\" sai vì dùng Akkusativ cho người nhận."
+    },
+    {
+     "q": "Die Präsentation? Ich schicke ___ heute Abend. (Sie – ông/bà)",
+     "options": [
+      "Ihnen sie",
+      "sie Sie",
+      "sie Ihnen",
+      "Ihnen ihr"
+     ],
+     "answer": 2,
+     "vi": "Bài thuyết trình à? Tối nay tôi sẽ gửi nó cho ông/bà.",
+     "explain": "die Präsentation → sie (Akkusativ), Sie → Ihnen (Dativ); hai đại từ: Akkusativ trước Dativ. \"Ihnen sie\" sai thứ tự."
+    }
+   ]
+  },
+  {
+   "title": "Giới từ đi với Dativ / Akkusativ (Präpositionen mit Dativ und Akkusativ)",
+   "intro": "Giới từ luôn đi với Dativ: aus, bei, mit, nach, seit, von, zu, gegenüber.\nGiới từ luôn đi với Akkusativ: durch, für, gegen, ohne, um.\nDạng rút gọn: zu + dem = zum, zu + der = zur, bei + dem = beim, von + dem = vom.\nVí dụ: Ich fahre mit dem Bus. Ich gehe zum Arzt. Seit einem Jahr lerne ich Deutsch. – Das Geschenk ist für dich. Wir gehen durch den Park. Der Film beginnt um 20 Uhr.\nLưu ý: nach + tên thành phố/quốc gia không mạo từ (nach Berlin); với người/địa điểm cụ thể dùng zu (zum Arzt, zur Post). seit + Dativ chỉ khoảng thời gian bắt đầu trong quá khứ và còn kéo dài (seit drei Monaten).",
+   "questions": [
+    {
+     "q": "Ich komme aus ___ Türkei. (die)",
+     "options": [
+      "der",
+      "die",
+      "dem",
+      "den"
+     ],
+     "answer": 0,
+     "vi": "Tôi đến từ Thổ Nhĩ Kỳ.",
+     "explain": "aus đi với Dativ, die Türkei → der Türkei. \"die\" là Nominativ/Akkusativ."
+    },
+    {
+     "q": "Das Geschenk ist für ___. (du)",
+     "options": [
+      "dir",
+      "du",
+      "dich",
+      "dein"
+     ],
+     "answer": 2,
+     "vi": "Món quà này dành cho bạn.",
+     "explain": "für luôn đi với Akkusativ, du → dich. \"dir\" là Dativ."
+    },
+    {
+     "q": "Ich gehe heute ___ Arzt.",
+     "options": [
+      "zur",
+      "zum",
+      "nach",
+      "beim"
+     ],
+     "answer": 1,
+     "vi": "Hôm nay tôi đi khám bác sĩ.",
+     "explain": "Đi đến người/địa điểm dùng zu + Dativ; der Arzt → zu dem = zum. \"zur\" dùng cho danh từ giống cái."
+    },
+    {
+     "q": "Er fährt mit ___ Fahrrad zur Arbeit. (das)",
+     "options": [
+      "das",
+      "den",
+      "der",
+      "dem"
+     ],
+     "answer": 3,
+     "vi": "Anh ấy đi làm bằng xe đạp.",
+     "explain": "mit + Dativ, das Fahrrad → dem Fahrrad. \"das\" là Nominativ/Akkusativ."
+    },
+    {
+     "q": "Wir gehen durch ___ Park. (der)",
+     "options": [
+      "dem",
+      "den",
+      "der",
+      "des"
+     ],
+     "answer": 1,
+     "vi": "Chúng tôi đi xuyên qua công viên.",
+     "explain": "durch luôn đi với Akkusativ, der Park → den Park. \"dem\" là Dativ."
+    },
+    {
+     "q": "Ich fahre ohne ___ Mann in Urlaub. (mein)",
+     "options": [
+      "meinen",
+      "meinem",
+      "meiner",
+      "mein"
+     ],
+     "answer": 0,
+     "vi": "Tôi đi nghỉ mà không có chồng tôi.",
+     "explain": "ohne đi với Akkusativ, der Mann → meinen Mann. \"meinem\" là Dativ."
+    },
+    {
+     "q": "Seit ___ Jahr lerne ich Deutsch. (ein)",
+     "options": [
+      "ein",
+      "einen",
+      "einer",
+      "einem"
+     ],
+     "answer": 3,
+     "vi": "Tôi học tiếng Đức được một năm rồi.",
+     "explain": "seit đi với Dativ, das Jahr → einem Jahr. \"ein\" là Nominativ/Akkusativ."
+    },
+    {
+     "q": "Nach ___ Unterricht gehe ich nach Hause. (der)",
+     "options": [
+      "den",
+      "der",
+      "dem",
+      "das"
+     ],
+     "answer": 2,
+     "vi": "Sau giờ học tôi về nhà.",
+     "explain": "nach đi với Dativ, der Unterricht → dem Unterricht. \"den\" là Akkusativ."
+    },
+    {
+     "q": "Ich wohne zurzeit ___ meiner Tante.",
+     "options": [
+      "zu",
+      "nach",
+      "bei",
+      "für"
+     ],
+     "answer": 2,
+     "vi": "Hiện tại tôi đang sống ở nhà dì tôi.",
+     "explain": "Ở nhà ai đó dùng bei + Dativ. \"zu\" chỉ hướng đi đến (Ich gehe zu meiner Tante), không dùng với wohnen."
+    },
+    {
+     "q": "Die Apotheke ist gegenüber ___ Bahnhof. (der)",
+     "options": [
+      "dem",
+      "den",
+      "der",
+      "des"
+     ],
+     "answer": 0,
+     "vi": "Hiệu thuốc nằm đối diện nhà ga.",
+     "explain": "gegenüber đi với Dativ: dem Bahnhof. \"den\" là Akkusativ."
+    },
+    {
+     "q": "Der Film beginnt ___ 20 Uhr.",
+     "options": [
+      "am",
+      "im",
+      "seit",
+      "um"
+     ],
+     "answer": 3,
+     "vi": "Bộ phim bắt đầu lúc 20 giờ.",
+     "explain": "Giờ đồng hồ dùng um. \"am\" dùng cho ngày (am Montag), không dùng cho giờ."
+    },
+    {
+     "q": "Was hast du gegen ___ Plan? (unser)",
+     "options": [
+      "unserem",
+      "unseren",
+      "unserer",
+      "unser"
+     ],
+     "answer": 1,
+     "vi": "Bạn phản đối gì về kế hoạch của chúng tôi?",
+     "explain": "gegen đi với Akkusativ, der Plan → unseren Plan. \"unserem\" là Dativ."
+    },
+    {
+     "q": "Ich habe einen Brief von ___ Schwester bekommen. (meine)",
+     "options": [
+      "meiner",
+      "meine",
+      "meinen",
+      "meinem"
+     ],
+     "answer": 0,
+     "vi": "Tôi đã nhận được một lá thư từ chị gái tôi.",
+     "explain": "von đi với Dativ, die Schwester → meiner Schwester. \"meine\" là Akkusativ."
+    },
+    {
+     "q": "Fahren Sie mich bitte ___ Bahnhof!",
+     "options": [
+      "zur",
+      "zum",
+      "zu den",
+      "nach dem"
+     ],
+     "answer": 1,
+     "vi": "Làm ơn chở tôi đến nhà ga!",
+     "explain": "Đi đến một địa điểm cụ thể: zu + dem Bahnhof = zum Bahnhof. \"nach\" chỉ dùng với tên thành phố/quốc gia, không dùng với nhà ga."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Seit drei Monate arbeite ich bei einer Firma in München.",
+      "Seit drei Monaten arbeite ich bei eine Firma in München.",
+      "Seit drei Monaten arbeite ich bei einer Firma in München.",
+      "Seit drei Monaten arbeite ich für einer Firma in München."
+     ],
+     "answer": 2,
+     "vi": "Tôi làm việc cho một công ty ở München được ba tháng rồi.",
+     "explain": "seit và bei đi với Dativ: seit drei Monaten (số nhiều thêm -n), bei einer Firma. Câu \"seit drei Monate\" thiếu đuôi -n của Dativ số nhiều."
+    }
+   ]
+  },
+  {
+   "title": "Giới từ hai cách (Wechselpräpositionen)",
+   "intro": "Chín giới từ an, auf, hinter, in, neben, über, unter, vor, zwischen có thể đi với Dativ hoặc Akkusativ.\n• Wo? (vị trí, đứng yên) → Dativ: Das Buch liegt auf dem Tisch.\n• Wohin? (hướng, sự di chuyển đến) → Akkusativ: Ich lege das Buch auf den Tisch.\nCặp động từ: stellen (đặt đứng) / stehen; legen (đặt nằm) / liegen; setzen (đặt ngồi) / sitzen; hängen + Akk (treo: hängte, hat gehängt) / hängen + Dat (đang treo: hing, hat gehangen). stellen, legen, setzen, hängen (treo cái gì) → Akkusativ; stehen, liegen, sitzen, hängen (đang treo) → Dativ.\nRút gọn: in + dem = im, in + das = ins, an + dem = am, an + das = ans.",
+   "questions": [
+    {
+     "q": "Das Buch liegt auf ___ Tisch. (der)",
+     "options": [
+      "dem",
+      "den",
+      "der",
+      "das"
+     ],
+     "answer": 0,
+     "vi": "Cuốn sách nằm trên bàn.",
+     "explain": "liegen chỉ vị trí (Wo?) nên dùng Dativ: dem Tisch. \"den\" là Akkusativ, dùng khi có sự di chuyển."
+    },
+    {
+     "q": "Ich lege das Buch auf ___ Tisch. (der)",
+     "options": [
+      "dem",
+      "der",
+      "den",
+      "des"
+     ],
+     "answer": 2,
+     "vi": "Tôi đặt cuốn sách lên bàn.",
+     "explain": "legen chỉ hướng (Wohin?) nên dùng Akkusativ: den Tisch. \"dem\" là Dativ, chỉ dùng cho vị trí."
+    },
+    {
+     "q": "Wir gehen heute Abend ___ Kino.",
+     "options": [
+      "im",
+      "ins",
+      "in",
+      "am"
+     ],
+     "answer": 1,
+     "vi": "Tối nay chúng tôi đi xem phim.",
+     "explain": "gehen chỉ hướng (Wohin?) → in + das Kino = ins Kino. \"im\" là Dativ, dùng cho vị trí (im Kino sein)."
+    },
+    {
+     "q": "Die Kinder spielen ___ Garten.",
+     "options": [
+      "ins",
+      "in",
+      "in den",
+      "im"
+     ],
+     "answer": 3,
+     "vi": "Bọn trẻ chơi trong vườn.",
+     "explain": "spielen chỉ vị trí (Wo?) → in + dem Garten = im Garten. \"in den\" là Akkusativ, chỉ hướng."
+    },
+    {
+     "q": "Die Katze schläft unter ___ Bett. (das)",
+     "options": [
+      "das",
+      "dem",
+      "den",
+      "der"
+     ],
+     "answer": 1,
+     "vi": "Con mèo ngủ dưới gầm giường.",
+     "explain": "schlafen chỉ vị trí (Wo?) → Dativ: dem Bett. \"das\" là Akkusativ, dùng khi có sự di chuyển."
+    },
+    {
+     "q": "Ich stelle die Flasche in ___ Kühlschrank. (der)",
+     "options": [
+      "den",
+      "dem",
+      "der",
+      "das"
+     ],
+     "answer": 0,
+     "vi": "Tôi đặt cái chai vào tủ lạnh.",
+     "explain": "stellen chỉ hướng (Wohin?) → Akkusativ: den Kühlschrank. \"dem\" sai vì đó là Dativ."
+    },
+    {
+     "q": "Die Lampe hängt über ___ Sofa. (das)",
+     "options": [
+      "das",
+      "den",
+      "der",
+      "dem"
+     ],
+     "answer": 3,
+     "vi": "Chiếc đèn treo phía trên ghế sofa.",
+     "explain": "hängen (đang treo) chỉ vị trí → Dativ: dem Sofa. \"das\" là Akkusativ."
+    },
+    {
+     "q": "Wohin hast du meine Brille ___?",
+     "options": [
+      "gelegen",
+      "liegen",
+      "gelegt",
+      "gelegten"
+     ],
+     "answer": 2,
+     "vi": "Bạn đã để kính của tôi ở đâu?",
+     "explain": "Câu hỏi Wohin? và có tân ngữ (meine Brille) nên dùng legen → gelegt. \"gelegen\" là Partizip II của liegen."
+    },
+    {
+     "q": "Das Bild ___ an der Wand.",
+     "options": [
+      "hängen",
+      "stellt",
+      "hängt",
+      "legt"
+     ],
+     "answer": 2,
+     "vi": "Bức tranh treo trên tường.",
+     "explain": "an der Wand (Dativ) chỉ vị trí, bức tranh đang treo: hängt. \"stellt\" và \"legt\" cần tân ngữ và Akkusativ."
+    },
+    {
+     "q": "Ich ___ die Vase auf den Tisch.",
+     "options": [
+      "stelle",
+      "stehe",
+      "liege",
+      "sitze"
+     ],
+     "answer": 0,
+     "vi": "Tôi đặt bình hoa lên bàn.",
+     "explain": "Có tân ngữ (die Vase) và Akkusativ (auf den Tisch) → động từ chỉ hành động stellen. \"stehe\" là động từ chỉ vị trí, không có tân ngữ."
+    },
+    {
+     "q": "Er setzt sich neben ___ Frau. (die)",
+     "options": [
+      "der",
+      "den",
+      "dem",
+      "die"
+     ],
+     "answer": 3,
+     "vi": "Anh ấy ngồi xuống cạnh người phụ nữ.",
+     "explain": "sich setzen chỉ sự di chuyển (Wohin?) → Akkusativ: die Frau. \"der\" là Dativ, dùng với sitzen."
+    },
+    {
+     "q": "Das Auto steht vor ___ Haus. (das)",
+     "options": [
+      "das",
+      "dem",
+      "den",
+      "der"
+     ],
+     "answer": 1,
+     "vi": "Chiếc ô tô đỗ trước ngôi nhà.",
+     "explain": "stehen chỉ vị trí (Wo?) → Dativ: dem Haus. \"das\" là Akkusativ."
+    },
+    {
+     "q": "Die Lampe steht zwischen ___ Sofa und dem Regal. (das)",
+     "options": [
+      "dem",
+      "das",
+      "den",
+      "der"
+     ],
+     "answer": 0,
+     "vi": "Chiếc đèn đứng giữa ghế sofa và kệ sách.",
+     "explain": "stehen chỉ vị trí → Dativ cho cả hai danh từ: dem Sofa und dem Regal. \"das\" là Akkusativ."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Ich habe den Mantel an der Garderobe gehängt.",
+      "Ich habe den Mantel an die Garderobe gehängt.",
+      "Ich habe den Mantel an die Garderobe gehangen.",
+      "Ich bin den Mantel an die Garderobe gehängt."
+     ],
+     "answer": 1,
+     "vi": "Tôi đã treo áo khoác lên giá treo đồ.",
+     "explain": "hängen có tân ngữ (treo cái gì) → Akkusativ an die Garderobe, Partizip II gehängt, trợ động từ haben. \"gehangen\" là Partizip II của hängen chỉ vị trí (không có tân ngữ)."
+    },
+    {
+     "q": "Der Mantel hat den ganzen Tag an der Garderobe ___.",
+     "options": [
+      "gehängt",
+      "hängt",
+      "gehangen",
+      "gehangt"
+     ],
+     "answer": 2,
+     "vi": "Chiếc áo khoác đã treo trên giá treo đồ cả ngày.",
+     "explain": "Không có tân ngữ, chỉ vị trí (an der Garderobe – Dativ) → hängen bất quy tắc: gehangen. \"gehängt\" dùng khi ai đó treo cái gì."
+    }
+   ]
+  }
+ ]
+}

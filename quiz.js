@@ -4,16 +4,22 @@
   const PASS_PCT = 99;
   const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
   const params = new URLSearchParams(location.search);
-  const MODE = ["grammar", "phrases", "listen", "speak"].includes(params.get("mode")) ? params.get("mode") : "grammar";
+  const MODE = ["grammar", "mc", "phrases", "listen", "speak"].includes(params.get("mode")) ? params.get("mode") : "grammar";
   const STORE_KEY = "dw-quiz-" + MODE;
   const G = typeof GRAMMAR !== "undefined" ? GRAMMAR : {};
   const P = typeof PHRASES !== "undefined" ? PHRASES : {};
   const V = typeof VOCAB !== "undefined" ? VOCAB : {};
+  const M = typeof MCQ !== "undefined" ? MCQ : {};
+  const TEST_SIZE = 30;
 
   const MODE_INFO = {
     grammar: {
       title: "📐 Ngữ pháp",
       sub: "Đọc quy tắc, rồi điền từ còn thiếu vào câu. Cần đúng ≥ 99% để mở chủ đề tiếp theo.",
+    },
+    mc: {
+      title: "☑️ Trắc nghiệm ngữ pháp",
+      sub: "Bộ trắc nghiệm đầy đủ chương trình ngữ pháp từng cấp: đọc lý thuyết, chọn 1 trong 4 đáp án (bấm hoặc phím 1–4). Cuối mỗi cấp có bài kiểm tra tổng hợp 30 câu. Cần đúng ≥ 99% để mở bài tiếp theo.",
     },
     phrases: {
       title: "💬 Cụm từ & mẫu câu",
@@ -39,6 +45,17 @@
           answers: q.answers, explain: q.explain || "", full: q.q.replace("___", q.answers[0]),
         })),
       }));
+    }
+    if (MODE === "mc") {
+      const topics = (M[lv] || []).map((t) => ({
+        title: t.title, emoji: "☑️", intro: t.intro,
+        items: t.questions.map((q) => ({ kind: "choice", q: q.q, options: q.options, answer: q.answer, vi: q.vi || "", explain: q.explain || "" })),
+      }));
+      if (topics.length) {
+        topics.push({ title: `Kiểm tra tổng hợp ${lv} (${TEST_SIZE} câu ngẫu nhiên)`, emoji: "📝", test: true,
+                      items: topics.flatMap((t) => t.items) });
+      }
+      return topics;
     }
     if (MODE === "phrases") {
       return (P[lv] || []).map((t) => ({
@@ -102,7 +119,7 @@
       const list = units[lv];
       if (!list.length) continue;
       const done = passedCount(lv);
-      const total = list.reduce((s, u) => s + u.items.length, 0);
+      const total = list.filter((u) => !u.test).reduce((s, u) => s + u.items.length, 0);
       const el = document.createElement("div");
       el.className = "level";
       el.style.setProperty("--lv", `var(--${lv})`);
@@ -135,7 +152,7 @@
       el.innerHTML = `
         <div class="top"><span class="name">${u.emoji} ${i + 1}</span><span>${ok ? "✅" : open ? "🔓" : "🔒"}</span></div>
         <div class="unit-title">${esc(u.title)}</div>
-        <div class="best">${u.items.length} câu · ${b === null ? "chưa làm" : "cao nhất " + b + "%"}</div>
+        <div class="best">${u.test ? TEST_SIZE : u.items.length} câu · ${b === null ? "chưa làm" : "cao nhất " + b + "%"}</div>
         <div class="row"><button class="btn primary small" ${open ? "" : "disabled"}>${ok ? "Ôn lại" : "Học"}</button></div>`;
       el.querySelector("button").onclick = () => openUnit(lv, i);
       box.appendChild(el);
@@ -170,8 +187,21 @@
     return a;
   }
 
+  // Trộn thứ tự đáp án để không học thuộc vị trí
+  function prepareChoice(it) {
+    const order = shuffle(it.options.map((_, k) => k));
+    const options = order.map((k) => it.options[k]);
+    const answer = order.indexOf(it.answer);
+    const right = options[answer];
+    const full = it.q.includes("___") ? it.q.replace("___", right) : right;
+    return { ...it, options, answer, answers: [right], full };
+  }
+
   function startUnit(lv, i) {
-    const items = units[lv][i].items.map((it, k) => ({ ...it, id: k }));
+    const u = units[lv][i];
+    let src = u.items.map((it, k) => ({ ...it, src: k }));
+    if (u.test) src = shuffle(src).slice(0, TEST_SIZE);
+    const items = src.map((it, k) => ({ ...(it.kind === "choice" ? prepareChoice(it) : it), id: k }));
     Object.assign(S, { level: lv, unit: i, queue: shuffle(items), total: items.length,
                        finished: new Set(), first: new Map(), mistakes: new Map() });
     setLevelColor(lv);
@@ -186,17 +216,28 @@
     S.answered = false;
     const pic = $("picture"), input = $("answer");
     $("listenBtns").classList.toggle("hidden", it.kind !== "listen");
-    $("gapSentence").classList.toggle("hidden", it.kind !== "gap");
-    pic.classList.toggle("hidden", it.kind === "gap" || (it.kind === "listen"));
+    const isChoice = it.kind === "choice";
+    $("gapSentence").classList.toggle("hidden", it.kind !== "gap" && !isChoice);
+    pic.classList.toggle("hidden", it.kind === "gap" || it.kind === "listen" || isChoice);
+    $("choices").classList.toggle("hidden", !isChoice);
     const isSpeak = it.kind === "speak";
     $("speakArea").classList.toggle("hidden", !isSpeak);
-    $("answerForm").classList.toggle("hidden", isSpeak);
-    $("umlauts").classList.toggle("hidden", isSpeak);
-    $("checkBtn").classList.toggle("hidden", isSpeak);
+    $("answerForm").classList.toggle("hidden", isSpeak || isChoice);
+    $("umlauts").classList.toggle("hidden", isSpeak || isChoice);
+    $("checkBtn").classList.toggle("hidden", isSpeak || isChoice);
     $("meaning").textContent = "";
     $("subline").textContent = "";
 
-    if (it.kind === "gap") {
+    if (isChoice) {
+      $("gapSentence").innerHTML = esc(it.q).replace("___", '<span class="gap">＿＿＿</span>');
+      $("subline").textContent = "Chọn đáp án đúng (phím 1–4)";
+      $("choices").innerHTML = it.options.map((o, k) =>
+        `<button type="button" class="choice" data-k="${k}"><span class="ck">${k + 1}</span>${esc(o)}</button>`).join("");
+      $("choices").querySelectorAll(".choice").forEach((b) => (b.onclick = () => pickChoice(+b.dataset.k)));
+      $("feedback").innerHTML = "";
+      updateBar();
+      return;
+    } else if (it.kind === "gap") {
       $("gapSentence").innerHTML = esc(it.q).replace("___", '<span class="gap">＿＿＿</span>');
       $("meaning").textContent = it.vi;
       $("subline").textContent = it.hint;
@@ -266,7 +307,29 @@
     return { ok: false };
   }
 
+  function pickChoice(k) {
+    if (S.answered || !S.cur || S.cur.kind !== "choice") return;
+    const it = S.cur, ok = k === it.answer;
+    markChoices(k);
+    if (!ok) { $("card").classList.remove("shake"); void $("card").offsetWidth; $("card").classList.add("shake"); }
+    settle(ok, (ok ? `<span class="ok">✔ Chính xác!</span>` : `<span class="err">✘ Chưa đúng.</span> Đáp án:`) +
+      `<div class="answer-line">${answerHtml(it)}</div>` + extraHtml(it) +
+      (ok ? "" : `<span class="note">Câu này sẽ xuất hiện lại để ôn.</span>`));
+  }
+  function markChoices(chosen) {
+    $("choices").querySelectorAll(".choice").forEach((b) => {
+      const k = +b.dataset.k;
+      b.disabled = true;
+      if (k === S.cur.answer) b.classList.add("right");
+      else if (k === chosen) b.classList.add("wrong");
+    });
+  }
+
   function answerHtml(it) {
+    if (it.kind === "choice") {
+      const right = it.options[it.answer];
+      return it.q.includes("___") ? esc(it.q).replace("___", `<b class="fill">${esc(right)}</b>`) : `<b>${esc(right)}</b>`;
+    }
     if (it.kind === "gap") {
       return esc(it.q).replace("___", `<b class="fill">${esc(it.answers[0])}</b>`);
     }
@@ -275,8 +338,9 @@
   function extraHtml(it) {
     const parts = [];
     if (it.kind === "listen" && it.vi) parts.push(`Nghĩa: ${esc(it.vi)}`);
-    if (it.kind === "gap" && it.explain) parts.push(esc(it.explain));
-    if (it.answers.length > 1 && it.kind !== "gap") parts.push("Cách nói khác: " + it.answers.slice(1).map(esc).join(" / "));
+    if ((it.kind === "gap" || it.kind === "choice") && it.explain) parts.push(esc(it.explain));
+    if (it.kind === "choice" && it.vi) parts.push("Nghĩa: " + esc(it.vi));
+    if (it.answers.length > 1 && it.kind !== "gap" && it.kind !== "choice") parts.push("Cách nói khác: " + it.answers.slice(1).map(esc).join(" / "));
     if (it.kind === "gap" && it.answers.length > 1) parts.push("Cũng đúng: " + it.answers.slice(1).map(esc).join(" / "));
     return parts.length ? `<span class="note">${parts.join("<br>")}</span>` : "";
   }
@@ -288,6 +352,7 @@
     if (ok) S.finished.add(it.id);
     else { S.mistakes.set(it.id, it); requeue(it); }
     S.answered = true;
+    if (it.kind === "choice") $("checkBtn").classList.remove("hidden");
     if (it.kind === "speak") { stopMic(); $("checkBtn").classList.remove("hidden"); $("sayText").classList.remove("hidden"); $("sayText").textContent = it.full; }
     $("answer").disabled = true;
     $("feedback").innerHTML = html;
@@ -316,6 +381,7 @@
 
   function skip() {
     if (S.answered) return next();
+    if (S.cur.kind === "choice") markChoices(-1);
     settle(false, `Đáp án:<div class="answer-line">${answerHtml(S.cur)}</div>` + extraHtml(S.cur) +
       `<span class="note">Câu này sẽ xuất hiện lại để ôn.</span>`);
   }
@@ -476,6 +542,10 @@
     };
   });
   document.addEventListener("keydown", (e) => {
+    // Trắc nghiệm: phím 1–4 để chọn
+    if (!$("practiceScreen").classList.contains("hidden") && S.cur && S.cur.kind === "choice" && !S.answered && /^[1-4]$/.test(e.key)) {
+      e.preventDefault(); pickChoice(+e.key - 1); return;
+    }
     if ($("practiceScreen").classList.contains("hidden")) return;
     if (e.key === "Enter" && S.answered && document.activeElement !== $("checkBtn")) { e.preventDefault(); next(); }
     // Phím Space (khi không gõ chữ) trong luyện nói: bật/tắt micro

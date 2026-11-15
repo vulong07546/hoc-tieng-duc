@@ -1,0 +1,1121 @@
+{
+ "level": "B2",
+ "topics": [
+  {
+   "title": "Danh từ hóa & động từ hóa (Nominalisierung und Verbalisierung)",
+   "intro": "Trong văn phong hành chính – pháp lý, mệnh đề phụ thường được rút gọn thành cụm giới từ + danh từ (danh từ hóa), và ngược lại (động từ hóa).\nweil/da → wegen/aufgrund + Genitiv: weil es regnet → wegen des Regens\nnachdem → nach + Dativ: nachdem er das Studium abgeschlossen hatte → nach dem Abschluss des Studiums\nbevor → vor + Dativ; während (thời gian) → während + Genitiv\nobwohl → trotz + Genitiv; wenn/falls → bei + Dativ / im Fall(e) + Genitiv\num…zu/damit → zu(r/m) + Dativ; indem → durch + Akkusativ\nKhi danh từ hóa: chủ ngữ/tân ngữ thành bổ ngữ Genitiv (die Preise steigen → der Anstieg der Preise), trạng từ thành tính từ có đuôi (schnell ändern → die schnelle Änderung). Khi động từ hóa: động từ chia đứng cuối mệnh đề phụ, thường dùng bị động nếu không có chủ thể.",
+   "questions": [
+    {
+     "q": "___ des Regens fand die Veranstaltung im Saal statt.",
+     "options": [
+      "Weil",
+      "Wegen",
+      "Denn",
+      "Da"
+     ],
+     "answer": 1,
+     "vi": "Vì trời mưa nên sự kiện được tổ chức trong hội trường.",
+     "explain": "„wegen“ là giới từ đi với Genitiv (des Regens). „weil“, „da“ và „denn“ là liên từ, cần cả một mệnh đề chứ không đi với danh từ."
+    },
+    {
+     "q": "Nach ___ des Studiums begann er bei einer Steuerkanzlei.",
+     "options": [
+      "den Abschluss",
+      "des Abschlusses",
+      "der Abschluss",
+      "dem Abschluss"
+     ],
+     "answer": 3,
+     "vi": "Sau khi tốt nghiệp, anh ấy bắt đầu làm việc tại một văn phòng tư vấn thuế.",
+     "explain": "„nach“ luôn đi với Dativ → „dem Abschluss“. „des Abschlusses“ sai vì Genitiv chỉ dùng cho bổ ngữ phía sau (des Studiums)."
+    },
+    {
+     "q": "___ der Unterzeichnung des Vertrags müssen alle Unterlagen geprüft werden.",
+     "options": [
+      "Vor",
+      "Bevor",
+      "Vorher",
+      "Ehe"
+     ],
+     "answer": 0,
+     "vi": "Trước khi ký hợp đồng, tất cả hồ sơ phải được kiểm tra.",
+     "explain": "„bevor“ là liên từ (bevor der Vertrag unterzeichnet wird); dạng danh từ hóa phải dùng giới từ „vor“ + Dativ. „Vorher“ là trạng từ, không đi với danh từ."
+    },
+    {
+     "q": "Während ___ arbeitete sie nebenbei bei einer Bank.",
+     "options": [
+      "ihr Studium",
+      "ihrer Studium",
+      "ihres Studiums",
+      "ihren Studiums"
+     ],
+     "answer": 2,
+     "vi": "Trong thời gian học đại học, cô ấy làm thêm tại một ngân hàng.",
+     "explain": "„während“ đi với Genitiv; „das Studium“ trung tính → „ihres Studiums“. „ihrer“ là đuôi Genitiv giống cái, không hợp với danh từ trung tính."
+    },
+    {
+     "q": "Trotz der hohen Kosten wurde das Projekt genehmigt. → ___ die Kosten hoch waren, wurde das Projekt genehmigt.",
+     "options": [
+      "Trotzdem",
+      "Wegen",
+      "Obwohl",
+      "Dennoch"
+     ],
+     "answer": 2,
+     "vi": "Mặc dù chi phí cao, dự án vẫn được phê duyệt.",
+     "explain": "„trotz“ + danh từ chuyển thành liên từ phụ „obwohl“ (động từ cuối câu). „Trotzdem“ là trạng từ, không mở đầu mệnh đề phụ có động từ đứng cuối."
+    },
+    {
+     "q": "Bei Nichtzahlung der Steuer droht ein Säumniszuschlag. → ___ die Steuer nicht gezahlt wird, droht ein Säumniszuschlag.",
+     "options": [
+      "Wenn",
+      "Als",
+      "Bei",
+      "Nachdem"
+     ],
+     "answer": 0,
+     "vi": "Nếu thuế không được nộp thì sẽ bị phạt chậm nộp.",
+     "explain": "„bei“ + danh từ mang nghĩa điều kiện → „wenn“. „Als“ chỉ dùng cho một sự việc trong quá khứ, „Bei“ là giới từ không mở đầu mệnh đề."
+    },
+    {
+     "q": "Durch ___ der Ausgaben konnte die Firma viel Geld sparen.",
+     "options": [
+      "der Senkung",
+      "dem Senkung",
+      "den Senkung",
+      "die Senkung"
+     ],
+     "answer": 3,
+     "vi": "Nhờ cắt giảm chi tiêu, công ty đã tiết kiệm được nhiều tiền.",
+     "explain": "„durch“ (thay cho „indem“) luôn đi với Akkusativ → „die Senkung“. „der Senkung“ là Dativ/Genitiv nên sai."
+    },
+    {
+     "q": "Weil die Preise steigen, müssen viele Haushalte sparen. → Wegen ___ müssen viele Haushalte sparen.",
+     "options": [
+      "dem Anstieg die Preise",
+      "des Anstiegs der Preise",
+      "des Anstiegs die Preise",
+      "der Anstieg der Preise"
+     ],
+     "answer": 1,
+     "vi": "Vì giá cả tăng, nhiều hộ gia đình phải tiết kiệm.",
+     "explain": "Chủ ngữ „die Preise“ trở thành bổ ngữ Genitiv „der Preise“, và „wegen“ cần Genitiv „des Anstiegs“. Giữ nguyên „die Preise“ (Nominativ) là lỗi thường gặp."
+    },
+    {
+     "q": "Vor der Einreichung der Steuererklärung sollten Sie alle Belege sammeln. → Bevor Sie die Steuererklärung ___, sollten Sie alle Belege sammeln.",
+     "options": [
+      "einreichen",
+      "einreichten",
+      "eingereicht",
+      "einzureichen"
+     ],
+     "answer": 0,
+     "vi": "Trước khi nộp tờ khai thuế, quý vị nên thu thập tất cả chứng từ.",
+     "explain": "Mệnh đề phụ với „bevor“ ở hiện tại, chủ ngữ „Sie“ → động từ chia „einreichen“ ở cuối. „eingereicht“ là phân từ II, thiếu trợ động từ."
+    },
+    {
+     "q": "Nach der Prüfung der Unterlagen erging der Bescheid. → Nachdem die Unterlagen ___ worden waren, erging der Bescheid.",
+     "options": [
+      "prüfen",
+      "prüften",
+      "geprüft",
+      "geprüften"
+     ],
+     "answer": 2,
+     "vi": "Sau khi hồ sơ đã được kiểm tra, quyết định được ban hành.",
+     "explain": "Bị động quá khứ hoàn thành: „geprüft worden waren“ cần phân từ II không đuôi. „geprüften“ có đuôi tính từ nên sai."
+    },
+    {
+     "q": "Weil das Gesetz schnell geändert wurde, mussten die Formulare angepasst werden. → Wegen ___ Änderung des Gesetzes mussten die Formulare angepasst werden.",
+     "options": [
+      "die schnelle",
+      "der schnell",
+      "des schnellen",
+      "der schnellen"
+     ],
+     "answer": 3,
+     "vi": "Vì luật được sửa đổi nhanh chóng nên các biểu mẫu phải được điều chỉnh.",
+     "explain": "Trạng từ „schnell“ thành tính từ có đuôi; „die Änderung“ giống cái, Genitiv → „der schnellen“. „des schnellen“ là Genitiv giống đực/trung."
+    },
+    {
+     "q": "___ Förderung der Wirtschaft senkte die Regierung die Steuern.",
+     "options": [
+      "Zum",
+      "Zur",
+      "Zu",
+      "Um"
+     ],
+     "answer": 1,
+     "vi": "Để thúc đẩy kinh tế, chính phủ đã giảm thuế.",
+     "explain": "„um … zu fördern“ danh từ hóa thành „zu + Dativ“; „die Förderung“ giống cái → „zur“ (zu der). „Zum“ chỉ dùng cho danh từ giống đực/trung."
+    },
+    {
+     "q": "Im Falle ___ Kündigung muss der Arbeitgeber eine Frist einhalten.",
+     "options": [
+      "einer",
+      "eine",
+      "einem",
+      "einen"
+     ],
+     "answer": 0,
+     "vi": "Trong trường hợp chấm dứt hợp đồng, người sử dụng lao động phải tuân thủ thời hạn báo trước.",
+     "explain": "„im Falle“ được theo sau bởi Genitiv; „die Kündigung“ giống cái → „einer“. „einem“ là Dativ nên sai."
+    },
+    {
+     "q": "Câu nào là dạng động từ hóa đúng của: „Bei Vorlage aller Unterlagen wird der Antrag bearbeitet.“?",
+     "options": [
+      "Wenn alle Unterlagen vorlegen, wird der Antrag bearbeitet.",
+      "Als alle Unterlagen vorgelegt werden, wird der Antrag bearbeitet.",
+      "Wenn alle Unterlagen vorgelegt werden, der Antrag wird bearbeitet.",
+      "Wenn alle Unterlagen vorgelegt werden, wird der Antrag bearbeitet."
+     ],
+     "answer": 3,
+     "vi": "Khi tất cả hồ sơ được nộp đầy đủ thì đơn sẽ được xử lý.",
+     "explain": "Hồ sơ không tự nộp nên cần bị động „vorgelegt werden“, và sau mệnh đề phụ thì động từ chính đứng ngay đầu („wird der Antrag“). Câu cuối sai trật tự từ."
+    },
+    {
+     "q": "Câu nào là dạng danh từ hóa đúng của: „Obwohl der Steuerpflichtige mehrfach gemahnt wurde, zahlte er nicht.“?",
+     "options": [
+      "Trotz mehrfache Mahnung zahlte der Steuerpflichtige nicht.",
+      "Trotz mehrfacher Mahnung der Steuerpflichtige zahlte nicht.",
+      "Trotz mehrfacher Mahnung zahlte der Steuerpflichtige nicht.",
+      "Wegen mehrfacher Mahnung zahlte der Steuerpflichtige nicht."
+     ],
+     "answer": 2,
+     "vi": "Mặc dù bị nhắc nhở nhiều lần, người nộp thuế vẫn không nộp.",
+     "explain": "„obwohl“ → „trotz“ + Genitiv; không có mạo từ nên tính từ mang đuôi mạnh „mehrfacher“. „Wegen“ đổi nghĩa thành nguyên nhân, còn câu thứ ba sai vị trí động từ."
+    }
+   ]
+  },
+  {
+   "title": "Liên từ nâng cao (Konnektoren: obwohl, trotzdem, indem, sodass, falls, je … desto, ohne dass, anstatt dass)",
+   "intro": "Liên từ phụ (động từ chia đứng cuối): obwohl (mặc dù), indem (bằng cách), sodass (đến nỗi/vì vậy), falls/sofern (nếu/miễn là), ohne dass (mà không), anstatt dass (thay vì).\nTrạng từ nối (đứng vị trí 1, sau đó là động từ): trotzdem, dennoch (tuy vậy), deshalb.\nso + tính từ … dass: Die Prüfung war so schwer, dass …\nje + so sánh hơn … (động từ cuối), desto/umso + so sánh hơn + động từ + chủ ngữ: Je höher das Einkommen ist, desto höher ist die Steuer.\nohne … zu / anstatt … zu chỉ dùng khi hai vế cùng chủ ngữ; khác chủ ngữ thì dùng ohne dass / anstatt dass.",
+   "questions": [
+    {
+     "q": "___ er krank war, ging er zur Arbeit.",
+     "options": [
+      "Trotzdem",
+      "Dennoch",
+      "Obwohl",
+      "Trotz"
+     ],
+     "answer": 2,
+     "vi": "Mặc dù bị ốm, anh ấy vẫn đi làm.",
+     "explain": "Động từ „war“ đứng cuối → cần liên từ phụ „obwohl“. „Trotzdem“ và „Dennoch“ là trạng từ, sau chúng động từ phải đứng ngay vị trí 2."
+    },
+    {
+     "q": "Die Frist war abgelaufen. ___ reichte er den Antrag noch ein.",
+     "options": [
+      "Trotzdem",
+      "Obwohl",
+      "Sodass",
+      "Trotz"
+     ],
+     "answer": 0,
+     "vi": "Thời hạn đã hết. Tuy vậy anh ấy vẫn nộp đơn.",
+     "explain": "Sau chỗ trống là động từ „reichte“ → cần trạng từ ở vị trí 1 như „Trotzdem“. „Obwohl“ đòi động từ đứng cuối câu."
+    },
+    {
+     "q": "Man kann Steuern sparen, ___ man alle Belege sorgfältig sammelt.",
+     "options": [
+      "um",
+      "dadurch",
+      "durch",
+      "indem"
+     ],
+     "answer": 3,
+     "vi": "Người ta có thể tiết kiệm thuế bằng cách thu thập cẩn thận mọi chứng từ.",
+     "explain": "„indem“ diễn tả cách thức và mở đầu mệnh đề phụ. „dadurch“ chỉ đúng khi đi kèm „dass“ (dadurch, dass …)."
+    },
+    {
+     "q": "Es regnete stark, ___ das Fußballspiel abgesagt wurde.",
+     "options": [
+      "damit",
+      "sodass",
+      "deshalb",
+      "indem"
+     ],
+     "answer": 1,
+     "vi": "Trời mưa to đến nỗi trận bóng bị hủy.",
+     "explain": "„sodass“ chỉ kết quả, động từ đứng cuối. „deshalb“ cũng chỉ kết quả nhưng là trạng từ, phải là „deshalb wurde das Spiel abgesagt“."
+    },
+    {
+     "q": "Die Prüfung war ___ schwer, dass viele Kandidaten durchfielen.",
+     "options": [
+      "so",
+      "sodass",
+      "zu",
+      "als"
+     ],
+     "answer": 0,
+     "vi": "Kỳ thi khó đến mức nhiều thí sinh bị trượt.",
+     "explain": "Cấu trúc „so + tính từ …, dass“. „sodass“ không tách ra đứng trước tính từ."
+    },
+    {
+     "q": "___ Sie Fragen haben, wenden Sie sich bitte an das Finanzamt.",
+     "options": [
+      "Ob",
+      "Als",
+      "Sofort",
+      "Falls"
+     ],
+     "answer": 3,
+     "vi": "Nếu quý vị có câu hỏi, xin vui lòng liên hệ cơ quan thuế.",
+     "explain": "„Falls“ = nếu (điều kiện). „Ob“ nghĩa là „liệu“ và chỉ dùng cho câu hỏi gián tiếp."
+    },
+    {
+     "q": "Der Vertrag ist gültig, ___ beide Parteien ihn unterschrieben haben.",
+     "options": [
+      "sodass",
+      "sofern",
+      "ob",
+      "damit"
+     ],
+     "answer": 1,
+     "vi": "Hợp đồng có hiệu lực, miễn là cả hai bên đã ký.",
+     "explain": "„sofern“ = với điều kiện là. „sodass“ chỉ kết quả, không hợp nghĩa: việc ký là điều kiện, không phải kết quả."
+    },
+    {
+     "q": "Je höher das Einkommen ist, ___ höher ist der Steuersatz.",
+     "options": [
+      "dann",
+      "als",
+      "desto",
+      "je"
+     ],
+     "answer": 2,
+     "vi": "Thu nhập càng cao thì thuế suất càng cao.",
+     "explain": "Cặp „je … desto/umso“. Lặp lại „je“ ở vế sau là lỗi thường gặp."
+    },
+    {
+     "q": "Je länger man mit der Zahlung wartet, ___.",
+     "options": [
+      "desto es wird teurer",
+      "desto teurer wird es",
+      "desto teurer es wird",
+      "teurer wird es desto"
+     ],
+     "answer": 1,
+     "vi": "Càng chờ lâu mới thanh toán thì càng tốn kém.",
+     "explain": "Sau „desto + so sánh hơn“ là động từ rồi đến chủ ngữ: „desto teurer wird es“. Đặt động từ cuối như mệnh đề phụ là sai."
+    },
+    {
+     "q": "___ früher Sie die Unterlagen einreichen, umso schneller erhalten Sie den Bescheid.",
+     "options": [
+      "Desto",
+      "Umso",
+      "So",
+      "Je"
+     ],
+     "answer": 3,
+     "vi": "Quý vị nộp hồ sơ càng sớm thì càng nhận được quyết định nhanh.",
+     "explain": "Vế đầu (động từ cuối) luôn bắt đầu bằng „Je“; „umso/desto“ chỉ đứng ở vế thứ hai."
+    },
+    {
+     "q": "Er hat das Formular unterschrieben, ___ es gelesen zu haben.",
+     "options": [
+      "ohne",
+      "ohne dass",
+      "obwohl",
+      "damit"
+     ],
+     "answer": 0,
+     "vi": "Anh ấy đã ký vào biểu mẫu mà không đọc nó.",
+     "explain": "Cùng chủ ngữ và có „zu + Infinitiv“ → „ohne … zu“. „ohne dass“ cần một mệnh đề có chủ ngữ riêng."
+    },
+    {
+     "q": "Der Chef hat den Vertrag geändert, ___ die Mitarbeiter davon wussten.",
+     "options": [
+      "ohne",
+      "ohne zu",
+      "ohne dass",
+      "statt"
+     ],
+     "answer": 2,
+     "vi": "Sếp đã thay đổi hợp đồng mà nhân viên không hề biết.",
+     "explain": "Hai vế có chủ ngữ khác nhau (der Chef / die Mitarbeiter) → phải dùng „ohne dass“. „ohne“ một mình không mở đầu mệnh đề."
+    },
+    {
+     "q": "___ der Vermieter die Heizung reparierte, erhöhte er die Miete.",
+     "options": [
+      "Ohne zu",
+      "Anstatt",
+      "Sodass",
+      "Anstatt dass"
+     ],
+     "answer": 3,
+     "vi": "Thay vì sửa lò sưởi, chủ nhà lại tăng tiền thuê.",
+     "explain": "Mệnh đề có chủ ngữ và động từ chia ở cuối → „Anstatt dass“. „Anstatt“ một mình chỉ đi với „zu + Infinitiv“ hoặc danh từ."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Die Steuerlast ist gestiegen; dennoch hat die Firma investiert.",
+      "Die Steuerlast ist gestiegen; dennoch die Firma hat investiert.",
+      "Obwohl die Steuerlast ist gestiegen, hat die Firma investiert.",
+      "Die Steuerlast ist gestiegen, obwohl hat die Firma investiert."
+     ],
+     "answer": 0,
+     "vi": "Gánh nặng thuế đã tăng; tuy vậy công ty vẫn đầu tư.",
+     "explain": "„dennoch“ chiếm vị trí 1 nên động từ „hat“ đứng ngay sau. Với „obwohl“ thì trợ động từ phải đứng cuối („gestiegen ist“)."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Der Mandant zahlte die Strafe, sodass wurde das Verfahren eingestellt.",
+      "Der Mandant zahlte die Strafe, sodass das Verfahren eingestellt wurde.",
+      "Je mehr der Mandant zahlte, desto das Verfahren wurde schneller eingestellt.",
+      "Der Mandant zahlte die Strafe, indem das Verfahren wurde eingestellt."
+     ],
+     "answer": 1,
+     "vi": "Thân chủ đã nộp tiền phạt, vì vậy vụ việc được đình chỉ.",
+     "explain": "„sodass“ là liên từ phụ nên „wurde“ đứng cuối. Câu thứ hai sai vì đặt động từ ngay sau „sodass“ như sau trạng từ."
+    }
+   ]
+  },
+  {
+   "title": "Tương lai hoàn thành & phỏng đoán (Futur II und Vermutung mit werden + wohl)",
+   "intro": "Futur II = werden (chia) + Partizip II + haben/sein (nguyên mẫu). Ví dụ: Bis Freitag werde ich den Bericht geschrieben haben. / Sie wird angekommen sein.\nCách dùng 1: hành động sẽ hoàn thành trước một thời điểm trong tương lai (thường có „bis“).\nCách dùng 2: phỏng đoán về quá khứ, thường kèm „wohl, sicher, bestimmt“: Er wird den Termin wohl vergessen haben (chắc anh ấy đã quên).\nPhỏng đoán về hiện tại dùng Futur I + wohl: Sie wird wohl krank sein (chắc cô ấy đang ốm).\nTrong mệnh đề phụ, „werden“ đứng cuối cùng: …, dass er die Klage eingereicht haben wird. Bị động: Der Antrag wird bearbeitet worden sein.",
+   "questions": [
+    {
+     "q": "Bis Montag ___ ich den Bericht geschrieben haben.",
+     "options": [
+      "werde",
+      "habe",
+      "wird",
+      "bin"
+     ],
+     "answer": 0,
+     "vi": "Đến thứ Hai tôi sẽ viết xong bản báo cáo.",
+     "explain": "Futur II dùng trợ động từ „werden“, chia theo „ich“ → „werde“. „wird“ là dạng ngôi thứ ba."
+    },
+    {
+     "q": "Bis Ende des Jahres werden wir das Projekt ___.",
+     "options": [
+      "abschließen haben",
+      "abgeschlossen sein",
+      "abgeschlossen haben",
+      "abgeschlossen werden"
+     ],
+     "answer": 2,
+     "vi": "Đến cuối năm chúng tôi sẽ hoàn thành dự án.",
+     "explain": "Futur II: Partizip II + „haben“ (abschließen chia Perfekt với haben). „abgeschlossen sein“ sai trợ động từ."
+    },
+    {
+     "q": "Morgen um diese Zeit wird sie schon in Berlin ___ sein.",
+     "options": [
+      "ankommen",
+      "angekommen",
+      "angekommt",
+      "ankommt"
+     ],
+     "answer": 1,
+     "vi": "Giờ này ngày mai cô ấy sẽ đã đến Berlin rồi.",
+     "explain": "Trước „sein“ cần Partizip II „angekommen“. „angekommt“ là phân từ sai của động từ bất quy tắc."
+    },
+    {
+     "q": "Er ist nicht gekommen. Er ___ den Termin wohl vergessen haben.",
+     "options": [
+      "hat",
+      "ist",
+      "werde",
+      "wird"
+     ],
+     "answer": 3,
+     "vi": "Anh ấy không đến. Chắc là anh ấy đã quên cuộc hẹn.",
+     "explain": "Phỏng đoán về quá khứ: „wird … vergessen haben“ (Futur II). „hat … vergessen haben“ là sai cấu trúc."
+    },
+    {
+     "q": "Das Licht im Büro ist aus. Die Kollegen werden wohl schon nach Hause ___ sein.",
+     "options": [
+      "gehen",
+      "gegeht",
+      "ging",
+      "gegangen"
+     ],
+     "answer": 3,
+     "vi": "Đèn văn phòng đã tắt. Chắc các đồng nghiệp đã về nhà rồi.",
+     "explain": "„gehen“ chia Perfekt với „sein“ → „gegangen sein“. „gehen sein“ thiếu phân từ II."
+    },
+    {
+     "q": "Sie geht nicht ans Telefon. Sie ___ wohl gerade in einer Besprechung sein.",
+     "options": [
+      "ist",
+      "wird",
+      "hat",
+      "wurde"
+     ],
+     "answer": 1,
+     "vi": "Cô ấy không nghe máy. Chắc là cô ấy đang họp.",
+     "explain": "Phỏng đoán về hiện tại: Futur I „wird … sein“ + „wohl“. „ist … sein“ sai vì có hai động từ „sein“."
+    },
+    {
+     "q": "Wo ist Herr Braun? – Er wird wohl noch beim Finanzamt ___.",
+     "options": [
+      "sein",
+      "gewesen",
+      "ist",
+      "haben"
+     ],
+     "answer": 0,
+     "vi": "Ông Braun đâu rồi? – Chắc ông ấy vẫn còn ở cơ quan thuế.",
+     "explain": "Phỏng đoán hiện tại: „wird + Infinitiv“ → „sein“. „gewesen“ thiếu „sein“ để thành Futur II."
+    },
+    {
+     "q": "Der Brief ist nicht angekommen. Die Post wird ihn wohl falsch ___ haben.",
+     "options": [
+      "zustellen",
+      "zustellt",
+      "zugestellt",
+      "gezustellt"
+     ],
+     "answer": 2,
+     "vi": "Lá thư không đến. Chắc bưu điện đã giao nhầm.",
+     "explain": "Phân từ II của động từ tách „zustellen“ là „zugestellt“ (ge- chèn giữa). „gezustellt“ là lỗi đặt ge- sai vị trí."
+    },
+    {
+     "q": "Bis zum 31. Juli werden die meisten Bürger ihre Steuererklärung ___ haben.",
+     "options": [
+      "abgeben",
+      "abgegebt",
+      "abgegeben",
+      "abgibt"
+     ],
+     "answer": 2,
+     "vi": "Đến ngày 31 tháng 7, phần lớn người dân sẽ nộp xong tờ khai thuế.",
+     "explain": "Futur II: Partizip II „abgegeben“ + haben. „abgeben haben“ dùng nguyên mẫu nên sai."
+    },
+    {
+     "q": "Bis zur Verhandlung wird der Zeuge aus dem Ausland zurückgekehrt ___.",
+     "options": [
+      "sein",
+      "haben",
+      "werden",
+      "worden"
+     ],
+     "answer": 0,
+     "vi": "Đến phiên tòa, nhân chứng sẽ đã trở về từ nước ngoài.",
+     "explain": "„zurückkehren“ là động từ chuyển động, chia với „sein“ → „zurückgekehrt sein“. „haben“ là lỗi chọn trợ động từ."
+    },
+    {
+     "q": "Ich vermute, dass der Anwalt die Klage schon ___.",
+     "options": [
+      "eingereicht wird haben",
+      "eingereicht haben wird",
+      "wird eingereicht haben",
+      "haben eingereicht wird"
+     ],
+     "answer": 1,
+     "vi": "Tôi đoán là luật sư đã nộp đơn kiện rồi.",
+     "explain": "Trong mệnh đề phụ, động từ chia „wird“ đứng cuối cùng: „eingereicht haben wird“. Đặt „wird“ lên trước là trật tự của mệnh đề chính."
+    },
+    {
+     "q": "Bis Ende März wird der Antrag ___ sein.",
+     "options": [
+      "bearbeitet geworden",
+      "bearbeiten worden",
+      "bearbeitet werden",
+      "bearbeitet worden"
+     ],
+     "answer": 3,
+     "vi": "Đến cuối tháng Ba đơn sẽ đã được xử lý xong.",
+     "explain": "Bị động Futur II: Partizip II + „worden sein“. „geworden“ chỉ dùng khi „werden“ là động từ chính (trở thành)."
+    },
+    {
+     "q": "Câu nào có cùng nghĩa với: „Er wird das Geld wohl schon überwiesen haben.“?",
+     "options": [
+      "Er überweist das Geld wahrscheinlich bald.",
+      "Wahrscheinlich hat er das Geld schon überwiesen.",
+      "Er hat das Geld sicher nicht überwiesen.",
+      "Er muss das Geld morgen überweisen."
+     ],
+     "answer": 1,
+     "vi": "Có lẽ anh ấy đã chuyển tiền rồi.",
+     "explain": "Futur II + „wohl“ diễn tả phỏng đoán về việc đã xảy ra → „Wahrscheinlich hat er … überwiesen“. Câu thứ hai nói về tương lai nên sai nghĩa."
+    },
+    {
+     "q": "Bis die Steuerprüfung beginnt, ___ die Firma alle Belege gesammelt haben.",
+     "options": [
+      "werden",
+      "hat",
+      "wird",
+      "wurde"
+     ],
+     "answer": 2,
+     "vi": "Trước khi đợt kiểm tra thuế bắt đầu, công ty sẽ đã thu thập xong mọi chứng từ.",
+     "explain": "Chủ ngữ „die Firma“ số ít → „wird“. „werden“ là dạng số nhiều, lỗi do nhìn nhầm sang „Belege“."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Bis nächste Woche wird das Gericht das Urteil verkündet haben.",
+      "Bis nächste Woche wird das Gericht das Urteil verkündet sein.",
+      "Bis nächste Woche wird das Gericht das Urteil haben verkündet.",
+      "Bis nächste Woche hat das Gericht das Urteil verkündet werden."
+     ],
+     "answer": 0,
+     "vi": "Đến tuần sau tòa án sẽ đã tuyên án.",
+     "explain": "„verkünden“ chia với „haben“ và thứ tự cuối câu là Partizip II + haben. „verkündet sein“ sai trợ động từ."
+    }
+   ]
+  },
+  {
+   "title": "Mệnh đề quan hệ nâng cao (Relativsätze: wer/was, wo(r)+Präposition, dessen/deren)",
+   "intro": "wer … (der) …: chỉ người nói chung: Wer die Frist versäumt, (der) muss zahlen.\nwas: sau alles, etwas, nichts, vieles, das (dạng so sánh nhất trung tính như das Beste), hoặc khi thay cho cả mệnh đề trước: Er bestand, was alle freute.\nwo(r) + giới từ (worüber, wofür, worauf, womit…): thay cho „was“ khi động từ cần giới từ.\nGenitiv: dessen (danh từ gốc giống đực/trung), deren (giống cái/số nhiều); theo giống của danh từ được thay thế, không theo danh từ phía sau; danh từ sau dessen/deren không có mạo từ, tính từ mang đuôi mạnh: dessen langjähriger Chef.\nGiới từ + đại từ quan hệ: giới từ đứng đầu, cách do giới từ quyết định: die Kollegin, mit der ich arbeite; das Gesetz, über das wir sprechen.",
+   "questions": [
+    {
+     "q": "___ die Frist versäumt, muss mit Nachteilen rechnen.",
+     "options": [
+      "Der",
+      "Was",
+      "Welcher",
+      "Wer"
+     ],
+     "answer": 3,
+     "vi": "Ai bỏ lỡ thời hạn thì phải chịu thiệt.",
+     "explain": "Chỉ người chung chung, không có danh từ gốc → „Wer“. „Der“ cần một danh từ đứng trước."
+    },
+    {
+     "q": "Alles, ___ Sie sagen, kann gegen Sie verwendet werden.",
+     "options": [
+      "das",
+      "was",
+      "dass",
+      "welches"
+     ],
+     "answer": 1,
+     "vi": "Mọi điều anh nói có thể được dùng để chống lại anh.",
+     "explain": "Sau „alles“ dùng đại từ quan hệ „was“. „das“ chỉ dùng sau danh từ trung tính cụ thể."
+    },
+    {
+     "q": "Das ist das Beste, ___ ich je gelesen habe.",
+     "options": [
+      "das",
+      "dem",
+      "was",
+      "wo"
+     ],
+     "answer": 2,
+     "vi": "Đó là thứ hay nhất mà tôi từng đọc.",
+     "explain": "Sau tính từ so sánh nhất dùng như danh từ trung tính („das Beste“) dùng „was“. „das“ là lỗi thường gặp."
+    },
+    {
+     "q": "Er hat die Prüfung bestanden, ___ seine Eltern sehr freute.",
+     "options": [
+      "was",
+      "das",
+      "dass",
+      "welche"
+     ],
+     "answer": 0,
+     "vi": "Anh ấy đã đỗ kỳ thi, điều đó làm bố mẹ rất vui.",
+     "explain": "„was“ thay cho cả mệnh đề trước (việc thi đỗ). „das“ không thể quy chiếu về cả câu."
+    },
+    {
+     "q": "Der Mandant, ___ Vertrag gekündigt wurde, klagt nun.",
+     "options": [
+      "deren",
+      "dessen",
+      "dem",
+      "sein"
+     ],
+     "answer": 1,
+     "vi": "Thân chủ, người có hợp đồng bị chấm dứt, nay khởi kiện.",
+     "explain": "Genitiv quan hệ cho danh từ giống đực „der Mandant“ → „dessen“. „deren“ dùng cho giống cái/số nhiều."
+    },
+    {
+     "q": "Die Firma, ___ Gewinn stark gestiegen ist, muss mehr Steuern zahlen.",
+     "options": [
+      "dessen",
+      "die",
+      "deren",
+      "ihr"
+     ],
+     "answer": 2,
+     "vi": "Công ty có lợi nhuận tăng mạnh phải nộp thuế nhiều hơn.",
+     "explain": "„dessen/deren“ theo giống của danh từ gốc „die Firma“ (giống cái) → „deren“, không theo „der Gewinn“."
+    },
+    {
+     "q": "Die Bürger, ___ Anträge abgelehnt wurden, können Widerspruch einlegen.",
+     "options": [
+      "deren",
+      "dessen",
+      "denen",
+      "die"
+     ],
+     "answer": 0,
+     "vi": "Những công dân bị từ chối đơn có thể khiếu nại.",
+     "explain": "Danh từ gốc số nhiều → „deren“. „denen“ là Dativ số nhiều, không diễn tả sở hữu."
+    },
+    {
+     "q": "Das Gesetz, ___ wir gestern diskutiert haben, tritt bald in Kraft.",
+     "options": [
+      "über dem",
+      "worüber das",
+      "über den",
+      "über das"
+     ],
+     "answer": 3,
+     "vi": "Đạo luật mà chúng ta đã thảo luận hôm qua sắp có hiệu lực.",
+     "explain": "„diskutieren über + Akkusativ“, danh từ gốc trung tính → „über das“. „über dem“ là Dativ nên sai."
+    },
+    {
+     "q": "Die Kollegin, ___ ich zusammenarbeite, ist Steuerberaterin.",
+     "options": [
+      "mit der",
+      "mit die",
+      "mit den",
+      "mit deren"
+     ],
+     "answer": 0,
+     "vi": "Đồng nghiệp nữ mà tôi làm việc cùng là chuyên viên tư vấn thuế.",
+     "explain": "„mit“ + Dativ, giống cái → „mit der“. „mit deren“ là dạng Genitiv sở hữu, cần danh từ theo sau."
+    },
+    {
+     "q": "Es gibt nichts, ___ ich mich mehr freue als auf den Urlaub.",
+     "options": [
+      "auf den",
+      "worauf",
+      "wofür",
+      "darauf"
+     ],
+     "answer": 1,
+     "vi": "Không có gì khiến tôi mong chờ hơn kỳ nghỉ.",
+     "explain": "„sich freuen auf“ + quy chiếu về „nichts“ → „worauf“. „wofür“ sai giới từ; „darauf“ không phải đại từ quan hệ."
+    },
+    {
+     "q": "Die Behörde hat schnell entschieden, ___ wir sehr dankbar sind.",
+     "options": [
+      "für das",
+      "wovon",
+      "dafür",
+      "wofür"
+     ],
+     "answer": 3,
+     "vi": "Cơ quan đã quyết định nhanh chóng, điều mà chúng tôi rất biết ơn.",
+     "explain": "Quy chiếu về cả mệnh đề và „dankbar sein für“ → „wofür“. „für das“ không dùng được vì không có danh từ trung tính làm gốc."
+    },
+    {
+     "q": "Der Vertrag, ___ Bedingungen wir nicht akzeptieren konnten, wurde nicht unterschrieben.",
+     "options": [
+      "deren",
+      "dem",
+      "dessen",
+      "den"
+     ],
+     "answer": 2,
+     "vi": "Bản hợp đồng mà chúng tôi không thể chấp nhận các điều khoản của nó đã không được ký.",
+     "explain": "Gốc là „der Vertrag“ (giống đực) → „dessen“. Chọn „deren“ vì nhìn theo „Bedingungen“ (số nhiều) là lỗi điển hình."
+    },
+    {
+     "q": "Die Mandantin, ___ Ehemann wir vertreten, hat angerufen.",
+     "options": [
+      "dessen",
+      "die",
+      "deren",
+      "der"
+     ],
+     "answer": 2,
+     "vi": "Nữ thân chủ, người mà chúng tôi đại diện cho chồng bà, đã gọi điện.",
+     "explain": "Gốc „die Mandantin“ giống cái → „deren“, dù „Ehemann“ là giống đực. „dessen“ là lỗi theo giống của danh từ phía sau."
+    },
+    {
+     "q": "Das Unternehmen, dessen ___ Geschäftsführer zurückgetreten ist, sucht einen Nachfolger.",
+     "options": [
+      "langjährige",
+      "langjährigen",
+      "langjähriges",
+      "langjähriger"
+     ],
+     "answer": 3,
+     "vi": "Doanh nghiệp có giám đốc lâu năm vừa từ chức đang tìm người kế nhiệm.",
+     "explain": "Sau „dessen“ tính từ mang đuôi mạnh; „Geschäftsführer“ giống đực Nominativ → „langjähriger“. „langjährige“ là đuôi yếu sau mạo từ xác định."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Die Richterin, auf deren Urteil alle gewartet hatten, betrat den Saal.",
+      "Die Richterin, auf dessen Urteil alle gewartet hatten, betrat den Saal.",
+      "Die Richterin, auf deren Urteils alle gewartet hatten, betrat den Saal.",
+      "Die Richterin, deren auf Urteil alle gewartet hatten, betrat den Saal."
+     ],
+     "answer": 0,
+     "vi": "Nữ thẩm phán, người mà mọi người đã chờ phán quyết của bà, bước vào phòng xử.",
+     "explain": "Giới từ đứng trước „deren“ (gốc giống cái), danh từ sau giữ cách do giới từ quy định („auf … Urteil“, Akkusativ). „dessen“ sai giống."
+    }
+   ]
+  },
+  {
+   "title": "Cụm danh từ + động từ cố định (Nomen-Verb-Verbindungen)",
+   "intro": "Trong văn bản pháp lý – hành chính, nhiều ý được diễn đạt bằng một danh từ + động từ „nhạt nghĩa“ cố định; không được thay động từ tùy ý.\nin Kraft treten (có hiệu lực) – zur Verfügung stehen/stellen (sẵn có/cung cấp) – zur Kenntnis nehmen (ghi nhận) – in Frage stellen (nghi ngờ) – Rücksicht nehmen auf + Akk (quan tâm, nể) – einen Antrag stellen (nộp đơn) – eine Entscheidung treffen (ra quyết định) – in Anspruch nehmen (sử dụng dịch vụ) – Maßnahmen ergreifen (áp dụng biện pháp) – Stellung nehmen zu (bày tỏ quan điểm) – in Betracht ziehen (cân nhắc) – zur Sprache bringen (đưa ra bàn) – Kritik üben an + Dat (phê bình) – Anwendung finden (được áp dụng).",
+   "questions": [
+    {
+     "q": "Das neue Gesetz ___ am 1. Januar in Kraft.",
+     "options": [
+      "steht",
+      "geht",
+      "tritt",
+      "nimmt"
+     ],
+     "answer": 2,
+     "vi": "Đạo luật mới có hiệu lực vào ngày 1 tháng 1.",
+     "explain": "Cụm cố định là „in Kraft treten“. „in Kraft stehen“ không tồn tại."
+    },
+    {
+     "q": "Für Fragen ___ ich Ihnen gern zur Verfügung.",
+     "options": [
+      "stelle",
+      "gebe",
+      "bin",
+      "stehe"
+     ],
+     "answer": 3,
+     "vi": "Tôi sẵn sàng giải đáp mọi thắc mắc của quý vị.",
+     "explain": "Người sẵn sàng → „zur Verfügung stehen“. „zur Verfügung stellen“ cần tân ngữ Akkusativ (cung cấp cái gì)."
+    },
+    {
+     "q": "Bitte nehmen Sie ___ auf die anderen Fahrgäste.",
+     "options": [
+      "Kenntnis",
+      "Rücksicht",
+      "Abschied",
+      "Stellung"
+     ],
+     "answer": 1,
+     "vi": "Xin quý khách hãy quan tâm đến những hành khách khác.",
+     "explain": "„Rücksicht nehmen auf + Akk“. „Stellung nehmen“ đi với „zu“, không đi với „auf“."
+    },
+    {
+     "q": "Wir haben Ihr Schreiben zur ___ genommen.",
+     "options": [
+      "Kenntnis",
+      "Verfügung",
+      "Sprache",
+      "Rücksicht"
+     ],
+     "answer": 0,
+     "vi": "Chúng tôi đã ghi nhận thư của quý vị.",
+     "explain": "„zur Kenntnis nehmen“ = ghi nhận. „zur Verfügung“ đi với „stehen/stellen“, không với „nehmen“."
+    },
+    {
+     "q": "Sie möchte beim Finanzamt einen Antrag auf Fristverlängerung ___.",
+     "options": [
+      "stellen",
+      "machen",
+      "geben",
+      "treffen"
+     ],
+     "answer": 0,
+     "vi": "Cô ấy muốn nộp đơn xin gia hạn thời hạn tại cơ quan thuế.",
+     "explain": "Cụm chuẩn là „einen Antrag stellen“. „einen Antrag machen“ là cách nói sai trong văn phong hành chính."
+    },
+    {
+     "q": "Die Regierung muss bald eine Entscheidung ___.",
+     "options": [
+      "machen",
+      "stellen",
+      "treffen",
+      "nehmen"
+     ],
+     "answer": 2,
+     "vi": "Chính phủ phải sớm đưa ra quyết định.",
+     "explain": "„eine Entscheidung treffen“. „eine Entscheidung machen“ là lỗi dịch từ tiếng Anh."
+    },
+    {
+     "q": "Der Anwalt stellt die Glaubwürdigkeit des Zeugen in ___.",
+     "options": [
+      "Kraft",
+      "Betracht",
+      "Kenntnis",
+      "Frage"
+     ],
+     "answer": 3,
+     "vi": "Luật sư đặt nghi vấn về độ tin cậy của nhân chứng.",
+     "explain": "„in Frage stellen“ = nghi ngờ. „in Betracht“ đi với „ziehen“, không với „stellen“."
+    },
+    {
+     "q": "Die Firma stellt den Mitarbeitern Laptops zur ___.",
+     "options": [
+      "Kenntnis",
+      "Verfügung",
+      "Sprache",
+      "Rücksicht"
+     ],
+     "answer": 1,
+     "vi": "Công ty cung cấp máy tính xách tay cho nhân viên.",
+     "explain": "„etwas zur Verfügung stellen“ = cung cấp. „zur Kenntnis“ đi với „nehmen/bringen“."
+    },
+    {
+     "q": "Viele Bürger nehmen die kostenlose Beratung in ___.",
+     "options": [
+      "Frage",
+      "Kraft",
+      "Betrieb",
+      "Anspruch"
+     ],
+     "answer": 3,
+     "vi": "Nhiều người dân sử dụng dịch vụ tư vấn miễn phí.",
+     "explain": "„in Anspruch nehmen“ = sử dụng (dịch vụ, quyền lợi). „in Betrieb nehmen“ dùng cho máy móc, công trình."
+    },
+    {
+     "q": "Die Behörde hat Maßnahmen gegen Steuerbetrug ___.",
+     "options": [
+      "genommen",
+      "ergriffen",
+      "gestellt",
+      "getreten"
+     ],
+     "answer": 1,
+     "vi": "Cơ quan chức năng đã áp dụng các biện pháp chống gian lận thuế.",
+     "explain": "„Maßnahmen ergreifen“ là cụm cố định. „Maßnahmen nehmen“ là lỗi thường gặp."
+    },
+    {
+     "q": "Der Minister nahm ___ den Vorwürfen Stellung.",
+     "options": [
+      "zu",
+      "an",
+      "über",
+      "für"
+     ],
+     "answer": 0,
+     "vi": "Bộ trưởng đã lên tiếng về các cáo buộc.",
+     "explain": "„Stellung nehmen zu + Dativ“. „über“ sai giới từ (và sẽ cần Akkusativ „die Vorwürfe“)."
+    },
+    {
+     "q": "Wir sollten auch eine Klage in Betracht ___.",
+     "options": [
+      "nehmen",
+      "stellen",
+      "ziehen",
+      "bringen"
+     ],
+     "answer": 2,
+     "vi": "Chúng ta cũng nên cân nhắc việc khởi kiện.",
+     "explain": "„in Betracht ziehen“ = cân nhắc. „in Betracht nehmen“ không tồn tại."
+    },
+    {
+     "q": "In der Sitzung brachte sie das Problem der Steuerhinterziehung zur ___.",
+     "options": [
+      "Kenntnis",
+      "Sprache",
+      "Verfügung",
+      "Frage"
+     ],
+     "answer": 1,
+     "vi": "Trong cuộc họp, bà ấy đã nêu vấn đề trốn thuế.",
+     "explain": "„zur Sprache bringen“ = đưa ra bàn. „zur Kenntnis bringen“ nghĩa là thông báo cho ai biết, cần tân ngữ người, không hợp ngữ cảnh."
+    },
+    {
+     "q": "Die Opposition übte scharfe Kritik ___ dem Haushaltsplan.",
+     "options": [
+      "an",
+      "über",
+      "gegen",
+      "zu"
+     ],
+     "answer": 0,
+     "vi": "Phe đối lập đã phê phán gay gắt dự thảo ngân sách.",
+     "explain": "„Kritik üben an + Dativ“. „gegen“ luôn đi với Akkusativ nên „gegen dem“ sai cả giới từ lẫn cách."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Die neue Verordnung nimmt ab sofort Anwendung.",
+      "Die neue Verordnung tritt ab sofort in Anwendung.",
+      "Die neue Verordnung stellt ab sofort Anwendung.",
+      "Die neue Verordnung findet ab sofort Anwendung."
+     ],
+     "answer": 3,
+     "vi": "Nghị định mới được áp dụng ngay từ bây giờ.",
+     "explain": "Cụm cố định là „Anwendung finden“. „in Anwendung treten“ là lẫn lộn với „in Kraft treten“."
+    }
+   ]
+  },
+  {
+   "title": "Giới từ trang trọng (Präpositionen mit Genitiv und Dativ in der Amtssprache)",
+   "intro": "Giới từ + Genitiv (văn phong trang trọng): aufgrund (do), infolge (do hậu quả của), angesichts (trước tình hình), hinsichtlich / bezüglich (liên quan đến), anlässlich (nhân dịp). Ví dụ: aufgrund des Unfalls, angesichts der hohen Kosten.\nGiới từ + Dativ: gemäß (theo, phù hợp với), entsprechend (tương ứng với), zufolge (theo nguồn tin – đứng SAU danh từ: dem Bericht zufolge). gemäß/entsprechend có thể đứng trước hoặc sau danh từ.\nlaut (theo nguồn): thường dùng không mạo từ: laut Gesetz, laut Vertrag.\nKhi danh từ Genitiv số nhiều không có mạo từ, tính từ mang đuôi mạnh -er: angesichts steigender Kosten.",
+   "questions": [
+    {
+     "q": "___ des schlechten Wetters wurde der Flug gestrichen.",
+     "options": [
+      "Aufgrund",
+      "Gemäß",
+      "Laut",
+      "Zufolge"
+     ],
+     "answer": 0,
+     "vi": "Do thời tiết xấu, chuyến bay đã bị hủy.",
+     "explain": "„aufgrund“ + Genitiv chỉ nguyên nhân. „Laut/Zufolge“ chỉ nguồn thông tin, không chỉ nguyên nhân."
+    },
+    {
+     "q": "Aufgrund ___ Krankheit konnte er nicht vor Gericht erscheinen.",
+     "options": [
+      "seine",
+      "seiner",
+      "seinem",
+      "seinen"
+     ],
+     "answer": 1,
+     "vi": "Do bị bệnh, anh ấy không thể có mặt tại tòa.",
+     "explain": "„aufgrund“ + Genitiv; „die Krankheit“ giống cái → „seiner“. „seinem“ là Dativ giống đực/trung."
+    },
+    {
+     "q": "Infolge ___ Unfalls war die Autobahn stundenlang gesperrt.",
+     "options": [
+      "dem",
+      "den",
+      "der",
+      "des"
+     ],
+     "answer": 3,
+     "vi": "Do vụ tai nạn, đường cao tốc bị phong tỏa hàng giờ liền.",
+     "explain": "„infolge“ + Genitiv; „der Unfall“ giống đực → „des Unfalls“. „dem“ là lỗi dùng Dativ."
+    },
+    {
+     "q": "Angesichts ___ hohen Inflation erhöht die Zentralbank die Zinsen.",
+     "options": [
+      "die",
+      "dem",
+      "der",
+      "den"
+     ],
+     "answer": 2,
+     "vi": "Trước tình trạng lạm phát cao, ngân hàng trung ương tăng lãi suất.",
+     "explain": "„angesichts“ + Genitiv; „die Inflation“ giống cái → „der hohen Inflation“. „die“ là Nominativ/Akkusativ."
+    },
+    {
+     "q": "Hinsichtlich ___ Antrags teilen wir Ihnen Folgendes mit.",
+     "options": [
+      "Ihrem",
+      "Ihren",
+      "Ihr",
+      "Ihres"
+     ],
+     "answer": 3,
+     "vi": "Liên quan đến đơn của quý vị, chúng tôi xin thông báo như sau.",
+     "explain": "„hinsichtlich“ + Genitiv; „der Antrag“ giống đực → „Ihres Antrags“. „Ihrem“ là Dativ."
+    },
+    {
+     "q": "Bezüglich ___ Steuerbescheids haben wir noch einige Fragen.",
+     "options": [
+      "des",
+      "dem",
+      "der",
+      "den"
+     ],
+     "answer": 0,
+     "vi": "Về quyết định thuế, chúng tôi còn một số câu hỏi.",
+     "explain": "„bezüglich“ + Genitiv; „der Steuerbescheid“ → „des Steuerbescheids“ (có -s ở danh từ). „dem“ là Dativ."
+    },
+    {
+     "q": "Dem Bericht ___ ist die Arbeitslosigkeit gesunken.",
+     "options": [
+      "laut",
+      "aufgrund",
+      "zufolge",
+      "infolge"
+     ],
+     "answer": 2,
+     "vi": "Theo bản báo cáo, tỷ lệ thất nghiệp đã giảm.",
+     "explain": "„zufolge“ đứng sau danh từ Dativ („dem Bericht zufolge“). „laut“ luôn đứng trước danh từ."
+    },
+    {
+     "q": "___ ist die Steuerreform gescheitert.",
+     "options": [
+      "Zufolge einem Zeitungsbericht",
+      "Einem Zeitungsbericht zufolge",
+      "Einen Zeitungsbericht zufolge",
+      "Ein Zeitungsbericht zufolge"
+     ],
+     "answer": 1,
+     "vi": "Theo một bài báo, cuộc cải cách thuế đã thất bại.",
+     "explain": "„zufolge“ đứng sau danh từ ở Dativ → „Einem Zeitungsbericht zufolge“. Đặt „zufolge“ lên trước với Dativ là sai."
+    },
+    {
+     "q": "Gemäß ___ Vertrag muss die Miete monatlich gezahlt werden.",
+     "options": [
+      "des",
+      "dem",
+      "den",
+      "der"
+     ],
+     "answer": 1,
+     "vi": "Theo hợp đồng, tiền thuê phải được trả hằng tháng.",
+     "explain": "„gemäß“ đi với Dativ → „dem Vertrag“. „des“ là lỗi do nhầm với các giới từ trang trọng đi với Genitiv."
+    },
+    {
+     "q": "___ Gesetz müssen Unternehmen ihre Bilanz veröffentlichen.",
+     "options": [
+      "Aufgrund",
+      "Infolge",
+      "Laut",
+      "Angesichts"
+     ],
+     "answer": 2,
+     "vi": "Theo luật, các doanh nghiệp phải công bố bảng cân đối kế toán.",
+     "explain": "„laut“ có thể đứng với danh từ không mạo từ, không biến cách („laut Gesetz“). Các giới từ Genitiv còn lại cần mạo từ và đuôi Genitiv."
+    },
+    {
+     "q": "Der Gesetzgeber hat die Regelung den neuen Anforderungen ___ angepasst.",
+     "options": [
+      "entsprechend",
+      "zufolge",
+      "laut",
+      "infolge"
+     ],
+     "answer": 0,
+     "vi": "Cơ quan lập pháp đã điều chỉnh quy định cho phù hợp với các yêu cầu mới.",
+     "explain": "„entsprechend“ (+ Dativ, có thể đứng sau) = phù hợp với. „zufolge“ chỉ nguồn thông tin nên sai nghĩa."
+    },
+    {
+     "q": "___ Ihrem Wunsch haben wir den Termin verschoben.",
+     "options": [
+      "Aufgrund",
+      "Angesichts",
+      "Hinsichtlich",
+      "Entsprechend"
+     ],
+     "answer": 3,
+     "vi": "Theo mong muốn của quý vị, chúng tôi đã dời lịch hẹn.",
+     "explain": "„Ihrem“ là Dativ → cần giới từ đi với Dativ như „entsprechend“. „Aufgrund“ đòi Genitiv („Ihres Wunsches“)."
+    },
+    {
+     "q": "Angesichts ___ Kosten wurde das Bauprojekt gestoppt.",
+     "options": [
+      "steigender",
+      "steigende",
+      "steigenden",
+      "steigend"
+     ],
+     "answer": 0,
+     "vi": "Trước tình trạng chi phí tăng, dự án xây dựng đã bị dừng.",
+     "explain": "Genitiv số nhiều không mạo từ → tính từ đuôi mạnh „-er“: „steigender Kosten“. „steigenden“ chỉ đúng khi có mạo từ („der steigenden Kosten“)."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Den Angaben des Ministeriums zufolge die Steuereinnahmen sinken.",
+      "Den Angaben des Ministeriums zufolge sinken die Steuereinnahmen.",
+      "Der Angaben des Ministeriums zufolge sinken die Steuereinnahmen.",
+      "Zufolge den Angaben des Ministeriums sinken die Steuereinnahmen."
+     ],
+     "answer": 1,
+     "vi": "Theo số liệu của Bộ, nguồn thu thuế đang giảm.",
+     "explain": "Cụm „Den Angaben … zufolge“ (Dativ, zufolge đứng sau) chiếm vị trí 1, sau đó là động từ „sinken“. Câu thứ hai sai vị trí động từ."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Hinsichtlich die geplante Reform gibt es noch offene Fragen.",
+      "Hinsichtlich der geplanten Reform es gibt noch offene Fragen.",
+      "Hinsichtlich der geplanten Reform gibt es noch offene Fragen.",
+      "Der geplanten Reform hinsichtlich gibt es noch offene Fragen."
+     ],
+     "answer": 2,
+     "vi": "Liên quan đến cuộc cải cách dự kiến vẫn còn những câu hỏi bỏ ngỏ.",
+     "explain": "„hinsichtlich“ đứng trước danh từ Genitiv („der geplanten Reform“), sau cụm này là động từ „gibt“. Câu thứ hai dùng Akkusativ nên sai."
+    }
+   ]
+  }
+ ]
+}

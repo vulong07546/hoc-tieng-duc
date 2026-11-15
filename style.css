@@ -520,3 +520,16 @@ summary { cursor: pointer; color: var(--muted); }
 .hard-item em { font-style: normal; font-size: 11px; margin-left: 6px; }
 .hard-item .forgets { color: var(--err); font-weight: 700; }
 .hard-item .exit { color: var(--ok); letter-spacing: 1px; }
+
+/* ===== Trắc nghiệm ===== */
+.choices { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; max-width: 640px; margin: 14px auto 6px; }
+.choice {
+  display: flex; align-items: center; gap: 10px; text-align: left; font: inherit; font-size: 17px; cursor: pointer;
+  background: var(--card); border: 2px solid var(--border); border-radius: 12px; padding: 12px 14px; transition: border-color .15s, background .15s;
+}
+.choice:hover:not(:disabled) { border-color: var(--lv, #333); background: #faf8f3; }
+.choice .ck { flex: none; width: 24px; height: 24px; border-radius: 6px; background: #f3f0e8; color: var(--muted); font-size: 13px; font-weight: 700; display: grid; place-items: center; }
+.choice.right { border-color: var(--ok); background: var(--ok-bg); font-weight: 600; }
+.choice.wrong { border-color: var(--err); background: var(--err-bg); text-decoration: line-through; }
+.choice:disabled { cursor: default; }
+@media (max-width: 560px) { .choices { grid-template-columns: 1fr; } }

@@ -9,6 +9,8 @@
   const V = typeof VOCAB !== "undefined" ? VOCAB : {};
   const G = typeof GRAMMAR !== "undefined" ? GRAMMAR : {};
   const P = typeof PHRASES !== "undefined" ? PHRASES : {};
+  const MC = typeof MCQ !== "undefined" ? MCQ : {};
+  const mcUnits = (lv) => ((MC[lv] || []).length ? MC[lv].length + 1 : 0);   // chủ đề + bài kiểm tra tổng hợp
   const R = typeof READING !== "undefined" ? READING : {};
   const W = typeof WRITING !== "undefined" ? WRITING.tasks : [];
 
@@ -29,11 +31,11 @@
     const writing = load("dw-writing-v1", {});
     const count = (set, lv) => [...set].filter((k) => k.startsWith(lv + "-")).length;
     const listenUnits = (lv) => (P[lv] || []).length + Math.ceil((V[lv] || []).length / 20);
-    const qs = { grammar: q("grammar"), phrases: q("phrases"), listen: q("listen"), speak: q("speak") };
+    const qs = { grammar: q("grammar"), mc: q("mc"), phrases: q("phrases"), listen: q("listen"), speak: q("speak") };
     const mk = (fnTotal, fnDone) => Object.fromEntries(LEVELS.map((lv) => [lv, { total: fnTotal(lv), done: fnDone(lv) }]));
     return [
       { key: "vocab", name: "📚 Từ vựng", core: true, lv: mk(vocabLessons, (lv) => count(vocabPass, lv)) },
-      { key: "grammar", name: "📐 Ngữ pháp", core: true, lv: mk((lv) => (G[lv] || []).length, (lv) => count(qs.grammar, lv)) },
+      { key: "grammar", name: "📐 Ngữ pháp", core: true, lv: mk((lv) => (G[lv] || []).length + mcUnits(lv), (lv) => count(qs.grammar, lv) + count(qs.mc, lv)) },
       { key: "listen", name: "🎧 Nghe", core: true, lv: mk(listenUnits, (lv) => count(qs.listen, lv)) },
       { key: "reading", name: "📖 Đọc", core: true, lv: mk((lv) => (R[lv] || []).length, (lv) => count(readPass, lv)) },
       { key: "phrases", name: "💬 Cụm từ", core: false, lv: mk((lv) => (P[lv] || []).length, (lv) => count(qs.phrases, lv)) },

@@ -1,0 +1,1121 @@
+{
+ "level": "A1",
+ "topics": [
+  {
+   "title": "Động từ khuyết thiếu (Modalverben: können, müssen, wollen, möchten, dürfen, sollen)",
+   "intro": "Động từ khuyết thiếu diễn tả khả năng (können), bắt buộc (müssen), ý muốn (wollen, möchten), sự cho phép (dürfen) và lời khuyên/yêu cầu của người khác (sollen). Ở ngôi ich và er/sie/es, động từ khuyết thiếu KHÔNG có đuôi: ich kann, er muss, sie will, es darf, ich möchte.\nBảng chia: ich kann/muss/will/darf/soll/möchte – du kannst/musst/willst/darfst/sollst/möchtest – er/sie/es kann/muss/will/darf/soll/möchte – wir/sie/Sie können/müssen/wollen/dürfen/sollen/möchten – ihr könnt/müsst/wollt/dürft/sollt/möchtet.\nKhung câu (Satzklammer): động từ khuyết thiếu đứng ở vị trí 2 (hoặc vị trí 1 trong câu hỏi Có/Không), động từ chính ở dạng nguyên mẫu đứng CUỐI câu: Ich kann heute nicht kommen. Kannst du mir helfen?",
+   "questions": [
+    {
+     "q": "Ich ___ gut schwimmen.",
+     "options": [
+      "kann",
+      "kannst",
+      "können",
+      "könnt"
+     ],
+     "answer": 0,
+     "vi": "Tôi có thể bơi giỏi.",
+     "explain": "Với ich, können chia là kann (không có đuôi). 'kannst' là dạng của du."
+    },
+    {
+     "q": "Du ___ heute deine Hausaufgaben machen.",
+     "options": [
+      "muss",
+      "müssen",
+      "musst",
+      "müsst"
+     ],
+     "answer": 2,
+     "vi": "Hôm nay bạn phải làm bài tập về nhà.",
+     "explain": "Với du, müssen chia là musst (không có Umlaut). 'muss' là dạng của ich/er."
+    },
+    {
+     "q": "Wir ___ am Samstag ins Kino gehen.",
+     "options": [
+      "will",
+      "wollen",
+      "willst",
+      "wollt"
+     ],
+     "answer": 1,
+     "vi": "Thứ Bảy chúng tôi muốn đi xem phim.",
+     "explain": "Với wir, wollen giữ nguyên dạng nguyên mẫu: wollen. 'wollt' là dạng của ihr."
+    },
+    {
+     "q": "___ ich hier rauchen?",
+     "options": [
+      "Darfst",
+      "Dürfen",
+      "Dürft",
+      "Darf"
+     ],
+     "answer": 3,
+     "vi": "Tôi có được phép hút thuốc ở đây không?",
+     "explain": "Với ich, dürfen chia là darf; trong câu hỏi Có/Không động từ khuyết thiếu đứng đầu. 'Darfst' là dạng của du."
+    },
+    {
+     "q": "Er ___ einen Kaffee trinken.",
+     "options": [
+      "möchtest",
+      "möchten",
+      "möchte",
+      "möchtet"
+     ],
+     "answer": 2,
+     "vi": "Anh ấy muốn uống một ly cà phê.",
+     "explain": "Với er, möchten chia là möchte (giống ich). 'möchtest' là dạng của du."
+    },
+    {
+     "q": "Ihr ___ im Unterricht leise sein.",
+     "options": [
+      "sollt",
+      "sollen",
+      "soll",
+      "sollst"
+     ],
+     "answer": 0,
+     "vi": "Các bạn nên giữ trật tự trong giờ học.",
+     "explain": "Với ihr, sollen chia là sollt. 'sollen' chỉ dùng cho wir, sie và Sie."
+    },
+    {
+     "q": "Maria ___ sehr gut Deutsch sprechen.",
+     "options": [
+      "kannst",
+      "können",
+      "kennt",
+      "kann"
+     ],
+     "answer": 3,
+     "vi": "Maria có thể nói tiếng Đức rất giỏi.",
+     "explain": "Chủ ngữ Maria là ngôi thứ ba số ít nên dùng kann. 'kennt' là động từ kennen (quen biết), không đi với động từ nguyên mẫu."
+    },
+    {
+     "q": "Ich möchte morgen nach Berlin ___.",
+     "options": [
+      "fahre",
+      "fahren",
+      "fährt",
+      "gefahren"
+     ],
+     "answer": 1,
+     "vi": "Ngày mai tôi muốn đi Berlin.",
+     "explain": "Sau động từ khuyết thiếu, động từ chính đứng cuối câu ở dạng nguyên mẫu: fahren. 'fahre' là dạng đã chia, sai ở vị trí này."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Ich muss heute arbeite.",
+      "Ich muss heute arbeiten.",
+      "Ich heute muss arbeiten.",
+      "Ich arbeiten muss heute."
+     ],
+     "answer": 1,
+     "vi": "Hôm nay tôi phải làm việc.",
+     "explain": "Động từ khuyết thiếu ở vị trí 2, động từ nguyên mẫu arbeiten ở cuối câu. 'arbeite' là dạng đã chia nên sai."
+    },
+    {
+     "q": "Herr und Frau Weber, Sie ___ hier nicht parken.",
+     "options": [
+      "darf",
+      "darfst",
+      "dürft",
+      "dürfen"
+     ],
+     "answer": 3,
+     "vi": "Ông bà Weber, ông bà không được phép đỗ xe ở đây.",
+     "explain": "Với Sie (lịch sự), dürfen giữ dạng nguyên mẫu. 'dürft' là dạng của ihr."
+    },
+    {
+     "q": "___ du mir bitte helfen?",
+     "options": [
+      "Kannst",
+      "Kann",
+      "Könnt",
+      "Können"
+     ],
+     "answer": 0,
+     "vi": "Bạn có thể giúp tôi được không?",
+     "explain": "Với du, können chia là kannst và đứng đầu câu hỏi. 'Kann' là dạng của ich/er."
+    },
+    {
+     "q": "Der Arzt sagt, ich ___ mehr Wasser trinken.",
+     "options": [
+      "sollst",
+      "sollen",
+      "soll",
+      "sollt"
+     ],
+     "answer": 2,
+     "vi": "Bác sĩ nói tôi nên uống nhiều nước hơn.",
+     "explain": "Lời khuyên của người khác dùng sollen; với ich chia là soll (không có đuôi). 'sollst' là dạng của du."
+    },
+    {
+     "q": "Morgen ist Sonntag, da ___ wir nicht arbeiten.",
+     "options": [
+      "muss",
+      "musst",
+      "müsst",
+      "müssen"
+     ],
+     "answer": 3,
+     "vi": "Ngày mai là Chủ nhật, nên chúng tôi không phải làm việc.",
+     "explain": "Với wir, müssen giữ nguyên dạng: müssen. 'müsst' là dạng của ihr."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Kann du morgen zur Party kommen?",
+      "Kannst du morgen zur Party kommen?",
+      "Kannst du kommen morgen zur Party?",
+      "Kannst du morgen zur Party kommst?"
+     ],
+     "answer": 1,
+     "vi": "Ngày mai bạn có thể đến bữa tiệc không?",
+     "explain": "Đúng là Kannst (ngôi du) ở đầu câu và kommen nguyên mẫu ở cuối câu. 'Kannst du kommen morgen…' sai vì động từ nguyên mẫu không đứng cuối."
+    },
+    {
+     "q": "Mein Bruder ___ Arzt werden.",
+     "options": [
+      "will",
+      "willst",
+      "wollt",
+      "willt"
+     ],
+     "answer": 0,
+     "vi": "Anh trai tôi muốn trở thành bác sĩ.",
+     "explain": "Với er (mein Bruder), wollen chia là will. 'willst' là dạng của du; 'willt' không tồn tại."
+    }
+   ]
+  },
+  {
+   "title": "Động từ tách được (trennbare Verben)",
+   "intro": "Động từ tách được gồm một tiền tố (an-, auf-, aus-, ein-, mit-, zu-, fern-…) và một động từ gốc, ví dụ anrufen, aufstehen, einkaufen, fernsehen, mitbringen. Ở thì hiện tại, phần động từ gốc được chia và đứng ở vị trí 2, còn tiền tố tách ra và đứng CUỐI câu: Ich stehe um 7 Uhr auf. Er ruft seine Mutter an.\nTrong câu hỏi Có/Không và câu mệnh lệnh, động từ chia đứng đầu, tiền tố vẫn ở cuối: Kaufst du heute ein?\nKhi có động từ khuyết thiếu, động từ tách được đứng cuối câu ở dạng nguyên mẫu viết liền: Ich muss morgen früh aufstehen.\nLưu ý: phần gốc vẫn biến đổi nguyên âm như bình thường: anfangen → er fängt an, fernsehen → du siehst fern.",
+   "questions": [
+    {
+     "q": "Ich ___ jeden Tag um 7 Uhr auf.",
+     "options": [
+      "aufstehe",
+      "stehe",
+      "stehst",
+      "steht"
+     ],
+     "answer": 1,
+     "vi": "Mỗi ngày tôi thức dậy lúc 7 giờ.",
+     "explain": "Ở thì hiện tại chỉ phần gốc 'stehe' đứng ở vị trí 2, tiền tố auf ở cuối câu. 'aufstehe' sai vì tiền tố không được dính vào."
+    },
+    {
+     "q": "Wir kaufen heute im Supermarkt ___.",
+     "options": [
+      "auf",
+      "fern",
+      "los",
+      "ein"
+     ],
+     "answer": 3,
+     "vi": "Hôm nay chúng tôi đi mua sắm ở siêu thị.",
+     "explain": "Động từ là einkaufen (mua sắm), nên tiền tố ein đứng cuối câu. 'auf' không tạo thành động từ có nghĩa với kaufen ở đây."
+    },
+    {
+     "q": "Der Film ___ um 20 Uhr an.",
+     "options": [
+      "fangt",
+      "anfängt",
+      "fängt",
+      "fange"
+     ],
+     "answer": 2,
+     "vi": "Bộ phim bắt đầu lúc 20 giờ.",
+     "explain": "anfangen biến âm a → ä ở ngôi er/sie/es: er fängt … an. 'fangt' thiếu Umlaut (đó là dạng của ihr)."
+    },
+    {
+     "q": "Wann ___ der Zug in Berlin an?",
+     "options": [
+      "kommt",
+      "ankommt",
+      "kommen",
+      "kommst"
+     ],
+     "answer": 0,
+     "vi": "Khi nào tàu đến Berlin?",
+     "explain": "Động từ ankommen: phần gốc kommt đứng sau từ để hỏi, tiền tố an ở cuối. 'ankommt' sai vì tiền tố phải tách ra."
+    },
+    {
+     "q": "Ich rufe dich morgen ___.",
+     "options": [
+      "ein",
+      "fern",
+      "los",
+      "an"
+     ],
+     "answer": 3,
+     "vi": "Ngày mai tôi sẽ gọi điện cho bạn.",
+     "explain": "Gọi điện là anrufen, nên tiền tố an đứng cuối câu. Các tiền tố khác không đi với rufen theo nghĩa này."
+    },
+    {
+     "q": "Kannst du bitte das Fenster ___?",
+     "options": [
+      "machen auf",
+      "aufmachen",
+      "aufmachst",
+      "auf machst"
+     ],
+     "answer": 1,
+     "vi": "Bạn có thể mở cửa sổ được không?",
+     "explain": "Sau động từ khuyết thiếu, động từ tách được đứng cuối ở dạng nguyên mẫu viết liền: aufmachen. 'aufmachst' sai vì không được chia động từ ở cuối."
+    },
+    {
+     "q": "Ich möchte heute Abend ___.",
+     "options": [
+      "fernsehen",
+      "sehe fern",
+      "fern sehen",
+      "fernsehe"
+     ],
+     "answer": 0,
+     "vi": "Tối nay tôi muốn xem tivi.",
+     "explain": "Có möchte nên dùng nguyên mẫu viết liền fernsehen ở cuối câu. 'sehe fern' chỉ dùng khi không có động từ khuyết thiếu."
+    },
+    {
+     "q": "Er ___ seine Freundin zur Party mit.",
+     "options": [
+      "mitbringt",
+      "bringst",
+      "bringt",
+      "bringen"
+     ],
+     "answer": 2,
+     "vi": "Anh ấy dẫn bạn gái theo đến bữa tiệc.",
+     "explain": "mitbringen: phần gốc bringt (ngôi er) ở vị trí 2, mit ở cuối. 'mitbringt' sai vì tiền tố bị dính vào."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Ich einkaufe heute im Supermarkt.",
+      "Ich kaufe ein heute im Supermarkt.",
+      "Ich kaufe heute im Supermarkt ein.",
+      "Ich heute kaufe im Supermarkt ein."
+     ],
+     "answer": 2,
+     "vi": "Hôm nay tôi mua sắm ở siêu thị.",
+     "explain": "Tiền tố ein phải đứng ở cuối câu, sau tất cả các thành phần khác. 'Ich kaufe ein heute…' sai vì tiền tố đứng quá sớm."
+    },
+    {
+     "q": "Wir müssen morgen sehr früh ___.",
+     "options": [
+      "aufstehen",
+      "stehen auf",
+      "aufstehe",
+      "aufgestanden"
+     ],
+     "answer": 0,
+     "vi": "Ngày mai chúng tôi phải dậy rất sớm.",
+     "explain": "Với müssen, động từ chính đứng cuối ở dạng nguyên mẫu: aufstehen. 'stehen auf' sai vì khi có động từ khuyết thiếu thì không tách."
+    },
+    {
+     "q": "Du ___ heute sehr müde aus.",
+     "options": [
+      "sehst",
+      "siehst",
+      "aussiehst",
+      "sieht"
+     ],
+     "answer": 1,
+     "vi": "Hôm nay trông bạn rất mệt.",
+     "explain": "aussehen biến âm e → ie ở ngôi du: du siehst … aus. 'sehst' sai vì thiếu biến âm."
+    },
+    {
+     "q": "Wann ___ du morgen ab?",
+     "options": [
+      "fahrst",
+      "abfährst",
+      "fährt",
+      "fährst"
+     ],
+     "answer": 3,
+     "vi": "Ngày mai khi nào bạn khởi hành?",
+     "explain": "abfahren biến âm a → ä ở ngôi du: du fährst … ab. 'fahrst' sai vì thiếu Umlaut."
+    },
+    {
+     "q": "Ich will meine Mutter am Sonntag ___.",
+     "options": [
+      "anrufen",
+      "rufe an",
+      "anrufe",
+      "rufen an"
+     ],
+     "answer": 0,
+     "vi": "Tôi muốn gọi điện cho mẹ vào Chủ nhật.",
+     "explain": "Có will nên động từ tách được đứng cuối ở dạng nguyên mẫu viết liền: anrufen. 'rufe an' sai vì động từ chính không được chia khi đã có động từ khuyết thiếu."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Sie aufräumt am Samstag ihr Zimmer.",
+      "Sie räumt auf am Samstag ihr Zimmer.",
+      "Sie räumt am Samstag ihr Zimmer auf.",
+      "Sie räumt am Samstag auf ihr Zimmer."
+     ],
+     "answer": 2,
+     "vi": "Thứ Bảy cô ấy dọn phòng của mình.",
+     "explain": "aufräumen: räumt ở vị trí 2, auf ở cuối câu sau tân ngữ. 'Sie räumt am Samstag auf ihr Zimmer' sai vì tiền tố đứng trước tân ngữ."
+    },
+    {
+     "q": "Der Unterricht hört heute um 12 Uhr ___.",
+     "options": [
+      "an",
+      "auf",
+      "aus",
+      "ab"
+     ],
+     "answer": 1,
+     "vi": "Hôm nay buổi học kết thúc lúc 12 giờ.",
+     "explain": "Kết thúc là aufhören, nên tiền tố auf đứng cuối câu. 'an' (anhören = lắng nghe) không mang nghĩa kết thúc."
+    }
+   ]
+  },
+  {
+   "title": "Mạo từ sở hữu (Possessivartikel)",
+   "intro": "Mạo từ sở hữu: ich → mein, du → dein, er/es → sein, sie (cô ấy) → ihr, wir → unser, ihr → euer, sie (họ) → ihr, Sie (lịch sự) → Ihr (viết hoa).\nĐuôi giống mạo từ không xác định ein/kein:\nNominativ: der → mein, das → mein, die → meine, số nhiều → meine\nAkkusativ: der → meinen, das → mein, die → meine, số nhiều → meine\nChỉ giống đực ở Akkusativ mới đổi: Das ist mein Bruder. – Ich besuche meinen Bruder.\nLưu ý: euer mất chữ e khi có đuôi: euer Lehrer, nhưng eure Schwester, euren Hund.",
+   "questions": [
+    {
+     "q": "Das ist ___ Bruder. (ich)",
+     "options": [
+      "meine",
+      "meinen",
+      "mein",
+      "meiner"
+     ],
+     "answer": 2,
+     "vi": "Đây là anh trai tôi.",
+     "explain": "Bruder là giống đực, ở Nominativ dùng mein không có đuôi. 'meinen' là dạng Akkusativ."
+    },
+    {
+     "q": "Das ist ___ Mutter. (ich)",
+     "options": [
+      "meine",
+      "mein",
+      "meinen",
+      "meines"
+     ],
+     "answer": 0,
+     "vi": "Đây là mẹ tôi.",
+     "explain": "Mutter là giống cái (die), nên dùng meine. 'mein' chỉ dùng cho giống đực/trung ở Nominativ."
+    },
+    {
+     "q": "Wie heißt ___ Schwester? (du)",
+     "options": [
+      "dein",
+      "deinen",
+      "deiner",
+      "deine"
+     ],
+     "answer": 3,
+     "vi": "Chị/em gái của bạn tên là gì?",
+     "explain": "Schwester là giống cái, Nominativ nên dùng deine. 'dein' sai vì thiếu đuôi -e."
+    },
+    {
+     "q": "Peter sucht ___ Ausweis. (er)",
+     "options": [
+      "sein",
+      "seinen",
+      "seine",
+      "seiner"
+     ],
+     "answer": 1,
+     "vi": "Peter đang tìm chứng minh thư của anh ấy.",
+     "explain": "Ausweis là giống đực và là tân ngữ (Akkusativ), nên dùng seinen. 'sein' là dạng Nominativ."
+    },
+    {
+     "q": "Anna liebt ___ Katze. (sie)",
+     "options": [
+      "ihre",
+      "ihr",
+      "ihren",
+      "ihrer"
+     ],
+     "answer": 0,
+     "vi": "Anna yêu con mèo của cô ấy.",
+     "explain": "Katze là giống cái, Akkusativ giống cái vẫn là ihre. 'ihren' chỉ dùng cho giống đực ở Akkusativ."
+    },
+    {
+     "q": "Wir besuchen am Sonntag ___ Großeltern.",
+     "options": [
+      "unser",
+      "unseren",
+      "unsere",
+      "unserer"
+     ],
+     "answer": 2,
+     "vi": "Chủ nhật chúng tôi đi thăm ông bà của chúng tôi.",
+     "explain": "Großeltern là số nhiều, Akkusativ số nhiều dùng unsere. 'unseren' là đuôi của giống đực Akkusativ."
+    },
+    {
+     "q": "Kinder, wo ist ___ Lehrer?",
+     "options": [
+      "eure",
+      "euer",
+      "euren",
+      "eurer"
+     ],
+     "answer": 1,
+     "vi": "Các em ơi, thầy giáo của các em đâu rồi?",
+     "explain": "Lehrer là giống đực ở Nominativ nên dùng euer không đuôi. 'euren' là dạng Akkusativ."
+    },
+    {
+     "q": "Herr Müller, ist das ___ Auto?",
+     "options": [
+      "Ihre",
+      "Ihren",
+      "Ihrer",
+      "Ihr"
+     ],
+     "answer": 3,
+     "vi": "Ông Müller, đây có phải là xe hơi của ông không?",
+     "explain": "Nói lịch sự với Sie dùng Ihr viết hoa; Auto là giống trung ở Nominativ nên không có đuôi. 'Ihre' dùng cho giống cái hoặc số nhiều."
+    },
+    {
+     "q": "Ich habe ___ Handy zu Hause vergessen.",
+     "options": [
+      "meinen",
+      "meine",
+      "meinem",
+      "mein"
+     ],
+     "answer": 3,
+     "vi": "Tôi đã để quên điện thoại ở nhà.",
+     "explain": "Handy là giống trung (das); Akkusativ giống trung vẫn là mein. 'meinen' chỉ dùng cho giống đực."
+    },
+    {
+     "q": "Kennst du ___ Freund Tom? (ich)",
+     "options": [
+      "mein",
+      "meinen",
+      "meine",
+      "meiner"
+     ],
+     "answer": 1,
+     "vi": "Bạn có biết Tom, bạn của tôi không?",
+     "explain": "Freund là giống đực và là tân ngữ của kennen (Akkusativ), nên dùng meinen. 'mein' là dạng Nominativ."
+    },
+    {
+     "q": "Wo sind ___ Eltern? (du)",
+     "options": [
+      "dein",
+      "deinen",
+      "deine",
+      "deiner"
+     ],
+     "answer": 2,
+     "vi": "Bố mẹ bạn ở đâu?",
+     "explain": "Eltern là số nhiều, Nominativ dùng deine. 'dein' sai vì số nhiều cần đuôi -e."
+    },
+    {
+     "q": "Ihr habt ein Haus. ___ Haus ist sehr schön.",
+     "options": [
+      "Euer",
+      "Eure",
+      "Euren",
+      "Eures"
+     ],
+     "answer": 0,
+     "vi": "Các bạn có một ngôi nhà. Ngôi nhà của các bạn rất đẹp.",
+     "explain": "Haus là giống trung, Nominativ nên dùng Euer không đuôi. 'Eure' dùng cho giống cái hoặc số nhiều."
+    },
+    {
+     "q": "Lisa und Tom besuchen heute ___ Freunde.",
+     "options": [
+      "ihren",
+      "ihre",
+      "ihr",
+      "ihrer"
+     ],
+     "answer": 1,
+     "vi": "Hôm nay Lisa và Tom đi thăm bạn bè của họ.",
+     "explain": "Lisa und Tom = sie (họ) → ihr; Freunde là số nhiều Akkusativ nên dùng ihre. 'ihren' là đuôi giống đực Akkusativ."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Wir suchen unser Hund.",
+      "Wir suchen unsere Hund.",
+      "Wir suchen unseres Hund.",
+      "Wir suchen unseren Hund."
+     ],
+     "answer": 3,
+     "vi": "Chúng tôi đang tìm con chó của chúng tôi.",
+     "explain": "Hund là giống đực, làm tân ngữ (Akkusativ) nên cần đuôi -en: unseren. 'unser Hund' chỉ đúng ở Nominativ."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Habt ihr euer Bücher?",
+      "Habt ihr euren Bücher?",
+      "Habt ihr eure Bücher?",
+      "Habt ihr eures Bücher?"
+     ],
+     "answer": 2,
+     "vi": "Các bạn có mang sách của mình không?",
+     "explain": "Bücher là số nhiều Akkusativ nên dùng eure (euer mất e khi có đuôi). 'euren Bücher' sai vì -en là đuôi giống đực Akkusativ."
+    }
+   ]
+  },
+  {
+   "title": "Câu mệnh lệnh (Imperativ)",
+   "intro": "Câu mệnh lệnh có ba dạng:\ndu: lấy dạng chia của du, bỏ đuôi -st và bỏ đại từ: du kommst → Komm! Động từ đổi e → i/ie vẫn giữ: Gib! Lies! Iss! Nimm! Nhưng a → ä thì KHÔNG giữ: du fährst → Fahr! Gốc tận cùng -t/-d thêm -e: Warte! Arbeite!\nihr: giống dạng chia của ihr, bỏ đại từ: Kommt! Lest!\nSie: động từ nguyên mẫu + Sie: Kommen Sie! Nehmen Sie Platz!\nĐộng từ tách được: tiền tố đứng cuối: Mach das Fenster auf! Ruf mich an!\nsein là bất quy tắc: Sei ruhig! – Seid ruhig! – Seien Sie ruhig!",
+   "questions": [
+    {
+     "q": "___ bitte schnell! (du – kommen)",
+     "options": [
+      "Kommst",
+      "Kommen",
+      "Kommt",
+      "Komm"
+     ],
+     "answer": 3,
+     "vi": "Đến nhanh lên nhé!",
+     "explain": "Mệnh lệnh với du: bỏ đuôi -st và đại từ: Komm! 'Kommt' là dạng mệnh lệnh của ihr."
+    },
+    {
+     "q": "___ Sie bitte Platz! (nehmen)",
+     "options": [
+      "Nimm",
+      "Nehmen",
+      "Nehmt",
+      "Nimmst"
+     ],
+     "answer": 1,
+     "vi": "Xin mời ông/bà ngồi!",
+     "explain": "Với Sie dùng nguyên mẫu + Sie: Nehmen Sie! 'Nimm' là mệnh lệnh của du."
+    },
+    {
+     "q": "Kinder, ___ bitte leise!",
+     "options": [
+      "seid",
+      "sei",
+      "seien",
+      "sind"
+     ],
+     "answer": 0,
+     "vi": "Các con ơi, hãy giữ yên lặng nhé!",
+     "explain": "Nói với nhiều trẻ (ihr), mệnh lệnh của sein là seid. 'sei' chỉ dùng cho du."
+    },
+    {
+     "q": "___ das Buch! (du – lesen)",
+     "options": [
+      "Les",
+      "Lest",
+      "Lies",
+      "Liest"
+     ],
+     "answer": 2,
+     "vi": "Hãy đọc cuốn sách đi!",
+     "explain": "lesen đổi e → ie ở ngôi du (du liest), nên mệnh lệnh là Lies! 'Les' sai vì thiếu biến âm."
+    },
+    {
+     "q": "___ doch langsamer! (du – fahren)",
+     "options": [
+      "Fähr",
+      "Fahr",
+      "Fährst",
+      "Fahrt"
+     ],
+     "answer": 1,
+     "vi": "Lái chậm hơn đi!",
+     "explain": "Biến âm a → ä không được giữ trong mệnh lệnh: Fahr! 'Fähr' sai vì giữ Umlaut."
+    },
+    {
+     "q": "Mach bitte das Fenster ___!",
+     "options": [
+      "an",
+      "ein",
+      "mit",
+      "auf"
+     ],
+     "answer": 3,
+     "vi": "Mở cửa sổ ra giùm nhé!",
+     "explain": "aufmachen (mở) là động từ tách được, tiền tố auf đứng cuối câu mệnh lệnh. 'an' (anmachen = bật) không dùng cho cửa sổ."
+    },
+    {
+     "q": "___ Sie bitte hier! (warten)",
+     "options": [
+      "Wartet",
+      "Warte",
+      "Warten",
+      "Wartest"
+     ],
+     "answer": 2,
+     "vi": "Xin ông/bà vui lòng đợi ở đây!",
+     "explain": "Với Sie dùng nguyên mẫu Warten + Sie. 'Warte' là mệnh lệnh của du."
+    },
+    {
+     "q": "___ ruhig, Paul!",
+     "options": [
+      "Sei",
+      "Bist",
+      "Seid",
+      "Seien"
+     ],
+     "answer": 0,
+     "vi": "Paul, im lặng nào!",
+     "explain": "Nói với một người thân (du), mệnh lệnh của sein là Sei. 'Seid' dùng cho ihr."
+    },
+    {
+     "q": "Ihr seid müde. ___ doch ins Bett!",
+     "options": [
+      "Geht",
+      "Gehen",
+      "Geh",
+      "Gehst"
+     ],
+     "answer": 0,
+     "vi": "Các con mệt rồi. Đi ngủ đi!",
+     "explain": "Với ihr, mệnh lệnh giống dạng chia ihr: Geht! 'Geh' chỉ dùng cho du."
+    },
+    {
+     "q": "___ mir bitte das Salz! (du – geben)",
+     "options": [
+      "Geb",
+      "Gibst",
+      "Gib",
+      "Gebt"
+     ],
+     "answer": 2,
+     "vi": "Đưa giùm mình lọ muối!",
+     "explain": "geben đổi e → i ở ngôi du (du gibst), nên mệnh lệnh là Gib! 'Geb' sai vì thiếu biến âm."
+    },
+    {
+     "q": "Ruf mich bitte morgen ___!",
+     "options": [
+      "auf",
+      "ein",
+      "zu",
+      "an"
+     ],
+     "answer": 3,
+     "vi": "Ngày mai nhớ gọi điện cho mình nhé!",
+     "explain": "anrufen là động từ tách được, nên an đứng cuối câu mệnh lệnh. 'auf' (aufrufen = gọi tên) không mang nghĩa gọi điện."
+    },
+    {
+     "q": "___ bitte pünktlich, Frau Schmidt!",
+     "options": [
+      "Sind Sie",
+      "Seien Sie",
+      "Sei",
+      "Seid Sie"
+     ],
+     "answer": 1,
+     "vi": "Bà Schmidt, xin bà vui lòng đến đúng giờ!",
+     "explain": "Mệnh lệnh lịch sự của sein là Seien Sie. 'Sind Sie' là câu hỏi, không phải mệnh lệnh."
+    },
+    {
+     "q": "___ nicht so viel Schokolade! (du – essen)",
+     "options": [
+      "Ess",
+      "Isst",
+      "Iss",
+      "Esst"
+     ],
+     "answer": 2,
+     "vi": "Đừng ăn nhiều sô-cô-la như thế!",
+     "explain": "essen đổi e → i ở ngôi du (du isst), mệnh lệnh là Iss! 'Ess' sai vì thiếu biến âm."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Steh bitte früh auf!",
+      "Aufsteh bitte früh!",
+      "Stehst bitte früh auf!",
+      "Steh auf bitte früh!"
+     ],
+     "answer": 0,
+     "vi": "Nhớ dậy sớm nhé!",
+     "explain": "Mệnh lệnh du: Steh đứng đầu, tiền tố auf ở cuối câu. 'Stehst' sai vì mệnh lệnh không có đuôi -st."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp? (ihr)",
+     "options": [
+      "Einkauft bitte Brot!",
+      "Kaufen bitte Brot ein!",
+      "Kauf ihr bitte Brot ein!",
+      "Kauft bitte Brot ein!"
+     ],
+     "answer": 3,
+     "vi": "Các bạn mua bánh mì nhé!",
+     "explain": "Mệnh lệnh ihr: Kauft đứng đầu, bỏ đại từ, tiền tố ein ở cuối. 'Kaufen bitte Brot ein!' sai vì dạng Kaufen cần có Sie đi kèm."
+    }
+   ]
+  },
+  {
+   "title": "Giới từ thời gian & nơi chốn cơ bản (am, um, im, von…bis; in, aus, nach, bei, zu)",
+   "intro": "Thời gian: um + giờ (um 8 Uhr); am + ngày trong tuần, buổi trong ngày, cuối tuần (am Montag, am Abend, am Wochenende) – nhưng in der Nacht; im + tháng, mùa (im Mai, im Sommer); von … bis … cho khoảng thời gian (von 9 bis 17 Uhr).\nNơi chốn: in = ở trong thành phố/nước (in Berlin); aus = đến từ (aus Vietnam); nach = đi đến thành phố/nước không có mạo từ (nach Berlin) và nach Hause (về nhà); zu = đi đến người hoặc địa điểm (zum Arzt, zur Schule; zum = zu dem, zur = zu der); bei = ở chỗ người/công ty (bei Siemens, beim Arzt, bei meiner Oma).\nCố định: zu Hause = ở nhà, nach Hause = về nhà.",
+   "questions": [
+    {
+     "q": "Der Kurs beginnt ___ 9 Uhr.",
+     "options": [
+      "um",
+      "am",
+      "im",
+      "in"
+     ],
+     "answer": 0,
+     "vi": "Khóa học bắt đầu lúc 9 giờ.",
+     "explain": "Trước giờ đồng hồ dùng um. 'am' dùng cho ngày trong tuần."
+    },
+    {
+     "q": "Ich habe ___ Montag frei.",
+     "options": [
+      "um",
+      "im",
+      "am",
+      "in"
+     ],
+     "answer": 2,
+     "vi": "Thứ Hai tôi được nghỉ.",
+     "explain": "Trước các ngày trong tuần dùng am. 'um' chỉ dùng với giờ."
+    },
+    {
+     "q": "Mein Geburtstag ist ___ Mai.",
+     "options": [
+      "am",
+      "im",
+      "um",
+      "in"
+     ],
+     "answer": 1,
+     "vi": "Sinh nhật tôi vào tháng Năm.",
+     "explain": "Trước tên tháng dùng im (= in dem). 'am' dùng cho ngày, không dùng cho tháng."
+    },
+    {
+     "q": "Ich komme ___ Vietnam.",
+     "options": [
+      "von",
+      "in",
+      "nach",
+      "aus"
+     ],
+     "answer": 3,
+     "vi": "Tôi đến từ Việt Nam.",
+     "explain": "Nói về quê quán dùng aus. 'von' không dùng để chỉ nguồn gốc quốc gia."
+    },
+    {
+     "q": "Wir fliegen morgen ___ Berlin.",
+     "options": [
+      "zu",
+      "bei",
+      "nach",
+      "um"
+     ],
+     "answer": 2,
+     "vi": "Ngày mai chúng tôi bay đến Berlin.",
+     "explain": "Đi đến thành phố không có mạo từ dùng nach. 'zu' dùng cho người hoặc địa điểm như zum Arzt."
+    },
+    {
+     "q": "Ich wohne ___ Hamburg.",
+     "options": [
+      "in",
+      "nach",
+      "bei",
+      "zu"
+     ],
+     "answer": 0,
+     "vi": "Tôi sống ở Hamburg.",
+     "explain": "Ở trong một thành phố dùng in. 'nach' chỉ hướng đi đến, không dùng với wohnen."
+    },
+    {
+     "q": "Ich arbeite von 9 ___ 17 Uhr.",
+     "options": [
+      "zu",
+      "nach",
+      "um",
+      "bis"
+     ],
+     "answer": 3,
+     "vi": "Tôi làm việc từ 9 giờ đến 17 giờ.",
+     "explain": "Khoảng thời gian dùng cặp von … bis. 'zu' không đi với von để chỉ thời gian."
+    },
+    {
+     "q": "Ich gehe heute ___ Arzt.",
+     "options": [
+      "beim",
+      "zum",
+      "nach",
+      "zur"
+     ],
+     "answer": 1,
+     "vi": "Hôm nay tôi đi khám bác sĩ.",
+     "explain": "Đi đến chỗ một người dùng zu; der Arzt là giống đực nên zu dem = zum. 'beim' chỉ vị trí (ở chỗ bác sĩ), không chỉ hướng đi."
+    },
+    {
+     "q": "Mein Vater arbeitet ___ Siemens.",
+     "options": [
+      "in",
+      "bei",
+      "zu",
+      "nach"
+     ],
+     "answer": 1,
+     "vi": "Bố tôi làm việc ở công ty Siemens.",
+     "explain": "Làm việc ở một công ty dùng bei. 'in' không dùng trước tên công ty."
+    },
+    {
+     "q": "Am Abend gehe ich ___ Hause.",
+     "options": [
+      "zu",
+      "bei",
+      "in",
+      "nach"
+     ],
+     "answer": 3,
+     "vi": "Buổi tối tôi về nhà.",
+     "explain": "Về nhà (có chuyển động) là nach Hause. 'zu Hause' nghĩa là ở nhà, không dùng với gehen."
+    },
+    {
+     "q": "Heute bleibe ich ___ Hause.",
+     "options": [
+      "zu",
+      "nach",
+      "in",
+      "bei"
+     ],
+     "answer": 0,
+     "vi": "Hôm nay tôi ở nhà.",
+     "explain": "Ở nhà (không chuyển động) là zu Hause. 'nach Hause' chỉ dùng khi đi về nhà."
+    },
+    {
+     "q": "___ Wochenende besuche ich meine Oma.",
+     "options": [
+      "Im",
+      "Um",
+      "Am",
+      "In"
+     ],
+     "answer": 2,
+     "vi": "Cuối tuần tôi đi thăm bà.",
+     "explain": "Cuối tuần dùng am: am Wochenende. 'Im' dùng cho tháng và mùa."
+    },
+    {
+     "q": "Die Kinder gehen jeden Morgen ___ Schule.",
+     "options": [
+      "zum",
+      "nach",
+      "bei",
+      "zur"
+     ],
+     "answer": 3,
+     "vi": "Mỗi sáng bọn trẻ đi học.",
+     "explain": "die Schule là giống cái nên zu der = zur. 'zum' chỉ dùng cho danh từ giống đực/trung."
+    },
+    {
+     "q": "Ich schlafe ___ der Nacht sehr gut.",
+     "options": [
+      "am",
+      "in",
+      "um",
+      "im"
+     ],
+     "answer": 1,
+     "vi": "Ban đêm tôi ngủ rất ngon.",
+     "explain": "Ngoại lệ: các buổi trong ngày dùng am, nhưng ban đêm là in der Nacht. 'am der Nacht' sai vì am đã chứa mạo từ."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Ich fahre am Samstag zu meiner Oma.",
+      "Ich fahre am Samstag nach meiner Oma.",
+      "Ich fahre im Samstag zu meiner Oma.",
+      "Ich fahre um Samstag bei meiner Oma."
+     ],
+     "answer": 0,
+     "vi": "Thứ Bảy tôi đi đến nhà bà.",
+     "explain": "Đi đến chỗ một người dùng zu, ngày trong tuần dùng am. 'nach meiner Oma' sai vì nach chỉ dùng cho thành phố/nước."
+    }
+   ]
+  },
+  {
+   "title": "Số nhiều của danh từ (Pluralformen) và mạo từ die",
+   "intro": "Ở số nhiều, mạo từ xác định luôn là die cho cả ba giống: der Tisch → die Tische, das Kind → die Kinder, die Frau → die Frauen.\nCác dạng số nhiều chính:\n-e: der Tag → die Tage; ¨-e: der Stuhl → die Stühle\n-er: das Kind → die Kinder; ¨-er: das Buch → die Bücher, der Mann → die Männer\n-n: die Lampe → die Lampen; -en: die Frau → die Frauen, der Student → die Studenten\n-s: das Auto → die Autos (từ mượn, tận cùng -o, -a)\n- / ¨-: der Lehrer → die Lehrer, der Apfel → die Äpfel, die Tochter → die Töchter\nMẹo: danh từ giống cái tận cùng -e thêm -n; -ung, -heit, -keit thêm -en; giống đực/trung tận cùng -er, -el, -en thường không thêm đuôi.",
+   "questions": [
+    {
+     "q": "Das Kind spielt. – Die ___ spielen.",
+     "options": [
+      "Kinds",
+      "Kinder",
+      "Kinden",
+      "Kindes"
+     ],
+     "answer": 1,
+     "vi": "Đứa trẻ chơi. – Những đứa trẻ chơi.",
+     "explain": "das Kind có số nhiều với đuôi -er: die Kinder. 'Kinds' sai vì Kind không thuộc nhóm -s."
+    },
+    {
+     "q": "Im Zimmer sind drei ___. (die Lampe)",
+     "options": [
+      "Lampes",
+      "Lämpe",
+      "Lampe",
+      "Lampen"
+     ],
+     "answer": 3,
+     "vi": "Trong phòng có ba cái đèn.",
+     "explain": "Danh từ giống cái tận cùng -e thêm -n: die Lampen. 'Lampe' là số ít."
+    },
+    {
+     "q": "Ich habe zwei ___. (das Auto)",
+     "options": [
+      "Auten",
+      "Autoe",
+      "Autos",
+      "Autoen"
+     ],
+     "answer": 2,
+     "vi": "Tôi có hai chiếc xe hơi.",
+     "explain": "Danh từ tận cùng -o thêm -s: die Autos. 'Autoen' sai vì nhóm -en không áp dụng cho từ này."
+    },
+    {
+     "q": "Auf dem Tisch liegen drei ___. (das Buch)",
+     "options": [
+      "Bücher",
+      "Buchs",
+      "Buche",
+      "Büchen"
+     ],
+     "answer": 0,
+     "vi": "Trên bàn có ba quyển sách.",
+     "explain": "das Buch thuộc nhóm ¨-er: die Bücher. 'Buche' sai vì thiếu Umlaut và đuôi -er."
+    },
+    {
+     "q": "Am Tisch stehen vier ___. (der Stuhl)",
+     "options": [
+      "Stuhle",
+      "Stühlen",
+      "Stuhls",
+      "Stühle"
+     ],
+     "answer": 3,
+     "vi": "Quanh bàn có bốn cái ghế.",
+     "explain": "der Stuhl thuộc nhóm ¨-e: die Stühle. 'Stuhle' sai vì thiếu Umlaut."
+    },
+    {
+     "q": "Wie viele ___ arbeiten hier? (die Frau)",
+     "options": [
+      "Fraue",
+      "Frauen",
+      "Fräuen",
+      "Fraus"
+     ],
+     "answer": 1,
+     "vi": "Có bao nhiêu phụ nữ làm việc ở đây?",
+     "explain": "die Frau thêm -en: die Frauen. 'Fräuen' sai vì nhóm -en không có Umlaut."
+    },
+    {
+     "q": "In der Schule arbeiten fünf ___. (der Lehrer)",
+     "options": [
+      "Lehrer",
+      "Lehrern",
+      "Lehrers",
+      "Lehrere"
+     ],
+     "answer": 0,
+     "vi": "Ở trường có năm giáo viên làm việc.",
+     "explain": "Danh từ giống đực tận cùng -er không thêm đuôi ở số nhiều: die Lehrer. 'Lehrern' chỉ dùng ở Dativ số nhiều."
+    },
+    {
+     "q": "___ Hunde bellen laut.",
+     "options": [
+      "Der",
+      "Das",
+      "Die",
+      "Den"
+     ],
+     "answer": 2,
+     "vi": "Những con chó sủa to.",
+     "explain": "Ở số nhiều mạo từ xác định luôn là die. 'Der' là mạo từ của der Hund ở số ít."
+    },
+    {
+     "q": "Ich kaufe drei ___. (der Apfel)",
+     "options": [
+      "Apfel",
+      "Äpfeln",
+      "Äpfel",
+      "Apfels"
+     ],
+     "answer": 2,
+     "vi": "Tôi mua ba quả táo.",
+     "explain": "der Apfel thuộc nhóm ¨-: chỉ thêm Umlaut, không thêm đuôi: die Äpfel. 'Apfel' sai vì thiếu Umlaut."
+    },
+    {
+     "q": "Mein Vater liest jeden Tag zwei ___. (die Zeitung)",
+     "options": [
+      "Zeitungen",
+      "Zeitunge",
+      "Zeitungs",
+      "Zeitung"
+     ],
+     "answer": 0,
+     "vi": "Bố tôi đọc hai tờ báo mỗi ngày.",
+     "explain": "Danh từ tận cùng -ung thêm -en: die Zeitungen. 'Zeitungs' sai vì không thuộc nhóm -s."
+    },
+    {
+     "q": "In der Stadt gibt es viele alte ___. (das Haus)",
+     "options": [
+      "Hause",
+      "Häuser",
+      "Häuse",
+      "Hausen"
+     ],
+     "answer": 1,
+     "vi": "Trong thành phố có nhiều ngôi nhà cổ.",
+     "explain": "das Haus thuộc nhóm ¨-er: die Häuser. 'Häuse' sai vì thiếu đuôi -er."
+    },
+    {
+     "q": "Die ___ sind sehr nett. (der Student)",
+     "options": [
+      "Studente",
+      "Students",
+      "Studenter",
+      "Studenten"
+     ],
+     "answer": 3,
+     "vi": "Các sinh viên rất dễ thương.",
+     "explain": "der Student thêm -en ở số nhiều: die Studenten. 'Students' là dạng tiếng Anh, sai trong tiếng Đức."
+    },
+    {
+     "q": "Meine ___ wohnen in Hanoi. (die Tochter)",
+     "options": [
+      "Töchter",
+      "Tochtern",
+      "Tochter",
+      "Töchtern"
+     ],
+     "answer": 0,
+     "vi": "Các con gái của tôi sống ở Hà Nội.",
+     "explain": "die Tochter thuộc nhóm ¨-: chỉ thêm Umlaut: die Töchter. 'Töchtern' chỉ dùng ở Dativ số nhiều."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Die Manns trinken Kaffee.",
+      "Die Männe trinken Kaffee.",
+      "Die Männer trinken Kaffee.",
+      "Der Männer trinken Kaffee."
+     ],
+     "answer": 2,
+     "vi": "Những người đàn ông uống cà phê.",
+     "explain": "der Mann thuộc nhóm ¨-er: die Männer, và mạo từ số nhiều là die. 'Der Männer' sai vì số nhiều không dùng der."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Die Täge im Sommer sind lang.",
+      "Die Tage im Sommer sind lang.",
+      "Die Tagen im Sommer sind lang.",
+      "Das Tage im Sommer sind lang."
+     ],
+     "answer": 1,
+     "vi": "Những ngày mùa hè thì dài.",
+     "explain": "der Tag thuộc nhóm -e không có Umlaut: die Tage. 'Täge' sai vì Tag không biến âm."
+    }
+   ]
+  }
+ ]
+}

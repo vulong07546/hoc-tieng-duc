@@ -1,0 +1,782 @@
+{
+  "level": "B1",
+  "topics": [
+    {
+      "title": "Thì quá khứ đơn (Präteritum)",
+      "intro": "Präteritum dùng chủ yếu trong văn viết, kể chuyện; với sein, haben và động từ khuyết thiếu thì dùng cả trong văn nói.\nĐộng từ có quy tắc: gốc + -te + đuôi: ich machte, du machtest, er machte, wir machten, ihr machtet, sie machten. Gốc tận cùng -t/-d thêm -ete: arbeitete, redete.\nĐộng từ bất quy tắc: đổi nguyên âm gốc, ngôi ich/er KHÔNG có đuôi: gehen → ging, kommen → kam, fahren → fuhr, lesen → las, schlafen → schlief, bitten → bat.\nĐộng từ hỗn hợp: đổi gốc + -te: denken → dachte, bringen → brachte, wissen → wusste, kennen → kannte, rennen → rannte.\nCần nhớ: sein → war, haben → hatte, werden → wurde; können → konnte, müssen → musste. Động từ tách: ankommen → ich kam … an.",
+      "questions": [
+        {
+          "q": "Gestern ___ ich bis spät in die Nacht.",
+          "options": ["arbeitet", "arbeitete", "arbeitetet", "arbeitte"],
+          "answer": 1,
+          "vi": "Hôm qua tôi làm việc đến tận khuya.",
+          "explain": "Gốc arbeit- tận cùng bằng -t nên thêm -ete: ich arbeitete. 'arbeitte' thiếu nguyên âm nối -e-."
+        },
+        {
+          "q": "Als Kind ___ er in Hanoi.",
+          "options": ["wohnte", "wohnt", "wohnten", "wohntet"],
+          "answer": 0,
+          "vi": "Hồi nhỏ anh ấy sống ở Hà Nội.",
+          "explain": "Ngôi er: gốc wohn- + -te = wohnte. 'wohnten' là ngôi wir/sie (số nhiều)."
+        },
+        {
+          "q": "Wir ___ letzte Woche keine Zeit.",
+          "options": ["hattet", "habten", "hatten", "hatte"],
+          "answer": 2,
+          "vi": "Tuần trước chúng tôi không có thời gian.",
+          "explain": "haben ở Präteritum là hatte-, ngôi wir: hatten. 'habten' là lỗi chia haben như động từ có quy tắc."
+        },
+        {
+          "q": "Der Zug ___ pünktlich um acht Uhr ab.",
+          "options": ["fahrte", "fährte", "fuhrte", "fuhr"],
+          "answer": 3,
+          "vi": "Tàu khởi hành đúng giờ lúc tám giờ.",
+          "explain": "fahren là động từ bất quy tắc: fuhr, ngôi er không có đuôi. 'fuhrte' sai vì thêm -te vào động từ mạnh."
+        },
+        {
+          "q": "Ich ___ den Brief sofort.",
+          "options": ["las", "laste", "lies", "lest"],
+          "answer": 0,
+          "vi": "Tôi đọc lá thư ngay lập tức.",
+          "explain": "lesen → las (bất quy tắc), ngôi ich không có đuôi. 'lies' là thể mệnh lệnh, không phải quá khứ."
+        },
+        {
+          "q": "Du ___ gestern sehr müde.",
+          "options": ["war", "warst", "wart", "bist"],
+          "answer": 1,
+          "vi": "Hôm qua bạn rất mệt.",
+          "explain": "sein ở Präteritum ngôi du là warst. 'wart' là ngôi ihr; 'bist' là hiện tại, không hợp với gestern."
+        },
+        {
+          "q": "Sie ___ nicht, wo der Bahnhof war.",
+          "options": ["wisste", "weißte", "wusst", "wusste"],
+          "answer": 3,
+          "vi": "Cô ấy không biết nhà ga ở đâu.",
+          "explain": "wissen là động từ hỗn hợp: đổi gốc thành wuss- và thêm -te → wusste. 'wusst' thiếu đuôi -te."
+        },
+        {
+          "q": "Er ___ oft an seine Familie in Vietnam.",
+          "options": ["denkte", "dachtete", "dachte", "dacht"],
+          "answer": 2,
+          "vi": "Anh ấy thường nghĩ đến gia đình ở Việt Nam.",
+          "explain": "denken là động từ hỗn hợp: dachte (đổi gốc + -te). 'denkte' là lỗi chia như động từ có quy tắc."
+        },
+        {
+          "q": "Die Kinder ___ schnell nach Hause.",
+          "options": ["rennten", "rannten", "rannen", "rannte"],
+          "answer": 1,
+          "vi": "Bọn trẻ chạy nhanh về nhà.",
+          "explain": "rennen → rannte (hỗn hợp), số nhiều sie: rannten. 'rannte' chỉ dùng cho ich/er/sie (số ít)."
+        },
+        {
+          "q": "Am Sonntag ___ ich meiner Mutter Blumen.",
+          "options": ["brachte", "bringte", "brang", "brachtete"],
+          "answer": 0,
+          "vi": "Chủ nhật tôi mang hoa đến cho mẹ.",
+          "explain": "bringen → brachte (hỗn hợp: đổi gốc + -te). 'bringte' giữ gốc cũ, 'brang' chia như động từ mạnh – đều sai."
+        },
+        {
+          "q": "Ihr ___ am Wochenende nicht kommen, weil ihr krank wart.",
+          "options": ["konntest", "kanntet", "konntet", "konnten"],
+          "answer": 2,
+          "vi": "Cuối tuần các bạn đã không thể đến vì các bạn bị ốm.",
+          "explain": "können → konnte-, ngôi ihr thêm -t: konntet. 'kanntet' là quá khứ của kennen (quen biết), sai nghĩa."
+        },
+        {
+          "q": "Gestern Abend ___ plötzlich das Telefon.",
+          "options": ["klingelten", "klingte", "klingelete", "klingelte"],
+          "answer": 3,
+          "vi": "Tối qua điện thoại bỗng nhiên reo.",
+          "explain": "klingeln là động từ có quy tắc: klingel- + -te = klingelte. 'klingelten' là số nhiều, nhưng chủ ngữ das Telefon là số ít."
+        },
+        {
+          "q": "Câu nào đúng ngữ pháp?",
+          "options": ["Ich kennete ihn schon lange.", "Ich kannte ihn schon lange.", "Ich kannt ihn schon lange.", "Ich kanntete ihn schon lange."],
+          "answer": 1,
+          "vi": "Tôi đã quen anh ấy từ lâu.",
+          "explain": "kennen là động từ hỗn hợp: kannte (đổi e → a và thêm -te). 'kennete' giữ nguyên gốc, 'kanntete' thêm -te hai lần."
+        },
+        {
+          "q": "Der Lehrer ___ uns, die Hausaufgaben pünktlich abzugeben.",
+          "options": ["bittete", "betete", "bot", "bat"],
+          "answer": 3,
+          "vi": "Thầy giáo yêu cầu chúng tôi nộp bài tập đúng hạn.",
+          "explain": "bitten (yêu cầu) → bat. 'bot' là quá khứ của bieten (mời, đưa ra), 'betete' là của beten (cầu nguyện)."
+        },
+        {
+          "q": "Câu nào đúng ngữ pháp?",
+          "options": ["Als ich ankam, schliefen alle schon.", "Als ich ankommte, schliefen alle schon.", "Als ich ankam, schlafte alle schon.", "Als ich kam an, schliefen alle schon."],
+          "answer": 0,
+          "vi": "Khi tôi đến nơi thì mọi người đã ngủ cả rồi.",
+          "explain": "ankommen → kam an; trong mệnh đề phụ, động từ tách được viết liền ở cuối: ankam; schlafen → schliefen. 'kam an' ở cuối mệnh đề phụ là sai trật tự từ."
+        }
+      ]
+    },
+    {
+      "title": "Thì quá khứ hoàn thành và nachdem (Plusquamperfekt & nachdem)",
+      "intro": "Plusquamperfekt diễn tả hành động xảy ra TRƯỚC một hành động khác trong quá khứ.\nCấu trúc: hatte/war (Präteritum) + Partizip II. Động từ chỉ chuyển động hoặc thay đổi trạng thái (gehen, fahren, kommen, werden, fliehen…) dùng war: ich war gefahren; các động từ khác dùng hatte: ich hatte gegessen.\nVí dụ: Als ich ankam, hatte der Film schon begonnen.\nnachdem + Plusquamperfekt → mệnh đề chính ở Präteritum (hoặc Perfekt): Nachdem er gegessen hatte, ging er los.\nnachdem + Perfekt → mệnh đề chính ở Präsens/Futur: Nachdem ich gegessen habe, gehe ich los.\nTrong mệnh đề phụ, trợ động từ đứng cuối; nếu mệnh đề phụ đứng đầu câu, mệnh đề chính bắt đầu bằng động từ.",
+      "questions": [
+        {
+          "q": "Als ich ins Kino kam, ___ der Film schon begonnen.",
+          "options": ["war", "hat", "hatte", "habe"],
+          "answer": 2,
+          "vi": "Khi tôi đến rạp thì phim đã bắt đầu rồi.",
+          "explain": "beginnen dùng trợ động từ haben → Plusquamperfekt: hatte begonnen. 'war' sai trợ động từ."
+        },
+        {
+          "q": "Er war müde, weil er schlecht geschlafen ___.",
+          "options": ["hatte", "war", "wurde", "hätte"],
+          "answer": 0,
+          "vi": "Anh ấy mệt vì đã ngủ không ngon.",
+          "explain": "schlafen dùng haben: hatte geschlafen, xảy ra trước 'war müde'. 'hätte' là Konjunktiv II, diễn tả điều không có thật."
+        },
+        {
+          "q": "Nachdem wir gegessen ___, gingen wir spazieren.",
+          "options": ["haben", "hatten", "waren", "hätten"],
+          "answer": 1,
+          "vi": "Sau khi chúng tôi ăn xong, chúng tôi đi dạo.",
+          "explain": "Mệnh đề chính ở Präteritum (gingen) nên nachdem đi với Plusquamperfekt: gegessen hatten. 'haben' (Perfekt) không hợp thì."
+        },
+        {
+          "q": "Nachdem sie nach Berlin gezogen ___, fand sie schnell eine Arbeit.",
+          "options": ["hatte", "hat", "ist", "war"],
+          "answer": 3,
+          "vi": "Sau khi chuyển đến Berlin, cô ấy nhanh chóng tìm được việc làm.",
+          "explain": "ziehen (chuyển nhà) chỉ sự di chuyển nên dùng sein → war gezogen. 'hatte' sai trợ động từ."
+        },
+        {
+          "q": "Die Gäste ___ schon gegangen, als wir ankamen.",
+          "options": ["hatten", "waren", "sind", "haben"],
+          "answer": 1,
+          "vi": "Khách đã về hết khi chúng tôi đến.",
+          "explain": "gehen dùng sein, hành động trước 'ankamen' → waren gegangen. 'sind' là Perfekt, không thể hiện thứ tự trước–sau trong quá khứ."
+        },
+        {
+          "q": "Nachdem er das Formular ausgefüllt hatte, ___ er es ab.",
+          "options": ["gibt", "geben", "gab", "gegeben"],
+          "answer": 2,
+          "vi": "Sau khi điền xong mẫu đơn, anh ấy nộp nó.",
+          "explain": "nachdem + Plusquamperfekt → mệnh đề chính ở Präteritum: gab … ab. 'gibt' là hiện tại, không hợp thì."
+        },
+        {
+          "q": "Nachdem ich die Prüfung bestanden habe, ___ ich eine Party.",
+          "options": ["mache", "machte", "hatte gemacht", "gemacht"],
+          "answer": 0,
+          "vi": "Sau khi thi đỗ, tôi sẽ tổ chức một bữa tiệc.",
+          "explain": "nachdem + Perfekt (bestanden habe) → mệnh đề chính ở Präsens: mache. 'machte' (Präteritum) không khớp với Perfekt trong mệnh đề nachdem."
+        },
+        {
+          "q": "Ich konnte nicht ins Haus, weil ich meinen Schlüssel ___ hatte.",
+          "options": ["verlieren", "verlor", "verlort", "verloren"],
+          "answer": 3,
+          "vi": "Tôi không vào được nhà vì tôi đã làm mất chìa khóa.",
+          "explain": "Plusquamperfekt cần Partizip II: verloren (không có ge- vì tiền tố ver-). 'verlor' là Präteritum."
+        },
+        {
+          "q": "___ der Arzt den Patienten untersucht hatte, schrieb er das Rezept.",
+          "options": ["Nachdem", "Nach", "Danach", "Vorher"],
+          "answer": 0,
+          "vi": "Sau khi bác sĩ khám bệnh nhân xong, ông ấy viết đơn thuốc.",
+          "explain": "Cần liên từ phụ thuộc (động từ đứng cuối): nachdem. 'Nach' là giới từ, 'Danach' là trạng từ – không mở đầu mệnh đề phụ được."
+        },
+        {
+          "q": "Nachdem sie den Bus verpasst hatte, ___.",
+          "options": ["sie nahm ein Taxi", "sie ein Taxi nahm", "nahm sie ein Taxi", "nimmt sie ein Taxi"],
+          "answer": 2,
+          "vi": "Sau khi lỡ chuyến xe buýt, cô ấy đi taxi.",
+          "explain": "Mệnh đề phụ đứng đầu chiếm vị trí 1, nên động từ đứng ngay sau: nahm sie. 'sie nahm' sai vì động từ không ở vị trí 2."
+        },
+        {
+          "q": "Câu nào đúng ngữ pháp?",
+          "options": ["Nachdem er hatte gefrühstückt, ging er zur Arbeit.", "Nachdem er gefrühstückt hatte, ging er zur Arbeit.", "Nachdem er gefrühstückt hatte, er ging zur Arbeit.", "Nachdem er gefrühstückt war, ging er zur Arbeit."],
+          "answer": 1,
+          "vi": "Sau khi ăn sáng xong, anh ấy đi làm.",
+          "explain": "Trong mệnh đề phụ, trợ động từ hatte đứng cuối; mệnh đề chính bắt đầu bằng động từ. frühstücken dùng haben, nên 'gefrühstückt war' sai."
+        },
+        {
+          "q": "Als die Polizei kam, ___ der Dieb schon geflohen.",
+          "options": ["hatte", "hat", "ist", "war"],
+          "answer": 3,
+          "vi": "Khi cảnh sát đến thì tên trộm đã bỏ trốn rồi.",
+          "explain": "fliehen chỉ sự di chuyển nên dùng sein → war geflohen. 'hatte' sai trợ động từ."
+        },
+        {
+          "q": "Nachdem der Vertrag ___ worden war, begann die Arbeit.",
+          "options": ["unterschreiben", "unterschrieb", "unterschrieben", "geunterschrieben"],
+          "answer": 2,
+          "vi": "Sau khi hợp đồng đã được ký, công việc bắt đầu.",
+          "explain": "Bị động ở Plusquamperfekt: Partizip II + worden war → unterschrieben. Động từ có tiền tố không tách unter- không thêm ge-."
+        },
+        {
+          "q": "Sie erzählte mir, dass sie im Urlaub krank ___ war.",
+          "options": ["geworden", "werden", "wurde", "worden"],
+          "answer": 0,
+          "vi": "Cô ấy kể với tôi rằng cô ấy đã bị ốm trong kỳ nghỉ.",
+          "explain": "werden (trở nên) có Partizip II là geworden và dùng sein. 'worden' chỉ dùng trong câu bị động."
+        },
+        {
+          "q": "Câu nào đúng ngữ pháp?",
+          "options": ["Nachdem ich mich beworben hatte, bekomme ich eine Einladung.", "Nachdem ich mich beworben hatte, bekam ich eine Einladung.", "Nachdem ich mich beworben habe, bekam ich eine Einladung.", "Nachdem ich mich beworben hatte, ich bekam eine Einladung."],
+          "answer": 1,
+          "vi": "Sau khi tôi nộp đơn ứng tuyển, tôi nhận được lời mời.",
+          "explain": "Plusquamperfekt (beworben hatte) đi với Präteritum (bekam), động từ đứng đầu mệnh đề chính. Kết hợp Perfekt + Präteritum hay Plusquamperfekt + Präsens đều sai thì."
+        }
+      ]
+    },
+    {
+      "title": "Mệnh đề quan hệ (Relativsätze)",
+      "intro": "Đại từ quan hệ lấy giống và số theo danh từ được bổ nghĩa, còn cách (Kasus) theo chức năng của nó TRONG mệnh đề quan hệ. Động từ chia đứng cuối mệnh đề.\nBảng: Nominativ der/die/das/die – Akkusativ den/die/das/die – Dativ dem/der/dem/denen – Genitiv dessen/deren/dessen/deren (theo thứ tự giống đực/cái/trung/số nhiều).\nVí dụ: der Mann, der hier wohnt (Nom.) / den ich kenne (Akk.) / dem ich helfe (Dat.) / dessen Auto kaputt ist (Gen.).\nGiới từ đứng trước đại từ quan hệ: die Wohnung, nach der wir suchen; der Freund, mit dem ich reise.\nwo dùng cho nơi chốn (die Stadt, wo …); was dùng sau alles, nichts, etwas, das, so sánh nhất trung tính (das Beste) và khi thay cho cả mệnh đề trước.",
+      "questions": [
+        {
+          "q": "Das ist der Mann, ___ neben mir wohnt.",
+          "options": ["der", "den", "dem", "die"],
+          "answer": 0,
+          "vi": "Đó là người đàn ông sống cạnh nhà tôi.",
+          "explain": "der Mann là chủ ngữ của mệnh đề quan hệ (wer wohnt?) → Nominativ: der. 'den' là Akkusativ."
+        },
+        {
+          "q": "Die Frau, ___ ich gestern getroffen habe, ist Ärztin.",
+          "options": ["der", "die", "den", "deren"],
+          "answer": 1,
+          "vi": "Người phụ nữ mà tôi gặp hôm qua là bác sĩ.",
+          "explain": "treffen cần Akkusativ, giống cái → die. 'den' là Akkusativ giống đực, không hợp với die Frau."
+        },
+        {
+          "q": "Das Kind, ___ wir geholfen haben, ist jetzt gesund.",
+          "options": ["das", "den", "der", "dem"],
+          "answer": 3,
+          "vi": "Đứa trẻ mà chúng tôi đã giúp giờ đã khỏe.",
+          "explain": "helfen đi với Dativ, das Kind giống trung → dem. 'das' là Nominativ/Akkusativ."
+        },
+        {
+          "q": "Die Leute, ___ ich das Paket gegeben habe, waren sehr nett.",
+          "options": ["die", "den", "denen", "dem"],
+          "answer": 2,
+          "vi": "Những người mà tôi đưa gói hàng cho rất tử tế.",
+          "explain": "geben jemandem → Dativ, số nhiều → denen (không phải den như mạo từ). 'den' là lỗi điển hình."
+        },
+        {
+          "q": "Der Kollege, ___ Auto kaputt ist, kommt heute mit dem Bus.",
+          "options": ["dessen", "deren", "dem", "sein"],
+          "answer": 0,
+          "vi": "Người đồng nghiệp có xe ô tô bị hỏng hôm nay đi làm bằng xe buýt.",
+          "explain": "Chỉ sở hữu (xe của đồng nghiệp) → Genitiv, giống đực: dessen. 'deren' dùng cho giống cái/số nhiều."
+        },
+        {
+          "q": "Die Nachbarin, ___ Sohn in München studiert, ist sehr stolz.",
+          "options": ["dessen", "die", "deren", "ihre"],
+          "answer": 2,
+          "vi": "Bà hàng xóm có con trai đang học ở München rất tự hào.",
+          "explain": "Đại từ sở hữu quan hệ theo người sở hữu (die Nachbarin, giống cái) → deren, không theo Sohn. 'dessen' là lỗi lấy giống theo Sohn."
+        },
+        {
+          "q": "Das Buch, ___ du mir empfohlen hast, ist spannend.",
+          "options": ["dem", "das", "was", "den"],
+          "answer": 1,
+          "vi": "Cuốn sách bạn giới thiệu cho tôi rất hấp dẫn.",
+          "explain": "empfehlen etwas → Akkusativ, giống trung: das. 'was' chỉ dùng sau alles, nichts, etwas…, không dùng sau danh từ cụ thể."
+        },
+        {
+          "q": "Hanoi ist die Stadt, ___ ich geboren bin.",
+          "options": ["was", "die", "wem", "in der"],
+          "answer": 3,
+          "vi": "Hà Nội là thành phố nơi tôi được sinh ra.",
+          "explain": "geboren in + Dativ, die Stadt giống cái → in der (cũng có thể nói wo). 'die' thiếu giới từ."
+        },
+        {
+          "q": "Wir haben die Wohnung gefunden, ___ wir lange gesucht haben.",
+          "options": ["nach die", "nach der", "nach dem", "der"],
+          "answer": 1,
+          "vi": "Chúng tôi đã tìm được căn hộ mà chúng tôi tìm kiếm bấy lâu.",
+          "explain": "suchen nach + Dativ, giống cái → nach der. 'nach die' sai vì nach luôn đi với Dativ."
+        },
+        {
+          "q": "Alles, ___ er gesagt hat, war richtig.",
+          "options": ["was", "das", "der", "wo"],
+          "answer": 0,
+          "vi": "Tất cả những gì anh ấy nói đều đúng.",
+          "explain": "Sau alles dùng đại từ quan hệ was. 'das' là lỗi phổ biến nhưng sai sau alles."
+        },
+        {
+          "q": "Das ist das Beste, ___ mir passieren konnte.",
+          "options": ["das", "der", "wo", "was"],
+          "answer": 3,
+          "vi": "Đó là điều tốt nhất có thể xảy ra với tôi.",
+          "explain": "Sau so sánh nhất dạng danh từ trung tính (das Beste) dùng was. 'das' sai dù das Beste là giống trung."
+        },
+        {
+          "q": "Der Freund, mit ___ ich in Urlaub fahre, heißt Tom.",
+          "options": ["den", "der", "dem", "denen"],
+          "answer": 2,
+          "vi": "Người bạn mà tôi đi nghỉ cùng tên là Tom.",
+          "explain": "mit luôn đi với Dativ, der Freund giống đực → mit dem. 'den' là Akkusativ."
+        },
+        {
+          "q": "Das Land, ___ er seit zehn Jahren lebt, ist Deutschland.",
+          "options": ["was", "das", "in das", "wo"],
+          "answer": 3,
+          "vi": "Đất nước nơi anh ấy sống mười năm nay là nước Đức.",
+          "explain": "Chỉ nơi chốn (ở đâu?) dùng wo (hoặc in dem). 'in das' là Akkusativ chỉ hướng, sai với leben."
+        },
+        {
+          "q": "Die Studenten, ___ Noten sehr gut waren, bekamen ein Stipendium.",
+          "options": ["deren", "dessen", "denen", "die"],
+          "answer": 0,
+          "vi": "Những sinh viên có điểm số rất tốt đã nhận được học bổng.",
+          "explain": "Sở hữu (điểm của sinh viên), người sở hữu số nhiều → Genitiv deren. 'denen' là Dativ số nhiều."
+        },
+        {
+          "q": "Câu nào đúng ngữ pháp?",
+          "options": ["Er hat die Prüfung bestanden, das mich sehr freut.", "Er hat die Prüfung bestanden, was mich sehr freut.", "Er hat die Prüfung bestanden, was freut mich sehr.", "Er hat die Prüfung bestanden, die mich sehr freut."],
+          "answer": 1,
+          "vi": "Anh ấy đã thi đỗ, điều đó làm tôi rất vui.",
+          "explain": "Khi thay cho cả mệnh đề trước dùng was, động từ đứng cuối. 'die' sai vì người vui là do cả sự việc, không phải do die Prüfung."
+        }
+      ]
+    },
+    {
+      "title": "Câu bị động (Passiv)",
+      "intro": "Câu bị động nhấn mạnh hành động, không nhấn mạnh người làm.\nPräsens: werden + Partizip II → Das Haus wird gebaut.\nPräteritum: wurde + Partizip II → Das Haus wurde gebaut.\nPerfekt: sein + Partizip II + worden → Das Haus ist gebaut worden (KHÔNG dùng geworden).\nVới động từ khuyết thiếu: Modalverb + Partizip II + werden → Die Rechnung muss bezahlt werden.\nNgười/tác nhân thực hiện: von + Dativ (vom Chef, von der Polizei); phương tiện/nguyên nhân: durch + Akkusativ (durch ein Erdbeben).\nCâu chủ động với man → bị động: Man repariert das Auto. → Das Auto wird repariert. Câu không có chủ ngữ: Hier wird nicht geraucht.",
+      "questions": [
+        {
+          "q": "Das alte Haus ___ zurzeit renoviert.",
+          "options": ["hat", "werdet", "werden", "wird"],
+          "answer": 3,
+          "vi": "Ngôi nhà cũ hiện đang được sửa sang.",
+          "explain": "Bị động hiện tại: werden + Partizip II, chủ ngữ số ít → wird. 'werden' là số nhiều."
+        },
+        {
+          "q": "Die Briefe ___ jeden Morgen gebracht.",
+          "options": ["werden", "wird", "worden", "haben"],
+          "answer": 0,
+          "vi": "Thư được mang đến mỗi sáng.",
+          "explain": "Chủ ngữ số nhiều die Briefe → werden gebracht. 'wird' là số ít."
+        },
+        {
+          "q": "In Deutschland ___ viel Brot gegessen.",
+          "options": ["werden", "wird", "wurdet", "hat"],
+          "answer": 1,
+          "vi": "Ở Đức người ta ăn nhiều bánh mì.",
+          "explain": "Chủ ngữ là viel Brot (số ít) → wird gegessen. 'werden' sai vì chủ ngữ không phải số nhiều."
+        },
+        {
+          "q": "Das Rathaus ___ im Jahr 1890 gebaut.",
+          "options": ["hat", "worden", "wurde", "würde"],
+          "answer": 2,
+          "vi": "Tòa thị chính được xây vào năm 1890.",
+          "explain": "Bị động quá khứ: wurde + Partizip II. 'würde' là Konjunktiv II, không phải quá khứ."
+        },
+        {
+          "q": "Der Dieb ist gestern von der Polizei verhaftet ___.",
+          "options": ["worden", "geworden", "werden", "wurde"],
+          "answer": 0,
+          "vi": "Tên trộm đã bị cảnh sát bắt hôm qua.",
+          "explain": "Bị động Perfekt: ist + Partizip II + worden. 'geworden' chỉ dùng khi werden là động từ chính (trở nên)."
+        },
+        {
+          "q": "Der Brief wurde ___ meinem Chef unterschrieben.",
+          "options": ["durch", "aus", "vom", "von"],
+          "answer": 3,
+          "vi": "Lá thư đã được sếp tôi ký.",
+          "explain": "Người thực hiện hành động → von + Dativ: von meinem Chef. 'vom' = von dem, không thể đứng trước meinem."
+        },
+        {
+          "q": "Die Stadt wurde ___ ein Erdbeben zerstört.",
+          "options": ["von", "durch", "mit", "aus"],
+          "answer": 1,
+          "vi": "Thành phố đã bị một trận động đất phá hủy.",
+          "explain": "Nguyên nhân/sự kiện → durch + Akkusativ: durch ein Erdbeben. 'von' đòi Dativ (von einem), nên 'von ein' sai."
+        },
+        {
+          "q": "Die Rechnungen müssen bis Freitag bezahlt ___.",
+          "options": ["worden", "wurden", "werden", "geworden"],
+          "answer": 2,
+          "vi": "Các hóa đơn phải được thanh toán trước thứ Sáu.",
+          "explain": "Bị động với động từ khuyết thiếu: müssen + Partizip II + werden (nguyên mẫu). 'worden' chỉ dùng ở Perfekt."
+        },
+        {
+          "q": "Gestern ___ die Bank erst um zehn Uhr geöffnet.",
+          "options": ["wird", "wurde", "würde", "worden"],
+          "answer": 1,
+          "vi": "Hôm qua ngân hàng mãi đến mười giờ mới mở cửa.",
+          "explain": "gestern → quá khứ: wurde geöffnet. 'wird' là hiện tại, không hợp với gestern."
+        },
+        {
+          "q": "Man repariert das Auto. → Das Auto ___ repariert.",
+          "options": ["wird", "werden", "ist worden", "hat"],
+          "answer": 0,
+          "vi": "Chiếc ô tô đang được sửa.",
+          "explain": "Câu chủ động ở Präsens → bị động Präsens: wird repariert. 'ist worden' là cấu trúc Perfekt, lại thiếu Partizip II đi kèm (ist repariert worden)."
+        },
+        {
+          "q": "Man hat den Vertrag gestern unterschrieben. → Der Vertrag ___ gestern unterschrieben worden.",
+          "options": ["hat", "wurde", "wird", "ist"],
+          "answer": 3,
+          "vi": "Hợp đồng đã được ký hôm qua.",
+          "explain": "Bị động Perfekt luôn dùng sein: ist … worden. 'hat' là lỗi do lấy trợ động từ của câu chủ động."
+        },
+        {
+          "q": "Gestern ___ die Kinder von ihren Großeltern abgeholt.",
+          "options": ["wurde", "wird", "wurden", "worden"],
+          "answer": 2,
+          "vi": "Hôm qua bọn trẻ được ông bà đón.",
+          "explain": "Quá khứ, chủ ngữ số nhiều die Kinder → wurden. 'wurde' là số ít."
+        },
+        {
+          "q": "Câu bị động nào đúng ngữ pháp?",
+          "options": ["Der Antrag wurde vom Amt abgelehnt.", "Der Antrag wurde von das Amt abgelehnt.", "Der Antrag ist vom Amt abgelehnt geworden.", "Der Antrag wurde vom Amt ablehnen."],
+          "answer": 0,
+          "vi": "Đơn đã bị cơ quan từ chối.",
+          "explain": "wurde + Partizip II, von + Dativ (vom Amt). Perfekt bị động phải là 'abgelehnt worden', không phải 'geworden'."
+        },
+        {
+          "q": "Hier ___ nicht geraucht!",
+          "options": ["werden", "wird", "wurdet", "ist"],
+          "answer": 1,
+          "vi": "Ở đây không được hút thuốc!",
+          "explain": "Bị động không chủ ngữ luôn chia ngôi số ít: wird geraucht. 'werden' sai vì không có chủ ngữ số nhiều."
+        },
+        {
+          "q": "Câu nào đúng ngữ pháp?",
+          "options": ["Die Software hat von der Firma aktualisiert worden.", "Die Software ist durch der Firma aktualisiert worden.", "Die Software wurde von der Firma aktualisiert worden.", "Die Software ist von der Firma aktualisiert worden."],
+          "answer": 3,
+          "vi": "Phần mềm đã được công ty cập nhật.",
+          "explain": "Bị động Perfekt: ist + Partizip II + worden, người thực hiện với von + Dativ. 'wurde … worden' trộn lẫn Präteritum và Perfekt nên sai."
+        }
+      ]
+    },
+    {
+      "title": "Thức giả định II hiện tại và quá khứ (Konjunktiv II)",
+      "intro": "Konjunktiv II diễn tả điều không có thật, ước muốn, lời khuyên và lời đề nghị lịch sự.\nHiện tại: wäre (sein), hätte (haben), würde + nguyên mẫu (đa số động từ); động từ khuyết thiếu: könnte, müsste, dürfte, sollte; một số động từ mạnh: käme, ginge, wüsste.\nĐiều kiện không thật: Wenn ich Zeit hätte, würde ich kommen. Ước muốn: Wenn ich doch reich wäre! / Ich wünschte, ich hätte mehr Zeit. Lời khuyên: An deiner Stelle würde ich … Lịch sự: Könnten Sie mir helfen?\nQuá khứ: hätte/wäre + Partizip II (theo trợ động từ của Perfekt): Wenn ich gelernt hätte, hätte ich bestanden. Wenn du gekommen wärst, …\nVới động từ khuyết thiếu ở quá khứ: hätte + nguyên mẫu + Modalverb: Du hättest anrufen sollen.",
+      "questions": [
+        {
+          "q": "Wenn ich mehr Geld ___, würde ich ein Auto kaufen.",
+          "options": ["habe", "hätte", "hatte", "würde"],
+          "answer": 1,
+          "vi": "Nếu tôi có nhiều tiền hơn, tôi sẽ mua một chiếc ô tô.",
+          "explain": "Điều kiện không thật ở hiện tại dùng hätte. 'hatte' là Präteritum (quá khứ thật), không phải Konjunktiv."
+        },
+        {
+          "q": "Wenn ich du ___, würde ich zum Arzt gehen.",
+          "options": ["war", "bin", "wäre", "würde"],
+          "answer": 2,
+          "vi": "Nếu tôi là bạn, tôi sẽ đi khám bác sĩ.",
+          "explain": "sein ở Konjunktiv II là wäre. 'war' thiếu dấu Umlaut nên là quá khứ thường."
+        },
+        {
+          "q": "___ Sie mir bitte helfen?",
+          "options": ["Könnten", "Konnten", "Könntet", "Kannst"],
+          "answer": 0,
+          "vi": "Ông/bà có thể giúp tôi được không ạ?",
+          "explain": "Lời đề nghị lịch sự với Sie: Könnten Sie …? 'Konnten' là quá khứ thường, 'Könntet' là ngôi ihr."
+        },
+        {
+          "q": "Ich ___ gern in Deutschland studieren.",
+          "options": ["würdest", "wurde", "wäre", "würde"],
+          "answer": 3,
+          "vi": "Tôi rất muốn được học đại học ở Đức.",
+          "explain": "Ước muốn: würde + nguyên mẫu, ngôi ich → würde. 'wurde' là quá khứ của werden, sai nghĩa."
+        },
+        {
+          "q": "Wenn er doch nur pünktlich ___!",
+          "options": ["kommt", "käme", "kam", "kämen"],
+          "answer": 1,
+          "vi": "Giá mà anh ấy đến đúng giờ!",
+          "explain": "Ước muốn không thật: Konjunktiv II của kommen là käme. 'kam' là Präteritum, thiếu Umlaut."
+        },
+        {
+          "q": "Ich wünschte, ich ___ mehr Zeit für meine Familie.",
+          "options": ["hätte", "habe", "hatte", "hätten"],
+          "answer": 0,
+          "vi": "Ước gì tôi có nhiều thời gian hơn cho gia đình.",
+          "explain": "Sau 'Ich wünschte' dùng Konjunktiv II: ich hätte. 'hätten' là ngôi wir/sie."
+        },
+        {
+          "q": "An deiner Stelle ___ ich den Vertrag nicht unterschreiben.",
+          "options": ["werde", "wurde", "würde", "wäre"],
+          "answer": 2,
+          "vi": "Nếu ở vị trí của bạn, tôi sẽ không ký hợp đồng.",
+          "explain": "Lời khuyên: An deiner Stelle würde ich + nguyên mẫu. 'wäre' không đi với nguyên mẫu unterschreiben."
+        },
+        {
+          "q": "Wenn ich gestern Zeit gehabt ___, wäre ich gekommen.",
+          "options": ["habe", "hatte", "wäre", "hätte"],
+          "answer": 3,
+          "vi": "Nếu hôm qua tôi có thời gian thì tôi đã đến rồi.",
+          "explain": "Konjunktiv II quá khứ: hätte + Partizip II (haben dùng haben ở Perfekt) → gehabt hätte. 'hatte' là Plusquamperfekt thường, không diễn tả điều không thật."
+        },
+        {
+          "q": "Wenn du früher aufgestanden ___, hättest du den Bus nicht verpasst.",
+          "options": ["wärst", "hättest", "bist", "warst"],
+          "answer": 0,
+          "vi": "Nếu bạn dậy sớm hơn thì bạn đã không lỡ xe buýt.",
+          "explain": "aufstehen dùng sein ở Perfekt → Konjunktiv II quá khứ: aufgestanden wärst. 'hättest' sai trợ động từ."
+        },
+        {
+          "q": "Ich ___ fast den Termin vergessen.",
+          "options": ["wäre", "hätte", "würde", "wurde"],
+          "answer": 1,
+          "vi": "Suýt nữa thì tôi quên cuộc hẹn.",
+          "explain": "Điều suýt xảy ra trong quá khứ: hätte + Partizip II. vergessen dùng haben nên 'wäre' sai."
+        },
+        {
+          "q": "Wenn wir den früheren Zug genommen hätten, ___ wir pünktlich angekommen.",
+          "options": ["hätten", "würden", "waren", "wären"],
+          "answer": 3,
+          "vi": "Nếu chúng tôi đi chuyến tàu sớm hơn thì chúng tôi đã đến đúng giờ.",
+          "explain": "ankommen dùng sein → wären angekommen. 'hätten' sai trợ động từ."
+        },
+        {
+          "q": "Ohne deine Hilfe ___ ich die Prüfung nie bestanden.",
+          "options": ["wäre", "würde", "hätte", "hättet"],
+          "answer": 2,
+          "vi": "Không có sự giúp đỡ của bạn thì tôi đã không bao giờ thi đỗ.",
+          "explain": "bestehen dùng haben ở Perfekt → hätte bestanden. 'würde' không đi với Partizip II."
+        },
+        {
+          "q": "Câu nào diễn tả đúng một điều ước không thật trong quá khứ?",
+          "options": ["Wenn ich doch mehr gelernt habe!", "Wenn ich doch mehr gelernt hätte!", "Wenn ich doch mehr gelernt wäre!", "Wenn ich doch mehr lernen hätte!"],
+          "answer": 1,
+          "vi": "Giá mà tôi đã học nhiều hơn!",
+          "explain": "Ước muốn quá khứ: hätte + Partizip II. lernen dùng haben nên 'gelernt wäre' sai."
+        },
+        {
+          "q": "Du ___ den Arzt früher anrufen sollen.",
+          "options": ["wärst", "würdest", "bist", "hättest"],
+          "answer": 3,
+          "vi": "Lẽ ra bạn nên gọi cho bác sĩ sớm hơn.",
+          "explain": "Lời trách/khuyên trong quá khứ: hätte + nguyên mẫu + sollen. Động từ khuyết thiếu luôn dùng haben nên 'wärst' sai."
+        },
+        {
+          "q": "Câu nào đúng ngữ pháp?",
+          "options": ["Wenn ich Zeit hätte, würde ich dir helfen.", "Wenn ich Zeit hätte, ich würde dir helfen.", "Wenn ich hätte Zeit, würde ich dir helfen.", "Wenn ich Zeit hätte, würde ich dir helfen haben."],
+          "answer": 0,
+          "vi": "Nếu tôi có thời gian, tôi sẽ giúp bạn.",
+          "explain": "Động từ đứng cuối mệnh đề wenn, mệnh đề chính bắt đầu bằng động từ würde. 'ich würde' sai vị trí động từ."
+        }
+      ]
+    },
+    {
+      "title": "Nguyên mẫu với zu (Infinitiv mit zu)",
+      "intro": "Sau nhiều động từ và cụm từ, nguyên mẫu đứng cuối câu kèm zu: versuchen, vergessen, anfangen, aufhören, hoffen, raten, Lust/Zeit haben, Es ist wichtig/schwer …: Ich habe keine Lust zu kochen.\nĐộng từ tách được: zu chen vào giữa: anrufen → anzurufen, ausfüllen → auszufüllen.\nKHÔNG dùng zu sau động từ khuyết thiếu (können, müssen…), werden, lassen: Ich muss arbeiten.\num … zu: chỉ mục đích, chủ ngữ hai vế giống nhau: Ich lerne Deutsch, um in Deutschland zu studieren.\ndamit: chỉ mục đích, dùng bắt buộc khi hai chủ ngữ khác nhau; động từ chia đứng cuối: Ich spare, damit meine Kinder studieren können.\nohne … zu (mà không …) và statt … zu (thay vì …): Er ging, ohne zu grüßen. Statt zu lernen, spielt er.",
+      "questions": [
+        {
+          "q": "Ich habe heute keine Lust, ___.",
+          "options": ["kochen", "gekocht zu", "zu kochen", "kochen zu"],
+          "answer": 2,
+          "vi": "Hôm nay tôi không có hứng nấu ăn.",
+          "explain": "Sau 'Lust haben' dùng zu + nguyên mẫu: zu kochen. 'kochen zu' sai vị trí của zu."
+        },
+        {
+          "q": "Vergiss nicht, deine Mutter ___!",
+          "options": ["zu anrufen", "anrufen", "anruft", "anzurufen"],
+          "answer": 3,
+          "vi": "Đừng quên gọi điện cho mẹ nhé!",
+          "explain": "anrufen là động từ tách được nên zu chen vào giữa: anzurufen. 'zu anrufen' là lỗi điển hình."
+        },
+        {
+          "q": "Wir müssen morgen früh ___.",
+          "options": ["aufstehen", "aufzustehen", "zu aufstehen", "aufgestanden"],
+          "answer": 0,
+          "vi": "Ngày mai chúng ta phải dậy sớm.",
+          "explain": "Sau động từ khuyết thiếu müssen dùng nguyên mẫu KHÔNG có zu: aufstehen. 'aufzustehen' sai vì thừa zu."
+        },
+        {
+          "q": "Er lernt Deutsch, ___ in Deutschland Jura zu studieren.",
+          "options": ["damit", "um", "ohne", "für"],
+          "answer": 1,
+          "vi": "Anh ấy học tiếng Đức để học ngành luật ở Đức.",
+          "explain": "Chỉ mục đích, cùng chủ ngữ, có zu + nguyên mẫu → um … zu. 'damit' cần một mệnh đề có chủ ngữ và động từ chia."
+        },
+        {
+          "q": "Sie ging aus dem Haus, ___ sich zu verabschieden.",
+          "options": ["damit", "weil", "ohne", "dass"],
+          "answer": 2,
+          "vi": "Cô ấy ra khỏi nhà mà không chào tạm biệt.",
+          "explain": "ohne … zu = mà không làm gì. 'damit', 'weil', 'dass' là liên từ cần động từ chia, không đi với zu + nguyên mẫu."
+        },
+        {
+          "q": "Ich spare Geld, ___ meine Kinder später studieren können.",
+          "options": ["damit", "um", "um zu", "ohne"],
+          "answer": 0,
+          "vi": "Tôi tiết kiệm tiền để sau này các con tôi có thể học đại học.",
+          "explain": "Hai chủ ngữ khác nhau (ich – meine Kinder) nên phải dùng damit. 'um' chỉ dùng khi cùng chủ ngữ và có zu."
+        },
+        {
+          "q": "___ zu lernen, spielt er den ganzen Tag Computerspiele.",
+          "options": ["Um", "Damit", "Weil", "Statt"],
+          "answer": 3,
+          "vi": "Thay vì học, cậu ấy chơi game máy tính cả ngày.",
+          "explain": "statt … zu = thay vì. 'Um zu lernen' nghĩa là 'để học', mâu thuẫn với việc chơi game."
+        },
+        {
+          "q": "Es ist wichtig, die Formulare vollständig ___.",
+          "options": ["ausfüllen", "auszufüllen", "zu ausfüllen", "ausgefüllt"],
+          "answer": 1,
+          "vi": "Điều quan trọng là phải điền đầy đủ các mẫu đơn.",
+          "explain": "Sau 'Es ist wichtig' dùng zu + nguyên mẫu; ausfüllen tách được → auszufüllen. 'zu ausfüllen' sai vị trí zu."
+        },
+        {
+          "q": "Der Arzt hat mir geraten, weniger ___.",
+          "options": ["zu rauchen", "rauchen", "rauche", "geraucht"],
+          "answer": 0,
+          "vi": "Bác sĩ đã khuyên tôi hút thuốc ít đi.",
+          "explain": "Sau raten dùng zu + nguyên mẫu: zu rauchen. 'rauchen' thiếu zu."
+        },
+        {
+          "q": "Sie hat angefangen, ein Buch ___ schreiben.",
+          "options": ["um", "für", "zu", "ohne"],
+          "answer": 2,
+          "vi": "Cô ấy đã bắt đầu viết một cuốn sách.",
+          "explain": "Sau anfangen dùng zu + nguyên mẫu. 'um' cần đứng đầu cụm và chỉ mục đích, không hợp ở đây."
+        },
+        {
+          "q": "Ich rufe dich jeden Abend an, ___ du nicht allein bist.",
+          "options": ["um", "damit", "ohne", "statt"],
+          "answer": 1,
+          "vi": "Tối nào tôi cũng gọi cho bạn để bạn không cảm thấy cô đơn.",
+          "explain": "Hai chủ ngữ khác nhau (ich – du), có động từ chia → damit. 'um' không thể đi với mệnh đề có chủ ngữ riêng."
+        },
+        {
+          "q": "Hast du am Samstag Zeit, mir beim Umzug ___?",
+          "options": ["helfen", "geholfen", "hilfst", "zu helfen"],
+          "answer": 3,
+          "vi": "Thứ Bảy bạn có thời gian giúp tôi chuyển nhà không?",
+          "explain": "Sau 'Zeit haben' dùng zu + nguyên mẫu: zu helfen. 'helfen' thiếu zu."
+        },
+        {
+          "q": "Câu nào đúng ngữ pháp?",
+          "options": ["Er ist nach Deutschland gekommen, um dort zu arbeiten.", "Er ist nach Deutschland gekommen, um dort arbeiten.", "Er ist nach Deutschland gekommen, um zu dort arbeiten.", "Er ist nach Deutschland gekommen, damit dort zu arbeiten."],
+          "answer": 0,
+          "vi": "Anh ấy đến Đức để làm việc ở đó.",
+          "explain": "um … zu: zu đứng ngay trước nguyên mẫu ở cuối. 'damit' không đi với zu + nguyên mẫu."
+        },
+        {
+          "q": "Statt den Bus ___, ging sie zu Fuß.",
+          "options": ["nehmen", "nimmt", "genommen", "zu nehmen"],
+          "answer": 3,
+          "vi": "Thay vì đi xe buýt, cô ấy đi bộ.",
+          "explain": "statt … zu + nguyên mẫu: statt den Bus zu nehmen. 'nehmen' thiếu zu."
+        },
+        {
+          "q": "Câu nào đúng ngữ pháp?",
+          "options": ["Ich erkläre es noch einmal, um du es verstehst.", "Ich erkläre es noch einmal, damit du es verstehst.", "Ich erkläre es noch einmal, um es du zu verstehen.", "Ich erkläre es noch einmal, damit du es zu verstehen."],
+          "answer": 1,
+          "vi": "Tôi giải thích lại một lần nữa để bạn hiểu.",
+          "explain": "Hai chủ ngữ khác nhau → damit + mệnh đề, động từ chia cuối (verstehst). um … zu không thể có chủ ngữ riêng (du)."
+        }
+      ]
+    },
+    {
+      "title": "Mệnh đề thời gian (Temporalsätze)",
+      "intro": "Liên từ thời gian mở đầu mệnh đề phụ, động từ chia đứng cuối; nếu mệnh đề phụ đứng trước, mệnh đề chính bắt đầu bằng động từ.\nals: một sự việc/khoảng thời gian duy nhất trong quá khứ (Als ich Kind war, …).\nwenn: hiện tại/tương lai, hoặc lặp lại nhiều lần trong quá khứ (Immer wenn …).\nwährend: hai việc xảy ra đồng thời. bevor: trước khi. nachdem: sau khi (dùng thì trước: Plusquamperfekt/Perfekt).\nseit/seitdem: từ một thời điểm trong quá khứ đến nay, thường dùng Präsens (Seit ich hier wohne, …).\nbis: cho đến khi. sobald: ngay khi.\nChú ý: wann chỉ là từ để hỏi (Wann kommst du?), không dùng làm liên từ thời gian.",
+      "questions": [
+        {
+          "q": "___ ich ein Kind war, wohnte ich auf dem Land.",
+          "options": ["Als", "Wenn", "Wann", "Nachdem"],
+          "answer": 0,
+          "vi": "Khi tôi còn nhỏ, tôi sống ở nông thôn.",
+          "explain": "Một khoảng thời gian duy nhất trong quá khứ → als. 'Wenn' dùng cho việc lặp lại hoặc hiện tại/tương lai."
+        },
+        {
+          "q": "Immer ___ es regnet, bleibe ich zu Hause.",
+          "options": ["als", "wann", "wenn", "ob"],
+          "answer": 2,
+          "vi": "Hễ trời mưa là tôi ở nhà.",
+          "explain": "Sự việc lặp lại, ở hiện tại → wenn. 'wann' chỉ là từ để hỏi."
+        },
+        {
+          "q": "___ ich koche, höre ich Musik.",
+          "options": ["Als", "Während", "Wann", "Nachdem"],
+          "answer": 1,
+          "vi": "Trong khi nấu ăn, tôi nghe nhạc.",
+          "explain": "Hai việc xảy ra cùng lúc → während. 'Als' chỉ dùng cho quá khứ."
+        },
+        {
+          "q": "Wasch dir die Hände, ___ du isst!",
+          "options": ["nachdem", "als", "wann", "bevor"],
+          "answer": 3,
+          "vi": "Rửa tay trước khi ăn nhé!",
+          "explain": "Việc rửa tay xảy ra trước việc ăn → bevor. 'nachdem' sai nghĩa và cần thì trước (Perfekt)."
+        },
+        {
+          "q": "___ ich in Deutschland wohne, spreche ich jeden Tag Deutsch.",
+          "options": ["Als", "Nachdem", "Seit", "Wann"],
+          "answer": 2,
+          "vi": "Từ khi sống ở Đức, ngày nào tôi cũng nói tiếng Đức.",
+          "explain": "Từ một thời điểm trong quá khứ kéo dài đến nay, dùng Präsens → seit. 'Als' chỉ dùng với quá khứ."
+        },
+        {
+          "q": "Wir warten hier, ___ der Regen aufhört.",
+          "options": ["bis", "seit", "als", "wann"],
+          "answer": 0,
+          "vi": "Chúng tôi đợi ở đây cho đến khi tạnh mưa.",
+          "explain": "Cho đến khi → bis. 'seit' chỉ điểm bắt đầu, không phải điểm kết thúc."
+        },
+        {
+          "q": "___ ich zu Hause angekommen bin, rufe ich dich an.",
+          "options": ["Als", "Sobald", "Wann", "Ob"],
+          "answer": 1,
+          "vi": "Ngay khi về đến nhà, tôi sẽ gọi cho bạn.",
+          "explain": "Ngay khi (tương lai) → sobald. 'Als' chỉ dùng cho quá khứ, không dùng cho việc sắp tới."
+        },
+        {
+          "q": "Als ich nach Hause kam, ___.",
+          "options": ["meine Mutter kochte", "kocht meine Mutter", "meine Mutter kocht", "kochte meine Mutter"],
+          "answer": 3,
+          "vi": "Khi tôi về đến nhà thì mẹ tôi đang nấu ăn.",
+          "explain": "Mệnh đề phụ đứng đầu → mệnh đề chính bắt đầu bằng động từ, thì quá khứ: kochte meine Mutter. 'meine Mutter kochte' sai vị trí động từ."
+        },
+        {
+          "q": "___ ich das Studium beendet hatte, fand ich eine Stelle beim Finanzamt.",
+          "options": ["Wenn", "Während", "Nachdem", "Bis"],
+          "answer": 2,
+          "vi": "Sau khi học xong đại học, tôi tìm được việc làm ở sở thuế.",
+          "explain": "Plusquamperfekt (beendet hatte) diễn tả việc xảy ra trước → nachdem. 'Wenn' không dùng cho một sự việc duy nhất trong quá khứ."
+        },
+        {
+          "q": "Immer ___ er nach Hanoi fuhr, besuchte er seine Oma.",
+          "options": ["wenn", "als", "wann", "ob"],
+          "answer": 0,
+          "vi": "Mỗi lần anh ấy đến Hà Nội, anh ấy đều thăm bà.",
+          "explain": "Việc lặp lại nhiều lần trong quá khứ → wenn. 'als' chỉ dùng cho sự việc xảy ra một lần."
+        },
+        {
+          "q": "Seitdem er eine feste Arbeit hat, ___ er viel glücklicher.",
+          "options": ["war", "wurde", "ist gewesen", "ist"],
+          "answer": 3,
+          "vi": "Từ khi có việc làm ổn định, anh ấy hạnh phúc hơn nhiều.",
+          "explain": "seitdem + Präsens → mệnh đề chính cũng ở Präsens: ist. 'war' không khớp thì vì tình trạng vẫn kéo dài đến hiện tại."
+        },
+        {
+          "q": "Sie las Zeitung, ___ ihr Mann das Frühstück machte.",
+          "options": ["wann", "während", "ob", "nachdem"],
+          "answer": 1,
+          "vi": "Cô ấy đọc báo trong khi chồng cô ấy làm bữa sáng.",
+          "explain": "Hai việc đồng thời → während. 'nachdem' cần Plusquamperfekt và chỉ việc xảy ra trước."
+        },
+        {
+          "q": "Câu nào đúng ngữ pháp?",
+          "options": ["Bevor ich ins Bett gehe, putze ich mir die Zähne.", "Bevor ich ins Bett gehe, ich putze mir die Zähne.", "Bevor ich gehe ins Bett, putze ich mir die Zähne.", "Bevor ich ins Bett gehe, putze mir ich die Zähne."],
+          "answer": 0,
+          "vi": "Trước khi đi ngủ, tôi đánh răng.",
+          "explain": "Động từ đứng cuối mệnh đề phụ (gehe), mệnh đề chính bắt đầu bằng động từ (putze ich). 'ich putze' sai vì động từ không ở vị trí 2."
+        },
+        {
+          "q": "Sie müssen warten, ___ Ihr Antrag bearbeitet ist.",
+          "options": ["seit", "als", "bis", "wann"],
+          "answer": 2,
+          "vi": "Ông/bà phải đợi cho đến khi đơn của mình được xử lý xong.",
+          "explain": "Chờ đến một thời điểm kết thúc → bis. 'seit' chỉ điểm bắt đầu trong quá khứ."
+        },
+        {
+          "q": "Câu nào đúng ngữ pháp?",
+          "options": ["Wenn ich gestern nach Hause kam, war niemand da.", "Wann ich gestern nach Hause kam, war niemand da.", "Als ich gestern nach Hause kam, niemand war da.", "Als ich gestern nach Hause kam, war niemand da."],
+          "answer": 3,
+          "vi": "Hôm qua khi tôi về nhà thì không có ai ở nhà.",
+          "explain": "Một lần trong quá khứ (gestern) → als, và mệnh đề chính bắt đầu bằng động từ (war). 'Wenn' sai vì sự việc chỉ xảy ra một lần."
+        }
+      ]
+    }
+  ]
+}

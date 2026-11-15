@@ -1,0 +1,1121 @@
+{
+ "level": "B1",
+ "topics": [
+  {
+   "title": "Đuôi tính từ đầy đủ (Adjektivdeklination)",
+   "intro": "Tính từ đứng trước danh từ phải thêm đuôi, tùy theo loại mạo từ, giống, cách và số.\n1) Sau mạo từ xác định (der/die/das, dieser…): Nom. số ít và Akk. giống cái/trung → -e (der alte Mann, die/das …); tất cả các trường hợp còn lại (Akk. giống đực, Dat., Gen., số nhiều) → -en (den alten Mann, dem alten Mann, die alten Leute).\n2) Sau mạo từ không xác định (ein, kein, mein…): Nom. đực -er (ein alter Mann), Nom./Akk. trung -es (ein neues Auto), Nom./Akk. cái -e (eine kleine Wohnung); Dat., Gen. và Akk. đực → -en (einen alten Mann, einer kleinen Wohnung).\n3) Không có mạo từ (Nullartikel): tính từ mang đuôi của mạo từ der: heißer Kaffee (Nom.), heißen Kaffee (Akk.), bei schlechtem Wetter (Dat.), kalte Milch; số nhiều: nette Freunde, mit kleinen Kindern. Riêng Gen. đực/trung: -en (trotz starken Regens, frischen Brotes).",
+   "questions": [
+    {
+     "q": "Das ist ein ___ Auto.",
+     "options": [
+      "neues",
+      "neue",
+      "neuen",
+      "neuer"
+     ],
+     "answer": 0,
+     "vi": "Đây là một chiếc ô tô mới.",
+     "explain": "Auto là giống trung, Nom. sau ein → đuôi -es. 'neue' chỉ đúng sau mạo từ xác định (das neue Auto)."
+    },
+    {
+     "q": "Ich kaufe den ___ Tisch.",
+     "options": [
+      "großer",
+      "großen",
+      "große",
+      "großem"
+     ],
+     "answer": 1,
+     "vi": "Tôi mua cái bàn lớn.",
+     "explain": "Akk. giống đực sau den → -en. 'großer' là đuôi Nom. đực sau ein."
+    },
+    {
+     "q": "Die ___ Frau wohnt hier.",
+     "options": [
+      "junger",
+      "jungen",
+      "junge",
+      "junges"
+     ],
+     "answer": 2,
+     "vi": "Người phụ nữ trẻ sống ở đây.",
+     "explain": "Nom. số ít sau mạo từ xác định die → -e. 'jungen' chỉ dùng ở Dat./Gen. hoặc số nhiều."
+    },
+    {
+     "q": "Wir trinken ___ Kaffee.",
+     "options": [
+      "heißer",
+      "heißes",
+      "heißem",
+      "heißen"
+     ],
+     "answer": 3,
+     "vi": "Chúng tôi uống cà phê nóng.",
+     "explain": "Không có mạo từ, Akk. giống đực → đuôi giống 'den': -en. 'heißer' là Nom."
+    },
+    {
+     "q": "Mit dem ___ Zug fahren wir nach Berlin.",
+     "options": [
+      "schnellen",
+      "schneller",
+      "schnelle",
+      "schnellem"
+     ],
+     "answer": 0,
+     "vi": "Chúng tôi đi Berlin bằng chuyến tàu nhanh.",
+     "explain": "Sau dem (Dat.) tính từ luôn có -en. 'schnellem' sai vì mạo từ dem đã thể hiện cách rồi."
+    },
+    {
+     "q": "Er wohnt in einer ___ Wohnung.",
+     "options": [
+      "kleine",
+      "kleinen",
+      "kleiner",
+      "kleinem"
+     ],
+     "answer": 1,
+     "vi": "Anh ấy sống trong một căn hộ nhỏ.",
+     "explain": "in + Dat. (vị trí), sau einer → -en. 'kleiner' sai vì đuôi -er đã nằm ở mạo từ einer."
+    },
+    {
+     "q": "Ich trinke gern ___ Milch.",
+     "options": [
+      "kalten",
+      "kalter",
+      "kalte",
+      "kaltem"
+     ],
+     "answer": 2,
+     "vi": "Tôi thích uống sữa lạnh.",
+     "explain": "Không có mạo từ, Akk. giống cái → -e (như 'die'). 'kalter' là Dat./Gen. giống cái."
+    },
+    {
+     "q": "Die ___ Kinder spielen im Garten.",
+     "options": [
+      "kleine",
+      "kleiner",
+      "kleines",
+      "kleinen"
+     ],
+     "answer": 3,
+     "vi": "Những đứa trẻ nhỏ chơi trong vườn.",
+     "explain": "Số nhiều sau mạo từ xác định die → -en. 'kleine' chỉ đúng khi không có mạo từ (kleine Kinder)."
+    },
+    {
+     "q": "Bei ___ Wetter bleiben wir zu Hause.",
+     "options": [
+      "schlechtem",
+      "schlechten",
+      "schlechtes",
+      "schlechter"
+     ],
+     "answer": 0,
+     "vi": "Khi thời tiết xấu chúng tôi ở nhà.",
+     "explain": "bei + Dat., không mạo từ, giống trung → -em (như 'dem'). 'schlechten' chỉ đúng khi có mạo từ (bei dem schlechten Wetter)."
+    },
+    {
+     "q": "Das ist das Auto meines ___ Bruders.",
+     "options": [
+      "älterer",
+      "älteren",
+      "ältere",
+      "älteres"
+     ],
+     "answer": 1,
+     "vi": "Đây là ô tô của anh trai tôi.",
+     "explain": "Gen. sau meines → tính từ luôn -en. 'älterer' là đuôi Nom. đực."
+    },
+    {
+     "q": "Wir haben ___ Freunde eingeladen.",
+     "options": [
+      "netten",
+      "nettes",
+      "nette",
+      "netter"
+     ],
+     "answer": 2,
+     "vi": "Chúng tôi đã mời những người bạn dễ mến.",
+     "explain": "Số nhiều Akk. không mạo từ → -e (như 'die'). 'netten' cần có mạo từ đứng trước (die netten Freunde)."
+    },
+    {
+     "q": "Trotz des ___ Regens gingen wir spazieren.",
+     "options": [
+      "starke",
+      "starker",
+      "starkes",
+      "starken"
+     ],
+     "answer": 3,
+     "vi": "Mặc dù mưa to, chúng tôi vẫn đi dạo.",
+     "explain": "Gen. sau des → -en. 'starkes' sai vì -es đã có trên mạo từ des."
+    },
+    {
+     "q": "Er gab ___ Kindern Geschenke.",
+     "options": [
+      "kleinen",
+      "kleine",
+      "kleiner",
+      "kleinem"
+     ],
+     "answer": 0,
+     "vi": "Anh ấy tặng quà cho những đứa trẻ nhỏ.",
+     "explain": "Dat. số nhiều không mạo từ → -en (như 'den Kindern'). 'kleinem' là Dat. số ít đực/trung."
+    },
+    {
+     "q": "Das ist der Preis ___ Brotes.",
+     "options": [
+      "frisches",
+      "frischen",
+      "frischem",
+      "frischer"
+     ],
+     "answer": 1,
+     "vi": "Đây là giá của bánh mì tươi.",
+     "explain": "Gen. đực/trung không mạo từ là ngoại lệ: tính từ có -en vì danh từ đã có -es. 'frisches' là lỗi rất hay gặp."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Ich habe mit einem alten Freund gesprochen, der in einer große Stadt wohnt.",
+      "Mit meinem neuem Kollegen gehe ich ins Kino.",
+      "Wegen des schlechten Wetters bleibt mein kleiner Bruder zu Hause.",
+      "Wir haben keine gute Ideen für das neues Projekt."
+     ],
+     "answer": 2,
+     "vi": "Vì thời tiết xấu nên em trai tôi ở nhà.",
+     "explain": "Câu 3 đúng: des schlechten (Gen.), mein kleiner (Nom. đực). Các câu khác sai: 'einer großen', 'meinem neuen', 'keine guten … das neue'."
+    }
+   ]
+  },
+  {
+   "title": "Cách 2 – Genitiv & giới từ đi với Genitiv (Genitiv und Genitivpräpositionen)",
+   "intro": "Genitiv diễn tả sự sở hữu (\"của\"): das Auto des Vaters.\nMạo từ: đực/trung des/eines/meines, cái và số nhiều der/einer/meiner.\nDanh từ đực/trung thêm -s (des Vaters, des Films) hoặc -es với từ một âm tiết hay tận cùng -s, -ß, -z (des Kindes, des Hauses). Danh từ giống cái và số nhiều không thêm đuôi (der Frau, der Ferien).\nGiới từ đi với Genitiv: wegen (vì), trotz (mặc dù), während (trong lúc), statt/anstatt (thay vì), innerhalb (trong vòng/bên trong), außerhalb (bên ngoài). Ví dụ: wegen des Regens, trotz der Verspätung, innerhalb einer Woche.\nLưu ý: wegen/trotz là giới từ, còn obwohl/weil là liên từ mở câu phụ.",
+   "questions": [
+    {
+     "q": "Das ist das Auto ___ Vaters.",
+     "options": [
+      "des",
+      "der",
+      "dem",
+      "den"
+     ],
+     "answer": 0,
+     "vi": "Đây là ô tô của bố.",
+     "explain": "Vater giống đực, Gen. → des Vaters. 'dem' là Dat., không diễn tả sở hữu."
+    },
+    {
+     "q": "Die Tasche ___ Frau ist rot.",
+     "options": [
+      "des",
+      "der",
+      "die",
+      "dem"
+     ],
+     "answer": 1,
+     "vi": "Cái túi của người phụ nữ màu đỏ.",
+     "explain": "Gen. giống cái → der. 'des' chỉ dùng cho đực/trung."
+    },
+    {
+     "q": "Das Ende ___ war spannend.",
+     "options": [
+      "der Film",
+      "dem Film",
+      "des Films",
+      "den Films"
+     ],
+     "answer": 2,
+     "vi": "Đoạn kết của bộ phim rất hấp dẫn.",
+     "explain": "Gen. đực: des + danh từ thêm -s. 'den Films' sai mạo từ."
+    },
+    {
+     "q": "Der Name ___ Kindes ist Lina.",
+     "options": [
+      "der",
+      "dem",
+      "das",
+      "des"
+     ],
+     "answer": 3,
+     "vi": "Tên của đứa trẻ là Lina.",
+     "explain": "Kind giống trung, Gen. → des Kindes. 'das' là Nom./Akk."
+    },
+    {
+     "q": "___ des Regens fahren wir heute nicht mit dem Fahrrad.",
+     "options": [
+      "Wegen",
+      "Obwohl",
+      "Weil",
+      "Trotzdem"
+     ],
+     "answer": 0,
+     "vi": "Vì trời mưa nên hôm nay chúng tôi không đi xe đạp.",
+     "explain": "Trước cụm danh từ Gen. cần giới từ wegen. 'Weil' là liên từ, phải đi với một mệnh đề có động từ."
+    },
+    {
+     "q": "___ des Regens sind wir ohne Schirm spazieren gegangen.",
+     "options": [
+      "Wegen",
+      "Trotz",
+      "Statt",
+      "Innerhalb"
+     ],
+     "answer": 1,
+     "vi": "Mặc dù trời mưa, chúng tôi vẫn đi dạo không mang ô.",
+     "explain": "Trotz = mặc dù, hợp nghĩa 'đi dạo dù mưa'. 'Wegen' (vì) không hợp lý về nghĩa."
+    },
+    {
+     "q": "Während ___ Sommerferien arbeitet sie in einem Café.",
+     "options": [
+      "die",
+      "das",
+      "der",
+      "des"
+     ],
+     "answer": 2,
+     "vi": "Trong kỳ nghỉ hè cô ấy làm việc ở một quán cà phê.",
+     "explain": "während + Gen.; Ferien là số nhiều → der. 'des' chỉ dùng cho số ít đực/trung."
+    },
+    {
+     "q": "Sie trinkt Tee statt ___ Kaffees.",
+     "options": [
+      "der",
+      "dem",
+      "den",
+      "des"
+     ],
+     "answer": 3,
+     "vi": "Cô ấy uống trà thay vì cà phê.",
+     "explain": "statt + Gen., Kaffee giống đực → des Kaffees. 'dem' là Dat., sai trong văn chuẩn."
+    },
+    {
+     "q": "Bitte bezahlen Sie die Rechnung innerhalb ___ Woche.",
+     "options": [
+      "einer",
+      "einem",
+      "eine",
+      "eines"
+     ],
+     "answer": 0,
+     "vi": "Vui lòng thanh toán hóa đơn trong vòng một tuần.",
+     "explain": "innerhalb + Gen., Woche giống cái → einer. 'eines' dành cho đực/trung."
+    },
+    {
+     "q": "Das Haus liegt außerhalb ___ Stadt.",
+     "options": [
+      "des",
+      "der",
+      "dem",
+      "die"
+     ],
+     "answer": 1,
+     "vi": "Ngôi nhà nằm bên ngoài thành phố.",
+     "explain": "außerhalb + Gen., Stadt giống cái → der. 'die' là Nom./Akk."
+    },
+    {
+     "q": "Die Farbe ___ gefällt mir.",
+     "options": [
+      "der Hauses",
+      "des Haus",
+      "des Hauses",
+      "dem Haus"
+     ],
+     "answer": 2,
+     "vi": "Tôi thích màu của ngôi nhà.",
+     "explain": "Haus tận cùng bằng -s → des Hauses. 'des Haus' thiếu đuôi -es."
+    },
+    {
+     "q": "Wegen ___ Krankheit konnte er nicht kommen.",
+     "options": [
+      "seinen",
+      "seinem",
+      "seine",
+      "seiner"
+     ],
+     "answer": 3,
+     "vi": "Vì bệnh nên anh ấy không thể đến.",
+     "explain": "wegen + Gen., Krankheit giống cái → seiner. 'seinem' là Dat."
+    },
+    {
+     "q": "Das Büro ___ ist im dritten Stock.",
+     "options": [
+      "meines Chefs",
+      "meinem Chef",
+      "meinen Chef",
+      "meiner Chefs"
+     ],
+     "answer": 0,
+     "vi": "Văn phòng của sếp tôi ở tầng ba.",
+     "explain": "Gen. đực: meines + Chef-s. 'meinem Chef' là Dat., không diễn tả sở hữu trong văn chuẩn."
+    },
+    {
+     "q": "Trotz ___ Verspätung erreichten wir den Anschlusszug.",
+     "options": [
+      "die lange",
+      "der langen",
+      "dem langen",
+      "der lange"
+     ],
+     "answer": 1,
+     "vi": "Mặc dù bị trễ lâu, chúng tôi vẫn kịp chuyến tàu nối.",
+     "explain": "trotz + Gen., giống cái → der, tính từ sau der ở Gen. → -en. 'der lange' sai đuôi tính từ."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Trotz des Regen bleiben wir draußen.",
+      "Das ist das Fahrrad der Bruder.",
+      "Während des Unterrichts darf man nicht telefonieren.",
+      "Statt einen Brief schreibt er eine E-Mail."
+     ],
+     "answer": 2,
+     "vi": "Trong giờ học không được gọi điện thoại.",
+     "explain": "Câu 3 đúng: während + des Unterrichts. Các câu khác sai: 'des Regens', 'des Bruders', 'statt eines Briefes'."
+    }
+   ]
+  },
+  {
+   "title": "Liên từ hai vế (zweiteilige Konnektoren)",
+   "intro": "Liên từ hai vế nối hai từ, cụm từ hoặc câu:\n- entweder … oder: hoặc … hoặc (chọn một)\n- sowohl … als auch: cả … lẫn (cả hai)\n- weder … noch: không … cũng không (phủ định cả hai, không thêm nicht/kein)\n- nicht nur … sondern auch: không chỉ … mà còn\n- zwar … aber: tuy … nhưng\nTrật tự từ: zwar đứng ở vị trí 1 thì động từ theo sau ngay: Zwar ist das Hotel teuer, aber … ; oder/aber không làm thay đổi trật tự câu sau. Chủ ngữ nối bằng sowohl … als auch đi với động từ số nhiều; với weder … noch động từ thường chia theo chủ ngữ gần nhất.",
+   "questions": [
+    {
+     "q": "Wir fahren ___ mit dem Zug oder mit dem Bus.",
+     "options": [
+      "weder",
+      "entweder",
+      "sowohl",
+      "nicht nur"
+     ],
+     "answer": 1,
+     "vi": "Chúng tôi đi bằng tàu hỏa hoặc bằng xe buýt.",
+     "explain": "Cặp 'entweder … oder' = hoặc … hoặc. 'weder' phải đi với 'noch'."
+    },
+    {
+     "q": "Sie spricht sowohl Deutsch ___ Englisch.",
+     "options": [
+      "oder",
+      "noch",
+      "als auch",
+      "sondern"
+     ],
+     "answer": 2,
+     "vi": "Cô ấy nói cả tiếng Đức lẫn tiếng Anh.",
+     "explain": "sowohl đi với als auch. 'noch' thuộc cặp weder … noch."
+    },
+    {
+     "q": "Ich habe weder Zeit ___ Geld.",
+     "options": [
+      "oder",
+      "aber",
+      "als auch",
+      "noch"
+     ],
+     "answer": 3,
+     "vi": "Tôi không có thời gian cũng không có tiền.",
+     "explain": "weder đi với noch. 'oder' thuộc cặp entweder … oder."
+    },
+    {
+     "q": "Er ist nicht nur intelligent, ___ auch sehr fleißig.",
+     "options": [
+      "sondern",
+      "aber",
+      "oder",
+      "noch"
+     ],
+     "answer": 0,
+     "vi": "Anh ấy không chỉ thông minh mà còn rất chăm chỉ.",
+     "explain": "Cặp cố định: nicht nur … sondern auch. 'aber auch' không dùng trong cặp này ở văn chuẩn."
+    },
+    {
+     "q": "Die Wohnung ist ___ klein, aber sehr gemütlich.",
+     "options": [
+      "entweder",
+      "zwar",
+      "weder",
+      "sowohl"
+     ],
+     "answer": 1,
+     "vi": "Căn hộ tuy nhỏ nhưng rất ấm cúng.",
+     "explain": "zwar … aber = tuy … nhưng. 'sowohl' cần als auch, không đi với aber."
+    },
+    {
+     "q": "___ kommst du heute, oder wir treffen uns morgen.",
+     "options": [
+      "Weder",
+      "Sowohl",
+      "Entweder",
+      "Zwar"
+     ],
+     "answer": 2,
+     "vi": "Hoặc bạn đến hôm nay, hoặc chúng ta gặp nhau ngày mai.",
+     "explain": "Có 'oder' ở vế sau → Entweder. 'Zwar' cần 'aber'."
+    },
+    {
+     "q": "Weder mein Bruder ___ meine Schwester kann schwimmen.",
+     "options": [
+      "oder",
+      "als auch",
+      "sondern",
+      "noch"
+     ],
+     "answer": 3,
+     "vi": "Cả anh trai lẫn chị gái tôi đều không biết bơi.",
+     "explain": "weder … noch phủ định cả hai. 'als auch' thuộc cặp sowohl … als auch."
+    },
+    {
+     "q": "Zwar ___, aber der Service ist ausgezeichnet.",
+     "options": [
+      "ist das Hotel teuer",
+      "das Hotel ist teuer",
+      "das Hotel teuer ist",
+      "teuer das Hotel ist"
+     ],
+     "answer": 0,
+     "vi": "Khách sạn tuy đắt nhưng dịch vụ tuyệt vời.",
+     "explain": "Zwar chiếm vị trí 1 nên động từ đứng ngay sau: Zwar ist … 'Zwar das Hotel ist' sai vì động từ ở vị trí 3."
+    },
+    {
+     "q": "Sowohl Anna als auch Paul ___ zur Party.",
+     "options": [
+      "kommt",
+      "kommen",
+      "kommst",
+      "komme"
+     ],
+     "answer": 1,
+     "vi": "Cả Anna lẫn Paul đều đến bữa tiệc.",
+     "explain": "sowohl … als auch nối hai chủ ngữ → động từ số nhiều. 'kommt' là số ít."
+    },
+    {
+     "q": "Er hat ___ angerufen noch eine E-Mail geschrieben.",
+     "options": [
+      "entweder",
+      "nicht nur",
+      "weder",
+      "zwar"
+     ],
+     "answer": 2,
+     "vi": "Anh ấy không gọi điện cũng không viết email.",
+     "explain": "Có 'noch' ở vế sau → weder. 'entweder' cần 'oder'."
+    },
+    {
+     "q": "Ich möchte nicht nur Deutsch lernen, sondern ___ in Deutschland studieren.",
+     "options": [
+      "noch",
+      "aber",
+      "oder",
+      "auch"
+     ],
+     "answer": 3,
+     "vi": "Tôi không chỉ muốn học tiếng Đức mà còn muốn học đại học ở Đức.",
+     "explain": "Cặp đầy đủ là 'sondern auch'. 'sondern noch' không đúng với nicht nur."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Entweder rufst du ihn an, oder du schreibst ihm.",
+      "Ich trinke weder Kaffee noch keinen Tee.",
+      "Sie ist sowohl müde oder hungrig.",
+      "Er arbeitet zwar viel, sondern verdient wenig."
+     ],
+     "answer": 0,
+     "vi": "Hoặc bạn gọi điện cho anh ấy, hoặc bạn viết thư cho anh ấy.",
+     "explain": "Câu 1 đúng. Câu 2 sai vì weder … noch đã phủ định, không thêm 'keinen'; câu 3 cần 'als auch', câu 4 cần 'aber'."
+    },
+    {
+     "q": "Du kannst entweder heute kommen ___ morgen.",
+     "options": [
+      "noch",
+      "oder",
+      "als auch",
+      "sondern"
+     ],
+     "answer": 1,
+     "vi": "Bạn có thể đến hôm nay hoặc ngày mai.",
+     "explain": "entweder đi với oder. 'noch' chỉ đi với weder."
+    },
+    {
+     "q": "Der Film war zwar lang, ___ er war nie langweilig.",
+     "options": [
+      "sondern",
+      "noch",
+      "aber",
+      "oder"
+     ],
+     "answer": 2,
+     "vi": "Bộ phim tuy dài nhưng không bao giờ nhàm chán.",
+     "explain": "zwar … aber. 'sondern' chỉ dùng sau một phủ định (nicht nur … sondern auch)."
+    },
+    {
+     "q": "Weder der Vermieter noch die Mieter ___ mit dem Vertrag zufrieden.",
+     "options": [
+      "ist",
+      "bin",
+      "seid",
+      "sind"
+     ],
+     "answer": 3,
+     "vi": "Cả chủ nhà lẫn những người thuê đều không hài lòng với hợp đồng.",
+     "explain": "Với weder … noch, động từ chia theo chủ ngữ gần nhất 'die Mieter' (số nhiều) → sind. 'ist' chỉ hợp với chủ ngữ số ít."
+    }
+   ]
+  },
+  {
+   "title": "Động từ đi với giới từ & đại từ trạng từ (Verben mit Präpositionen, Pronominaladverbien)",
+   "intro": "Nhiều động từ đi với giới từ cố định, cần học thuộc cùng cách: warten auf + Akk., sich freuen auf + Akk. (điều sắp tới), sich interessieren für + Akk., denken an + Akk., sich erinnern an + Akk., sich beschweren über + Akk., sich ärgern über + Akk., teilnehmen an + Dat., träumen von + Dat., Angst haben vor + Dat., bitten um + Akk., sich kümmern um + Akk., sich bedanken bei jdm. für etw.\nVới sự vật: hỏi bằng wo(r) + giới từ (Worauf wartest du?), trả lời bằng da(r) + giới từ (Ich warte darauf.). Thêm -r- khi giới từ bắt đầu bằng nguyên âm: worüber, daran.\nVới người: hỏi giới từ + wen/wem (An wen denkst du?), trả lời giới từ + đại từ (an ihn, mit ihm).\nDa(r)- còn báo trước một câu phụ: Ich ärgere mich darüber, dass …",
+   "questions": [
+    {
+     "q": "Ich warte ___ den Bus.",
+     "options": [
+      "für",
+      "an",
+      "auf",
+      "mit"
+     ],
+     "answer": 2,
+     "vi": "Tôi đợi xe buýt.",
+     "explain": "warten auf + Akk. 'für' là lỗi dịch từ tiếng Anh 'wait for'."
+    },
+    {
+     "q": "Sie interessiert sich ___ Musik.",
+     "options": [
+      "an",
+      "über",
+      "auf",
+      "für"
+     ],
+     "answer": 3,
+     "vi": "Cô ấy quan tâm đến âm nhạc.",
+     "explain": "sich interessieren für + Akk. 'an' chỉ dùng với danh từ Interesse (Interesse an)."
+    },
+    {
+     "q": "Die Kinder freuen sich schon jetzt ___ die Sommerferien.",
+     "options": [
+      "auf",
+      "an",
+      "von",
+      "mit"
+     ],
+     "answer": 0,
+     "vi": "Bọn trẻ đã mong chờ kỳ nghỉ hè ngay từ bây giờ.",
+     "explain": "sich freuen auf = mong chờ điều sắp đến. 'an' không đi với freuen."
+    },
+    {
+     "q": "Er denkt oft ___ seine Familie.",
+     "options": [
+      "für",
+      "an",
+      "mit",
+      "auf"
+     ],
+     "answer": 1,
+     "vi": "Anh ấy thường nghĩ đến gia đình mình.",
+     "explain": "denken an + Akk. = nghĩ đến. 'für' là lỗi dịch từ 'think for'."
+    },
+    {
+     "q": "Ich habe mich beim Hausmeister ___ die laute Musik beschwert.",
+     "options": [
+      "auf",
+      "an",
+      "über",
+      "für"
+     ],
+     "answer": 2,
+     "vi": "Tôi đã phàn nàn với người quản lý tòa nhà về tiếng nhạc ồn ào.",
+     "explain": "sich beschweren bei jdm. über etw. 'für' sai giới từ."
+    },
+    {
+     "q": "Er nimmt ___ einem Deutschkurs teil.",
+     "options": [
+      "in",
+      "bei",
+      "auf",
+      "an"
+     ],
+     "answer": 3,
+     "vi": "Anh ấy tham gia một khóa học tiếng Đức.",
+     "explain": "teilnehmen an + Dat. 'in' là lỗi do dịch 'tham gia vào'."
+    },
+    {
+     "q": "___ wartest du? – Auf den Bus.",
+     "options": [
+      "Worauf",
+      "Wofür",
+      "Woran",
+      "Wovon"
+     ],
+     "answer": 0,
+     "vi": "Bạn đang đợi gì? – Đợi xe buýt.",
+     "explain": "warten auf, hỏi về sự vật → wo(r) + auf = Worauf. 'Woran' ứng với giới từ an."
+    },
+    {
+     "q": "Interessierst du dich für Politik? – Ja, ich interessiere mich sehr ___.",
+     "options": [
+      "für es",
+      "dafür",
+      "für sie",
+      "wofür"
+     ],
+     "answer": 1,
+     "vi": "Bạn có quan tâm đến chính trị không? – Có, tôi rất quan tâm đến nó.",
+     "explain": "Thay sự vật bằng da + für = dafür. 'für sie' chỉ dùng cho người."
+    },
+    {
+     "q": "___ denkst du? – An meine Mutter.",
+     "options": [
+      "Woran",
+      "An was",
+      "An wen",
+      "An wem"
+     ],
+     "answer": 2,
+     "vi": "Bạn đang nghĩ đến ai? – Đến mẹ tôi.",
+     "explain": "Hỏi về người: giới từ + wen (an + Akk.). 'Woran' chỉ dùng cho sự vật."
+    },
+    {
+     "q": "Hast du mit Herrn Weber gesprochen? – Ja, ich habe gestern ___ gesprochen.",
+     "options": [
+      "damit",
+      "mit ihn",
+      "mit sich",
+      "mit ihm"
+     ],
+     "answer": 3,
+     "vi": "Bạn đã nói chuyện với ông Weber chưa? – Rồi, hôm qua tôi đã nói chuyện với ông ấy.",
+     "explain": "Với người: mit + Dat. → mit ihm. 'damit' chỉ thay cho sự vật."
+    },
+    {
+     "q": "Ich ärgere mich ___, dass der Zug schon wieder Verspätung hat.",
+     "options": [
+      "darüber",
+      "worüber",
+      "über es",
+      "davon"
+     ],
+     "answer": 0,
+     "vi": "Tôi bực mình vì tàu lại bị trễ.",
+     "explain": "sich ärgern über; 'darüber' báo trước câu phụ dass. 'über es' không dùng cho sự vật/sự việc."
+    },
+    {
+     "q": "___ hast du Angst? – Vor der Prüfung.",
+     "options": [
+      "Worauf",
+      "Wovor",
+      "Wofür",
+      "Wovon"
+     ],
+     "answer": 1,
+     "vi": "Bạn sợ điều gì? – Sợ kỳ thi.",
+     "explain": "Angst haben vor → Wovor. 'Wovon' ứng với giới từ von."
+    },
+    {
+     "q": "Ich kann mich nicht ___ seinen Namen erinnern.",
+     "options": [
+      "über",
+      "auf",
+      "an",
+      "von"
+     ],
+     "answer": 2,
+     "vi": "Tôi không thể nhớ ra tên anh ấy.",
+     "explain": "sich erinnern an + Akk. 'von' là lỗi thường gặp do dịch 'nhớ về'."
+    },
+    {
+     "q": "Die Firma bittet die Kunden ___ Geduld.",
+     "options": [
+      "für",
+      "nach",
+      "auf",
+      "um"
+     ],
+     "answer": 3,
+     "vi": "Công ty xin khách hàng kiên nhẫn.",
+     "explain": "bitten um + Akk. = xin, đề nghị. 'für' sai; 'fragen nach' mới đi với nach."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Ich kümmere mich um meine Großmutter und sorge dafür, dass sie alles hat.",
+      "Wir haben lange über das Problem diskutiert und sprechen morgen wieder über es.",
+      "Sie hat sich an ihren Lehrer bedankt.",
+      "Er träumt über eine Reise nach Japan."
+     ],
+     "answer": 0,
+     "vi": "Tôi chăm sóc bà tôi và lo sao cho bà có đủ mọi thứ.",
+     "explain": "Câu 1 đúng (sich kümmern um, sorgen dafür). Sai: 'darüber' thay 'über es', 'bei ihrem Lehrer bedankt', 'träumt von'."
+    }
+   ]
+  },
+  {
+   "title": "Danh từ biến cách yếu (n-Deklination)",
+   "intro": "Một nhóm danh từ giống đực thêm -(e)n ở mọi cách trừ Nom. số ít: der Kunde – den/dem/des Kunden.\nThuộc nhóm này: danh từ đực tận cùng -e chỉ người/động vật (der Junge, Kollege, Kunde, Zeuge, Löwe); danh từ đực gốc ngoại tận cùng -ent, -ant, -ist, -at, -oge, -ad (der Student, Präsident, Patient, Polizist, Kandidat, Jurist); một số từ khác: der Mensch, Herr (den/dem/des Herrn, số nhiều die Herren), Nachbar, Bauer.\nĐặc biệt: der Name – den/dem Namen – des Namens (tương tự Gedanke, Glaube).\nTrong lời chào thư, Herr ở Nom.: Sehr geehrter Herr Müller; nhưng: Ich treffe Herrn Müller.",
+   "questions": [
+    {
+     "q": "Ich sehe den ___.",
+     "options": [
+      "Junge",
+      "Jungem",
+      "Junges",
+      "Jungen"
+     ],
+     "answer": 3,
+     "vi": "Tôi nhìn thấy cậu bé.",
+     "explain": "Junge thuộc n-Deklination → Akk. den Jungen. 'Junge' chỉ đúng ở Nom."
+    },
+    {
+     "q": "Der Arzt spricht mit dem ___.",
+     "options": [
+      "Patienten",
+      "Patient",
+      "Patients",
+      "Patiente"
+     ],
+     "answer": 0,
+     "vi": "Bác sĩ nói chuyện với bệnh nhân.",
+     "explain": "Patient (đuôi -ent) → Dat. dem Patienten. 'Patient' thiếu đuôi -en."
+    },
+    {
+     "q": "Kennst du den neuen ___?",
+     "options": [
+      "Kollege",
+      "Kollegen",
+      "Kolleges",
+      "Kollegem"
+     ],
+     "answer": 1,
+     "vi": "Bạn có biết người đồng nghiệp mới không?",
+     "explain": "Akk. của Kollege → den Kollegen. 'Kollege' là Nom."
+    },
+    {
+     "q": "Ich gebe dem ___ meinen Pass.",
+     "options": [
+      "Polizist",
+      "Polizists",
+      "Polizisten",
+      "Polizistes"
+     ],
+     "answer": 2,
+     "vi": "Tôi đưa hộ chiếu của tôi cho viên cảnh sát.",
+     "explain": "Danh từ đuôi -ist theo n-Deklination → dem Polizisten. 'Polizist' thiếu -en."
+    },
+    {
+     "q": "Das ist das Büro des ___.",
+     "options": [
+      "Präsidents",
+      "Präsident",
+      "Präsidentes",
+      "Präsidenten"
+     ],
+     "answer": 3,
+     "vi": "Đây là văn phòng của tổng thống.",
+     "explain": "n-Deklination: Gen. chỉ thêm -en, không thêm -s → des Präsidenten. 'Präsidents' là lỗi do áp dụng quy tắc Gen. thông thường."
+    },
+    {
+     "q": "Sehr geehrter ___ Müller, vielen Dank für Ihre E-Mail.",
+     "options": [
+      "Herr",
+      "Herrn",
+      "Herren",
+      "Herrns"
+     ],
+     "answer": 0,
+     "vi": "Kính gửi ông Müller, cảm ơn email của ông.",
+     "explain": "Lời chào trong thư ở Nom. → Herr. 'Herrn' là Akk./Dat./Gen."
+    },
+    {
+     "q": "Ich habe gestern ___ Müller getroffen.",
+     "options": [
+      "Herr",
+      "Herrn",
+      "Herren",
+      "Herrens"
+     ],
+     "answer": 1,
+     "vi": "Hôm qua tôi đã gặp ông Müller.",
+     "explain": "treffen + Akk. → Herrn. 'Herren' là số nhiều."
+    },
+    {
+     "q": "Wir haben einen ___ aus Frankreich zu Gast.",
+     "options": [
+      "Student",
+      "Students",
+      "Studenten",
+      "Studente"
+     ],
+     "answer": 2,
+     "vi": "Chúng tôi có một sinh viên đến từ Pháp làm khách.",
+     "explain": "Akk. → einen Studenten. 'Student' chỉ đúng ở Nom. số ít."
+    },
+    {
+     "q": "Die Verkäuferin hilft dem ___.",
+     "options": [
+      "Kunde",
+      "Kundem",
+      "Kundes",
+      "Kunden"
+     ],
+     "answer": 3,
+     "vi": "Cô bán hàng giúp khách hàng.",
+     "explain": "helfen + Dat., Kunde thuộc n-Deklination → dem Kunden. 'Kunde' chỉ đúng ở Nom."
+    },
+    {
+     "q": "Wir brauchen einen ___ für das neue Haus.",
+     "options": [
+      "Architekten",
+      "Architekt",
+      "Architekts",
+      "Architekte"
+     ],
+     "answer": 0,
+     "vi": "Chúng tôi cần một kiến trúc sư cho ngôi nhà mới.",
+     "explain": "Architekt thuộc n-Deklination → Akk. einen Architekten. 'Architekt' thiếu -en."
+    },
+    {
+     "q": "Die Würde des ___ ist unantastbar.",
+     "options": [
+      "Mensch",
+      "Menschen",
+      "Menschs",
+      "Menschens"
+     ],
+     "answer": 1,
+     "vi": "Nhân phẩm của con người là bất khả xâm phạm.",
+     "explain": "Câu đầu tiên của Hiến pháp Đức: Mensch → des Menschen. 'Menschs' là lỗi thêm -s như danh từ thường."
+    },
+    {
+     "q": "Die Bedeutung des ___ ist unklar.",
+     "options": [
+      "Name",
+      "Namen",
+      "Namens",
+      "Names"
+     ],
+     "answer": 2,
+     "vi": "Ý nghĩa của cái tên không rõ ràng.",
+     "explain": "Name là trường hợp đặc biệt: Gen. des Namens (-n + -s). 'Namen' chỉ đúng ở Akk./Dat."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Ich habe den Kunde angerufen.",
+      "Der Polizist hat dem Junge geholfen.",
+      "Wir fragen den Herr nach dem Weg.",
+      "Die Firma sucht einen erfahrenen Juristen."
+     ],
+     "answer": 3,
+     "vi": "Công ty tìm một luật gia giàu kinh nghiệm.",
+     "explain": "Câu 4 đúng: einen Juristen (-ist → -en). Các câu khác cần 'den Kunden', 'dem Jungen', 'den Herrn'."
+    },
+    {
+     "q": "Der Richter hört den ___ an.",
+     "options": [
+      "Zeugen",
+      "Zeuge",
+      "Zeuges",
+      "Zeugem"
+     ],
+     "answer": 0,
+     "vi": "Thẩm phán nghe lời khai của nhân chứng.",
+     "explain": "Zeuge (đực, -e) → Akk. den Zeugen. 'Zeuge' chỉ đúng ở Nom."
+    },
+    {
+     "q": "Die Partei unterstützt den ___ bei der Wahl.",
+     "options": [
+      "Kandidat",
+      "Kandidaten",
+      "Kandidats",
+      "Kandidate"
+     ],
+     "answer": 1,
+     "vi": "Đảng ủng hộ ứng cử viên trong cuộc bầu cử.",
+     "explain": "Danh từ đuôi -at theo n-Deklination → den Kandidaten. 'Kandidat' thiếu đuôi -en."
+    }
+   ]
+  },
+  {
+   "title": "Thì tương lai Futur I & liên từ nối câu (Futur I und Konnektoren)",
+   "intro": "Futur I = werden (chia) + động từ nguyên mẫu ở cuối câu: Ich werde nächstes Jahr in Deutschland studieren. Dùng để nói dự định, dự đoán (Morgen wird es regnen) và phỏng đoán ở hiện tại, thường với wohl/bestimmt (Er wird wohl krank sein). Chia: ich werde, du wirst, er wird, wir/sie werden, ihr werdet. Trong câu phụ, werden đứng cuối: …, dass die Preise steigen werden.\nLiên từ nối câu:\n- deshalb (vì vậy), trotzdem (tuy vậy): trạng từ, đứng ở vị trí 1 → động từ theo ngay sau: Deshalb bleibe ich zu Hause.\n- obwohl (mặc dù), falls (nếu, trong trường hợp), sodass (đến nỗi/cho nên): mở câu phụ → động từ đứng cuối: Obwohl es regnet, …\n- Sau câu phụ đứng đầu, câu chính bắt đầu bằng động từ: Falls es regnet, bleiben wir zu Hause.",
+   "questions": [
+    {
+     "q": "Morgen ___ es regnen.",
+     "options": [
+      "werden",
+      "wird",
+      "wirst",
+      "ist"
+     ],
+     "answer": 1,
+     "vi": "Ngày mai trời sẽ mưa.",
+     "explain": "Chủ ngữ es → wird. 'wirst' chỉ dùng với du."
+    },
+    {
+     "q": "Ich ___ nächstes Jahr in Deutschland studieren.",
+     "options": [
+      "werde",
+      "wird",
+      "werden",
+      "wurde"
+     ],
+     "answer": 0,
+     "vi": "Năm sau tôi sẽ học đại học ở Đức.",
+     "explain": "ich → werde. 'wurde' là quá khứ, không hợp với 'nächstes Jahr'."
+    },
+    {
+     "q": "Wir werden euch am Wochenende ___.",
+     "options": [
+      "besucht",
+      "besuchen werden",
+      "besuchten",
+      "besuchen"
+     ],
+     "answer": 3,
+     "vi": "Chúng tôi sẽ đến thăm các bạn vào cuối tuần.",
+     "explain": "Futur I: werden + nguyên mẫu ở cuối câu → besuchen. 'besucht' là phân từ II, dùng cho Perfekt/bị động."
+    },
+    {
+     "q": "Er ist heute nicht im Büro. Er ___ wohl krank sein.",
+     "options": [
+      "werdet",
+      "wirst",
+      "wird",
+      "werden"
+     ],
+     "answer": 2,
+     "vi": "Hôm nay anh ấy không có ở văn phòng. Chắc là anh ấy bị ốm.",
+     "explain": "Futur I + wohl diễn tả phỏng đoán; er → wird. 'werden' là số nhiều."
+    },
+    {
+     "q": "Ich bin krank, ___ bleibe ich heute zu Hause.",
+     "options": [
+      "obwohl",
+      "deshalb",
+      "weil",
+      "falls"
+     ],
+     "answer": 1,
+     "vi": "Tôi bị ốm, vì vậy hôm nay tôi ở nhà.",
+     "explain": "Sau chỗ trống động từ đứng ngay (bleibe ich) → trạng từ deshalb. 'weil' sẽ đẩy động từ xuống cuối câu."
+    },
+    {
+     "q": "Es regnet stark. ___ gehen wir spazieren.",
+     "options": [
+      "Trotzdem",
+      "Obwohl",
+      "Deshalb",
+      "Sodass"
+     ],
+     "answer": 0,
+     "vi": "Trời mưa to. Tuy vậy chúng tôi vẫn đi dạo.",
+     "explain": "Ý tương phản và động từ đứng ngay sau → Trotzdem. 'Obwohl' là liên từ phụ, cần động từ ở cuối."
+    },
+    {
+     "q": "___ es stark regnet, gehen wir spazieren.",
+     "options": [
+      "Trotzdem",
+      "Deshalb",
+      "Sodass",
+      "Obwohl"
+     ],
+     "answer": 3,
+     "vi": "Mặc dù trời mưa to, chúng tôi vẫn đi dạo.",
+     "explain": "Động từ 'regnet' ở cuối mệnh đề → cần liên từ phụ obwohl. 'Trotzdem' sẽ đòi động từ ở vị trí 2 (Trotzdem regnet es)."
+    },
+    {
+     "q": "Er hat laut gesprochen, ___ alle ihn verstehen konnten.",
+     "options": [
+      "obwohl",
+      "trotzdem",
+      "sodass",
+      "deshalb"
+     ],
+     "answer": 2,
+     "vi": "Anh ấy nói to, nhờ vậy mọi người đều hiểu được anh ấy.",
+     "explain": "Hệ quả + động từ ở cuối → sodass. 'deshalb' cần động từ ngay sau (deshalb konnten alle …)."
+    },
+    {
+     "q": "___ du Fragen hast, ruf mich bitte an.",
+     "options": [
+      "Sodass",
+      "Falls",
+      "Trotzdem",
+      "Deshalb"
+     ],
+     "answer": 1,
+     "vi": "Nếu bạn có câu hỏi, hãy gọi cho tôi.",
+     "explain": "Falls = nếu (điều kiện), mở câu phụ có 'hast' ở cuối. 'Sodass' diễn tả hệ quả, không đứng đầu câu như vậy."
+    },
+    {
+     "q": "Ich habe wenig Zeit, deshalb ___.",
+     "options": [
+      "kann ich nicht kommen",
+      "ich kann nicht kommen",
+      "ich nicht kommen kann",
+      "kommen ich nicht kann"
+     ],
+     "answer": 0,
+     "vi": "Tôi có ít thời gian, vì vậy tôi không thể đến.",
+     "explain": "deshalb chiếm vị trí 1 → động từ chia (kann) ở vị trí 2. 'ich kann' sai vì động từ ở vị trí 3."
+    },
+    {
+     "q": "Obwohl er viel gelernt ___, hat er die Prüfung nicht bestanden.",
+     "options": [
+      "haben",
+      "hat er",
+      "ist",
+      "hat"
+     ],
+     "answer": 3,
+     "vi": "Mặc dù anh ấy đã học nhiều, anh ấy vẫn không đỗ kỳ thi.",
+     "explain": "Câu phụ với obwohl: trợ động từ 'hat' đứng cuối; lernen dùng haben. 'ist' sai trợ động từ."
+    },
+    {
+     "q": "Du wirst die Prüfung bestimmt ___.",
+     "options": [
+      "bestanden",
+      "bestehst",
+      "bestehen",
+      "bestehen werden"
+     ],
+     "answer": 2,
+     "vi": "Chắc chắn bạn sẽ đỗ kỳ thi.",
+     "explain": "wirst + nguyên mẫu → bestehen. 'bestanden' là phân từ II, dùng cho Perfekt."
+    },
+    {
+     "q": "Sie hat keinen Hunger. ___ isst sie ein Stück Kuchen.",
+     "options": [
+      "Obwohl",
+      "Trotzdem",
+      "Deshalb",
+      "Falls"
+     ],
+     "answer": 1,
+     "vi": "Cô ấy không đói. Tuy vậy cô ấy vẫn ăn một miếng bánh.",
+     "explain": "Tương phản + động từ ngay sau → Trotzdem. 'Deshalb' (vì vậy) không hợp nghĩa."
+    },
+    {
+     "q": "Ich glaube, dass die Steuern im nächsten Jahr steigen ___.",
+     "options": [
+      "werden",
+      "wird",
+      "werdet",
+      "worden"
+     ],
+     "answer": 0,
+     "vi": "Tôi tin rằng năm sau thuế sẽ tăng.",
+     "explain": "Chủ ngữ 'die Steuern' số nhiều → werden, đứng cuối câu phụ dass. 'wird' là số ít."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Falls es morgen regnet, wir werden zu Hause bleiben.",
+      "Er hat verschlafen, trotzdem er ist pünktlich gekommen.",
+      "Ich werde morgen das Finanzamt anrufen werden.",
+      "Obwohl die Miete hoch ist, wird sie die Wohnung nehmen."
+     ],
+     "answer": 3,
+     "vi": "Mặc dù tiền thuê nhà cao, cô ấy sẽ thuê căn hộ đó.",
+     "explain": "Câu 4 đúng: sau câu phụ, câu chính bắt đầu bằng động từ 'wird'. Sai: 'werden wir', 'trotzdem ist er', bỏ 'werden' thừa ở cuối."
+    }
+   ]
+  }
+ ]
+}

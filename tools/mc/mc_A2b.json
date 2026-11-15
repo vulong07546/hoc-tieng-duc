@@ -1,0 +1,1121 @@
+{
+ "level": "A2",
+ "topics": [
+  {
+   "title": "So sánh hơn & so sánh nhất (Komparativ und Superlativ)",
+   "intro": "So sánh hơn (Komparativ): tính từ + -er, đi với \"als\": klein → kleiner als. Nhiều tính từ một âm tiết thêm Umlaut: alt → älter, jung → jünger, groß → größer, kalt → kälter.\nSo sánh nhất (Superlativ): am + tính từ + -sten: am kleinsten; sau -t, -d, -s, -ß, -z thêm -esten: am ältesten, am kürzesten. Đứng trước danh từ thì chia đuôi như tính từ thường: der schnellste Zug, eine größere Wohnung.\nSo sánh bằng: so + tính từ + wie: Anna ist so groß wie ihre Mutter (phủ định: nicht so … wie).\nBất quy tắc:\ngut – besser – am besten\nviel – mehr – am meisten\ngern – lieber – am liebsten\nhoch – höher – am höchsten\nnah – näher – am nächsten",
+   "questions": [
+    {
+     "q": "Mein Bruder ist drei Jahre ___ als ich.",
+     "options": [
+      "älter",
+      "alter",
+      "mehr alt",
+      "am ältesten"
+     ],
+     "answer": 0,
+     "vi": "Anh trai tôi lớn hơn tôi ba tuổi.",
+     "explain": "Komparativ của \"alt\" là \"älter\" (thêm -er và Umlaut). \"alter\" thiếu Umlaut, còn \"mehr alt\" là cách so sánh của tiếng Anh/tiếng Việt, không dùng trong tiếng Đức."
+    },
+    {
+     "q": "Berlin ist größer ___ München.",
+     "options": [
+      "wie",
+      "so",
+      "als",
+      "dann"
+     ],
+     "answer": 2,
+     "vi": "Berlin lớn hơn München.",
+     "explain": "Sau Komparativ (größer) luôn dùng \"als\". \"wie\" chỉ dùng trong so sánh bằng: so groß wie."
+    },
+    {
+     "q": "Anna ist so groß ___ ihre Mutter.",
+     "options": [
+      "als",
+      "wie",
+      "wenn",
+      "wann"
+     ],
+     "answer": 1,
+     "vi": "Anna cao bằng mẹ cô ấy.",
+     "explain": "So sánh bằng có cấu trúc \"so + tính từ + wie\". \"als\" chỉ đi với Komparativ (größer als)."
+    },
+    {
+     "q": "Ich trinke ___ Tee als Kaffee.",
+     "options": [
+      "gerner",
+      "mehr gern",
+      "am liebsten",
+      "lieber"
+     ],
+     "answer": 3,
+     "vi": "Tôi thích uống trà hơn cà phê.",
+     "explain": "\"gern\" bất quy tắc: gern – lieber – am liebsten. \"gerner\" không tồn tại; \"am liebsten\" là so sánh nhất, không đi với \"als\"."
+    },
+    {
+     "q": "Dieses Restaurant ist gut, aber das Restaurant am Markt ist ___.",
+     "options": [
+      "guter",
+      "besser",
+      "mehr gut",
+      "güter"
+     ],
+     "answer": 1,
+     "vi": "Nhà hàng này ngon, nhưng nhà hàng ở chợ còn ngon hơn.",
+     "explain": "\"gut\" bất quy tắc: gut – besser – am besten. Các dạng \"guter\", \"güter\" là lỗi chia theo quy tắc thông thường."
+    },
+    {
+     "q": "Im Winter ist es in Hamburg ___ als in Rom.",
+     "options": [
+      "kälter",
+      "kalter",
+      "mehr kalt",
+      "am kältesten"
+     ],
+     "answer": 0,
+     "vi": "Vào mùa đông, ở Hamburg lạnh hơn ở Rome.",
+     "explain": "\"kalt\" là tính từ một âm tiết nên Komparativ có Umlaut: kälter. \"kalter\" thiếu Umlaut; \"am kältesten\" là so sánh nhất, không đi với \"als\"."
+    },
+    {
+     "q": "Die Post ist ___ als der Bahnhof. Wir können zu Fuß gehen.",
+     "options": [
+      "naher",
+      "nahrer",
+      "mehr nah",
+      "näher"
+     ],
+     "answer": 3,
+     "vi": "Bưu điện gần hơn nhà ga. Chúng ta có thể đi bộ.",
+     "explain": "\"nah\" có Umlaut: nah – näher – am nächsten. \"naher\" thiếu Umlaut, \"nahrer\" là dạng tự chế."
+    },
+    {
+     "q": "Von allen Bergen in Deutschland ist die Zugspitze ___.",
+     "options": [
+      "am hochsten",
+      "am höchesten",
+      "am höchsten",
+      "höher"
+     ],
+     "answer": 2,
+     "vi": "Trong tất cả các ngọn núi ở Đức, Zugspitze là cao nhất.",
+     "explain": "\"hoch\" bất quy tắc: hoch – höher – am höchsten. \"Von allen …\" đòi hỏi so sánh nhất nên \"höher\" sai; \"am hochsten\" thiếu Umlaut."
+    },
+    {
+     "q": "Wer arbeitet in eurer Firma ___? – Herr Braun, er arbeitet 50 Stunden pro Woche.",
+     "options": [
+      "am vielsten",
+      "am meistens",
+      "am meisten",
+      "mehr"
+     ],
+     "answer": 2,
+     "vi": "Ai làm việc nhiều nhất trong công ty các bạn? – Ông Braun, ông ấy làm 50 giờ mỗi tuần.",
+     "explain": "\"viel\" bất quy tắc: viel – mehr – am meisten. \"am vielsten\" không tồn tại; \"meistens\" là trạng từ \"thường thường\", không phải so sánh nhất."
+    },
+    {
+     "q": "Heute ist es nicht so warm ___ gestern.",
+     "options": [
+      "als",
+      "wie als",
+      "dass",
+      "wie"
+     ],
+     "answer": 3,
+     "vi": "Hôm nay trời không ấm bằng hôm qua.",
+     "explain": "Phủ định của so sánh bằng vẫn là \"nicht so … wie\". Dùng \"als\" ở đây là lỗi thường gặp vì có từ \"nicht\"."
+    },
+    {
+     "q": "Das ist der ___ Film, den ich je gesehen habe.",
+     "options": [
+      "beste",
+      "besten",
+      "am besten",
+      "gutste"
+     ],
+     "answer": 0,
+     "vi": "Đó là bộ phim hay nhất mà tôi từng xem.",
+     "explain": "Đứng trước danh từ, Superlativ chia đuôi như tính từ: der beste Film (Nominativ, sau der → -e). \"am besten\" chỉ dùng sau động từ, không đứng trước danh từ."
+    },
+    {
+     "q": "Meine Wohnung ist zu klein. Ich suche eine ___ Wohnung.",
+     "options": [
+      "größer",
+      "größere",
+      "größeren",
+      "mehr große"
+     ],
+     "answer": 1,
+     "vi": "Căn hộ của tôi quá nhỏ. Tôi đang tìm một căn hộ lớn hơn.",
+     "explain": "Komparativ đứng trước danh từ phải thêm đuôi tính từ: eine größere Wohnung (Akkusativ giống cái → -e). \"größer\" thiếu đuôi, \"größeren\" sai đuôi."
+    },
+    {
+     "q": "Im Sommer fahre ich am ___ ans Meer.",
+     "options": [
+      "gernsten",
+      "liebste",
+      "lieber",
+      "liebsten"
+     ],
+     "answer": 3,
+     "vi": "Vào mùa hè tôi thích nhất là đi biển.",
+     "explain": "\"gern\" – lieber – am liebsten. Sau \"am\" phải là dạng -sten: am liebsten; \"am lieber\" hay \"am gernsten\" đều sai."
+    },
+    {
+     "q": "Der ICE ist der ___ Zug in Deutschland.",
+     "options": [
+      "schnellster",
+      "schnellste",
+      "schnellsten",
+      "am schnellsten"
+     ],
+     "answer": 1,
+     "vi": "ICE là tàu nhanh nhất ở Đức.",
+     "explain": "Sau mạo từ xác định \"der\" (Nominativ giống đực) tính từ có đuôi -e: der schnellste Zug. \"schnellster\" chỉ dùng khi không có mạo từ."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Peter läuft am schnellsten in der Klasse.",
+      "Peter läuft am schnellste in der Klasse.",
+      "Peter läuft der schnellsten in der Klasse.",
+      "Peter läuft schnellster als alle in der Klasse."
+     ],
+     "answer": 0,
+     "vi": "Peter chạy nhanh nhất lớp.",
+     "explain": "Sau động từ, Superlativ có dạng \"am … -sten\": am schnellsten. \"am schnellste\" thiếu -n; \"schnellster als\" trộn lẫn Superlativ với cấu trúc so sánh hơn."
+    }
+   ]
+  },
+  {
+   "title": "Mệnh đề phụ với weil, dass, wenn, ob (Nebensätze)",
+   "intro": "weil = vì (nêu lý do), dass = rằng, wenn = khi/nếu, ob = liệu … có … không (câu hỏi có/không gián tiếp).\nTrong mệnh đề phụ, động từ chia đứng CUỐI câu: Ich bleibe zu Hause, weil ich krank bin.\nĐộng từ tách được viết liền ở cuối: …, dass er um 6 Uhr aufsteht. Với động từ khuyết thiếu hoặc Perfekt, động từ chia đứng sau cùng: …, weil ich arbeiten muss / …, weil ich schon gegessen habe.\nNếu mệnh đề phụ đứng trước, mệnh đề chính bắt đầu bằng động từ: Wenn es regnet, bleiben wir zu Hause.\n\"deshalb\" (vì vậy) KHÔNG phải liên từ phụ thuộc mà là trạng từ ở vị trí 1, nên động từ đứng ngay sau: Ich bin müde, deshalb gehe ich ins Bett.",
+   "questions": [
+    {
+     "q": "Ich bleibe heute zu Hause, ___ ich krank bin.",
+     "options": [
+      "deshalb",
+      "weil",
+      "dass",
+      "ob"
+     ],
+     "answer": 1,
+     "vi": "Hôm nay tôi ở nhà vì tôi bị ốm.",
+     "explain": "\"weil\" nêu lý do và đẩy động từ \"bin\" xuống cuối câu. \"deshalb\" sẽ cần động từ ngay sau (deshalb bin ich …) và nghĩa là \"vì vậy\"."
+    },
+    {
+     "q": "Ich glaube, ___ er heute nicht kommt.",
+     "options": [
+      "dass",
+      "das",
+      "ob",
+      "wenn"
+     ],
+     "answer": 0,
+     "vi": "Tôi nghĩ rằng hôm nay anh ấy không đến.",
+     "explain": "Sau \"glauben\" dùng \"dass\" (rằng). \"das\" (một chữ s) là mạo từ/đại từ, không phải liên từ – lỗi chính tả rất hay gặp."
+    },
+    {
+     "q": "___ ich Zeit habe, besuche ich dich.",
+     "options": [
+      "Ob",
+      "Dass",
+      "Deshalb",
+      "Wenn"
+     ],
+     "answer": 3,
+     "vi": "Khi nào tôi có thời gian, tôi sẽ đến thăm bạn.",
+     "explain": "\"Wenn\" diễn tả điều kiện/thời điểm. \"Deshalb\" không đẩy động từ xuống cuối nên \"Deshalb ich Zeit habe\" sai."
+    },
+    {
+     "q": "Ich frage meinen Chef, ___ ich morgen frei haben kann.",
+     "options": [
+      "dass",
+      "weil",
+      "ob",
+      "denn"
+     ],
+     "answer": 2,
+     "vi": "Tôi hỏi sếp xem liệu ngày mai tôi có được nghỉ không.",
+     "explain": "Câu hỏi có/không gián tiếp dùng \"ob\". \"dass\" không đi với \"fragen\"; \"denn\" không đẩy động từ xuống cuối."
+    },
+    {
+     "q": "Ich lerne Deutsch, weil ich in Deutschland ___.",
+     "options": [
+      "studieren möchte",
+      "möchte studieren",
+      "studieren möchten",
+      "möchte studiert"
+     ],
+     "answer": 0,
+     "vi": "Tôi học tiếng Đức vì tôi muốn học đại học ở Đức.",
+     "explain": "Trong mệnh đề với \"weil\", động từ chia (möchte) đứng sau cùng, sau động từ nguyên mẫu. \"möchte studieren\" là trật tự của mệnh đề chính."
+    },
+    {
+     "q": "Er sagt, dass er morgen um 6 Uhr ___.",
+     "options": [
+      "steht auf",
+      "aufstehen",
+      "aufsteht",
+      "auf steht"
+     ],
+     "answer": 2,
+     "vi": "Anh ấy nói rằng ngày mai anh ấy dậy lúc 6 giờ.",
+     "explain": "Trong mệnh đề phụ, động từ tách được viết liền ở cuối: aufsteht. \"steht auf\" là trật tự của mệnh đề chính."
+    },
+    {
+     "q": "Wenn es morgen regnet, ___ zu Hause.",
+     "options": [
+      "wir bleiben",
+      "bleiben wir",
+      "dann wir bleiben",
+      "bleiben"
+     ],
+     "answer": 1,
+     "vi": "Nếu ngày mai trời mưa, chúng ta sẽ ở nhà.",
+     "explain": "Mệnh đề phụ đứng trước chiếm vị trí 1, nên động từ của mệnh đề chính đứng ngay sau dấu phẩy: bleiben wir. \"wir bleiben\" là lỗi trật tự từ phổ biến."
+    },
+    {
+     "q": "Ich bin müde, ___ gehe ich früh ins Bett.",
+     "options": [
+      "weil",
+      "dass",
+      "wenn",
+      "deshalb"
+     ],
+     "answer": 3,
+     "vi": "Tôi mệt, vì vậy tôi đi ngủ sớm.",
+     "explain": "Động từ \"gehe\" đứng ngay sau chỗ trống nên cần trạng từ \"deshalb\". \"weil\" sẽ đẩy động từ xuống cuối và nghĩa cũng ngược lại."
+    },
+    {
+     "q": "Er hat keinen Hunger, ___ er schon gegessen hat.",
+     "options": [
+      "deshalb",
+      "ob",
+      "dass",
+      "weil"
+     ],
+     "answer": 3,
+     "vi": "Anh ấy không đói vì anh ấy đã ăn rồi.",
+     "explain": "Vế sau là lý do và động từ \"hat\" đứng cuối nên dùng \"weil\". \"deshalb\" cần động từ ngay sau nó (deshalb hat er …)."
+    },
+    {
+     "q": "Sie war gestern nicht im Kurs, weil sie zum Arzt ___.",
+     "options": [
+      "gehen musste",
+      "musste gehen",
+      "gegangen musste",
+      "gehen gemusst hat"
+     ],
+     "answer": 0,
+     "vi": "Hôm qua cô ấy không đến lớp vì cô ấy phải đi khám bác sĩ.",
+     "explain": "Trong mệnh đề phụ: động từ nguyên mẫu + động từ khuyết thiếu chia ở cuối: gehen musste. \"musste gehen\" là trật tự của mệnh đề chính."
+    },
+    {
+     "q": "Es ist schön, dass ihr heute ___.",
+     "options": [
+      "seid gekommen",
+      "gekommen habt",
+      "gekommen seid",
+      "gekommen sind"
+     ],
+     "answer": 2,
+     "vi": "Thật vui là hôm nay các bạn đã đến.",
+     "explain": "\"kommen\" chia Perfekt với \"sein\"; với \"ihr\" là \"seid\", và trợ động từ đứng cuối mệnh đề phụ. \"gekommen habt\" sai trợ động từ."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Ich kann nicht kommen, weil ich muss arbeiten.",
+      "Ich kann nicht kommen, weil ich arbeiten muss.",
+      "Ich kann nicht kommen, weil muss ich arbeiten.",
+      "Ich kann nicht kommen, deshalb ich muss arbeiten."
+     ],
+     "answer": 1,
+     "vi": "Tôi không thể đến vì tôi phải làm việc.",
+     "explain": "Sau \"weil\" động từ chia \"muss\" phải đứng cuối. \"weil ich muss arbeiten\" là lỗi rất phổ biến do bắt chước trật tự câu chính."
+    },
+    {
+     "q": "Ich weiß nicht, ob ich das Formular richtig ___.",
+     "options": [
+      "ausgefüllt habe",
+      "habe ausgefüllt",
+      "ausgefüllt hat",
+      "ausfüllen habe"
+     ],
+     "answer": 0,
+     "vi": "Tôi không biết liệu tôi đã điền tờ đơn đúng chưa.",
+     "explain": "Trong mệnh đề với \"ob\", trợ động từ \"habe\" đứng sau Partizip ở cuối câu. \"habe ausgefüllt\" sai trật tự, \"hat\" sai ngôi."
+    },
+    {
+     "q": "Mein Kollege ist krank. ___ muss ich heute länger arbeiten.",
+     "options": [
+      "Weil",
+      "Dass",
+      "Denn",
+      "Deshalb"
+     ],
+     "answer": 3,
+     "vi": "Đồng nghiệp của tôi bị ốm. Vì vậy hôm nay tôi phải làm việc lâu hơn.",
+     "explain": "Động từ \"muss\" đứng ngay sau chỗ trống ở vị trí 2, nên chỉ có trạng từ \"Deshalb\" phù hợp. \"Weil\" cần động từ ở cuối câu."
+    },
+    {
+     "q": "___ du nach Deutschland kommst, musst du dich beim Bürgeramt anmelden.",
+     "options": [
+      "Ob",
+      "Dass",
+      "Wenn",
+      "Wann"
+     ],
+     "answer": 2,
+     "vi": "Khi bạn đến Đức, bạn phải đăng ký cư trú ở Bürgeramt.",
+     "explain": "\"Wenn\" là liên từ \"khi/nếu\" mở đầu mệnh đề phụ. \"Wann\" là từ để hỏi, không dùng làm liên từ thời gian trong câu khẳng định."
+    }
+   ]
+  },
+  {
+   "title": "Câu hỏi gián tiếp (indirekte Fragen)",
+   "intro": "Câu hỏi gián tiếp là mệnh đề phụ sau các cụm như: Können Sie mir sagen, …? / Wissen Sie, …? / Ich weiß nicht, … / Ich möchte wissen, …\nCâu hỏi có từ để hỏi (W-Frage): giữ nguyên từ để hỏi làm liên từ, động từ chia xuống CUỐI: Wo ist der Bahnhof? → Können Sie mir sagen, wo der Bahnhof ist?\nCâu hỏi có/không (Ja/Nein-Frage): dùng \"ob\": Kommt er? → Ich weiß nicht, ob er kommt.\nĐộng từ tách viết liền ở cuối (…, wann der Zug abfährt); với Modal/Perfekt, động từ chia đứng sau cùng (…, ob ich hier parken darf).\nKhông dùng \"dass\" cho câu hỏi gián tiếp. Dấu câu cuối phụ thuộc câu mở đầu: Wissen Sie, …? nhưng Ich weiß nicht, … .",
+   "questions": [
+    {
+     "q": "Können Sie mir sagen, ___?",
+     "options": [
+      "wo ist der Bahnhof",
+      "der Bahnhof wo ist",
+      "wo der Bahnhof ist",
+      "dass der Bahnhof wo ist"
+     ],
+     "answer": 2,
+     "vi": "Ông/bà có thể cho tôi biết nhà ga ở đâu không?",
+     "explain": "Trong câu hỏi gián tiếp, từ để hỏi đứng đầu và động từ chia \"ist\" đứng cuối. \"wo ist der Bahnhof\" vẫn giữ trật tự câu hỏi trực tiếp."
+    },
+    {
+     "q": "Ich weiß nicht, ___ er heute kommt.",
+     "options": [
+      "dass",
+      "wenn",
+      "denn",
+      "ob"
+     ],
+     "answer": 3,
+     "vi": "Tôi không biết liệu hôm nay anh ấy có đến không.",
+     "explain": "Câu hỏi gốc là câu có/không (Kommt er heute?), nên dùng \"ob\". \"wenn\" nghĩa là \"khi/nếu\", không dùng cho câu hỏi gián tiếp."
+    },
+    {
+     "q": "Wissen Sie, ___ der Kurs beginnt? – Um 9 Uhr.",
+     "options": [
+      "wann",
+      "wenn",
+      "ob",
+      "wie viel"
+     ],
+     "answer": 0,
+     "vi": "Ông/bà có biết khóa học bắt đầu lúc nào không? – Lúc 9 giờ.",
+     "explain": "Câu trả lời là thời điểm nên cần từ để hỏi \"wann\". \"wenn\" là liên từ điều kiện, không phải từ để hỏi."
+    },
+    {
+     "q": "Ich frage dich, ___ du heute Abend Zeit hast. (Frage: Hast du heute Abend Zeit?)",
+     "options": [
+      "dass",
+      "ob",
+      "wenn",
+      "was"
+     ],
+     "answer": 1,
+     "vi": "Mình hỏi bạn xem tối nay bạn có rảnh không.",
+     "explain": "Câu hỏi gốc không có từ để hỏi (câu có/không) nên dùng \"ob\". \"dass\" không bao giờ dùng để chuyển câu hỏi."
+    },
+    {
+     "q": "Kannst du mir sagen, wie viel ___?",
+     "options": [
+      "kostet das Ticket",
+      "das Ticket kosten",
+      "ob das Ticket kostet",
+      "das Ticket kostet"
+     ],
+     "answer": 3,
+     "vi": "Bạn có thể cho mình biết vé giá bao nhiêu không?",
+     "explain": "Động từ chia \"kostet\" phải đứng cuối câu hỏi gián tiếp. \"kostet das Ticket\" là trật tự câu hỏi trực tiếp."
+    },
+    {
+     "q": "Ich möchte wissen, ___ du so traurig bist.",
+     "options": [
+      "weil",
+      "warum",
+      "dass",
+      "denn"
+     ],
+     "answer": 1,
+     "vi": "Mình muốn biết tại sao bạn buồn như vậy.",
+     "explain": "Hỏi lý do thì dùng từ để hỏi \"warum\". \"weil\" là liên từ trả lời lý do, không dùng để hỏi."
+    },
+    {
+     "q": "Wissen Sie, wann der Zug nach Köln ___?",
+     "options": [
+      "fährt ab",
+      "abfahren",
+      "abfährt",
+      "ab fährt"
+     ],
+     "answer": 2,
+     "vi": "Ông/bà có biết khi nào tàu đi Köln khởi hành không?",
+     "explain": "Động từ tách được viết liền ở cuối câu hỏi gián tiếp: abfährt. \"fährt ab\" là trật tự của câu chính."
+    },
+    {
+     "q": "Darf ich fragen, ___ Sie kommen? – Aus Vietnam.",
+     "options": [
+      "woher",
+      "wohin",
+      "wo",
+      "ob"
+     ],
+     "answer": 0,
+     "vi": "Cho tôi hỏi ông/bà đến từ đâu? – Từ Việt Nam.",
+     "explain": "Câu trả lời \"Aus Vietnam\" chỉ nơi xuất phát nên dùng \"woher\". \"wohin\" hỏi nơi đến, \"wo\" hỏi vị trí."
+    },
+    {
+     "q": "Können Sie mir erklären, wie man dieses Formular ___?",
+     "options": [
+      "ausfüllt",
+      "füllt aus",
+      "ausfüllen",
+      "ausgefüllt"
+     ],
+     "answer": 0,
+     "vi": "Ông/bà có thể giải thích cho tôi cách điền tờ đơn này không?",
+     "explain": "Chủ ngữ \"man\" đi với động từ chia ngôi 3 số ít, và động từ tách viết liền ở cuối: ausfüllt. \"füllt aus\" sai trật tự."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Ich weiß nicht, wo sind meine Schlüssel.",
+      "Ich weiß nicht, dass wo meine Schlüssel sind.",
+      "Ich weiß nicht, wo meine Schlüssel sind.",
+      "Ich weiß nicht, ob wo meine Schlüssel sind."
+     ],
+     "answer": 2,
+     "vi": "Tôi không biết chìa khóa của tôi ở đâu.",
+     "explain": "Từ để hỏi \"wo\" tự làm liên từ và động từ \"sind\" đứng cuối. Không thêm \"dass\" hay \"ob\" trước từ để hỏi."
+    },
+    {
+     "q": "Weißt du, mit wem Maria ins Kino ___?",
+     "options": [
+      "ist gegangen",
+      "gegangen hat",
+      "gegangen",
+      "gegangen ist"
+     ],
+     "answer": 3,
+     "vi": "Bạn có biết Maria đã đi xem phim với ai không?",
+     "explain": "\"gehen\" chia Perfekt với \"sein\", và trợ động từ \"ist\" đứng cuối câu hỏi gián tiếp. \"gegangen hat\" sai trợ động từ."
+    },
+    {
+     "q": "Können Sie mir sagen, ob ich hier ___?",
+     "options": [
+      "darf parken",
+      "parken darf",
+      "parken dürfen",
+      "darf ich parken"
+     ],
+     "answer": 1,
+     "vi": "Ông/bà có thể cho tôi biết tôi có được đỗ xe ở đây không?",
+     "explain": "Sau \"ob\", động từ khuyết thiếu chia \"darf\" đứng sau cùng: parken darf. \"darf parken\" giữ trật tự câu chính."
+    },
+    {
+     "q": "Ich weiß nicht mehr, ___ Bus ich nehmen muss.",
+     "options": [
+      "welcher",
+      "welche",
+      "welchen",
+      "welchem"
+     ],
+     "answer": 2,
+     "vi": "Tôi không còn nhớ tôi phải đi xe buýt nào.",
+     "explain": "\"der Bus\" là tân ngữ Akkusativ của \"nehmen\" nên dùng \"welchen\". \"welcher\" là dạng Nominativ."
+    },
+    {
+     "q": "Ich möchte gern wissen, wie lange ich auf meinen Termin ___.",
+     "options": [
+      "warten muss",
+      "muss warten",
+      "warten müssen",
+      "warten muss ich"
+     ],
+     "answer": 0,
+     "vi": "Tôi muốn biết tôi phải chờ đến lượt hẹn bao lâu.",
+     "explain": "Trong câu hỏi gián tiếp, động từ khuyết thiếu chia \"muss\" đứng cuối cùng. \"muss warten\" là trật tự câu chính."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Können Sie mir sagen, wann öffnet das Bürgeramt?",
+      "Können Sie mir sagen, dass das Bürgeramt wann öffnet?",
+      "Können Sie mir sagen, ob wann das Bürgeramt öffnet?",
+      "Können Sie mir sagen, wann das Bürgeramt öffnet?"
+     ],
+     "answer": 3,
+     "vi": "Ông/bà có thể cho tôi biết khi nào Bürgeramt mở cửa không?",
+     "explain": "Câu hỏi gián tiếp: từ để hỏi \"wann\" + chủ ngữ + động từ ở cuối. \"wann öffnet das Bürgeramt\" giữ nguyên trật tự câu hỏi trực tiếp nên sai."
+    }
+   ]
+  },
+  {
+   "title": "Động từ phản thân (reflexive Verben)",
+   "intro": "Động từ phản thân dùng đại từ phản thân chỉ chính chủ ngữ.\nAkkusativ: ich → mich, du → dich, er/sie/es → sich, wir → uns, ihr → euch, sie/Sie → sich.\nDativ: ich → mir, du → dir, er/sie/es → sich, wir → uns, ihr → euch, sie/Sie → sich.\nThường dùng Akkusativ: Ich wasche mich. Nếu trong câu đã có tân ngữ Akkusativ khác thì đại từ phản thân chuyển sang Dativ: Ich wasche mir die Hände. Ich putze mir die Zähne. Ich kaufe mir einen Mantel.\nĐộng từ hay gặp: sich freuen (auf/über), sich interessieren für, sich beeilen, sich erholen, sich anmelden, sich anziehen, sich vorstellen (giới thiệu bản thân) – nhưng sich (Dativ) etwas vorstellen = tưởng tượng; sich (Dativ) etwas wünschen.\nPerfekt dùng \"haben\": Ich habe mich gefreut. Đại từ phản thân đứng ngay sau động từ chia (hoặc sau chủ ngữ khi đảo ngữ): Morgen melde ich mich an.",
+   "questions": [
+    {
+     "q": "Ich wasche ___ jeden Morgen.",
+     "options": [
+      "mir",
+      "sich",
+      "mein",
+      "mich"
+     ],
+     "answer": 3,
+     "vi": "Mỗi sáng tôi tắm rửa.",
+     "explain": "Không có tân ngữ Akkusativ nào khác nên dùng đại từ phản thân Akkusativ \"mich\". \"mir\" chỉ dùng khi đã có tân ngữ khác (mir die Hände)."
+    },
+    {
+     "q": "Wir freuen ___ auf den Urlaub.",
+     "options": [
+      "euch",
+      "uns",
+      "sich",
+      "unser"
+     ],
+     "answer": 1,
+     "vi": "Chúng tôi mong chờ kỳ nghỉ.",
+     "explain": "Chủ ngữ \"wir\" đi với đại từ phản thân \"uns\". \"sich\" chỉ dùng cho er/sie/es, sie (họ) và Sie."
+    },
+    {
+     "q": "Interessierst du ___ für Fußball?",
+     "options": [
+      "dir",
+      "sich",
+      "dich",
+      "du"
+     ],
+     "answer": 2,
+     "vi": "Bạn có quan tâm đến bóng đá không?",
+     "explain": "\"sich interessieren für\" dùng Akkusativ; với \"du\" là \"dich\". \"dir\" là dạng Dativ."
+    },
+    {
+     "q": "Die Kinder ziehen ___ an.",
+     "options": [
+      "sich",
+      "ihnen",
+      "ihr",
+      "euch"
+     ],
+     "answer": 0,
+     "vi": "Bọn trẻ tự mặc quần áo.",
+     "explain": "Chủ ngữ số nhiều \"die Kinder\" (sie) có đại từ phản thân \"sich\". \"ihnen\" là đại từ nhân xưng Dativ, sẽ có nghĩa là mặc cho người khác."
+    },
+    {
+     "q": "Ich putze ___ die Zähne.",
+     "options": [
+      "mich",
+      "sich",
+      "mir",
+      "mein"
+     ],
+     "answer": 2,
+     "vi": "Tôi đánh răng.",
+     "explain": "Câu đã có tân ngữ Akkusativ \"die Zähne\" nên đại từ phản thân chuyển sang Dativ: mir. \"mich\" là lỗi thường gặp nhất."
+    },
+    {
+     "q": "Beeilt ___! Der Zug fährt gleich ab.",
+     "options": [
+      "sich",
+      "uns",
+      "ihr",
+      "euch"
+     ],
+     "answer": 3,
+     "vi": "Các bạn nhanh lên! Tàu sắp chạy rồi.",
+     "explain": "Câu mệnh lệnh với \"ihr\" (Beeilt!) cần đại từ phản thân \"euch\". \"ihr\" là đại từ chủ ngữ, không phải đại từ phản thân."
+    },
+    {
+     "q": "Was wünschst du ___ zum Geburtstag?",
+     "options": [
+      "dir",
+      "dich",
+      "sich",
+      "du"
+     ],
+     "answer": 0,
+     "vi": "Bạn muốn được tặng gì vào sinh nhật?",
+     "explain": "\"sich etwas wünschen\": \"was\" là tân ngữ Akkusativ, nên đại từ phản thân ở Dativ: dir. \"dich\" là Akkusativ nên sai."
+    },
+    {
+     "q": "Ich ___ mich sehr über dein Geschenk gefreut.",
+     "options": [
+      "bin",
+      "habe",
+      "hat",
+      "wurde"
+     ],
+     "answer": 1,
+     "vi": "Tôi đã rất vui vì món quà của bạn.",
+     "explain": "Động từ phản thân chia Perfekt với \"haben\": Ich habe mich gefreut. Dùng \"bin\" là lỗi thường gặp vì nghĩ đến trạng thái cảm xúc."
+    },
+    {
+     "q": "Habt ihr ___ im Urlaub gut erholt?",
+     "options": [
+      "sich",
+      "euch",
+      "uns",
+      "ihr"
+     ],
+     "answer": 1,
+     "vi": "Các bạn đã nghỉ ngơi tốt trong kỳ nghỉ chứ?",
+     "explain": "Chủ ngữ \"ihr\" có đại từ phản thân \"euch\". \"sich\" sai ngôi, \"ihr\" là đại từ chủ ngữ."
+    },
+    {
+     "q": "Herr Müller, könnten Sie ___ bitte kurz vorstellen?",
+     "options": [
+      "sich",
+      "Ihnen",
+      "Sie",
+      "euch"
+     ],
+     "answer": 0,
+     "vi": "Ông Müller, ông có thể giới thiệu ngắn gọn về bản thân không?",
+     "explain": "Với ngôi lịch sự \"Sie\", đại từ phản thân là \"sich\" (viết thường). \"Ihnen\" là đại từ nhân xưng Dativ, không phải phản thân."
+    },
+    {
+     "q": "Ich kaufe ___ einen neuen Mantel.",
+     "options": [
+      "mich",
+      "mein",
+      "sich",
+      "mir"
+     ],
+     "answer": 3,
+     "vi": "Tôi mua cho mình một chiếc áo khoác mới.",
+     "explain": "\"einen neuen Mantel\" đã là tân ngữ Akkusativ nên đại từ phản thân phải ở Dativ: mir. \"mich\" sai cách."
+    },
+    {
+     "q": "Kannst du ___ vorstellen, in Deutschland zu leben?",
+     "options": [
+      "dich",
+      "sich",
+      "dir",
+      "du"
+     ],
+     "answer": 2,
+     "vi": "Bạn có thể tưởng tượng việc sống ở Đức không?",
+     "explain": "\"sich (Dativ) etwas vorstellen\" = tưởng tượng, nên dùng \"dir\". \"dich vorstellen\" có nghĩa là \"giới thiệu bản thân\", không hợp nghĩa ở đây."
+    },
+    {
+     "q": "Morgen ___ in der Sprachschule an.",
+     "options": [
+      "ich melde mich",
+      "melde ich mich",
+      "melde mich ich",
+      "mich melde ich"
+     ],
+     "answer": 1,
+     "vi": "Ngày mai tôi sẽ đăng ký ở trường ngôn ngữ.",
+     "explain": "\"Morgen\" đứng đầu nên động từ chia ở vị trí 2, chủ ngữ ngay sau, rồi đến đại từ phản thân: melde ich mich. \"ich melde mich\" vi phạm quy tắc động từ ở vị trí 2."
+    },
+    {
+     "q": "Ich weiß nicht, ob er ___.",
+     "options": [
+      "hat sich schon angemeldet",
+      "sich schon angemeldet ist",
+      "sich schon angemeldet hat",
+      "schon angemeldet sich hat"
+     ],
+     "answer": 2,
+     "vi": "Tôi không biết liệu anh ấy đã đăng ký chưa.",
+     "explain": "Trong mệnh đề phụ, đại từ phản thân đứng sớm, trợ động từ \"hat\" đứng cuối; động từ phản thân dùng \"haben\". \"angemeldet ist\" sai trợ động từ."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Er wäscht sich die Haare.",
+      "Er wäscht sich den Haaren.",
+      "Er wäscht die Haare sich.",
+      "Er sich wäscht die Haare."
+     ],
+     "answer": 0,
+     "vi": "Anh ấy gội đầu.",
+     "explain": "\"die Haare\" là tân ngữ Akkusativ, \"sich\" (Dativ) đứng ngay sau động từ chia. \"den Haaren\" là Dativ số nhiều nên sai cách."
+    }
+   ]
+  },
+  {
+   "title": "Đuôi tính từ cơ bản (Adjektivdeklination)",
+   "intro": "Sau mạo từ xác định (der, die, das, die):\nNominativ: der neue Tisch, die neue Lampe, das neue Buch\nAkkusativ: den neuen Tisch, die neue Lampe, das neue Buch\nDativ: dem neuen Tisch, der neuen Lampe, dem neuen Buch\nSố nhiều: luôn -en (die neuen Schuhe, mit den neuen Schuhen).\nSau mạo từ không xác định (ein, kein, mein …):\nNominativ: ein neuer Tisch, eine neue Lampe, ein neues Buch\nAkkusativ: einen neuen Tisch, eine neue Lampe, ein neues Buch\nDativ: einem neuen Tisch, einer neuen Lampe, einem neuen Buch\nSố nhiều (keine, meine …): luôn -en.\nMẹo: khi \"ein\" không cho biết giống, tính từ mang dấu hiệu: -er (giống đực), -es (giống trung). Dativ luôn là -en.",
+   "questions": [
+    {
+     "q": "Der ___ Mann dort ist mein Lehrer.",
+     "options": [
+      "alter",
+      "alte",
+      "alten",
+      "altes"
+     ],
+     "answer": 1,
+     "vi": "Người đàn ông lớn tuổi kia là thầy giáo của tôi.",
+     "explain": "Sau \"der\" ở Nominativ, tính từ có đuôi -e: der alte Mann. \"alter\" chỉ dùng sau \"ein\" (ein alter Mann)."
+    },
+    {
+     "q": "Das ist ein ___ Auto.",
+     "options": [
+      "neue",
+      "neuer",
+      "neuen",
+      "neues"
+     ],
+     "answer": 3,
+     "vi": "Đó là một chiếc ô tô mới.",
+     "explain": "\"das Auto\" giống trung; sau \"ein\" (Nominativ) tính từ mang đuôi -es: ein neues Auto. \"neuer\" là đuôi của giống đực."
+    },
+    {
+     "q": "Die ___ Frau dort ist meine Nachbarin.",
+     "options": [
+      "junge",
+      "jungen",
+      "junger",
+      "junges"
+     ],
+     "answer": 0,
+     "vi": "Người phụ nữ trẻ kia là hàng xóm của tôi.",
+     "explain": "Sau \"die\" ở Nominativ số ít, tính từ có đuôi -e: die junge Frau. \"jungen\" là đuôi của Dativ hoặc số nhiều."
+    },
+    {
+     "q": "Ich habe einen ___ Hund.",
+     "options": [
+      "kleiner",
+      "kleine",
+      "kleinen",
+      "kleines"
+     ],
+     "answer": 2,
+     "vi": "Tôi có một con chó nhỏ.",
+     "explain": "Akkusativ giống đực sau \"einen\" có đuôi -en: einen kleinen Hund. \"kleiner\" là dạng Nominativ."
+    },
+    {
+     "q": "Ich kaufe den ___ Pullover.",
+     "options": [
+      "blauen",
+      "blaue",
+      "blauer",
+      "blaues"
+     ],
+     "answer": 0,
+     "vi": "Tôi mua chiếc áo len màu xanh dương.",
+     "explain": "Akkusativ giống đực sau \"den\" có đuôi -en: den blauen Pullover. \"blaue\" chỉ đúng ở Nominativ (der blaue Pullover)."
+    },
+    {
+     "q": "Das ist eine ___ Idee!",
+     "options": [
+      "guter",
+      "gute",
+      "guten",
+      "gutes"
+     ],
+     "answer": 1,
+     "vi": "Đó là một ý tưởng hay!",
+     "explain": "\"die Idee\" giống cái; sau \"eine\" ở Nominativ tính từ có đuôi -e: eine gute Idee. \"guten\" sai vì đây không phải Dativ."
+    },
+    {
+     "q": "Im Zimmer steht ein ___ Schrank.",
+     "options": [
+      "alte",
+      "alten",
+      "alter",
+      "altes"
+     ],
+     "answer": 2,
+     "vi": "Trong phòng có một cái tủ cũ.",
+     "explain": "\"der Schrank\" giống đực, Nominativ sau \"ein\": tính từ mang đuôi -er (ein alter Schrank). \"alte\" chỉ đúng sau \"der\"."
+    },
+    {
+     "q": "Wir wohnen in einem ___ Haus.",
+     "options": [
+      "großem",
+      "großes",
+      "große",
+      "großen"
+     ],
+     "answer": 3,
+     "vi": "Chúng tôi sống trong một ngôi nhà lớn.",
+     "explain": "Sau \"in\" + Dativ (einem), tính từ luôn có đuôi -en: einem großen Haus. \"großem\" là lỗi lặp lại đuôi -em của mạo từ."
+    },
+    {
+     "q": "Ich lese das ___ Buch.",
+     "options": [
+      "interessanten",
+      "interessantes",
+      "interessanter",
+      "interessante"
+     ],
+     "answer": 3,
+     "vi": "Tôi đọc cuốn sách thú vị đó.",
+     "explain": "Akkusativ giống trung sau \"das\" có đuôi -e: das interessante Buch. \"interessantes\" chỉ dùng sau \"ein\"."
+    },
+    {
+     "q": "Mit der ___ Kollegin verstehe ich mich gut.",
+     "options": [
+      "neue",
+      "neuer",
+      "neuen",
+      "neuem"
+     ],
+     "answer": 2,
+     "vi": "Tôi rất hợp với cô đồng nghiệp mới.",
+     "explain": "\"mit\" + Dativ: der Kollegin (giống cái, Dativ) → tính từ đuôi -en: der neuen Kollegin. \"neue\" là lỗi vì nhầm \"der\" với Nominativ."
+    },
+    {
+     "q": "Die ___ Schuhe sind zu teuer.",
+     "options": [
+      "schwarze",
+      "schwarzen",
+      "schwarzer",
+      "schwarzes"
+     ],
+     "answer": 1,
+     "vi": "Đôi giày đen đó đắt quá.",
+     "explain": "Số nhiều sau mạo từ xác định \"die\" luôn có đuôi -en: die schwarzen Schuhe. \"schwarze\" chỉ đúng khi không có mạo từ (schwarze Schuhe)."
+    },
+    {
+     "q": "Er schenkt seiner ___ Schwester ein Buch.",
+     "options": [
+      "kleinen",
+      "kleine",
+      "kleiner",
+      "kleinem"
+     ],
+     "answer": 0,
+     "vi": "Anh ấy tặng em gái nhỏ của mình một cuốn sách.",
+     "explain": "\"seiner Schwester\" là Dativ (người nhận) nên tính từ có đuôi -en. \"kleiner\" là lỗi do bắt chước đuôi -er của \"seiner\"."
+    },
+    {
+     "q": "Ich habe noch keine ___ Wohnung gefunden.",
+     "options": [
+      "günstigen",
+      "günstiger",
+      "günstiges",
+      "günstige"
+     ],
+     "answer": 3,
+     "vi": "Tôi vẫn chưa tìm được căn hộ nào giá rẻ.",
+     "explain": "\"die Wohnung\" giống cái, Akkusativ số ít sau \"keine\": đuôi -e (keine günstige Wohnung). \"günstigen\" chỉ đúng ở số nhiều hoặc Dativ."
+    },
+    {
+     "q": "Sie kümmert sich um ihren ___ Vater.",
+     "options": [
+      "kranken",
+      "kranker",
+      "kranke",
+      "krankem"
+     ],
+     "answer": 0,
+     "vi": "Cô ấy chăm sóc người cha bị ốm của mình.",
+     "explain": "\"um\" + Akkusativ: ihren Vater (giống đực) → tính từ đuôi -en: ihren kranken Vater. \"kranker\" là dạng Nominativ sau \"ein\"."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Ich wohne mit meinen nette Freunden in einer kleine Wohnung.",
+      "Ich wohne mit meinen netten Freunden in einer kleine Wohnung.",
+      "Ich wohne mit meinen netten Freunden in einer kleinen Wohnung.",
+      "Ich wohne mit meine netten Freunden in einer kleinen Wohnung."
+     ],
+     "answer": 2,
+     "vi": "Tôi sống cùng những người bạn dễ mến trong một căn hộ nhỏ.",
+     "explain": "Cả hai cụm đều ở Dativ (mit, in + Dativ) nên tính từ có đuôi -en: meinen netten Freunden, einer kleinen Wohnung. \"einer kleine\" là lỗi hay gặp vì quên Dativ."
+    }
+   ]
+  },
+  {
+   "title": "Konjunktiv II lịch sự & mong muốn (würde, könnte, hätte, wäre, sollte)",
+   "intro": "Konjunktiv II dùng để nói lịch sự, diễn tả mong muốn và đưa lời khuyên.\nwürde + Infinitiv: ich würde, du würdest, er/sie würde, wir würden, ihr würdet, sie/Sie würden → Ich würde gern reisen.\nkönnte (können): ich könnte, du könntest, wir/Sie könnten, ihr könntet → Könnten Sie mir bitte helfen?\nhätte (haben): ich hätte, du hättest, wir/Sie hätten → Ich hätte gern einen Kaffee.\nwäre (sein): ich wäre, du wärst, wir/Sie wären → Ich wäre gern Ärztin. Es wäre schön, wenn …\nsollte (lời khuyên): ich sollte, du solltest, ihr solltet, wir/Sie sollten → Du solltest mehr schlafen.\nVới haben, sein, können thường dùng hätte, wäre, könnte thay vì \"würde haben/sein\". Lời khuyên cũng có thể dùng: An deiner Stelle würde ich …",
+   "questions": [
+    {
+     "q": "Ich ___ gern einen Kaffee, bitte.",
+     "options": [
+      "hatte",
+      "hättest",
+      "hätte",
+      "wäre"
+     ],
+     "answer": 2,
+     "vi": "Cho tôi một ly cà phê, cảm ơn.",
+     "explain": "Gọi món lịch sự: \"Ich hätte gern …\" (Konjunktiv II của haben). \"hatte\" là Präteritum (không có Umlaut), mang nghĩa quá khứ."
+    },
+    {
+     "q": "___ Sie mir bitte helfen?",
+     "options": [
+      "Könnten",
+      "Könntest",
+      "Konnten",
+      "Könnte"
+     ],
+     "answer": 0,
+     "vi": "Ông/bà có thể giúp tôi được không?",
+     "explain": "Với \"Sie\" dùng \"Könnten\" (Konjunktiv II). \"Konnten\" không có Umlaut là Präteritum (đã có thể), không phải lời đề nghị lịch sự."
+    },
+    {
+     "q": "Ich ___ gern Arzt.",
+     "options": [
+      "würde",
+      "hätte",
+      "wärst",
+      "wäre"
+     ],
+     "answer": 3,
+     "vi": "Tôi ước được làm bác sĩ.",
+     "explain": "Mong muốn với \"sein\" dùng \"wäre\": Ich wäre gern Arzt. \"Ich würde gern Arzt\" thiếu động từ nguyên mẫu \"sein\"."
+    },
+    {
+     "q": "Du bist sehr müde. Du ___ früher ins Bett gehen.",
+     "options": [
+      "sollte",
+      "solltest",
+      "solltet",
+      "sollen"
+     ],
+     "answer": 1,
+     "vi": "Bạn rất mệt. Bạn nên đi ngủ sớm hơn.",
+     "explain": "Lời khuyên dùng \"sollte\"; ngôi \"du\" chia là \"solltest\". \"sollte\" là dạng của ich/er/sie/es."
+    },
+    {
+     "q": "___ Sie bitte das Fenster schließen?",
+     "options": [
+      "Würdest",
+      "Wurden",
+      "Würde",
+      "Würden"
+     ],
+     "answer": 3,
+     "vi": "Ông/bà làm ơn đóng cửa sổ được không?",
+     "explain": "Lời yêu cầu lịch sự với \"Sie\": Würden Sie bitte …? \"Wurden\" không có Umlaut là Präteritum của werden, không dùng để đề nghị."
+    },
+    {
+     "q": "Wir ___ gern ein Doppelzimmer für zwei Nächte.",
+     "options": [
+      "hättet",
+      "hatten",
+      "hätten",
+      "hätte"
+     ],
+     "answer": 2,
+     "vi": "Chúng tôi muốn đặt một phòng đôi cho hai đêm.",
+     "explain": "Với \"wir\": wir hätten. \"hättet\" là dạng của \"ihr\", \"hatten\" là Präteritum."
+    },
+    {
+     "q": "___ du mir kurz dein Handy geben? Meins ist leer.",
+     "options": [
+      "Könnte",
+      "Könntest",
+      "Konntest",
+      "Könntet"
+     ],
+     "answer": 1,
+     "vi": "Bạn có thể đưa mình mượn điện thoại một chút không? Máy mình hết pin rồi.",
+     "explain": "Ngôi \"du\" chia \"könntest\". \"Konntest\" không có Umlaut là Präteritum, nghĩa là \"đã có thể\"."
+    },
+    {
+     "q": "Was ___ du an meiner Stelle machen?",
+     "options": [
+      "würdest",
+      "würdet",
+      "wurdest",
+      "würde"
+     ],
+     "answer": 0,
+     "vi": "Nếu ở vào vị trí của mình, bạn sẽ làm gì?",
+     "explain": "würde + Infinitiv; với \"du\" là \"würdest\". \"würdet\" là dạng của \"ihr\"."
+    },
+    {
+     "q": "Ihr ___ mehr Deutsch sprechen, dann lernt ihr schneller.",
+     "options": [
+      "solltet",
+      "solltest",
+      "sollten",
+      "sollte"
+     ],
+     "answer": 0,
+     "vi": "Các bạn nên nói tiếng Đức nhiều hơn, như vậy các bạn sẽ học nhanh hơn.",
+     "explain": "Với \"ihr\", sollen ở Konjunktiv II là \"solltet\". \"solltest\" là dạng của \"du\"."
+    },
+    {
+     "q": "Ich würde gern nach Deutschland ___.",
+     "options": [
+      "gereist",
+      "reisen",
+      "reise",
+      "zu reisen"
+     ],
+     "answer": 1,
+     "vi": "Tôi rất muốn đi du lịch Đức.",
+     "explain": "Sau \"würde\" là động từ nguyên mẫu không có \"zu\" ở cuối câu: reisen. \"zu reisen\" là lỗi thường gặp."
+    },
+    {
+     "q": "Es ___ schön, wenn du am Samstag kommen könntest.",
+     "options": [
+      "würde",
+      "hätte",
+      "wäre",
+      "wärst"
+     ],
+     "answer": 2,
+     "vi": "Sẽ thật tuyệt nếu bạn có thể đến vào thứ Bảy.",
+     "explain": "\"Es wäre schön, wenn …\" dùng Konjunktiv II của sein với chủ ngữ \"es\". \"wärst\" là dạng của \"du\"."
+    },
+    {
+     "q": "An deiner Stelle ___ ich zum Arzt gehen.",
+     "options": [
+      "wäre",
+      "hätte",
+      "würdest",
+      "würde"
+     ],
+     "answer": 3,
+     "vi": "Nếu tôi là bạn, tôi sẽ đi khám bác sĩ.",
+     "explain": "Lời khuyên \"An deiner Stelle würde ich + Infinitiv\"; chủ ngữ là \"ich\" nên chia \"würde\". \"würdest\" sai ngôi."
+    },
+    {
+     "q": "Sie haben Fieber, Frau Weber. Sie ___ heute zu Hause bleiben.",
+     "options": [
+      "sollten",
+      "sollte",
+      "solltet",
+      "solltest"
+     ],
+     "answer": 0,
+     "vi": "Bà Weber, bà đang sốt. Hôm nay bà nên ở nhà.",
+     "explain": "Ngôi lịch sự \"Sie\" chia như số nhiều: Sie sollten. \"sollte\" là dạng của ich/er/sie (số ít)."
+    },
+    {
+     "q": "Câu nào đúng ngữ pháp?",
+     "options": [
+      "Könnten Sie mir bitte sagen, wo ist das Bürgeramt?",
+      "Könntest Sie mir bitte sagen, wo das Bürgeramt ist?",
+      "Könnten Sie mir bitte sagen, wo das Bürgeramt sein?",
+      "Könnten Sie mir bitte sagen, wo das Bürgeramt ist?"
+     ],
+     "answer": 3,
+     "vi": "Ông/bà làm ơn cho tôi biết Bürgeramt ở đâu được không?",
+     "explain": "\"Könnten\" đúng với \"Sie\", và trong câu hỏi gián tiếp động từ \"ist\" đứng cuối. \"Könntest Sie\" sai ngôi."
+    },
+    {
+     "q": "___ es möglich, den Termin auf Freitag zu verschieben?",
+     "options": [
+      "Würde",
+      "Wäre",
+      "Hätte",
+      "Wären"
+     ],
+     "answer": 1,
+     "vi": "Có thể dời cuộc hẹn sang thứ Sáu được không?",
+     "explain": "Hỏi lịch sự \"Wäre es möglich, … zu …?\" dùng Konjunktiv II của sein với chủ ngữ \"es\". \"Wären\" là dạng số nhiều."
+    }
+   ]
+  }
+ ]
+}
