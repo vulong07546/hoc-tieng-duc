@@ -151,7 +151,7 @@
     // 2) Mỗi bài qua (≥ 99%): 50 XP × hệ số cấp độ
     const vocab = load("dw-progress-v2", {}).lessons || {};
     for (const [k, v] of Object.entries(vocab)) if (v >= PASS) b.vocab += UNIT_XP * mult(k);
-    for (const m of ["grammar", "mc", "vmc", "phrases", "listen", "speak"]) {
+    for (const m of ["grammar", "mc", "vmc", "pmc", "lmc", "fmc", "exam", "phrases", "listen", "speak"]) {
       for (const [k, v] of Object.entries(load("dw-quiz-" + m, {}))) if (v >= PASS) b.quiz += UNIT_XP * mult(k);
     }
     for (const [k, v] of Object.entries(load("dw-forms-v1", {}))) if (v >= PASS) b.forms += UNIT_XP * mult(k);
@@ -234,8 +234,7 @@
     ["review.html", "🔁 Ôn tập"],
     ["forms.html", "🔤 Dạng từ"],
     ["quiz.html?mode=grammar", "📐 Ngữ pháp"],
-    ["quiz.html?mode=mc", "☑️ TN ngữ pháp"],
-    ["quiz.html?mode=vmc", "🔠 TN từ vựng"],
+    ["quiz.html?mode=tn", "☑️ Trắc nghiệm"],
     ["quiz.html?mode=phrases", "💬 Cụm từ"],
     ["quiz.html?mode=listen", "🎧 Nghe"],
     ["quiz.html?mode=speak", "🎤 Nói"],
@@ -250,7 +249,8 @@
     const mode = new URLSearchParams(location.search).get("mode");
     nav.innerHTML = NAV.map(([href, label]) => {
       const active = href === here || (href.startsWith("quiz.html") && mode && href.endsWith("mode=" + mode)) ||
-        (href === "quiz.html?mode=grammar" && here === "quiz.html");
+        (href === "quiz.html?mode=grammar" && here === "quiz.html") ||
+        (href === "quiz.html?mode=tn" && ["mc", "vmc", "pmc", "lmc", "fmc", "exam"].includes(mode));
       const due = href === "review.html" ? dueIds().length : 0;
       return `<a href="${href}"${active ? ' class="active"' : ""}>${label}${due ? ` <span class="due-badge">${due > 99 ? "99+" : due}</span>` : ""}</a>`;
     }).join("");

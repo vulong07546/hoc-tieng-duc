@@ -4,12 +4,8 @@
   const PASS_PCT = 99;
   const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
   const params = new URLSearchParams(location.search);
-  const MODE = ["grammar", "mc", "vmc", "phrases", "listen", "speak"].includes(params.get("mode")) ? params.get("mode") : "grammar";
+  const MODE = ["grammar", "mc", "vmc", "pmc", "lmc", "fmc", "exam", "tn", "phrases", "listen", "speak"].includes(params.get("mode")) ? params.get("mode") : "grammar";
   const STORE_KEY = "dw-quiz-" + MODE;
-  const G = typeof GRAMMAR !== "undefined" ? GRAMMAR : {};
-  const P = typeof PHRASES !== "undefined" ? PHRASES : {};
-  const V = typeof VOCAB !== "undefined" ? VOCAB : {};
-  const M = typeof MCQ !== "undefined" ? MCQ : {};
   const TEST_SIZE = 30;
 
   const MODE_INFO = {
@@ -20,6 +16,26 @@
     mc: {
       title: "☑️ Trắc nghiệm ngữ pháp",
       sub: "Bộ trắc nghiệm đầy đủ chương trình ngữ pháp từng cấp: đọc lý thuyết, chọn 1 trong 4 đáp án (bấm hoặc phím 1–4). Cuối mỗi cấp có bài kiểm tra tổng hợp 30 câu. Cần đúng ≥ 99% để mở bài tiếp theo.",
+    },
+    tn: {
+      title: "☑️ Trắc nghiệm",
+      sub: "Tất cả bài trắc nghiệm 4 lựa chọn, chia theo mục. Mỗi mục có bài theo cấp A1–C2 và bài kiểm tra 30 câu cuối cấp; mục 🏆 Thi tổng hợp trộn câu hỏi của mọi mục thành đề thi theo cấp. Cần đúng ≥ 99% để qua bài.",
+    },
+    pmc: {
+      title: "💬 Trắc nghiệm cụm từ",
+      sub: "Nhìn hình + nghĩa chọn câu tiếng Đức đúng, hoặc đọc câu tiếng Đức chọn nghĩa (phím 1–4). Cần đúng ≥ 99% để mở bài tiếp theo.",
+    },
+    lmc: {
+      title: "🎧 Trắc nghiệm nghe",
+      sub: "Nghe giọng đọc tiếng Đức (không hiện chữ), rồi chọn nghĩa đúng hoặc chọn câu/từ bạn vừa nghe. Bấm 🔊 hoặc Ctrl+Space để nghe lại. Cần đúng ≥ 99% để mở bài tiếp theo.",
+    },
+    fmc: {
+      title: "🔤 Trắc nghiệm dạng từ",
+      sub: "Chọn dạng số nhiều đúng của danh từ, và dạng Präteritum / Perfekt đúng của động từ (phím 1–4). Cần đúng ≥ 99% để mở bài tiếp theo.",
+    },
+    exam: {
+      title: "🏆 Thi tổng hợp",
+      sub: "Mỗi đề 40 câu ngẫu nhiên: 12 từ vựng, 12 ngữ pháp, 6 cụm từ, 5 nghe, 5 dạng từ — đúng trình độ cấp đó. Mỗi lần làm là một bộ câu mới. Cần đúng ≥ 99% để qua đề.",
     },
     vmc: {
       title: "🔠 Trắc nghiệm từ vựng",
@@ -39,63 +55,7 @@
     },
   };
 
-  // ---------- Xây dựng bài học theo chế độ ----------
-  function buildUnits(lv) {
-    if (MODE === "grammar") {
-      return (G[lv] || []).map((t) => ({
-        title: t.title, emoji: "📐", intro: t.intro,
-        items: t.questions.map((q) => ({
-          kind: "gap", q: q.q, hint: q.hint || "", vi: q.vi || "",
-          answers: q.answers, explain: q.explain || "", full: q.q.replace("___", q.answers[0]),
-        })),
-      }));
-    }
-    if (MODE === "mc") {
-      const topics = (M[lv] || []).map((t) => ({
-        title: t.title, emoji: "☑️", intro: t.intro,
-        items: t.questions.map((q) => ({ kind: "choice", q: q.q, options: q.options, answer: q.answer, vi: q.vi || "", explain: q.explain || "" })),
-      }));
-      if (topics.length) {
-        topics.push({ title: `Kiểm tra tổng hợp ${lv} (${TEST_SIZE} câu ngẫu nhiên)`, emoji: "📝", test: true,
-                      items: topics.flatMap((t) => t.items) });
-      }
-      return topics;
-    }
-    if (MODE === "vmc") {
-      const words = (V[lv] || []).map(([e, g, v, , ex = ""]) => ({ e, g, v, ex, noun: /^(der|die|das) /.test(g) }));
-      const item = (w, k) => ({ kind: "choice", build: () => vocabChoice(w, words, k % 2 === 0) });
-      const lessons = [];
-      for (let i = 0; i < words.length; i += 20) lessons.push(words.slice(i, i + 20));
-      if (lessons.length > 1 && lessons[lessons.length - 1].length < 10) lessons[lessons.length - 2].push(...lessons.pop());
-      const out = lessons.map((ws, n) => ({ title: `${ws.slice(0, 3).map((w) => w.g.replace(/^(der|die|das) /, "")).join(", ")}…`,
-                                             emoji: "🔠", items: ws.map(item) }));
-      if (out.length) out.push({ title: `Kiểm tra tổng hợp ${lv} (${TEST_SIZE} từ ngẫu nhiên)`, emoji: "📝", test: true, items: words.map(item) });
-      return out;
-    }
-    if (MODE === "phrases") {
-      return (P[lv] || []).map((t) => ({
-        title: t.title, emoji: t.emoji || "💬",
-        items: t.items.map((i) => ({ kind: "phrase", e: i.e, vi: i.vi, answers: [i.de, ...(i.alt || [])], full: i.de })),
-      }));
-    }
-    // listen / speak: câu từ phần Cụm từ + từ vựng chia nhóm 20
-    const kind = MODE;
-    const verb = MODE === "speak" ? "Nói" : "Nghe";
-    const units = (P[lv] || []).map((t) => ({
-      title: `${verb} câu: ${t.title}`, emoji: MODE === "speak" ? "🗣️" : "🎧",
-      items: t.items.map((i) => ({ kind, e: i.e, vi: i.vi, answers: [i.de, ...(MODE === "speak" ? i.alt || [] : [])], full: i.de })),
-    }));
-    const words = V[lv] || [];
-    const size = 20;
-    for (let i = 0, n = 1; i < words.length; i += size, n++) {
-      units.push({
-        title: `${verb} từ – phần ${n}`, emoji: MODE === "speak" ? "👄" : "👂",
-        items: words.slice(i, i + size).map((w) => ({ kind, vi: w[2], e: w[0], answers: [w[1]], full: w[1] })),
-      });
-    }
-    // Xen kẽ: câu trước, rồi từ — sắp xếp để không quá dồn
-    return units;
-  }
+  const buildUnits = (lv) => QZ.buildUnits(MODE, lv);
 
   const units = {};
   for (const lv of LEVELS) units[lv] = buildUnits(lv);
@@ -109,7 +69,7 @@
   const key = (lv, i) => `${lv}-${i}`;
   const best = (lv, i) => progress[key(lv, i)] ?? null;
   const passed = (lv, i) => (best(lv, i) ?? 0) >= PASS_PCT;
-  const unlocked = (lv, i) => i === 0 || passed(lv, i - 1);
+  const unlocked = (lv, i) => i === 0 || MODE === "exam" || passed(lv, i - 1);
   const passedCount = (lv) => units[lv].filter((_, i) => passed(lv, i)).length;
 
   // ---------- DOM ----------
@@ -127,20 +87,61 @@
   document.title = MODE_INFO[MODE].title.replace(/^\S+\s/, "") + " – Học tiếng Đức";
 
   // ---------- Trang chủ ----------
+  function renderTabs() {
+    const box = $("mcTabs");
+    if (!QZ.MC_MODES.some(([m]) => m === MODE) && MODE !== "tn") return;
+    box.classList.remove("hidden");
+    box.innerHTML = [["tn", "☑️", "Tất cả"], ...QZ.MC_MODES].map(([m, ic, name]) =>
+      `<a class="tab${m === MODE ? " active" : ""}" href="quiz.html?mode=${m}">${ic} ${name}</a>`).join("") +
+      `<a class="tab" href="reading.html">📖 Đọc hiểu</a>`;
+  }
+  // Trang tổng: thẻ cho từng mục trắc nghiệm, tiến độ theo cấp
+  function renderHub() {
+    const box = $("levels");
+    box.innerHTML = "";
+    for (const [m, ic, name] of QZ.MC_MODES) {
+      const store = load("dw-quiz-" + m, {});
+      let total = 0, done = 0, q = 0;
+      const per = LEVELS.map((lv) => {
+        const list = QZ.buildUnits(m, lv);
+        const d = list.filter((_, i) => (store[`${lv}-${i}`] ?? 0) >= PASS_PCT).length;
+        total += list.length; done += d;
+        q += list.filter((u) => !u.test && !u.exam).reduce((s, u) => s + u.items.length, 0);
+        return list.length ? `<span class="lvchip" style="--lv:var(--${lv})" title="${lv}: qua ${d}/${list.length}">${lv} ${d}/${list.length}</span>` : "";
+      }).join("");
+      const el = document.createElement("a");
+      el.className = "level hub-card";
+      el.href = "quiz.html?mode=" + m;
+      el.innerHTML = `<h3>${ic} ${name}</h3>
+        <div class="desc">${m === "exam" ? "3 đề × 6 cấp, 40 câu/đề, trộn mọi mục" : `${q.toLocaleString("vi-VN")} câu · ${total} bài`}</div>
+        <div class="progress">Qua ${done}/${total}</div>
+        <div class="mini-bar"><div style="width:${total ? Math.round((done / total) * 100) : 0}%"></div></div>
+        <div class="lvchips">${per}</div>`;
+      box.appendChild(el);
+    }
+    const r = document.createElement("a");
+    r.className = "level hub-card"; r.href = "reading.html";
+    r.innerHTML = `<h3>📖 Đọc hiểu</h3><div class="desc">Đọc bài và trả lời câu hỏi trắc nghiệm</div><div class="progress">Mở trang Đọc →</div>`;
+    box.appendChild(r);
+    show("homeScreen");
+  }
+
   function renderHome() {
+    if (MODE === "tn") return renderHub();
     const box = $("levels");
     box.innerHTML = "";
     for (const lv of LEVELS) {
       const list = units[lv];
       if (!list.length) continue;
       const done = passedCount(lv);
-      const total = list.filter((u) => !u.test).reduce((s, u) => s + u.items.length, 0);
+      const total = list.filter((u) => !u.test && !u.exam).reduce((s, u) => s + u.items.length, 0);
       const el = document.createElement("div");
       el.className = "level";
       el.style.setProperty("--lv", `var(--${lv})`);
       el.innerHTML = `
         <h3>${lv}</h3>
-        <div class="desc">${list.filter((u) => !u.test).length} ${MODE === "listen" || MODE === "speak" || MODE === "vmc" ? "bài" : "chủ đề"}${list.some((u) => u.test) ? " + kiểm tra" : ""} · ${total} câu</div>
+        <div class="desc">${MODE === "exam" ? `${list.length} đề · ${list[0].size} câu/đề`
+          : `${list.filter((u) => !u.test).length} ${["mc", "grammar", "phrases", "pmc"].includes(MODE) ? "chủ đề" : "bài"}${list.some((u) => u.test) ? " + kiểm tra" : ""} · ${total} câu`}</div>
         <div class="progress">Qua ${done}/${list.length}</div>
         <div class="mini-bar"><div style="width:${Math.round((done / list.length) * 100)}%"></div></div>
         <div class="row"><button class="btn primary small">Vào học</button></div>`;
@@ -167,7 +168,7 @@
       el.innerHTML = `
         <div class="top"><span class="name">${u.emoji} ${i + 1}</span><span>${ok ? "✅" : open ? "🔓" : "🔒"}</span></div>
         <div class="unit-title">${esc(u.title)}</div>
-        <div class="best">${u.test ? TEST_SIZE : u.items.length} câu · ${b === null ? "chưa làm" : "cao nhất " + b + "%"}</div>
+        <div class="best">${u.size ?? u.items.length} câu · ${b === null ? "chưa làm" : "cao nhất " + b + "%"}</div>
         <div class="row"><button class="btn primary small" ${open ? "" : "disabled"}>${ok ? "Ôn lại" : "Học"}</button></div>`;
       el.querySelector("button").onclick = () => openUnit(lv, i);
       box.appendChild(el);
@@ -202,25 +203,6 @@
     return a;
   }
 
-  // Trắc nghiệm từ vựng: 3 đáp án nhiễu cùng cấp, cùng loại (danh từ / không phải danh từ), nghĩa khác nhau
-  function vocabChoice(w, words, toGerman) {
-    const same = words.filter((x) => x.noun === w.noun);
-    const pool = shuffle(same.length >= 8 ? same : words.slice());
-    const opts = [w];
-    for (const x of pool) {
-      if (opts.length === 4) break;
-      if (opts.some((o) => o.g === x.g || o.v === x.v)) continue;
-      opts.push(x);
-    }
-    const label = (x) => (toGerman ? x.g : x.v);
-    return {
-      kind: "choice", e: toGerman ? w.e : "", q: toGerman ? w.v : w.g,
-      prompt: toGerman ? "Từ tiếng Đức nào có nghĩa này? (phím 1–4)" : "Từ này nghĩa là gì? (phím 1–4)",
-      options: opts.map(label), answer: 0, vi: "", say: w.g,
-      explain: `${w.g} = ${w.v}` + (w.ex ? `. Ví dụ: ${w.ex}` : ""),
-    };
-  }
-
   // Trộn thứ tự đáp án để không học thuộc vị trí
   function prepareChoice(it) {
     const order = shuffle(it.options.map((_, k) => k));
@@ -233,9 +215,10 @@
 
   function startUnit(lv, i) {
     const u = units[lv][i];
-    let src = u.items.map((it, k) => ({ ...it, src: k }));
-    if (u.test) src = shuffle(src).slice(0, TEST_SIZE);
-    src = src.map((it) => (it.build ? it.build() : it));
+    let src = u.pick ? u.pick() : u.items.slice();
+    if (u.test) src = shuffle(src).slice(0, u.size || TEST_SIZE);
+    src = src.map((it) => (it.build ? it.build() : it))
+      .filter((it) => it && (it.kind !== "choice" || (Array.isArray(it.options) && it.options.length === 4)));
     const items = src.map((it, k) => ({ ...(it.kind === "choice" ? prepareChoice(it) : it), id: k }));
     Object.assign(S, { level: lv, unit: i, queue: shuffle(items), total: items.length,
                        finished: new Set(), first: new Map(), mistakes: new Map() });
@@ -250,7 +233,7 @@
     const it = (S.cur = S.queue.shift());
     S.answered = false;
     const pic = $("picture"), input = $("answer");
-    $("listenBtns").classList.toggle("hidden", it.kind !== "listen");
+    $("listenBtns").classList.toggle("hidden", it.kind !== "listen" && !it.audio);
     const isChoice = it.kind === "choice";
     $("gapSentence").classList.toggle("hidden", it.kind !== "gap" && !isChoice);
     pic.classList.toggle("hidden", it.kind === "gap" || it.kind === "listen" || (isChoice && !it.e));
@@ -266,9 +249,11 @@
 
     if (isChoice) {
       $("gapSentence").innerHTML = esc(it.q).replace("___", '<span class="gap">＿＿＿</span>');
-      $("subline").textContent = it.prompt || "Chọn đáp án đúng (phím 1–4)";
+      $("subline").textContent = (MODE === "exam" && it.cat ? it.cat + " · " : "") + (it.prompt || "Chọn đáp án đúng") + " (phím 1–4)";
+      if (it.audio) setTimeout(() => speak(it.full, 0.9), 250);
       if (it.e) { pic.textContent = it.e; pic.style.animation = "none"; void pic.offsetWidth; pic.style.animation = ""; }
-      $("gapSentence").classList.toggle("word-q", MODE === "vmc");
+      $("gapSentence").classList.toggle("word-q", !!it.big);
+      $("gapSentence").classList.toggle("hidden", !it.q);
       $("choices").innerHTML = it.options.map((o, k) =>
         `<button type="button" class="choice" data-k="${k}"><span class="ck">${k + 1}</span>${esc(o)}</button>`).join("");
       $("choices").querySelectorAll(".choice").forEach((b) => (b.onclick = () => pickChoice(+b.dataset.k)));
@@ -607,5 +592,8 @@
   if (MODE === "listen") $("tip").textContent =
     "Ctrl+Space để nghe lại. Enter để kiểm tra / sang câu tiếp. Dấu câu không bắt buộc; gõ ae, oe, ue, ss thay cho ä, ö, ü, ß cũng được.";
 
+  if (MODE === "lmc") $("tip").textContent = "Ctrl+Space hoặc nút 🔊 để nghe lại, 🐢 để nghe chậm. Phím 1–4 để chọn, Enter để sang câu tiếp.";
+  else if (QZ.MC_MODES.some(([m]) => m === MODE)) $("tip").textContent = "Phím 1–4 để chọn đáp án, Enter để sang câu tiếp.";
+  renderTabs();
   renderHome();
 })();

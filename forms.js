@@ -7,36 +7,7 @@
   const V = typeof VOCAB !== "undefined" ? VOCAB : {};
   const VB = typeof VERBS !== "undefined" ? VERBS : [];
 
-  // ---------- Tạo dạng số nhiều từ ký hiệu từ điển ----------
-  function umlaut(stem) {
-    for (let i = stem.length - 1; i >= 0; i--) {
-      const c = stem[i], lower = c.toLowerCase();
-      if (lower === "u" && i > 0 && stem[i - 1].toLowerCase() === "a") {      // au -> äu
-        return stem.slice(0, i - 1) + (stem[i - 1] === "A" ? "Ä" : "ä") + stem.slice(i);
-      }
-      if (lower === "u" && i > 0 && "eäE".includes(stem[i - 1])) continue;    // eu, äu: không biến âm
-      if ("aou".includes(lower)) {
-        const map = { a: "ä", o: "ö", u: "ü", A: "Ä", O: "Ö", U: "Ü" };
-        if (lower === "a" && i > 0 && stem[i - 1].toLowerCase() === "a") return stem.slice(0, i - 1) + map[stem[i - 1]] + stem.slice(i + 1); // Saal -> Säle
-        return stem.slice(0, i) + map[c] + stem.slice(i + 1);
-      }
-    }
-    return null;
-  }
-  function pluralOf(noun, note) {
-    if (!note) return null;
-    let n = note.trim().split(/\s*[/(→]\s*|\s+-\s+die\s|\s+die\s/)[0].trim().replace(/^–$/, "-");
-    if (/^[A-ZÄÖÜ][a-zäöüß]+$/.test(n)) return n;                 // dạng đầy đủ, vd. "Risiken"
-    let uml = false, suffix;
-    let m = n.match(/^-([äöüÄÖÜ]),?\s*(\w*)$/);                       // "-ä, e", "-Ä"
-    if (m) { uml = true; suffix = m[2] || ""; }
-    else if ((m = n.match(/^¨-?(\w*)$/))) { uml = true; suffix = m[1]; }
-    else if ((m = n.match(/^-(e|en|n|nen|s|se|er|)$/))) suffix = m[1];
-    else return null;
-    let stem = noun;
-    if (uml) { stem = umlaut(noun); if (!stem) return null; }
-    return stem + suffix;
-  }
+  const { pluralOf } = QZ;   // dùng chung với trắc nghiệm (quiz-units.js)
 
   // ---------- Bài học ----------
   function buildUnits(kind, lv) {

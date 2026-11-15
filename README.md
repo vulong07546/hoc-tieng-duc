@@ -2,12 +2,11 @@
 
 Web học tiếng Đức cho người Việt, định hướng **luật & thuế**:
 
+- ☑️ Trắc nghiệm (một trang, chia mục): từ vựng 4.480 từ, ngữ pháp 85 chủ đề/1.275 câu, cụm từ, nghe (chỉ âm thanh), dạng từ (số nhiều, Präteritum/Perfekt); mỗi cấp có bài kiểm tra 30 câu và 3 đề thi tổng hợp 40 câu
 - 📚 Từ vựng A1–C2 (≈4.500 từ, A1–B1 theo danh sách Goethe-Zertifikat) – nhìn hình, gõ từ
 - 🔁 Ôn tập ngắt quãng, sổ từ khó, thống kê, sao lưu tiến độ
 - 🏅 Cấp bậc & XP, ước tính trình độ CEFR theo từng kỹ năng, huy hiệu thành tích
 - 🔤 Số nhiều danh từ & chia động từ bất quy tắc
-- ☑️ Trắc nghiệm ngữ pháp: 85 chủ đề, 1.275 câu A1–C2 + bài kiểm tra tổng hợp mỗi cấp
-- 🔠 Trắc nghiệm từ vựng: 4.480 từ A1–C2, hỏi 2 chiều (hình + nghĩa → từ Đức, từ Đức → nghĩa), đáp án nhiễu cùng cấp & cùng loại từ
 - 📐 Ngữ pháp · 💬 Cụm từ & mẫu câu · 🎧 Nghe · 🎤 Nói (nhận dạng giọng nói)
 - 📖 Đọc hiểu (C1–C2: văn bản luật & thuế) · ✍️ Luyện viết (Gutachtenstil)
 
