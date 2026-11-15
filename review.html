@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#1f2328" />
+  <link rel="icon" href="icon.svg" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ôn tập & Tiến độ – Học tiếng Đức</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">🇩🇪 Deutsch Wortschatz</a>
+    <nav class="nav"></nav>
+  </header>
+
+  <main id="homeScreen" class="screen">
+    <h1>🔁 Ôn tập & Tiến độ</h1>
+    <p class="sub">Từ bạn đã học sẽ được nhắc lại đúng lúc sắp quên: sau 1, 3, 7, 14, 30, 60… ngày. Trả lời đúng thì khoảng cách dài ra; sai thì quay lại từ đầu.</p>
+
+    <div class="stat-grid">
+      <div class="stat"><div class="num" id="stDue">0</div><div class="lbl">từ cần ôn hôm nay</div></div>
+      <div class="stat"><div class="num" id="stStreak">0</div><div class="lbl">ngày học liên tiếp 🔥</div></div>
+      <div class="stat"><div class="num" id="stLearned">0</div><div class="lbl">từ đã học</div></div>
+      <div class="stat"><div class="num" id="stStrong">0</div><div class="lbl">từ nhớ vững (≥ 30 ngày)</div></div>
+    </div>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h3>Mục tiêu hôm nay</h3>
+        <label class="goal">Mục tiêu: <input type="number" id="goalInput" min="5" max="1000" step="5" /> câu/ngày</label>
+      </div>
+      <div class="bar big"><div class="bar-fill" id="goalBar"></div></div>
+      <div class="muted" id="goalText"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h3>Ôn tập ngắt quãng</h3>
+        <span class="muted" id="upcoming"></span>
+      </div>
+      <div class="actions left">
+        <button class="btn primary" id="startDueBtn">Bắt đầu ôn</button>
+        <button class="btn ghost" id="startHardBtn">Luyện sổ từ khó</button>
+      </div>
+      <p class="muted small">Mỗi lượt ôn tối đa 50 từ. Từ mới vào lịch ôn khi bạn làm bài ở phần 📚 Từ vựng.</p>
+    </section>
+
+    <section class="panel">
+      <h3>📊 14 ngày gần nhất</h3>
+      <div class="chart" id="chart"></div>
+    </section>
+
+    <section class="panel">
+      <h3>Theo cấp độ</h3>
+      <div id="levelTable"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head"><h3>📝 Sổ từ khó</h3><span class="muted" id="hardCount"></span></div>
+      <div class="mistakes left" id="hardList"></div>
+    </section>
+
+    <section class="panel">
+      <h3>💾 Sao lưu tiến độ</h3>
+      <p class="muted small">Tiến độ chỉ lưu trong trình duyệt này. Hãy tải file sao lưu định kỳ; khi đổi máy hoặc lỡ xóa dữ liệu trình duyệt, chọn “Khôi phục” để nạp lại.</p>
+      <div class="actions left">
+        <button class="btn ghost" id="exportBtn">⬇️ Tải file sao lưu</button>
+        <label class="btn ghost file-btn">⬆️ Khôi phục từ file<input type="file" id="importInput" accept=".json,application/json" hidden /></label>
+      </div>
+      <div class="muted small" id="backupMsg"></div>
+    </section>
+  </main>
+
+  <main id="practiceScreen" class="screen hidden">
+    <div class="practice-head">
+      <button class="link" id="backBtn">← Ôn tập</button>
+      <span class="badge" id="sessionBadge">Ôn tập</span>
+      <div class="bar"><div class="bar-fill" id="sessionBar"></div></div>
+      <span class="count" id="sessionCount">0/0</span>
+    </div>
+    <div class="card" id="card">
+      <div class="lvl-tag" id="lvlTag"></div>
+      <div class="picture" id="picture"></div>
+      <div class="meaning" id="meaning"></div>
+      <div class="pattern" id="pattern"></div>
+      <form id="answerForm" autocomplete="off">
+        <input id="answer" type="text" spellcheck="false" autocapitalize="off" placeholder="Gõ từ tiếng Đức (kèm der/die/das)…" />
+      </form>
+      <div class="umlauts">
+        <button type="button" data-ch="ä">ä</button><button type="button" data-ch="ö">ö</button>
+        <button type="button" data-ch="ü">ü</button><button type="button" data-ch="ß">ß</button>
+        <button type="button" data-ch="Ä">Ä</button><button type="button" data-ch="Ö">Ö</button><button type="button" data-ch="Ü">Ü</button>
+      </div>
+      <div class="feedback" id="feedback"></div>
+      <div class="actions">
+        <button type="button" class="btn ghost" id="speakBtn">🔊 Nghe</button>
+        <button type="button" class="btn ghost" id="skipBtn">⏭ Không nhớ</button>
+        <button type="button" class="btn primary" id="checkBtn">Kiểm tra ↵</button>
+      </div>
+    </div>
+  </main>
+
+  <main id="doneScreen" class="screen hidden">
+    <div class="card center">
+      <div class="picture">✅</div>
+      <h2>Xong lượt ôn!</h2>
+      <p id="doneText"></p>
+      <div class="actions">
+        <button class="btn primary" id="doneBtn">Về trang ôn tập</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="common.js"></script>
+  <script src="data.js"></script>
+  <script src="review.js"></script>
+</body>
+</html>

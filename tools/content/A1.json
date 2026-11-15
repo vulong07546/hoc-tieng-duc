@@ -1,0 +1,240 @@
+{
+  "grammar": [
+    {
+      "title": "Chia động từ ở thì hiện tại (Präsens)",
+      "intro": "Động từ tiếng Đức thay đổi đuôi theo chủ ngữ. Bỏ đuôi -en của động từ nguyên mẫu rồi thêm đuôi tương ứng. Một số động từ đổi nguyên âm ở du/er/sie/es (fahren → fährt, lesen → liest). 'sein' và 'haben' là bất quy tắc.\nich -e | du -st | er/sie/es -t\nwir -en | ihr -t | sie/Sie -en\nsein: bin, bist, ist, sind, seid, sind\nhaben: habe, hast, hat, haben, habt, haben",
+      "questions": [
+        {"q": "Ich ___ aus Vietnam.", "hint": "(kommen)", "answers": ["komme"], "vi": "Tôi đến từ Việt Nam.", "explain": "Với 'ich', động từ có đuôi -e: komm + e."},
+        {"q": "Du ___ sehr gut Deutsch.", "hint": "(sprechen)", "answers": ["sprichst"], "vi": "Bạn nói tiếng Đức rất giỏi.", "explain": "'sprechen' đổi e → i ở ngôi du và thêm đuôi -st."},
+        {"q": "Er ___ in Berlin.", "hint": "(wohnen)", "answers": ["wohnt"], "vi": "Anh ấy sống ở Berlin.", "explain": "Với 'er', động từ có đuôi -t: wohn + t."},
+        {"q": "Wir ___ Studenten.", "hint": "(sein)", "answers": ["sind"], "vi": "Chúng tôi là sinh viên.", "explain": "'sein' bất quy tắc: wir sind."},
+        {"q": "Ihr ___ heute keine Zeit.", "hint": "(haben)", "answers": ["habt"], "vi": "Các bạn hôm nay không có thời gian.", "explain": "Với 'ihr', động từ có đuôi -t: hab + t."},
+        {"q": "Sie ___ Lehrerin.", "hint": "(sein; sie = cô ấy)", "answers": ["ist"], "vi": "Cô ấy là giáo viên.", "explain": "'sie' (cô ấy) đi với 'ist', giống như 'er'."},
+        {"q": "Wie ___ du?", "hint": "(heißen)", "answers": ["heißt"], "vi": "Bạn tên là gì?", "explain": "Gốc 'heiß' tận cùng bằng ß nên với du chỉ thêm -t: heißt."},
+        {"q": "Anna ___ gern Bücher.", "hint": "(lesen)", "answers": ["liest"], "vi": "Anna thích đọc sách.", "explain": "'lesen' đổi e → ie ở ngôi er/sie/es: liest."},
+        {"q": "Was ___ du am Wochenende?", "hint": "(machen)", "answers": ["machst"], "vi": "Bạn làm gì vào cuối tuần?", "explain": "Với 'du', động từ có đuôi -st: mach + st."},
+        {"q": "Er ___ jeden Tag Fahrrad.", "hint": "(fahren)", "answers": ["fährt"], "vi": "Anh ấy đạp xe đạp mỗi ngày.", "explain": "'fahren' đổi a → ä ở ngôi er/sie/es: fährt."},
+        {"q": "Ich ___ einen Bruder.", "hint": "(haben)", "answers": ["habe"], "vi": "Tôi có một người anh/em trai.", "explain": "Với 'ich', 'haben' chia là 'habe'."},
+        {"q": "Du ___ in Hamburg.", "hint": "(arbeiten)", "answers": ["arbeitest"], "vi": "Bạn làm việc ở Hamburg.", "explain": "Gốc 'arbeit' tận cùng bằng -t nên thêm -e- trước đuôi: arbeitest."}
+      ]
+    },
+    {
+      "title": "Mạo từ ở cách 1 và cách 4 (Nominativ und Akkusativ)",
+      "intro": "Chủ ngữ ở cách 1 (Nominativ), tân ngữ trực tiếp ở cách 4 (Akkusativ). Ở cách 4 chỉ có giống đực thay đổi: der → den, ein → einen. Giống cái, giống trung và số nhiều giữ nguyên.\n          Nominativ | Akkusativ\nđực:      der / ein | den / einen\ncái:      die / eine | die / eine\ntrung:    das / ein | das / ein\nsố nhiều: die | die",
+      "questions": [
+        {"q": "Ich habe ___ Hund.", "hint": "(ein; der Hund)", "answers": ["einen"], "vi": "Tôi có một con chó.", "explain": "'Hund' là giống đực, làm tân ngữ (cách 4) nên ein → einen."},
+        {"q": "Wir kaufen ___ Tasche.", "hint": "(ein; die Tasche)", "answers": ["eine"], "vi": "Chúng tôi mua một cái túi.", "explain": "Giống cái ở cách 4 không đổi: eine."},
+        {"q": "Er trinkt ___ Kaffee.", "hint": "(der; der Kaffee)", "answers": ["den"], "vi": "Anh ấy uống cà phê (đó).", "explain": "Giống đực ở cách 4: der → den."},
+        {"q": "Siehst du ___ Auto?", "hint": "(das; das Auto)", "answers": ["das"], "vi": "Bạn có thấy chiếc ô tô đó không?", "explain": "Giống trung ở cách 4 không đổi: das."},
+        {"q": "Ich brauche ___ Stift.", "hint": "(ein; der Stift)", "answers": ["einen"], "vi": "Tôi cần một cây bút.", "explain": "'Stift' giống đực, là tân ngữ của 'brauchen' nên dùng einen."},
+        {"q": "Sie isst ___ Apfel.", "hint": "(ein; der Apfel)", "answers": ["einen"], "vi": "Cô ấy ăn một quả táo.", "explain": "'Apfel' giống đực ở cách 4: einen."},
+        {"q": "Kennst du ___ Mann dort?", "hint": "(der; der Mann)", "answers": ["den"], "vi": "Bạn có biết người đàn ông ở đằng kia không?", "explain": "'Mann' giống đực, là tân ngữ của 'kennen' nên der → den."},
+        {"q": "Ich lese ___ Buch.", "hint": "(ein; das Buch)", "answers": ["ein"], "vi": "Tôi đọc một cuốn sách.", "explain": "Giống trung ở cách 4 không đổi: ein."},
+        {"q": "Wir besuchen ___ Großeltern.", "hint": "(die; die Großeltern, Plural)", "answers": ["die"], "vi": "Chúng tôi đi thăm ông bà.", "explain": "Số nhiều ở cách 4 không đổi: die."},
+        {"q": "Er hat ___ Schwester.", "hint": "(ein; die Schwester)", "answers": ["eine"], "vi": "Anh ấy có một người chị/em gái.", "explain": "Giống cái ở cách 4 không đổi: eine."},
+        {"q": "___ Lehrer ist nett.", "hint": "(der; der Lehrer)", "answers": ["Der", "der"], "vi": "Thầy giáo thân thiện.", "explain": "'Lehrer' là chủ ngữ (cách 1) nên giữ nguyên 'der'."},
+        {"q": "Ich nehme ___ Salat.", "hint": "(der; der Salat)", "answers": ["den"], "vi": "Tôi lấy món salad.", "explain": "'Salat' giống đực, là tân ngữ của 'nehmen' nên der → den."}
+      ]
+    },
+    {
+      "title": "Phủ định với nicht và kein (Negation)",
+      "intro": "'kein' phủ định danh từ đi với 'ein' hoặc không có mạo từ; nó chia đuôi như 'ein' (kein, keine, keinen). 'nicht' phủ định động từ, tính từ, trạng từ, cụm giới từ hoặc danh từ có mạo từ xác định/sở hữu.\nIch habe ein Auto. → Ich habe kein Auto.\nIch komme. → Ich komme nicht.\nDas ist gut. → Das ist nicht gut.",
+      "questions": [
+        {"q": "Ich habe ___ Auto.", "hint": "(nicht / kein; das Auto)", "answers": ["kein"], "vi": "Tôi không có ô tô.", "explain": "Danh từ không có mạo từ xác định nên dùng 'kein'; giống trung cách 4: kein."},
+        {"q": "Das ist ___ mein Buch.", "hint": "(nicht / kein)", "answers": ["nicht"], "vi": "Đó không phải là sách của tôi.", "explain": "Danh từ có mạo từ sở hữu 'mein' nên phủ định bằng 'nicht'."},
+        {"q": "Er trinkt ___ Kaffee.", "hint": "(nicht / kein; der Kaffee)", "answers": ["keinen"], "vi": "Anh ấy không uống cà phê.", "explain": "Danh từ không mạo từ dùng 'kein'; giống đực cách 4: keinen."},
+        {"q": "Wir haben ___ Zeit.", "hint": "(nicht / kein; die Zeit)", "answers": ["keine"], "vi": "Chúng tôi không có thời gian.", "explain": "Danh từ không mạo từ dùng 'kein'; giống cái: keine."},
+        {"q": "Sie kommt heute ___.", "hint": "(nicht / kein)", "answers": ["nicht"], "vi": "Hôm nay cô ấy không đến.", "explain": "Phủ định động từ nên dùng 'nicht' ở cuối câu."},
+        {"q": "Ich habe ___ Kinder.", "hint": "(nicht / kein; die Kinder, Plural)", "answers": ["keine"], "vi": "Tôi không có con.", "explain": "Danh từ số nhiều không mạo từ dùng 'keine'."},
+        {"q": "Das ist ___ Problem.", "hint": "(nicht / kein; das Problem)", "answers": ["kein"], "vi": "Đó không phải là vấn đề.", "explain": "Phủ định 'ein Problem' thành 'kein Problem'."},
+        {"q": "Ich wohne ___ in Berlin.", "hint": "(nicht / kein)", "answers": ["nicht"], "vi": "Tôi không sống ở Berlin.", "explain": "Phủ định cụm giới từ 'in Berlin' nên dùng 'nicht'."},
+        {"q": "Er hat ___ Bruder.", "hint": "(nicht / kein; der Bruder)", "answers": ["keinen"], "vi": "Anh ấy không có anh/em trai.", "explain": "Phủ định 'einen Bruder' thành 'keinen Bruder' (giống đực, cách 4)."},
+        {"q": "Das Essen ist ___ gut.", "hint": "(nicht / kein)", "answers": ["nicht"], "vi": "Đồ ăn không ngon.", "explain": "Phủ định tính từ 'gut' nên dùng 'nicht'."},
+        {"q": "Wir brauchen ___ Tasche.", "hint": "(nicht / kein; die Tasche)", "answers": ["keine"], "vi": "Chúng tôi không cần túi.", "explain": "Phủ định 'eine Tasche' thành 'keine Tasche'."},
+        {"q": "Ich schwimme ___ gern.", "hint": "(nicht / kein)", "answers": ["nicht"], "vi": "Tôi không thích bơi.", "explain": "Phủ định trạng từ 'gern' nên dùng 'nicht'."}
+      ]
+    },
+    {
+      "title": "Động từ khuyết thiếu (Modalverben)",
+      "intro": "Động từ khuyết thiếu (können, müssen, wollen, dürfen, möchten) đứng ở vị trí thứ 2 và được chia; động từ chính ở dạng nguyên mẫu đứng cuối câu. Ngôi ich và er/sie/es giống nhau và không có đuôi.\nkönnen: kann, kannst, kann, können, könnt, können\nmüssen: muss, musst, muss, müssen, müsst, müssen\nwollen: will, willst, will, wollen, wollt, wollen\ndürfen: darf, darfst, darf, dürfen, dürft, dürfen\nmöchten: möchte, möchtest, möchte, möchten, möchtet, möchten",
+      "questions": [
+        {"q": "Ich ___ gut schwimmen.", "hint": "(können)", "answers": ["kann"], "vi": "Tôi có thể bơi giỏi.", "explain": "'können' với ich là 'kann' (không có đuôi)."},
+        {"q": "Du ___ heute arbeiten.", "hint": "(müssen)", "answers": ["musst"], "vi": "Hôm nay bạn phải làm việc.", "explain": "'müssen' với du: bỏ ü thành u và thêm -st: musst."},
+        {"q": "Er ___ einen Kaffee trinken.", "hint": "(wollen)", "answers": ["will"], "vi": "Anh ấy muốn uống một ly cà phê.", "explain": "'wollen' với er là 'will'."},
+        {"q": "Wir ___ Deutsch lernen.", "hint": "(möchten)", "answers": ["möchten"], "vi": "Chúng tôi muốn học tiếng Đức.", "explain": "Với wir, 'möchten' giữ nguyên dạng."},
+        {"q": "___ Sie mir helfen?", "hint": "(können)", "answers": ["Können", "können"], "vi": "Ông/bà có thể giúp tôi không?", "explain": "Với 'Sie' (lịch sự), dùng 'können'; trong câu hỏi có/không động từ đứng đầu."},
+        {"q": "Hier ___ man nicht rauchen.", "hint": "(dürfen)", "answers": ["darf"], "vi": "Ở đây không được hút thuốc.", "explain": "'man' chia như er: dürfen → darf."},
+        {"q": "Ihr ___ morgen früh aufstehen.", "hint": "(müssen)", "answers": ["müsst"], "vi": "Ngày mai các bạn phải dậy sớm.", "explain": "Với ihr, 'müssen' chia là 'müsst'."},
+        {"q": "Ich ___ ein Glas Wasser, bitte.", "hint": "(möchten)", "answers": ["möchte"], "vi": "Tôi muốn một ly nước, làm ơn.", "explain": "Với ich, 'möchten' chia là 'möchte'."},
+        {"q": "Sie ___ Ärztin werden.", "hint": "(wollen; sie = cô ấy)", "answers": ["will"], "vi": "Cô ấy muốn trở thành bác sĩ.", "explain": "'sie' (cô ấy) chia như er: wollen → will."},
+        {"q": "___ du Gitarre spielen?", "hint": "(können)", "answers": ["Kannst", "kannst"], "vi": "Bạn có biết chơi đàn ghi-ta không?", "explain": "Với du, 'können' chia là 'kannst'."},
+        {"q": "Du ___ hier nicht parken.", "hint": "(dürfen)", "answers": ["darfst"], "vi": "Bạn không được đỗ xe ở đây.", "explain": "Với du, 'dürfen' chia là 'darfst'."},
+        {"q": "Mein Bruder ___ viel lernen.", "hint": "(müssen)", "answers": ["muss"], "vi": "Anh/em trai tôi phải học nhiều.", "explain": "'Mein Bruder' = er, nên 'müssen' chia là 'muss'."}
+      ]
+    },
+    {
+      "title": "Động từ tách được (trennbare Verben)",
+      "intro": "Nhiều động từ có tiền tố tách được (an-, auf-, ein-, mit-, fern-, zu-, ab-...). Trong câu, phần động từ được chia ở vị trí thứ 2, còn tiền tố đứng ở cuối câu.\naufstehen → Ich stehe um 7 Uhr auf.\nanrufen → Er ruft seine Mutter an.\nmitkommen → Kommst du mit?",
+      "questions": [
+        {"q": "Ich ___ um sieben Uhr auf.", "hint": "(aufstehen)", "answers": ["stehe"], "vi": "Tôi thức dậy lúc bảy giờ.", "explain": "Phần 'stehen' được chia (stehe) ở vị trí 2, 'auf' ở cuối câu."},
+        {"q": "Der Zug ___ um zehn Uhr an.", "hint": "(ankommen)", "answers": ["kommt"], "vi": "Tàu đến lúc mười giờ.", "explain": "'ankommen' tách: kommt ... an."},
+        {"q": "Wir ___ heute Abend fern.", "hint": "(fernsehen)", "answers": ["sehen"], "vi": "Tối nay chúng tôi xem ti vi.", "explain": "'fernsehen' tách: wir sehen ... fern."},
+        {"q": "Er ___ seine Freundin an.", "hint": "(anrufen)", "answers": ["ruft"], "vi": "Anh ấy gọi điện cho bạn gái.", "explain": "'anrufen' tách: er ruft ... an."},
+        {"q": "Du ___ im Supermarkt ein.", "hint": "(einkaufen)", "answers": ["kaufst"], "vi": "Bạn đi mua sắm ở siêu thị.", "explain": "'einkaufen' tách: du kaufst ... ein."},
+        {"q": "Ich mache die Tür ___.", "hint": "(aufmachen)", "answers": ["auf"], "vi": "Tôi mở cửa.", "explain": "Tiền tố 'auf' của 'aufmachen' đứng ở cuối câu."},
+        {"q": "Wann ___ der Film an?", "hint": "(anfangen)", "answers": ["fängt"], "vi": "Khi nào bộ phim bắt đầu?", "explain": "'anfangen' tách và đổi a → ä ở ngôi er: fängt ... an."},
+        {"q": "___ du mit?", "hint": "(mitkommen)", "answers": ["Kommst", "kommst"], "vi": "Bạn có đi cùng không?", "explain": "'mitkommen' tách: Kommst du mit?"},
+        {"q": "Ich ___ meine Freunde ein.", "hint": "(einladen)", "answers": ["lade"], "vi": "Tôi mời bạn bè của tôi.", "explain": "'einladen' tách: ich lade ... ein."},
+        {"q": "Er sieht heute Abend ___.", "hint": "(fernsehen)", "answers": ["fern"], "vi": "Tối nay anh ấy xem ti vi.", "explain": "Tiền tố 'fern' đứng ở cuối câu."},
+        {"q": "Der Bus fährt um acht Uhr ___.", "hint": "(abfahren)", "answers": ["ab"], "vi": "Xe buýt khởi hành lúc tám giờ.", "explain": "Tiền tố 'ab' của 'abfahren' đứng ở cuối câu."},
+        {"q": "Mein Vater ___ das Fenster zu.", "hint": "(zumachen)", "answers": ["macht"], "vi": "Bố tôi đóng cửa sổ.", "explain": "'zumachen' tách: er macht ... zu."}
+      ]
+    },
+    {
+      "title": "Mạo từ sở hữu (Possessivartikel)",
+      "intro": "Mạo từ sở hữu cho biết vật thuộc về ai và chia đuôi giống 'ein' (Nominativ: mein, meine; Akkusativ giống đực: meinen).\nich → mein | du → dein | er/es → sein | sie → ihr\nwir → unser | ihr → euer | sie/Sie → ihr/Ihr\nVí dụ: mein Vater, meine Mutter, mein Kind, meine Eltern; Ich sehe meinen Vater.",
+      "questions": [
+        {"q": "Das ist ___ Bruder.", "hint": "(ich; der Bruder)", "answers": ["mein"], "vi": "Đây là anh/em trai của tôi.", "explain": "Của 'ich' là 'mein'; giống đực cách 1 không có đuôi."},
+        {"q": "Wo ist ___ Tasche?", "hint": "(du; die Tasche)", "answers": ["deine"], "vi": "Cái túi của bạn ở đâu?", "explain": "Của 'du' là 'dein'; giống cái thêm -e: deine."},
+        {"q": "Das ist ___ Auto.", "hint": "(er; das Auto)", "answers": ["sein"], "vi": "Đây là ô tô của anh ấy.", "explain": "Của 'er' là 'sein'; giống trung không có đuôi."},
+        {"q": "___ Mutter heißt Lan.", "hint": "(sie = cô ấy; die Mutter)", "answers": ["Ihre", "ihre"], "vi": "Mẹ của cô ấy tên là Lan.", "explain": "Của 'sie' (cô ấy) là 'ihr'; giống cái thêm -e: ihre."},
+        {"q": "Wie ist ___ Name?", "hint": "(Sie; der Name)", "answers": ["Ihr"], "vi": "Tên của ông/bà là gì?", "explain": "Của 'Sie' (lịch sự) là 'Ihr', luôn viết hoa."},
+        {"q": "Das sind ___ Kinder.", "hint": "(wir; die Kinder, Plural)", "answers": ["unsere"], "vi": "Đây là các con của chúng tôi.", "explain": "Của 'wir' là 'unser'; số nhiều thêm -e: unsere."},
+        {"q": "Ich besuche ___ Oma.", "hint": "(ich; die Oma)", "answers": ["meine"], "vi": "Tôi đi thăm bà của tôi.", "explain": "Giống cái ở cách 4 không đổi: meine."},
+        {"q": "Ich suche ___ Schlüssel.", "hint": "(ich; der Schlüssel, Singular)", "answers": ["meinen"], "vi": "Tôi đang tìm chìa khóa của tôi.", "explain": "Giống đực ở cách 4 thêm -en: meinen."},
+        {"q": "Ist das ___ Hund?", "hint": "(ihr = các bạn; der Hund)", "answers": ["euer"], "vi": "Đây có phải là con chó của các bạn không?", "explain": "Của 'ihr' (các bạn) là 'euer'; giống đực cách 1 không có đuôi."},
+        {"q": "Er liebt ___ Frau.", "hint": "(er; die Frau)", "answers": ["seine"], "vi": "Anh ấy yêu vợ của mình.", "explain": "Của 'er' là 'sein'; giống cái thêm -e: seine."},
+        {"q": "Hast du ___ Handy?", "hint": "(du; das Handy)", "answers": ["dein"], "vi": "Bạn có mang điện thoại của bạn không?", "explain": "Giống trung ở cách 4 không đổi: dein."},
+        {"q": "Wir besuchen ___ Lehrer.", "hint": "(wir; der Lehrer, Singular)", "answers": ["unseren"], "vi": "Chúng tôi đến thăm thầy giáo của chúng tôi.", "explain": "Giống đực ở cách 4 thêm -en: unseren."}
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "title": "Chào hỏi và tạm biệt",
+      "emoji": "👋",
+      "items": [
+        {"e": "🌅", "vi": "Chào buổi sáng!", "de": "Guten Morgen!", "alt": []},
+        {"e": "☀️", "vi": "Xin chào! (ban ngày, lịch sự)", "de": "Guten Tag!", "alt": []},
+        {"e": "🌆", "vi": "Chào buổi tối!", "de": "Guten Abend!", "alt": []},
+        {"e": "🌙", "vi": "Chúc ngủ ngon!", "de": "Gute Nacht!", "alt": []},
+        {"e": "👋", "vi": "Chào! (thân mật)", "de": "Hallo!", "alt": []},
+        {"e": "🙂", "vi": "Ông/bà có khỏe không? (Sie)", "de": "Wie geht es Ihnen?", "alt": []},
+        {"e": "😊", "vi": "Bạn có khỏe không? (du)", "de": "Wie geht es dir?", "alt": ["Wie geht's dir?", "Wie geht's?"]},
+        {"e": "👍", "vi": "Tôi khỏe, cảm ơn.", "de": "Mir geht es gut, danke.", "alt": ["Mir geht's gut, danke.", "Gut, danke."]},
+        {"e": "❓", "vi": "Còn bạn thì sao? (du)", "de": "Und dir?", "alt": []},
+        {"e": "🤝", "vi": "Tạm biệt! (lịch sự)", "de": "Auf Wiedersehen!", "alt": []},
+        {"e": "✋", "vi": "Tạm biệt! (thân mật)", "de": "Tschüss!", "alt": ["Tschüs!"]},
+        {"e": "🔜", "vi": "Hẹn sớm gặp lại!", "de": "Bis bald!", "alt": []},
+        {"e": "📅", "vi": "Hẹn ngày mai gặp lại!", "de": "Bis morgen!", "alt": []},
+        {"e": "🙏", "vi": "Cảm ơn nhiều!", "de": "Vielen Dank!", "alt": ["Danke schön!", "Danke sehr!"]},
+        {"e": "😌", "vi": "Không có gì. (đáp lại lời cảm ơn)", "de": "Bitte schön!", "alt": ["Bitte!", "Bitte sehr!", "Gern geschehen!"]}
+      ]
+    },
+    {
+      "title": "Giới thiệu bản thân",
+      "emoji": "🙋",
+      "items": [
+        {"e": "📛", "vi": "Tôi tên là Minh.", "de": "Ich heiße Minh.", "alt": ["Mein Name ist Minh."]},
+        {"e": "❓", "vi": "Bạn tên là gì? (du)", "de": "Wie heißt du?", "alt": []},
+        {"e": "🎩", "vi": "Ông/bà tên là gì? (Sie)", "de": "Wie heißen Sie?", "alt": ["Wie ist Ihr Name?"]},
+        {"e": "🇻🇳", "vi": "Tôi đến từ Việt Nam.", "de": "Ich komme aus Vietnam.", "alt": []},
+        {"e": "🌍", "vi": "Bạn đến từ đâu? (du)", "de": "Woher kommst du?", "alt": []},
+        {"e": "🏠", "vi": "Tôi sống ở Hà Nội.", "de": "Ich wohne in Hanoi.", "alt": ["Ich lebe in Hanoi."]},
+        {"e": "🎂", "vi": "Tôi 25 tuổi.", "de": "Ich bin 25 Jahre alt.", "alt": ["Ich bin fünfundzwanzig Jahre alt.", "Ich bin 25."]},
+        {"e": "🔢", "vi": "Bạn bao nhiêu tuổi? (du)", "de": "Wie alt bist du?", "alt": []},
+        {"e": "🎓", "vi": "Tôi là sinh viên. (người nói là nam)", "de": "Ich bin Student.", "alt": []},
+        {"e": "🗣️", "vi": "Tôi nói tiếng Việt và tiếng Anh.", "de": "Ich spreche Vietnamesisch und Englisch.", "alt": []},
+        {"e": "📚", "vi": "Tôi học tiếng Đức.", "de": "Ich lerne Deutsch.", "alt": []},
+        {"e": "😊", "vi": "Rất vui được làm quen!", "de": "Freut mich!", "alt": ["Sehr erfreut!"]},
+        {"e": "💼", "vi": "Bạn làm nghề gì? (du)", "de": "Was machst du beruflich?", "alt": ["Was bist du von Beruf?"]},
+        {"e": "💍", "vi": "Tôi đã kết hôn.", "de": "Ich bin verheiratet.", "alt": []},
+        {"e": "📖", "vi": "Tôi thích đọc sách.", "de": "Ich lese gern.", "alt": ["Ich lese gerne."]}
+      ]
+    },
+    {
+      "title": "Mua sắm",
+      "emoji": "🛒",
+      "items": [
+        {"e": "💶", "vi": "Cái này giá bao nhiêu?", "de": "Was kostet das?", "alt": ["Wie viel kostet das?"]},
+        {"e": "🧥", "vi": "Tôi đang tìm một cái áo khoác.", "de": "Ich suche eine Jacke.", "alt": []},
+        {"e": "👀", "vi": "Tôi chỉ xem thôi.", "de": "Ich schaue mich nur um.", "alt": ["Ich schaue nur."]},
+        {"e": "📏", "vi": "Tôi cần cỡ M.", "de": "Ich brauche Größe M.", "alt": []},
+        {"e": "👕", "vi": "Tôi có thể mặc thử cái này không?", "de": "Kann ich das anprobieren?", "alt": []},
+        {"e": "💸", "vi": "Cái này đắt quá.", "de": "Das ist zu teuer.", "alt": []},
+        {"e": "🏷️", "vi": "Cái này rẻ.", "de": "Das ist billig.", "alt": ["Das ist günstig."]},
+        {"e": "✅", "vi": "Tôi lấy cái này.", "de": "Ich nehme das.", "alt": ["Ich nehme es."]},
+        {"e": "💳", "vi": "Tôi có thể trả bằng thẻ không?", "de": "Kann ich mit Karte zahlen?", "alt": ["Kann ich mit Karte bezahlen?"]},
+        {"e": "💵", "vi": "Tôi trả tiền mặt.", "de": "Ich zahle bar.", "alt": ["Ich bezahle bar."]},
+        {"e": "🍞", "vi": "Ông/bà có bánh mì không? (Sie)", "de": "Haben Sie Brot?", "alt": []},
+        {"e": "🍎", "vi": "Cho tôi một ki-lô táo.", "de": "Ein Kilo Äpfel, bitte.", "alt": []},
+        {"e": "🧾", "vi": "Tổng cộng bao nhiêu tiền?", "de": "Was macht das zusammen?", "alt": ["Wie viel macht das zusammen?"]},
+        {"e": "🛍️", "vi": "Tôi cần một cái túi nilon.", "de": "Ich brauche eine Tüte.", "alt": []},
+        {"e": "🕘", "vi": "Siêu thị mở cửa khi nào?", "de": "Wann öffnet der Supermarkt?", "alt": ["Wann macht der Supermarkt auf?"]}
+      ]
+    },
+    {
+      "title": "Ở nhà hàng",
+      "emoji": "🍽️",
+      "items": [
+        {"e": "📋", "vi": "Cho tôi xem thực đơn.", "de": "Die Speisekarte, bitte.", "alt": []},
+        {"e": "🙋", "vi": "Tôi muốn gọi món.", "de": "Ich möchte bestellen.", "alt": []},
+        {"e": "💧", "vi": "Tôi muốn một ly nước.", "de": "Ich möchte ein Glas Wasser.", "alt": ["Ein Glas Wasser, bitte."]},
+        {"e": "☕", "vi": "Cho tôi một cà phê.", "de": "Einen Kaffee, bitte.", "alt": []},
+        {"e": "🪑", "vi": "Chỗ này còn trống không?", "de": "Ist der Platz frei?", "alt": ["Ist hier noch frei?", "Ist hier frei?"]},
+        {"e": "👫", "vi": "Cho tôi một bàn cho hai người.", "de": "Einen Tisch für zwei Personen, bitte.", "alt": []},
+        {"e": "🥩", "vi": "Tôi không ăn thịt.", "de": "Ich esse kein Fleisch.", "alt": []},
+        {"e": "😋", "vi": "Món này rất ngon.", "de": "Das schmeckt sehr gut.", "alt": ["Es schmeckt sehr gut."]},
+        {"e": "🍴", "vi": "Chúc ngon miệng!", "de": "Guten Appetit!", "alt": []},
+        {"e": "🧾", "vi": "Làm ơn tính tiền!", "de": "Die Rechnung, bitte!", "alt": ["Zahlen, bitte!"]},
+        {"e": "➗", "vi": "Chúng tôi trả riêng.", "de": "Wir zahlen getrennt.", "alt": ["Getrennt, bitte."]},
+        {"e": "🤝", "vi": "Trả chung, làm ơn.", "de": "Zusammen, bitte.", "alt": ["Wir zahlen zusammen."]},
+        {"e": "🪙", "vi": "Không cần thối lại tiền.", "de": "Stimmt so.", "alt": []},
+        {"e": "🚻", "vi": "Nhà vệ sinh ở đâu?", "de": "Wo ist die Toilette?", "alt": ["Wo sind die Toiletten?"]},
+        {"e": "🥤", "vi": "Bạn muốn uống gì? (du)", "de": "Was möchtest du trinken?", "alt": []}
+      ]
+    },
+    {
+      "title": "Hỏi đường",
+      "emoji": "🧭",
+      "items": [
+        {"e": "🙇", "vi": "Xin lỗi! (để bắt chuyện, hỏi ai đó)", "de": "Entschuldigung!", "alt": ["Entschuldigen Sie!"]},
+        {"e": "🚉", "vi": "Nhà ga ở đâu?", "de": "Wo ist der Bahnhof?", "alt": []},
+        {"e": "⬆️", "vi": "Ông/bà đi thẳng. (Sie)", "de": "Gehen Sie geradeaus.", "alt": []},
+        {"e": "⬅️", "vi": "Ông/bà rẽ trái. (Sie)", "de": "Gehen Sie nach links.", "alt": ["Biegen Sie links ab."]},
+        {"e": "➡️", "vi": "Ông/bà rẽ phải. (Sie)", "de": "Gehen Sie nach rechts.", "alt": ["Biegen Sie rechts ab."]},
+        {"e": "📏", "vi": "Có xa không?", "de": "Ist das weit?", "alt": ["Ist es weit?"]},
+        {"e": "📍", "vi": "Gần lắm.", "de": "Das ist ganz nah.", "alt": ["Es ist ganz nah.", "Das ist sehr nah."]},
+        {"e": "😟", "vi": "Tôi không tìm thấy đường.", "de": "Ich finde den Weg nicht.", "alt": []},
+        {"e": "🚏", "vi": "Trạm xe buýt ở đâu?", "de": "Wo ist die Bushaltestelle?", "alt": []},
+        {"e": "🏛️", "vi": "Làm sao để tôi đến bảo tàng?", "de": "Wie komme ich zum Museum?", "alt": []},
+        {"e": "🏦", "vi": "Nó ở cạnh ngân hàng.", "de": "Das ist neben der Bank.", "alt": ["Es ist neben der Bank."]},
+        {"e": "↪️", "vi": "Ở góc đường.", "de": "An der Ecke.", "alt": []},
+        {"e": "🛒", "vi": "Ở đây có siêu thị không?", "de": "Gibt es hier einen Supermarkt?", "alt": ["Gibt es hier in der Nähe einen Supermarkt?"]},
+        {"e": "🔁", "vi": "Ông/bà có thể nhắc lại không? (Sie)", "de": "Können Sie das wiederholen?", "alt": ["Können Sie das bitte wiederholen?"]},
+        {"e": "🚶", "vi": "Đi bộ khoảng năm phút.", "de": "Etwa fünf Minuten zu Fuß.", "alt": ["Ungefähr fünf Minuten zu Fuß."]}
+      ]
+    },
+    {
+      "title": "Hẹn gặp và thời gian",
+      "emoji": "📅",
+      "items": [
+        {"e": "⌚", "vi": "Bây giờ là mấy giờ?", "de": "Wie spät ist es?", "alt": ["Wie viel Uhr ist es?"]},
+        {"e": "🕒", "vi": "Bây giờ là ba giờ.", "de": "Es ist drei Uhr.", "alt": []},
+        {"e": "🏖️", "vi": "Cuối tuần bạn có rảnh không? (du)", "de": "Hast du am Wochenende Zeit?", "alt": []},
+        {"e": "⏳", "vi": "Hôm nay tôi không có thời gian.", "de": "Ich habe heute keine Zeit.", "alt": ["Heute habe ich keine Zeit."]},
+        {"e": "🤔", "vi": "Khi nào chúng ta gặp nhau?", "de": "Wann treffen wir uns?", "alt": ["Um wie viel Uhr treffen wir uns?"]},
+        {"e": "🔟", "vi": "Ngày mai lúc mười giờ có được không?", "de": "Geht es morgen um zehn Uhr?", "alt": ["Passt es morgen um zehn Uhr?"]},
+        {"e": "👌", "vi": "Vâng, được.", "de": "Ja, das geht.", "alt": ["Ja, das passt."]},
+        {"e": "😔", "vi": "Rất tiếc, tôi không đến được.", "de": "Leider kann ich nicht kommen.", "alt": ["Ich kann leider nicht kommen."]},
+        {"e": "🗓️", "vi": "Tôi muốn đặt một cuộc hẹn.", "de": "Ich möchte einen Termin machen.", "alt": ["Ich möchte einen Termin vereinbaren."]},
+        {"e": "❓", "vi": "Hôm nay là thứ mấy?", "de": "Welcher Tag ist heute?", "alt": ["Was ist heute für ein Tag?"]},
+        {"e": "5️⃣", "vi": "Hôm nay là thứ Sáu.", "de": "Heute ist Freitag.", "alt": []},
+        {"e": "👋", "vi": "Hẹn gặp lại vào thứ Bảy!", "de": "Bis Samstag!", "alt": []},
+        {"e": "🏃", "vi": "Xin lỗi, tôi đến muộn.", "de": "Entschuldigung, ich bin zu spät.", "alt": ["Entschuldigung, ich komme zu spät."]},
+        {"e": "🚉", "vi": "Chúng ta gặp nhau ở nhà ga nhé?", "de": "Treffen wir uns am Bahnhof?", "alt": []},
+        {"e": "🕢", "vi": "Lúc bảy giờ rưỡi.", "de": "Um halb acht.", "alt": ["Um sieben Uhr dreißig."]}
+      ]
+    }
+  ]
+}

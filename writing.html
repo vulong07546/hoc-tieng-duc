@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#1f2328" />
+  <link rel="icon" href="icon.svg" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luyện viết – Học tiếng Đức</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">🇩🇪 Deutsch Wortschatz</a>
+    <nav class="nav"></nav>
+  </header>
+
+  <main id="homeScreen" class="screen">
+    <h1>✍️ Luyện viết</h1>
+    <p class="sub">Viết thư trang trọng, bài nêu ý kiến và bài giải tình huống theo <b>Gutachtenstil</b>. Viết xong, mở bài mẫu và tự chấm theo danh sách kiểm tra. Bài viết được lưu tự động trong trình duyệt.</p>
+    <div class="tabs" id="filterTabs"></div>
+    <div class="text-list" id="taskList"></div>
+  </main>
+
+  <main id="taskScreen" class="screen hidden">
+    <div class="practice-head">
+      <button class="link" id="backBtn">← Danh sách đề</button>
+      <span class="badge" id="taskBadge">C1</span>
+    </div>
+    <article class="card reading">
+      <h2 id="tTitle"></h2>
+      <div class="muted small" id="tSub"></div>
+      <div class="rtext" id="tPrompt"></div>
+      <div class="actions left"><button class="btn ghost small" id="transBtn">🇻🇳 Hiện bản dịch đề</button></div>
+      <div class="rtrans hidden" id="tPromptVi"></div>
+
+      <h3>Mẫu câu hữu ích</h3>
+      <div class="glossary" id="tRedemittel"></div>
+
+      <h3>Bài làm của bạn <span class="muted small" id="wordCount"></span></h3>
+      <textarea id="essay" spellcheck="true" lang="de" placeholder="Viết bài bằng tiếng Đức ở đây…"></textarea>
+      <div class="umlauts">
+        <button type="button" data-ch="ä">ä</button><button type="button" data-ch="ö">ö</button>
+        <button type="button" data-ch="ü">ü</button><button type="button" data-ch="ß">ß</button>
+        <button type="button" data-ch="Ä">Ä</button><button type="button" data-ch="Ö">Ö</button>
+        <button type="button" data-ch="Ü">Ü</button><button type="button" data-ch="§">§</button>
+        <button type="button" data-ch="„">„</button><button type="button" data-ch="“">“</button>
+      </div>
+      <div class="muted small" id="saveState"></div>
+
+      <div class="actions"><button class="btn primary" id="revealBtn">Xem bài mẫu & tự chấm</button></div>
+
+      <div id="modelBox" class="hidden">
+        <h3>Bài mẫu</h3>
+        <div class="model" id="tModel"></div>
+        <details><summary>Tóm tắt bài mẫu bằng tiếng Việt</summary><div class="rtrans" id="tModelVi"></div></details>
+        <h3>Tự chấm</h3>
+        <div id="tChecklist"></div>
+        <div class="feedback center-text" id="selfScore"></div>
+      </div>
+    </article>
+  </main>
+
+  <script src="common.js"></script>
+  <script src="writing-data.js"></script>
+  <script src="writing.js"></script>
+</body>
+</html>

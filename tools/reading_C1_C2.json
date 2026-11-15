@@ -1,0 +1,606 @@
+{
+  "C1": [
+    {
+      "title": "Grundgesetz: Menschenwürde, Freiheit, Gleichheit",
+      "title_vi": "Luật Cơ bản: Nhân phẩm, Tự do, Bình đẳng",
+      "emoji": "📜",
+      "source": "Art. 1–3 GG",
+      "text": "Artikel 1\n(1) Die Würde des Menschen ist unantastbar. Sie zu achten und zu schützen ist Verpflichtung aller staatlichen Gewalt.\n(2) Das Deutsche Volk bekennt sich darum zu unverletzlichen und unveräußerlichen Menschenrechten als Grundlage jeder menschlichen Gemeinschaft, des Friedens und der Gerechtigkeit in der Welt.\n(3) Die nachfolgenden Grundrechte binden Gesetzgebung, vollziehende Gewalt und Rechtsprechung als unmittelbar geltendes Recht.\n\nArtikel 2\n(1) Jeder hat das Recht auf die freie Entfaltung seiner Persönlichkeit, soweit er nicht die Rechte anderer verletzt und nicht gegen die verfassungsmäßige Ordnung oder das Sittengesetz verstößt.\n(2) Jeder hat das Recht auf Leben und körperliche Unversehrtheit. Die Freiheit der Person ist unverletzlich. In diese Rechte darf nur auf Grund eines Gesetzes eingegriffen werden.\n\nArtikel 3\n(1) Alle Menschen sind vor dem Gesetz gleich.\n(2) Männer und Frauen sind gleichberechtigt. Der Staat fördert die tatsächliche Durchsetzung der Gleichberechtigung von Frauen und Männern und wirkt auf die Beseitigung bestehender Nachteile hin.\n(3) Niemand darf wegen seines Geschlechtes, seiner Abstammung, seiner Rasse, seiner Sprache, seiner Heimat und Herkunft, seines Glaubens, seiner religiösen oder politischen Anschauungen benachteiligt oder bevorzugt werden. Niemand darf wegen seiner Behinderung benachteiligt werden.",
+      "vi": "Điều 1\n(1) Nhân phẩm của con người là bất khả xâm phạm. Tôn trọng và bảo vệ nhân phẩm là nghĩa vụ của mọi quyền lực nhà nước.\n(2) Vì vậy, Nhân dân Đức thừa nhận các quyền con người bất khả xâm phạm và không thể chuyển nhượng là nền tảng của mọi cộng đồng nhân loại, của hòa bình và công lý trên thế giới.\n(3) Các quyền cơ bản dưới đây ràng buộc lập pháp, hành pháp và tư pháp với tư cách là pháp luật có hiệu lực trực tiếp.\n\nĐiều 2\n(1) Mọi người đều có quyền tự do phát triển nhân cách của mình, trong chừng mực không xâm phạm quyền của người khác và không vi phạm trật tự hợp hiến hoặc chuẩn mực đạo đức.\n(2) Mọi người đều có quyền sống và quyền bất khả xâm phạm về thân thể. Tự do của cá nhân là bất khả xâm phạm. Chỉ được can thiệp vào các quyền này trên cơ sở một đạo luật.\n\nĐiều 3\n(1) Mọi người đều bình đẳng trước pháp luật.\n(2) Nam và nữ bình đẳng về quyền. Nhà nước thúc đẩy việc thực hiện trên thực tế quyền bình đẳng giữa nữ và nam và hướng tới việc xóa bỏ những bất lợi đang tồn tại.\n(3) Không ai bị đối xử bất lợi hoặc được ưu đãi vì giới tính, dòng dõi, chủng tộc, ngôn ngữ, quê hương và nguồn gốc, tín ngưỡng, quan điểm tôn giáo hoặc chính trị của mình. Không ai bị đối xử bất lợi vì khuyết tật của mình.",
+      "glossary": [
+        {"de": "die Würde", "vi": "nhân phẩm"},
+        {"de": "unantastbar", "vi": "bất khả xâm phạm"},
+        {"de": "die staatliche Gewalt", "vi": "quyền lực nhà nước"},
+        {"de": "unveräußerlich", "vi": "không thể chuyển nhượng"},
+        {"de": "die Gesetzgebung", "vi": "lập pháp"},
+        {"de": "die vollziehende Gewalt", "vi": "quyền hành pháp"},
+        {"de": "die Rechtsprechung", "vi": "tư pháp, hoạt động xét xử"},
+        {"de": "die Entfaltung der Persönlichkeit", "vi": "sự phát triển nhân cách"},
+        {"de": "die verfassungsmäßige Ordnung", "vi": "trật tự hợp hiến"},
+        {"de": "die körperliche Unversehrtheit", "vi": "sự toàn vẹn về thân thể"},
+        {"de": "die Gleichberechtigung", "vi": "sự bình đẳng về quyền"},
+        {"de": "benachteiligen", "vi": "đối xử bất lợi, phân biệt đối xử"}
+      ],
+      "questions": [
+        {
+          "q": "Wen binden die Grundrechte nach Art. 1 Abs. 3 GG?",
+          "options": ["Ausschließlich den Gesetzgeber", "Nur die Gerichte", "Gesetzgebung, vollziehende Gewalt und Rechtsprechung", "Ausschließlich private Unternehmen"],
+          "answer": 2,
+          "explain": "Art. 1 Abs. 3 GG: các quyền cơ bản ràng buộc „Gesetzgebung, vollziehende Gewalt und Rechtsprechung“ – tức cả ba nhánh quyền lực."
+        },
+        {
+          "q": "Unter welcher Voraussetzung darf in das Recht auf Leben und körperliche Unversehrtheit eingegriffen werden?",
+          "options": ["Nur auf Grund eines Gesetzes", "Nach freiem Ermessen der Polizei", "Unter keinen Umständen", "Nur mit Zustimmung des Bundespräsidenten"],
+          "answer": 0,
+          "explain": "Art. 2 Abs. 2 Satz 3 GG: „In diese Rechte darf nur auf Grund eines Gesetzes eingegriffen werden.“ (bảo lưu luật định)."
+        },
+        {
+          "q": "Welche Schranke der freien Entfaltung der Persönlichkeit nennt Art. 2 Abs. 1 GG NICHT?",
+          "options": ["Die Rechte anderer", "Die verfassungsmäßige Ordnung", "Das Sittengesetz", "Die wirtschaftliche Leistungsfähigkeit"],
+          "answer": 3,
+          "explain": "Điều 2 khoản 1 chỉ nêu ba giới hạn: quyền của người khác, trật tự hợp hiến và chuẩn mực đạo đức; không nhắc đến năng lực kinh tế."
+        },
+        {
+          "q": "Was regelt Art. 3 Abs. 3 Satz 2 GG für Menschen mit Behinderung?",
+          "options": ["Sie dürfen weder benachteiligt noch bevorzugt werden.", "Sie dürfen wegen ihrer Behinderung nicht benachteiligt werden.", "Für sie gilt der allgemeine Gleichheitssatz nicht.", "Sie müssen in allen Bereichen bevorzugt werden."],
+          "answer": 1,
+          "explain": "Câu 2 chỉ cấm đối xử bất lợi („benachteiligt“), không cấm ưu đãi – khác với câu 1 („benachteiligt oder bevorzugt“)."
+        },
+        {
+          "q": "Worauf bezieht sich das Wort „darum“ in Art. 1 Abs. 2 GG?",
+          "options": ["Auf den Frieden in Europa", "Auf die Gleichheit vor dem Gesetz", "Auf die Unantastbarkeit der Menschenwürde nach Absatz 1", "Auf die Bindung der Rechtsprechung nach Absatz 3"],
+          "answer": 2,
+          "explain": "„Darum“ (vì vậy) nối khoản 2 với khoản 1: chính vì nhân phẩm bất khả xâm phạm nên nhân dân Đức thừa nhận các quyền con người."
+        },
+        {
+          "q": "Welche Aufgabe weist Art. 3 Abs. 2 Satz 2 GG dem Staat zu?",
+          "options": ["Er garantiert gleiche Löhne in der Privatwirtschaft.", "Er überlässt die Gleichberechtigung den Tarifparteien.", "Er führt in allen Parlamenten eine Frauenquote ein.", "Er fördert die tatsächliche Durchsetzung der Gleichberechtigung und wirkt auf die Beseitigung bestehender Nachteile hin."],
+          "answer": 3,
+          "explain": "Art. 3 Abs. 2 Satz 2 GG giao cho Nhà nước nhiệm vụ thúc đẩy bình đẳng trên thực tế và xóa bỏ bất lợi hiện có; không quy định cụ thể về lương hay hạn ngạch."
+        }
+      ]
+    },
+    {
+      "title": "Einführung: Aufbau des deutschen Gerichtssystems",
+      "title_vi": "Nhập môn: Cơ cấu hệ thống tòa án Đức",
+      "emoji": "🏛️",
+      "source": "Eigener Text",
+      "text": "Das deutsche Gerichtssystem ist nicht als einheitliche Pyramide aufgebaut, sondern in mehrere Gerichtsbarkeiten gegliedert. Art. 95 Abs. 1 GG nennt fünf oberste Gerichtshöfe des Bundes: den Bundesgerichtshof, das Bundesverwaltungsgericht, den Bundesfinanzhof, das Bundesarbeitsgericht und das Bundessozialgericht. Daneben steht das Bundesverfassungsgericht in Karlsruhe. Es ist keine „Superrevisionsinstanz“, sondern wacht darüber, dass die staatliche Gewalt das Grundgesetz einhält.\n\nDie größte Gerichtsbarkeit ist die ordentliche Gerichtsbarkeit. Sie ist für Zivilsachen, also etwa Streitigkeiten aus Kauf- oder Mietverträgen, und für Strafsachen zuständig. Sie gliedert sich in vier Ebenen: Amtsgericht, Landgericht, Oberlandesgericht und Bundesgerichtshof. Welches Gericht in erster Instanz zuständig ist, hängt unter anderem vom Streitwert ab: Für vermögensrechtliche Streitigkeiten bis zu einer gesetzlich festgelegten Wertgrenze ist grundsätzlich das Amtsgericht zuständig, darüber das Landgericht. Streitigkeiten über Mietverhältnisse über Wohnraum gehören unabhängig vom Streitwert vor das Amtsgericht.\n\nNeben der ordentlichen Gerichtsbarkeit bestehen die Fachgerichtsbarkeiten. Die Verwaltungsgerichte entscheiden öffentlich-rechtliche Streitigkeiten nichtverfassungsrechtlicher Art, etwa über eine Baugenehmigung oder einen Aufenthaltstitel. Die Arbeitsgerichte befassen sich mit Konflikten zwischen Arbeitgebern und Arbeitnehmern, die Sozialgerichte unter anderem mit Fragen der Renten- und Krankenversicherung.\n\nFür Studierende des Steuerrechts ist die Finanzgerichtsbarkeit besonders wichtig. Sie ist nur zweistufig aufgebaut: Gegen einen Steuerbescheid klagt man – in der Regel nach erfolglosem Einspruchsverfahren – beim Finanzgericht, das als oberes Landesgericht ausgestaltet ist. Über die Revision entscheidet der Bundesfinanzhof in München.\n\nGrundsätzlich unterscheidet man zwischen Tatsacheninstanzen, die den Sachverhalt ermitteln, und der Revisionsinstanz, die ein Urteil nur auf Rechtsfehler überprüft. Wer ein Urteil anfechten möchte, muss daher genau prüfen, welches Rechtsmittel statthaft ist: Berufung, Revision oder Beschwerde.",
+      "vi": "Hệ thống tòa án Đức không được xây dựng như một kim tự tháp thống nhất, mà được chia thành nhiều ngành tòa án. Điều 95 khoản 1 Luật Cơ bản nêu năm tòa án tối cao liên bang: Tòa án Tối cao Liên bang (về dân sự và hình sự), Tòa án Hành chính Liên bang, Tòa án Tài chính Liên bang, Tòa án Lao động Liên bang và Tòa án Xã hội Liên bang. Bên cạnh đó là Tòa án Hiến pháp Liên bang ở Karlsruhe. Tòa này không phải là “cấp phúc thẩm giám đốc thẩm siêu cấp”, mà giám sát việc quyền lực nhà nước tuân thủ Luật Cơ bản.\n\nNgành tòa án lớn nhất là ngành tòa án thông thường. Ngành này có thẩm quyền đối với các vụ việc dân sự, chẳng hạn tranh chấp phát sinh từ hợp đồng mua bán hoặc hợp đồng thuê, và các vụ án hình sự. Ngành này gồm bốn cấp: Tòa án khu vực (Amtsgericht), Tòa án tiểu bang (Landgericht), Tòa án tiểu bang cấp cao (Oberlandesgericht) và Tòa án Tối cao Liên bang. Tòa án nào có thẩm quyền sơ thẩm phụ thuộc, trong số các yếu tố khác, vào giá trị tranh chấp: đối với tranh chấp về tài sản đến một ngưỡng giá trị do luật định, về nguyên tắc Tòa án khu vực có thẩm quyền; trên ngưỡng đó là Tòa án tiểu bang. Các tranh chấp về quan hệ thuê nhà ở thuộc thẩm quyền của Tòa án khu vực, không phụ thuộc vào giá trị tranh chấp.\n\nBên cạnh ngành tòa án thông thường còn có các ngành tòa án chuyên biệt. Tòa án hành chính giải quyết các tranh chấp công pháp không mang tính hiến pháp, chẳng hạn về giấy phép xây dựng hoặc giấy phép cư trú. Tòa án lao động xử lý xung đột giữa người sử dụng lao động và người lao động, còn tòa án xã hội giải quyết, trong số các vấn đề khác, những vấn đề về bảo hiểm hưu trí và bảo hiểm y tế.\n\nĐối với sinh viên ngành luật thuế, ngành tòa án tài chính đặc biệt quan trọng. Ngành này chỉ có hai cấp: người nộp thuế khởi kiện quyết định thuế – thông thường sau khi thủ tục khiếu nại không thành công – tại Tòa án tài chính, được tổ chức như một tòa án cấp cao của tiểu bang. Tòa án Tài chính Liên bang ở München quyết định về kháng nghị xét lại về pháp lý (Revision).\n\nVề nguyên tắc, người ta phân biệt giữa các cấp xét xử về sự kiện, nơi làm rõ tình tiết vụ việc, và cấp xét lại về pháp lý, nơi chỉ kiểm tra bản án có sai sót về áp dụng pháp luật hay không. Vì vậy, ai muốn kháng cáo một bản án phải xem xét kỹ phương thức kháng cáo nào được phép: kháng cáo phúc thẩm (Berufung), xét lại về pháp lý (Revision) hay khiếu nại đối với quyết định (Beschwerde).",
+      "glossary": [
+        {"de": "die Gerichtsbarkeit", "vi": "ngành tòa án, quyền tài phán"},
+        {"de": "der oberste Gerichtshof des Bundes", "vi": "tòa án tối cao liên bang"},
+        {"de": "die ordentliche Gerichtsbarkeit", "vi": "ngành tòa án thông thường (dân sự, hình sự)"},
+        {"de": "das Amtsgericht", "vi": "tòa án khu vực (cấp thấp nhất)"},
+        {"de": "das Landgericht", "vi": "tòa án tiểu bang"},
+        {"de": "der Streitwert", "vi": "giá trị tranh chấp"},
+        {"de": "die erste Instanz", "vi": "cấp sơ thẩm"},
+        {"de": "das Finanzgericht", "vi": "tòa án tài chính (thuế)"},
+        {"de": "die Revision", "vi": "xét lại về pháp lý (chỉ xem xét sai sót pháp luật)"},
+        {"de": "die Berufung", "vi": "kháng cáo phúc thẩm"},
+        {"de": "das Rechtsmittel", "vi": "phương thức kháng cáo, biện pháp pháp lý"},
+        {"de": "statthaft", "vi": "được phép, hợp lệ (về mặt thủ tục)"}
+      ],
+      "questions": [
+        {
+          "q": "Wie viele oberste Gerichtshöfe des Bundes nennt Art. 95 Abs. 1 GG?",
+          "options": ["Drei", "Vier", "Fünf", "Sechs"],
+          "answer": 2,
+          "explain": "Văn bản liệt kê năm tòa: BGH, BVerwG, BFH, BAG và BSG. Tòa án Hiến pháp Liên bang được nêu riêng."
+        },
+        {
+          "q": "Welches Gericht ist in erster Instanz für Streitigkeiten über Mietverhältnisse über Wohnraum zuständig?",
+          "options": ["Das Landgericht", "Das Amtsgericht", "Das Oberlandesgericht", "Das Verwaltungsgericht"],
+          "answer": 1,
+          "explain": "Văn bản: tranh chấp thuê nhà ở thuộc Tòa án khu vực (Amtsgericht) „unabhängig vom Streitwert“."
+        },
+        {
+          "q": "Was kennzeichnet die Finanzgerichtsbarkeit laut Text?",
+          "options": ["Sie ist nur zweistufig aufgebaut.", "Sie hat vier Instanzen.", "Sie ist Teil der ordentlichen Gerichtsbarkeit.", "Sie entscheidet nur über Strafsachen."],
+          "answer": 0,
+          "explain": "Văn bản: „Sie ist nur zweistufig aufgebaut“ – Tòa án tài chính và Tòa án Tài chính Liên bang."
+        },
+        {
+          "q": "Wo hat der Bundesfinanzhof seinen Sitz?",
+          "options": ["In Karlsruhe", "In Leipzig", "In Kassel", "In München"],
+          "answer": 3,
+          "explain": "Văn bản: „Über die Revision entscheidet der Bundesfinanzhof in München.“"
+        },
+        {
+          "q": "Was prüft die Revisionsinstanz?",
+          "options": ["Den gesamten Sachverhalt erneut", "Das Urteil nur auf Rechtsfehler", "Ausschließlich die Höhe der Gerichtskosten", "Nur die Glaubwürdigkeit der Zeugen"],
+          "answer": 1,
+          "explain": "Văn bản phân biệt cấp xét xử về sự kiện với cấp Revision, cấp này „ein Urteil nur auf Rechtsfehler überprüft“."
+        },
+        {
+          "q": "Welche Rolle hat das Bundesverfassungsgericht laut Text?",
+          "options": ["Es ist die letzte Instanz in allen Zivilsachen.", "Es ist einer der fünf in Art. 95 Abs. 1 GG genannten Gerichtshöfe.", "Es entscheidet über die Revision in Steuersachen.", "Es ist keine Superrevisionsinstanz, sondern wacht über die Einhaltung des Grundgesetzes."],
+          "answer": 3,
+          "explain": "Văn bản nhấn mạnh BVerfG không phải „Superrevisionsinstanz“ mà giám sát việc tuân thủ Luật Cơ bản; nó cũng không thuộc năm tòa ở Art. 95 GG."
+        }
+      ]
+    },
+    {
+      "title": "Die Steuererklärung für Arbeitnehmer",
+      "title_vi": "Tờ khai thuế dành cho người lao động",
+      "emoji": "🧾",
+      "source": "Eigener Text",
+      "text": "Die meisten Arbeitnehmerinnen und Arbeitnehmer in Deutschland zahlen Einkommensteuer, ohne selbst etwas zu überweisen. Der Arbeitgeber behält die Lohnsteuer bei jeder Gehaltszahlung ein und führt sie an das Finanzamt ab. Die Lohnsteuer ist jedoch keine eigenständige Steuer, sondern lediglich eine besondere Erhebungsform der Einkommensteuer. Erst im Rahmen der Veranlagung wird ermittelt, welche Einkommensteuer für das Kalenderjahr tatsächlich geschuldet wird.\n\nOb eine Steuererklärung abgegeben werden muss, regelt § 46 EStG. Eine Pflicht besteht beispielsweise, wenn Ehegatten die Steuerklassenkombination III/V gewählt haben, wenn neben dem Arbeitslohn weitere Einkünfte von mehr als 410 Euro erzielt wurden oder wenn Lohnersatzleistungen wie Kurzarbeiter- oder Elterngeld von mehr als 410 Euro bezogen wurden. Wer zur Abgabe verpflichtet ist und keinen Steuerberater beauftragt, muss die Erklärung grundsätzlich bis zum 31. Juli des Folgejahres einreichen.\n\nBesteht keine Pflicht, lohnt sich eine freiwillige Erklärung häufig dennoch. Diese sogenannte Antragsveranlagung ist innerhalb von vier Jahren nach Ablauf des betreffenden Kalenderjahres möglich. Erstattungen ergeben sich vor allem dann, wenn die tatsächlichen Werbungskosten den Arbeitnehmer-Pauschbetrag von 1.230 Euro übersteigen. Zu den Werbungskosten zählen etwa die Entfernungspauschale für die Wege zur ersten Tätigkeitsstätte, Arbeitsmittel, Fachliteratur oder Fortbildungskosten.\n\nDarüber hinaus können Sonderausgaben, zum Beispiel Beiträge zur Kranken- und Pflegeversicherung oder Spenden, sowie außergewöhnliche Belastungen wie hohe Krankheitskosten die Steuerlast mindern. Die Erklärung wird in der Regel elektronisch über das Portal ELSTER übermittelt.\n\nNach der Bearbeitung erhält man einen Steuerbescheid. Ist man mit ihm nicht einverstanden, kann man innerhalb eines Monats nach Bekanntgabe Einspruch einlegen. Das Einspruchsverfahren ist kostenfrei und muss in der Regel durchlaufen werden, bevor Klage beim Finanzgericht erhoben werden kann.",
+      "vi": "Phần lớn người lao động ở Đức nộp thuế thu nhập cá nhân mà không phải tự mình chuyển khoản. Người sử dụng lao động khấu trừ thuế tiền lương mỗi lần trả lương và nộp khoản đó cho cơ quan thuế. Tuy nhiên, thuế tiền lương không phải là một loại thuế độc lập, mà chỉ là một hình thức thu đặc biệt của thuế thu nhập cá nhân. Chỉ trong quá trình quyết toán thuế (Veranlagung) mới xác định được số thuế thu nhập thực tế phải nộp cho năm dương lịch.\n\nViệc có bắt buộc phải nộp tờ khai thuế hay không được quy định tại § 46 Luật Thuế thu nhập (EStG). Nghĩa vụ này phát sinh chẳng hạn khi vợ chồng chọn tổ hợp bậc thuế III/V, khi ngoài tiền lương còn có thu nhập khác trên 410 euro, hoặc khi nhận các khoản thay thế tiền lương như trợ cấp giảm giờ làm hay trợ cấp nuôi con (Elterngeld) trên 410 euro. Người có nghĩa vụ khai thuế và không ủy quyền cho tư vấn viên thuế về nguyên tắc phải nộp tờ khai chậm nhất vào ngày 31 tháng 7 của năm tiếp theo.\n\nNếu không có nghĩa vụ, việc tự nguyện khai thuế thường vẫn có lợi. Hình thức gọi là quyết toán theo yêu cầu (Antragsveranlagung) này có thể thực hiện trong vòng bốn năm kể từ khi kết thúc năm dương lịch liên quan. Khoản hoàn thuế chủ yếu phát sinh khi chi phí liên quan đến việc tạo ra thu nhập (Werbungskosten) thực tế vượt quá mức khấu trừ cố định dành cho người lao động là 1.230 euro. Các chi phí này bao gồm chẳng hạn khoản khấu trừ theo quãng đường đi đến nơi làm việc chính, dụng cụ làm việc, tài liệu chuyên môn hoặc chi phí đào tạo nâng cao.\n\nNgoài ra, các khoản chi đặc biệt được khấu trừ (Sonderausgaben), ví dụ phí bảo hiểm y tế và bảo hiểm chăm sóc hoặc tiền quyên góp, cũng như các gánh nặng bất thường như chi phí chữa bệnh cao, có thể làm giảm số thuế phải nộp. Tờ khai thường được gửi điện tử qua cổng ELSTER.\n\nSau khi xử lý, người nộp thuế nhận được quyết định thuế (Steuerbescheid). Nếu không đồng ý, có thể nộp đơn khiếu nại trong vòng một tháng kể từ ngày quyết định được thông báo. Thủ tục khiếu nại không mất phí và thông thường phải được thực hiện trước khi có thể khởi kiện ra Tòa án tài chính.",
+      "glossary": [
+        {"de": "die Lohnsteuer", "vi": "thuế khấu trừ từ tiền lương"},
+        {"de": "die Einkommensteuer", "vi": "thuế thu nhập cá nhân"},
+        {"de": "die Veranlagung", "vi": "quyết toán, ấn định thuế"},
+        {"de": "die Steuerklasse", "vi": "bậc thuế (nhóm thuế tiền lương)"},
+        {"de": "die Lohnersatzleistung", "vi": "khoản thay thế tiền lương (trợ cấp)"},
+        {"de": "die Antragsveranlagung", "vi": "quyết toán thuế theo yêu cầu (tự nguyện)"},
+        {"de": "die Werbungskosten (Pl.)", "vi": "chi phí liên quan đến việc tạo ra thu nhập"},
+        {"de": "der Arbeitnehmer-Pauschbetrag", "vi": "mức khấu trừ cố định cho người lao động"},
+        {"de": "die Entfernungspauschale", "vi": "khoản khấu trừ theo quãng đường đi làm"},
+        {"de": "die Sonderausgaben (Pl.)", "vi": "các khoản chi đặc biệt được khấu trừ"},
+        {"de": "die außergewöhnliche Belastung", "vi": "gánh nặng (chi phí) bất thường"},
+        {"de": "der Einspruch", "vi": "khiếu nại (đối với quyết định thuế)"}
+      ],
+      "questions": [
+        {
+          "q": "Was ist die Lohnsteuer laut Text?",
+          "options": ["Eine eigenständige Steuer neben der Einkommensteuer", "Eine besondere Erhebungsform der Einkommensteuer", "Eine Abgabe, die der Arbeitgeber selbst trägt", "Ein Sozialversicherungsbeitrag"],
+          "answer": 1,
+          "explain": "Văn bản: Lohnsteuer „keine eigenständige Steuer, sondern lediglich eine besondere Erhebungsform der Einkommensteuer“."
+        },
+        {
+          "q": "In welchem Fall besteht nach dem Text eine Pflicht zur Abgabe einer Steuererklärung?",
+          "options": ["Wenn man Steuerklasse I hat und ausschließlich Arbeitslohn bezieht", "Wenn die Werbungskosten unter 1.230 Euro liegen", "Wenn Ehegatten die Steuerklassenkombination III/V gewählt haben", "Wenn man im Ausland Urlaub gemacht hat"],
+          "answer": 2,
+          "explain": "§ 46 EStG theo văn bản: tổ hợp bậc thuế III/V là một trường hợp bắt buộc khai thuế."
+        },
+        {
+          "q": "Bis wann muss eine verpflichtete Person ohne Steuerberater die Erklärung grundsätzlich einreichen?",
+          "options": ["Bis zum 31. Mai des Folgejahres", "Bis zum 31. Dezember des laufenden Jahres", "Innerhalb eines Monats nach Jahresende", "Bis zum 31. Juli des Folgejahres"],
+          "answer": 3,
+          "explain": "Văn bản: hạn nộp là „bis zum 31. Juli des Folgejahres“."
+        },
+        {
+          "q": "Wann führen Werbungskosten typischerweise zu einer Erstattung?",
+          "options": ["Wenn sie den Arbeitnehmer-Pauschbetrag von 1.230 Euro übersteigen", "Wenn sie unter 410 Euro liegen", "Nur wenn ein Steuerberater sie geltend macht", "Wenn sie als Spenden deklariert werden"],
+          "answer": 0,
+          "explain": "Văn bản: hoàn thuế chủ yếu khi Werbungskosten thực tế vượt mức cố định 1.230 euro."
+        },
+        {
+          "q": "Was nennt der Text als Beispiel für Sonderausgaben?",
+          "options": ["Fachliteratur", "Die Entfernungspauschale", "Beiträge zur Kranken- und Pflegeversicherung", "Fortbildungskosten"],
+          "answer": 2,
+          "explain": "Phí bảo hiểm y tế, chăm sóc và tiền quyên góp là Sonderausgaben; các phương án còn lại là Werbungskosten."
+        },
+        {
+          "q": "Innerhalb welcher Frist kann gegen den Steuerbescheid Einspruch eingelegt werden?",
+          "options": ["Innerhalb von zwei Wochen nach Zugang", "Innerhalb eines Monats nach Bekanntgabe", "Innerhalb von vier Jahren", "Bis zum 31. Juli des Folgejahres"],
+          "answer": 1,
+          "explain": "Văn bản: khiếu nại „innerhalb eines Monats nach Bekanntgabe“. Bốn năm là thời hạn cho Antragsveranlagung."
+        }
+      ]
+    },
+    {
+      "title": "Trennungs- und Abstraktionsprinzip",
+      "title_vi": "Nguyên tắc tách biệt và nguyên tắc trừu tượng",
+      "emoji": "📘",
+      "source": "Eigener Text",
+      "text": "Wer im Alltag ein Fahrrad kauft, denkt an einen einzigen Vorgang. Das deutsche Zivilrecht zerlegt diesen Vorgang jedoch in mehrere selbstständige Rechtsgeschäfte. Diese Konstruktion beruht auf zwei Grundsätzen, die für das BGB charakteristisch sind: dem Trennungsprinzip und dem Abstraktionsprinzip.\n\nNach dem Trennungsprinzip ist zwischen dem Verpflichtungsgeschäft und dem Verfügungsgeschäft zu unterscheiden. Durch den Kaufvertrag nach § 433 BGB verpflichtet sich der Verkäufer lediglich, dem Käufer die Sache zu übergeben und ihm das Eigentum daran zu verschaffen; der Käufer verpflichtet sich, den Kaufpreis zu zahlen. An der Eigentumslage ändert der Kaufvertrag selbst noch nichts. Erst durch gesonderte Verfügungsgeschäfte – bei beweglichen Sachen durch Einigung und Übergabe nach § 929 Satz 1 BGB – geht das Eigentum am Fahrrad auf den Käufer und das Eigentum am Geld auf den Verkäufer über. Ein alltäglicher Barkauf besteht somit aus drei Verträgen.\n\nDas Abstraktionsprinzip geht einen Schritt weiter. Es besagt, dass die Wirksamkeit des Verfügungsgeschäfts von der Wirksamkeit des Verpflichtungsgeschäfts unabhängig ist. Hat der Verkäufer den Kaufvertrag etwa wegen eines Inhaltsirrtums wirksam angefochten, ist dieser nach § 142 Abs. 1 BGB als von Anfang an nichtig anzusehen; die Übereignung bleibt grundsätzlich wirksam. Der Käufer ist also Eigentümer geworden, obwohl ihm kein Rechtsgrund zur Seite steht. Der Ausgleich erfolgt über das Bereicherungsrecht: Der Verkäufer kann nach § 812 Abs. 1 Satz 1 Alt. 1 BGB die Rückübereignung verlangen.\n\nDurchbrochen wird das Abstraktionsprinzip in den Fällen der sogenannten Fehleridentität. Leidet das Verfügungsgeschäft an demselben Mangel wie das Verpflichtungsgeschäft – etwa weil eine Partei geschäftsunfähig war –, sind beide Geschäfte unwirksam.\n\nDas Abstraktionsprinzip dient vor allem der Verkehrssicherheit: Wer die Sache später erwirbt, muss nicht prüfen, ob der ursprüngliche Kaufvertrag wirksam war. Kritiker halten die Konstruktion hingegen für lebensfremd. Ausländischen Studierenden ist sie oft ungewohnt, da manche Rechtsordnungen, etwa die französische, den Eigentumsübergang unmittelbar an den Kaufvertrag knüpfen.",
+      "vi": "Trong đời sống hằng ngày, người mua một chiếc xe đạp nghĩ rằng đó chỉ là một giao dịch duy nhất. Tuy nhiên, luật dân sự Đức tách giao dịch này thành nhiều giao dịch pháp lý độc lập. Cấu trúc này dựa trên hai nguyên tắc đặc trưng của Bộ luật Dân sự Đức (BGB): nguyên tắc tách biệt và nguyên tắc trừu tượng.\n\nTheo nguyên tắc tách biệt, cần phân biệt giữa giao dịch phát sinh nghĩa vụ và giao dịch định đoạt. Thông qua hợp đồng mua bán theo § 433 BGB, bên bán chỉ cam kết giao tài sản cho bên mua và chuyển quyền sở hữu tài sản đó cho bên mua; bên mua cam kết trả tiền. Bản thân hợp đồng mua bán chưa làm thay đổi tình trạng sở hữu. Chỉ thông qua các giao dịch định đoạt riêng biệt – đối với động sản là sự thỏa thuận và chuyển giao theo § 929 câu 1 BGB – thì quyền sở hữu chiếc xe đạp mới chuyển sang bên mua và quyền sở hữu số tiền mới chuyển sang bên bán. Như vậy, một giao dịch mua bán trả tiền mặt thông thường gồm ba hợp đồng.\n\nNguyên tắc trừu tượng còn đi xa hơn một bước. Theo nguyên tắc này, hiệu lực của giao dịch định đoạt không phụ thuộc vào hiệu lực của giao dịch phát sinh nghĩa vụ. Chẳng hạn, nếu bên bán đã hủy bỏ hợp lệ hợp đồng mua bán do nhầm lẫn về nội dung, thì theo § 142 khoản 1 BGB hợp đồng đó bị coi là vô hiệu ngay từ đầu; tuy nhiên, việc chuyển quyền sở hữu về nguyên tắc vẫn có hiệu lực. Bên mua vì vậy đã trở thành chủ sở hữu, mặc dù không có căn cứ pháp lý. Sự cân bằng được thực hiện thông qua chế định được lợi không có căn cứ: bên bán có thể yêu cầu chuyển trả lại quyền sở hữu theo § 812 khoản 1 câu 1 phương án 1 BGB.\n\nNguyên tắc trừu tượng bị phá vỡ trong các trường hợp gọi là đồng nhất khiếm khuyết (Fehleridentität). Nếu giao dịch định đoạt mắc cùng một khiếm khuyết như giao dịch phát sinh nghĩa vụ – chẳng hạn vì một bên không có năng lực hành vi giao dịch – thì cả hai giao dịch đều không có hiệu lực.\n\nNguyên tắc trừu tượng chủ yếu phục vụ sự an toàn của giao lưu dân sự: người nhận tài sản sau đó không phải kiểm tra xem hợp đồng mua bán ban đầu có hiệu lực hay không. Ngược lại, những người phê phán cho rằng cấu trúc này xa rời thực tế. Sinh viên nước ngoài thường thấy nó lạ lẫm, vì một số hệ thống pháp luật, chẳng hạn của Pháp, gắn việc chuyển quyền sở hữu trực tiếp với hợp đồng mua bán.",
+      "glossary": [
+        {"de": "das Trennungsprinzip", "vi": "nguyên tắc tách biệt"},
+        {"de": "das Abstraktionsprinzip", "vi": "nguyên tắc trừu tượng (độc lập)"},
+        {"de": "das Verpflichtungsgeschäft", "vi": "giao dịch phát sinh nghĩa vụ"},
+        {"de": "das Verfügungsgeschäft", "vi": "giao dịch định đoạt"},
+        {"de": "das Eigentum", "vi": "quyền sở hữu"},
+        {"de": "die Übereignung", "vi": "việc chuyển quyền sở hữu"},
+        {"de": "die Einigung", "vi": "sự thỏa thuận (về chuyển quyền sở hữu)"},
+        {"de": "die Übergabe", "vi": "sự chuyển giao (tài sản)"},
+        {"de": "die Anfechtung", "vi": "việc hủy bỏ giao dịch do khiếm khuyết ý chí"},
+        {"de": "der Rechtsgrund", "vi": "căn cứ pháp lý"},
+        {"de": "die Fehleridentität", "vi": "sự đồng nhất khiếm khuyết"},
+        {"de": "die Verkehrssicherheit", "vi": "sự an toàn của giao lưu dân sự"}
+      ],
+      "questions": [
+        {
+          "q": "Was bewirkt der Kaufvertrag nach § 433 BGB?",
+          "options": ["Er überträgt sofort das Eigentum.", "Er begründet lediglich Verpflichtungen der Parteien.", "Er ist selbst ein Verfügungsgeschäft.", "Er ist ohne Übergabe der Sache unwirksam."],
+          "answer": 1,
+          "explain": "Theo nguyên tắc tách biệt, hợp đồng mua bán chỉ tạo nghĩa vụ; „An der Eigentumslage ändert der Kaufvertrag selbst noch nichts.“"
+        },
+        {
+          "q": "Aus wie vielen Verträgen besteht ein alltäglicher Barkauf nach dem Text?",
+          "options": ["Aus einem", "Aus zwei", "Aus drei", "Aus vier"],
+          "answer": 2,
+          "explain": "Hợp đồng mua bán + chuyển quyền sở hữu xe đạp + chuyển quyền sở hữu tiền = ba hợp đồng."
+        },
+        {
+          "q": "Was gilt nach dem Abstraktionsprinzip, wenn der Kaufvertrag wirksam angefochten wurde?",
+          "options": ["Die Übereignung bleibt grundsätzlich wirksam.", "Die Übereignung ist automatisch ebenfalls nichtig.", "Der Käufer muss den Kaufpreis trotzdem zahlen.", "Das Eigentum fällt kraft Gesetzes an den Verkäufer zurück."],
+          "answer": 0,
+          "explain": "Văn bản: hợp đồng mua bán vô hiệu nhưng „die Übereignung bleibt grundsätzlich wirksam“; muốn lấy lại phải dùng § 812 BGB."
+        },
+        {
+          "q": "Auf welche Norm stützt sich der Anspruch des Verkäufers auf Rückübereignung?",
+          "options": ["§ 433 BGB", "§ 929 Satz 1 BGB", "§ 142 Abs. 1 BGB", "§ 812 Abs. 1 Satz 1 Alt. 1 BGB"],
+          "answer": 3,
+          "explain": "Văn bản: bên bán yêu cầu chuyển trả lại „nach § 812 Abs. 1 Satz 1 Alt. 1 BGB“ (được lợi không có căn cứ)."
+        },
+        {
+          "q": "Was versteht man unter Fehleridentität?",
+          "options": ["Beide Parteien irren sich über den Kaufpreis.", "Verpflichtungs- und Verfügungsgeschäft leiden an demselben Mangel.", "Der Käufer erwirbt eine mangelhafte Sache.", "Der Kaufvertrag wird zweimal geschlossen."],
+          "answer": 1,
+          "explain": "Fehleridentität: giao dịch định đoạt mắc cùng khiếm khuyết với giao dịch nghĩa vụ (ví dụ: không có năng lực hành vi) → cả hai vô hiệu."
+        },
+        {
+          "q": "Welchem Zweck dient das Abstraktionsprinzip vor allem?",
+          "options": ["Dem Schutz des Verkäufers vor Zahlungsausfall", "Der Vereinfachung des Steuerrechts", "Der Verkehrssicherheit", "Der Angleichung an das französische Recht"],
+          "answer": 2,
+          "explain": "Văn bản: „Das Abstraktionsprinzip dient vor allem der Verkehrssicherheit“ – người mua sau không phải kiểm tra hợp đồng ban đầu."
+        }
+      ]
+    },
+    {
+      "title": "Erläuterungen zum Einkommensteuerbescheid",
+      "title_vi": "Thư giải thích quyết định thuế thu nhập cá nhân",
+      "emoji": "✉️",
+      "source": "Eigener Text",
+      "text": "Finanzamt Musterstadt · Steuernummer 123/456/78901\n(Fiktives Schreiben zu Lernzwecken)\n\nFrau Linh Tran, Beispielweg 4, 12345 Musterstadt\n\nErläuterungen zum Bescheid für 2025 über Einkommensteuer\n\nSehr geehrte Frau Tran,\n\nanliegend erhalten Sie Ihren Einkommensteuerbescheid für das Jahr 2025. Bei der Festsetzung bin ich in folgenden Punkten von Ihrer Steuererklärung abgewichen:\n\n1. Die Aufwendungen für Ihr häusliches Arbeitszimmer in Höhe von 2.400 Euro konnten nicht als Werbungskosten berücksichtigt werden. Nach Ihren eigenen Angaben üben Sie Ihre Tätigkeit überwiegend in den Räumen Ihres Arbeitgebers aus. Das Arbeitszimmer bildet daher nicht den Mittelpunkt Ihrer gesamten betrieblichen und beruflichen Betätigung. Stattdessen wurde für die von Ihnen glaubhaft gemachten 120 Tage, an denen Sie überwiegend in Ihrer häuslichen Wohnung tätig waren, die Tagespauschale von 6 Euro angesetzt, insgesamt also 720 Euro.\n\n2. Die Kosten Ihres berufsbezogenen Sprachkurses wurden in voller Höhe als Fortbildungskosten anerkannt.\n\n3. Die geltend gemachten Spenden wurden nur insoweit berücksichtigt, als die erforderlichen Nachweise vorlagen.\n\nUnter Anrechnung der einbehaltenen Lohnsteuer ergibt sich eine Erstattung von 846,00 Euro. Der Betrag wird in den nächsten Tagen auf das von Ihnen angegebene Konto überwiesen.\n\nDer Bescheid ergeht nach § 164 AO unter dem Vorbehalt der Nachprüfung. Er kann daher, solange der Vorbehalt wirksam ist, jederzeit aufgehoben oder geändert werden.\n\nGegen diesen Bescheid können Sie innerhalb eines Monats nach seiner Bekanntgabe Einspruch einlegen. Der Einspruch ist bei dem oben genannten Finanzamt schriftlich einzureichen, elektronisch zu übermitteln oder dort zur Niederschrift zu erklären. Durch die Einlegung des Einspruchs wird die Vollziehung des Bescheids grundsätzlich nicht gehemmt.\n\nMit freundlichen Grüßen\nIm Auftrag\nMüller",
+      "vi": "Cơ quan thuế Musterstadt · Mã số thuế 123/456/78901\n(Thư hư cấu dùng cho mục đích học tập)\n\nBà Linh Tran, Beispielweg 4, 12345 Musterstadt\n\nGiải thích về quyết định thuế thu nhập cá nhân năm 2025\n\nKính gửi bà Tran,\n\nKèm theo thư này là quyết định thuế thu nhập cá nhân năm 2025 của bà. Khi ấn định thuế, tôi đã điều chỉnh khác với tờ khai thuế của bà ở những điểm sau:\n\n1. Chi phí cho phòng làm việc tại nhà của bà với số tiền 2.400 euro không thể được tính là chi phí liên quan đến việc tạo ra thu nhập. Theo chính thông tin bà cung cấp, bà chủ yếu làm việc tại cơ sở của người sử dụng lao động. Vì vậy, phòng làm việc tại nhà không phải là trung tâm của toàn bộ hoạt động kinh doanh và nghề nghiệp của bà. Thay vào đó, cho 120 ngày mà bà đã chứng minh hợp lý là chủ yếu làm việc tại nhà, mức khấu trừ cố định theo ngày là 6 euro đã được áp dụng, tổng cộng là 720 euro.\n\n2. Chi phí khóa học ngoại ngữ liên quan đến nghề nghiệp của bà đã được công nhận toàn bộ là chi phí đào tạo nâng cao.\n\n3. Các khoản quyên góp được kê khai chỉ được tính trong phạm vi có chứng từ cần thiết.\n\nSau khi khấu trừ số thuế tiền lương đã bị khấu lưu, bà được hoàn lại 846,00 euro. Số tiền này sẽ được chuyển vào tài khoản bà đã cung cấp trong những ngày tới.\n\nQuyết định này được ban hành theo § 164 Bộ luật Thuế tổng quát (AO) với điều kiện bảo lưu quyền kiểm tra lại. Do đó, chừng nào điều kiện bảo lưu còn hiệu lực, quyết định có thể bị hủy bỏ hoặc sửa đổi bất cứ lúc nào.\n\nBà có thể khiếu nại quyết định này trong vòng một tháng kể từ ngày quyết định được thông báo. Đơn khiếu nại phải được nộp bằng văn bản, gửi điện tử cho cơ quan thuế nêu trên hoặc trình bày trực tiếp để lập biên bản tại đó. Việc nộp đơn khiếu nại về nguyên tắc không làm tạm đình chỉ việc thi hành quyết định.\n\nTrân trọng,\nThừa ủy quyền\nMüller",
+      "glossary": [
+        {"de": "der Steuerbescheid", "vi": "quyết định thuế, thông báo thuế"},
+        {"de": "die Festsetzung", "vi": "việc ấn định (số thuế)"},
+        {"de": "das häusliche Arbeitszimmer", "vi": "phòng làm việc tại nhà"},
+        {"de": "der Mittelpunkt der Betätigung", "vi": "trung tâm của hoạt động (nghề nghiệp)"},
+        {"de": "die Tagespauschale", "vi": "mức khấu trừ cố định theo ngày"},
+        {"de": "die Fortbildungskosten (Pl.)", "vi": "chi phí đào tạo nâng cao"},
+        {"de": "die Erstattung", "vi": "khoản hoàn trả, hoàn thuế"},
+        {"de": "die Anrechnung", "vi": "sự khấu trừ, tính trừ vào"},
+        {"de": "der Vorbehalt der Nachprüfung", "vi": "bảo lưu quyền kiểm tra lại"},
+        {"de": "die Bekanntgabe", "vi": "sự thông báo (quyết định hành chính)"},
+        {"de": "zur Niederschrift erklären", "vi": "trình bày để lập biên bản"},
+        {"de": "die Vollziehung", "vi": "việc thi hành"}
+      ],
+      "questions": [
+        {
+          "q": "Warum wurden die Kosten des häuslichen Arbeitszimmers nicht anerkannt?",
+          "options": ["Weil Frau Tran keine Belege eingereicht hat", "Weil die Kosten zu hoch waren", "Weil Frau Tran keine Arbeitnehmerin ist", "Weil das Arbeitszimmer nicht den Mittelpunkt ihrer gesamten betrieblichen und beruflichen Betätigung bildet"],
+          "answer": 3,
+          "explain": "Thư nêu bà Tran chủ yếu làm việc tại công ty, nên phòng làm việc „nicht den Mittelpunkt“ của toàn bộ hoạt động nghề nghiệp."
+        },
+        {
+          "q": "Welcher Betrag wurde stattdessen als Werbungskosten angesetzt?",
+          "options": ["2.400 Euro", "846 Euro", "720 Euro", "6 Euro"],
+          "answer": 2,
+          "explain": "120 ngày × 6 euro = 720 euro (Tagespauschale)."
+        },
+        {
+          "q": "Was bedeutet der Vorbehalt der Nachprüfung nach § 164 AO laut Schreiben?",
+          "options": ["Der Bescheid kann, solange der Vorbehalt wirksam ist, jederzeit aufgehoben oder geändert werden.", "Der Bescheid ist noch nicht wirksam.", "Frau Tran muss ihre Erklärung erneut einreichen.", "Gegen den Bescheid ist kein Einspruch möglich."],
+          "answer": 0,
+          "explain": "Thư: quyết định „kann daher, solange der Vorbehalt wirksam ist, jederzeit aufgehoben oder geändert werden“."
+        },
+        {
+          "q": "Wie hoch ist die Erstattung für Frau Tran?",
+          "options": ["720,00 Euro", "846,00 Euro", "2.400,00 Euro", "1.230,00 Euro"],
+          "answer": 1,
+          "explain": "Thư: „ergibt sich eine Erstattung von 846,00 Euro“."
+        },
+        {
+          "q": "Welche Wirkung hat ein Einspruch auf die Vollziehung des Bescheids?",
+          "options": ["Er setzt den Bescheid automatisch außer Kraft.", "Er hemmt die Vollziehung immer.", "Er hemmt die Vollziehung grundsätzlich nicht.", "Er verlängert die Einspruchsfrist auf vier Jahre."],
+          "answer": 2,
+          "explain": "Thư: „wird die Vollziehung des Bescheids grundsätzlich nicht gehemmt“ – quyết định vẫn được thi hành."
+        },
+        {
+          "q": "Wie wurden die Kosten des Sprachkurses behandelt?",
+          "options": ["Sie wurden als Spenden berücksichtigt.", "Sie wurden in voller Höhe als Fortbildungskosten anerkannt.", "Sie wurden nur zur Hälfte anerkannt.", "Sie wurden abgelehnt, weil Nachweise fehlten."],
+          "answer": 1,
+          "explain": "Điểm 2 của thư: chi phí khóa học ngoại ngữ được công nhận toàn bộ là chi phí đào tạo nâng cao."
+        }
+      ]
+    }
+  ],
+  "C2": [
+    {
+      "title": "Steuerbegriff und Steuerschuldverhältnis nach der Abgabenordnung",
+      "title_vi": "Khái niệm thuế và quan hệ nghĩa vụ thuế theo Bộ luật Thuế tổng quát",
+      "emoji": "🏦",
+      "source": "Paraphrase von §§ 3, 37, 38 AO (§ 3 Abs. 1 und § 38 AO wörtlich zitiert)",
+      "text": "Die Abgabenordnung (AO) wird häufig als „Grundgesetz des Steuerrechts“ bezeichnet. Sie enthält die allgemeinen Regeln des Steuerschuld- und des Steuerverfahrensrechts, die gleichsam vor die Klammer der Einzelsteuergesetze gezogen sind. An ihrem Anfang steht in § 3 Abs. 1 AO eine Legaldefinition: „Steuern sind Geldleistungen, die nicht eine Gegenleistung für eine besondere Leistung darstellen und von einem öffentlich-rechtlichen Gemeinwesen zur Erzielung von Einnahmen allen auferlegt werden, bei denen der Tatbestand zutrifft, an den das Gesetz die Leistungspflicht knüpft; die Erzielung von Einnahmen kann Nebenzweck sein.“\n\nAus dieser Definition lassen sich fünf Merkmale ableiten. Erstens muss es sich um eine Geldleistung handeln; Sach- oder Dienstleistungen sind keine Steuern. Zweitens fehlt die Gegenleistung: Anders als bei Gebühren und Beiträgen erhält der Steuerpflichtige für seine Zahlung keine individuell zurechenbare staatliche Leistung. Drittens muss die Leistung von einem öffentlich-rechtlichen Gemeinwesen auferlegt werden. Viertens dient sie der Erzielung von Einnahmen, wobei der zweite Halbsatz klarstellt, dass dieser Zweck hinter einem Lenkungszweck – etwa dem Umwelt- oder Gesundheitsschutz – zurücktreten kann. Fünftens trifft die Steuer alle, die den gesetzlichen Tatbestand verwirklichen; darin kommen die Tatbestandsmäßigkeit und mittelbar die Gleichmäßigkeit der Besteuerung zum Ausdruck.\n\nDas Rechtsverhältnis zwischen Steuergläubiger und Steuerpflichtigem begreift die AO als gesetzliches Schuldverhältnis, das Steuerschuldverhältnis. § 37 Abs. 1 AO zählt die Ansprüche auf, die daraus erwachsen können: insbesondere den Steueranspruch, den Steuervergütungsanspruch, den Haftungsanspruch, den Anspruch auf eine steuerliche Nebenleistung sowie Erstattungsansprüche.\n\nMaßgeblich für die Entstehung dieser Ansprüche ist § 38 AO: „Die Ansprüche aus dem Steuerschuldverhältnis entstehen, sobald der Tatbestand verwirklicht ist, an den das Gesetz die Leistungspflicht knüpft.“ Der Steueranspruch entsteht also kraft Gesetzes; der Steuerbescheid hat insoweit lediglich deklaratorische Bedeutung. Er konkretisiert den bereits entstandenen Anspruch und bildet die Grundlage für dessen Verwirklichung, insbesondere für die Vollstreckung.\n\nVon der Entstehung ist daher die Festsetzung streng zu unterscheiden. Der Zeitpunkt der Entstehung ist unter anderem für den Beginn der Festsetzungsfrist von Bedeutung, die nach § 170 Abs. 1 AO grundsätzlich mit Ablauf des Kalenderjahres beginnt, in dem die Steuer entstanden ist.",
+      "vi": "Bộ luật Thuế tổng quát (Abgabenordnung – AO) thường được gọi là “Hiến pháp của pháp luật thuế”. Bộ luật này chứa đựng các quy tắc chung về nghĩa vụ thuế và thủ tục thuế, được “đặt ra ngoài dấu ngoặc” chung cho các luật thuế riêng lẻ. Ngay ở phần đầu, § 3 khoản 1 AO đưa ra một định nghĩa pháp lý: “Thuế là các khoản nộp bằng tiền không phải là khoản đối ứng cho một dịch vụ cụ thể và do một chủ thể công quyền áp đặt nhằm tạo nguồn thu đối với tất cả những người thỏa mãn cấu thành mà luật gắn với nghĩa vụ nộp; việc tạo nguồn thu có thể là mục đích phụ.”\n\nTừ định nghĩa này có thể rút ra năm đặc điểm. Thứ nhất, đó phải là khoản nộp bằng tiền; hiện vật hoặc lao động không phải là thuế. Thứ hai, không có khoản đối ứng: khác với lệ phí và phí đóng góp, người nộp thuế không nhận được một dịch vụ nhà nước có thể quy cho riêng mình. Thứ ba, khoản nộp phải do một chủ thể công quyền áp đặt. Thứ tư, nó phục vụ việc tạo nguồn thu, trong đó vế câu thứ hai làm rõ rằng mục đích này có thể lùi xuống sau một mục đích điều tiết – chẳng hạn bảo vệ môi trường hoặc sức khỏe. Thứ năm, thuế áp dụng cho tất cả những ai thực hiện cấu thành luật định; điều này thể hiện nguyên tắc thuế theo cấu thành luật định và gián tiếp là nguyên tắc đánh thuế bình đẳng.\n\nAO coi quan hệ pháp lý giữa chủ nợ thuế và người nộp thuế là một quan hệ nghĩa vụ luật định, gọi là quan hệ nghĩa vụ thuế. § 37 khoản 1 AO liệt kê các yêu cầu có thể phát sinh từ quan hệ này: đặc biệt là yêu cầu thu thuế, yêu cầu hoàn trả thuế theo luật thuế (Steuervergütung), yêu cầu về trách nhiệm liên đới, yêu cầu về khoản thu phụ liên quan đến thuế cũng như các yêu cầu hoàn trả.\n\nĐiều có tính quyết định đối với sự phát sinh các yêu cầu này là § 38 AO: “Các yêu cầu từ quan hệ nghĩa vụ thuế phát sinh ngay khi cấu thành mà luật gắn với nghĩa vụ nộp được thực hiện.” Như vậy, yêu cầu thu thuế phát sinh theo luật định; ở khía cạnh này, quyết định thuế chỉ có ý nghĩa xác nhận. Quyết định thuế cụ thể hóa yêu cầu đã phát sinh và tạo cơ sở để thực hiện yêu cầu đó, đặc biệt là để cưỡng chế thi hành.\n\nVì vậy, cần phân biệt chặt chẽ giữa sự phát sinh và việc ấn định thuế. Thời điểm phát sinh có ý nghĩa, trong số các vấn đề khác, đối với thời điểm bắt đầu thời hạn ấn định thuế, mà theo § 170 khoản 1 AO về nguyên tắc bắt đầu khi kết thúc năm dương lịch mà thuế phát sinh.",
+      "glossary": [
+        {"de": "die Abgabenordnung (AO)", "vi": "Bộ luật Thuế tổng quát (quản lý thuế)"},
+        {"de": "die Legaldefinition", "vi": "định nghĩa pháp lý (do luật đưa ra)"},
+        {"de": "die Geldleistung", "vi": "khoản nộp bằng tiền"},
+        {"de": "die Gegenleistung", "vi": "khoản đối ứng"},
+        {"de": "das öffentlich-rechtliche Gemeinwesen", "vi": "chủ thể công quyền"},
+        {"de": "der Lenkungszweck", "vi": "mục đích điều tiết"},
+        {"de": "der Tatbestand", "vi": "cấu thành (pháp lý)"},
+        {"de": "das Steuerschuldverhältnis", "vi": "quan hệ nghĩa vụ thuế"},
+        {"de": "der Haftungsanspruch", "vi": "yêu cầu về trách nhiệm (liên đới) nộp thuế"},
+        {"de": "die steuerliche Nebenleistung", "vi": "khoản thu phụ liên quan đến thuế"},
+        {"de": "deklaratorisch", "vi": "có tính xác nhận (không tạo lập)"},
+        {"de": "die Festsetzungsfrist", "vi": "thời hạn ấn định thuế"}
+      ],
+      "questions": [
+        {
+          "q": "Worin unterscheidet sich eine Steuer nach dem Text von einer Gebühr?",
+          "options": ["Die Steuer wird nur von Unternehmen erhoben.", "Die Steuer kann auch in Sachleistungen bestehen.", "Für die Steuer erhält der Pflichtige keine individuell zurechenbare Gegenleistung.", "Die Steuer wird ausschließlich von der EU erhoben."],
+          "answer": 2,
+          "explain": "Đặc điểm thứ hai: khác với lệ phí và phí đóng góp, thuế không có „individuell zurechenbare staatliche Leistung“ đối ứng."
+        },
+        {
+          "q": "Was folgt aus dem Halbsatz „die Erzielung von Einnahmen kann Nebenzweck sein“?",
+          "options": ["Auch Steuern mit vorrangigem Lenkungszweck sind Steuern im Sinne des § 3 AO.", "Steuern dürfen keine Einnahmen erzielen.", "Lenkungsabgaben sind stets verfassungswidrig.", "Nebenleistungen sind keine Ansprüche aus dem Steuerschuldverhältnis."],
+          "answer": 0,
+          "explain": "Văn bản: mục đích tạo nguồn thu có thể lùi sau mục đích điều tiết (môi trường, sức khỏe) – thuế điều tiết vẫn là thuế."
+        },
+        {
+          "q": "Wann entsteht der Steueranspruch nach § 38 AO?",
+          "options": ["Mit Bekanntgabe des Steuerbescheids", "Mit Abgabe der Steuererklärung", "Mit Ablauf der Festsetzungsfrist", "Sobald der Tatbestand verwirklicht ist, an den das Gesetz die Leistungspflicht knüpft"],
+          "answer": 3,
+          "explain": "§ 38 AO được trích nguyên văn: yêu cầu phát sinh „sobald der Tatbestand verwirklicht ist“."
+        },
+        {
+          "q": "Welche Bedeutung hat der Steuerbescheid für die Entstehung des Steueranspruchs?",
+          "options": ["Er begründet den Anspruch konstitutiv.", "Er hat lediglich deklaratorische Bedeutung.", "Er ist für den Anspruch völlig bedeutungslos.", "Er ersetzt die Verwirklichung des Tatbestands."],
+          "answer": 1,
+          "explain": "Văn bản: yêu cầu thuế phát sinh theo luật, quyết định thuế „lediglich deklaratorische Bedeutung“ nhưng là cơ sở để cưỡng chế."
+        },
+        {
+          "q": "Welcher Anspruch wird im Text NICHT als Anspruch aus dem Steuerschuldverhältnis genannt?",
+          "options": ["Der Haftungsanspruch", "Der Steuervergütungsanspruch", "Der Schadensersatzanspruch aus unerlaubter Handlung", "Der Anspruch auf eine steuerliche Nebenleistung"],
+          "answer": 2,
+          "explain": "Danh sách theo § 37 Abs. 1 AO trong văn bản không có yêu cầu bồi thường do hành vi trái pháp luật (thuộc luật dân sự)."
+        },
+        {
+          "q": "Wofür ist der Zeitpunkt der Entstehung der Steuer laut Text unter anderem bedeutsam?",
+          "options": ["Für die Höhe des Steuersatzes", "Für die Zuständigkeit des Finanzgerichts", "Für die Wahl der Steuerklasse", "Für den Beginn der Festsetzungsfrist"],
+          "answer": 3,
+          "explain": "Văn bản: thời điểm phát sinh quan trọng cho việc bắt đầu thời hạn ấn định thuế theo § 170 Abs. 1 AO."
+        }
+      ]
+    },
+    {
+      "title": "Urteil in einem Mietrechtsstreit: Mietminderung wegen Schimmels",
+      "title_vi": "Bản án trong vụ tranh chấp thuê nhà: Giảm tiền thuê do nấm mốc",
+      "emoji": "🏠",
+      "source": "Eigener Text",
+      "text": "Amtsgericht Musterstadt – Az. 12 C 345/26\n(Fiktive Entscheidung zu Lernzwecken)\n\nIm Namen des Volkes – Urteil\n\nIn dem Rechtsstreit Werner Becker (Kläger) gegen Anna Hoang (Beklagte) wegen Mietforderung hat das Amtsgericht Musterstadt auf die mündliche Verhandlung vom 2. Oktober 2026 für Recht erkannt:\n\n1. Die Beklagte wird verurteilt, an den Kläger 270,00 Euro nebst Zinsen in Höhe von fünf Prozentpunkten über dem jeweiligen Basiszinssatz seit Rechtshängigkeit zu zahlen. Im Übrigen wird die Klage abgewiesen.\n2. Von den Kosten des Rechtsstreits tragen der Kläger 75 % und die Beklagte 25 %.\n3. Das Urteil ist vorläufig vollstreckbar.\n\nTatbestand\n\nDie Beklagte ist Mieterin einer Wohnung des Klägers; die monatliche Bruttomiete beträgt 900,00 Euro. Im Januar 2026 zeigte die Beklagte dem Kläger Schimmelbefall im Schlafzimmer an und minderte in den folgenden sechs Monaten die Miete um jeweils 20 %.\n\nDer Kläger behauptet, der Schimmel sei allein auf ein unzureichendes Heiz- und Lüftungsverhalten der Beklagten zurückzuführen; die Bausubstanz sei einwandfrei. Er beantragt, die Beklagte zur Zahlung von 1.080,00 Euro nebst Zinsen zu verurteilen.\n\nDie Beklagte beantragt, die Klage abzuweisen. Sie trägt vor, sie lüfte täglich mehrmals und heize ausreichend; die Feuchtigkeit dringe durch eine schadhafte Außenwand ein.\n\nEntscheidungsgründe\n\nDie zulässige Klage ist nur teilweise begründet.\n\nDie Miete war gemäß § 536 Abs. 1 BGB kraft Gesetzes gemindert, ohne dass es einer Erklärung der Beklagten bedurfte. Der Schimmelbefall stellt einen Mangel dar, der die Tauglichkeit der Wohnung zum vertragsgemäßen Gebrauch erheblich mindert. Nach dem überzeugenden Gutachten des gerichtlich bestellten Sachverständigen beruht die Feuchtigkeit auf einer Wärmebrücke im Bereich der Außenwand, mithin auf einem baulichen Mangel. Soweit der Kläger einwendet, die Beklagte habe die Wohnung nicht ausreichend beheizt, kommt es hierauf nicht an.\n\nDie Minderung ist nach der Bruttomiete zu bemessen. Da lediglich ein Raum betroffen und dieser weiterhin nutzbar war, hält das Gericht eine Minderung von 15 % für angemessen. Die Beklagte schuldet daher für sechs Monate jeweils weitere 45,00 Euro, insgesamt 270,00 Euro.\n\nDer Zinsanspruch folgt aus §§ 291, 288 Abs. 1 BGB. Die Kostenentscheidung beruht auf § 92 Abs. 1 ZPO, die Entscheidung über die vorläufige Vollstreckbarkeit auf §§ 708 Nr. 11, 713 ZPO.",
+      "vi": "Tòa án khu vực Musterstadt – Số hồ sơ 12 C 345/26\n(Bản án hư cấu dùng cho mục đích học tập)\n\nNhân danh Nhân dân – Bản án\n\nTrong vụ tranh chấp giữa Werner Becker (nguyên đơn) và Anna Hoang (bị đơn) về yêu cầu thanh toán tiền thuê, Tòa án khu vực Musterstadt, căn cứ phiên xét xử ngày 2 tháng 10 năm 2026, tuyên xử:\n\n1. Buộc bị đơn thanh toán cho nguyên đơn 270,00 euro cùng tiền lãi cao hơn lãi suất cơ bản hiện hành năm điểm phần trăm kể từ thời điểm vụ án được thụ lý. Bác các yêu cầu còn lại của nguyên đơn.\n2. Về án phí và chi phí tố tụng: nguyên đơn chịu 75 %, bị đơn chịu 25 %.\n3. Bản án được tạm thời thi hành.\n\nPhần tình tiết vụ án\n\nBị đơn là người thuê một căn hộ của nguyên đơn; tiền thuê gộp hằng tháng là 900,00 euro. Vào tháng 1 năm 2026, bị đơn thông báo cho nguyên đơn về tình trạng nấm mốc trong phòng ngủ và trong sáu tháng tiếp theo đã giảm 20 % tiền thuê mỗi tháng.\n\nNguyên đơn cho rằng nấm mốc hoàn toàn do bị đơn sưởi ấm và thông gió không đầy đủ; kết cấu tòa nhà không có khiếm khuyết. Nguyên đơn yêu cầu buộc bị đơn thanh toán 1.080,00 euro cùng tiền lãi.\n\nBị đơn yêu cầu bác đơn khởi kiện. Bị đơn trình bày rằng mình mở cửa thông gió nhiều lần mỗi ngày và sưởi ấm đầy đủ; hơi ẩm thấm vào qua một bức tường ngoài bị hư hỏng.\n\nPhần nhận định của Tòa án\n\nĐơn khởi kiện hợp lệ nhưng chỉ có căn cứ một phần.\n\nTheo § 536 khoản 1 BGB, tiền thuê đã được giảm theo luật định mà không cần bị đơn phải tuyên bố. Tình trạng nấm mốc là một khiếm khuyết làm giảm đáng kể khả năng sử dụng căn hộ theo đúng hợp đồng. Theo kết luận giám định thuyết phục của giám định viên do tòa chỉ định, hơi ẩm bắt nguồn từ một cầu nhiệt ở khu vực tường ngoài, tức là một khiếm khuyết về xây dựng. Vì vậy, lập luận của nguyên đơn rằng bị đơn đã không sưởi ấm căn hộ đầy đủ là không có ý nghĩa.\n\nMức giảm được tính trên tiền thuê gộp. Vì chỉ một phòng bị ảnh hưởng và phòng đó vẫn có thể sử dụng, Tòa án cho rằng mức giảm 15 % là thỏa đáng. Do đó, bị đơn còn nợ thêm 45,00 euro mỗi tháng trong sáu tháng, tổng cộng 270,00 euro.\n\nYêu cầu trả lãi căn cứ vào §§ 291, 288 khoản 1 BGB. Quyết định về án phí căn cứ vào § 92 khoản 1 Bộ luật Tố tụng dân sự (ZPO), quyết định về việc tạm thời thi hành căn cứ vào §§ 708 số 11, 713 ZPO.",
+      "glossary": [
+        {"de": "der Tenor", "vi": "phần quyết định (phần tuyên án) của bản án"},
+        {"de": "der Tatbestand", "vi": "phần tình tiết vụ án (trong bản án)"},
+        {"de": "die Entscheidungsgründe (Pl.)", "vi": "phần nhận định (lý do) của tòa án"},
+        {"de": "der Kläger / die Beklagte", "vi": "nguyên đơn / bị đơn"},
+        {"de": "die Mietminderung", "vi": "việc giảm tiền thuê"},
+        {"de": "die Bruttomiete", "vi": "tiền thuê gộp (bao gồm phí phụ)"},
+        {"de": "der Mangel", "vi": "khiếm khuyết, khuyết tật"},
+        {"de": "der vertragsgemäße Gebrauch", "vi": "việc sử dụng theo đúng hợp đồng"},
+        {"de": "der Sachverständige", "vi": "giám định viên"},
+        {"de": "die Rechtshängigkeit", "vi": "tình trạng vụ án đang được tòa thụ lý"},
+        {"de": "vorläufig vollstreckbar", "vi": "được tạm thời thi hành"},
+        {"de": "der Basiszinssatz", "vi": "lãi suất cơ bản"}
+      ],
+      "questions": [
+        {
+          "q": "Welche Funktion hat der Konjunktiv I im Tatbestand (z. B. „der Schimmel sei … zurückzuführen“)?",
+          "options": ["Er drückt aus, dass das Gericht die Behauptung für wahr hält.", "Er gibt den Parteivortrag indirekt wieder, ohne dass sich das Gericht ihn zu eigen macht.", "Er kennzeichnet unstreitige Tatsachen.", "Er bezeichnet eine Bitte an das Gericht."],
+          "answer": 1,
+          "explain": "Konjunktiv I (sei, lüfte, dringe) dùng để thuật lại gián tiếp lời trình bày của đương sự; tòa không xác nhận đó là sự thật."
+        },
+        {
+          "q": "In welcher Höhe hat das Gericht der Klage stattgegeben?",
+          "options": ["270,00 Euro", "1.080,00 Euro", "810,00 Euro", "135,00 Euro"],
+          "answer": 0,
+          "explain": "Tenor số 1: buộc bị đơn trả 270,00 euro (45 euro × 6 tháng); phần còn lại bị bác."
+        },
+        {
+          "q": "Worauf beruht die Feuchtigkeit nach den Feststellungen des Gerichts?",
+          "options": ["Auf unzureichendem Lüften der Beklagten", "Auf einem Wasserrohrbruch in der Nachbarwohnung", "Auf zu vielen Pflanzen im Schlafzimmer", "Auf einer Wärmebrücke im Bereich der Außenwand"],
+          "answer": 3,
+          "explain": "Theo giám định: „beruht die Feuchtigkeit auf einer Wärmebrücke im Bereich der Außenwand“ – khiếm khuyết xây dựng."
+        },
+        {
+          "q": "Warum kommt es auf das Heizverhalten der Beklagten nicht an?",
+          "options": ["Weil der Kläger den Einwand verspätet erhoben hat", "Weil die Beklagte die Minderung schriftlich erklärt hat", "Weil die Ursache des Schimmels ein baulicher Mangel ist", "Weil Mieter grundsätzlich nicht heizen müssen"],
+          "answer": 2,
+          "explain": "Vì nguyên nhân là khiếm khuyết xây dựng (cầu nhiệt), lập luận về việc sưởi ấm không còn ý nghĩa."
+        },
+        {
+          "q": "Wie erklärt sich die Kostenverteilung von 75 % zu 25 %?",
+          "options": ["Der Kläger hat nur ein Viertel der geforderten Summe zugesprochen bekommen.", "Mieter tragen stets einen Teil der Kosten.", "Die Beklagte hat den Prozess verzögert.", "Der Sachverständige wurde vom Kläger beauftragt."],
+          "answer": 0,
+          "explain": "Nguyên đơn đòi 1.080 euro nhưng chỉ được 270 euro (25 %), nên chịu 75 % chi phí theo § 92 Abs. 1 ZPO (thắng/thua một phần)."
+        },
+        {
+          "q": "Nach welcher Größe bemisst das Gericht die Minderung?",
+          "options": ["Nach der Nettokaltmiete", "Nach der Bruttomiete", "Nach den Heizkosten", "Nach dem Verkehrswert der Wohnung"],
+          "answer": 1,
+          "explain": "Bản án: „Die Minderung ist nach der Bruttomiete zu bemessen.“ 15 % × 900 euro = 135 euro mỗi tháng."
+        }
+      ]
+    },
+    {
+      "title": "Der Grundsatz der Verhältnismäßigkeit",
+      "title_vi": "Nguyên tắc tương xứng",
+      "emoji": "⚖️",
+      "source": "Eigener Text",
+      "text": "Der Grundsatz der Verhältnismäßigkeit gehört zu den prägenden Strukturelementen des deutschen öffentlichen Rechts. Obwohl das Grundgesetz ihn nicht ausdrücklich erwähnt, leitet das Bundesverfassungsgericht ihn in ständiger Rechtsprechung aus dem Rechtsstaatsprinzip und aus dem Wesen der Grundrechte selbst ab. Er bindet sämtliche staatliche Gewalt: den Gesetzgeber ebenso wie Verwaltung und Gerichte.\n\nSeine Funktion erschließt sich vor dem Hintergrund der Grundrechtsdogmatik. Grundrechte sind nicht schrankenlos gewährleistet; viele stehen unter einem Gesetzesvorbehalt. Damit dieser Vorbehalt den Grundrechtsschutz nicht leerlaufen lässt, muss jede Beschränkung ihrerseits Grenzen unterliegen. Man spricht insoweit von einer „Schranken-Schranke“.\n\nDie Prüfung vollzieht sich herkömmlich in vier Schritten. Zunächst muss der Staat einen legitimen Zweck verfolgen. Sodann muss das gewählte Mittel geeignet sein, diesen Zweck zu fördern; eine vollständige Zielerreichung ist nicht erforderlich. Drittens muss das Mittel erforderlich sein: Es darf kein milderes Mittel geben, das den Zweck gleich wirksam erreicht. Schließlich muss die Maßnahme angemessen, also verhältnismäßig im engeren Sinne sein. Hier sind die Schwere des Eingriffs und das Gewicht der ihn rechtfertigenden Gründe gegeneinander abzuwägen.\n\nGerade die letzte Stufe ist Gegenstand anhaltender Kritik. Ihr wird vorgeworfen, sie eröffne den Gerichten einen weiten Wertungsspielraum und verlagere damit politische Entscheidungen vom Parlament auf die Justiz. Das Bundesverfassungsgericht begegnet diesem Einwand, indem es dem Gesetzgeber bei der Beurteilung von Eignung und Erforderlichkeit eine Einschätzungsprärogative zubilligt und die Kontrolldichte nach Art und Gewicht des betroffenen Rechtsguts abstuft.\n\nEin frühes Beispiel für die Konkretisierung des Grundsatzes bildet das Apotheken-Urteil von 1958, in dem das Gericht für Eingriffe in die Berufsfreiheit die sogenannte Drei-Stufen-Theorie entwickelte. Je intensiver der Eingriff ist – von der bloßen Berufsausübungsregelung bis zur objektiven Zulassungsschranke –, desto gewichtiger müssen die Gemeinwohlbelange sein, die ihn rechtfertigen.\n\nNeben dem Übermaßverbot hat die Rechtsprechung im Zusammenhang mit staatlichen Schutzpflichten das Untermaßverbot entwickelt: Der Staat darf nicht nur nicht zu viel tun, sondern beim Schutz grundrechtlich geschützter Güter auch nicht zu wenig.",
+      "vi": "Nguyên tắc tương xứng là một trong những yếu tố cấu trúc đặc trưng của luật công Đức. Mặc dù Luật Cơ bản không đề cập trực tiếp đến nguyên tắc này, Tòa án Hiến pháp Liên bang trong thực tiễn xét xử nhất quán đã rút ra nó từ nguyên tắc nhà nước pháp quyền và từ chính bản chất của các quyền cơ bản. Nguyên tắc này ràng buộc toàn bộ quyền lực nhà nước: cả cơ quan lập pháp lẫn hành pháp và tòa án.\n\nChức năng của nó được hiểu rõ trong bối cảnh học thuyết về quyền cơ bản. Các quyền cơ bản không được bảo đảm một cách vô hạn; nhiều quyền chịu sự bảo lưu của luật (có thể bị hạn chế bằng luật). Để sự bảo lưu này không làm cho việc bảo vệ quyền cơ bản trở nên vô nghĩa, bản thân mọi sự hạn chế cũng phải chịu giới hạn. Trong phạm vi này, người ta gọi đó là “giới hạn của giới hạn” (Schranken-Schranke).\n\nTheo truyền thống, việc xem xét được tiến hành qua bốn bước. Trước hết, nhà nước phải theo đuổi một mục đích chính đáng. Tiếp đó, phương tiện được chọn phải phù hợp để thúc đẩy mục đích này; không đòi hỏi phải đạt được mục tiêu một cách trọn vẹn. Thứ ba, phương tiện phải cần thiết: không được tồn tại một phương tiện ít hạn chế hơn mà đạt được mục đích với hiệu quả tương đương. Cuối cùng, biện pháp phải thỏa đáng, tức là tương xứng theo nghĩa hẹp. Ở bước này, mức độ nghiêm trọng của sự can thiệp và tầm quan trọng của các lý do biện minh cho nó phải được cân nhắc với nhau.\n\nChính bước cuối cùng này là đối tượng của những phê phán kéo dài. Người ta cho rằng nó mở ra cho tòa án một phạm vi đánh giá rộng và qua đó chuyển các quyết định chính trị từ nghị viện sang cơ quan tư pháp. Tòa án Hiến pháp Liên bang đối phó với phản bác này bằng cách thừa nhận cho nhà lập pháp một đặc quyền đánh giá khi xem xét tính phù hợp và tính cần thiết, đồng thời phân cấp mức độ kiểm soát tùy theo loại và tầm quan trọng của lợi ích pháp lý bị ảnh hưởng.\n\nMột ví dụ sớm về việc cụ thể hóa nguyên tắc này là Bản án về nhà thuốc năm 1958, trong đó tòa án đã phát triển cái gọi là học thuyết ba bậc đối với sự can thiệp vào quyền tự do nghề nghiệp. Sự can thiệp càng mạnh – từ quy định đơn thuần về cách thức hành nghề đến rào cản khách quan đối với việc gia nhập nghề – thì các lợi ích công cộng biện minh cho nó càng phải có trọng lượng lớn.\n\nBên cạnh nguyên tắc cấm can thiệp quá mức, trong mối liên hệ với nghĩa vụ bảo vệ của nhà nước, thực tiễn xét xử còn phát triển nguyên tắc cấm bảo vệ dưới mức: nhà nước không chỉ không được làm quá nhiều, mà trong việc bảo vệ các lợi ích được quyền cơ bản bảo vệ cũng không được làm quá ít.",
+      "glossary": [
+        {"de": "die Verhältnismäßigkeit", "vi": "tính tương xứng"},
+        {"de": "das Rechtsstaatsprinzip", "vi": "nguyên tắc nhà nước pháp quyền"},
+        {"de": "der Gesetzesvorbehalt", "vi": "bảo lưu luật định (hạn chế quyền bằng luật)"},
+        {"de": "die Schranken-Schranke", "vi": "giới hạn của giới hạn"},
+        {"de": "der legitime Zweck", "vi": "mục đích chính đáng"},
+        {"de": "die Geeignetheit", "vi": "tính phù hợp"},
+        {"de": "die Erforderlichkeit", "vi": "tính cần thiết"},
+        {"de": "die Angemessenheit", "vi": "tính thỏa đáng (tương xứng theo nghĩa hẹp)"},
+        {"de": "die Einschätzungsprärogative", "vi": "đặc quyền đánh giá (của nhà lập pháp)"},
+        {"de": "die Kontrolldichte", "vi": "mức độ kiểm soát (tư pháp)"},
+        {"de": "das Übermaßverbot", "vi": "nguyên tắc cấm can thiệp quá mức"},
+        {"de": "das Untermaßverbot", "vi": "nguyên tắc cấm bảo vệ dưới mức"}
+      ],
+      "questions": [
+        {
+          "q": "Woraus leitet das Bundesverfassungsgericht den Grundsatz der Verhältnismäßigkeit ab?",
+          "options": ["Aus dem Rechtsstaatsprinzip und dem Wesen der Grundrechte", "Aus einer ausdrücklichen Regelung in Art. 1 GG", "Aus dem Bürgerlichen Gesetzbuch", "Aus dem Recht der Europäischen Union"],
+          "answer": 0,
+          "explain": "Văn bản: GG không nêu trực tiếp; BVerfG rút ra „aus dem Rechtsstaatsprinzip und aus dem Wesen der Grundrechte selbst“."
+        },
+        {
+          "q": "Was bezeichnet der Begriff „Schranken-Schranke“?",
+          "options": ["Ein Grundrecht ohne Gesetzesvorbehalt", "Die Pflicht des Staates, Grundrechte zu schützen", "Grenzen, denen ihrerseits jede Beschränkung eines Grundrechts unterliegt", "Eine Sperre für Verfassungsbeschwerden"],
+          "answer": 2,
+          "explain": "Mọi sự hạn chế quyền cơ bản cũng phải có giới hạn để bảo lưu luật không làm vô hiệu hóa quyền – đó là „Schranken-Schranke“."
+        },
+        {
+          "q": "Wann ist ein Mittel im Sinne der Verhältnismäßigkeitsprüfung erforderlich?",
+          "options": ["Wenn es den Zweck vollständig erreicht", "Wenn das Parlament es beschlossen hat", "Wenn es kostengünstig ist", "Wenn es kein milderes, gleich wirksames Mittel gibt"],
+          "answer": 3,
+          "explain": "Bước 3: „Es darf kein milderes Mittel geben, das den Zweck gleich wirksam erreicht.“ Đạt mục tiêu trọn vẹn không phải điều kiện (đó là bước phù hợp)."
+        },
+        {
+          "q": "Welcher Vorwurf wird der Angemessenheitsprüfung gemacht?",
+          "options": ["Sie sei zu streng gegenüber dem Gesetzgeber formuliert.", "Sie eröffne den Gerichten einen weiten Wertungsspielraum und verlagere politische Entscheidungen auf die Justiz.", "Sie werde vom Bundesverfassungsgericht nicht angewandt.", "Sie gelte nur im Strafrecht."],
+          "answer": 1,
+          "explain": "Văn bản: bị phê phán vì „eröffne den Gerichten einen weiten Wertungsspielraum“ và chuyển quyết định chính trị sang tư pháp."
+        },
+        {
+          "q": "Welche Aussage zur Drei-Stufen-Theorie trifft laut Text zu?",
+          "options": ["Je intensiver der Eingriff in die Berufsfreiheit, desto gewichtiger müssen die rechtfertigenden Gemeinwohlbelange sein.", "Sie wurde 1993 im Zusammenhang mit Schutzpflichten entwickelt.", "Berufsausübungsregelungen sind danach stets unzulässig.", "Sie betrifft ausschließlich das Steuerrecht."],
+          "answer": 0,
+          "explain": "Bản án nhà thuốc 1958: mức can thiệp càng mạnh thì lợi ích công cộng biện minh phải càng nặng ký."
+        },
+        {
+          "q": "Was besagt das Untermaßverbot?",
+          "options": ["Der Staat darf Grundrechte überhaupt nicht einschränken.", "Gerichte dürfen Gesetze nicht zu milde auslegen.", "Steuern dürfen eine Mindesthöhe nicht unterschreiten.", "Der Staat darf beim Schutz grundrechtlich geschützter Güter nicht zu wenig tun."],
+          "answer": 3,
+          "explain": "Văn bản: nhà nước „beim Schutz grundrechtlich geschützter Güter auch nicht zu wenig“ được làm – gắn với nghĩa vụ bảo vệ."
+        }
+      ]
+    },
+    {
+      "title": "Die verdeckte Gewinnausschüttung",
+      "title_vi": "Phân phối lợi nhuận trá hình",
+      "emoji": "💼",
+      "source": "Eigener Text",
+      "text": "Kapitalgesellschaften wie die GmbH sind eigenständige Steuersubjekte. Ihr Gewinn unterliegt der Körperschaft- und der Gewerbesteuer; schüttet die Gesellschaft ihn an die Gesellschafter aus, wird er bei diesen ein zweites Mal – als Einkünfte aus Kapitalvermögen – erfasst. Diese Systematik schafft einen Anreiz, Gewinne nicht offen auszuschütten, sondern in Form überhöhter Vergütungen oder anderer Vorteile an die Gesellschafter weiterzuleiten. Würden solche Zahlungen als Betriebsausgaben anerkannt, minderten sie das Einkommen der Gesellschaft und entgingen so der Körperschaftsteuer.\n\nDem schiebt § 8 Abs. 3 Satz 2 KStG einen Riegel vor: Auch verdeckte Gewinnausschüttungen mindern das Einkommen nicht. Eine gesetzliche Definition fehlt; maßgeblich ist die Formel des Bundesfinanzhofs. Danach ist eine verdeckte Gewinnausschüttung eine Vermögensminderung oder verhinderte Vermögensmehrung, die durch das Gesellschaftsverhältnis veranlasst ist, sich auf die Höhe des Unterschiedsbetrags gemäß § 4 Abs. 1 Satz 1 EStG auswirkt und nicht auf einem den gesellschaftsrechtlichen Vorschriften entsprechenden Gewinnverteilungsbeschluss beruht.\n\nOb eine Veranlassung durch das Gesellschaftsverhältnis vorliegt, wird vor allem im Wege des Fremdvergleichs ermittelt: Hätte ein ordentlicher und gewissenhafter Geschäftsleiter den Vorteil unter sonst gleichen Umständen auch einem Nichtgesellschafter gewährt? Typische Fallgruppen sind das unangemessen hohe Geschäftsführergehalt, das zinslose Darlehen an einen Gesellschafter oder der Erwerb eines Wirtschaftsguts vom Gesellschafter zu einem überhöhten Preis. Erfasst werden auch Vorteile, die einer dem Gesellschafter nahestehenden Person zugewendet werden.\n\nFür beherrschende Gesellschafter gelten verschärfte Anforderungen. Bei ihnen nimmt die Rechtsprechung eine verdeckte Gewinnausschüttung regelmäßig bereits dann an, wenn es an einer im Voraus getroffenen, klaren und eindeutigen Vereinbarung fehlt oder die Vereinbarung nicht tatsächlich durchgeführt wird – selbst wenn die Vergütung der Höhe nach angemessen wäre.\n\nDie Rechtsfolgen treten auf zwei Ebenen ein. Auf der Ebene der Gesellschaft wird der Betrag außerbilanziell dem Einkommen hinzugerechnet. Auf der Ebene des Gesellschafters liegen nach § 20 Abs. 1 Nr. 1 Satz 2 EStG Einkünfte aus Kapitalvermögen vor; hält er die Beteiligung im Privatvermögen, unterliegen sie grundsätzlich der Abgeltungsteuer. Das sogenannte formelle Korrespondenzprinzip des § 32a KStG soll eine aufeinander abgestimmte Behandlung auf beiden Ebenen sicherstellen.",
+      "vi": "Các công ty vốn như GmbH (công ty trách nhiệm hữu hạn) là chủ thể thuế độc lập. Lợi nhuận của công ty chịu thuế thu nhập doanh nghiệp và thuế kinh doanh (Gewerbesteuer); khi công ty phân phối lợi nhuận cho thành viên góp vốn, lợi nhuận đó bị đánh thuế lần thứ hai ở cấp thành viên – dưới dạng thu nhập từ vốn. Cơ chế này tạo ra động cơ để không phân phối lợi nhuận một cách công khai, mà chuyển cho thành viên dưới hình thức thù lao quá cao hoặc các lợi ích khác. Nếu các khoản chi này được công nhận là chi phí kinh doanh, chúng sẽ làm giảm thu nhập chịu thuế của công ty và nhờ đó tránh được thuế thu nhập doanh nghiệp.\n\n§ 8 khoản 3 câu 2 Luật Thuế thu nhập doanh nghiệp (KStG) ngăn chặn điều này: các khoản phân phối lợi nhuận trá hình cũng không được làm giảm thu nhập. Luật không có định nghĩa; công thức của Tòa án Tài chính Liên bang có tính quyết định. Theo đó, phân phối lợi nhuận trá hình là sự giảm sút tài sản hoặc sự ngăn cản tăng tài sản, có nguyên nhân từ quan hệ thành viên, ảnh hưởng đến khoản chênh lệch theo § 4 khoản 1 câu 1 Luật Thuế thu nhập (EStG) và không dựa trên một nghị quyết phân chia lợi nhuận phù hợp với các quy định của pháp luật về công ty.\n\nViệc có nguyên nhân từ quan hệ thành viên hay không chủ yếu được xác định bằng phép so sánh với giao dịch độc lập: liệu một người quản lý doanh nghiệp cẩn trọng và có trách nhiệm, trong các điều kiện tương tự, có dành lợi ích đó cho một người không phải là thành viên hay không? Các nhóm trường hợp điển hình là lương giám đốc điều hành cao bất hợp lý, khoản vay không lãi cho thành viên, hoặc việc mua một tài sản kinh tế từ thành viên với giá quá cao. Cũng bao gồm cả những lợi ích được dành cho người có quan hệ gần gũi với thành viên.\n\nĐối với thành viên chi phối, các yêu cầu được áp dụng nghiêm ngặt hơn. Đối với họ, thực tiễn xét xử thường đã coi là phân phối lợi nhuận trá hình khi thiếu một thỏa thuận được ký kết trước, rõ ràng và minh bạch, hoặc khi thỏa thuận không được thực hiện trên thực tế – ngay cả khi mức thù lao xét về số tiền là hợp lý.\n\nHệ quả pháp lý phát sinh ở hai cấp. Ở cấp công ty, khoản tiền được cộng vào thu nhập ngoài bảng cân đối kế toán. Ở cấp thành viên, theo § 20 khoản 1 số 1 câu 2 EStG, đây là thu nhập từ vốn; nếu thành viên nắm giữ phần vốn góp trong tài sản cá nhân, thu nhập này về nguyên tắc chịu thuế khấu trừ tại nguồn đối với thu nhập từ vốn (Abgeltungsteuer). Cái gọi là nguyên tắc tương ứng hình thức tại § 32a KStG nhằm bảo đảm việc xử lý thuế được phối hợp thống nhất ở cả hai cấp.",
+      "glossary": [
+        {"de": "die verdeckte Gewinnausschüttung (vGA)", "vi": "phân phối lợi nhuận trá hình"},
+        {"de": "die Kapitalgesellschaft", "vi": "công ty vốn (đối vốn)"},
+        {"de": "die Körperschaftsteuer", "vi": "thuế thu nhập doanh nghiệp"},
+        {"de": "die Betriebsausgabe", "vi": "chi phí kinh doanh (được trừ)"},
+        {"de": "die Vermögensminderung", "vi": "sự giảm sút tài sản"},
+        {"de": "das Gesellschaftsverhältnis", "vi": "quan hệ thành viên (giữa công ty và thành viên)"},
+        {"de": "der Gewinnverteilungsbeschluss", "vi": "nghị quyết phân chia lợi nhuận"},
+        {"de": "der Fremdvergleich", "vi": "so sánh với giao dịch độc lập"},
+        {"de": "der ordentliche und gewissenhafte Geschäftsleiter", "vi": "người quản lý doanh nghiệp cẩn trọng và có trách nhiệm"},
+        {"de": "der beherrschende Gesellschafter", "vi": "thành viên chi phối"},
+        {"de": "die nahestehende Person", "vi": "người có quan hệ gần gũi (bên liên quan)"},
+        {"de": "die Abgeltungsteuer", "vi": "thuế khấu trừ tại nguồn đối với thu nhập từ vốn"}
+      ],
+      "questions": [
+        {
+          "q": "Welche Norm ordnet an, dass verdeckte Gewinnausschüttungen das Einkommen nicht mindern?",
+          "options": ["§ 4 Abs. 1 Satz 1 EStG", "§ 8 Abs. 3 Satz 2 KStG", "§ 32a KStG", "§ 20 Abs. 1 Nr. 1 Satz 2 EStG"],
+          "answer": 1,
+          "explain": "Văn bản: „Dem schiebt § 8 Abs. 3 Satz 2 KStG einen Riegel vor“ – vGA không làm giảm thu nhập."
+        },
+        {
+          "q": "Welches Merkmal gehört NICHT zur Definition des Bundesfinanzhofs?",
+          "options": ["Vermögensminderung oder verhinderte Vermögensmehrung", "Veranlassung durch das Gesellschaftsverhältnis", "Auswirkung auf den Unterschiedsbetrag nach § 4 Abs. 1 Satz 1 EStG", "Vorsatz des Geschäftsführers zur Steuerhinterziehung"],
+          "answer": 3,
+          "explain": "Công thức BFH trong văn bản không đòi hỏi ý định trốn thuế; ba phương án còn lại đều là yếu tố định nghĩa."
+        },
+        {
+          "q": "Welcher Maßstab wird beim Fremdvergleich angelegt?",
+          "options": ["Der ordentliche und gewissenhafte Geschäftsleiter", "Der durchschnittliche Verbraucher", "Der Gesellschafter mit der höchsten Beteiligung", "Die Einschätzung des Finanzgerichts"],
+          "answer": 0,
+          "explain": "Câu hỏi so sánh: liệu „ein ordentlicher und gewissenhafter Geschäftsleiter“ có dành lợi ích đó cho người ngoài không."
+        },
+        {
+          "q": "Was gilt laut Text bei beherrschenden Gesellschaftern?",
+          "options": ["Für sie gibt es keine verdeckte Gewinnausschüttung.", "Nur unangemessen hohe Vergütungen können eine vGA sein.", "Eine vGA kann schon bei fehlender im Voraus getroffener, klarer Vereinbarung vorliegen, selbst wenn die Vergütung angemessen ist.", "Ihre Vergütungen sind stets Betriebsausgaben."],
+          "answer": 2,
+          "explain": "Yêu cầu hình thức nghiêm ngặt: thiếu thỏa thuận trước, rõ ràng, hoặc không thực hiện → vGA, „selbst wenn die Vergütung der Höhe nach angemessen wäre“."
+        },
+        {
+          "q": "Wie wird eine vGA beim Gesellschafter besteuert, der die Beteiligung im Privatvermögen hält?",
+          "options": ["Als Arbeitslohn mit Lohnsteuer", "Grundsätzlich als Einkünfte aus Kapitalvermögen mit Abgeltungsteuer", "Gar nicht, weil bereits die Gesellschaft besteuert wurde", "Als Einkünfte aus Gewerbebetrieb mit Gewerbesteuer"],
+          "answer": 1,
+          "explain": "§ 20 Abs. 1 Nr. 1 Satz 2 EStG: thu nhập từ vốn; nếu thuộc tài sản cá nhân thì „grundsätzlich der Abgeltungsteuer“."
+        },
+        {
+          "q": "Worin liegt nach dem Text der Anreiz zu verdeckten Gewinnausschüttungen?",
+          "options": ["In der Steuerfreiheit offener Ausschüttungen", "In der Pflicht zur Bilanzierung", "Darin, dass als Betriebsausgaben anerkannte Zahlungen das Einkommen der Gesellschaft und damit die Körperschaftsteuer mindern würden", "In der fehlenden Gewerbesteuerpflicht der GmbH"],
+          "answer": 2,
+          "explain": "Đoạn 1: nếu được công nhận là chi phí kinh doanh, các khoản này „minderten … das Einkommen der Gesellschaft und entgingen so der Körperschaftsteuer“."
+        }
+      ]
+    },
+    {
+      "title": "Umsatzsteuer im Binnenmarkt und Reverse-Charge-Verfahren",
+      "title_vi": "Thuế giá trị gia tăng trong thị trường nội khối EU và cơ chế đảo ngược nghĩa vụ thuế",
+      "emoji": "🇪🇺",
+      "source": "Eigener Text",
+      "text": "Seit dem Wegfall der Binnengrenzkontrollen zum 1. Januar 1993 fehlt im Warenverkehr zwischen den Mitgliedstaaten der Europäischen Union die Einfuhrumsatzsteuer als Anknüpfungspunkt der Besteuerung. Um gleichwohl eine Besteuerung im Bestimmungsland zu gewährleisten, wurde eine Übergangsregelung geschaffen, die bis heute gilt. Ihr Kern ist die Aufspaltung des grenzüberschreitenden Umsatzes zwischen Unternehmern in zwei Vorgänge.\n\nIm Ursprungsland ist die innergemeinschaftliche Lieferung nach § 4 Nr. 1 Buchst. b in Verbindung mit § 6a UStG steuerfrei. Voraussetzung ist insbesondere, dass der Gegenstand in einen anderen Mitgliedstaat gelangt und der Abnehmer ein Unternehmer ist, der eine ihm von einem anderen Mitgliedstaat erteilte gültige Umsatzsteuer-Identifikationsnummer verwendet. Zudem muss der Lieferer den Umsatz in der Zusammenfassenden Meldung zutreffend angeben; andernfalls ist die Steuerbefreiung ausgeschlossen.\n\nIm Bestimmungsland verwirklicht der Abnehmer spiegelbildlich einen steuerpflichtigen innergemeinschaftlichen Erwerb. Er schuldet die Erwerbsteuer selbst, kann sie aber unter den Voraussetzungen des § 15 Abs. 1 Satz 1 Nr. 3 UStG zugleich als Vorsteuer abziehen. Für einen zum vollen Vorsteuerabzug berechtigten Unternehmer ist der Vorgang somit wirtschaftlich neutral.\n\nEin verwandter Mechanismus gilt für sonstige Leistungen. Erbringt ein im übrigen Gemeinschaftsgebiet ansässiger Unternehmer eine Beratungsleistung an einen deutschen Unternehmer, liegt der Leistungsort nach der Grundregel des § 3a Abs. 2 UStG am Sitz des Empfängers, also im Inland. Statt den ausländischen Leistenden zu einer Registrierung in Deutschland zu zwingen, verlagert § 13b UStG die Steuerschuld auf den Leistungsempfänger. Dieses Verfahren wird als Reverse-Charge-Verfahren bezeichnet. Der Leistende stellt eine Nettorechnung mit dem Hinweis „Steuerschuldnerschaft des Leistungsempfängers“ aus.\n\nDer deutsche Gesetzgeber wendet das Reverse-Charge-Verfahren darüber hinaus auf bestimmte rein inländische Umsätze an, etwa auf Bauleistungen an Bauleistende oder auf die Lieferung von Mobilfunkgeräten ab einer bestimmten Entgelthöhe. Hier dient es vor allem der Bekämpfung des Umsatzsteuerbetrugs. Gerade das System steuerfreier Lieferungen ist nämlich anfällig für sogenannte Karussellgeschäfte, bei denen ein Glied der Lieferkette die Umsatzsteuer in Rechnung stellt, aber nicht abführt, während sein Abnehmer den Vorsteuerabzug geltend macht.",
+      "vi": "Kể từ khi bãi bỏ kiểm soát biên giới nội khối vào ngày 1 tháng 1 năm 1993, trong lưu thông hàng hóa giữa các quốc gia thành viên Liên minh châu Âu không còn thuế giá trị gia tăng hàng nhập khẩu làm điểm gắn kết để đánh thuế. Để vẫn bảo đảm việc đánh thuế tại nước đến, người ta đã thiết lập một chế độ chuyển tiếp, có hiệu lực cho đến ngày nay. Cốt lõi của chế độ này là tách giao dịch xuyên biên giới giữa các doanh nghiệp thành hai giao dịch.\n\nTại nước xuất xứ, việc giao hàng nội khối được miễn thuế theo § 4 số 1 điểm b kết hợp với § 6a Luật Thuế giá trị gia tăng (UStG). Điều kiện chủ yếu là hàng hóa được chuyển đến một quốc gia thành viên khác và bên mua là doanh nghiệp sử dụng mã số thuế GTGT hợp lệ do một quốc gia thành viên khác cấp. Ngoài ra, bên giao hàng phải kê khai giao dịch một cách chính xác trong Bản kê khai tổng hợp (Zusammenfassende Meldung); nếu không, việc miễn thuế bị loại trừ.\n\nTại nước đến, bên mua tương ứng thực hiện một giao dịch mua hàng nội khối chịu thuế. Bên mua tự mình có nghĩa vụ nộp thuế mua hàng nội khối, nhưng đồng thời có thể khấu trừ khoản đó như thuế GTGT đầu vào theo các điều kiện của § 15 khoản 1 câu 1 số 3 UStG. Vì vậy, đối với một doanh nghiệp có quyền khấu trừ thuế đầu vào đầy đủ, giao dịch này trung lập về mặt kinh tế.\n\nMột cơ chế tương tự được áp dụng cho dịch vụ. Nếu một doanh nghiệp có trụ sở tại phần lãnh thổ còn lại của Cộng đồng cung cấp dịch vụ tư vấn cho một doanh nghiệp Đức, thì theo quy tắc cơ bản của § 3a khoản 2 UStG, địa điểm cung cấp dịch vụ là nơi đặt trụ sở của bên nhận, tức là ở trong nước. Thay vì buộc bên cung cấp nước ngoài phải đăng ký thuế tại Đức, § 13b UStG chuyển nghĩa vụ nộp thuế sang bên nhận dịch vụ. Thủ tục này được gọi là cơ chế đảo ngược nghĩa vụ thuế (Reverse-Charge). Bên cung cấp lập hóa đơn không có thuế với ghi chú “Bên nhận dịch vụ là người có nghĩa vụ nộp thuế”.\n\nNgoài ra, nhà lập pháp Đức còn áp dụng cơ chế đảo ngược nghĩa vụ thuế cho một số giao dịch thuần túy trong nước, chẳng hạn dịch vụ xây dựng cung cấp cho doanh nghiệp xây dựng hoặc việc cung cấp điện thoại di động từ một mức giá trị nhất định. Ở đây, cơ chế này chủ yếu phục vụ việc chống gian lận thuế GTGT. Chính hệ thống giao hàng miễn thuế dễ bị lợi dụng cho các giao dịch gọi là gian lận vòng tròn (Karussellgeschäfte), trong đó một mắt xích trong chuỗi cung ứng ghi thuế GTGT trên hóa đơn nhưng không nộp, trong khi bên mua của nó lại yêu cầu khấu trừ thuế đầu vào.",
+      "glossary": [
+        {"de": "die Umsatzsteuer", "vi": "thuế giá trị gia tăng (GTGT)"},
+        {"de": "der Binnenmarkt", "vi": "thị trường nội khối (EU)"},
+        {"de": "das Bestimmungsland", "vi": "nước đến (nơi hàng hóa được chuyển tới)"},
+        {"de": "die innergemeinschaftliche Lieferung", "vi": "giao hàng nội khối EU"},
+        {"de": "der innergemeinschaftliche Erwerb", "vi": "mua hàng nội khối EU"},
+        {"de": "die Umsatzsteuer-Identifikationsnummer", "vi": "mã số thuế GTGT (nội khối EU)"},
+        {"de": "die Zusammenfassende Meldung", "vi": "bản kê khai tổng hợp (giao dịch nội khối)"},
+        {"de": "der Vorsteuerabzug", "vi": "khấu trừ thuế GTGT đầu vào"},
+        {"de": "der Leistungsort", "vi": "địa điểm cung cấp dịch vụ"},
+        {"de": "der Leistungsempfänger", "vi": "bên nhận dịch vụ/hàng hóa"},
+        {"de": "die Steuerschuldnerschaft", "vi": "tư cách người có nghĩa vụ nộp thuế"},
+        {"de": "das Karussellgeschäft", "vi": "gian lận thuế GTGT vòng tròn"}
+      ],
+      "questions": [
+        {
+          "q": "Wie wird die innergemeinschaftliche Lieferung im Ursprungsland behandelt?",
+          "options": ["Sie unterliegt dem Regelsteuersatz.", "Sie unterliegt der Einfuhrumsatzsteuer.", "Sie ist unter bestimmten Voraussetzungen steuerfrei.", "Sie ist nicht steuerbar, weil kein Entgelt vorliegt."],
+          "answer": 2,
+          "explain": "Văn bản: giao hàng nội khối „nach § 4 Nr. 1 Buchst. b in Verbindung mit § 6a UStG steuerfrei“, nếu đủ điều kiện."
+        },
+        {
+          "q": "Welche Voraussetzung der Steuerbefreiung wird im Text NICHT genannt?",
+          "options": ["Der Gegenstand gelangt in einen anderen Mitgliedstaat.", "Der Abnehmer verwendet eine gültige, von einem anderen Mitgliedstaat erteilte USt-IdNr.", "Der Umsatz wird in der Zusammenfassenden Meldung zutreffend angegeben.", "Der Kaufpreis wird vor der Lieferung bezahlt."],
+          "answer": 3,
+          "explain": "Văn bản chỉ nêu ba điều kiện (hàng sang nước khác, USt-IdNr hợp lệ, kê khai ZM đúng); thanh toán trước không phải điều kiện."
+        },
+        {
+          "q": "Warum ist der innergemeinschaftliche Erwerb für einen voll vorsteuerabzugsberechtigten Unternehmer wirtschaftlich neutral?",
+          "options": ["Weil er die geschuldete Erwerbsteuer zugleich als Vorsteuer abziehen kann", "Weil der Erwerb steuerfrei ist", "Weil der Lieferer die Steuer im Ursprungsland zahlt", "Weil die Steuer erst beim Endverbraucher entsteht"],
+          "answer": 0,
+          "explain": "Bên mua nợ thuế mua hàng nội khối nhưng khấu trừ được ngay như thuế đầu vào (§ 15 Abs. 1 Satz 1 Nr. 3 UStG) → trung lập."
+        },
+        {
+          "q": "Wo liegt nach der Grundregel des § 3a Abs. 2 UStG der Ort einer Beratungsleistung an einen Unternehmer?",
+          "options": ["Am Sitz des Leistenden", "Am Sitz des Empfängers", "Am Ort der Rechnungsstellung", "Immer im Ursprungsland"],
+          "answer": 1,
+          "explain": "Văn bản: địa điểm cung cấp dịch vụ B2B „am Sitz des Empfängers, also im Inland“."
+        },
+        {
+          "q": "Wer schuldet beim Reverse-Charge-Verfahren nach § 13b UStG die Umsatzsteuer?",
+          "options": ["Der ausländische Leistende", "Das Finanzamt des Ursprungslandes", "Der Endverbraucher", "Der Leistungsempfänger"],
+          "answer": 3,
+          "explain": "§ 13b UStG „verlagert … die Steuerschuld auf den Leistungsempfänger“; hóa đơn ghi „Steuerschuldnerschaft des Leistungsempfängers“."
+        },
+        {
+          "q": "Welchem Zweck dient das Reverse-Charge-Verfahren bei rein inländischen Umsätzen vor allem?",
+          "options": ["Der Erhöhung des Steuersatzes", "Der Vermeidung von Registrierungspflichten ausländischer Unternehmer", "Der Bekämpfung des Umsatzsteuerbetrugs", "Der Abschaffung des Vorsteuerabzugs"],
+          "answer": 2,
+          "explain": "Văn bản: đối với giao dịch trong nước, cơ chế này „dient … vor allem der Bekämpfung des Umsatzsteuerbetrugs“ (ví dụ Karussellgeschäfte)."
+        }
+      ]
+    }
+  ]
+}

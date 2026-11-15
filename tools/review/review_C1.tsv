@@ -1,0 +1,30 @@
+C1a.tsv	die Rechtsprechung	example_vi	Theo án lệ ổn định của Tòa án Tối cao Liên bang (BGH), điều khoản này vô hiệu.	BGH là Tòa án Tối cao Liên bang, không phải "Tòa án Liên bang"
+C1a.tsv	folglich	example_vi	Thời hạn đã hết; vì vậy khiếu nại không hợp lệ (không được xem xét nội dung).	unzulässig = không hợp lệ về thủ tục, khác với "không được chấp nhận" (unbegründet)
+C1a.tsv	hinreichend	example_de	Für eine Anklage fehlt ein hinreichender Tatverdacht.	hinreichender Tatverdacht là điều kiện để truy tố (§ 170, § 203 StPO), không phải để kết án
+C1a.tsv	hinreichend	example_vi	Để truy tố thì còn thiếu căn cứ nghi vấn phạm tội đủ mức.	Khớp với câu tiếng Đức đã sửa
+C1a.tsv	die Vollmacht	example_de	Im Prozess muss der Anwalt eine schriftliche Vollmacht vorlegen.	Sai luật: với Steuerberater, sự ủy quyền được suy đoán (§ 80 Abs. 2 AO), không bắt buộc giấy ủy quyền văn bản để hành động
+C1a.tsv	die Vollmacht	example_vi	Trong tố tụng, luật sư phải xuất trình giấy ủy quyền bằng văn bản.	Khớp với câu tiếng Đức đã sửa (§ 80 ZPO)
+C1a.tsv	entfallen	example_de	Bei geringen Einkünften entfällt die Einkommensteuer.	Tư cách người có nghĩa vụ thuế (Steuerpflicht) không mất đi; chỉ là không phát sinh số thuế phải nộp
+C1a.tsv	entfallen	example_vi	Với thu nhập thấp thì không phát sinh thuế thu nhập.	Khớp với câu tiếng Đức đã sửa
+C1b.tsv	der Absatz	example_de	Die Haftung für die Verletzung eines Schutzgesetzes steht in § 823 Absatz 2 BGB.	§ 823 Abs. 2 BGB không phải là "ngoại lệ" mà là căn cứ trách nhiệm riêng (vi phạm luật bảo vệ)
+C1b.tsv	der Absatz	example_vi	Trách nhiệm do vi phạm luật bảo vệ được quy định tại khoản 2 Điều 823 BGB.	Khớp với câu tiếng Đức đã sửa
+C1b.tsv	das Landgericht	example_de	Bei einem Streitwert über 10.000 Euro entscheidet das Landgericht.	Từ 01.01.2026 ngưỡng thẩm quyền của Amtsgericht được nâng từ 5.000 lên 10.000 euro
+C1b.tsv	das Landgericht	example_vi	Với giá trị tranh chấp trên 10.000 euro, tòa án bang sẽ quyết định.	Khớp với câu tiếng Đức đã sửa
+C1b.tsv	die Revision	vietnamese	thượng thẩm (kháng cáo chỉ xét về áp dụng pháp luật)	"Giám đốc thẩm" ở VN là thủ tục đặc biệt với bản án đã có hiệu lực; Revision là kháng cáo thông thường, bản án chưa có hiệu lực
+C1b.tsv	die Revision	example_vi	Ở cấp thượng thẩm, chỉ việc áp dụng pháp luật được xem xét lại.	Đồng bộ với nghĩa đã sửa
+C1b.tsv	die Gerichtsbarkeit	example_vi	Ngành tòa án thông thường bao gồm các vụ việc dân sự và hình sự.	"ordentliche" = thông thường; "ngành tòa án thường xét xử" dễ hiểu nhầm thành "thường xuyên"
+C1b.tsv	die herrschende Meinung	plural		Thuật ngữ cố định, không dùng số nhiều (đồng bộ với C1a)
+C1c.tsv	die Aufbewahrungsfrist	example_de	Für Buchungsbelege gilt eine Aufbewahrungsfrist von acht Jahren.	Từ 2025 (BEG IV) thời hạn lưu giữ chứng từ kế toán giảm từ 10 xuống 8 năm (§ 147 AO, § 257 HGB)
+C1c.tsv	die Aufbewahrungsfrist	example_vi	Chứng từ kế toán có thời hạn lưu giữ tám năm.	Khớp với câu tiếng Đức đã sửa
+C1c.tsv	die Liquidität	vietnamese	tính thanh khoản, khả năng thanh toán	Thuật ngữ tài chính chuẩn là "tính thanh khoản"
+C1c.tsv	die Liquidität	example_vi	Nếu không đủ thanh khoản thì có nguy cơ mất khả năng thanh toán.	Câu cũ lủng củng, lặp "khả năng thanh toán"
+C1c.tsv	der Steuersatz	example_de	Der sogenannte Spitzensteuersatz liegt bei 42 Prozent, für sehr hohe Einkommen gilt sogar 45 Prozent.	Thuế suất cao nhất thực tế là 45% (Reichensteuer); câu cũ gây hiểu nhầm
+C1c.tsv	der Steuersatz	example_vi	Thuế suất gọi là "thuế suất cao nhất" là 42 phần trăm, với thu nhập rất cao còn áp dụng 45 phần trăm.	Khớp với câu tiếng Đức đã sửa
+C1c.tsv	die Entfernungspauschale	example_de	Seit 2026 beträgt die Entfernungspauschale 38 Cent pro Kilometer.	Từ 01.01.2026 mức khoán là 38 cent ngay từ km đầu tiên (Steueränderungsgesetz 2025)
+C1c.tsv	die Entfernungspauschale	example_vi	Từ năm 2026, khoản khấu trừ khoán quãng đường đi làm là 38 xu mỗi kilômét.	Khớp với câu tiếng Đức đã sửa
+C1c.tsv	die Vorsteuer	example_de	Unternehmer können die gezahlte Vorsteuer von ihrer Umsatzsteuerschuld abziehen.	Vorsteuer được khấu trừ (Vorsteuerabzug, § 15 UStG), chỉ hoàn khi dư; không phải "đòi lại"
+C1c.tsv	die Vorsteuer	example_vi	Doanh nghiệp có thể khấu trừ thuế GTGT đầu vào đã trả vào số thuế GTGT phải nộp.	Dùng thuật ngữ chuẩn "khấu trừ"; thuế đầu vào trả cho người bán, không "nộp" cho cơ quan thuế
+C1c.tsv	der Kleinunternehmer	vietnamese	người kinh doanh nhỏ (được miễn thuế GTGT)	"Hộ kinh doanh" là loại hình pháp lý riêng của VN, gây hiểu nhầm
+C1c.tsv	der Kleinunternehmer	example_vi	Là người kinh doanh nhỏ, anh ấy không ghi thuế GTGT trên hóa đơn.	Đồng bộ với nghĩa đã sửa
+C1c.tsv	der Versicherer	example_de	Der Versicherer kürzte die Leistung wegen grober Fahrlässigkeit.	Theo § 81 Abs. 2 VVG, lỗi vô ý nghiêm trọng chỉ cho phép cắt giảm theo tỷ lệ, không mặc nhiên từ chối toàn bộ
+C1c.tsv	der Versicherer	example_vi	Công ty bảo hiểm cắt giảm khoản chi trả vì lỗi bất cẩn nghiêm trọng.	Khớp với câu tiếng Đức đã sửa

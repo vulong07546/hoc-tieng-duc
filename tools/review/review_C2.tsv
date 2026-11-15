@@ -1,0 +1,16 @@
+C2a.tsv	die Einlage	example_de	Vor der Anmeldung muss auf jeden Geschäftsanteil mindestens ein Viertel der Einlage eingezahlt sein.	Sai luật: § 7 Abs. 2 GmbHG chỉ yêu cầu góp ít nhất 1/4 mỗi phần vốn (tổng tối thiểu 12.500 €), không phải toàn bộ
+C2a.tsv	die Einlage	example_vi	Trước khi đăng ký, mỗi phần vốn góp phải được nộp ít nhất một phần tư.	Khớp với câu tiếng Đức đã sửa
+C2a.tsv	die Bürgschaft	example_de	Die Bürgschaftserklärung bedarf grundsätzlich der Schriftform.	§ 766 BGB áp dụng cho mọi người bảo lãnh (trừ thương nhân), không riêng người tiêu dùng
+C2a.tsv	die Bürgschaft	example_vi	Về nguyên tắc, tuyên bố bảo lãnh phải được lập bằng văn bản.	Khớp với câu tiếng Đức đã sửa
+C2b.tsv	das Aussageverweigerungsrecht	example_de	Als Beschuldigter steht ihm ein umfassendes Aussageverweigerungsrecht zu.	Vợ/chồng của bị can có Zeugnisverweigerungsrecht (§ 52 StPO), không phải Aussageverweigerungsrecht
+C2b.tsv	das Aussageverweigerungsrecht	example_vi	Với tư cách là bị can, anh ta có quyền từ chối khai báo hoàn toàn.	Khớp với câu tiếng Đức đã sửa
+C2c.tsv	der Steuerbescheid	example_de	Der Steuerbescheid gilt am vierten Tag nach der Aufgabe zur Post als bekanntgegeben.	Từ 01.01.2025 § 122 Abs. 2 AO quy định ngày thứ tư, không còn là ngày thứ ba
+C2c.tsv	der Steuerbescheid	example_vi	Quyết định ấn định thuế được coi là đã thông báo vào ngày thứ tư sau khi gửi bưu điện.	Khớp với câu tiếng Đức đã sửa (ngày thứ tư)
+C2c.tsv	die Steuerpflicht	example_de	Die Steuerpflicht natürlicher Personen beginnt mit der Geburt und endet mit dem Tod.	Chuyển ra nước ngoài chỉ chấm dứt nghĩa vụ thuế không hạn chế; nghĩa vụ thuế hạn chế có thể vẫn còn
+C2c.tsv	die Steuerpflicht	example_vi	Nghĩa vụ thuế của thể nhân bắt đầu từ khi sinh ra và chấm dứt khi qua đời.	Khớp với câu tiếng Đức đã sửa
+C2c.tsv	die Selbstanzeige	example_de	Eine wirksame Selbstanzeige muss alle unverjährten Steuerstraftaten einer Steuerart vollständig umfassen.	§ 371 Abs. 1 AO: nguyên tắc đầy đủ áp dụng theo từng loại thuế, không phải mọi tội phạm thuế
+C2c.tsv	die Selbstanzeige	example_vi	Việc tự khai báo hợp lệ phải bao gồm đầy đủ mọi hành vi phạm tội thuế chưa hết thời hiệu của cùng một loại thuế.	Khớp với câu tiếng Đức đã sửa
+C2c.tsv	der Solidaritätszuschlag	example_de	Seit 2021 zahlen die meisten Lohn- und Einkommensteuerpflichtigen keinen Solidaritätszuschlag mehr.	Sai: Soli vẫn thu trên thuế TNDN và thuế khấu trừ thu nhập từ vốn của mọi người, không chỉ người thu nhập cao
+C2c.tsv	der Solidaritätszuschlag	example_vi	Từ năm 2021, phần lớn người nộp thuế thu nhập cá nhân và thuế tiền lương không còn phải nộp phụ thu đoàn kết.	Khớp với câu tiếng Đức đã sửa
+C2c.tsv	die Umwandlung	example_de	Die Verschmelzung zweier GmbHs kann auf Antrag zu Buchwerten und damit steuerneutral erfolgen.	Chuyển GmbH thành KG thường phát sinh thuế với lợi nhuận giữ lại (§ 7 UmwStG), nên nói «có thể không phát sinh thuế» là gây hiểu sai
+C2c.tsv	die Umwandlung	example_vi	Việc sáp nhập hai công ty TNHH có thể được thực hiện theo giá trị sổ sách nếu có đề nghị, do đó không phát sinh thuế.	Khớp với câu tiếng Đức đã sửa

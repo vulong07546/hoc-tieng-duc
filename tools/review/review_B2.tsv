@@ -1,0 +1,13 @@
+B2a.tsv	die Krankmeldung	example_de	Dauert die Krankheit länger als drei Tage, braucht der Arbeitgeber eine Krankmeldung.	Sai luật: theo §5 EFZG phải nộp khi ốm quá 3 ngày, tức từ ngày thứ tư
+B2a.tsv	die Krankmeldung	example_vi	Nếu ốm quá ba ngày, người sử dụng lao động cần giấy báo ốm.	Khớp với example_de đã sửa
+B2a.tsv	das Start-up	example_de	Das Berliner Start-up hat Millionen Euro von Investoren erhalten.	"Millionen von Investoren" bị hiểu thành "hàng triệu nhà đầu tư"; cần ghi rõ đơn vị tiền
+B2a.tsv	das Start-up	example_vi	Công ty khởi nghiệp ở Berlin đã nhận được hàng triệu euro từ các nhà đầu tư.	Khớp với example_de đã sửa
+B2a.tsv	die Insolvenz	example_vi	Cửa hàng nội thất đã phải nộp đơn yêu cầu mở thủ tục phá sản vào mùa xuân.	"Insolvenz anmelden" = nộp đơn yêu cầu mở thủ tục phá sản (thuật ngữ Luật Phá sản); "nộp đơn mất khả năng thanh toán" sai thuật ngữ
+B2b.tsv	die Krankschreibung	example_de	Ab dem vierten Krankheitstag braucht man eine Krankschreibung.	Sai luật: theo §5 EFZG giấy nghỉ ốm cần khi ốm quá 3 ngày, tức từ ngày thứ tư
+B2b.tsv	die Krankschreibung	example_vi	Từ ngày ốm thứ tư trở đi cần có giấy chứng nhận nghỉ ốm.	Khớp với example_de đã sửa
+B2b.tsv	die Raumfahrt	vietnamese	ngành du hành vũ trụ	"Hàng không vũ trụ" là Luft- und Raumfahrt (gồm cả hàng không); Raumfahrt chỉ là du hành vũ trụ
+B2b.tsv	die Raumfahrt	example_vi	Ngành du hành vũ trụ đã tạo ra nhiều phát triển kỹ thuật.	Khớp với nghĩa đã sửa
+B2b.tsv	die Emission	example_vi	Trong tương lai, doanh nghiệp phải trả nhiều tiền hơn cho mức phát thải cao.	"Doanh nghiệp tương lai" bị hiểu thành "các doanh nghiệp trong tương lai"; "künftig" là trạng từ thời gian
+B2c.tsv	zulassen	example_vi	Tòa án đã cho phép kháng cáo.	"Berufung zulassen" là cho phép kháng cáo (thủ tục), không phải chấp nhận nội dung kháng cáo
+B2c.tsv	belegen	example_de	Ausgaben müssen durch Quittungen belegt werden.	Câu cũ không dùng động từ "belegen" (dùng "nachweisen"), không minh họa từ vựng
+B2c.tsv	belegen	example_vi	Các khoản chi phải được chứng minh bằng hóa đơn.	Khớp với example_de đã sửa

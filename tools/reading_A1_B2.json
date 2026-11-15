@@ -1,0 +1,1642 @@
+{
+  "A1": [
+    {
+      "title": "Eine E-Mail an Anna",
+      "title_vi": "Một email gửi Anna",
+      "emoji": "📧",
+      "text": "Liebe Anna,\n\nwie geht es dir? Mir geht es gut. Ich wohne jetzt in Leipzig. Meine Wohnung ist klein, aber schön. Sie hat ein Zimmer, eine Küche und ein Bad.\n\nIch lerne jeden Tag Deutsch. Der Kurs beginnt um neun Uhr und endet um eins. Meine Lehrerin heißt Frau Becker. Sie ist sehr nett.\n\nAm Samstag habe ich Zeit. Möchtest du mich besuchen? Wir können zusammen kochen. Ich koche Phở, das ist eine Suppe aus Vietnam.\n\nViele Grüße\nMinh",
+      "vi": "Anna thân mến,\n\nbạn khỏe không? Mình khỏe. Bây giờ mình sống ở Leipzig. Căn hộ của mình nhỏ nhưng đẹp. Nó có một phòng, một bếp và một phòng tắm.\n\nMình học tiếng Đức mỗi ngày. Khóa học bắt đầu lúc chín giờ và kết thúc lúc một giờ. Cô giáo của mình tên là cô Becker. Cô ấy rất dễ mến.\n\nThứ Bảy mình rảnh. Bạn có muốn đến thăm mình không? Chúng ta có thể cùng nấu ăn. Mình sẽ nấu phở, đó là một món súp của Việt Nam.\n\nThân ái,\nMinh",
+      "glossary": [
+        {
+          "de": "die Wohnung",
+          "vi": "căn hộ"
+        },
+        {
+          "de": "die Küche",
+          "vi": "nhà bếp"
+        },
+        {
+          "de": "das Bad",
+          "vi": "phòng tắm"
+        },
+        {
+          "de": "beginnen",
+          "vi": "bắt đầu"
+        },
+        {
+          "de": "enden",
+          "vi": "kết thúc"
+        },
+        {
+          "de": "nett",
+          "vi": "dễ mến, tử tế"
+        },
+        {
+          "de": "besuchen",
+          "vi": "đến thăm"
+        },
+        {
+          "de": "zusammen",
+          "vi": "cùng nhau"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Wo wohnt Minh? (Minh sống ở đâu?)",
+          "options": [
+            "In Berlin",
+            "In Leipzig",
+            "In Vietnam"
+          ],
+          "answer": 1,
+          "explain": "Trong thư: „Ich wohne jetzt in Leipzig.“ – Bây giờ mình sống ở Leipzig."
+        },
+        {
+          "q": "Wie ist die Wohnung? (Căn hộ như thế nào?)",
+          "options": [
+            "Groß und alt",
+            "Groß und schön",
+            "Klein, aber schön",
+            "Klein und teuer"
+          ],
+          "answer": 2,
+          "explain": "„Meine Wohnung ist klein, aber schön.“ – Căn hộ nhỏ nhưng đẹp."
+        },
+        {
+          "q": "Wann endet der Kurs? (Khóa học kết thúc lúc mấy giờ?)",
+          "options": [
+            "Um eins",
+            "Um neun Uhr",
+            "Um zehn Uhr"
+          ],
+          "answer": 0,
+          "explain": "„Der Kurs beginnt um neun Uhr und endet um eins.“ – kết thúc lúc một giờ."
+        },
+        {
+          "q": "Wer ist Frau Becker? (Bà Becker là ai?)",
+          "options": [
+            "Minhs Nachbarin",
+            "Minhs Freundin",
+            "Minhs Mutter",
+            "Minhs Lehrerin"
+          ],
+          "answer": 3,
+          "explain": "„Meine Lehrerin heißt Frau Becker.“ – Cô giáo của Minh tên là Becker."
+        },
+        {
+          "q": "Was möchte Minh am Samstag machen? (Minh muốn làm gì vào thứ Bảy?)",
+          "options": [
+            "Deutsch lernen",
+            "Mit Anna kochen",
+            "Nach Vietnam fliegen"
+          ],
+          "answer": 1,
+          "explain": "Minh mời Anna đến chơi: „Wir können zusammen kochen.“ – cùng nhau nấu ăn."
+        }
+      ]
+    },
+    {
+      "title": "Zimmer in WG frei",
+      "title_vi": "Phòng trống trong nhà ở chung",
+      "emoji": "🏠",
+      "text": "Zimmer frei in Köln-Ehrenfeld!\n\nWir sind eine WG mit drei Personen: Lisa (24), Tom (27) und Ahmet (22). Wir sind Studenten. Ab 1. März ist ein Zimmer frei.\n\nDas Zimmer ist 16 Quadratmeter groß und hell. Es hat ein Bett, einen Schrank und einen Tisch. Die Küche und das Bad sind für alle. Die Miete kostet 420 Euro im Monat, mit Strom und Internet.\n\nDie Wohnung liegt im zweiten Stock. Der Bahnhof ist nur fünf Minuten zu Fuß entfernt.\n\nRauchen ist in der Wohnung verboten. Haustiere sind leider nicht erlaubt.\n\nInteresse? Schreib uns eine E-Mail: wg-ehrenfeld@beispiel.de",
+      "vi": "Phòng trống ở Köln-Ehrenfeld!\n\nChúng mình là một nhà ở chung (WG) gồm ba người: Lisa (24 tuổi), Tom (27 tuổi) và Ahmet (22 tuổi). Chúng mình là sinh viên. Từ ngày 1 tháng 3 có một phòng trống.\n\nPhòng rộng 16 mét vuông và sáng sủa. Phòng có một cái giường, một cái tủ và một cái bàn. Bếp và phòng tắm dùng chung cho tất cả mọi người. Tiền thuê là 420 euro mỗi tháng, đã bao gồm điện và internet.\n\nCăn hộ nằm ở tầng hai. Nhà ga chỉ cách năm phút đi bộ.\n\nCấm hút thuốc trong căn hộ. Rất tiếc là không được nuôi vật nuôi.\n\nBạn quan tâm? Hãy gửi email cho chúng mình: wg-ehrenfeld@beispiel.de",
+      "glossary": [
+        {
+          "de": "die WG (Wohngemeinschaft)",
+          "vi": "nhà ở chung, nhiều người thuê chung một căn hộ"
+        },
+        {
+          "de": "frei",
+          "vi": "trống, còn chỗ"
+        },
+        {
+          "de": "hell",
+          "vi": "sáng sủa"
+        },
+        {
+          "de": "der Schrank",
+          "vi": "cái tủ"
+        },
+        {
+          "de": "die Miete",
+          "vi": "tiền thuê nhà"
+        },
+        {
+          "de": "der Strom",
+          "vi": "điện"
+        },
+        {
+          "de": "der Stock",
+          "vi": "tầng (nhà)"
+        },
+        {
+          "de": "zu Fuß",
+          "vi": "đi bộ"
+        },
+        {
+          "de": "verboten",
+          "vi": "bị cấm"
+        },
+        {
+          "de": "das Haustier",
+          "vi": "vật nuôi trong nhà"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Wie viele Personen wohnen jetzt in der WG? (Hiện có bao nhiêu người sống trong WG?)",
+          "options": [
+            "Vier",
+            "Zwei",
+            "Drei"
+          ],
+          "answer": 2,
+          "explain": "„Wir sind eine WG mit drei Personen: Lisa, Tom und Ahmet.“"
+        },
+        {
+          "q": "Wie groß ist das Zimmer? (Phòng rộng bao nhiêu?)",
+          "options": [
+            "16 Quadratmeter",
+            "24 Quadratmeter",
+            "27 Quadratmeter",
+            "42 Quadratmeter"
+          ],
+          "answer": 0,
+          "explain": "„Das Zimmer ist 16 Quadratmeter groß.“"
+        },
+        {
+          "q": "Was kostet das Zimmer? (Phòng giá bao nhiêu?)",
+          "options": [
+            "420 Euro ohne Strom",
+            "420 Euro mit Strom und Internet",
+            "240 Euro im Monat"
+          ],
+          "answer": 1,
+          "explain": "„Die Miete kostet 420 Euro im Monat, mit Strom und Internet.“ – đã gồm điện và internet."
+        },
+        {
+          "q": "Was ist in der Wohnung verboten? (Điều gì bị cấm trong căn hộ?)",
+          "options": [
+            "Kochen",
+            "Musik hören",
+            "Besuch",
+            "Rauchen"
+          ],
+          "answer": 3,
+          "explain": "„Rauchen ist in der Wohnung verboten.“ – Cấm hút thuốc."
+        },
+        {
+          "q": "Wie weit ist der Bahnhof? (Nhà ga cách bao xa?)",
+          "options": [
+            "Fünf Minuten zu Fuß",
+            "Fünf Minuten mit dem Bus",
+            "Fünfzehn Minuten zu Fuß"
+          ],
+          "answer": 0,
+          "explain": "„Der Bahnhof ist nur fünf Minuten zu Fuß entfernt.“"
+        }
+      ]
+    },
+    {
+      "title": "Mein Stundenplan",
+      "title_vi": "Thời khóa biểu của tôi",
+      "emoji": "📅",
+      "text": "Hallo, ich heiße Thu und ich mache einen Deutschkurs an der Volkshochschule. Hier ist mein Stundenplan.\n\nVon Montag bis Donnerstag habe ich Unterricht. Der Kurs beginnt um 8:30 Uhr und endet um 12:00 Uhr. Um 10:00 Uhr haben wir eine Pause. Am Montag und am Mittwoch lernen wir Grammatik. Am Dienstag üben wir Sprechen. Am Donnerstag schreiben wir einen Test.\n\nAm Freitag habe ich keinen Kurs. Dann arbeite ich in einem Café. Am Nachmittag lerne ich zu Hause Wörter.\n\nAm Wochenende habe ich frei. Ich gehe gern spazieren oder ich telefoniere mit meiner Familie in Hanoi.",
+      "vi": "Xin chào, mình tên là Thu và mình đang học một khóa tiếng Đức ở trung tâm giáo dục cộng đồng (Volkshochschule). Đây là thời khóa biểu của mình.\n\nTừ thứ Hai đến thứ Năm mình có giờ học. Khóa học bắt đầu lúc 8 giờ 30 và kết thúc lúc 12 giờ. Lúc 10 giờ chúng mình có giờ nghỉ. Thứ Hai và thứ Tư chúng mình học ngữ pháp. Thứ Ba chúng mình luyện nói. Thứ Năm chúng mình làm bài kiểm tra.\n\nThứ Sáu mình không có lớp. Hôm đó mình làm việc ở một quán cà phê. Buổi chiều mình học từ vựng ở nhà.\n\nCuối tuần mình được nghỉ. Mình thích đi dạo hoặc gọi điện cho gia đình ở Hà Nội.",
+      "glossary": [
+        {
+          "de": "die Volkshochschule (VHS)",
+          "vi": "trung tâm giáo dục cộng đồng (dành cho người lớn)"
+        },
+        {
+          "de": "der Stundenplan",
+          "vi": "thời khóa biểu"
+        },
+        {
+          "de": "der Unterricht",
+          "vi": "giờ học, buổi học"
+        },
+        {
+          "de": "die Pause",
+          "vi": "giờ nghỉ"
+        },
+        {
+          "de": "üben",
+          "vi": "luyện tập"
+        },
+        {
+          "de": "der Test",
+          "vi": "bài kiểm tra"
+        },
+        {
+          "de": "das Wochenende",
+          "vi": "cuối tuần"
+        },
+        {
+          "de": "spazieren gehen",
+          "vi": "đi dạo"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Wo lernt Thu Deutsch? (Thu học tiếng Đức ở đâu?)",
+          "options": [
+            "An der Volkshochschule",
+            "An der Universität",
+            "In einem Café"
+          ],
+          "answer": 0,
+          "explain": "„Ich mache einen Deutschkurs an der Volkshochschule.“"
+        },
+        {
+          "q": "Wann beginnt der Kurs? (Khóa học bắt đầu lúc mấy giờ?)",
+          "options": [
+            "Um 10:00 Uhr",
+            "Um 12:00 Uhr",
+            "Um 8:30 Uhr"
+          ],
+          "answer": 2,
+          "explain": "„Der Kurs beginnt um 8:30 Uhr.“ 10 giờ là giờ nghỉ, 12 giờ là giờ kết thúc."
+        },
+        {
+          "q": "Was macht Thu am Dienstag im Kurs? (Thứ Ba Thu làm gì ở lớp?)",
+          "options": [
+            "Grammatik lernen",
+            "Sprechen üben",
+            "Einen Test schreiben",
+            "Wörter lernen"
+          ],
+          "answer": 1,
+          "explain": "„Am Dienstag üben wir Sprechen.“ – Thứ Ba luyện nói."
+        },
+        {
+          "q": "Was macht Thu am Freitag? (Thứ Sáu Thu làm gì?)",
+          "options": [
+            "Sie hat Kurs.",
+            "Sie fährt nach Hanoi.",
+            "Sie schreibt einen Test.",
+            "Sie arbeitet in einem Café."
+          ],
+          "answer": 3,
+          "explain": "„Am Freitag habe ich keinen Kurs. Dann arbeite ich in einem Café.“"
+        },
+        {
+          "q": "Wo wohnt die Familie von Thu? (Gia đình Thu sống ở đâu?)",
+          "options": [
+            "In Berlin",
+            "In Hanoi",
+            "In Saigon"
+          ],
+          "answer": 1,
+          "explain": "„… ich telefoniere mit meiner Familie in Hanoi.“"
+        }
+      ]
+    },
+    {
+      "title": "Einladung zum Geburtstag",
+      "title_vi": "Lời mời dự sinh nhật",
+      "emoji": "🎂",
+      "text": "Hallo zusammen,\n\nam Samstag, den 14. Juni, werde ich 30 Jahre alt. Das möchte ich mit euch feiern! Die Party beginnt um 19 Uhr bei mir zu Hause, in der Gartenstraße 8.\n\nEs gibt Essen und Getränke. Ich mache Frühlingsrollen und einen Salat. Könnt ihr vielleicht einen Kuchen oder Saft mitbringen?\n\nWir können im Garten sitzen. Bei Regen feiern wir im Wohnzimmer. Bitte bringt keine Geschenke mit. Ihr seid mein Geschenk!\n\nBitte antwortet bis Mittwoch. Dann kann ich genug einkaufen.\n\nBis bald!\nLan",
+      "vi": "Chào cả nhà,\n\nthứ Bảy, ngày 14 tháng 6, mình tròn 30 tuổi. Mình muốn ăn mừng cùng các bạn! Bữa tiệc bắt đầu lúc 19 giờ tại nhà mình, số 8 phố Gartenstraße.\n\nSẽ có đồ ăn và đồ uống. Mình làm chả giò và một món salad. Các bạn có thể mang theo một cái bánh ngọt hoặc nước hoa quả được không?\n\nChúng ta có thể ngồi ngoài vườn. Nếu trời mưa thì chúng ta tổ chức trong phòng khách. Xin đừng mang quà nhé. Các bạn chính là món quà của mình!\n\nHãy trả lời mình trước thứ Tư nhé. Như vậy mình có thể mua sắm đủ.\n\nHẹn sớm gặp lại!\nLan",
+      "glossary": [
+        {
+          "de": "die Einladung",
+          "vi": "lời mời"
+        },
+        {
+          "de": "feiern",
+          "vi": "ăn mừng, tổ chức tiệc"
+        },
+        {
+          "de": "das Getränk",
+          "vi": "đồ uống"
+        },
+        {
+          "de": "die Frühlingsrolle",
+          "vi": "chả giò, nem rán"
+        },
+        {
+          "de": "mitbringen",
+          "vi": "mang theo"
+        },
+        {
+          "de": "der Regen",
+          "vi": "mưa"
+        },
+        {
+          "de": "das Wohnzimmer",
+          "vi": "phòng khách"
+        },
+        {
+          "de": "das Geschenk",
+          "vi": "món quà"
+        },
+        {
+          "de": "einkaufen",
+          "vi": "mua sắm"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Wie alt wird Lan? (Lan bước sang bao nhiêu tuổi?)",
+          "options": [
+            "13",
+            "40",
+            "30"
+          ],
+          "answer": 2,
+          "explain": "„… werde ich 30 Jahre alt.“"
+        },
+        {
+          "q": "Wann beginnt die Party? (Bữa tiệc bắt đầu lúc mấy giờ?)",
+          "options": [
+            "Um 14 Uhr",
+            "Um 19 Uhr",
+            "Um 8 Uhr",
+            "Um 9 Uhr"
+          ],
+          "answer": 1,
+          "explain": "„Die Party beginnt um 19 Uhr.“ Số 14 là ngày, số 8 là số nhà."
+        },
+        {
+          "q": "Was macht Lan für die Party? (Lan làm món gì cho bữa tiệc?)",
+          "options": [
+            "Kuchen und Saft",
+            "Pizza und Suppe",
+            "Frühlingsrollen und einen Salat"
+          ],
+          "answer": 2,
+          "explain": "„Ich mache Frühlingsrollen und einen Salat.“ Bánh và nước quả là khách mang đến."
+        },
+        {
+          "q": "Wo feiern sie bei Regen? (Nếu mưa thì tổ chức ở đâu?)",
+          "options": [
+            "Im Wohnzimmer",
+            "Im Garten",
+            "Im Restaurant"
+          ],
+          "answer": 0,
+          "explain": "„Bei Regen feiern wir im Wohnzimmer.“"
+        },
+        {
+          "q": "Was sollen die Gäste nicht mitbringen? (Khách không nên mang gì?)",
+          "options": [
+            "Kuchen",
+            "Saft",
+            "Geschenke"
+          ],
+          "answer": 2,
+          "explain": "„Bitte bringt keine Geschenke mit.“ – Xin đừng mang quà."
+        }
+      ]
+    }
+  ],
+  "A2": [
+    {
+      "title": "Brief an den Vermieter",
+      "title_vi": "Thư gửi chủ nhà",
+      "emoji": "✉️",
+      "text": "Sehr geehrter Herr Schulz,\n\nich wohne seit Oktober in Ihrer Wohnung in der Lindenstraße 12, im dritten Stock. Leider funktioniert die Heizung im Schlafzimmer seit fünf Tagen nicht mehr. Es ist sehr kalt, nachts nur 14 Grad. Mein kleiner Sohn ist deshalb schon erkältet.\n\nAuch das Fenster in der Küche schließt nicht richtig. Wenn es regnet, kommt Wasser in die Wohnung.\n\nKönnen Sie bitte so schnell wie möglich einen Handwerker schicken? Ich bin jeden Tag ab 15 Uhr zu Hause, denn am Vormittag arbeite ich. Sie können mich natürlich auch gern anrufen.\n\nVielen Dank im Voraus.\n\nMit freundlichen Grüßen\nNguyen Van Hai",
+      "vi": "Kính gửi ông Schulz,\n\ntôi sống trong căn hộ của ông ở số 12 phố Lindenstraße, tầng ba, từ tháng Mười. Đáng tiếc là lò sưởi trong phòng ngủ đã không hoạt động năm ngày nay. Trời rất lạnh, ban đêm chỉ có 14 độ. Vì thế con trai nhỏ của tôi đã bị cảm.\n\nCửa sổ trong bếp cũng không đóng kín được. Khi trời mưa, nước chảy vào căn hộ.\n\nÔng có thể vui lòng cử một thợ sửa chữa đến càng sớm càng tốt được không? Ngày nào tôi cũng ở nhà từ 15 giờ, vì buổi sáng tôi đi làm. Tất nhiên ông cũng có thể gọi điện cho tôi.\n\nXin cảm ơn ông trước.\n\nTrân trọng,\nNguyễn Văn Hải",
+      "glossary": [
+        {
+          "de": "Sehr geehrter Herr …",
+          "vi": "Kính gửi ông … (mở đầu thư trang trọng)"
+        },
+        {
+          "de": "funktionieren",
+          "vi": "hoạt động"
+        },
+        {
+          "de": "die Heizung",
+          "vi": "lò sưởi, hệ thống sưởi"
+        },
+        {
+          "de": "das Schlafzimmer",
+          "vi": "phòng ngủ"
+        },
+        {
+          "de": "erkältet sein",
+          "vi": "bị cảm lạnh"
+        },
+        {
+          "de": "schließen",
+          "vi": "đóng"
+        },
+        {
+          "de": "der Handwerker",
+          "vi": "thợ sửa chữa"
+        },
+        {
+          "de": "schicken",
+          "vi": "gửi, cử đến"
+        },
+        {
+          "de": "im Voraus",
+          "vi": "trước"
+        },
+        {
+          "de": "Mit freundlichen Grüßen",
+          "vi": "Trân trọng (kết thư trang trọng)"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Warum schreibt Herr Nguyen den Brief? (Vì sao ông Nguyen viết thư?)",
+          "options": [
+            "Er möchte umziehen.",
+            "Die Heizung ist kaputt.",
+            "Er möchte die Miete später bezahlen.",
+            "Er sucht eine neue Wohnung."
+          ],
+          "answer": 1,
+          "explain": "„Leider funktioniert die Heizung im Schlafzimmer seit fünf Tagen nicht mehr.“"
+        },
+        {
+          "q": "Seit wann funktioniert die Heizung nicht? (Lò sưởi hỏng từ bao giờ?)",
+          "options": [
+            "Seit 14 Tagen",
+            "Seit Oktober",
+            "Seit fünf Tagen"
+          ],
+          "answer": 2,
+          "explain": "„… seit fünf Tagen nicht mehr.“ Tháng Mười là lúc ông chuyển đến, 14 là nhiệt độ."
+        },
+        {
+          "q": "Was ist das Problem mit dem Küchenfenster? (Cửa sổ bếp bị làm sao?)",
+          "options": [
+            "Es schließt nicht richtig.",
+            "Es ist zu klein.",
+            "Es ist sehr schmutzig."
+          ],
+          "answer": 0,
+          "explain": "„Auch das Fenster in der Küche schließt nicht richtig.“"
+        },
+        {
+          "q": "Wann ist Herr Nguyen zu Hause? (Khi nào ông Nguyen ở nhà?)",
+          "options": [
+            "Nur am Wochenende",
+            "Am Vormittag",
+            "Jeden Tag ab 15 Uhr"
+          ],
+          "answer": 2,
+          "explain": "„Ich bin jeden Tag ab 15 Uhr zu Hause, denn am Vormittag arbeite ich.“"
+        },
+        {
+          "q": "Wer ist krank? (Ai bị ốm?)",
+          "options": [
+            "Herr Schulz",
+            "Herr Nguyen",
+            "Der Sohn von Herrn Nguyen",
+            "Der Handwerker"
+          ],
+          "answer": 2,
+          "explain": "„Mein kleiner Sohn ist deshalb schon erkältet.“ – con trai ông bị cảm."
+        }
+      ]
+    },
+    {
+      "title": "Die Hausordnung",
+      "title_vi": "Nội quy tòa nhà",
+      "emoji": "📋",
+      "text": "Hausordnung für das Haus Bergstraße 5\n\nLiebe Mieterinnen und Mieter, damit alle gut zusammenleben können, beachten Sie bitte diese Regeln:\n\nRuhezeiten: Von 22 Uhr bis 6 Uhr und am Sonntag den ganzen Tag soll es im Haus ruhig sein. Bitte hören Sie dann keine laute Musik und benutzen Sie keine Bohrmaschine.\n\nMüll: Bitte trennen Sie den Müll. Papier kommt in die blaue Tonne, Plastik in die gelbe Tonne und Essensreste in die braune Tonne. Glas bringen Sie bitte zum Container an der Ecke.\n\nTreppenhaus: Fahrräder und Kinderwagen dürfen nicht im Treppenhaus stehen. Dafür gibt es einen Raum im Keller.\n\nReinigung: Jede Woche putzt eine andere Partei die Treppe. Den Plan finden Sie am Eingang.\n\nVielen Dank!\nIhre Hausverwaltung",
+      "vi": "Nội quy cho tòa nhà số 5 phố Bergstraße\n\nKính gửi các cư dân thuê nhà, để mọi người có thể chung sống tốt với nhau, xin hãy tuân thủ các quy định sau:\n\nGiờ yên tĩnh: Từ 22 giờ đến 6 giờ sáng và cả ngày Chủ nhật, trong tòa nhà cần giữ yên tĩnh. Trong thời gian đó xin đừng mở nhạc to và không dùng máy khoan.\n\nRác: Xin hãy phân loại rác. Giấy bỏ vào thùng màu xanh dương, nhựa vào thùng màu vàng và thức ăn thừa vào thùng màu nâu. Thủy tinh xin mang đến thùng container ở góc phố.\n\nCầu thang chung: Xe đạp và xe đẩy em bé không được để trong khu cầu thang. Có một phòng dưới tầng hầm dành cho việc này.\n\nVệ sinh: Mỗi tuần một hộ khác nhau lau cầu thang. Bảng phân công được dán ở lối vào.\n\nXin cảm ơn!\nBan quản lý nhà",
+      "glossary": [
+        {
+          "de": "die Hausordnung",
+          "vi": "nội quy tòa nhà"
+        },
+        {
+          "de": "die Ruhezeit",
+          "vi": "giờ yên tĩnh"
+        },
+        {
+          "de": "die Bohrmaschine",
+          "vi": "máy khoan"
+        },
+        {
+          "de": "den Müll trennen",
+          "vi": "phân loại rác"
+        },
+        {
+          "de": "die Tonne",
+          "vi": "thùng rác lớn"
+        },
+        {
+          "de": "das Treppenhaus",
+          "vi": "khu cầu thang chung"
+        },
+        {
+          "de": "der Kinderwagen",
+          "vi": "xe đẩy em bé"
+        },
+        {
+          "de": "der Keller",
+          "vi": "tầng hầm"
+        },
+        {
+          "de": "die Partei",
+          "vi": "(ở đây) hộ thuê nhà trong tòa nhà"
+        },
+        {
+          "de": "die Hausverwaltung",
+          "vi": "ban quản lý nhà"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Wann ist Ruhezeit? (Giờ yên tĩnh là khi nào?)",
+          "options": [
+            "Von 22 bis 6 Uhr und am Sonntag",
+            "Nur am Sonntag",
+            "Von 20 bis 8 Uhr",
+            "Am Samstag den ganzen Tag"
+          ],
+          "answer": 0,
+          "explain": "„Von 22 Uhr bis 6 Uhr und am Sonntag den ganzen Tag soll es im Haus ruhig sein.“"
+        },
+        {
+          "q": "Wohin kommt Papier? (Giấy bỏ vào đâu?)",
+          "options": [
+            "In die gelbe Tonne",
+            "In die braune Tonne",
+            "In die blaue Tonne"
+          ],
+          "answer": 2,
+          "explain": "„Papier kommt in die blaue Tonne.“ Thùng vàng cho nhựa, thùng nâu cho thức ăn thừa."
+        },
+        {
+          "q": "Was macht man mit Glas? (Thủy tinh xử lý thế nào?)",
+          "options": [
+            "Man wirft es in die gelbe Tonne.",
+            "Man bringt es zum Container an der Ecke.",
+            "Man stellt es in den Keller."
+          ],
+          "answer": 1,
+          "explain": "„Glas bringen Sie bitte zum Container an der Ecke.“"
+        },
+        {
+          "q": "Wo sollen die Fahrräder stehen? (Xe đạp phải để ở đâu?)",
+          "options": [
+            "Im Treppenhaus",
+            "Vor der Wohnungstür",
+            "In einem Raum im Keller",
+            "Auf dem Balkon"
+          ],
+          "answer": 2,
+          "explain": "Xe đạp không được để ở cầu thang: „Dafür gibt es einen Raum im Keller.“"
+        },
+        {
+          "q": "Wer putzt die Treppe? (Ai lau cầu thang?)",
+          "options": [
+            "Ein Hausmeister",
+            "Jede Woche eine andere Partei",
+            "Die Hausverwaltung"
+          ],
+          "answer": 1,
+          "explain": "„Jede Woche putzt eine andere Partei die Treppe.“ – các hộ thay phiên nhau."
+        }
+      ]
+    },
+    {
+      "title": "Beim Arzt",
+      "title_vi": "Đi khám bác sĩ",
+      "emoji": "🩺",
+      "text": "Letzte Woche war Mai krank. Sie hatte Kopfschmerzen, Halsschmerzen und Fieber. Am Montagmorgen hat sie in der Praxis von Dr. Wagner angerufen und einen Termin vereinbart.\n\nIn der Praxis musste sie zuerst ihre Versichertenkarte zeigen. Dann hat sie im Wartezimmer gewartet, fast eine Stunde lang.\n\nDr. Wagner hat Mai untersucht. „Sie haben eine Grippe“, hat er gesagt. „Sie müssen viel trinken und im Bett bleiben. Ich schreibe Ihnen ein Rezept für Tabletten gegen das Fieber.“ Mai hat auch eine Krankmeldung für ihren Arbeitgeber bekommen. Sie durfte eine Woche zu Hause bleiben.\n\nDie Tabletten hat sie in der Apotheke gekauft. Nach fünf Tagen ging es ihr wieder besser.",
+      "vi": "Tuần trước Mai bị ốm. Cô ấy bị đau đầu, đau họng và sốt. Sáng thứ Hai, cô gọi điện đến phòng khám của bác sĩ Wagner và đặt lịch hẹn.\n\nỞ phòng khám, trước tiên cô phải xuất trình thẻ bảo hiểm y tế. Sau đó cô ngồi đợi trong phòng chờ, gần một tiếng đồng hồ.\n\nBác sĩ Wagner đã khám cho Mai. Ông nói: “Cô bị cúm. Cô phải uống nhiều nước và nằm nghỉ trên giường. Tôi sẽ kê cho cô đơn thuốc hạ sốt.” Mai cũng nhận được giấy báo ốm để nộp cho chủ lao động. Cô được nghỉ ở nhà một tuần.\n\nCô mua thuốc ở nhà thuốc. Sau năm ngày cô đã khỏe hơn.",
+      "glossary": [
+        {
+          "de": "die Kopfschmerzen (Pl.)",
+          "vi": "đau đầu"
+        },
+        {
+          "de": "das Fieber",
+          "vi": "sốt"
+        },
+        {
+          "de": "die Praxis",
+          "vi": "phòng khám (tư)"
+        },
+        {
+          "de": "einen Termin vereinbaren",
+          "vi": "đặt lịch hẹn"
+        },
+        {
+          "de": "die Versichertenkarte",
+          "vi": "thẻ bảo hiểm y tế"
+        },
+        {
+          "de": "das Wartezimmer",
+          "vi": "phòng chờ"
+        },
+        {
+          "de": "untersuchen",
+          "vi": "khám bệnh"
+        },
+        {
+          "de": "das Rezept",
+          "vi": "đơn thuốc"
+        },
+        {
+          "de": "die Krankmeldung",
+          "vi": "giấy báo ốm (nộp cho nơi làm việc)"
+        },
+        {
+          "de": "die Apotheke",
+          "vi": "nhà thuốc"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Was hatte Mai? (Mai bị bệnh gì?)",
+          "options": [
+            "Bauchschmerzen und Fieber",
+            "Kopfschmerzen, Halsschmerzen und Fieber",
+            "Rückenschmerzen",
+            "Zahnschmerzen"
+          ],
+          "answer": 1,
+          "explain": "„Sie hatte Kopfschmerzen, Halsschmerzen und Fieber.“"
+        },
+        {
+          "q": "Was musste Mai in der Praxis zuerst zeigen? (Ở phòng khám Mai phải xuất trình gì trước?)",
+          "options": [
+            "Ihren Pass",
+            "Ihr Rezept",
+            "Ihre Versichertenkarte"
+          ],
+          "answer": 2,
+          "explain": "„In der Praxis musste sie zuerst ihre Versichertenkarte zeigen.“"
+        },
+        {
+          "q": "Wie lange hat Mai im Wartezimmer gewartet? (Mai đợi bao lâu?)",
+          "options": [
+            "Fast eine Stunde",
+            "Fünf Minuten",
+            "Eine Woche"
+          ],
+          "answer": 0,
+          "explain": "„… im Wartezimmer gewartet, fast eine Stunde lang.“"
+        },
+        {
+          "q": "Was soll Mai laut Arzt tun? (Bác sĩ khuyên Mai làm gì?)",
+          "options": [
+            "Viel Sport machen",
+            "Viel trinken und im Bett bleiben",
+            "Sofort wieder arbeiten"
+          ],
+          "answer": 1,
+          "explain": "„Sie müssen viel trinken und im Bett bleiben.“"
+        },
+        {
+          "q": "Wo hat Mai die Tabletten gekauft? (Mai mua thuốc ở đâu?)",
+          "options": [
+            "Im Supermarkt",
+            "In der Praxis",
+            "Im Krankenhaus",
+            "In der Apotheke"
+          ],
+          "answer": 3,
+          "explain": "„Die Tabletten hat sie in der Apotheke gekauft.“"
+        }
+      ]
+    },
+    {
+      "title": "Die Anmeldung beim Bürgeramt",
+      "title_vi": "Đăng ký cư trú tại Văn phòng công dân",
+      "emoji": "🏛️",
+      "text": "Lieber Duc,\n\ndu ziehst bald nach Deutschland – super! Ich möchte dir einen wichtigen Tipp geben: In Deutschland musst du deine Wohnung beim Bürgeramt anmelden. Das musst du innerhalb von zwei Wochen nach dem Einzug machen.\n\nDafür brauchst du einen Termin. Den kannst du online buchen. Manchmal muss man lange warten, also buch ihn früh!\n\nZum Termin musst du deinen Reisepass und die Wohnungsgeberbestätigung mitbringen. Dieses Formular bekommst du von deinem Vermieter. Er bestätigt damit, dass du in der Wohnung wohnst.\n\nDie Anmeldung kostet nichts. Danach bekommst du eine Meldebescheinigung. Die brauchst du oft, zum Beispiel für ein Bankkonto. Ein paar Wochen später kommt auch deine Steuer-Identifikationsnummer per Post.\n\nViele Grüße und bis bald\nHoa",
+      "vi": "Đức thân mến,\n\nem sắp sang Đức rồi – tuyệt quá! Chị muốn cho em một lời khuyên quan trọng: Ở Đức em phải đăng ký nơi ở tại Văn phòng công dân (Bürgeramt). Việc này phải làm trong vòng hai tuần sau khi dọn vào nhà.\n\nĐể làm việc đó em cần có lịch hẹn. Em có thể đặt lịch trên mạng. Đôi khi phải chờ lâu, nên hãy đặt sớm nhé!\n\nĐến buổi hẹn, em phải mang theo hộ chiếu và giấy xác nhận của chủ nhà (Wohnungsgeberbestätigung). Em nhận mẫu đơn này từ chủ nhà. Với giấy này, chủ nhà xác nhận rằng em đang sống trong căn hộ.\n\nViệc đăng ký không mất tiền. Sau đó em sẽ nhận được giấy xác nhận đăng ký cư trú (Meldebescheinigung). Em sẽ thường xuyên cần giấy này, ví dụ để mở tài khoản ngân hàng. Vài tuần sau, mã số thuế cá nhân của em cũng sẽ được gửi đến qua đường bưu điện.\n\nChúc em mọi điều tốt đẹp, hẹn sớm gặp lại\nHoa",
+      "glossary": [
+        {
+          "de": "anmelden",
+          "vi": "đăng ký (cư trú)"
+        },
+        {
+          "de": "das Bürgeramt",
+          "vi": "Văn phòng công dân (cơ quan hành chính địa phương)"
+        },
+        {
+          "de": "innerhalb von",
+          "vi": "trong vòng"
+        },
+        {
+          "de": "der Einzug",
+          "vi": "việc dọn vào nhà"
+        },
+        {
+          "de": "buchen",
+          "vi": "đặt (lịch, chỗ)"
+        },
+        {
+          "de": "der Reisepass",
+          "vi": "hộ chiếu"
+        },
+        {
+          "de": "die Wohnungsgeberbestätigung",
+          "vi": "giấy xác nhận của chủ nhà"
+        },
+        {
+          "de": "bestätigen",
+          "vi": "xác nhận"
+        },
+        {
+          "de": "die Meldebescheinigung",
+          "vi": "giấy xác nhận đăng ký cư trú"
+        },
+        {
+          "de": "die Steuer-Identifikationsnummer",
+          "vi": "mã số thuế cá nhân (Steuer-ID)"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Bis wann muss man die Wohnung anmelden? (Phải đăng ký nơi ở trong thời hạn nào?)",
+          "options": [
+            "Vor dem Einzug",
+            "Innerhalb von zwei Monaten",
+            "Nach einem Jahr",
+            "Innerhalb von zwei Wochen nach dem Einzug"
+          ],
+          "answer": 3,
+          "explain": "„Das musst du innerhalb von zwei Wochen nach dem Einzug machen.“"
+        },
+        {
+          "q": "Wie bekommt man einen Termin? (Đặt lịch hẹn bằng cách nào?)",
+          "options": [
+            "Man ruft den Vermieter an.",
+            "Man bucht ihn online.",
+            "Man geht einfach ohne Termin hin."
+          ],
+          "answer": 1,
+          "explain": "„Den kannst du online buchen.“"
+        },
+        {
+          "q": "Von wem bekommt man die Wohnungsgeberbestätigung? (Nhận giấy xác nhận của chủ nhà từ ai?)",
+          "options": [
+            "Vom Bürgeramt",
+            "Von der Bank",
+            "Vom Vermieter"
+          ],
+          "answer": 2,
+          "explain": "„Dieses Formular bekommst du von deinem Vermieter.“"
+        },
+        {
+          "q": "Wie viel kostet die Anmeldung? (Đăng ký tốn bao nhiêu tiền?)",
+          "options": [
+            "Nichts",
+            "10 Euro",
+            "Das steht nicht im Text."
+          ],
+          "answer": 0,
+          "explain": "„Die Anmeldung kostet nichts.“ – miễn phí."
+        },
+        {
+          "q": "Wie bekommt man die Steuer-ID? (Nhận mã số thuế bằng cách nào?)",
+          "options": [
+            "Beim Termin im Bürgeramt",
+            "Per Post",
+            "Von der Bank",
+            "Vom Vermieter"
+          ],
+          "answer": 1,
+          "explain": "„Ein paar Wochen später kommt auch deine Steuer-Identifikationsnummer per Post.“"
+        }
+      ]
+    }
+  ],
+  "B1": [
+    {
+      "title": "Kostenlose Rechtsberatung für Mieter",
+      "title_vi": "Tư vấn pháp lý miễn phí cho người thuê nhà",
+      "emoji": "📰",
+      "text": "Neustadt. Ab dem 1. Februar bietet die Stadt Neustadt eine kostenlose Mietrechtsberatung an. Das hat der Stadtrat am Dienstag beschlossen. Die Beratung findet zweimal pro Woche im Rathaus statt, jeweils dienstags und donnerstags von 14 bis 18 Uhr.\n\nHintergrund sind die stark gestiegenen Mieten. Viele Mieterinnen und Mieter wissen nicht, ob eine Mieterhöhung rechtmäßig ist oder ob ihre Nebenkostenabrechnung stimmt. „Oft unterschreiben Menschen Dokumente, die sie nicht verstehen“, erklärt Sozialbürgermeisterin Karin Hoffmann. „Das wollen wir ändern.“\n\nDie Beratung übernehmen erfahrene Juristinnen und Juristen. Sie prüfen zum Beispiel Mietverträge, Kündigungen und Abrechnungen. Vor Gericht vertreten dürfen sie die Ratsuchenden allerdings nicht. Wer einen Anwalt braucht, bekommt aber Hinweise, wo er Hilfe findet.\n\nWichtig: Wer die Beratung nutzen möchte, muss in Neustadt wohnen und vorher einen Termin vereinbaren. Termine gibt es telefonisch oder über die Internetseite der Stadt. Zum Termin sollte man alle wichtigen Unterlagen mitbringen, vor allem den Mietvertrag und die betreffenden Schreiben des Vermieters.\n\nDie Stadt rechnet mit rund 2.000 Beratungen im ersten Jahr.",
+      "vi": "Neustadt. Từ ngày 1 tháng 2, thành phố Neustadt sẽ cung cấp dịch vụ tư vấn luật thuê nhà miễn phí. Hội đồng thành phố đã quyết định việc này vào hôm thứ Ba. Buổi tư vấn diễn ra hai lần mỗi tuần tại tòa thị chính, vào thứ Ba và thứ Năm, từ 14 đến 18 giờ.\n\nNguyên nhân là giá thuê nhà đã tăng mạnh. Nhiều người thuê nhà không biết việc tăng tiền thuê có hợp pháp hay không, hoặc bảng quyết toán chi phí phụ của họ có đúng không. Bà Karin Hoffmann, phó thị trưởng phụ trách xã hội, giải thích: “Mọi người thường ký những giấy tờ mà họ không hiểu. Chúng tôi muốn thay đổi điều đó.”\n\nViệc tư vấn do các luật gia giàu kinh nghiệm đảm nhận. Họ kiểm tra chẳng hạn hợp đồng thuê nhà, thông báo chấm dứt hợp đồng và các bảng quyết toán. Tuy nhiên, họ không được phép đại diện cho người cần tư vấn trước tòa. Nhưng ai cần luật sư thì sẽ được chỉ dẫn nơi có thể tìm sự giúp đỡ.\n\nLưu ý quan trọng: Ai muốn sử dụng dịch vụ tư vấn phải sống ở Neustadt và đặt lịch hẹn trước. Có thể đặt lịch qua điện thoại hoặc qua trang web của thành phố. Khi đến hẹn nên mang theo tất cả giấy tờ quan trọng, nhất là hợp đồng thuê nhà và các thư liên quan của chủ nhà.\n\nThành phố dự kiến có khoảng 2.000 lượt tư vấn trong năm đầu tiên.",
+      "glossary": [
+        {
+          "de": "die Mietrechtsberatung",
+          "vi": "tư vấn luật thuê nhà"
+        },
+        {
+          "de": "beschließen",
+          "vi": "quyết định, thông qua"
+        },
+        {
+          "de": "die Mieterhöhung",
+          "vi": "việc tăng tiền thuê nhà"
+        },
+        {
+          "de": "rechtmäßig",
+          "vi": "hợp pháp"
+        },
+        {
+          "de": "die Nebenkostenabrechnung",
+          "vi": "bảng quyết toán chi phí phụ (nước, sưởi, rác…)"
+        },
+        {
+          "de": "der Jurist / die Juristin",
+          "vi": "luật gia"
+        },
+        {
+          "de": "jemanden vor Gericht vertreten",
+          "vi": "đại diện cho ai trước tòa"
+        },
+        {
+          "de": "die Ratsuchenden (Pl.)",
+          "vi": "những người cần tư vấn"
+        },
+        {
+          "de": "die Unterlagen (Pl.)",
+          "vi": "giấy tờ, hồ sơ"
+        },
+        {
+          "de": "betreffend",
+          "vi": "liên quan"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Was hat der Stadtrat beschlossen?",
+          "options": [
+            "Die Mieten in Neustadt werden gesenkt.",
+            "Es gibt eine kostenlose Mietrechtsberatung.",
+            "Das Rathaus wird geschlossen.",
+            "Alle Mieter bekommen einen Anwalt."
+          ],
+          "answer": 1,
+          "explain": "Câu đầu tiên: „Ab dem 1. Februar bietet die Stadt Neustadt eine kostenlose Mietrechtsberatung an.“"
+        },
+        {
+          "q": "Warum gibt es das neue Angebot?",
+          "options": [
+            "Weil die Mieten stark gestiegen sind",
+            "Weil es in Neustadt keine Anwälte gibt",
+            "Weil das Rathaus leer steht"
+          ],
+          "answer": 0,
+          "explain": "„Hintergrund sind die stark gestiegenen Mieten.“ – nguyên nhân là giá thuê tăng mạnh."
+        },
+        {
+          "q": "Was dürfen die Beraterinnen und Berater NICHT?",
+          "options": [
+            "Mietverträge prüfen",
+            "Kündigungen prüfen",
+            "Ratsuchende vor Gericht vertreten",
+            "Hinweise auf Anwälte geben"
+          ],
+          "answer": 2,
+          "explain": "„Vor Gericht vertreten dürfen sie die Ratsuchenden allerdings nicht.“"
+        },
+        {
+          "q": "Wer kann die Beratung nutzen?",
+          "options": [
+            "Menschen, die in Neustadt wohnen und einen Termin vereinbart haben",
+            "Alle Menschen in Deutschland, auch ohne Termin",
+            "Nur Vermieter aus Neustadt"
+          ],
+          "answer": 0,
+          "explain": "„… muss in Neustadt wohnen und vorher einen Termin vereinbaren.“"
+        },
+        {
+          "q": "Was soll man zum Termin mitbringen?",
+          "options": [
+            "Nur den Personalausweis",
+            "Eine Rechnung vom Anwalt",
+            "Fotos von der Wohnung",
+            "Den Mietvertrag und die betreffenden Schreiben des Vermieters"
+          ],
+          "answer": 3,
+          "explain": "„… vor allem den Mietvertrag und die betreffenden Schreiben des Vermieters.“"
+        }
+      ]
+    },
+    {
+      "title": "Forum: Meine Kaution kommt nicht zurück",
+      "title_vi": "Diễn đàn: Tiền đặt cọc của tôi không được trả lại",
+      "emoji": "💬",
+      "text": "Thema: Vermieter zahlt Kaution nicht zurück – was tun?\n\nBeitrag von linh_92:\nHallo zusammen, ich bin vor vier Monaten aus meiner Wohnung in Hamburg ausgezogen. Bei der Übergabe war alles in Ordnung, das steht auch im Übergabeprotokoll. Trotzdem habe ich meine Kaution von 1.500 Euro noch nicht zurückbekommen. Der Vermieter antwortet nicht auf meine E-Mails. Darf er das?\n\nAntwort von mietrecht_max:\nHallo Linh, leider ist das nicht ungewöhnlich. Der Vermieter darf die Kaution eine gewisse Zeit behalten, um zu prüfen, ob er noch Forderungen gegen dich hat, zum Beispiel aus der Nebenkostenabrechnung. Eine feste Frist steht nicht im Gesetz, meistens gelten drei bis sechs Monate als angemessen. Wenn noch eine Nebenkostenabrechnung offen ist, darf er einen Teil sogar länger zurückbehalten.\n\nMein Tipp: Schreib ihm einen Brief per Einschreiben und setz ihm eine Frist von zwei Wochen. Vergiss nicht, deine Bankverbindung anzugeben. Übrigens muss die Kaution mit Zinsen zurückgezahlt werden. Wenn er trotzdem nicht reagiert, kannst du dich an einen Mieterverein wenden oder einen Mahnbescheid beantragen.\n\nAntwort von linh_92:\nDanke, Max! Ich schicke den Brief gleich morgen ab.",
+      "vi": "Chủ đề: Chủ nhà không trả lại tiền đặt cọc – phải làm gì?\n\nBài viết của linh_92:\nChào mọi người, mình đã dọn ra khỏi căn hộ ở Hamburg cách đây bốn tháng. Khi bàn giao mọi thứ đều ổn, điều này cũng được ghi trong biên bản bàn giao. Dù vậy, mình vẫn chưa nhận lại tiền đặt cọc 1.500 euro. Chủ nhà không trả lời email của mình. Ông ấy có được phép làm vậy không?\n\nTrả lời của mietrecht_max:\nChào Linh, tiếc là chuyện này không hiếm. Chủ nhà được phép giữ tiền đặt cọc trong một khoảng thời gian nhất định để kiểm tra xem họ còn khoản nào cần đòi bạn không, ví dụ từ bảng quyết toán chi phí phụ. Luật không quy định thời hạn cố định, thông thường ba đến sáu tháng được coi là hợp lý. Nếu bảng quyết toán chi phí phụ vẫn chưa có, chủ nhà thậm chí được giữ lại một phần lâu hơn.\n\nLời khuyên của mình: Hãy gửi cho ông ấy một lá thư bảo đảm và đặt thời hạn hai tuần. Đừng quên ghi thông tin tài khoản ngân hàng của bạn. Nhân tiện, tiền đặt cọc phải được hoàn trả kèm tiền lãi. Nếu ông ấy vẫn không phản hồi, bạn có thể nhờ đến hội người thuê nhà hoặc nộp đơn xin lệnh nhắc nợ của tòa án.\n\nTrả lời của linh_92:\nCảm ơn Max! Sáng mai mình sẽ gửi thư ngay.",
+      "glossary": [
+        {
+          "de": "die Kaution",
+          "vi": "tiền đặt cọc"
+        },
+        {
+          "de": "ausziehen",
+          "vi": "dọn ra (khỏi nhà)"
+        },
+        {
+          "de": "das Übergabeprotokoll",
+          "vi": "biên bản bàn giao nhà"
+        },
+        {
+          "de": "die Forderung",
+          "vi": "khoản yêu cầu thanh toán, quyền đòi"
+        },
+        {
+          "de": "angemessen",
+          "vi": "hợp lý, thỏa đáng"
+        },
+        {
+          "de": "zurückbehalten",
+          "vi": "giữ lại"
+        },
+        {
+          "de": "das Einschreiben",
+          "vi": "thư bảo đảm"
+        },
+        {
+          "de": "eine Frist setzen",
+          "vi": "đặt thời hạn"
+        },
+        {
+          "de": "die Zinsen (Pl.)",
+          "vi": "tiền lãi"
+        },
+        {
+          "de": "der Mahnbescheid",
+          "vi": "lệnh nhắc nợ (thủ tục của tòa án)"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Was ist Linhs Problem?",
+          "options": [
+            "Sie findet keine neue Wohnung.",
+            "Sie bekommt ihre Kaution nicht zurück.",
+            "Ihr Vermieter hat die Miete erhöht.",
+            "Sie hat die Wohnung beschädigt."
+          ],
+          "answer": 1,
+          "explain": "„Trotzdem habe ich meine Kaution von 1.500 Euro noch nicht zurückbekommen.“"
+        },
+        {
+          "q": "Was steht im Übergabeprotokoll?",
+          "options": [
+            "Linh muss die Wohnung renovieren.",
+            "In der Küche gibt es Schäden.",
+            "Alles war in Ordnung."
+          ],
+          "answer": 2,
+          "explain": "„Bei der Übergabe war alles in Ordnung, das steht auch im Übergabeprotokoll.“"
+        },
+        {
+          "q": "Was sagt Max über die Frist für die Rückzahlung?",
+          "options": [
+            "Im Gesetz steht keine feste Frist; meistens gelten drei bis sechs Monate als angemessen.",
+            "Der Vermieter muss die Kaution sofort nach dem Auszug zurückzahlen.",
+            "Der Vermieter darf die Kaution immer behalten."
+          ],
+          "answer": 0,
+          "explain": "„Eine feste Frist steht nicht im Gesetz, meistens gelten drei bis sechs Monate als angemessen.“"
+        },
+        {
+          "q": "Was empfiehlt Max?",
+          "options": [
+            "Die Polizei anzurufen",
+            "Weitere E-Mails zu schreiben",
+            "Einfach abzuwarten",
+            "Einen Brief per Einschreiben mit einer Frist zu schicken"
+          ],
+          "answer": 3,
+          "explain": "„Schreib ihm einen Brief per Einschreiben und setz ihm eine Frist von zwei Wochen.“"
+        },
+        {
+          "q": "Was gilt laut Max für die Rückzahlung der Kaution?",
+          "options": [
+            "Sie wird ohne Zinsen zurückgezahlt.",
+            "Sie muss mit Zinsen zurückgezahlt werden.",
+            "Sie wird an den Mieterverein gezahlt."
+          ],
+          "answer": 1,
+          "explain": "„Übrigens muss die Kaution mit Zinsen zurückgezahlt werden.“"
+        }
+      ]
+    },
+    {
+      "title": "Auszug aus einem Mietvertrag",
+      "title_vi": "Trích đoạn hợp đồng thuê nhà",
+      "emoji": "📄",
+      "text": "§ 3 Miete und Nebenkosten\n(1) Die monatliche Kaltmiete beträgt 650,00 Euro. Zusätzlich zahlt der Mieter eine Vorauszahlung auf die Betriebskosten in Höhe von 180,00 Euro. Über die Vorauszahlungen wird einmal jährlich abgerechnet.\n(2) Die Miete ist monatlich im Voraus, spätestens am dritten Werktag des Monats, auf das Konto des Vermieters zu überweisen.\n\n§ 4 Mietsicherheit\nDer Mieter leistet eine Kaution in Höhe von drei Kaltmieten. Er ist berechtigt, die Kaution in drei gleichen monatlichen Raten zu zahlen. Die erste Rate ist zu Beginn des Mietverhältnisses fällig.\n\n§ 7 Tierhaltung\nKleintiere wie Fische oder Hamster dürfen ohne Erlaubnis gehalten werden. Für Hunde und Katzen ist die vorherige Zustimmung des Vermieters erforderlich. Er darf sie nur aus wichtigem Grund verweigern.\n\n§ 9 Kündigung\n(1) Der Mieter kann das Mietverhältnis mit einer Frist von drei Monaten kündigen.\n(2) Die Kündigung muss schriftlich erfolgen und eigenhändig unterschrieben sein. Eine E-Mail oder eine SMS reicht nicht aus.\n\n§ 10 Untervermietung\nEine Untervermietung der Wohnung oder einzelner Zimmer ist nur mit schriftlicher Erlaubnis des Vermieters zulässig.",
+      "vi": "§ 3 Tiền thuê và chi phí phụ\n(1) Tiền thuê nhà hằng tháng chưa gồm chi phí phụ (Kaltmiete) là 650,00 euro. Ngoài ra, người thuê trả một khoản tạm ứng chi phí vận hành là 180,00 euro. Các khoản tạm ứng này được quyết toán mỗi năm một lần.\n(2) Tiền thuê phải được chuyển khoản trước hằng tháng vào tài khoản của chủ nhà, chậm nhất vào ngày làm việc thứ ba của tháng.\n\n§ 4 Khoản bảo đảm thuê nhà\nNgười thuê nộp tiền đặt cọc bằng ba tháng tiền thuê chưa gồm chi phí phụ. Người thuê có quyền trả tiền đặt cọc thành ba kỳ bằng nhau hằng tháng. Kỳ đầu tiên đến hạn khi bắt đầu quan hệ thuê nhà.\n\n§ 7 Nuôi động vật\nĐộng vật nhỏ như cá hoặc chuột hamster được nuôi mà không cần xin phép. Đối với chó và mèo cần có sự đồng ý trước của chủ nhà. Chủ nhà chỉ được từ chối khi có lý do quan trọng.\n\n§ 9 Chấm dứt hợp đồng\n(1) Người thuê có thể chấm dứt quan hệ thuê nhà với thời hạn báo trước ba tháng.\n(2) Thông báo chấm dứt phải được lập bằng văn bản và tự tay ký. Email hoặc tin nhắn SMS là không đủ.\n\n§ 10 Cho thuê lại\nViệc cho thuê lại căn hộ hoặc từng phòng chỉ được phép khi có sự cho phép bằng văn bản của chủ nhà.",
+      "glossary": [
+        {
+          "de": "die Kaltmiete",
+          "vi": "tiền thuê chưa gồm chi phí phụ"
+        },
+        {
+          "de": "die Betriebskosten (Pl.)",
+          "vi": "chi phí vận hành (nước, rác, vệ sinh…)"
+        },
+        {
+          "de": "die Vorauszahlung",
+          "vi": "khoản tạm ứng, trả trước"
+        },
+        {
+          "de": "abrechnen",
+          "vi": "quyết toán"
+        },
+        {
+          "de": "der Werktag",
+          "vi": "ngày làm việc"
+        },
+        {
+          "de": "die Rate",
+          "vi": "kỳ trả góp"
+        },
+        {
+          "de": "fällig",
+          "vi": "đến hạn"
+        },
+        {
+          "de": "die Zustimmung",
+          "vi": "sự đồng ý"
+        },
+        {
+          "de": "verweigern",
+          "vi": "từ chối"
+        },
+        {
+          "de": "die Untervermietung",
+          "vi": "việc cho thuê lại"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Wie viel zahlt der Mieter insgesamt jeden Monat an den Vermieter?",
+          "options": [
+            "650 Euro",
+            "180 Euro",
+            "830 Euro",
+            "1.950 Euro"
+          ],
+          "answer": 2,
+          "explain": "Kaltmiete 650 € cộng tạm ứng chi phí vận hành 180 € (§ 3 Abs. 1) = 830 €."
+        },
+        {
+          "q": "Bis wann muss die Miete spätestens überwiesen werden?",
+          "options": [
+            "Bis zum dritten Werktag des Monats",
+            "Bis zum Ende des Monats",
+            "Bis zum 15. des Monats"
+          ],
+          "answer": 0,
+          "explain": "§ 3 Abs. 2: „spätestens am dritten Werktag des Monats“."
+        },
+        {
+          "q": "Wie hoch ist die Kaution?",
+          "options": [
+            "650 Euro",
+            "1.950 Euro",
+            "1.300 Euro",
+            "2.490 Euro"
+          ],
+          "answer": 1,
+          "explain": "§ 4: ba tháng Kaltmiete = 3 × 650 € = 1.950 €."
+        },
+        {
+          "q": "Was braucht der Mieter, wenn er eine Katze halten möchte?",
+          "options": [
+            "Nichts, Katzen sind immer erlaubt.",
+            "Eine Genehmigung vom Bürgeramt",
+            "Die vorherige Zustimmung des Vermieters"
+          ],
+          "answer": 2,
+          "explain": "§ 7: „Für Hunde und Katzen ist die vorherige Zustimmung des Vermieters erforderlich.“"
+        },
+        {
+          "q": "Welche Kündigung des Mieters ist nach dem Vertrag wirksam?",
+          "options": [
+            "Eine SMS an den Vermieter",
+            "Eine E-Mail mit drei Monaten Frist",
+            "Ein Anruf beim Vermieter",
+            "Ein eigenhändig unterschriebener Brief mit drei Monaten Frist"
+          ],
+          "answer": 3,
+          "explain": "§ 9: thời hạn ba tháng, phải bằng văn bản và tự tay ký; email hoặc SMS không đủ."
+        }
+      ]
+    },
+    {
+      "title": "Ein Brief vom Finanzamt",
+      "title_vi": "Một lá thư từ cơ quan thuế",
+      "emoji": "🏢",
+      "text": "Finanzamt Musterstadt\nSteuernummer: 123/456/78901\n\nEinkommensteuererklärung 2025 – Anforderung von Unterlagen\n\nSehr geehrte Frau Tran,\n\nvielen Dank für Ihre Einkommensteuererklärung für das Jahr 2025, die am 12. Juni bei uns eingegangen ist. Bei der Bearbeitung sind einige Fragen entstanden.\n\nSie haben Werbungskosten in Höhe von 1.850 Euro für ein häusliches Arbeitszimmer angegeben. Bitte reichen Sie folgende Unterlagen ein:\n– einen Grundriss Ihrer Wohnung mit Angabe der Quadratmeter,\n– eine Bestätigung Ihres Arbeitgebers, dass Sie überwiegend von zu Hause arbeiten.\n\nAußerdem fehlt die Bescheinigung über Ihre Spende an den Verein „Hilfe für Kinder e. V.“.\n\nBitte senden Sie die Unterlagen bis zum 15. September an uns. Sie können sie per Post schicken oder über das Portal „Mein ELSTER“ hochladen. Geben Sie dabei immer Ihre Steuernummer an.\n\nWenn wir die Unterlagen nicht rechtzeitig erhalten, müssen wir die Steuer ohne die Kosten für das Arbeitszimmer und ohne die Spende festsetzen.\n\nFür Rückfragen erreichen Sie uns montags bis freitags von 8 bis 12 Uhr.\n\nMit freundlichen Grüßen\nIm Auftrag\nWeber",
+      "vi": "Cơ quan thuế Musterstadt\nMã số hồ sơ thuế: 123/456/78901\n\nTờ khai thuế thu nhập năm 2025 – Yêu cầu bổ sung giấy tờ\n\nKính gửi bà Tran,\n\nxin cảm ơn bà đã nộp tờ khai thuế thu nhập năm 2025, mà chúng tôi đã nhận được vào ngày 12 tháng 6. Trong quá trình xử lý đã phát sinh một số câu hỏi.\n\nBà đã kê khai chi phí liên quan đến nghề nghiệp là 1.850 euro cho một phòng làm việc tại nhà. Xin bà vui lòng nộp các giấy tờ sau:\n– sơ đồ mặt bằng căn hộ có ghi diện tích mét vuông,\n– giấy xác nhận của chủ lao động rằng bà chủ yếu làm việc tại nhà.\n\nNgoài ra còn thiếu giấy chứng nhận khoản quyên góp của bà cho hội “Hilfe für Kinder e. V.”.\n\nXin bà gửi giấy tờ cho chúng tôi trước ngày 15 tháng 9. Bà có thể gửi qua bưu điện hoặc tải lên qua cổng “Mein ELSTER”. Khi gửi, xin luôn ghi mã số hồ sơ thuế của bà.\n\nNếu chúng tôi không nhận được giấy tờ đúng hạn, chúng tôi buộc phải ấn định thuế mà không tính chi phí phòng làm việc và khoản quyên góp.\n\nNếu có thắc mắc, bà có thể liên hệ với chúng tôi từ thứ Hai đến thứ Sáu, từ 8 đến 12 giờ.\n\nTrân trọng\nThừa lệnh\nWeber",
+      "glossary": [
+        {
+          "de": "die Steuernummer",
+          "vi": "mã số hồ sơ thuế (do cơ quan thuế địa phương cấp)"
+        },
+        {
+          "de": "die Einkommensteuererklärung",
+          "vi": "tờ khai thuế thu nhập cá nhân"
+        },
+        {
+          "de": "eingehen",
+          "vi": "(thư, hồ sơ) được nhận"
+        },
+        {
+          "de": "die Werbungskosten (Pl.)",
+          "vi": "chi phí liên quan đến nghề nghiệp (được khấu trừ)"
+        },
+        {
+          "de": "das häusliche Arbeitszimmer",
+          "vi": "phòng làm việc tại nhà"
+        },
+        {
+          "de": "einreichen",
+          "vi": "nộp (hồ sơ)"
+        },
+        {
+          "de": "der Grundriss",
+          "vi": "sơ đồ mặt bằng"
+        },
+        {
+          "de": "die Spende",
+          "vi": "khoản quyên góp"
+        },
+        {
+          "de": "die Steuer festsetzen",
+          "vi": "ấn định số thuế"
+        },
+        {
+          "de": "Im Auftrag (i. A.)",
+          "vi": "thừa lệnh"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Warum schreibt das Finanzamt an Frau Tran?",
+          "options": [
+            "Das Finanzamt braucht weitere Unterlagen.",
+            "Frau Tran hat keine Steuererklärung abgegeben.",
+            "Frau Tran muss eine Strafe zahlen.",
+            "Das Finanzamt zieht um."
+          ],
+          "answer": 0,
+          "explain": "Tiêu đề thư: „Anforderung von Unterlagen“ – yêu cầu bổ sung giấy tờ, vì „bei der Bearbeitung sind einige Fragen entstanden“."
+        },
+        {
+          "q": "Wofür hat Frau Tran Werbungskosten angegeben?",
+          "options": [
+            "Für ein Auto",
+            "Für ein häusliches Arbeitszimmer",
+            "Für eine Dienstreise"
+          ],
+          "answer": 1,
+          "explain": "„Sie haben Werbungskosten in Höhe von 1.850 Euro für ein häusliches Arbeitszimmer angegeben.“"
+        },
+        {
+          "q": "Was fehlt außer den Unterlagen zum Arbeitszimmer?",
+          "options": [
+            "Der Mietvertrag",
+            "Die Lohnsteuerbescheinigung",
+            "Die Bescheinigung über eine Spende",
+            "Der Reisepass"
+          ],
+          "answer": 2,
+          "explain": "„Außerdem fehlt die Bescheinigung über Ihre Spende …“"
+        },
+        {
+          "q": "Wie kann Frau Tran die Unterlagen einreichen?",
+          "options": [
+            "Nur persönlich im Finanzamt",
+            "Nur per E-Mail",
+            "Per Post oder über „Mein ELSTER“"
+          ],
+          "answer": 2,
+          "explain": "„Sie können sie per Post schicken oder über das Portal „Mein ELSTER“ hochladen.“"
+        },
+        {
+          "q": "Was passiert, wenn die Unterlagen zu spät kommen?",
+          "options": [
+            "Frau Tran muss eine neue Erklärung abgeben.",
+            "Das Finanzamt wartet einfach länger.",
+            "Frau Tran bekommt mehr Geld zurück.",
+            "Die Steuer wird ohne die Kosten für Arbeitszimmer und Spende festgesetzt."
+          ],
+          "answer": 3,
+          "explain": "„… müssen wir die Steuer ohne die Kosten für das Arbeitszimmer und ohne die Spende festsetzen.“"
+        }
+      ]
+    }
+  ],
+  "B2": [
+    {
+      "title": "Kommentar: Ein Klick zum Kündigen – endlich!",
+      "title_vi": "Bình luận: Một cú nhấp để hủy hợp đồng – cuối cùng cũng có!",
+      "emoji": "🖱️",
+      "text": "Wer jemals versucht hat, ein Fitnessstudio-Abo oder einen Streamingdienst zu kündigen, kennt das Problem: Der Vertrag lässt sich mit wenigen Klicks abschließen, doch die Kündigung gleicht einem Hindernislauf. Mal ist die richtige Seite gut versteckt, mal wird ein Fax oder ein eingeschriebener Brief verlangt. Dass der Gesetzgeber hier eingegriffen hat, war überfällig.\n\nSeit Juli 2022 müssen Unternehmen, die Verträge online anbieten, auf ihrer Website eine gut sichtbare Kündigungsschaltfläche bereitstellen. Ein Klick auf diesen Button führt zu einer Bestätigungsseite, auf der Verbraucherinnen und Verbraucher nur noch wenige Angaben machen müssen. Fehlt der Button, können Kunden ihren Vertrag jederzeit und ohne Einhaltung einer Frist kündigen. Bereits seit März 2022 gilt zudem, dass sich Verträge nach Ablauf der Mindestlaufzeit nicht mehr stillschweigend um ein ganzes Jahr verlängern dürfen; sie sind dann monatlich kündbar.\n\nKritiker aus der Wirtschaft warnten vor zusätzlicher Bürokratie. Dieses Argument überzeugt jedoch nicht. Ein Unternehmen, das seine Kundschaft nur durch künstliche Hürden halten kann, sollte eher an seinem Angebot arbeiten als an seinen Kündigungsformularen.\n\nDennoch ist längst nicht alles gelöst. Noch immer verstecken manche Anbieter den Button in der Fußzeile oder beschriften ihn unklar. Hier sind die Verbraucherzentralen gefragt, die Verstöße abmahnen können. Aber auch die Verbraucher selbst sollten ihre Rechte kennen und einfordern.\n\nFazit: Das Gesetz für faire Verbraucherverträge ist kein Allheilmittel, aber ein wichtiger Schritt. Es stellt klar, was eigentlich selbstverständlich sein sollte: Einen Vertrag zu beenden, darf nicht schwieriger sein, als ihn abzuschließen.",
+      "vi": "Ai từng thử hủy gói tập phòng gym hay một dịch vụ xem phim trực tuyến đều biết vấn đề này: Hợp đồng có thể ký chỉ bằng vài cú nhấp chuột, nhưng việc hủy thì giống như một cuộc chạy vượt chướng ngại vật. Lúc thì trang cần tìm bị giấu kỹ, lúc thì bị yêu cầu gửi fax hoặc thư bảo đảm. Việc nhà lập pháp can thiệp vào đây lẽ ra phải có từ lâu.\n\nTừ tháng 7 năm 2022, các doanh nghiệp cung cấp hợp đồng trực tuyến phải đặt trên trang web của mình một nút hủy hợp đồng dễ nhìn thấy. Nhấp vào nút này sẽ dẫn đến một trang xác nhận, tại đó người tiêu dùng chỉ cần cung cấp vài thông tin. Nếu thiếu nút này, khách hàng có thể hủy hợp đồng bất cứ lúc nào mà không cần tuân thủ thời hạn báo trước. Ngoài ra, ngay từ tháng 3 năm 2022 đã có quy định rằng sau khi hết thời hạn tối thiểu, hợp đồng không được tự động gia hạn ngầm thêm cả một năm nữa; khi đó hợp đồng có thể hủy theo từng tháng.\n\nGiới phê bình từ phía doanh nghiệp đã cảnh báo về thủ tục hành chính rườm rà thêm. Tuy nhiên, lập luận này không thuyết phục. Một doanh nghiệp chỉ có thể giữ chân khách hàng bằng những rào cản giả tạo thì nên cải thiện sản phẩm của mình hơn là các mẫu đơn hủy hợp đồng.\n\nDù vậy, còn lâu mới giải quyết được hết mọi việc. Vẫn còn một số nhà cung cấp giấu nút ở chân trang hoặc ghi nhãn không rõ ràng. Ở đây các trung tâm bảo vệ người tiêu dùng cần vào cuộc, vì họ có thể gửi cảnh cáo pháp lý đối với các vi phạm. Nhưng bản thân người tiêu dùng cũng nên biết và đòi hỏi quyền lợi của mình.\n\nKết luận: Luật về hợp đồng tiêu dùng công bằng không phải là thuốc chữa bách bệnh, nhưng là một bước quan trọng. Nó khẳng định điều lẽ ra phải hiển nhiên: Chấm dứt một hợp đồng không được phép khó hơn việc ký kết nó.",
+      "glossary": [
+        {
+          "de": "der Hindernislauf",
+          "vi": "cuộc chạy vượt chướng ngại vật"
+        },
+        {
+          "de": "der Gesetzgeber",
+          "vi": "nhà lập pháp"
+        },
+        {
+          "de": "überfällig",
+          "vi": "lẽ ra phải có từ lâu"
+        },
+        {
+          "de": "die Kündigungsschaltfläche",
+          "vi": "nút hủy hợp đồng (trên website)"
+        },
+        {
+          "de": "die Mindestlaufzeit",
+          "vi": "thời hạn hợp đồng tối thiểu"
+        },
+        {
+          "de": "sich stillschweigend verlängern",
+          "vi": "tự động gia hạn ngầm"
+        },
+        {
+          "de": "die Hürde",
+          "vi": "rào cản"
+        },
+        {
+          "de": "der Verstoß",
+          "vi": "sự vi phạm"
+        },
+        {
+          "de": "abmahnen",
+          "vi": "gửi cảnh cáo pháp lý (yêu cầu chấm dứt vi phạm)"
+        },
+        {
+          "de": "das Allheilmittel",
+          "vi": "thuốc chữa bách bệnh, giải pháp vạn năng"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Welche Haltung hat der Autor zum Kündigungsbutton?",
+          "options": [
+            "Er lehnt ihn grundsätzlich ab.",
+            "Er begrüßt ihn, sieht aber noch Probleme.",
+            "Er ist ihm gegenüber völlig gleichgültig.",
+            "Er hält ihn vor allem für Bürokratie."
+          ],
+          "answer": 1,
+          "explain": "Tác giả gọi luật là „überfällig“ và „ein wichtiger Schritt“, nhưng cũng viết „Dennoch ist längst nicht alles gelöst.“"
+        },
+        {
+          "q": "Was gilt, wenn ein Anbieter keinen Kündigungsbutton hat?",
+          "options": [
+            "Kunden müssen per Fax kündigen.",
+            "Der Vertrag verlängert sich automatisch um ein Jahr.",
+            "Kunden können jederzeit und ohne Frist kündigen."
+          ],
+          "answer": 2,
+          "explain": "„Fehlt der Button, können Kunden ihren Vertrag jederzeit und ohne Einhaltung einer Frist kündigen.“"
+        },
+        {
+          "q": "Was gilt seit März 2022 nach Ablauf der Mindestlaufzeit?",
+          "options": [
+            "Der Vertrag ist monatlich kündbar.",
+            "Der Vertrag verlängert sich um ein weiteres Jahr.",
+            "Der Vertrag endet automatisch."
+          ],
+          "answer": 0,
+          "explain": "Hợp đồng không được gia hạn ngầm thêm một năm: „sie sind dann monatlich kündbar“."
+        },
+        {
+          "q": "Wie bewertet der Autor das Argument der zusätzlichen Bürokratie?",
+          "options": [
+            "Als überzeugend",
+            "Als teilweise berechtigt",
+            "Er geht nicht darauf ein.",
+            "Als nicht überzeugend"
+          ],
+          "answer": 3,
+          "explain": "„Dieses Argument überzeugt jedoch nicht.“"
+        },
+        {
+          "q": "Wer kann laut Text Verstöße gegen die Regeln abmahnen?",
+          "options": [
+            "Die Verbraucherzentralen",
+            "Die Fitnessstudios",
+            "Die Finanzämter"
+          ],
+          "answer": 0,
+          "explain": "„Hier sind die Verbraucherzentralen gefragt, die Verstöße abmahnen können.“"
+        }
+      ]
+    },
+    {
+      "title": "Kündigungsschutz: Was Arbeitnehmer wissen sollten",
+      "title_vi": "Bảo vệ chống sa thải: Điều người lao động nên biết",
+      "emoji": "⚖️",
+      "text": "Wer in Deutschland einen Arbeitsvertrag unterschreibt, ist in vielen Fällen gut vor einer willkürlichen Kündigung geschützt. Allerdings gilt dieser Schutz weder vom ersten Tag an noch in jedem Betrieb.\n\nZu Beginn eines Arbeitsverhältnisses wird häufig eine Probezeit vereinbart, die höchstens sechs Monate dauern darf. In dieser Zeit können beide Seiten den Vertrag mit einer Frist von zwei Wochen kündigen. Einen Grund muss der Arbeitgeber dabei nicht nennen.\n\nDas Kündigungsschutzgesetz greift erst, wenn das Arbeitsverhältnis länger als sechs Monate besteht und der Betrieb regelmäßig mehr als zehn Arbeitnehmer beschäftigt. Dann ist eine Kündigung nur wirksam, wenn sie sozial gerechtfertigt ist. Das Gesetz unterscheidet drei Arten von Gründen: personenbedingte Gründe, etwa eine lang andauernde Krankheit, verhaltensbedingte Gründe wie wiederholtes unentschuldigtes Fehlen und betriebsbedingte Gründe, zum Beispiel die Schließung einer Abteilung. Einer verhaltensbedingten Kündigung muss in der Regel eine Abmahnung vorausgehen.\n\nFür jede Kündigung gilt außerdem: Sie muss schriftlich erfolgen, also auf Papier und eigenhändig unterschrieben. Eine Kündigung per E-Mail oder WhatsApp ist unwirksam.\n\nBesonders wichtig ist eine Frist, die viele Beschäftigte nicht kennen: Wer sich gegen eine Kündigung wehren will, muss innerhalb von drei Wochen nach deren Zugang Klage beim Arbeitsgericht erheben. Versäumt man diese Frist, gilt die Kündigung in aller Regel als wirksam – selbst wenn sie eigentlich rechtswidrig war.\n\nBesonderen Kündigungsschutz genießen unter anderem Schwangere, Beschäftigte in Elternzeit und schwerbehinderte Menschen. Ihnen darf nur unter strengen Voraussetzungen gekündigt werden.",
+      "vi": "Ai ký hợp đồng lao động ở Đức thì trong nhiều trường hợp được bảo vệ tốt trước việc bị sa thải tùy tiện. Tuy nhiên, sự bảo vệ này không áp dụng ngay từ ngày đầu tiên và cũng không áp dụng ở mọi doanh nghiệp.\n\nKhi bắt đầu một quan hệ lao động, các bên thường thỏa thuận một thời gian thử việc, kéo dài tối đa sáu tháng. Trong thời gian này, cả hai bên đều có thể chấm dứt hợp đồng với thời hạn báo trước hai tuần. Người sử dụng lao động không cần nêu lý do.\n\nLuật Bảo vệ chống sa thải chỉ được áp dụng khi quan hệ lao động đã kéo dài hơn sáu tháng và doanh nghiệp thường xuyên sử dụng hơn mười người lao động. Khi đó, việc sa thải chỉ có hiệu lực nếu có lý do chính đáng về mặt xã hội. Luật phân biệt ba loại lý do: lý do liên quan đến cá nhân người lao động, chẳng hạn bệnh kéo dài; lý do liên quan đến hành vi, như nhiều lần nghỉ không phép; và lý do liên quan đến hoạt động của doanh nghiệp, ví dụ đóng cửa một bộ phận. Trước khi sa thải vì lý do hành vi, thông thường phải có một văn bản cảnh cáo.\n\nNgoài ra, mọi thông báo sa thải đều phải được lập bằng văn bản, tức là trên giấy và có chữ ký tay. Thông báo sa thải qua email hoặc WhatsApp là vô hiệu.\n\nĐặc biệt quan trọng là một thời hạn mà nhiều người lao động không biết: Ai muốn phản đối việc bị sa thải phải khởi kiện ra tòa án lao động trong vòng ba tuần kể từ khi nhận được thông báo. Nếu bỏ lỡ thời hạn này, việc sa thải về cơ bản được coi là có hiệu lực – ngay cả khi thực ra nó trái pháp luật.\n\nMột số nhóm được bảo vệ đặc biệt chống sa thải, trong đó có phụ nữ mang thai, người lao động đang nghỉ nuôi con và người khuyết tật nặng. Họ chỉ có thể bị sa thải với những điều kiện rất nghiêm ngặt.",
+      "glossary": [
+        {
+          "de": "willkürlich",
+          "vi": "tùy tiện"
+        },
+        {
+          "de": "das Arbeitsverhältnis",
+          "vi": "quan hệ lao động"
+        },
+        {
+          "de": "die Probezeit",
+          "vi": "thời gian thử việc"
+        },
+        {
+          "de": "greifen",
+          "vi": "(luật) có hiệu lực, được áp dụng"
+        },
+        {
+          "de": "sozial gerechtfertigt",
+          "vi": "có lý do chính đáng về mặt xã hội"
+        },
+        {
+          "de": "unentschuldigt",
+          "vi": "không có lý do chính đáng, không phép"
+        },
+        {
+          "de": "die Abmahnung",
+          "vi": "văn bản cảnh cáo"
+        },
+        {
+          "de": "eigenhändig unterschrieben",
+          "vi": "có chữ ký tay của chính người đó"
+        },
+        {
+          "de": "Klage erheben",
+          "vi": "khởi kiện"
+        },
+        {
+          "de": "versäumen",
+          "vi": "bỏ lỡ"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Wie lange darf eine Probezeit höchstens dauern?",
+          "options": [
+            "Drei Monate",
+            "Sechs Monate",
+            "Ein Jahr",
+            "Zwei Wochen"
+          ],
+          "answer": 1,
+          "explain": "„… eine Probezeit vereinbart, die höchstens sechs Monate dauern darf.“ Hai tuần là thời hạn báo trước."
+        },
+        {
+          "q": "Unter welchen Voraussetzungen greift das Kündigungsschutzgesetz?",
+          "options": [
+            "Ab dem ersten Arbeitstag in jedem Betrieb",
+            "Nur in Betrieben mit weniger als zehn Arbeitnehmern",
+            "Nach mehr als sechs Monaten in Betrieben mit regelmäßig mehr als zehn Arbeitnehmern"
+          ],
+          "answer": 2,
+          "explain": "„… wenn das Arbeitsverhältnis länger als sechs Monate besteht und der Betrieb regelmäßig mehr als zehn Arbeitnehmer beschäftigt.“"
+        },
+        {
+          "q": "Welches Beispiel nennt der Text für einen betriebsbedingten Grund?",
+          "options": [
+            "Die Schließung einer Abteilung",
+            "Eine lang andauernde Krankheit",
+            "Wiederholtes unentschuldigtes Fehlen",
+            "Eine Schwangerschaft"
+          ],
+          "answer": 0,
+          "explain": "„… betriebsbedingte Gründe, zum Beispiel die Schließung einer Abteilung.“ Bệnh kéo dài là lý do cá nhân, nghỉ không phép là lý do hành vi."
+        },
+        {
+          "q": "Welche Form muss eine Kündigung haben?",
+          "options": [
+            "Eine E-Mail genügt.",
+            "Schriftlich auf Papier und eigenhändig unterschrieben",
+            "Eine WhatsApp-Nachricht genügt."
+          ],
+          "answer": 1,
+          "explain": "„Sie muss schriftlich erfolgen, also auf Papier und eigenhändig unterschrieben.“"
+        },
+        {
+          "q": "Was passiert, wenn man die Frist von drei Wochen versäumt?",
+          "options": [
+            "Man bekommt automatisch eine Abfindung.",
+            "Die Kündigung wird unwirksam.",
+            "Der Arbeitgeber muss erneut kündigen.",
+            "Die Kündigung gilt in aller Regel als wirksam."
+          ],
+          "answer": 3,
+          "explain": "„Versäumt man diese Frist, gilt die Kündigung in aller Regel als wirksam.“"
+        }
+      ]
+    },
+    {
+      "title": "Steuern im Studium: Lohnt sich die Steuererklärung?",
+      "title_vi": "Thuế khi đang học đại học: Có nên khai thuế không?",
+      "emoji": "🎓",
+      "text": "Viele Studierende glauben, Steuern seien für sie kein Thema. Doch wer neben dem Studium jobbt oder ein Praktikum absolviert, sollte sich zumindest mit den Grundlagen vertraut machen – nicht selten lässt sich dadurch bares Geld sparen.\n\nGrundsätzlich gilt: Einkommensteuer fällt erst an, wenn das zu versteuernde Einkommen über dem Grundfreibetrag liegt. Dieser beträgt derzeit rund 12.000 Euro im Jahr. Wer einen Minijob ausübt, zahlt in der Regel ohnehin keine Lohnsteuer, da der Arbeitgeber pauschale Abgaben übernimmt. Anders sieht es bei Werkstudentinnen und Werkstudenten aus: Ihnen wird oft monatlich Lohnsteuer einbehalten, obwohl ihr Jahreseinkommen am Ende unter dem Grundfreibetrag bleibt. Mit einer freiwilligen Steuererklärung lässt sich diese Steuer zurückholen, und zwar rückwirkend für bis zu vier Jahre.\n\nInteressant ist auch die Frage, wie Studienkosten behandelt werden. Hier kommt es darauf an, ob es sich um ein Erststudium oder ein Zweitstudium handelt. Kosten für ein Erststudium, etwa für Fachbücher, einen Laptop oder Semesterbeiträge, können lediglich als Sonderausgaben bis zu 6.000 Euro pro Jahr abgesetzt werden. Das bringt allerdings nur etwas, wenn im selben Jahr auch Einkünfte erzielt werden.\n\nBei einem Masterstudium nach dem Bachelor oder einem Studium nach einer abgeschlossenen Berufsausbildung gelten die Ausgaben hingegen als Werbungskosten. Der Vorteil: Übersteigen die Kosten die Einnahmen, entsteht ein Verlust, der in spätere Jahre vorgetragen werden kann. Wer nach dem Abschluss gut verdient, zahlt dann im ersten Berufsjahr spürbar weniger Steuern.\n\nFazit: Eine Steuererklärung kostet zwar etwas Zeit, kann sich aber gerade für Werkstudierende und Masterstudierende lohnen. Unterstützung bieten unter anderem Lohnsteuerhilfevereine an.",
+      "vi": "Nhiều sinh viên nghĩ rằng thuế không phải là chuyện của mình. Nhưng ai vừa học vừa làm thêm hoặc đi thực tập thì ít nhất nên làm quen với những kiến thức cơ bản – vì không hiếm khi nhờ đó mà tiết kiệm được tiền thật.\n\nVề nguyên tắc: Thuế thu nhập chỉ phát sinh khi thu nhập chịu thuế vượt quá mức miễn thuế cơ bản. Hiện nay mức này vào khoảng 12.000 euro mỗi năm. Ai làm Minijob thì thông thường đằng nào cũng không phải trả thuế lương, vì chủ lao động đã đóng các khoản phí khoán. Với sinh viên làm việc (Werkstudent) thì khác: Họ thường bị khấu trừ thuế lương hằng tháng, mặc dù tổng thu nhập cả năm cuối cùng vẫn thấp hơn mức miễn thuế cơ bản. Bằng cách tự nguyện nộp tờ khai thuế, có thể lấy lại khoản thuế này, và còn có thể khai hồi tố cho tối đa bốn năm.\n\nMột câu hỏi thú vị khác là chi phí học tập được xử lý thế nào. Điều này phụ thuộc vào việc đó là chương trình đại học đầu tiên hay chương trình thứ hai. Chi phí cho chương trình đầu tiên, ví dụ sách chuyên ngành, máy tính xách tay hoặc phí học kỳ, chỉ có thể được khấu trừ như chi phí đặc biệt (Sonderausgaben), tối đa 6.000 euro mỗi năm. Tuy nhiên, việc này chỉ có lợi nếu trong cùng năm đó cũng có thu nhập.\n\nNgược lại, với chương trình thạc sĩ sau cử nhân hoặc việc học đại học sau khi đã hoàn thành đào tạo nghề, các khoản chi được coi là chi phí liên quan đến nghề nghiệp (Werbungskosten). Ưu điểm: Nếu chi phí vượt quá thu nhập thì phát sinh một khoản lỗ, có thể chuyển sang các năm sau. Ai có thu nhập tốt sau khi tốt nghiệp thì trong năm đi làm đầu tiên sẽ phải nộp thuế ít hơn đáng kể.\n\nKết luận: Khai thuế tuy tốn một chút thời gian, nhưng có thể rất đáng giá, đặc biệt với sinh viên làm việc và sinh viên thạc sĩ. Các hội hỗ trợ thuế lương (Lohnsteuerhilfeverein) cùng nhiều nơi khác có thể giúp đỡ.",
+      "glossary": [
+        {
+          "de": "jobben",
+          "vi": "làm thêm"
+        },
+        {
+          "de": "bares Geld",
+          "vi": "tiền thật, tiền mặt"
+        },
+        {
+          "de": "der Grundfreibetrag",
+          "vi": "mức thu nhập miễn thuế cơ bản"
+        },
+        {
+          "de": "einbehalten",
+          "vi": "khấu trừ, giữ lại"
+        },
+        {
+          "de": "rückwirkend",
+          "vi": "hồi tố, có hiệu lực cho thời gian trước"
+        },
+        {
+          "de": "das Erststudium",
+          "vi": "chương trình đại học đầu tiên"
+        },
+        {
+          "de": "die Sonderausgaben (Pl.)",
+          "vi": "chi phí đặc biệt được khấu trừ thuế"
+        },
+        {
+          "de": "absetzen",
+          "vi": "khấu trừ (vào thuế)"
+        },
+        {
+          "de": "einen Verlust vortragen",
+          "vi": "chuyển lỗ sang các năm sau"
+        },
+        {
+          "de": "der Lohnsteuerhilfeverein",
+          "vi": "hội hỗ trợ khai thuế cho người làm công ăn lương"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Wann fällt Einkommensteuer an?",
+          "options": [
+            "Bei jedem noch so kleinen Einkommen",
+            "Wenn das zu versteuernde Einkommen über dem Grundfreibetrag liegt",
+            "Nur bei Minijobs",
+            "Erst nach dem Studienabschluss"
+          ],
+          "answer": 1,
+          "explain": "„Einkommensteuer fällt erst an, wenn das zu versteuernde Einkommen über dem Grundfreibetrag liegt.“"
+        },
+        {
+          "q": "Warum lohnt sich eine Steuererklärung besonders für Werkstudierende?",
+          "options": [
+            "Weil ihnen oft Lohnsteuer einbehalten wird, obwohl ihr Jahreseinkommen unter dem Grundfreibetrag bleibt",
+            "Weil sie grundsätzlich keine Lohnsteuer zahlen",
+            "Weil ihr Arbeitgeber pauschale Abgaben übernimmt"
+          ],
+          "answer": 0,
+          "explain": "„Ihnen wird oft monatlich Lohnsteuer einbehalten, obwohl ihr Jahreseinkommen am Ende unter dem Grundfreibetrag bleibt.“ Phí khoán do chủ trả là trường hợp Minijob."
+        },
+        {
+          "q": "Wie werden Kosten für ein Erststudium steuerlich behandelt?",
+          "options": [
+            "Als Werbungskosten mit Verlustvortrag",
+            "Sie können überhaupt nicht abgesetzt werden.",
+            "Als Sonderausgaben bis zu 6.000 Euro pro Jahr"
+          ],
+          "answer": 2,
+          "explain": "„Kosten für ein Erststudium … können lediglich als Sonderausgaben bis zu 6.000 Euro pro Jahr abgesetzt werden.“"
+        },
+        {
+          "q": "Welchen Vorteil hat ein Masterstudium nach dem Bachelor steuerlich?",
+          "options": [
+            "Masterstudierende zahlen nie Steuern.",
+            "Der Grundfreibetrag ist höher.",
+            "Die Hochschule übernimmt die Steuern.",
+            "Verluste können in spätere Jahre vorgetragen werden."
+          ],
+          "answer": 3,
+          "explain": "Chi phí là Werbungskosten: „… entsteht ein Verlust, der in spätere Jahre vorgetragen werden kann.“"
+        },
+        {
+          "q": "Für wie viele Jahre kann man rückwirkend eine freiwillige Steuererklärung abgeben?",
+          "options": [
+            "Für ein Jahr",
+            "Für zwei Jahre",
+            "Für bis zu vier Jahre",
+            "Für zehn Jahre"
+          ],
+          "answer": 2,
+          "explain": "„… und zwar rückwirkend für bis zu vier Jahre.“"
+        }
+      ]
+    },
+    {
+      "title": "Datenschutz: Ihre Rechte nach der DSGVO",
+      "title_vi": "Bảo vệ dữ liệu: Quyền của bạn theo GDPR",
+      "emoji": "🔒",
+      "text": "Ob beim Online-Shopping, in sozialen Netzwerken oder bei der Wohnungssuche – ständig geben wir persönliche Daten preis. Seit Mai 2018 regelt die Datenschutz-Grundverordnung (DSGVO) in der gesamten Europäischen Union, was Unternehmen und Behörden mit diesen Daten tun dürfen. Viele Menschen kennen ihre Rechte jedoch kaum.\n\nDer Grundgedanke ist einfach: Personenbezogene Daten dürfen nur verarbeitet werden, wenn es dafür eine Rechtsgrundlage gibt. Das kann zum Beispiel die Einwilligung der betroffenen Person sein, die Erfüllung eines Vertrags oder eine gesetzliche Pflicht. Eine erteilte Einwilligung kann jederzeit widerrufen werden, und zwar ebenso einfach, wie sie gegeben wurde.\n\nBesonders praktisch ist das Auskunftsrecht. Jede Person kann von einem Unternehmen verlangen, dass es mitteilt, welche Daten über sie gespeichert sind, zu welchem Zweck und an wen sie weitergegeben wurden. Das Unternehmen muss grundsätzlich innerhalb eines Monats antworten, und zwar kostenlos. Daneben gibt es das Recht auf Berichtigung falscher Daten sowie das Recht auf Löschung, oft als „Recht auf Vergessenwerden“ bezeichnet. Letzteres gilt allerdings nicht uneingeschränkt: Rechnungen etwa müssen aus steuerrechtlichen Gründen mehrere Jahre aufbewahrt werden.\n\nAuch für Wohnungssuchende ist die DSGVO relevant. Vermieter dürfen zwar Informationen zum Einkommen verlangen, Fragen nach Religion, Herkunft oder Familienplanung sind jedoch unzulässig.\n\nWer glaubt, dass seine Daten rechtswidrig verarbeitet werden, kann sich bei der zuständigen Datenschutzaufsichtsbehörde beschweren. Diese kann empfindliche Bußgelder verhängen – bis zu 20 Millionen Euro oder vier Prozent des weltweiten Jahresumsatzes eines Unternehmens, je nachdem, welcher Betrag höher ist. Die Botschaft der Verordnung ist klar: Daten sind kein Rohstoff, über den Unternehmen beliebig verfügen dürfen.",
+      "vi": "Dù là khi mua sắm trực tuyến, trên mạng xã hội hay khi tìm nhà – chúng ta liên tục để lộ dữ liệu cá nhân. Từ tháng 5 năm 2018, Quy định chung về bảo vệ dữ liệu (DSGVO, tiếng Anh là GDPR) quy định trên toàn Liên minh châu Âu những gì doanh nghiệp và cơ quan nhà nước được phép làm với các dữ liệu này. Tuy nhiên, nhiều người hầu như không biết quyền của mình.\n\nÝ tưởng cơ bản rất đơn giản: Dữ liệu cá nhân chỉ được xử lý khi có cơ sở pháp lý. Đó có thể là, chẳng hạn, sự đồng ý của người liên quan, việc thực hiện một hợp đồng hoặc một nghĩa vụ theo luật định. Sự đồng ý đã đưa ra có thể được rút lại bất cứ lúc nào, và việc rút lại phải dễ dàng như khi đưa ra.\n\nĐặc biệt hữu ích là quyền được cung cấp thông tin. Mỗi người đều có thể yêu cầu một doanh nghiệp cho biết những dữ liệu nào về mình đang được lưu trữ, với mục đích gì và đã được chuyển cho ai. Về nguyên tắc, doanh nghiệp phải trả lời trong vòng một tháng và hoàn toàn miễn phí. Bên cạnh đó còn có quyền yêu cầu sửa dữ liệu sai cũng như quyền yêu cầu xóa dữ liệu, thường được gọi là “quyền được lãng quên”. Tuy nhiên, quyền sau này không phải là tuyệt đối: Ví dụ, hóa đơn phải được lưu giữ nhiều năm vì lý do pháp luật thuế.\n\nDSGVO cũng quan trọng đối với người tìm nhà. Chủ nhà tuy được phép yêu cầu thông tin về thu nhập, nhưng các câu hỏi về tôn giáo, nguồn gốc hay kế hoạch gia đình thì không được phép.\n\nAi cho rằng dữ liệu của mình bị xử lý trái pháp luật có thể khiếu nại với cơ quan giám sát bảo vệ dữ liệu có thẩm quyền. Cơ quan này có thể áp dụng những khoản phạt rất nặng – lên đến 20 triệu euro hoặc bốn phần trăm doanh thu toàn cầu hằng năm của doanh nghiệp, tùy theo con số nào cao hơn. Thông điệp của quy định rất rõ ràng: Dữ liệu không phải là nguyên liệu thô mà doanh nghiệp có thể tùy ý sử dụng.",
+      "glossary": [
+        {
+          "de": "preisgeben",
+          "vi": "tiết lộ, để lộ"
+        },
+        {
+          "de": "die Datenschutz-Grundverordnung (DSGVO)",
+          "vi": "Quy định chung về bảo vệ dữ liệu của EU (GDPR)"
+        },
+        {
+          "de": "personenbezogene Daten (Pl.)",
+          "vi": "dữ liệu cá nhân"
+        },
+        {
+          "de": "die Rechtsgrundlage",
+          "vi": "cơ sở pháp lý"
+        },
+        {
+          "de": "die Einwilligung",
+          "vi": "sự đồng ý"
+        },
+        {
+          "de": "widerrufen",
+          "vi": "rút lại, thu hồi"
+        },
+        {
+          "de": "das Auskunftsrecht",
+          "vi": "quyền được cung cấp thông tin"
+        },
+        {
+          "de": "aufbewahren",
+          "vi": "lưu giữ"
+        },
+        {
+          "de": "unzulässig",
+          "vi": "không được phép"
+        },
+        {
+          "de": "ein Bußgeld verhängen",
+          "vi": "áp dụng tiền phạt"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Wann dürfen personenbezogene Daten verarbeitet werden?",
+          "options": [
+            "Nur wenn es dafür eine Rechtsgrundlage gibt",
+            "Immer, wenn ein Unternehmen es wünscht",
+            "Nur mit Erlaubnis der Polizei"
+          ],
+          "answer": 0,
+          "explain": "„Personenbezogene Daten dürfen nur verarbeitet werden, wenn es dafür eine Rechtsgrundlage gibt.“"
+        },
+        {
+          "q": "Wie schnell muss ein Unternehmen auf eine Auskunftsanfrage antworten?",
+          "options": [
+            "Innerhalb einer Woche",
+            "Grundsätzlich innerhalb eines Monats",
+            "Innerhalb eines Jahres",
+            "Es gibt keine Frist."
+          ],
+          "answer": 1,
+          "explain": "„Das Unternehmen muss grundsätzlich innerhalb eines Monats antworten, und zwar kostenlos.“"
+        },
+        {
+          "q": "Warum gilt das Recht auf Löschung nicht uneingeschränkt?",
+          "options": [
+            "Weil Unternehmen Daten frei verkaufen dürfen",
+            "Weil das Löschen zu teuer ist",
+            "Weil zum Beispiel Rechnungen aus steuerrechtlichen Gründen aufbewahrt werden müssen"
+          ],
+          "answer": 2,
+          "explain": "„Rechnungen etwa müssen aus steuerrechtlichen Gründen mehrere Jahre aufbewahrt werden.“"
+        },
+        {
+          "q": "Wonach darf ein Vermieter NICHT fragen?",
+          "options": [
+            "Nach dem Einkommen",
+            "Nach dem Namen",
+            "Nach dem gewünschten Einzugstermin",
+            "Nach der Familienplanung"
+          ],
+          "answer": 3,
+          "explain": "„Fragen nach Religion, Herkunft oder Familienplanung sind jedoch unzulässig.“ Hỏi về thu nhập thì được phép."
+        },
+        {
+          "q": "Wie hoch können Bußgelder nach der DSGVO höchstens sein?",
+          "options": [
+            "Bis zu 20.000 Euro",
+            "Bis zu 4 Millionen Euro",
+            "Bis zu 20 Millionen Euro oder 4 % des weltweiten Jahresumsatzes"
+          ],
+          "answer": 2,
+          "explain": "„… bis zu 20 Millionen Euro oder vier Prozent des weltweiten Jahresumsatzes …, je nachdem, welcher Betrag höher ist.“"
+        }
+      ]
+    }
+  ]
+}

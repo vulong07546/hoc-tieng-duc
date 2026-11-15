@@ -1,0 +1,240 @@
+{
+  "grammar": [
+    {
+      "title": "Thì quá khứ đơn (Präteritum)",
+      "intro": "Präteritum chủ yếu dùng trong văn viết và kể chuyện; với sein, haben và động từ khuyết thiếu thì dùng cả trong văn nói.\nĐộng từ có quy tắc: gốc + -te (ich spielte, wir spielten).\nĐộng từ bất quy tắc đổi nguyên âm: fahren → fuhr, schreiben → schrieb.\nNgôi ich và er/sie/es giống nhau và không có đuôi: ich war, er war.",
+      "questions": [
+        {"q": "Gestern ___ ich mit dem Zug nach Berlin.", "hint": "(fahren, Präteritum, ich)", "answers": ["fuhr"], "vi": "Hôm qua tôi đi tàu đến Berlin.", "explain": "fahren là động từ bất quy tắc: fahren → fuhr."},
+        {"q": "Als Kind ___ sie in München.", "hint": "(wohnen, Präteritum, sie Sg.)", "answers": ["wohnte"], "vi": "Hồi nhỏ cô ấy sống ở München.", "explain": "Động từ có quy tắc: gốc wohn- + -te."},
+        {"q": "Wir ___ keine Zeit.", "hint": "(haben, Präteritum, wir)", "answers": ["hatten"], "vi": "Chúng tôi đã không có thời gian.", "explain": "haben → hatte, ngôi wir thêm -n: hatten."},
+        {"q": "Er ___ sehr müde.", "hint": "(sein, Präteritum, er)", "answers": ["war"], "vi": "Anh ấy đã rất mệt.", "explain": "sein ở Präteritum ngôi er là war."},
+        {"q": "Ich ___ meinen Schlüssel nicht finden.", "hint": "(können, Präteritum, ich)", "answers": ["konnte"], "vi": "Tôi đã không thể tìm thấy chìa khóa của mình.", "explain": "Động từ khuyết thiếu bỏ Umlaut: können → konnte."},
+        {"q": "Die Gäste ___ den ganzen Abend.", "hint": "(tanzen, Präteritum, sie Pl.)", "answers": ["tanzten"], "vi": "Các vị khách đã nhảy suốt cả buổi tối.", "explain": "Ngôi số nhiều: gốc tanz- + -ten."},
+        {"q": "Der Lehrer ___ uns eine Geschichte.", "hint": "(erzählen, Präteritum, er)", "answers": ["erzählte"], "vi": "Thầy giáo đã kể cho chúng tôi một câu chuyện.", "explain": "Động từ có quy tắc: erzähl- + -te."},
+        {"q": "Plötzlich ___ das Telefon.", "hint": "(klingeln, Präteritum, es)", "answers": ["klingelte"], "vi": "Đột nhiên điện thoại reo.", "explain": "Động từ có quy tắc: klingel- + -te."},
+        {"q": "Du ___ früh nach Hause gehen.", "hint": "(müssen, Präteritum, du)", "answers": ["musstest"], "vi": "Bạn đã phải về nhà sớm.", "explain": "müssen → musste, ngôi du thêm -st: musstest."},
+        {"q": "Wir ___ uns im Park.", "hint": "(treffen, Präteritum, wir)", "answers": ["trafen"], "vi": "Chúng tôi đã gặp nhau ở công viên.", "explain": "treffen là động từ bất quy tắc: treffen → traf, wir trafen."},
+        {"q": "Sie ___ einen langen Brief.", "hint": "(schreiben, Präteritum, sie Sg.)", "answers": ["schrieb"], "vi": "Cô ấy đã viết một lá thư dài.", "explain": "schreiben là động từ bất quy tắc: schreiben → schrieb."},
+        {"q": "Ich ___ nicht, dass du krank warst.", "hint": "(wissen, Präteritum, ich)", "answers": ["wusste"], "vi": "Tôi đã không biết là bạn bị ốm.", "explain": "wissen là động từ hỗn hợp: wissen → wusste."}
+      ]
+    },
+    {
+      "title": "Mệnh đề quan hệ (Relativsätze)",
+      "intro": "Đại từ quan hệ lấy giống và số theo danh từ đứng trước, nhưng lấy cách theo vai trò trong mệnh đề quan hệ. Động từ đứng cuối mệnh đề.\nNom: der – die – das – die (Pl.)\nAkk: den – die – das – die\nDat: dem – der – dem – denen\nGen: dessen – deren – dessen – deren",
+      "questions": [
+        {"q": "Das ist der Mann, ___ neben mir wohnt.", "hint": "(der Mann, Nominativ)", "answers": ["der"], "vi": "Đó là người đàn ông sống cạnh nhà tôi.", "explain": "Người đàn ông là chủ ngữ trong mệnh đề quan hệ → Nominativ giống đực: der."},
+        {"q": "Die Frau, ___ ich gestern getroffen habe, ist Ärztin.", "hint": "(die Frau, Akkusativ)", "answers": ["die"], "vi": "Người phụ nữ mà hôm qua tôi gặp là bác sĩ.", "explain": "treffen cần Akkusativ, giống cái → die."},
+        {"q": "Das Kind, ___ ich geholfen habe, ist sehr nett.", "hint": "(das Kind, Dativ)", "answers": ["dem"], "vi": "Đứa trẻ mà tôi đã giúp rất dễ thương.", "explain": "helfen đi với Dativ, giống trung → dem."},
+        {"q": "Der Freund, ___ ich ein Buch geschenkt habe, hat heute Geburtstag.", "hint": "(der Freund, Dativ)", "answers": ["dem"], "vi": "Người bạn mà tôi đã tặng một cuốn sách hôm nay có sinh nhật.", "explain": "Người nhận quà ở Dativ, giống đực → dem."},
+        {"q": "Die Leute, ___ hier arbeiten, sind freundlich.", "hint": "(die Leute, Nominativ Plural)", "answers": ["die"], "vi": "Những người làm việc ở đây rất thân thiện.", "explain": "Chủ ngữ số nhiều → Nominativ Plural: die."},
+        {"q": "Das ist das Auto, ___ ich kaufen möchte.", "hint": "(das Auto, Akkusativ)", "answers": ["das"], "vi": "Đó là chiếc ô tô mà tôi muốn mua.", "explain": "kaufen cần Akkusativ, giống trung → das."},
+        {"q": "Der Film, ___ wir gesehen haben, war spannend.", "hint": "(der Film, Akkusativ)", "answers": ["den"], "vi": "Bộ phim mà chúng tôi đã xem rất hấp dẫn.", "explain": "sehen cần Akkusativ, giống đực → den."},
+        {"q": "Die Kollegin, mit ___ ich arbeite, kommt aus Wien.", "hint": "(die Kollegin, mit + Dativ)", "answers": ["der"], "vi": "Cô đồng nghiệp mà tôi làm việc cùng đến từ Viên.", "explain": "mit đi với Dativ, giống cái → der."},
+        {"q": "Die Kinder, ___ wir die Geschenke gegeben haben, waren glücklich.", "hint": "(die Kinder, Dativ Plural)", "answers": ["denen"], "vi": "Những đứa trẻ mà chúng tôi đã tặng quà rất vui.", "explain": "Dativ số nhiều của đại từ quan hệ là denen."},
+        {"q": "Das ist die Stadt, in ___ ich geboren bin.", "hint": "(die Stadt, in + Dativ)", "answers": ["der"], "vi": "Đó là thành phố nơi tôi được sinh ra.", "explain": "in chỉ vị trí đi với Dativ, giống cái → der."},
+        {"q": "Der Mann, ___ Auto kaputt ist, wartet auf den Bus.", "hint": "(der Mann, Genitiv)", "answers": ["dessen"], "vi": "Người đàn ông có chiếc ô tô bị hỏng đang chờ xe buýt.", "explain": "Chỉ sự sở hữu của danh từ giống đực → Genitiv: dessen."},
+        {"q": "Die Firma, für ___ ich arbeite, ist sehr groß.", "hint": "(die Firma, für + Akkusativ)", "answers": ["die"], "vi": "Công ty mà tôi làm việc cho rất lớn.", "explain": "für đi với Akkusativ, giống cái → die."}
+      ]
+    },
+    {
+      "title": "Câu bị động (Passiv Präsens und Präteritum)",
+      "intro": "Câu bị động nhấn mạnh hành động, không nhấn mạnh người làm.\nCấu trúc: werden (chia) + Partizip II ở cuối câu.\nPräsens: ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden\nPräteritum: ich wurde, du wurdest, er wurde, wir wurden, ihr wurdet, sie wurden\nNgười thực hiện hành động được nêu bằng von + Dativ.",
+      "questions": [
+        {"q": "Das Haus ___ renoviert.", "hint": "(werden, Passiv Präsens)", "answers": ["wird"], "vi": "Ngôi nhà đang được sửa sang.", "explain": "Chủ ngữ số ít ngôi thứ ba → werden chia thành wird."},
+        {"q": "Die Briefe ___ gestern geschickt.", "hint": "(werden, Passiv Präteritum)", "answers": ["wurden"], "vi": "Những lá thư đã được gửi đi hôm qua.", "explain": "Chủ ngữ số nhiều, quá khứ → wurden."},
+        {"q": "Hier ___ Deutsch gesprochen.", "hint": "(werden, Passiv Präsens)", "answers": ["wird"], "vi": "Ở đây người ta nói tiếng Đức.", "explain": "Câu bị động không có chủ ngữ cụ thể dùng ngôi thứ ba số ít: wird."},
+        {"q": "Das Auto wird jeden Samstag ___.", "hint": "(waschen, Partizip II)", "answers": ["gewaschen"], "vi": "Chiếc ô tô được rửa vào mỗi thứ Bảy.", "explain": "Partizip II bất quy tắc của waschen là gewaschen."},
+        {"q": "Die Stadt wurde im Jahr 1200 ___.", "hint": "(gründen, Partizip II)", "answers": ["gegründet"], "vi": "Thành phố được thành lập vào năm 1200.", "explain": "gründen có quy tắc: ge- + gründ + -et."},
+        {"q": "Der Patient ___ sofort operiert.", "hint": "(werden, Passiv Präteritum)", "answers": ["wurde"], "vi": "Bệnh nhân đã được phẫu thuật ngay lập tức.", "explain": "Chủ ngữ số ít, quá khứ → wurde."},
+        {"q": "Die Fenster werden jeden Monat ___.", "hint": "(putzen, Partizip II)", "answers": ["geputzt"], "vi": "Các cửa sổ được lau chùi mỗi tháng.", "explain": "putzen có quy tắc: ge- + putz + -t."},
+        {"q": "In Österreich ___ viel Kaffee getrunken.", "hint": "(werden, Passiv Präsens)", "answers": ["wird"], "vi": "Ở Áo người ta uống nhiều cà phê.", "explain": "Kaffee là chủ ngữ số ít → wird."},
+        {"q": "Das Essen wurde von meiner Mutter ___.", "hint": "(kochen, Partizip II)", "answers": ["gekocht"], "vi": "Món ăn đã được mẹ tôi nấu.", "explain": "kochen có quy tắc: ge- + koch + -t."},
+        {"q": "Die Kinder ___ von ihren Eltern abgeholt.", "hint": "(werden, Passiv Präsens)", "answers": ["werden"], "vi": "Bọn trẻ được bố mẹ đến đón.", "explain": "Chủ ngữ số nhiều ở hiện tại → werden."},
+        {"q": "Das Paket wurde gestern ___.", "hint": "(liefern, Partizip II)", "answers": ["geliefert"], "vi": "Bưu kiện đã được giao hôm qua.", "explain": "liefern có quy tắc: ge- + liefer + -t."},
+        {"q": "Ich ___ zum Vorstellungsgespräch eingeladen.", "hint": "(werden, Passiv Präteritum, ich)", "answers": ["wurde"], "vi": "Tôi đã được mời đến buổi phỏng vấn xin việc.", "explain": "Ngôi ich ở Präteritum của werden là wurde."}
+      ]
+    },
+    {
+      "title": "Thức giả định II (Konjunktiv II)",
+      "intro": "Konjunktiv II dùng cho điều ước, giả định không có thật, lời khuyên và lời đề nghị lịch sự.\nsein → wäre, haben → hätte, werden → würde\nkönnen → könnte, sollen → sollte, müssen → müsste\nVới hầu hết động từ khác dùng würde + Infinitiv: Ich würde gern reisen.",
+      "questions": [
+        {"q": "Wenn ich Zeit ___, würde ich dich besuchen.", "hint": "(haben, Konjunktiv II)", "answers": ["hätte"], "vi": "Nếu tôi có thời gian, tôi sẽ đến thăm bạn.", "explain": "Konjunktiv II của haben ngôi ich là hätte."},
+        {"q": "Wenn ich reich ___, würde ich um die Welt reisen.", "hint": "(sein, Konjunktiv II)", "answers": ["wäre"], "vi": "Nếu tôi giàu, tôi sẽ đi du lịch vòng quanh thế giới.", "explain": "Konjunktiv II của sein ngôi ich là wäre."},
+        {"q": "___ Sie mir bitte helfen?", "hint": "(können, Konjunktiv II, höfliche Bitte)", "answers": ["Könnten"], "vi": "Ông/bà có thể giúp tôi được không ạ?", "explain": "Lời nhờ lịch sự với Sie dùng könnten."},
+        {"q": "Ich ___ gern einen Kaffee.", "hint": "(haben, Konjunktiv II, höflicher Wunsch)", "answers": ["hätte"], "vi": "Tôi muốn một ly cà phê.", "explain": "„Ich hätte gern …“ là cách gọi món lịch sự."},
+        {"q": "An deiner Stelle ___ ich mehr lernen.", "hint": "(werden, Konjunktiv II)", "answers": ["würde"], "vi": "Nếu tôi là bạn, tôi sẽ học nhiều hơn.", "explain": "würde + Infinitiv diễn tả giả định hoặc lời khuyên."},
+        {"q": "Du ___ mehr Sport machen.", "hint": "(sollen, Konjunktiv II, Ratschlag, du)", "answers": ["solltest"], "vi": "Bạn nên tập thể thao nhiều hơn.", "explain": "Lời khuyên dùng sollte, ngôi du thêm -st: solltest."},
+        {"q": "Wenn wir ein Auto ___, könnten wir aufs Land fahren.", "hint": "(haben, Konjunktiv II, wir)", "answers": ["hätten"], "vi": "Nếu chúng tôi có ô tô, chúng tôi có thể về vùng quê.", "explain": "Konjunktiv II của haben ngôi wir là hätten."},
+        {"q": "___ du mir bitte das Salz geben?", "hint": "(können, Konjunktiv II, du)", "answers": ["Könntest"], "vi": "Bạn có thể đưa giúp tôi lọ muối được không?", "explain": "können → könnte, ngôi du thêm -st: könntest."},
+        {"q": "Es ___ schön, wenn du kommen könntest.", "hint": "(sein, Konjunktiv II)", "answers": ["wäre"], "vi": "Sẽ thật tuyệt nếu bạn có thể đến.", "explain": "Konjunktiv II của sein ngôi es là wäre."},
+        {"q": "Ich ___ jetzt gern am Strand.", "hint": "(sein, Konjunktiv II, Wunsch)", "answers": ["wäre"], "vi": "Giá mà bây giờ tôi đang ở bãi biển.", "explain": "Điều ước không có thật dùng wäre."},
+        {"q": "Wenn er mehr ___, würde er die Prüfung bestehen.", "hint": "(lernen, Konjunktiv II)", "answers": ["lernen würde", "lernte"], "vi": "Nếu anh ấy học nhiều hơn, anh ấy sẽ thi đỗ.", "explain": "Konjunktiv II của lernen là lernen würde (hoặc lernte, giống Präteritum)."},
+        {"q": "Ihr ___ besser früher losfahren.", "hint": "(sollen, Konjunktiv II, ihr)", "answers": ["solltet"], "vi": "Các bạn nên khởi hành sớm hơn.", "explain": "Lời khuyên với ihr: solltet."}
+      ]
+    },
+    {
+      "title": "Động từ nguyên mẫu với zu (Infinitiv mit zu)",
+      "intro": "Sau nhiều động từ (versuchen, vergessen, anfangen, vorhaben…), cụm (keine) Lust/Zeit haben và es ist wichtig/schön… ta dùng zu + Infinitiv ở cuối câu.\nĐộng từ tách được: zu đứng giữa: aufstehen → aufzustehen.\num … zu = để; ohne … zu = mà không.\nSau động từ khuyết thiếu (können, müssen, wollen…) KHÔNG dùng zu.",
+      "questions": [
+        {"q": "Ich habe keine Lust, heute ___.", "hint": "(kochen)", "answers": ["zu kochen"], "vi": "Hôm nay tôi không muốn nấu ăn.", "explain": "Sau „keine Lust haben“ dùng zu + Infinitiv."},
+        {"q": "Es ist wichtig, jeden Tag Deutsch ___.", "hint": "(lernen)", "answers": ["zu lernen"], "vi": "Việc học tiếng Đức mỗi ngày là quan trọng.", "explain": "Sau „es ist wichtig“ dùng zu + Infinitiv."},
+        {"q": "Vergiss nicht, die Tür ___!", "hint": "(abschließen)", "answers": ["abzuschließen"], "vi": "Đừng quên khóa cửa nhé!", "explain": "Động từ tách được: zu đứng giữa tiền tố và gốc."},
+        {"q": "Er hat versprochen, pünktlich ___.", "hint": "(kommen)", "answers": ["zu kommen"], "vi": "Anh ấy đã hứa sẽ đến đúng giờ.", "explain": "Sau versprechen dùng zu + Infinitiv."},
+        {"q": "Ich versuche, früher ___.", "hint": "(aufstehen)", "answers": ["aufzustehen"], "vi": "Tôi cố gắng dậy sớm hơn.", "explain": "aufstehen là động từ tách được → aufzustehen."},
+        {"q": "Sie hat angefangen, Gitarre ___.", "hint": "(spielen)", "answers": ["zu spielen"], "vi": "Cô ấy đã bắt đầu chơi đàn ghi-ta.", "explain": "Sau anfangen dùng zu + Infinitiv."},
+        {"q": "Wir haben vor, nach Italien ___.", "hint": "(fahren)", "answers": ["zu fahren"], "vi": "Chúng tôi dự định đi Ý.", "explain": "Sau vorhaben dùng zu + Infinitiv."},
+        {"q": "Es macht Spaß, neue Leute ___.", "hint": "(kennenlernen)", "answers": ["kennenzulernen"], "vi": "Làm quen với người mới thật vui.", "explain": "kennenlernen là động từ tách được → kennenzulernen."},
+        {"q": "Ich spare Geld, um ein Auto ___.", "hint": "(kaufen)", "answers": ["zu kaufen"], "vi": "Tôi tiết kiệm tiền để mua một chiếc ô tô.", "explain": "um … zu + Infinitiv diễn tả mục đích."},
+        {"q": "Er ist gegangen, ohne sich ___.", "hint": "(verabschieden)", "answers": ["zu verabschieden"], "vi": "Anh ấy đã đi mà không chào tạm biệt.", "explain": "ohne … zu + Infinitiv nghĩa là „mà không“; ver- không tách được nên zu đứng trước."},
+        {"q": "Hast du Zeit, mich morgen ___?", "hint": "(anrufen)", "answers": ["anzurufen"], "vi": "Ngày mai bạn có thời gian gọi điện cho tôi không?", "explain": "anrufen là động từ tách được → anzurufen."},
+        {"q": "Ich muss morgen früh ___.", "hint": "(aufstehen – nach Modalverb!)", "answers": ["aufstehen"], "vi": "Ngày mai tôi phải dậy sớm.", "explain": "Sau động từ khuyết thiếu müssen không dùng zu."}
+      ]
+    },
+    {
+      "title": "Đuôi tính từ (Adjektivdeklination)",
+      "intro": "Tính từ đứng trước danh từ phải thêm đuôi theo mạo từ, giống, cách và số.\nSau der/die/das: chủ yếu -e (Nom. Sg., Akk. fem./neutr.), còn lại -en.\nSau ein/kein/mein: Nom. der-Wort → -er, das-Wort → -es; Akk. maskulin → -en; Dativ → -en.\nKhông có mạo từ: tính từ nhận đuôi của mạo từ xác định (schwarzen Kaffee, schönes Wetter, gute Ideen).",
+      "questions": [
+        {"q": "Ich habe einen ___ Hund.", "hint": "(klein)", "answers": ["kleinen"], "vi": "Tôi có một con chó nhỏ.", "explain": "Akkusativ giống đực sau einen → -en."},
+        {"q": "Das ist ein ___ Auto.", "hint": "(neu)", "answers": ["neues"], "vi": "Đó là một chiếc ô tô mới.", "explain": "Nominativ giống trung sau ein → -es."},
+        {"q": "Die ___ Frau ist meine Lehrerin.", "hint": "(jung)", "answers": ["junge"], "vi": "Người phụ nữ trẻ là cô giáo của tôi.", "explain": "Nominativ số ít sau die → -e."},
+        {"q": "Wir wohnen in einem ___ Haus.", "hint": "(alt)", "answers": ["alten"], "vi": "Chúng tôi sống trong một ngôi nhà cũ.", "explain": "Dativ luôn có đuôi -en sau einem."},
+        {"q": "Er trinkt gern ___ Kaffee.", "hint": "(schwarz, ohne Artikel)", "answers": ["schwarzen"], "vi": "Anh ấy thích uống cà phê đen.", "explain": "Không có mạo từ, Akkusativ giống đực → -en (như den)."},
+        {"q": "Ich suche eine ___ Wohnung.", "hint": "(günstig)", "answers": ["günstige"], "vi": "Tôi đang tìm một căn hộ giá rẻ.", "explain": "Akkusativ giống cái sau eine → -e."},
+        {"q": "Mit dem ___ Zug fahre ich nach Hamburg.", "hint": "(schnell)", "answers": ["schnellen"], "vi": "Tôi đi Hamburg bằng chuyến tàu nhanh.", "explain": "Dativ sau dem → -en."},
+        {"q": "Das sind ___ Ideen.", "hint": "(gut, ohne Artikel)", "answers": ["gute"], "vi": "Đó là những ý tưởng hay.", "explain": "Số nhiều không có mạo từ, Nominativ → -e."},
+        {"q": "Der ___ Mann wartet auf den Bus.", "hint": "(alt)", "answers": ["alte"], "vi": "Người đàn ông lớn tuổi đang chờ xe buýt.", "explain": "Nominativ số ít sau der → -e."},
+        {"q": "Ich gebe der ___ Kollegin ein Geschenk.", "hint": "(neu)", "answers": ["neuen"], "vi": "Tôi tặng quà cho cô đồng nghiệp mới.", "explain": "Dativ sau der → -en."},
+        {"q": "Sie trägt ein ___ Kleid.", "hint": "(rot)", "answers": ["rotes"], "vi": "Cô ấy mặc một chiếc váy đỏ.", "explain": "Akkusativ giống trung sau ein → -es."},
+        {"q": "Heute haben wir ___ Wetter.", "hint": "(schön, ohne Artikel)", "answers": ["schönes"], "vi": "Hôm nay trời đẹp.", "explain": "Không có mạo từ, Akkusativ giống trung → -es (như das)."}
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "title": "Bày tỏ ý kiến",
+      "emoji": "💬",
+      "items": [
+        {"e": "🗣️", "vi": "Theo ý kiến của tôi, điều đó đúng.", "de": "Meiner Meinung nach ist das richtig.", "alt": ["Meiner Meinung nach stimmt das."]},
+        {"e": "🤩", "vi": "Tôi thấy điều đó rất thú vị.", "de": "Ich finde das sehr interessant.", "alt": []},
+        {"e": "💸", "vi": "Tôi cho rằng cái đó quá đắt.", "de": "Ich bin der Meinung, dass das zu teuer ist.", "alt": ["Ich bin der Ansicht, dass das zu teuer ist."]},
+        {"e": "🤔", "vi": "Bạn (du) nghĩ gì về điều đó?", "de": "Was denkst du darüber?", "alt": ["Was hältst du davon?", "Was meinst du dazu?"]},
+        {"e": "🎩", "vi": "Ông/bà (Sie) nghĩ sao về điều đó?", "de": "Was meinen Sie dazu?", "alt": ["Was halten Sie davon?", "Was denken Sie darüber?"]},
+        {"e": "💡", "vi": "Tôi nghĩ đó là một ý tưởng hay.", "de": "Ich glaube, das ist eine gute Idee.", "alt": ["Ich glaube, dass das eine gute Idee ist.", "Ich denke, das ist eine gute Idee."]},
+        {"e": "🤷", "vi": "Tôi không chắc lắm.", "de": "Ich bin mir nicht sicher.", "alt": ["Ich bin mir nicht ganz sicher."]},
+        {"e": "⚖️", "vi": "Còn tùy.", "de": "Das kommt darauf an.", "alt": ["Es kommt darauf an.", "Das kommt drauf an."]},
+        {"e": "😶", "vi": "Tôi không có ý kiến gì về việc này.", "de": "Ich habe keine Meinung dazu.", "alt": []},
+        {"e": "👨‍👩‍👧", "vi": "Đối với tôi, gia đình là quan trọng nhất.", "de": "Für mich ist die Familie am wichtigsten.", "alt": ["Für mich ist Familie am wichtigsten."]},
+        {"e": "🔄", "vi": "Một mặt nó tiện lợi, mặt khác nó đắt.", "de": "Einerseits ist es praktisch, andererseits ist es teuer.", "alt": []},
+        {"e": "👎", "vi": "Tôi cho rằng đó không phải là ý hay.", "de": "Ich halte das für keine gute Idee.", "alt": ["Ich halte das nicht für eine gute Idee."]},
+        {"e": "⏳", "vi": "Theo quan điểm của tôi, chúng ta nên chờ.", "de": "Meiner Ansicht nach sollten wir warten.", "alt": ["Meiner Meinung nach sollten wir warten."]},
+        {"e": "😕", "vi": "Thành thật mà nói, tôi không thích điều đó.", "de": "Ehrlich gesagt gefällt mir das nicht.", "alt": ["Ehrlich gesagt, gefällt mir das nicht.", "Ehrlich gesagt mag ich das nicht."]},
+        {"e": "❗", "vi": "Điều quan trọng là chúng ta nói về chuyện này.", "de": "Es ist wichtig, dass wir darüber sprechen.", "alt": ["Es ist wichtig, dass wir darüber reden."]}
+      ]
+    },
+    {
+      "title": "Đồng ý và phản đối",
+      "emoji": "🤝",
+      "items": [
+        {"e": "👍", "vi": "Bạn (du) nói đúng.", "de": "Da hast du recht.", "alt": ["Du hast recht.", "Da hast du Recht.", "Du hast Recht."]},
+        {"e": "🎩", "vi": "Ông/bà (Sie) nói đúng.", "de": "Da haben Sie recht.", "alt": ["Sie haben recht.", "Da haben Sie Recht.", "Sie haben Recht."]},
+        {"e": "👀", "vi": "Tôi cũng thấy y như vậy.", "de": "Das sehe ich genauso.", "alt": ["Das sehe ich auch so."]},
+        {"e": "🤝", "vi": "Tôi hoàn toàn đồng ý với bạn (du).", "de": "Ich bin ganz deiner Meinung.", "alt": ["Ich stimme dir völlig zu.", "Ich stimme dir voll zu."]},
+        {"e": "✅", "vi": "Tôi đồng ý với ông/bà (Sie).", "de": "Ich stimme Ihnen zu.", "alt": ["Ich bin Ihrer Meinung."]},
+        {"e": "🎯", "vi": "Chính xác!", "de": "Genau!", "alt": ["Stimmt!", "Richtig!"]},
+        {"e": "❌", "vi": "Điều đó không đúng.", "de": "Das stimmt nicht.", "alt": ["Das ist nicht richtig."]},
+        {"e": "🙅", "vi": "Về điểm này tôi có ý kiến khác.", "de": "Da bin ich anderer Meinung.", "alt": ["Ich bin anderer Meinung."]},
+        {"e": "🔀", "vi": "Tôi thấy khác.", "de": "Das sehe ich anders.", "alt": ["Ich sehe das anders."]},
+        {"e": "👎", "vi": "Tôi không đồng ý với bạn (du).", "de": "Ich bin nicht deiner Meinung.", "alt": ["Ich stimme dir nicht zu."]},
+        {"e": "✋", "vi": "Ở điểm này tôi phải phản đối.", "de": "Da muss ich widersprechen.", "alt": ["Da muss ich dir widersprechen.", "Da muss ich Ihnen widersprechen."]},
+        {"e": "🌗", "vi": "Điều đó đúng một phần.", "de": "Das stimmt zum Teil.", "alt": ["Das ist zum Teil richtig.", "Das ist teilweise richtig.", "Das stimmt teilweise."]},
+        {"e": "🧩", "vi": "Đúng, nhưng chuyện đó không đơn giản như vậy.", "de": "Ja, aber das ist nicht so einfach.", "alt": []},
+        {"e": "🚫", "vi": "Không đời nào!", "de": "Auf keinen Fall!", "alt": []},
+        {"e": "😊", "vi": "Tôi cũng thấy vậy.", "de": "Das finde ich auch.", "alt": ["Finde ich auch.", "Ich finde das auch."]}
+      ]
+    },
+    {
+      "title": "Phỏng vấn xin việc",
+      "emoji": "💼",
+      "items": [
+        {"e": "🙏", "vi": "Cảm ơn ông/bà (Sie) rất nhiều vì lời mời.", "de": "Vielen Dank für die Einladung.", "alt": ["Danke für die Einladung."]},
+        {"e": "📰", "vi": "Tôi đã đọc tin tuyển dụng của quý công ty trên mạng.", "de": "Ich habe Ihre Anzeige im Internet gelesen.", "alt": ["Ich habe Ihre Stellenanzeige im Internet gelesen."]},
+        {"e": "⭐", "vi": "Tôi rất quan tâm đến vị trí này.", "de": "Ich interessiere mich sehr für diese Stelle.", "alt": []},
+        {"e": "👨‍🍳", "vi": "Tôi đã làm đầu bếp ba năm.", "de": "Ich habe drei Jahre als Koch gearbeitet.", "alt": ["Ich habe drei Jahre lang als Koch gearbeitet."]},
+        {"e": "🏥", "vi": "Tôi đã học nghề điều dưỡng (nam).", "de": "Ich habe eine Ausbildung zum Krankenpfleger gemacht.", "alt": ["Ich habe eine Ausbildung als Krankenpfleger gemacht."]},
+        {"e": "💪", "vi": "Điểm mạnh của tôi là khả năng làm việc nhóm và sự kiên nhẫn.", "de": "Meine Stärken sind Teamfähigkeit und Geduld.", "alt": []},
+        {"e": "👥", "vi": "Tôi thích làm việc nhóm.", "de": "Ich arbeite gern im Team.", "alt": ["Ich arbeite gerne im Team."]},
+        {"e": "🌐", "vi": "Tôi nói lưu loát tiếng Việt và tiếng Anh.", "de": "Ich spreche fließend Vietnamesisch und Englisch.", "alt": []},
+        {"e": "🚀", "vi": "Tôi học nhanh và đáng tin cậy.", "de": "Ich lerne schnell und bin zuverlässig.", "alt": []},
+        {"e": "📅", "vi": "Khi nào tôi có thể bắt đầu?", "de": "Wann könnte ich anfangen?", "alt": ["Wann kann ich anfangen?"]},
+        {"e": "🕘", "vi": "Giờ làm việc như thế nào?", "de": "Wie sind die Arbeitszeiten?", "alt": []},
+        {"e": "🗓️", "vi": "Tôi có thể bắt đầu từ tháng sau.", "de": "Ich kann ab nächstem Monat anfangen.", "alt": ["Ich kann ab nächsten Monat anfangen."]},
+        {"e": "🎓", "vi": "Có cơ hội đào tạo nâng cao không?", "de": "Gibt es Möglichkeiten zur Weiterbildung?", "alt": ["Gibt es Weiterbildungsmöglichkeiten?"]},
+        {"e": "📋", "vi": "Tôi sẽ có những nhiệm vụ gì?", "de": "Welche Aufgaben hätte ich?", "alt": ["Welche Aufgaben würde ich haben?"]},
+        {"e": "✉️", "vi": "Tôi mong nhận được hồi âm của ông/bà (Sie).", "de": "Ich freue mich auf Ihre Antwort.", "alt": ["Ich freue mich auf Ihre Rückmeldung."]}
+      ]
+    },
+    {
+      "title": "Phàn nàn, khiếu nại",
+      "emoji": "😤",
+      "items": [
+        {"e": "📢", "vi": "Tôi muốn khiếu nại.", "de": "Ich möchte mich beschweren.", "alt": []},
+        {"e": "🥶", "vi": "Lò sưởi không hoạt động.", "de": "Die Heizung funktioniert nicht.", "alt": ["Die Heizung geht nicht."]},
+        {"e": "🍲", "vi": "Món ăn bị nguội.", "de": "Das Essen ist kalt.", "alt": []},
+        {"e": "🧾", "vi": "Tôi đã gọi món khác.", "de": "Ich habe etwas anderes bestellt.", "alt": []},
+        {"e": "💶", "vi": "Tôi muốn lấy lại tiền.", "de": "Ich möchte mein Geld zurück.", "alt": ["Ich möchte mein Geld zurückhaben."]},
+        {"e": "🔧", "vi": "Ông/bà (Sie) có thể sửa cái này được không?", "de": "Können Sie das bitte reparieren?", "alt": ["Könnten Sie das bitte reparieren?", "Können Sie das reparieren?"]},
+        {"e": "⌛", "vi": "Tôi đã chờ suốt một tiếng rồi.", "de": "Ich warte schon seit einer Stunde.", "alt": ["Ich warte schon eine Stunde."]},
+        {"e": "🙁", "vi": "Thế này là không ổn.", "de": "Das ist nicht in Ordnung.", "alt": []},
+        {"e": "🔊", "vi": "Hàng xóm ban đêm rất ồn.", "de": "Die Nachbarn sind nachts sehr laut.", "alt": []},
+        {"e": "👔", "vi": "Tôi muốn nói chuyện với sếp/quản lý.", "de": "Ich möchte mit dem Chef sprechen.", "alt": ["Ich möchte den Chef sprechen."]},
+        {"e": "🧮", "vi": "Hóa đơn bị sai.", "de": "Die Rechnung ist falsch.", "alt": ["Die Rechnung stimmt nicht."]},
+        {"e": "😠", "vi": "Tôi không hài lòng với dịch vụ.", "de": "Ich bin mit dem Service nicht zufrieden.", "alt": []},
+        {"e": "🛏️", "vi": "Căn phòng không sạch.", "de": "Das Zimmer ist nicht sauber.", "alt": []},
+        {"e": "⚡", "vi": "Tôi mong có một giải pháp nhanh chóng.", "de": "Ich erwarte eine schnelle Lösung.", "alt": []},
+        {"e": "🔁", "vi": "Tôi muốn đổi sản phẩm này.", "de": "Ich möchte das Produkt umtauschen.", "alt": ["Ich möchte dieses Produkt umtauschen."]}
+      ]
+    },
+    {
+      "title": "Đưa ra đề xuất",
+      "emoji": "💡",
+      "items": [
+        {"e": "🎬", "vi": "Chúng ta đi xem phim nhé?", "de": "Wollen wir ins Kino gehen?", "alt": ["Sollen wir ins Kino gehen?", "Gehen wir ins Kino?"]},
+        {"e": "🧺", "vi": "Một buổi picnic thì sao?", "de": "Wie wäre es mit einem Picknick?", "alt": ["Wie wär's mit einem Picknick?"]},
+        {"e": "🏊", "vi": "Ngày mai chúng mình đi bơi đi! (nói với một người, du)", "de": "Lass uns morgen schwimmen gehen!", "alt": ["Lass uns morgen schwimmen gehen."]},
+        {"e": "🍳", "vi": "Chúng ta cùng nấu ăn đi! (nói với nhiều người, ihr)", "de": "Lasst uns zusammen kochen!", "alt": ["Lasst uns zusammen kochen."]},
+        {"e": "🚌", "vi": "Tôi đề nghị chúng ta đi xe buýt.", "de": "Ich schlage vor, dass wir den Bus nehmen.", "alt": ["Ich schlage vor, wir nehmen den Bus."]},
+        {"e": "☕", "vi": "Bạn (du) có muốn đi uống cà phê không?", "de": "Hast du Lust, Kaffee trinken zu gehen?", "alt": ["Hast du Lust auf einen Kaffee?", "Hast du Lust, einen Kaffee zu trinken?"]},
+        {"e": "⏰", "vi": "Bạn (du) nghĩ sao nếu chúng ta bắt đầu sớm hơn?", "de": "Was hältst du davon, wenn wir früher anfangen?", "alt": []},
+        {"e": "🥾", "vi": "Cuối tuần chúng ta có thể đi bộ đường dài.", "de": "Wir könnten am Wochenende wandern.", "alt": ["Wir könnten am Wochenende wandern gehen."]},
+        {"e": "👏", "vi": "Đó là một ý hay!", "de": "Das ist eine gute Idee!", "alt": ["Das ist eine gute Idee.", "Gute Idee!"]},
+        {"e": "😔", "vi": "Tiếc là tôi không có thời gian.", "de": "Ich habe leider keine Zeit.", "alt": ["Leider habe ich keine Zeit."]},
+        {"e": "🔜", "vi": "Có lẽ để lần khác.", "de": "Vielleicht ein anderes Mal.", "alt": ["Vielleicht ein andermal.", "Vielleicht nächstes Mal."]},
+        {"e": "🌊", "vi": "Sao chúng ta không đi biển nhỉ?", "de": "Warum fahren wir nicht ans Meer?", "alt": []},
+        {"e": "👌", "vi": "Đồng ý!", "de": "Einverstanden!", "alt": ["Abgemacht!", "Okay!"]},
+        {"e": "📆", "vi": "Thứ Sáu lúc tám giờ có hợp với bạn (du) không?", "de": "Passt dir Freitag um acht?", "alt": ["Passt dir Freitag um 8?", "Passt es dir am Freitag um acht?", "Passt dir Freitag um acht Uhr?"]},
+        {"e": "🙋", "vi": "Tôi có thể đưa ra một đề xuất không?", "de": "Darf ich einen Vorschlag machen?", "alt": ["Kann ich einen Vorschlag machen?"]}
+      ]
+    },
+    {
+      "title": "Kể về trải nghiệm",
+      "emoji": "🧳",
+      "items": [
+        {"e": "🇪🇸", "vi": "Năm ngoái tôi đã ở Tây Ban Nha.", "de": "Letztes Jahr war ich in Spanien.", "alt": ["Letztes Jahr bin ich in Spanien gewesen.", "Ich war letztes Jahr in Spanien."]},
+        {"e": "🚆", "vi": "Chúng tôi đã đi bằng tàu hỏa.", "de": "Wir sind mit dem Zug gefahren.", "alt": []},
+        {"e": "🌟", "vi": "Đó là một trải nghiệm tuyệt vời.", "de": "Das war ein tolles Erlebnis.", "alt": ["Das war ein super Erlebnis.", "Es war ein tolles Erlebnis."]},
+        {"e": "🆕", "vi": "Lúc đầu mọi thứ đều mới mẻ với tôi.", "de": "Am Anfang war alles neu für mich.", "alt": ["Anfangs war alles neu für mich."]},
+        {"e": "🏛️", "vi": "Sau đó chúng tôi đã tham quan một bảo tàng.", "de": "Danach haben wir ein Museum besucht.", "alt": ["Dann haben wir ein Museum besucht."]},
+        {"e": "🏠", "vi": "Cuối cùng chúng tôi đã về nhà (bằng xe).", "de": "Zum Schluss sind wir nach Hause gefahren.", "alt": ["Am Ende sind wir nach Hause gefahren.", "Schließlich sind wir nach Hause gefahren."]},
+        {"e": "🍣", "vi": "Bạn (du) đã từng ăn sushi chưa?", "de": "Hast du schon einmal Sushi gegessen?", "alt": ["Hast du schon mal Sushi gegessen?"]},
+        {"e": "⛷️", "vi": "Tôi chưa bao giờ trượt tuyết.", "de": "Ich bin noch nie Ski gefahren.", "alt": []},
+        {"e": "💭", "vi": "Tôi sẽ không bao giờ quên điều đó.", "de": "Das werde ich nie vergessen.", "alt": ["Das werde ich niemals vergessen.", "Ich werde das nie vergessen."]},
+        {"e": "🌧️", "vi": "Tiếc là trời mưa suốt.", "de": "Leider hat es die ganze Zeit geregnet.", "alt": ["Es hat leider die ganze Zeit geregnet."]},
+        {"e": "👋", "vi": "Tôi đã làm quen được nhiều người dễ mến.", "de": "Ich habe viele nette Leute kennengelernt.", "alt": []},
+        {"e": "🇩🇪", "vi": "Khi tôi mới đến Đức, mọi thứ đều khó khăn.", "de": "Als ich nach Deutschland kam, war alles schwierig.", "alt": ["Als ich nach Deutschland kam, war alles schwer."]},
+        {"e": "😅", "vi": "Nó vất vả nhưng rất vui.", "de": "Es war anstrengend, aber schön.", "alt": []},
+        {"e": "🏖️", "vi": "Kỳ nghỉ của bạn (du) thế nào?", "de": "Wie war dein Urlaub?", "alt": []},
+        {"e": "🏙️", "vi": "Hồi đó tôi sống ở Hà Nội.", "de": "Damals habe ich in Hanoi gewohnt.", "alt": ["Damals wohnte ich in Hanoi."]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#1f2328" />
+  <link rel="icon" href="icon.svg" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đọc hiểu – Học tiếng Đức</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">🇩🇪 Deutsch Wortschatz</a>
+    <nav class="nav"></nav>
+  </header>
+
+  <main id="homeScreen" class="screen">
+    <h1>📖 Đọc hiểu</h1>
+    <p class="sub">Đọc bài, tra từ khó (di chuột / chạm vào từ được gạch chân), rồi trả lời câu hỏi. C1–C2 gồm trích đoạn luật và văn bản chuyên ngành luật & thuế.</p>
+    <div class="tabs" id="levelTabs"></div>
+    <div class="text-list" id="textList"></div>
+  </main>
+
+  <main id="readScreen" class="screen hidden">
+    <div class="practice-head">
+      <button class="link" id="backBtn">← Danh sách bài đọc</button>
+      <span class="badge" id="readBadge">A1</span>
+    </div>
+    <article class="card reading">
+      <h2 id="rTitle"></h2>
+      <div class="muted small" id="rSub"></div>
+      <div class="actions left">
+        <button class="btn ghost small" id="speakBtn">🔊 Đọc to</button>
+        <button class="btn ghost small" id="stopBtn">⏹ Dừng</button>
+        <button class="btn ghost small" id="transBtn">🇻🇳 Hiện bản dịch</button>
+      </div>
+      <div class="rtext" id="rText"></div>
+      <div class="rtrans hidden" id="rTrans"></div>
+      <h3>Từ khó</h3>
+      <div class="glossary" id="rGloss"></div>
+      <h3>Câu hỏi</h3>
+      <div id="rQuestions"></div>
+      <div class="actions">
+        <button class="btn primary" id="submitBtn">Nộp bài</button>
+      </div>
+      <div class="feedback center-text" id="rResult"></div>
+    </article>
+  </main>
+
+  <script src="common.js"></script>
+  <script src="reading-data.js"></script>
+  <script src="reading.js"></script>
+</body>
+</html>

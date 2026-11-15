@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#1f2328" />
+  <link rel="icon" href="icon.svg" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dạng từ – Học tiếng Đức</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">🇩🇪 Deutsch Wortschatz</a>
+    <nav class="nav"></nav>
+  </header>
+
+  <main id="homeScreen" class="screen">
+    <h1>🔤 Dạng từ</h1>
+    <p class="sub">Luyện số nhiều của danh từ và chia động từ bất quy tắc (hiện tại – quá khứ – hoàn thành). Cần đúng ≥ 99% để mở bài tiếp theo.</p>
+    <div class="tabs">
+      <button class="tab active" data-kind="plural">Số nhiều danh từ</button>
+      <button class="tab" data-kind="verb">Chia động từ</button>
+    </div>
+    <div class="levels" id="levels"></div>
+  </main>
+
+  <main id="levelScreen" class="screen hidden">
+    <div class="practice-head">
+      <button class="link" id="levelBackBtn">← Cấp độ</button>
+      <span class="badge" id="levelTitle">A1</span>
+      <span class="count" id="levelSummary"></span>
+    </div>
+    <div class="lessons" id="lessons"></div>
+  </main>
+
+  <main id="practiceScreen" class="screen hidden">
+    <div class="practice-head">
+      <button class="link" id="backBtn">← Danh sách bài</button>
+      <span class="badge" id="lessonBadge">A1</span>
+      <div class="bar"><div class="bar-fill" id="sessionBar"></div></div>
+      <span class="count" id="sessionCount">0/0</span>
+      <span class="acc" id="sessionAcc">100%</span>
+    </div>
+    <div class="card" id="card">
+      <div class="picture" id="picture"></div>
+      <div class="gap-sentence" id="prompt"></div>
+      <div class="meaning" id="meaning"></div>
+      <div class="pattern" id="subline"></div>
+      <form id="answerForm" autocomplete="off">
+        <div id="fields"></div>
+        <button type="submit" hidden></button>
+      </form>
+      <div class="umlauts">
+        <button type="button" data-ch="ä">ä</button><button type="button" data-ch="ö">ö</button>
+        <button type="button" data-ch="ü">ü</button><button type="button" data-ch="ß">ß</button>
+        <button type="button" data-ch="Ä">Ä</button><button type="button" data-ch="Ö">Ö</button><button type="button" data-ch="Ü">Ü</button>
+      </div>
+      <div class="feedback" id="feedback"></div>
+      <div class="actions">
+        <button type="button" class="btn ghost" id="speakBtn">🔊 Nghe</button>
+        <button type="button" class="btn ghost" id="skipBtn">⏭ Bỏ qua</button>
+        <button type="button" class="btn primary" id="checkBtn">Kiểm tra ↵</button>
+      </div>
+    </div>
+    <p class="tip">Enter để kiểm tra / sang câu tiếp. Gõ ae, oe, ue, ss thay cho ä, ö, ü, ß cũng được.</p>
+  </main>
+
+  <main id="doneScreen" class="screen hidden">
+    <div class="card center">
+      <div class="picture" id="doneIcon">🎉</div>
+      <h2 id="doneTitle">Hoàn thành!</h2>
+      <div class="score" id="doneScore">100%</div>
+      <p id="doneText"></p>
+      <div id="mistakes" class="mistakes"></div>
+      <div class="actions">
+        <button class="btn ghost" id="againBtn">Làm lại bài này</button>
+        <button class="btn primary" id="nextLessonBtn">Bài tiếp theo →</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="common.js"></script>
+  <script src="data.js"></script>
+  <script src="verbs-data.js"></script>
+  <script src="forms.js"></script>
+</body>
+</html>

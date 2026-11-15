@@ -1,0 +1,672 @@
+{
+  "grammar": [
+    {
+      "title": "Văn phong danh từ và văn phong động từ (Nominalstil vs. Verbalstil)",
+      "intro": "Trong văn bản học thuật và hành chính, người Đức hay biến động từ thành danh từ (Nominalstil), thường bằng đuôi -ung, -e, -tion hoặc dạng gốc. Mệnh đề phụ được thay bằng giới từ + danh từ.\nweil die Preise steigen → wegen des Anstiegs der Preise\nnachdem er zurückgekehrt war → nach seiner Rückkehr\nobwohl sie erkältet war → trotz ihrer Erkältung\nDanh từ đuôi -ung luôn là giống cái (die).",
+      "questions": [
+        {
+          "q": "Nach der ___ des Vertrags begann die Zusammenarbeit.",
+          "hint": "(unterzeichnen → Nomen)",
+          "answers": ["Unterzeichnung"],
+          "vi": "Sau khi ký kết hợp đồng, sự hợp tác bắt đầu.",
+          "explain": "Động từ 'unterzeichnen' + đuôi -ung thành danh từ giống cái 'die Unterzeichnung'."
+        },
+        {
+          "q": "Wegen der ___ der Mieten ziehen viele Familien aufs Land.",
+          "hint": "(erhöhen → Nomen)",
+          "answers": ["Erhöhung"],
+          "vi": "Do giá thuê nhà tăng, nhiều gia đình chuyển về nông thôn.",
+          "explain": "'erhöhen' danh từ hóa thành 'die Erhöhung', đứng sau 'der' (sinh cách sau 'wegen')."
+        },
+        {
+          "q": "Bei der ___ des Projekts traten Schwierigkeiten auf.",
+          "hint": "(durchführen → Nomen)",
+          "answers": ["Durchführung"],
+          "vi": "Trong quá trình thực hiện dự án đã xuất hiện khó khăn.",
+          "explain": "'durchführen' thành 'die Durchführung'; 'bei der' thay cho mệnh đề 'als man das Projekt durchführte'."
+        },
+        {
+          "q": "Die ___ des neuen Gesetzes ist für 2027 geplant.",
+          "hint": "(einführen → Nomen)",
+          "answers": ["Einführung"],
+          "vi": "Việc ban hành luật mới được dự kiến vào năm 2027.",
+          "explain": "'einführen' danh từ hóa thành 'die Einführung'."
+        },
+        {
+          "q": "Trotz ___ Erkältung ging sie zur Arbeit.",
+          "hint": "(obwohl sie erkältet war; Possessivartikel)",
+          "answers": ["ihrer"],
+          "vi": "Mặc dù bị cảm, cô ấy vẫn đi làm.",
+          "explain": "'trotz' đi với sinh cách; 'die Erkältung' giống cái nên quán từ sở hữu là 'ihrer'."
+        },
+        {
+          "q": "Vor der ___ des Flugzeugs müssen alle Passagiere sitzen.",
+          "hint": "(landen → Nomen)",
+          "answers": ["Landung"],
+          "vi": "Trước khi máy bay hạ cánh, tất cả hành khách phải ngồi vào chỗ.",
+          "explain": "'landen' thành 'die Landung', thay cho mệnh đề 'bevor das Flugzeug landet'."
+        },
+        {
+          "q": "Die ___ der Ergebnisse erfolgt nächste Woche.",
+          "hint": "(veröffentlichen → Nomen)",
+          "answers": ["Veröffentlichung"],
+          "vi": "Việc công bố kết quả sẽ diễn ra vào tuần tới.",
+          "explain": "'veröffentlichen' danh từ hóa thành 'die Veröffentlichung'; 'erfolgen' là động từ điển hình của Nominalstil."
+        },
+        {
+          "q": "Nach seiner ___ aus dem Urlaub rief er sofort an.",
+          "hint": "(zurückkehren → Nomen)",
+          "answers": ["Rückkehr"],
+          "vi": "Sau khi trở về từ kỳ nghỉ, anh ấy gọi điện ngay.",
+          "explain": "Danh từ của 'zurückkehren' là 'die Rückkehr' (không có đuôi -ung)."
+        },
+        {
+          "q": "Die ___ der Arbeitslosigkeit ist ein zentrales Ziel.",
+          "hint": "(bekämpfen → Nomen)",
+          "answers": ["Bekämpfung"],
+          "vi": "Việc chống thất nghiệp là một mục tiêu trọng tâm.",
+          "explain": "'bekämpfen' thành 'die Bekämpfung'."
+        },
+        {
+          "q": "Während der ___ des Dokuments darf niemand stören.",
+          "hint": "(übersetzen → Nomen)",
+          "answers": ["Übersetzung"],
+          "vi": "Trong khi dịch tài liệu, không ai được làm phiền.",
+          "explain": "'übersetzen' thành 'die Übersetzung'; 'während' đi với sinh cách."
+        },
+        {
+          "q": "Nachdem der Vertrag ___ worden war, begann die Arbeit.",
+          "hint": "(Verbalstil von: nach der Unterzeichnung des Vertrags)",
+          "answers": ["unterzeichnet"],
+          "vi": "Sau khi hợp đồng được ký kết, công việc bắt đầu.",
+          "explain": "Chuyển sang Verbalstil cần bị động quá khứ hoàn thành: Partizip II 'unterzeichnet' + 'worden war'."
+        },
+        {
+          "q": "Die ___ der Steuern stieß auf heftige Kritik.",
+          "hint": "(senken → Nomen)",
+          "answers": ["Senkung"],
+          "vi": "Việc giảm thuế đã vấp phải sự chỉ trích gay gắt.",
+          "explain": "'senken' danh từ hóa thành 'die Senkung'."
+        }
+      ]
+    },
+    {
+      "title": "Định ngữ phân từ mở rộng (Erweiterte Partizipialattribute)",
+      "intro": "Thay cho mệnh đề quan hệ, tiếng Đức viết có thể đặt cả cụm từ giữa quán từ và danh từ, với phân từ chia đuôi như tính từ.\nPartizip I (chủ động, đang diễn ra): die steigenden Preise = die Preise, die steigen\nPartizip II (bị động/đã xong): das entwickelte Produkt = das Produkt, das entwickelt wurde\nzu + Partizip I (cần phải): das zu lösende Problem = das Problem, das gelöst werden muss",
+      "questions": [
+        {
+          "q": "Das von der Firma ___ Produkt ist sehr beliebt.",
+          "hint": "(entwickeln, Partizip II)",
+          "answers": ["entwickelte"],
+          "vi": "Sản phẩm do công ty phát triển rất được ưa chuộng.",
+          "explain": "Partizip II 'entwickelt' mang nghĩa bị động, sau 'das' (danh cách) thêm đuôi -e."
+        },
+        {
+          "q": "Die seit Jahren ___ Preise belasten die Bürger.",
+          "hint": "(steigen, Partizip I)",
+          "answers": ["steigenden"],
+          "vi": "Giá cả tăng liên tục nhiều năm nay đè nặng lên người dân.",
+          "explain": "Partizip I 'steigend' diễn tả hành động đang diễn ra; số nhiều sau 'die' có đuôi -en."
+        },
+        {
+          "q": "Der vor dem Haus ___ Wagen gehört meinem Nachbarn.",
+          "hint": "(parken, Partizip II)",
+          "answers": ["geparkte"],
+          "vi": "Chiếc xe đỗ trước nhà là của hàng xóm tôi.",
+          "explain": "Partizip II 'geparkt' (xe đã được đỗ), sau 'der' danh cách đuôi -e."
+        },
+        {
+          "q": "Die im letzten Jahr ___ Studie zeigt neue Ergebnisse.",
+          "hint": "(veröffentlichen, Partizip II)",
+          "answers": ["veröffentlichte"],
+          "vi": "Nghiên cứu được công bố năm ngoái cho thấy những kết quả mới.",
+          "explain": "'veröffentlichen' không có ge- ở Partizip II; sau 'die' số ít danh cách đuôi -e."
+        },
+        {
+          "q": "Wir suchen einen gut Englisch ___ Mitarbeiter.",
+          "hint": "(sprechen, Partizip I)",
+          "answers": ["sprechenden"],
+          "vi": "Chúng tôi tìm một nhân viên nói tiếng Anh giỏi.",
+          "explain": "Partizip I 'sprechend' với nghĩa chủ động; sau 'einen' (đối cách giống đực) đuôi -en."
+        },
+        {
+          "q": "Das noch zu ___ Problem ist komplex.",
+          "hint": "(lösen, zu + Partizip I)",
+          "answers": ["lösende"],
+          "vi": "Vấn đề còn cần phải giải quyết rất phức tạp.",
+          "explain": "'zu + Partizip I' nghĩa là 'cần phải được...'; sau 'das' danh cách đuôi -e."
+        },
+        {
+          "q": "Die bis morgen zu ___ Aufgaben liegen auf dem Tisch.",
+          "hint": "(erledigen, zu + Partizip I)",
+          "answers": ["erledigenden"],
+          "vi": "Những nhiệm vụ phải hoàn thành trước ngày mai đang nằm trên bàn.",
+          "explain": "'zu erledigend' = cần được hoàn thành; số nhiều sau 'die' đuôi -en."
+        },
+        {
+          "q": "Mit dem gestern ___ Brief war ich nicht zufrieden.",
+          "hint": "(schreiben, Partizip II)",
+          "answers": ["geschriebenen"],
+          "vi": "Tôi không hài lòng với lá thư được viết hôm qua.",
+          "explain": "Partizip II 'geschrieben'; 'mit dem' là tặng cách nên đuôi -en."
+        },
+        {
+          "q": "Die in der Stadt ___ Menschen sind oft gestresst.",
+          "hint": "(leben, Partizip I)",
+          "answers": ["lebenden"],
+          "vi": "Những người sống ở thành phố thường bị căng thẳng.",
+          "explain": "Partizip I 'lebend' (đang sống); số nhiều sau 'die' đuôi -en."
+        },
+        {
+          "q": "Der auf der Konferenz ___ Vorschlag wurde abgelehnt.",
+          "hint": "(vorstellen, Partizip II)",
+          "answers": ["vorgestellte"],
+          "vi": "Đề xuất được trình bày tại hội nghị đã bị bác bỏ.",
+          "explain": "Động từ tách 'vorstellen' có Partizip II 'vorgestellt'; sau 'der' danh cách đuôi -e."
+        },
+        {
+          "q": "Das seit Stunden ___ Kind schlief endlich ein.",
+          "hint": "(weinen, Partizip I)",
+          "answers": ["weinende"],
+          "vi": "Đứa trẻ khóc suốt mấy tiếng đồng hồ cuối cùng cũng ngủ thiếp đi.",
+          "explain": "Partizip I 'weinend' diễn tả hành động kéo dài; sau 'das' danh cách đuôi -e."
+        },
+        {
+          "q": "Der aus Berlin ___ Zug hatte zwei Stunden Verspätung.",
+          "hint": "(kommen, Partizip II)",
+          "answers": ["gekommene"],
+          "vi": "Chuyến tàu đến từ Berlin bị trễ hai tiếng.",
+          "explain": "Partizip II của động từ chuyển động 'kommen' mang nghĩa đã hoàn thành (der Zug, der gekommen ist); đuôi -e."
+        }
+      ]
+    },
+    {
+      "title": "Các dạng thay thế bị động (Passiversatzformen)",
+      "intro": "Ngoài 'werden + Partizip II', tiếng Đức có nhiều cách diễn đạt bị động kèm nghĩa 'có thể' hoặc 'phải'.\nsich lassen + Infinitiv: Das lässt sich lösen. (= kann gelöst werden)\nsein + zu + Infinitiv: Das ist zu lösen. (= kann/muss gelöst werden)\nAdjektiv auf -bar: Das ist lösbar. (= kann gelöst werden)",
+      "questions": [
+        {
+          "q": "Das Problem lässt sich leicht ___.",
+          "hint": "(lösen)",
+          "answers": ["lösen"],
+          "vi": "Vấn đề này có thể được giải quyết dễ dàng.",
+          "explain": "Sau 'sich lassen' dùng động từ nguyên mẫu không có 'zu'."
+        },
+        {
+          "q": "Diese Aufgabe ist bis Freitag zu ___.",
+          "hint": "(erledigen)",
+          "answers": ["erledigen"],
+          "vi": "Nhiệm vụ này phải được hoàn thành trước thứ Sáu.",
+          "explain": "'sein + zu + Infinitiv' mang nghĩa bị động 'phải được làm'."
+        },
+        {
+          "q": "Der Text ist kaum ___.",
+          "hint": "(lesen, Adjektiv auf -bar)",
+          "answers": ["lesbar"],
+          "vi": "Văn bản này hầu như không đọc được.",
+          "explain": "Gốc động từ 'les-' + '-bar' = 'lesbar' (có thể đọc được)."
+        },
+        {
+          "q": "Das Fenster ___ sich nicht öffnen.",
+          "hint": "(lassen, Präsens)",
+          "answers": ["lässt"],
+          "vi": "Cửa sổ không mở ra được.",
+          "explain": "'lassen' ở ngôi thứ ba số ít hiện tại biến âm thành 'lässt'."
+        },
+        {
+          "q": "Dieses Wasser ist nicht ___.",
+          "hint": "(trinken, Adjektiv auf -bar)",
+          "answers": ["trinkbar"],
+          "vi": "Nước này không uống được.",
+          "explain": "'trink-' + '-bar' = 'trinkbar' (có thể uống được)."
+        },
+        {
+          "q": "Die Schäden ___ sich nicht mehr reparieren.",
+          "hint": "(lassen, Präsens)",
+          "answers": ["lassen"],
+          "vi": "Những hư hại này không thể sửa chữa được nữa.",
+          "explain": "Chủ ngữ số nhiều 'die Schäden' nên chia 'lassen'."
+        },
+        {
+          "q": "Der Fehler ist leicht ___.",
+          "hint": "(erkennen, Adjektiv auf -bar)",
+          "answers": ["erkennbar"],
+          "vi": "Lỗi này dễ nhận ra.",
+          "explain": "'erkenn-' + '-bar' = 'erkennbar' (có thể nhận ra được)."
+        },
+        {
+          "q": "Die Regeln sind unbedingt zu ___.",
+          "hint": "(beachten)",
+          "answers": ["beachten"],
+          "vi": "Các quy định nhất thiết phải được tuân thủ.",
+          "explain": "'sein + zu + Infinitiv' kèm 'unbedingt' diễn tả sự bắt buộc."
+        },
+        {
+          "q": "Der Koffer ___ sich kaum tragen.",
+          "hint": "(lassen, Präteritum)",
+          "answers": ["ließ"],
+          "vi": "Chiếc vali hầu như không xách nổi.",
+          "explain": "Quá khứ Präteritum của 'lassen' là 'ließ' (viết với ß)."
+        },
+        {
+          "q": "Diese Frage ist nicht eindeutig zu ___.",
+          "hint": "(beantworten)",
+          "answers": ["beantworten"],
+          "vi": "Câu hỏi này không thể trả lời một cách rõ ràng.",
+          "explain": "'sein + zu + Infinitiv' ở đây mang nghĩa 'có thể được làm'."
+        },
+        {
+          "q": "Das Material ist mehrfach ___.",
+          "hint": "(verwenden, Adjektiv auf -bar)",
+          "answers": ["verwendbar"],
+          "vi": "Vật liệu này có thể sử dụng nhiều lần.",
+          "explain": "'verwend-' + '-bar' = 'verwendbar' (có thể sử dụng)."
+        },
+        {
+          "q": "Die Wohnungen in München sind kaum noch ___.",
+          "hint": "(bezahlen, Adjektiv auf -bar)",
+          "answers": ["bezahlbar"],
+          "vi": "Căn hộ ở München hầu như không còn trả nổi nữa.",
+          "explain": "'bezahl-' + '-bar' = 'bezahlbar' (có thể chi trả được)."
+        }
+      ]
+    },
+    {
+      "title": "Nghĩa chủ quan của động từ khuyết thiếu (subjektive Modalverben)",
+      "intro": "Động từ khuyết thiếu còn dùng để thể hiện mức độ chắc chắn hoặc nguồn thông tin.\nmuss = chắc chắn (kết luận) | müsste = hẳn là (suy luận logic)\ndürfte = có lẽ, khá chắc | kann/könnte = có thể | mag = chắc khoảng\nsoll = nghe nói (người khác nói) | will = tự nhận (chủ ngữ tự khẳng định)\nVới quá khứ: Modalverb + Partizip II + haben/sein.",
+      "questions": [
+        {
+          "q": "Er ___ sehr reich sein, aber ich glaube es nicht.",
+          "hint": "(man sagt, dass er reich ist)",
+          "answers": ["soll"],
+          "vi": "Nghe nói anh ta rất giàu, nhưng tôi không tin.",
+          "explain": "'sollen' dùng khi truyền đạt thông tin nghe từ người khác."
+        },
+        {
+          "q": "Sie ___ die Prüfung allein geschafft haben, aber das bezweifle ich.",
+          "hint": "(sie selbst behauptet das)",
+          "answers": ["will"],
+          "vi": "Cô ấy tự nhận là đã một mình vượt qua kỳ thi, nhưng tôi nghi ngờ điều đó.",
+          "explain": "'wollen' diễn tả lời khẳng định của chính chủ ngữ mà người nói nghi ngờ."
+        },
+        {
+          "q": "Das Licht brennt, er ___ zu Hause sein.",
+          "hint": "(Schlussfolgerung, fast sicher, Indikativ)",
+          "answers": ["muss"],
+          "vi": "Đèn đang sáng, chắc chắn anh ấy đang ở nhà.",
+          "explain": "'müssen' ở thức chỉ định diễn tả kết luận gần như chắc chắn."
+        },
+        {
+          "q": "Es ___ etwa 20 Uhr gewesen sein, als ich ihn sah.",
+          "hint": "(wahrscheinlich, Konjunktiv II von dürfen)",
+          "answers": ["dürfte"],
+          "vi": "Lúc tôi nhìn thấy anh ấy có lẽ là khoảng 20 giờ.",
+          "explain": "'dürfte' diễn tả phỏng đoán có xác suất khá cao."
+        },
+        {
+          "q": "Der Zug ___ eigentlich schon angekommen sein.",
+          "hint": "(logische Erwartung, Konjunktiv II von müssen)",
+          "answers": ["müsste"],
+          "vi": "Đáng lẽ tàu hẳn đã đến rồi.",
+          "explain": "'müsste' diễn tả điều người nói kỳ vọng theo logic nhưng chưa chắc chắn."
+        },
+        {
+          "q": "Das ___ stimmen, aber ich bin mir nicht sicher.",
+          "hint": "(vielleicht, Konjunktiv II von können)",
+          "answers": ["könnte"],
+          "vi": "Điều đó có thể đúng, nhưng tôi không chắc.",
+          "explain": "'könnte' diễn tả một khả năng mang tính phỏng đoán thận trọng."
+        },
+        {
+          "q": "Er ___ nicht der Täter sein, er war zur Tatzeit im Ausland.",
+          "hint": "(Unmöglichkeit, Indikativ von können)",
+          "answers": ["kann"],
+          "vi": "Anh ta không thể là thủ phạm, vào thời điểm gây án anh ta ở nước ngoài.",
+          "explain": "'kann nicht' diễn tả sự không thể dựa trên bằng chứng."
+        },
+        {
+          "q": "Der Minister ___ von dem Skandal gewusst haben.",
+          "hint": "(Zeitungen berichten es)",
+          "answers": ["soll"],
+          "vi": "Theo báo chí, ông bộ trưởng đã biết về vụ bê bối.",
+          "explain": "'soll + Partizip II + haben' truyền đạt thông tin của người khác về quá khứ."
+        },
+        {
+          "q": "Er ___ den Unfall nicht bemerkt haben.",
+          "hint": "(er selbst behauptet das)",
+          "answers": ["will"],
+          "vi": "Anh ta khẳng định là mình đã không nhận ra vụ tai nạn.",
+          "explain": "'will' cho thấy đây là lời tự nhận của chủ ngữ."
+        },
+        {
+          "q": "Sie ___ inzwischen in Berlin wohnen.",
+          "hint": "(ziemlich wahrscheinlich, Konjunktiv II von dürfen)",
+          "answers": ["dürfte"],
+          "vi": "Giờ chắc cô ấy đang sống ở Berlin.",
+          "explain": "'dürfte' là phỏng đoán khá chắc chắn."
+        },
+        {
+          "q": "Sie ___ etwa vierzig sein.",
+          "hint": "(Schätzung, Indikativ von mögen)",
+          "answers": ["mag"],
+          "vi": "Bà ấy chắc khoảng bốn mươi tuổi.",
+          "explain": "'mag' ở nghĩa chủ quan dùng để ước đoán, thường đi với 'etwa'."
+        },
+        {
+          "q": "Nach meiner Rechnung ___ das Paket morgen ankommen.",
+          "hint": "(logische Erwartung, Konjunktiv II von müssen)",
+          "answers": ["müsste"],
+          "vi": "Theo tính toán của tôi thì gói hàng hẳn sẽ đến vào ngày mai.",
+          "explain": "'müsste' diễn tả kỳ vọng hợp lý dựa trên tính toán."
+        }
+      ]
+    },
+    {
+      "title": "Cụm động từ chức năng (Funktionsverbgefüge)",
+      "intro": "Funktionsverbgefüge là cụm gồm danh từ (thường kèm giới từ) và một động từ gần như mất nghĩa riêng. Cả cụm tương đương một động từ đơn và rất phổ biến trong văn trang trọng.\neine Entscheidung treffen = entscheiden\nin Betracht ziehen = berücksichtigen\nin Kraft treten = gültig werden\nzur Sprache bringen = ansprechen",
+      "questions": [
+        {
+          "q": "Die Regierung hat eine wichtige Entscheidung ___.",
+          "hint": "(entscheiden, Partizip II)",
+          "answers": ["getroffen"],
+          "vi": "Chính phủ đã đưa ra một quyết định quan trọng.",
+          "explain": "Cụm cố định là 'eine Entscheidung treffen', Partizip II là 'getroffen'."
+        },
+        {
+          "q": "Das neue Verfahren wird im nächsten Jahr zur Anwendung ___.",
+          "hint": "(angewendet werden, Infinitiv)",
+          "answers": ["kommen"],
+          "vi": "Quy trình mới sẽ được áp dụng vào năm tới.",
+          "explain": "'zur Anwendung kommen' mang nghĩa bị động 'được áp dụng'."
+        },
+        {
+          "q": "Wir müssen die Kosten in Betracht ___.",
+          "hint": "(berücksichtigen, Infinitiv)",
+          "answers": ["ziehen"],
+          "vi": "Chúng ta phải tính đến chi phí.",
+          "explain": "Cụm cố định là 'in Betracht ziehen'."
+        },
+        {
+          "q": "Der Vorschlag ___ bei allen auf Kritik.",
+          "hint": "(wurde kritisiert, Präteritum)",
+          "answers": ["stieß"],
+          "vi": "Đề xuất này vấp phải sự chỉ trích của tất cả mọi người.",
+          "explain": "'auf Kritik stoßen' ở Präteritum là 'stieß'."
+        },
+        {
+          "q": "Die Opposition ___ scharfe Kritik an der Reform.",
+          "hint": "(kritisieren, Präsens)",
+          "answers": ["übt"],
+          "vi": "Phe đối lập chỉ trích gay gắt cuộc cải cách.",
+          "explain": "Cụm cố định là 'Kritik an etwas üben'."
+        },
+        {
+          "q": "Das Thema wurde in der Sitzung zur Sprache ___.",
+          "hint": "(angesprochen, Partizip II)",
+          "answers": ["gebracht"],
+          "vi": "Chủ đề này đã được nêu ra trong cuộc họp.",
+          "explain": "'zur Sprache bringen' ở bị động: 'wurde zur Sprache gebracht'."
+        },
+        {
+          "q": "Der Lehrer ___ großen Wert auf Pünktlichkeit.",
+          "hint": "(wichtig finden, Präsens)",
+          "answers": ["legt"],
+          "vi": "Thầy giáo rất coi trọng sự đúng giờ.",
+          "explain": "Cụm cố định là 'Wert auf etwas legen'."
+        },
+        {
+          "q": "Der Vertrag ___ morgen in Kraft.",
+          "hint": "(gültig werden, Präsens)",
+          "answers": ["tritt"],
+          "vi": "Hợp đồng có hiệu lực từ ngày mai.",
+          "explain": "'in Kraft treten', ngôi thứ ba số ít là 'tritt'."
+        },
+        {
+          "q": "Die Firma muss den Mitarbeitern Laptops zur Verfügung ___.",
+          "hint": "(bereitstellen, Infinitiv)",
+          "answers": ["stellen"],
+          "vi": "Công ty phải cung cấp máy tính xách tay cho nhân viên.",
+          "explain": "Cụm cố định là 'zur Verfügung stellen'."
+        },
+        {
+          "q": "Er ___ einen Antrag auf Elterngeld.",
+          "hint": "(beantragen, Präteritum)",
+          "answers": ["stellte"],
+          "vi": "Anh ấy đã nộp đơn xin trợ cấp nuôi con.",
+          "explain": "'einen Antrag stellen' = 'beantragen'; Präteritum là 'stellte'."
+        },
+        {
+          "q": "Die Polizei hat die Ermittlungen in Gang ___.",
+          "hint": "(beginnen lassen, Partizip II)",
+          "answers": ["gesetzt", "gebracht"],
+          "vi": "Cảnh sát đã khởi động cuộc điều tra.",
+          "explain": "Cả 'in Gang setzen' và 'in Gang bringen' đều đúng, Partizip II là 'gesetzt'/'gebracht'."
+        },
+        {
+          "q": "Der Dichter ___ nach seinem Tod schnell in Vergessenheit.",
+          "hint": "(vergessen werden, Präteritum)",
+          "answers": ["geriet"],
+          "vi": "Nhà thơ nhanh chóng bị lãng quên sau khi qua đời.",
+          "explain": "'in Vergessenheit geraten' ở Präteritum là 'geriet'."
+        }
+      ]
+    },
+    {
+      "title": "Liên từ và trạng từ liên kết (Konnektoren & Konjunktionaladverbien)",
+      "intro": "Liên từ phụ thuộc (sofern, wohingegen, obgleich) đẩy động từ chia về cuối câu. Trạng từ liên kết (demzufolge, infolgedessen, indessen, dennoch) đứng ở vị trí 1 và động từ đứng ngay sau.\nsofern = nếu, với điều kiện | wohingegen = trong khi đó (đối lập)\ndemzufolge/infolgedessen = do đó | indessen = trong khi đó, tuy nhiên\nobgleich = mặc dù | es sei denn = trừ khi",
+      "questions": [
+        {
+          "q": "Er ist sehr fleißig, ___ sein Bruder eher faul ist.",
+          "hint": "(Gegensatz, Nebensatz: wohin...)",
+          "answers": ["wohingegen"],
+          "vi": "Anh ấy rất chăm chỉ, trong khi em trai anh ấy lại khá lười.",
+          "explain": "'wohingegen' nối hai vế đối lập, động từ 'ist' đứng cuối mệnh đề phụ."
+        },
+        {
+          "q": "Die Nachfrage ist gestiegen, ___ steigen auch die Preise.",
+          "hint": "(Folge, Konjunktionaladverb: demzu...)",
+          "answers": ["demzufolge"],
+          "vi": "Nhu cầu đã tăng, do đó giá cả cũng tăng.",
+          "explain": "'demzufolge' là trạng từ chỉ hệ quả, động từ đứng ngay sau nó."
+        },
+        {
+          "q": "___ das Wetter es zulässt, findet das Fest im Freien statt.",
+          "hint": "(Bedingung: vorausgesetzt, dass; so...)",
+          "answers": ["Sofern"],
+          "vi": "Nếu thời tiết cho phép, lễ hội sẽ được tổ chức ngoài trời.",
+          "explain": "'sofern' nêu điều kiện, động từ 'zulässt' đứng cuối mệnh đề."
+        },
+        {
+          "q": "Er schlief, ___ arbeitete sie die ganze Nacht.",
+          "hint": "(in der Zwischenzeit, gehoben: inde...)",
+          "answers": ["indessen", "indes"],
+          "vi": "Anh ấy ngủ, trong khi đó cô ấy làm việc suốt đêm.",
+          "explain": "'indessen' là trạng từ liên kết chỉ sự đồng thời, động từ đứng ngay sau."
+        },
+        {
+          "q": "___ aller Bemühungen scheiterte das Projekt.",
+          "hint": "(Präposition mit Genitiv: obwohl man sich bemühte)",
+          "answers": ["Trotz"],
+          "vi": "Bất chấp mọi nỗ lực, dự án vẫn thất bại.",
+          "explain": "'trotz' là giới từ nhượng bộ đi với sinh cách 'aller Bemühungen'."
+        },
+        {
+          "q": "Er hat zwar viel gelernt, ___ hat er die Prüfung nicht bestanden.",
+          "hint": "(Gegensatz zu 'zwar', Konjunktionaladverb)",
+          "answers": ["dennoch", "trotzdem", "jedoch"],
+          "vi": "Tuy anh ấy đã học rất nhiều, nhưng vẫn không đỗ kỳ thi.",
+          "explain": "Ở vị trí 1 với động từ đứng ngay sau cần trạng từ như 'dennoch'; 'aber' không đảo ngữ."
+        },
+        {
+          "q": "___ ich weiß, ist die Sitzung abgesagt.",
+          "hint": "(Einschränkung: nach meinem Wissen)",
+          "answers": ["Soweit", "Soviel"],
+          "vi": "Theo như tôi biết, cuộc họp đã bị hủy.",
+          "explain": "'Soweit/Soviel ich weiß' giới hạn phát ngôn vào hiểu biết của người nói."
+        },
+        {
+          "q": "Je länger die Diskussion dauerte, ___ unklarer wurde die Lage.",
+          "hint": "(zweiteiliger Konnektor: je ... ?)",
+          "answers": ["desto", "umso"],
+          "vi": "Cuộc thảo luận càng kéo dài thì tình hình càng không rõ ràng.",
+          "explain": "Cấu trúc 'je + so sánh hơn ..., desto/umso + so sánh hơn'."
+        },
+        {
+          "q": "Er bestand die Prüfung, ___ er kaum gelernt hatte.",
+          "hint": "(Konzession, gehoben: obgl...)",
+          "answers": ["obgleich"],
+          "vi": "Anh ấy đỗ kỳ thi mặc dù hầu như không học.",
+          "explain": "'obgleich' là liên từ nhượng bộ trang trọng, đồng nghĩa 'obwohl'."
+        },
+        {
+          "q": "Der Termin wurde verschoben; ___ müssen wir neu planen.",
+          "hint": "(Folge: infolge...)",
+          "answers": ["infolgedessen"],
+          "vi": "Cuộc hẹn đã bị dời lại; vì thế chúng ta phải lên kế hoạch lại.",
+          "explain": "'infolgedessen' là trạng từ chỉ hệ quả, động từ 'müssen' đứng ngay sau."
+        },
+        {
+          "q": "Weder der Chef ___ die Mitarbeiter waren informiert.",
+          "hint": "(zweiteiliger Konnektor: weder ... ?)",
+          "answers": ["noch"],
+          "vi": "Cả sếp lẫn nhân viên đều không được thông báo.",
+          "explain": "Cấu trúc phủ định kép cố định là 'weder ... noch'."
+        },
+        {
+          "q": "Wir fahren morgen los, ___ es regnet.",
+          "hint": "(außer wenn; drei Wörter)",
+          "answers": ["es sei denn"],
+          "vi": "Chúng ta sẽ khởi hành vào ngày mai, trừ khi trời mưa.",
+          "explain": "'es sei denn' nghĩa là 'trừ khi', mệnh đề sau giữ trật tự câu chính hoặc dùng 'dass'."
+        }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "title": "Viết học thuật",
+      "emoji": "📝",
+      "items": [
+        { "e": "📄", "vi": "Bài viết này đề cập đến chủ đề di cư.", "de": "Die vorliegende Arbeit befasst sich mit dem Thema Migration.", "alt": ["Diese Arbeit befasst sich mit dem Thema Migration."] },
+        { "e": "📖", "vi": "Trước hết cần định nghĩa khái niệm này.", "de": "Zunächst ist der Begriff zu definieren.", "alt": ["Zunächst muss der Begriff definiert werden."] },
+        { "e": "📊", "vi": "Các nghiên cứu cho thấy rằng xu hướng này đang tăng.", "de": "Studien zeigen, dass dieser Trend zunimmt.", "alt": [] },
+        { "e": "👨‍🏫", "vi": "Theo Müller, vấn đề này vẫn chưa được giải quyết.", "de": "Laut Müller ist dieses Problem noch ungelöst.", "alt": ["Müller zufolge ist dieses Problem noch ungelöst."] },
+        { "e": "➡️", "vi": "Từ đó có thể kết luận rằng cần có cải cách.", "de": "Daraus lässt sich schließen, dass Reformen nötig sind.", "alt": ["Daraus folgt, dass Reformen nötig sind."] },
+        { "e": "⚠️", "vi": "Cần lưu ý rằng dữ liệu chưa đầy đủ.", "de": "Es ist zu beachten, dass die Daten unvollständig sind.", "alt": ["Zu beachten ist, dass die Daten unvollständig sind."] },
+        { "e": "🧾", "vi": "Tóm lại, có thể khẳng định rằng luận điểm này đúng.", "de": "Zusammenfassend lässt sich feststellen, dass die These stimmt.", "alt": ["Zusammenfassend kann man feststellen, dass die These stimmt."] },
+        { "e": "💡", "vi": "Điều này có thể được minh họa bằng một ví dụ.", "de": "Dies lässt sich an einem Beispiel veranschaulichen.", "alt": ["Das lässt sich an einem Beispiel veranschaulichen."] },
+        { "e": "❓", "vi": "Trong bối cảnh này, nảy ra câu hỏi về chi phí.", "de": "In diesem Zusammenhang stellt sich die Frage nach den Kosten.", "alt": [] },
+        { "e": "🎯", "vi": "Trọng tâm là câu hỏi về sự công bằng.", "de": "Im Mittelpunkt steht die Frage der Gerechtigkeit.", "alt": ["Im Mittelpunkt steht die Frage nach der Gerechtigkeit."] },
+        { "e": "✅", "vi": "Kết quả này khẳng định giả thuyết.", "de": "Dieses Ergebnis bestätigt die Hypothese.", "alt": ["Das Ergebnis bestätigt die Hypothese."] },
+        { "e": "🔬", "vi": "Về vấn đề này vẫn cần nghiên cứu thêm.", "de": "Hierzu besteht weiterer Forschungsbedarf.", "alt": ["Dazu besteht weiterer Forschungsbedarf."] },
+        { "e": "📈", "vi": "Bảng 2 làm rõ sự khác biệt.", "de": "Tabelle 2 verdeutlicht den Unterschied.", "alt": [] },
+        { "e": "🔄", "vi": "Trái với quan điểm phổ biến, rủi ro này thấp.", "de": "Entgegen der verbreiteten Meinung ist das Risiko gering.", "alt": ["Entgegen der weitverbreiteten Meinung ist das Risiko gering."] },
+        { "e": "📋", "vi": "Sau đây, các kết quả sẽ được trình bày.", "de": "Im Folgenden werden die Ergebnisse dargestellt.", "alt": ["Im Folgenden werden die Ergebnisse vorgestellt."] }
+      ]
+    },
+    {
+      "title": "Bày tỏ quan điểm tinh tế",
+      "emoji": "💭",
+      "items": [
+        { "e": "🧠", "vi": "Theo tôi thấy, đề xuất này hợp lý.", "de": "Meines Erachtens ist dieser Vorschlag sinnvoll.", "alt": ["Meiner Ansicht nach ist dieser Vorschlag sinnvoll.", "Meiner Meinung nach ist dieser Vorschlag sinnvoll."] },
+        { "e": "🎓", "vi": "Tôi có quan điểm rằng giáo dục phải miễn phí.", "de": "Ich bin der Auffassung, dass Bildung kostenlos sein muss.", "alt": ["Ich bin der Ansicht, dass Bildung kostenlos sein muss.", "Ich bin der Meinung, dass Bildung kostenlos sein muss."] },
+        { "e": "👍", "vi": "Tôi chỉ có thể đồng ý với điều đó.", "de": "Dem kann ich nur zustimmen.", "alt": ["Da kann ich nur zustimmen."] },
+        { "e": "👀", "vi": "Tôi nhìn nhận điều đó khác.", "de": "Ich sehe das anders.", "alt": ["Das sehe ich anders."] },
+        { "e": "🤝", "vi": "Đối với tôi, điều quan trọng là mọi người đều được tham gia.", "de": "Mir ist wichtig, dass alle beteiligt werden.", "alt": ["Es ist mir wichtig, dass alle beteiligt werden."] },
+        { "e": "💪", "vi": "Tôi tin chắc rằng điều đó sẽ hiệu quả.", "de": "Ich bin fest davon überzeugt, dass das funktioniert.", "alt": [] },
+        { "e": "⚖️", "vi": "Theo góc nhìn của tôi, ưu điểm chiếm ưu thế.", "de": "Aus meiner Sicht überwiegen die Vorteile.", "alt": ["Meiner Ansicht nach überwiegen die Vorteile."] },
+        { "e": "🤷", "vi": "Tôi không chắc điều đó có đúng không.", "de": "Ich bin mir nicht sicher, ob das stimmt.", "alt": [] },
+        { "e": "✋", "vi": "Tôi lên tiếng ủng hộ một lệnh cấm.", "de": "Ich spreche mich für ein Verbot aus.", "alt": [] },
+        { "e": "🚫", "vi": "Tôi lên tiếng phản đối đề xuất này.", "de": "Ich spreche mich gegen diesen Vorschlag aus.", "alt": [] },
+        { "e": "😟", "vi": "Tôi cho rằng điều đó có vấn đề.", "de": "Ich halte das für problematisch.", "alt": ["Ich halte es für problematisch."] },
+        { "e": "🔀", "vi": "Một mặt nó đắt, mặt khác lại tiện lợi.", "de": "Einerseits ist es teuer, andererseits praktisch.", "alt": ["Einerseits ist es teuer, andererseits ist es praktisch."] },
+        { "e": "🔍", "vi": "Điều đó phụ thuộc vào cách người ta nhìn nhận.", "de": "Das hängt davon ab, wie man es betrachtet.", "alt": ["Das hängt davon ab, wie man das betrachtet."] },
+        { "e": "🌓", "vi": "Về điểm này tôi đồng ý một phần.", "de": "Da stimme ich teilweise zu.", "alt": ["Dem stimme ich teilweise zu.", "Ich stimme teilweise zu."] },
+        { "e": "💯", "vi": "Theo tôi, điều đó hoàn toàn chính xác.", "de": "Das trifft meiner Meinung nach voll und ganz zu.", "alt": ["Das trifft meines Erachtens voll und ganz zu."] }
+      ]
+    },
+    {
+      "title": "Rào đón và giảm nhẹ phát ngôn",
+      "emoji": "🤔",
+      "items": [
+        { "e": "🎲", "vi": "Điều đó có lẽ đúng.", "de": "Das dürfte zutreffen.", "alt": ["Das dürfte stimmen."] },
+        { "e": "📏", "vi": "Điều đó đúng ở một mức độ nhất định.", "de": "Bis zu einem gewissen Grad ist das richtig.", "alt": [] },
+        { "e": "🌍", "vi": "Nhìn chung, tôi hài lòng.", "de": "Im Großen und Ganzen bin ich zufrieden.", "alt": ["Alles in allem bin ich zufrieden."] },
+        { "e": "🗣️", "vi": "Theo như tôi biết, anh ấy bị ốm.", "de": "Soweit ich weiß, ist er krank.", "alt": ["Soviel ich weiß, ist er krank."] },
+        { "e": "🪞", "vi": "Có vẻ như vấn đề đã được giải quyết.", "de": "Es scheint, als wäre das Problem gelöst.", "alt": ["Es scheint, als ob das Problem gelöst wäre."] },
+        { "e": "🙃", "vi": "Điều đó không hoàn toàn sai.", "de": "Das ist nicht ganz falsch.", "alt": ["Das ist nicht völlig falsch."] },
+        { "e": "🕗", "vi": "Nếu tôi không nhầm thì nó bắt đầu lúc tám giờ.", "de": "Wenn ich mich nicht irre, beginnt es um acht.", "alt": ["Wenn ich mich nicht irre, beginnt es um acht Uhr."] },
+        { "e": "🧩", "vi": "Ít nhất trong một số trường hợp thì là vậy.", "de": "Zumindest in einigen Fällen ist das so.", "alt": ["Zumindest in manchen Fällen ist das so."] },
+        { "e": "😕", "vi": "Tôi có ấn tượng rằng anh ấy không hài lòng.", "de": "Ich habe den Eindruck, dass er unzufrieden ist.", "alt": [] },
+        { "e": "📜", "vi": "Về nguyên tắc thì đúng, nhưng có ngoại lệ.", "de": "Im Prinzip ja, aber es gibt Ausnahmen.", "alt": ["Grundsätzlich ja, aber es gibt Ausnahmen."] },
+        { "e": "📉", "vi": "Người ta có thể cho rằng các con số sẽ tăng.", "de": "Man könnte annehmen, dass die Zahlen steigen.", "alt": [] },
+        { "e": "🗂️", "vi": "Điều đó có lẽ tùy vào từng trường hợp cụ thể.", "de": "Das hängt wohl vom Einzelfall ab.", "alt": [] },
+        { "e": "🔎", "vi": "Trong chừng mực có thể đánh giá được, mọi thứ đều ổn.", "de": "Soweit man das beurteilen kann, ist alles in Ordnung.", "alt": [] },
+        { "e": "📐", "vi": "Kết quả tương đối khả quan.", "de": "Das Ergebnis ist relativ positiv.", "alt": ["Das Ergebnis ist verhältnismäßig positiv."] },
+        { "e": "🚪", "vi": "Không loại trừ khả năng anh ấy đúng.", "de": "Es ist nicht auszuschließen, dass er recht hat.", "alt": ["Es ist nicht auszuschließen, dass er Recht hat.", "Es ist nicht ausgeschlossen, dass er recht hat."] }
+      ]
+    },
+    {
+      "title": "Cấu trúc bài thuyết trình",
+      "emoji": "🎤",
+      "items": [
+        { "e": "⚡", "vi": "Hôm nay tôi muốn nói về chủ đề năng lượng.", "de": "Heute möchte ich über das Thema Energie sprechen.", "alt": ["Ich möchte heute über das Thema Energie sprechen."] },
+        { "e": "3️⃣", "vi": "Bài thuyết trình của tôi gồm ba phần.", "de": "Mein Vortrag besteht aus drei Teilen.", "alt": ["Mein Vortrag gliedert sich in drei Teile."] },
+        { "e": "🏁", "vi": "Đầu tiên tôi sẽ giới thiệu bối cảnh.", "de": "Zuerst stelle ich den Hintergrund vor.", "alt": ["Zunächst stelle ich den Hintergrund vor."] },
+        { "e": "📊", "vi": "Sau đó tôi sẽ chuyển sang các kết quả.", "de": "Danach komme ich zu den Ergebnissen.", "alt": ["Anschließend komme ich zu den Ergebnissen."] },
+        { "e": "➡️", "vi": "Điều này đưa tôi đến điểm tiếp theo.", "de": "Das bringt mich zum nächsten Punkt.", "alt": ["Damit komme ich zum nächsten Punkt."] },
+        { "e": "🔁", "vi": "Như đã đề cập, chi phí rất cao.", "de": "Wie bereits erwähnt, sind die Kosten hoch.", "alt": ["Wie schon erwähnt, sind die Kosten hoch."] },
+        { "e": "↩️", "vi": "Tôi sẽ quay lại điểm này sau.", "de": "Darauf komme ich später zurück.", "alt": ["Darauf komme ich später noch zurück."] },
+        { "e": "💡", "vi": "Xin cho phép tôi đưa ra một ví dụ.", "de": "Lassen Sie mich ein Beispiel nennen.", "alt": ["Lassen Sie mich ein Beispiel geben."] },
+        { "e": "📉", "vi": "Chúng ta hãy cùng nhìn vào biểu đồ này.", "de": "Werfen wir einen Blick auf diese Grafik.", "alt": [] },
+        { "e": "📝", "vi": "Tôi xin tóm tắt các điểm quan trọng nhất.", "de": "Ich fasse die wichtigsten Punkte zusammen.", "alt": [] },
+        { "e": "❗", "vi": "Cuối cùng, tôi muốn nhấn mạnh rằng giáo dục mang tính quyết định.", "de": "Abschließend möchte ich betonen, dass Bildung entscheidend ist.", "alt": [] },
+        { "e": "🙏", "vi": "Cảm ơn quý vị đã chú ý lắng nghe.", "de": "Vielen Dank für Ihre Aufmerksamkeit.", "alt": ["Danke für Ihre Aufmerksamkeit."] },
+        { "e": "🙋", "vi": "Bây giờ tôi sẵn lòng trả lời các câu hỏi.", "de": "Nun stehe ich gern für Fragen zur Verfügung.", "alt": ["Nun stehe ich gerne für Fragen zur Verfügung.", "Jetzt stehe ich gern für Fragen zur Verfügung."] },
+        { "e": "⏱️", "vi": "Tôi xin nói ngắn gọn.", "de": "Ich fasse mich kurz.", "alt": [] },
+        { "e": "🔚", "vi": "Như vậy tôi đi đến phần kết.", "de": "Damit komme ich zum Schluss.", "alt": ["Damit komme ich zum Ende."] }
+      ]
+    },
+    {
+      "title": "Phê bình và nhượng bộ",
+      "emoji": "⚖️",
+      "items": [
+        { "e": "🙌", "vi": "Phải thừa nhận rằng ý tưởng này độc đáo.", "de": "Zugegeben, die Idee ist originell.", "alt": ["Zugegebenermaßen ist die Idee originell."] },
+        { "e": "💸", "vi": "Điều đó đúng thật, nhưng nó quá đắt.", "de": "Das stimmt zwar, aber es ist zu teuer.", "alt": [] },
+        { "e": "✋", "vi": "Về điểm này tôi phải phản bác.", "de": "Dem muss ich widersprechen.", "alt": ["Da muss ich widersprechen."] },
+        { "e": "🕳️", "vi": "Lập luận này có một điểm yếu.", "de": "Dieses Argument hat eine Schwachstelle.", "alt": ["Dieses Argument hat einen Schwachpunkt."] },
+        { "e": "❓", "vi": "Thật đáng ngờ liệu điều đó có thực sự giúp ích không.", "de": "Es ist fraglich, ob das wirklich hilft.", "alt": [] },
+        { "e": "👂", "vi": "Tôi hiểu quan điểm của ông/bà, nhưng tôi nhìn nhận khác.", "de": "Ich verstehe Ihren Standpunkt, sehe das aber anders.", "alt": ["Ich verstehe Ihren Standpunkt, sehe es aber anders."] },
+        { "e": "🙈", "vi": "Điều đó đã không được tính đến.", "de": "Das wurde nicht berücksichtigt.", "alt": [] },
+        { "e": "🧱", "vi": "Mặc dù vậy, tôi vẫn có ý kiến khác.", "de": "Dennoch bin ich anderer Meinung.", "alt": ["Trotzdem bin ich anderer Meinung.", "Dennoch bin ich anderer Ansicht."] },
+        { "e": "🗯️", "vi": "Phe đối lập chỉ trích gay gắt kế hoạch này.", "de": "Die Opposition übt scharfe Kritik an dem Plan.", "alt": ["Die Opposition übt scharfe Kritik am Plan."] },
+        { "e": "📈", "vi": "Không thể phủ nhận rằng có những tiến bộ.", "de": "Es lässt sich nicht leugnen, dass es Fortschritte gibt.", "alt": ["Es ist nicht zu leugnen, dass es Fortschritte gibt.", "Man kann nicht leugnen, dass es Fortschritte gibt."] },
+        { "e": "🌗", "vi": "Đó chỉ là một nửa sự thật.", "de": "Das ist nur die halbe Wahrheit.", "alt": [] },
+        { "e": "😬", "vi": "Tôi có một số băn khoăn.", "de": "Ich habe einige Bedenken.", "alt": ["Ich habe gewisse Bedenken."] },
+        { "e": "🎯", "vi": "Ông/bà nói cũng không hẳn là sai.", "de": "Da haben Sie nicht ganz unrecht.", "alt": ["Da haben Sie nicht ganz Unrecht."] },
+        { "e": "🔍", "vi": "Điều này cần được nhìn nhận một cách phê phán.", "de": "Das ist kritisch zu sehen.", "alt": ["Das muss kritisch gesehen werden."] },
+        { "e": "🙇", "vi": "Tôi thừa nhận rằng tôi đã nhầm.", "de": "Ich gebe zu, dass ich mich geirrt habe.", "alt": ["Ich gebe zu, dass ich mich getäuscht habe."] }
+      ]
+    },
+    {
+      "title": "Thành ngữ tiếng Đức",
+      "emoji": "🦉",
+      "items": [
+        { "e": "🍃", "vi": "Anh ấy nói thẳng, không kiêng nể ai (không lấy lá che miệng).", "de": "Er nimmt kein Blatt vor den Mund.", "alt": [] },
+        { "e": "🍅", "vi": "Bạn bị mù à? Không thấy điều hiển nhiên sao (có cà chua trên mắt)?", "de": "Hast du Tomaten auf den Augen?", "alt": [] },
+        { "e": "🤞", "vi": "Mình cầu chúc may mắn cho bạn (bấm ngón cái)!", "de": "Ich drücke dir die Daumen!", "alt": ["Ich drück dir die Daumen!"] },
+        { "e": "🪵", "vi": "Bạn đang nghĩ sai hướng rồi (đi trên đường gỗ).", "de": "Da bist du auf dem Holzweg.", "alt": ["Du bist auf dem Holzweg."] },
+        { "e": "🥣", "vi": "Đừng nói vòng vo nữa (quanh nồi cháo nóng)!", "de": "Red nicht um den heißen Brei herum!", "alt": ["Rede nicht um den heißen Brei herum!"] },
+        { "e": "🐱", "vi": "Tôi không mua mèo trong bao (mua mà không xem trước).", "de": "Ich kaufe nicht die Katze im Sack.", "alt": [] },
+        { "e": "🍺", "vi": "Đó không phải việc của tôi (không phải bia của tôi).", "de": "Das ist nicht mein Bier.", "alt": ["Das ist nicht mein Bier!"] },
+        { "e": "🚉", "vi": "Tôi chẳng hiểu gì cả (chỉ hiểu mỗi 'nhà ga').", "de": "Ich verstehe nur Bahnhof.", "alt": [] },
+        { "e": "🐻", "vi": "Bạn định bịa chuyện để lừa tôi (buộc con gấu lên người tôi)!", "de": "Du willst mir einen Bären aufbinden!", "alt": [] },
+        { "e": "🔨", "vi": "Bạn đã nói trúng phóc vấn đề (đập trúng đầu đinh).", "de": "Du hast den Nagel auf den Kopf getroffen.", "alt": ["Damit hast du den Nagel auf den Kopf getroffen."] },
+        { "e": "🫕", "vi": "Anh ấy đã lỡ lời, làm người khác phật ý (giẫm vào bát mỡ).", "de": "Er ist ins Fettnäpfchen getreten.", "alt": [] },
+        { "e": "🐷", "vi": "Bạn gặp may đấy (có lợn)!", "de": "Da hast du Schwein gehabt!", "alt": ["Da hast du aber Schwein gehabt!"] },
+        { "e": "🪑", "vi": "Đừng trì hoãn việc đó mãi (đẩy lên băng ghế dài)!", "de": "Schieb das nicht auf die lange Bank!", "alt": ["Schiebe das nicht auf die lange Bank!"] },
+        { "e": "👁️", "vi": "Chúng ta có thể nói chuyện riêng được không (dưới bốn mắt)?", "de": "Können wir unter vier Augen sprechen?", "alt": ["Können wir unter vier Augen reden?"] },
+        { "e": "🧑‍🎓", "vi": "Không ai sinh ra đã giỏi (chưa có bậc thầy nào từ trời rơi xuống).", "de": "Es ist noch kein Meister vom Himmel gefallen.", "alt": [] }
+      ]
+    }
+  ]
+}
