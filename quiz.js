@@ -27,7 +27,7 @@
     },
     lmc: {
       title: "🎧 Trắc nghiệm nghe",
-      sub: "Nghe giọng đọc tiếng Đức (không hiện chữ), rồi chọn nghĩa đúng hoặc chọn câu/từ bạn vừa nghe. Bấm 🔊 hoặc Ctrl+Space để nghe lại. Cần đúng ≥ 99% để mở bài tiếp theo.",
+      sub: "Nghe giọng đọc tiếng Đức (không hiện chữ), rồi chọn nghĩa tiếng Việt đúng hoặc chọn câu/từ bạn vừa nghe — chọn kiểu hỏi ở ô bên dưới. Bấm 🔊 hoặc Ctrl+Space để nghe lại. Cần đúng ≥ 99% để mở bài tiếp theo.",
     },
     fmc: {
       title: "🔤 Trắc nghiệm dạng từ",
@@ -598,6 +598,14 @@
     $("dirOpts").classList.remove("hidden");
     $("optDir").value = QZ.getDir();
     $("optDir").onchange = (e) => localStorage.setItem(QZ.DIR_KEY, e.target.value);
+  }
+  if (MODE === "lmc") {
+    $("dirOpts").classList.remove("hidden");
+    $("optDir").innerHTML = `<option value="mix">Trộn cả 2 kiểu</option>
+      <option value="meaning">🎧 Nghe tiếng Đức → chọn nghĩa tiếng Việt</option>
+      <option value="heard">🎧 Nghe tiếng Đức → chọn đúng chữ tiếng Đức đã nghe</option>`;
+    $("optDir").value = QZ.getLDir();
+    $("optDir").onchange = (e) => localStorage.setItem(QZ.LDIR_KEY, e.target.value);
   }
   renderTabs();
   renderHome();

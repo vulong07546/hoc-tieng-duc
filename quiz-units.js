@@ -161,6 +161,10 @@
   // Chiều hỏi cho Từ vựng / Cụm từ: "mix" (xen kẽ), "vi2de" (Việt → Đức), "de2vi" (Đức → Việt)
   const DIR_KEY = "dw-mc-dir";
   const getDir = () => { try { return localStorage.getItem(DIR_KEY) || "mix"; } catch { return "mix"; } };
+  // Nghe: "mix", "meaning" (nghe → chọn nghĩa tiếng Việt), "heard" (nghe → chọn chữ tiếng Đức)
+  const LDIR_KEY = "dw-lmc-dir";
+  const getLDir = () => { try { return localStorage.getItem(LDIR_KEY) || "mix"; } catch { return "mix"; } };
+  const byMeaning = (k) => { const d = getLDir(); return d === "meaning" ? true : d === "heard" ? false : k % 2 === 0; };
   const toGerman = (k) => { const d = getDir(); return d === "vi2de" ? true : d === "de2vi" ? false : k % 2 === 0; };
 
   const vocabWords = (lv) => (V()[lv] || []).map(([e, g, v, , ex = ""]) => ({ e, g, v, ex, noun: /^(der|die|das) /.test(g) }));
@@ -199,9 +203,9 @@
       const wPool = vocabWords(lv).map((w) => ({ de: w.g, vi: w.v }));
       const sentences = (P()[lv] || []).map((t) => ({
         title: `Nghe câu: ${t.title}`, emoji: "🎧",
-        items: t.items.map((i, k) => lazy(() => listenChoice({ de: i.de, vi: i.vi }, sPool, k % 2 === 0))),
+        items: t.items.map((i, k) => lazy(() => listenChoice({ de: i.de, vi: i.vi }, sPool, byMeaning(k)))),
       }));
-      const words = vocabWords(lv).map((w, k) => lazy(() => listenChoice({ de: w.g, vi: w.v }, wPool, k % 2 === 0)));
+      const words = vocabWords(lv).map((w, k) => lazy(() => listenChoice({ de: w.g, vi: w.v }, wPool, byMeaning(k))));
       return testUnit(lv, [...sentences, ...chunk(words, 20, "Nghe từ – phần", "👂")]);
     }
     if (mode === "fmc") {
@@ -250,5 +254,5 @@
     ["lmc", "🎧", "Nghe"], ["fmc", "🔤", "Dạng từ"], ["exam", "🏆", "Thi tổng hợp"],
   ];
 
-  window.QZ = { DIR_KEY, getDir, LEVELS, TEST_SIZE, MC_MODES, shuffle, sample, buildUnits, umlaut, pluralOf, pluralNouns };
+  window.QZ = { DIR_KEY, getDir, LDIR_KEY, getLDir, LEVELS, TEST_SIZE, MC_MODES, shuffle, sample, buildUnits, umlaut, pluralOf, pluralNouns };
 })();
