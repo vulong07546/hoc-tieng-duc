@@ -1,9 +1,9 @@
 // Service worker: lưu toàn bộ web vào bộ nhớ đệm để học được khi không có mạng.
 // Chiến lược: trả bản đã lưu ngay, đồng thời tải bản mới ở nền (stale-while-revalidate).
-const CACHE = "dw-v1";
+const CACHE = "dw-v2";
 const FILES = [
-  "./", "index.html", "review.html", "forms.html", "quiz.html", "reading.html", "writing.html",
-  "style.css", "common.js", "app.js", "review.js", "forms.js", "quiz.js", "reading.js", "writing.js",
+  "./", "index.html", "review.html", "forms.html", "quiz.html", "reading.html", "writing.html", "profile.html",
+  "style.css", "common.js", "app.js", "review.js", "forms.js", "quiz.js", "reading.js", "writing.js", "profile.js",
   "data.js", "grammar-data.js", "phrases-data.js", "verbs-data.js", "reading-data.js", "writing-data.js",
   "manifest.webmanifest", "icon.svg", "icon-192.png", "icon-512.png",
 ];

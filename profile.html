@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#1f2328" />
+  <link rel="icon" href="icon.svg" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trình độ & Kinh nghiệm – Học tiếng Đức</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">🇩🇪 Deutsch Wortschatz</a>
+    <nav class="nav"></nav>
+  </header>
+
+  <main class="screen">
+    <h1>🏅 Trình độ & Kinh nghiệm</h1>
+
+    <section class="hero-card">
+      <div class="hero-icon" id="heroIcon">🌱</div>
+      <div class="hero-main">
+        <div class="hero-lv"><span id="heroLv">Lv 1</span> · <span id="heroTitle">Anfänger</span></div>
+        <div class="muted" id="heroTitleVi"></div>
+        <div class="bar big xp"><div class="bar-fill" id="heroBar"></div></div>
+        <div class="muted small" id="heroNext"></div>
+      </div>
+      <div class="hero-side">
+        <div class="num" id="heroXP">0</div><div class="lbl">XP tổng</div>
+        <div class="num small-num" id="heroWeek">+0</div><div class="lbl">XP 7 ngày qua</div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h3>🎯 Trình độ ước tính (CEFR)</h3>
+        <div class="cefr-badge" id="overall">—</div>
+      </div>
+      <p class="muted small">Một kỹ năng được tính là <b>đạt</b> một cấp khi bạn đã qua (≥ 99%) ít nhất <b>80%</b> số bài của cấp đó và đã đạt cấp trước. Trình độ chung = kỹ năng thấp nhất trong 4 kỹ năng cốt lõi: Từ vựng, Ngữ pháp, Nghe, Đọc.</p>
+      <div id="skills"></div>
+    </section>
+
+    <section class="panel">
+      <h3>📈 XP 30 ngày gần nhất</h3>
+      <div class="chart xp-chart" id="xpChart"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head"><h3>🏆 Thành tích</h3><span class="muted" id="badgeCount"></span></div>
+      <div class="badges" id="badges"></div>
+    </section>
+
+    <section class="panel">
+      <h3>⚡ XP đến từ đâu</h3>
+      <div id="breakdown"></div>
+      <details>
+        <summary>Cách tính XP & cấp bậc</summary>
+        <ul class="small">
+          <li>Mỗi câu trả lời đúng (mọi phần): <b>+2 XP</b>.</li>
+          <li>Mỗi bài qua (≥ 99%) ở Từ vựng, Ngữ pháp, Cụm từ, Nghe, Nói, Dạng từ: <b>+50 XP × hệ số cấp</b> (A1 ×1 · A2 ×1,2 · B1 ×1,5 · B2 ×2 · C1 ×2,5 · C2 ×3).</li>
+          <li>Bài đọc đúng 100%: <b>+80 XP × hệ số</b>. Bài viết tự chấm 100%: <b>+200 XP</b>.</li>
+          <li>Từ nhớ lâu trong Ôn tập: hộp ≥ 3 <b>+5 XP</b>, hộp ≥ 5 thêm <b>+10 XP</b>.</li>
+          <li>Cấp bậc: Lv 2 = 50 XP, Lv 5 = 800, Lv 10 = 4.050, Lv 20 = 18.050, Lv 30 = 42.050, Lv 40 = 76.050 XP.</li>
+        </ul>
+        <div class="title-list" id="titleList"></div>
+      </details>
+    </section>
+  </main>
+
+  <script src="common.js"></script>
+  <script src="data.js"></script>
+  <script src="grammar-data.js"></script>
+  <script src="phrases-data.js"></script>
+  <script src="reading-data.js"></script>
+  <script src="writing-data.js"></script>
+  <script src="profile.js"></script>
+</body>
+</html>

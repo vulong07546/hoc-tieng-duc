@@ -102,6 +102,96 @@
     });
   }
 
+  // ---------- Kinh nghiệm (XP) & cấp bậc ----------
+  // XP được tính lại từ toàn bộ tiến độ đã lưu, nên luôn khớp với bản sao lưu.
+  const LV_MULT = { A1: 1, A2: 1.2, B1: 1.5, B2: 2, C1: 2.5, C2: 3 };
+  const PASS = 99;
+  const UNIT_XP = 50;
+  const TITLES = [
+    [1, "🌱", "Anfänger", "Người mới bắt đầu"],
+    [5, "📘", "Lernender", "Người đang học"],
+    [10, "🚀", "Fortgeschrittener", "Người học khá"],
+    [15, "🎓", "Kenner", "Người am hiểu"],
+    [20, "⚖️", "Experte", "Chuyên gia"],
+    [30, "🏛️", "Jurist", "Luật gia"],
+    [40, "👑", "Meister", "Bậc thầy"],
+  ];
+
+  function xpBreakdown() {
+    const b = { answers: 0, vocab: 0, quiz: 0, forms: 0, reading: 0, writing: 0, memory: 0 };
+    const mult = (k) => LV_MULT[(k.match(/(A1|A2|B1|B2|C1|C2)/) || [])[1]] || 1;
+    // 1) Mỗi câu trả lời đúng: 2 XP
+    for (const d of Object.values(stats().days)) b.answers += (d.correct || 0) * 2;
+    // 2) Mỗi bài qua (≥ 99%): 50 XP × hệ số cấp độ
+    const vocab = load("dw-progress-v2", {}).lessons || {};
+    for (const [k, v] of Object.entries(vocab)) if (v >= PASS) b.vocab += UNIT_XP * mult(k);
+    for (const m of ["grammar", "phrases", "listen", "speak"]) {
+      for (const [k, v] of Object.entries(load("dw-quiz-" + m, {}))) if (v >= PASS) b.quiz += UNIT_XP * mult(k);
+    }
+    for (const [k, v] of Object.entries(load("dw-forms-v1", {}))) if (v >= PASS) b.forms += UNIT_XP * mult(k);
+    // 3) Bài đọc đúng 100%: 80 XP × hệ số; bài viết tự chấm 100%: 200 XP
+    for (const [k, v] of Object.entries(load("dw-reading-v1", {}))) if (v >= PASS) b.reading += 80 * mult(k);
+    for (const v of Object.values(load("dw-writing-v1", {}))) if ((v.score || 0) >= PASS) b.writing += 200;
+    // 4) Trí nhớ dài hạn: từ ở hộp ≥ 3 (+5), hộp ≥ 5 (+10 nữa)
+    for (const e of Object.values(srsAll())) { if (e.box >= 3) b.memory += 5; if (e.box >= 5) b.memory += 10; }
+    for (const k in b) b[k] = Math.round(b[k]);
+    b.total = Object.values(b).reduce((s, x) => s + x, 0);
+    return b;
+  }
+  // XP cần để đạt cấp L: 50·(L−1)²  → Lv2 = 50, Lv5 = 800, Lv10 = 4.050, Lv20 = 18.050, Lv40 = 76.050
+  const xpForLevel = (L) => 50 * (L - 1) * (L - 1);
+  function levelInfo(xp = xpBreakdown().total) {
+    const level = Math.floor(Math.sqrt(xp / 50)) + 1;
+    const from = xpForLevel(level), to = xpForLevel(level + 1);
+    let t = TITLES[0];
+    for (const x of TITLES) if (level >= x[0]) t = x;
+    return { xp, level, from, to, pct: Math.round(((xp - from) / (to - from)) * 100), icon: t[1], title: t[2], titleVi: t[3] };
+  }
+
+  // Lưu XP mỗi ngày để vẽ biểu đồ tiến bộ
+  function snapshotXP(xp) {
+    const s = stats();
+    s.xp = s.xp || {};
+    s.xp[dateKey()] = xp;
+    save(STATS_KEY, s);
+  }
+
+  function toast(html) {
+    const t = document.createElement("div");
+    t.className = "toast";
+    t.innerHTML = html;
+    document.body.appendChild(t);
+    setTimeout(() => t.classList.add("show"), 10);
+    setTimeout(() => { t.classList.remove("show"); setTimeout(() => t.remove(), 400); }, 3800);
+  }
+
+  let lastXP = null;
+  function refreshXP() {
+    const info = levelInfo();
+    if (info.xp !== lastXP) {
+      snapshotXP(info.xp);
+      const prevLv = +localStorage.getItem("dw-last-level") || info.level;
+      if (info.level > prevLv) toast(`🎉 Lên cấp <b>Lv ${info.level}</b>! ${info.icon} ${info.title}`);
+      else if (lastXP !== null && info.xp - lastXP >= 20) toast(`+${info.xp - lastXP} XP ✨`);   // chỉ báo khi qua bài / thành tích
+      localStorage.setItem("dw-last-level", info.level);
+      lastXP = info.xp;
+    }
+    let chip = document.querySelector(".xp-chip");
+    const bar = document.querySelector(".topbar");
+    if (!bar) return info;
+    if (!chip) {
+      chip = document.createElement("a");
+      chip.className = "xp-chip";
+      chip.href = "profile.html";
+      chip.title = "Xem trình độ & kinh nghiệm";
+      bar.appendChild(chip);
+    }
+    chip.innerHTML = `<span class="lv">${info.icon} Lv ${info.level}</span>` +
+      `<span class="xpbar"><span style="width:${info.pct}%"></span></span>` +
+      `<span class="xpn">${info.xp.toLocaleString("vi-VN")} XP</span>`;
+    return info;
+  }
+
   // ---------- Thanh menu ----------
   const NAV = [
     ["index.html", "📚 Từ vựng"],
@@ -113,6 +203,7 @@
     ["quiz.html?mode=speak", "🎤 Nói"],
     ["reading.html", "📖 Đọc"],
     ["writing.html", "✍️ Viết"],
+    ["profile.html", "🏅 Trình độ"],
   ];
   function renderNav() {
     const nav = document.querySelector(".nav");
@@ -133,7 +224,13 @@
   }
 
   window.DW = { recordWord, dueIds, hardIds, srsAll, INTERVALS, dayNum, dateKey, stats, logAnswer, setGoal, dayStreak,
-                exportBackup, importBackup, renderNav };
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", renderNav);
-  else renderNav();
+                exportBackup, importBackup, renderNav, xpBreakdown, levelInfo, xpForLevel, refreshXP, TITLES, LV_MULT, load };
+  function boot() {
+    renderNav();
+    refreshXP();
+    // Cập nhật XP định kỳ (sau mỗi câu trả lời / khi qua bài)
+    setInterval(refreshXP, 2500);
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot);
+  else boot();
 })();
