@@ -533,3 +533,7 @@ summary { cursor: pointer; color: var(--muted); }
 .choice.wrong { border-color: var(--err); background: var(--err-bg); text-decoration: line-through; }
 .choice:disabled { cursor: default; }
 @media (max-width: 560px) { .choices { grid-template-columns: 1fr; } }
+
+/* Trắc nghiệm từ vựng: câu hỏi là 1 từ → chữ to */
+.word-q { font-size: 26px; font-weight: 700; }
+.pattern.plain { letter-spacing: normal; font-family: inherit; font-size: 15px; color: var(--muted); }

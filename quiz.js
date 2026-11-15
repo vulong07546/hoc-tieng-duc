@@ -4,7 +4,7 @@
   const PASS_PCT = 99;
   const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
   const params = new URLSearchParams(location.search);
-  const MODE = ["grammar", "mc", "phrases", "listen", "speak"].includes(params.get("mode")) ? params.get("mode") : "grammar";
+  const MODE = ["grammar", "mc", "vmc", "phrases", "listen", "speak"].includes(params.get("mode")) ? params.get("mode") : "grammar";
   const STORE_KEY = "dw-quiz-" + MODE;
   const G = typeof GRAMMAR !== "undefined" ? GRAMMAR : {};
   const P = typeof PHRASES !== "undefined" ? PHRASES : {};
@@ -20,6 +20,10 @@
     mc: {
       title: "☑️ Trắc nghiệm ngữ pháp",
       sub: "Bộ trắc nghiệm đầy đủ chương trình ngữ pháp từng cấp: đọc lý thuyết, chọn 1 trong 4 đáp án (bấm hoặc phím 1–4). Cuối mỗi cấp có bài kiểm tra tổng hợp 30 câu. Cần đúng ≥ 99% để mở bài tiếp theo.",
+    },
+    vmc: {
+      title: "🔠 Trắc nghiệm từ vựng",
+      sub: "Nhìn hình + nghĩa tiếng Việt chọn từ tiếng Đức, hoặc nhìn từ tiếng Đức chọn nghĩa (bấm hoặc phím 1–4). Bài chia giống phần Từ vựng (20 từ/bài); cuối mỗi cấp có bài kiểm tra 30 từ ngẫu nhiên. Cần đúng ≥ 99% để mở bài tiếp theo.",
     },
     phrases: {
       title: "💬 Cụm từ & mẫu câu",
@@ -56,6 +60,17 @@
                       items: topics.flatMap((t) => t.items) });
       }
       return topics;
+    }
+    if (MODE === "vmc") {
+      const words = (V[lv] || []).map(([e, g, v, , ex = ""]) => ({ e, g, v, ex, noun: /^(der|die|das) /.test(g) }));
+      const item = (w, k) => ({ kind: "choice", build: () => vocabChoice(w, words, k % 2 === 0) });
+      const lessons = [];
+      for (let i = 0; i < words.length; i += 20) lessons.push(words.slice(i, i + 20));
+      if (lessons.length > 1 && lessons[lessons.length - 1].length < 10) lessons[lessons.length - 2].push(...lessons.pop());
+      const out = lessons.map((ws, n) => ({ title: `${ws.slice(0, 3).map((w) => w.g.replace(/^(der|die|das) /, "")).join(", ")}…`,
+                                             emoji: "🔠", items: ws.map(item) }));
+      if (out.length) out.push({ title: `Kiểm tra tổng hợp ${lv} (${TEST_SIZE} từ ngẫu nhiên)`, emoji: "📝", test: true, items: words.map(item) });
+      return out;
     }
     if (MODE === "phrases") {
       return (P[lv] || []).map((t) => ({
@@ -125,7 +140,7 @@
       el.style.setProperty("--lv", `var(--${lv})`);
       el.innerHTML = `
         <h3>${lv}</h3>
-        <div class="desc">${list.filter((u) => !u.test).length} ${MODE === "listen" || MODE === "speak" ? "bài" : "chủ đề"}${list.some((u) => u.test) ? " + kiểm tra" : ""} · ${total} câu</div>
+        <div class="desc">${list.filter((u) => !u.test).length} ${MODE === "listen" || MODE === "speak" || MODE === "vmc" ? "bài" : "chủ đề"}${list.some((u) => u.test) ? " + kiểm tra" : ""} · ${total} câu</div>
         <div class="progress">Qua ${done}/${list.length}</div>
         <div class="mini-bar"><div style="width:${Math.round((done / list.length) * 100)}%"></div></div>
         <div class="row"><button class="btn primary small">Vào học</button></div>`;
@@ -187,13 +202,32 @@
     return a;
   }
 
+  // Trắc nghiệm từ vựng: 3 đáp án nhiễu cùng cấp, cùng loại (danh từ / không phải danh từ), nghĩa khác nhau
+  function vocabChoice(w, words, toGerman) {
+    const same = words.filter((x) => x.noun === w.noun);
+    const pool = shuffle(same.length >= 8 ? same : words.slice());
+    const opts = [w];
+    for (const x of pool) {
+      if (opts.length === 4) break;
+      if (opts.some((o) => o.g === x.g || o.v === x.v)) continue;
+      opts.push(x);
+    }
+    const label = (x) => (toGerman ? x.g : x.v);
+    return {
+      kind: "choice", e: toGerman ? w.e : "", q: toGerman ? w.v : w.g,
+      prompt: toGerman ? "Từ tiếng Đức nào có nghĩa này? (phím 1–4)" : "Từ này nghĩa là gì? (phím 1–4)",
+      options: opts.map(label), answer: 0, vi: "", say: w.g,
+      explain: `${w.g} = ${w.v}` + (w.ex ? `. Ví dụ: ${w.ex}` : ""),
+    };
+  }
+
   // Trộn thứ tự đáp án để không học thuộc vị trí
   function prepareChoice(it) {
     const order = shuffle(it.options.map((_, k) => k));
     const options = order.map((k) => it.options[k]);
     const answer = order.indexOf(it.answer);
     const right = options[answer];
-    const full = it.q.includes("___") ? it.q.replace("___", right) : right;
+    const full = it.say || (it.q.includes("___") ? it.q.replace("___", right) : right);
     return { ...it, options, answer, answers: [right], full };
   }
 
@@ -201,6 +235,7 @@
     const u = units[lv][i];
     let src = u.items.map((it, k) => ({ ...it, src: k }));
     if (u.test) src = shuffle(src).slice(0, TEST_SIZE);
+    src = src.map((it) => (it.build ? it.build() : it));
     const items = src.map((it, k) => ({ ...(it.kind === "choice" ? prepareChoice(it) : it), id: k }));
     Object.assign(S, { level: lv, unit: i, queue: shuffle(items), total: items.length,
                        finished: new Set(), first: new Map(), mistakes: new Map() });
@@ -218,7 +253,7 @@
     $("listenBtns").classList.toggle("hidden", it.kind !== "listen");
     const isChoice = it.kind === "choice";
     $("gapSentence").classList.toggle("hidden", it.kind !== "gap" && !isChoice);
-    pic.classList.toggle("hidden", it.kind === "gap" || it.kind === "listen" || isChoice);
+    pic.classList.toggle("hidden", it.kind === "gap" || it.kind === "listen" || (isChoice && !it.e));
     $("choices").classList.toggle("hidden", !isChoice);
     const isSpeak = it.kind === "speak";
     $("speakArea").classList.toggle("hidden", !isSpeak);
@@ -227,10 +262,13 @@
     $("checkBtn").classList.toggle("hidden", isSpeak || isChoice);
     $("meaning").textContent = "";
     $("subline").textContent = "";
+    $("subline").classList.toggle("plain", isChoice);
 
     if (isChoice) {
       $("gapSentence").innerHTML = esc(it.q).replace("___", '<span class="gap">＿＿＿</span>');
-      $("subline").textContent = "Chọn đáp án đúng (phím 1–4)";
+      $("subline").textContent = it.prompt || "Chọn đáp án đúng (phím 1–4)";
+      if (it.e) { pic.textContent = it.e; pic.style.animation = "none"; void pic.offsetWidth; pic.style.animation = ""; }
+      $("gapSentence").classList.toggle("word-q", MODE === "vmc");
       $("choices").innerHTML = it.options.map((o, k) =>
         `<button type="button" class="choice" data-k="${k}"><span class="ck">${k + 1}</span>${esc(o)}</button>`).join("");
       $("choices").querySelectorAll(".choice").forEach((b) => (b.onclick = () => pickChoice(+b.dataset.k)));

@@ -7,6 +7,7 @@ Web học tiếng Đức cho người Việt, định hướng **luật & thuế
 - 🏅 Cấp bậc & XP, ước tính trình độ CEFR theo từng kỹ năng, huy hiệu thành tích
 - 🔤 Số nhiều danh từ & chia động từ bất quy tắc
 - ☑️ Trắc nghiệm ngữ pháp: 85 chủ đề, 1.275 câu A1–C2 + bài kiểm tra tổng hợp mỗi cấp
+- 🔠 Trắc nghiệm từ vựng: 4.480 từ A1–C2, hỏi 2 chiều (hình + nghĩa → từ Đức, từ Đức → nghĩa), đáp án nhiễu cùng cấp & cùng loại từ
 - 📐 Ngữ pháp · 💬 Cụm từ & mẫu câu · 🎧 Nghe · 🎤 Nói (nhận dạng giọng nói)
 - 📖 Đọc hiểu (C1–C2: văn bản luật & thuế) · ✍️ Luyện viết (Gutachtenstil)
 
