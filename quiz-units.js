@@ -158,6 +158,10 @@
     list.length ? [...list, { title: `Kiểm tra tổng hợp ${lv} (${TEST_SIZE} ${what} ngẫu nhiên)`, emoji: "📝", test: true, size: TEST_SIZE,
                               items: list.flatMap((u) => u.items) }] : list;
   const lazy = (fn) => ({ kind: "choice", build: fn });
+  // Chiều hỏi cho Từ vựng / Cụm từ: "mix" (xen kẽ), "vi2de" (Việt → Đức), "de2vi" (Đức → Việt)
+  const DIR_KEY = "dw-mc-dir";
+  const getDir = () => { try { return localStorage.getItem(DIR_KEY) || "mix"; } catch { return "mix"; } };
+  const toGerman = (k) => { const d = getDir(); return d === "vi2de" ? true : d === "de2vi" ? false : k % 2 === 0; };
 
   const vocabWords = (lv) => (V()[lv] || []).map(([e, g, v, , ex = ""]) => ({ e, g, v, ex, noun: /^(der|die|das) /.test(g) }));
   const phraseTopics = (lv) => (P()[lv] || []).map((t) => ({ ...t, items: t.items.map((i) => ({ ...i })) }));
@@ -180,14 +184,14 @@
     }
     if (mode === "vmc") {
       const words = vocabWords(lv);
-      const items = words.map((w, k) => lazy(() => vocabChoice(w, words, k % 2 === 0)));
+      const items = words.map((w, k) => lazy(() => vocabChoice(w, words, toGerman(k))));
       return testUnit(lv, chunk(items, 20, (its, n) => words.slice(n * 20, n * 20 + 3).map((w) => w.g.replace(/^(der|die|das) /, "")).join(", ") + "…", "🔠"), "từ");
     }
     if (mode === "pmc") {
       const topics = phraseTopics(lv), all = topics.flatMap((t) => t.items);
       return testUnit(lv, topics.map((t) => ({
         title: t.title, emoji: t.emoji || "💬",
-        items: t.items.map((p, k) => lazy(() => phraseChoice(p, t.items, all, k % 2 === 0))),
+        items: t.items.map((p, k) => lazy(() => phraseChoice(p, t.items, all, toGerman(k)))),
       })));
     }
     if (mode === "lmc") {
@@ -246,5 +250,5 @@
     ["lmc", "🎧", "Nghe"], ["fmc", "🔤", "Dạng từ"], ["exam", "🏆", "Thi tổng hợp"],
   ];
 
-  window.QZ = { LEVELS, TEST_SIZE, MC_MODES, shuffle, sample, buildUnits, umlaut, pluralOf, pluralNouns };
+  window.QZ = { DIR_KEY, getDir, LEVELS, TEST_SIZE, MC_MODES, shuffle, sample, buildUnits, umlaut, pluralOf, pluralNouns };
 })();

@@ -594,6 +594,11 @@
 
   if (MODE === "lmc") $("tip").textContent = "Ctrl+Space hoặc nút 🔊 để nghe lại, 🐢 để nghe chậm. Phím 1–4 để chọn, Enter để sang câu tiếp.";
   else if (QZ.MC_MODES.some(([m]) => m === MODE)) $("tip").textContent = "Phím 1–4 để chọn đáp án, Enter để sang câu tiếp.";
+  if (MODE === "vmc" || MODE === "pmc") {
+    $("dirOpts").classList.remove("hidden");
+    $("optDir").value = QZ.getDir();
+    $("optDir").onchange = (e) => localStorage.setItem(QZ.DIR_KEY, e.target.value);
+  }
   renderTabs();
   renderHome();
 })();
