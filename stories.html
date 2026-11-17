@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#1f2328" />
+  <link rel="icon" href="icon.svg" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Truyện cổ tích – Học tiếng Đức</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">🇩🇪 Deutsch Wortschatz</a>
+    <nav class="nav"></nav>
+  </header>
+
+  <!-- Danh sách truyện -->
+  <main id="homeScreen" class="screen">
+    <h1>🌙 Truyện cổ tích – nghe thư giãn</h1>
+    <p class="sub">Truyện cổ tích Đức kể lại bằng câu ngắn, dễ hiểu (A1–B1), đọc chậm bằng giọng êm. Nghe từng câu, xem nghĩa tiếng Việt, hoặc bật chế độ ngủ: màn hình tối, phát liên tục, tự nhỏ dần rồi tắt theo hẹn giờ.</p>
+    <div class="tabs" id="levelTabs"></div>
+    <div class="levels" id="storyList"></div>
+  </main>
+
+  <!-- Trình phát -->
+  <main id="playerScreen" class="screen hidden">
+    <div class="practice-head">
+      <button class="link" id="backBtn">← Danh sách truyện</button>
+      <span class="badge" id="storyBadge">A1</span>
+      <div class="bar"><div class="bar-fill" id="storyBar"></div></div>
+      <span class="count" id="storyCount">0/0</span>
+    </div>
+
+    <div class="card story-card">
+      <h2 id="storyTitle"></h2>
+      <p class="muted" id="storySummary"></p>
+
+      <div class="player-ctrl">
+        <button class="btn ghost" id="prevBtn" title="Câu trước">⏮</button>
+        <button class="btn primary big" id="playBtn">▶ Nghe</button>
+        <button class="btn ghost" id="nextBtn" title="Câu sau">⏭</button>
+        <button class="btn ghost" id="sleepBtn">🌙 Chế độ ngủ</button>
+      </div>
+
+      <div class="story-opts">
+        <label>Giọng đọc <select id="voiceSel"></select> <button class="link" id="testVoice">thử</button></label>
+        <label>Tốc độ <input type="range" id="rate" min="0.5" max="1.1" step="0.05" /> <span id="rateVal"></span></label>
+        <label>Độ trầm <input type="range" id="pitch" min="0.6" max="1.2" step="0.05" /> <span id="pitchVal"></span></label>
+        <label>Nghỉ giữa câu <input type="range" id="gap" min="0.3" max="4" step="0.1" /> <span id="gapVal"></span></label>
+        <label><input type="checkbox" id="showVi" /> Hiện nghĩa tiếng Việt</label>
+        <label><input type="checkbox" id="hideText" /> Ẩn chữ (chỉ nghe)</label>
+        <label><input type="checkbox" id="repeatVi" /> Đọc 2 lần mỗi câu</label>
+        <label><input type="checkbox" id="autoNext" /> Hết truyện thì phát truyện tiếp</label>
+        <label>Hẹn giờ tắt
+          <select id="sleepTimer">
+            <option value="0">Không</option><option value="10">10 phút</option><option value="20">20 phút</option>
+            <option value="30">30 phút</option><option value="45">45 phút</option><option value="60">60 phút</option>
+          </select> <span class="muted" id="timerLeft"></span>
+        </label>
+        <label>🌧 Tiếng mưa nhẹ <input type="range" id="noise" min="0" max="0.5" step="0.02" /></label>
+      </div>
+      <p class="muted small" id="voiceTip"></p>
+
+      <div class="story-text" id="storyText"></div>
+
+      <details class="glossary-box">
+        <summary>📒 Từ khóa của truyện</summary>
+        <div id="glossary"></div>
+      </details>
+    </div>
+  </main>
+
+  <!-- Chế độ ngủ: màn hình tối -->
+  <div class="sleep-overlay hidden" id="sleepOverlay">
+    <div class="sleep-moon">🌙</div>
+    <div class="sleep-line" id="sleepLine"></div>
+    <div class="sleep-vi" id="sleepVi"></div>
+    <div class="sleep-info" id="sleepInfo"></div>
+    <div class="sleep-hint">Chạm để thoát · Space để tạm dừng</div>
+  </div>
+
+  <script src="common.js"></script>
+  <script src="stories-data.js"></script>
+  <script src="stories.js"></script>
+</body>
+</html>

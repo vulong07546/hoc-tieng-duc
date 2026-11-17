@@ -237,6 +237,7 @@
     ["quiz.html?mode=tn", "☑️ Trắc nghiệm"],
     ["quiz.html?mode=phrases", "💬 Cụm từ"],
     ["quiz.html?mode=listen", "🎧 Nghe"],
+    ["stories.html", "🌙 Truyện"],
     ["quiz.html?mode=speak", "🎤 Nói"],
     ["reading.html", "📖 Đọc"],
     ["writing.html", "✍️ Viết"],

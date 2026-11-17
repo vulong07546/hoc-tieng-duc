@@ -2,6 +2,7 @@
 
 Web học tiếng Đức cho người Việt, định hướng **luật & thuế**:
 
+- 🌙 Truyện cổ tích: 14 truyện kể lại đơn giản A1–B1, song ngữ, đọc bằng giọng êm; chế độ ngủ (màn hình tối, hẹn giờ, nhỏ dần, tiếng mưa nhẹ)
 - ☑️ Trắc nghiệm (một trang, chia mục): từ vựng 4.480 từ, ngữ pháp 85 chủ đề/1.275 câu, cụm từ, nghe (chỉ âm thanh), dạng từ (số nhiều, Präteritum/Perfekt); mỗi cấp có bài kiểm tra 30 câu và 3 đề thi tổng hợp 40 câu
 - 📚 Từ vựng A1–C2 (≈4.500 từ, A1–B1 theo danh sách Goethe-Zertifikat) – nhìn hình, gõ từ
 - 🔁 Ôn tập ngắt quãng, sổ từ khó, thống kê, sao lưu tiến độ
