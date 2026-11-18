@@ -6,8 +6,11 @@
   const LEVELS = ["A1", "A2", "B1"];
   const OPT_KEY = "dw-stories-opt", DONE_KEY = "dw-stories-v1";
   const load = (k, fb) => { try { return JSON.parse(localStorage.getItem(k)) ?? fb; } catch { return fb; } };
-  const opt = Object.assign({ voice: "", rate: 0.8, pitch: 0.95, gap: 1.4, showVi: true, hideText: false, repeat2: false,
+  const DEF_SPEED = { rate: 0.95, pitch: 1, gap: 0.4 };
+  const opt = Object.assign({ voice: "", ...DEF_SPEED, showVi: true, hideText: false, repeat2: false,
                               autoNext: true, timer: 0, noise: 0, level: "all" }, load(OPT_KEY, {}));
+  // Bản cũ đọc quá chậm và nghỉ quá lâu → đưa về mặc định mới một lần
+  if (opt.v !== 2) { Object.assign(opt, DEF_SPEED, { v: 2 }); localStorage.setItem(OPT_KEY, JSON.stringify(opt)); }
   const saveOpt = () => localStorage.setItem(OPT_KEY, JSON.stringify(opt));
   const done = load(DONE_KEY, {});
 
@@ -20,7 +23,7 @@
     box.innerHTML = "";
     LIST.forEach((s, i) => {
       if (opt.level !== "all" && s.level !== opt.level) return;
-      const mins = Math.max(2, Math.round(s.sentences.reduce((t, x) => t + x.de.split(" ").length, 0) / 70 / 0.8 + s.sentences.length * 1.4 / 60));
+      const mins = Math.max(2, Math.round(s.sentences.reduce((t, x) => t + x.de.split(" ").length, 0) / 130 / opt.rate + s.sentences.length * opt.gap / 60));
       const el = document.createElement("div");
       el.className = "level story-item";
       el.style.setProperty("--lv", `var(--${s.level})`);
